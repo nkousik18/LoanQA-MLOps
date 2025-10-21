@@ -1,0 +1,522 @@
+Barcode
+Application for Power Gold Loan /
+Overdraft Facility
+(For official use only)
+Religion
+Hindu
+Muslim
+Christian
+Sikh
+Jain
+Parsi
+Other
+SC
+ST
+OBC
+Type of facility
+Gold Term Loan
+Gold Overdraft
+Name (Same as ID proof)
+Maiden Name (If any*)
+Father’s Name*
+Mother’s Name*
+Date of Birth D
+D
+M
+YYY
+Y
+Age
+S/W/DO
+Indian
+Others
+M
+F
+T
+Gender*
+Nationality
+Residential Ownership
+Self owned
+Rental
+Parental
+Employer Provided
+Paying Guest
+Others
+Education
+Below Matriculation
+Matriculate
+Undergraduate
+Graduate
+Others
+PG
+(R1)
+Tel. No. STD Code
+(R2)
+Ext.
+Mobile* No.
+Email
+Pincode*
+City
+Landmark*
+State
+Pincode*
+City
+Landmark*
+State
+Pincode*
+City
+Landmark*
+State
+Whether registered under GST
+Yes
+No
+(If yes, following details are mandatory)
+GST Exemption
+Exemption Reason (If Yes)
+Yes
+No
+Address Registered for GSTIN
+Same as current Residence Address
+Same as Office Address
+Same as Permanent Address
+Other (as per GST annexure)
+Are you an existing customer?
+If Yes, Please provide Customer ID
+Person with Disability :
+Yes
+No
+Permanent
+Mailing Address
+Current Residence
+Office
+Martial Status
+Married
+Unmarried
+Others
+Address: Current Residence
+Address: Permanent
+Address: Office
+GSTIN (Default)
+*Multiple
+*(Please fill GST Annexure for multiple GST Registration)
+*Special Economic Zone
+Single
+Yes
+No
+*GST Registration
+*GSTIN DETAILS
+PAN No.
+Account No.
+Passport No./Voter ID/ Driving Licence/NREGA job card/Others
+Passport No./ Driving Licence. Expiry Date
+C-KYC No.
+Form 60 (Please fill form 60)
+Fresh Case
+Renewal
+If renewal old Account Number
+Case Type
+UID Aadhaar No.*
+APPLICATION Sr. No.
+Prefix
+First Name
+Middle Name
+Last Name
+If yes, (please specify)
+SOL ID
+Scheme
+Applicant Photo
+Applicant’s Personal Details (to be filled by the applicant)
+Fill all fields in capital letters only
+Date
+Branch
+*Mandatory Field
+1
+Applicant's Employment Details (To be filled by the Applicant)
+Occupation Type
+Service
+Private Sector
+Public Sector
+Government Sector
+Professional
+Self Employed
+Retired
+Housewife
+Student
+Business
+Not categorized
+Others
+If Salaried/ Self employed,
+Govt./PSU
+Public Ltd.
+Pvt. Ltd.
+MNC
+Partnership
+Proprietorship
+Others
+Net Annual Income
+Proposed Loan / Overdraft Details
+Loan Amount (`)
+Tenure
+Months
+I/ We hereby agree that the said Loan Amount shall be payable by me/us to the Bank on demand and so long as any money are due in the said Loan account, we shall pay interest as per following details. The interest shall be paid as per interest payment mode selected.
+Interest Payment Mode (Please ü)
+Rear Ended Rate of Interest
+Mode of Disbursal (Please ü)
+Credit to Axis Bank Account
+RTGS/NEFT
+Demand Draft
+Cash
+Instrument issue (Please ü)
+Cheque book
+ATM card
+(Applicable for overdraft facility)
+Purpose of Loan / Overdraft (ü one)
+DECLARATION TO BE SIGNED BY CUSTOMER Purpose of Loan/ End Use (Please ü the appropriate box)
+A. Farm Credit
+Loans to farmers for farm and farm credit. (e.g. purchase of agricultural implements and machinery, loans for irrigation and other developmental activities undertaken in the farm, and development loans for allied activities).
+Loans to farmers for pre and post-harvest activities (Spraying, weeding, harvesting, sorting, grading and transporting of their own farm produce.)
+Loans to small and marginal farmers for purchase of land for agricultural purposes
+Marginal farmer (Land up to 2.5 acres)
+Small farmer (Land >2.5 acres and up to 5 acres)
+Other farmer (Land > 5 acres)
+(The above includes landless agricultural labourers, tenant farmers, oral lessees and share croppers)
+Loans to distressed farmers indebted to non-institutional lenders
+Name of Lender
+ROI
+If Agriculturist:
+Land Holding in Acres
+Land Type
+Owned
+Leased Crops Grown
+Total Annual Income
+B. Ancillary Activity
+For setting up of Agri clinics and Agri business Centre
+Declaration 1 (Farm Credit and allied activities)
+I confirm having Income from othersources apart from agricultural income & I agree to pay interest due on monthly intervals towards the loan applied.
+Declaration (PSL& end use)
+I am aware that it is on faith of this representation, declaration and confirmation that you have agreed to consider my loan application for financial assistance under the category of
+Priority sector advance. I shall indemnify Bank to make the loss of good in the event of any loss or damage that may arise on account of false / incorrect declaration by me.
+Existing Gold Loan A/c Details of Application & Family Exposure if Any
+Sr. No
+1
+2
+3
+4
+5
+GL Loan A/c No.
+Loan Amount
+Remarks (if any)
+Loan Details
+Sourcing Details (For official purpose only (as applicable))
+Channel
+Axis Sales
+Direct Walkin
+Branch Lead
+Open Market
+Alternate Channel (SMS/Emailer/Web)
+DSA
+Other Product ASL
+Others
+Sourcing Branch SOL ID
+Sourcing Branch Staff Emp. ID
+ASL Code
+DSA Code
+CRM/Telesmart ID
+Gold Loans Manager Emp. ID
+Please specify marketing programme, if any
+For Office Use Only
+Document Received
+Self-Certified
+True Copies
+Notary
+Identification Verification Done
+In person Verification Carried Out by
+Employee Name
+Employee Code
+Employee Organisation & Code
+Place
+Date
+Signature of Employee
+Employee Designation
+Employee Branch
+2
+Customer Declaration
+Yes
+No
+Yes
+No
+Yes
+No
+Yes / No
+Applicant Catagory
+I am a director of Axis bank.
+I am a director of any other bank.
+If yes, mention the name of other bank
+I/We am/are a relative of director of Axis Bank/other bank/senior officer of Axis Bank.
+If yes, mention the details below.
+In the event that the Applicant / Co-applicant is related to any of director of Axis Bank/ director of other bank/ senior officer(s) of Axis Bank. I/We declare(s) that the I/We am/are related to the director(s) and /or Senior Officer(s) of Axis Bank or of any other bank as specified hereto:
+Sr. No
+1
+2
+3
+Name of Director(s)/ Senior Officers
+Designation
+Relationship
+If the above declaration is found to be false then the Bank will be entitled to revoke and/or recall the credit facility
+4.
+I/ We Further declare that I will not utilize the borrowed money for purchase of gold in any form, including primary gold, gold bullion, gold, jewellery, gold coins, units of gold
+Exchange Trade Funds (ETF) and units of gold Mutual Funds
+5.
+I/We Further declare that I/We will not utilize the borrowed money for acquisition of small savings instruments (including KVP& NSC).
+6.
+I/ We declare that I/ We will not utilize the borrowed money for investment in capital market instruments or in another scheme of mutual fund or for speculative purposes in silver, bullion, essential commodities, property rate arbitrage etc. In case it is observed that the borrowed money is utilized for the above purpose, the Bank at its sole discretion would recall the loan and take appropriate action to close the loan and initiate legal proceeding against me/us.
+7.
+I confirm that, I have read and understand the Declaration and that all the details provided on the form are true and correct.
+8.
+I/We authorize Axis Bank to verify and authenticate my/our Aadhaar number during processing my/our application for legitimate Business purposes. I/We further authorise the Bank to share my Aadhaar related details/information with regulatory / statutory bodies as and when required.
+9.
+I/we authorize Axis Bank to Verify/Authenticate my/our KYC OVDs/Aadhaar number/loan documents during processing my/our loan application through third party agencies via digitally/physically for legitimate business purpose add this point
+10. The Borrower hereby declares that he/she is not in anyway related to the appraiser.
+11. Credit facilities are solely at the discretion of lenders and bank may use the services of agents in sales / marketing
+/ collections or for any other purposes.
+12. Axis Bank Ltd. reserves the right to retain the photographs and the documents submitted with this application and will not return the same to the applicant.
+Signature of Applicant
+Nomination
+I/We name(s) and address(es) nominate the following person to whom in the event of my/our death, the Gold security pledged and in the custody of Bank, particulars whereof are given below, may be returned by the bank upon payment of outstanding amount in full subject to legal Heir Certificate submitted at the time of claim.
+Nominee: Name:
+Address:
+Relationship with applicant
+Age
+If nominee is minor his/ her date of birth
+*As the nominee is a minor on this date.
+I/ We appoint (Guardian) Name:
+Age:
+Address:
+I/ We confirm that this nomination shall override any other disposition made by me/us, whether testamentary or otherwise and the nominee shall become entitled to the return of the Gold
+Security pledged and in the custody of the Bank against payment of all outstanding to the Bank to the exclusion of all other persons. I/We further confirm that on such return the Bank shall stand released & discharged.
+Place
+Dare
+Signature of Applicant
+1.
+I hereby declare that the details furnished above are true and correct to the best of my/our knowledge and belief and I undertake to inform you of any changes therein, immediately. In case any of the above information is found to be false or untrue or misleading or misrepresenting, I/We am/are aware that I/we may be held liable for it.
+2.
+My personal / KYC details may be shared with Central KYC Registry.
+3.
+I hereby consent to receiving information from Central KYC Registry through SMS/Email on the above registered number /email address
+3
+Information on Products and Offerings
+I am aware that post registration, I may receive a call from the Bank to verify the correctness of the request for registration. I authorize Axis Bank to disclose, from time to time any information relating to my Loan against Gold relationship to any parent, subsidiary, affiliate and associate of Axis Bank, and to third parties engaged by Axis Bank, for Purpose such as marketing of services. From time to time Axis Bank Communicate various new product/ special features of existing product promotional offers which are of significant benefit to its customers. I/We agree/ do not agree to share or part with all information/data provided by me and/or pertaining to me including personal and business information with the Bank's other department or its group companies/other institutions/such other persons as may be necessary/required for the purpose of, including but not limited to processing of my loan application, marketing, cross selling of various products and services etc. to me/us, use or process the aforesaid information/data by such person/s or furnishing of the processed information/data/products thereof to Bank's other department /its group companies/other Banks/institutions/such other persons as may be necessary, and to receive information/services for marketing purpose through telephone / mobile / SMS / Emails by the Bank / its Agents/ Service providers as per agreement with the Bank and I/We shall not hold the Bank liable in connection with the use of such information or otherwise. Yes No
+(Filling of all the fields is mandatory and No. field should be left Blank. User should either provide details or should mention NA to avoid any data fudging in blank spaces)
+Terms & Conditions
+1.
+I/We hereby declare that the particulars given above are true and correct to the best of my/our knowledge and belief and that the gold ornaments/gold coins described under appraiser' certificate / gold coin deposit receipt, to be deposited as security with the Axis Bank(Bank) belong solely to me/us.
+I/We further declare that the gold ornaments & gold coins is not defective/ challenged by any person in any manner, nor is it spurious or of inferior quality and has been acquired by me/us from genuine sources and is my/ our bonafide property and no other person has claim, lien or charge against it.
+2.
+I/ We acknowledge that the Bank shall have no liability for any consequences arising out of any erroneous details provided by me/ us and I/ we shall utilize the Loan solely for the purpose stated in the Sanction Letter and will not be used for any speculative or anti -social purpose.
+3.
+I/we further understand that if the loan is sanctioned by the Bank, then a limit shall be set against the gold ornaments/gold coins, pledged by me/us, and the aggregate limit can be used by me as per my/our requirement. I/we undertake that I/we shall make written application to the Bank intimating my financial requirement (within the overall limit). However, the right to disburse any limit within the sanctioned limit, shall be atthe discretion of the Bank.
+4.
+Borrower/s must utilise borrowed funds solely for the purpose for which the loan is granted and that it cannot make any material transfers to its group entities, from such funds, without the consent of the Bank.
+5.
+I/ We agree that, the valuation of the gold ornaments & gold coin shall be done by an independent appraiser appointed by the Bank and the loan amount shall be determined by the Bank on the basis of the value of the gold security as set out in the valuation report provided by the appraiser. Such value shall be subject to the market price of the gold ornaments/ coin from time to time the amount of loan will be conveyed to me/us to the Bank.
+6.
+I/ We am/ are the owner/joint-owners and am/are in possession of certain gold ornaments/("Gold
+Security") over which I/ We will create a first and exclusive charge by way of pledge in favor of the
+Bank. I/ We have deposited the gold ornaments with the Bank in a sealed packet to be kept with the
+Bank during the Tenure of the Loan / overdraft. I/We agree that the Bank shall be entitled to open such sealed packet during Tenure of the facility and conduct investigation in connection with the quality of Gold Security at my/our cost at anytime and I/ We would be solely responsible for any discrepancy in the purity/weight of such Gold Security. I/ We agree that the Bank has the right at anytime to reappraise/ verify the gold ornaments & coins deposited with it and we would be solely responsible for any discrepancy in the purity/weight of such ornaments & gold coins. I/We voluntarily hereby provide our unconditional consent to the Bank for conducting all the tests for the purpose of valuation of my gold ornaments/coins in my/our presence or without my/our presence, including pointed scratching and acid test or any other verification as the Bank may require.
+7.
+I/We agree that, the Bank not shall be required to lend against the said ornaments & gold coins any amount inclusive of interest exceeding % of the net appraised value of the said ornaments & coins. The Bank shall be at liberty to vary the said margin from time to time at its sole discretions.
+8.
+I/ We agree that, at the time of renewal of the facility whether during or after the expiry of the tenure of the Loan, I/ We may request the Bank to grant the renewal to me/ us on a higher/ lower loan -to value ratio or any other term which the bank may allow at its sole and absolute discretion subject to payment of a such fee as the Bank may prescribe.
+9.
+I/ We agree that the loan / overdraft may be prepaid in whole or in part, by me/ us. The bank may grant on such conditions as it may deem fit, including without limitation the payment of prepayment or part payment charges as the case may be, as stipulated by the bank, which prepayment and/ or part payment charges may be applied and collected by the bank either at the time of maturity or closure or renewal, whichever is earlier. Without prejudice to any other rights that the Bank may have under law, in case of nonpayment of any dues,1/ We shall be liable to pay additional interest/ default interest at such rate as may be described by the Bank on the entire Loan / overdraft plus the interest due on that date. Part payment by customer to be allowed any number of times during the tenure of loans, a minimum of 1 interest due should have been paid a minimum amount orl 0000/or minimum 10% of the loan amount to be paid as part payment.
+10. I/We agree that, the Bank may, without assigning any reason and upon written notice mailed or delivered to me/ us cancel in full or in part the Loan /overdraft and demand repayment thereof.
+Upon such notice, the said Dues shall become forthwith due and payable by me/us to the Bank.
+11. I/ We hereby authorize Bank to carry out the RTGS/ NEFT transaction as per details mentioned in the application. I/ We understand that RTGS/ NEFT request is subject to the RBI regulations and guidelines governing the same. I/ We further acknowledge that Bank accepts no liability for any consequences arising out of erroneous details provided by me/ us.
+12. I/ We confirm that, the Gold Security and any other security furnished by me/ us to the Bank will be released only upon payment in full of the said Dues by me/ us to the Bank. In case the value of Gold
+Security falls lower than the required margin of the Bank as applicable from time to time, without prejudice to the right to declare on Event of Default under Clause 18 and/ or to right to sell the Gold
+Security and/or exercise any other right or remedies available with the Bank hereunder or under law, I/ We shall, within 7 (seven) days of a notice from the Bank's sole discretion, deposit with the
+Bank, such additional security, as may be required.
+13. I/ We agree that, in addition to any general lien or similar right to which the Bank as bankers may be entitled by law, the Bank may at anytime and without notice to me/ us combine or consolidate all or any of the my/our accounts with and liabilities to the Bank and set off or transfer any sum or sums standing to the credit of any one or more of such accounts in or towards satisfaction of any of the my/ our liabilities to the Bank on any other account or in any other respect, whether such liabilities be actual or contingent, primary or collateral and several or joint
+14. I/ We agree that, Bank may open multiple accounts in my/ our name/s within the aggregate facility/ies sanctioned to me/ us and all the terms and conditions of this Agreement shall be applicable to all such accounts opened/to be opened with the Bank.
+15. I/ We agree that the Interest calculation will be done on the basis of the outstanding balance method and on the basis of 365 days and we are liable to pay the Bank penal interest at % p.a., on the balance due to the Bank from the date of my/or failure in maintaining the margin, or in failure/ neglect in repaying the balance dues to the Bank. I/ We agree that the penal interest may be revised from time to time in accordance with the Bank's policy and such revised charges would be prospectively made applicable.
+16. If I/We fail to maintain such margin as aforesaid or if we/us shall on demand, fail or neglect to repay the balance due to the Bank, it shall be lawful for the Bank forthwith or anytime thereof and after final reminder notice in writing to me/us demanding the balance then due to the Bank and default being made in payment for 7 days after giving such notice, to sell or otherwise dispose off all or of the said ornaments/coins, to be deposited by pledge, either together or in lots or separately, either by public auction or private contact and subject such conditions as the Bank shall think fit absolutely and apply the net proceeds of such sale in or towards the liquidation of the balance then due to the
+Bank, Any shortfall after the adjustment of the net sale proceeds shall be repaid forthwith by me/us on demand by the Bank.
+17. I/We agree that, in the event of there being a surplus available of the net proceeds of such sale after payment in full of the balance due to the Bank it shall be lawful for the Bank to retain and apply the said surplus towards payment or liquidation of any and other money which shall be or may become due to the borrowers or any of them whether singly or jointly with any other persons and whether as a principal debtor or surety.
+18. That any notice in writing required to be served hereunder shall be sufficiently served if addressed to me/us, at our address registered in the Bank or in the event of no such address being registered in the bank at our last known place of residence or business and left at such other address or place aforesaid or forwarded to me/us by post at the address aforesaid. A notice sent by the post deemed to be given at the time when in due course of post it would be delivered at the address to which it is sent and in proving that such notice was posted a certificate signed by the Bank's local manager or agent or other authorized officer that envelope was so posted shall be conclusive
+19. That, Demand promissory note executed by me/us shall operate as continuing security to you to be enforceable for the repayment of the ultimate balance or all such sum remaining unpaid under the said loan facility now or hereafter. I/We do hereby also waive my/our rights of the presentment of the aforesaid Demand Promissory Note and further request you to note to dispense with a notice of dishonor in terms of section 98(a) of Negotiable instrument act 1881, and that in the event of payment not being made on demand by us, Axis Bank Ltd., may at its sole discretion give time for payment to me/us without discharging me/us from liability.
+20. The Following event shall constitute events of default and upon occurrence of which, the dues to the Bank shall become immediately due and payable by me/ us to the Bank and further enable Bank to enforce the Gold security.
+a)
+Failure on my/ our part to perform any of the obligations hereunder or if any circumstance or event occurs which adversely affects my/ our capacity to repay the loan or any part there of my/ our obligations.
+b)
+If any of the representation or statements or particulars made by me/ us herein are found to false/ misleading or incorrect.
+c)
+If the loan and interest is not repaid on the date of maturity/as per the time line specified by the bank.
+d)
+Upon detection of any systemic f raud in relation to the quality of the gold by the Bank.
+e)
+If the value of the said Gold Security falls lower than the required margin of the Bank as applicable from time to time, due to change in market price (whether actual or reasonably anticipated) or any other reason or if there is any deterioration or any part thereof, which causes the security in the judgment of the Bank to become unsatisfactory in character or value.
+f)
+If it is discovered that there is any collusion between the appraiser and me/us resulting in a fraudulent and erroneous valuation of gold ornaments & coins, or in case the Bank has a reasonable suspicion in this regard.
+g)
+If any attachment, distress, execution or other process against me/ us or any of the security is enforced/ levied upon.
+h)
+In the event of death, insolvency, commission of an act of bankruptcy of either of us.
+i)
+Any attempt by me/ us, without prior written consent of the bank to create any charge, lien, mortgage or any other encumbrance over the gold ornaments & coins.
+21. Upon the occurrence of an Event of Default, the Bank shall be entitled to sell the Gold Security in the open market after giving me/ us a sufficient notice which I/ We agree is a reasonable period for the purposes of Section 176 of the Contract, 1872. The proceeds so realized from the sale of the Gold
+Security shall be utilized towards the repayment of Dues under the Loan. In the event that the proceeds so realized or insufficient to meet the amount of Dues, the Bank may take such other and further actions as it may deem necessary to realize the balance amount from me/ us. In case of more than one borrower, we agree that our liability shall be joint and several.
+22. In case of my/our failure to repay the loan, I/ we hereby authorize AXIS Bank to publish my/our photographs in the print media under the title of a defaulter of loan / overdraft facility. I am also aware that the right to publish the photograph shall solely be with the Bank and the Bank shall have the discretion to publish the photographs of all or selected defaulters.
+23. I/We agree that, as per RBI guidelines, classification of accounts as NPA is done Borrower wise and not Facility wise and hence, it may be noted that in case of nonpayment of dues by the customer in case of any facility availed from the Bank and consequently the account is to be classified as NPA, all other loan accounts of the Borrower/ Card Holder, with the Bank also shall be classified as NPAas per the guidelines issued by RBI and it shall entitle the Bank to recall all such loans/facilities availed by the same customer from the Bank, irrespective of the regular repayment in such accounts.
+24. I/ We understand that as a pre-condition, relating to grant of the loans/ advances/ other funds based and/or non fund based credit facilities to me/us, the Bank requires our consent for the disclosure by the bank of, information and data relating to us of credit facility availed of/to be availed, by us, by obligations assumed/to be assumed, by us, in relation thereon to and default, if any, committed by us, in discharge thereof. Accordingly, I/we hereby agree and give consent for the disclosure by the Bank of all or any such:
+1.
+Information & data relating to us
+2.
+The Information and data relating to any credit facility availed of/to be availed by us and
+3.
+Default, If any, committed by us, in discharge of any such obligations
+As the Bank may deemed appropriate and necessary to disclose and furnish to Credit Information
+Bureau (India) ltd and any other agency authorized in this behalf by RBI
+I/We, undertake that:
+1.
+The Credit Information Bureau (India) Ltd, and any other agency, so authorized may use, process the said information and data disclosed by the Bank in a manner as deemed fit by them and
+2.
+The Credit Information Bureau (India) Ltd, and any other agency, so authorized may furnish for consideration, the processed information and data or product there of prepaid by them, to
+Bank/FI's and other credit grantors or register users, as may be specified by the RBI in this behalf.
+I/ We confirm having received, read and understood the terms and conditions applicable to this
+Loan and accept hereby without notice the terms and conditions unconditionally and agree that this terms and conditions may be changed by the Bank at any time and will be bound by amended terms and conditions. All T&C of loan agreement will be updated on the bank website from time to time.
+25. Interest on the loan will be charged at (Effective Rate of Interest % p.a.) on the basis of monthly rest which is (Spread % p.a.) above the one year Marginal Cost of funds based
+Lending Rate (MCLR) which is at present (1 Year MCLR % p.a.). The rate of interest viz
+(Effective Rate of Interest % p.a.) will be valid for the entire tenor of the loan.
+26. The Borrower hereby gives specific consent to the Bank/Lender for disclosing / submitting the
+'financial information' as defined in Section 3 (13 ) of the Insolvency and Bankruptcy Code, 2016 (
+'Code' for brief ) read with the relevant Regulations/ Rules framed under the Code, as amended and in force from time to time and as specified there under from time to time, in respect of the Credit/
+Financial facilities availed from the Bank/ Lender, from time to time, to any 'Information Utility' ( 'ID' for brief ) as defined in Section 3 ( 21 ) of the Code, in accordance with the relevant Regulations framed under the Code, and directions issued by Reserve Bank of India to the banks from time to time and hereby specifically agree to promptly authenticate the 'financial information submitted by the Bank/Lender, as and when requested by the concerned 'ID' 27. The Borrower is aware and agrees that in the event the Gold loan packet is found with spurious gold, the Bank shall not release the packet to the Borrower, even after closure of the loan until completion and closure of all the legal formalities related thereto.
+Declarations: I/ We, declare that
+VERNACULAR DECLARATION/ ANNEXURE FROM ILLITERATE PERSON
+The content of this application form and all loan / overdraft documentation have been read over and translated into language and explained to the Borrower(s) and
+He/ She/ They having understood the contest thereof have subscribed to these presents (State the language of the borrower)
+To be signed by a third party other than bank employee
+Signed and Delivered by the within named Bank , Axis Bank Ltd through its authorised official.
+For AXIS BANK LTD.
+Authorised Signatory
+Signature of Applicant
+Bank Copy
+4
+Terms & Conditions
+1.
+I/We hereby declare that the particulars given above are true and correct to the best of my/our knowledge and belief and that the gold ornaments/gold coins described under appraiser' certificate / gold coin deposit receipt, to be deposited as security with the Axis Bank(Bank) belong solely to me/us.
+I/We further declare that the gold ornaments & gold coins is not defective/ challenged by any person in any manner, nor is it spurious or of inferior quality and has been acquired by me/us from genuine sources and is my/ our bonafide property and no other person has claim, lien or charge against it.
+2.
+I/ We acknowledge that the Bank shall have no liability for any consequences arising out of any erroneous details provided by me/ us and I/ we shall utilize the Loan solely for the purpose stated in the Sanction Letter and will not be used for any speculative or anti -social purpose.
+3.
+I/we further understand that if the loan is sanctioned by the Bank, then a limit shall be set against the gold ornaments/gold coins, pledged by me/us, and the aggregate limit can be used by me as per my/our requirement. I/we undertake that I/we shall make written application to the Bank intimating my financial requirement (within the overall limit). However, the right to disburse any limit within the sanctioned limit, shall be at the discretion of the Bank.
+4.
+Borrower/s must utilise borrowed funds solely for the purpose for which the loan is granted and that it cannot make any material transfers to its group entities, from such funds, without the consent of the Bank.
+5.
+I/ We agree that, the valuation of the gold ornaments & gold coin shall be done by an independent appraiser appointed by the Bank and the loan amount shall be determined by the Bank on the basis of the value of the gold security as set out in the valuation report provided by the appraiser. Such value shall be subject to the market price of the gold ornaments/ coin from time to time the amount of loan will be conveyed to me/us to the Bank.
+6.
+I/ We am/ are the owner/joint-owners and am/are in possession of certain gold ornaments/("Gold
+Security") over which I/ We will create a first and exclusive charge by way of pledge in favor of the
+Bank. I/ We have deposited the gold ornaments with the Bank in a sealed packet to be kept with the
+Bank during the Tenure of the Loan / overdraft. I/ We agree that the Bank shall be entitled to open such sealed packet during Tenure of the facility and conduct investigation in connection with the quality of Gold Security at my/ our cost at anytime and I/ We would be solely responsible for any discrepancy in the purity/weight of such Gold Security. I/ We agree that the Bank has the right at any time to reappraise/ verify the gold ornaments & coins deposited with it and we would be solely responsible for any discrepancy in the purity/weight of such ornaments & gold coins. I/We voluntarily hereby provide our unconditional consent to the Bank for conducting all the tests for the purpose of valuation of my gold ornaments/coins in my/our presence or without my/our presence, including pointed scratching and acid test or any other verification as the Bank may require.
+7.
+I/We agree that, the Bank not shall be required to lend against the said ornaments & gold coins any amount inclusive of interest exceeding % of the net appraised value of the said ornaments & coins. The Bank shall be at liberly to vary the said margin from time to time at its sole discretions.
+8.
+I/ We agree that, at the time of renewal of the facility whether during or after the expiry of the tenure of the Loan, We may request the Bank to grant the renewal to me/ us on a higher/ lower loan
+• to value ratio or any other term which the bank may allow at its sole and absolute discretion subject to payment of a such fee as the Bank may prescribe.
+9.
+I/ We agree that the loan / overdraft may be prepaid in whole or in part, by me/ us. The bank may grant on such conditions as it may deem fit, including without limitation the payment of prepayment or part payment charges as the case may be, as stipulated by the bank, which prepayment and/ or part payment charges may be applied and collected by the bank either at the time of maturity or closure or renewal, whichever is earlier. Without prejudice to any other rights that the Bank may have under law, in case of nonpayment of any dues, l/ We shall be liable to pay additional interest/ default interest at such rate as may be described by the Bank on the entire Loan / overdraft plus the interest due on that date. Part payment by customer to be allowed any number of times during the tenure of loans, a minimum of 1 interest due should have been paid a minimum amount on
+10,000/or minimum 10% of the loan amount to be paid as part payment
+10. I/ We agree that, the Bank may, without assigning any reason and upon written notice mailed or delivered to me/us cancel in full or in part the Loan /overdraft and demand repayment thereof.
+Upon such notice, the said Dues shall become forthwith due and payable by me/ustothe Bank.
+11. I/We hereby authorize Bank to carry out the RTGS/ NEFT transaction as per details mentioned in the application. V We understand that RTGS/ NEFT request is subject to the RBI regulations and guidelines governing the same. I/ We further acknowledge that Bank accepts no liability for any consequences arising out of erroneous details provided by me/ us.
+12. I/We confirm that, the Gold Security and any other security furnished by me/ us to the Bank will be released only upon payment in full of the said Dues by me/us to the Bank. In case the value of Gold
+Security falls lower than the required margin of the Bank as applicable from time to time, without prejudice to the right to declare on Event of Default under Clause 18 and/ or to right to sell the Gold
+Security and/or exercise any other right or remedies available with the Bank hereunder or under law, I/ We shall, within 7 (seven) days of a notice from the Bank's sole discretion, deposit with the
+Bank, such additional security, as may be required.
+13. I/ We agree that, in addition to any general lien or similar right to which the Bank as bankers may be entitled by law, the Bank may at any time and without notice to me/ us combine or consolidate all or any of the my/ our accounts with and liabilities to the Bank and set off or transfer any sum or sums standing to the credit of any one or more of such accounts in or towards satisfaction of any of the my/ our liabilities to the Bank on any other account or in any other respect, whether such liabilities be actual or contingent, primary or collateral and several or joint.
+14. I/ We agree that, Bank may open multiple accounts in my/ our name/s within the aggregate facility/ies sanctioned to me/ us and all the terms and conditions of this Agreement shall be applicable to all such accounts opened/to be opened with the Bank.
+15. I/ We agree that the Interest calculation will be done on the basis of the outstanding balance method and on the basis of 365 days and we are liable to pay the Bank penal interest at % p.a., on the balance due to the Bank from the date of my/or failure in maintaining the margin, or in failure/ neglect in repaying the balance dues to the Bank. I/ We agree that the penal interest may be revised from time to time in accordance with the Bank's policy and such revised charges would be prospectively made applicable.
+16. If I/We fail to maintain such margin as aforesaid or if we/us shall on demand, fail or neglect to repay the balance due to the Bank, it shall be lawful for the Bank forthwith or anytime thereof and after final reminder notice in writing to me/us demanding the balance then due to the Bank and default being made in payment for 7 days after giving such notice, to sell or otherwise dispose off all or of the said ornaments/coins, to be deposited by pledge, either together or in lots or separately, either by public auction or private contact and subject such conditions as the Bank shall think fit absolutely and apply the net proceeds of such sale in or towards the liquidation of the balance then due to the
+Bank, Any shortfall after the adjustment of the net sale proceeds shall be repaid forthwith by me/us on demand by the Bank.
+17. I/We agree that, in the event of there being a surplus available of the net proceeds of such sale after payment in full of the balance due to the Bank it shall be lawful for the Bank to retain and apply the said surplus towards payment or liquidation of any and other money which shall be or may become due to the borrowers or any of them whether singly or jointly with any other persons and whether as a principal debtor or surety.
+18. That any notice in writing required to be served hereunder shall be sufficiently served if addressed to me/us, at our address registered in the Bank or in the event of no such address being registered in the bank at our last known place of residence or business and left at such other address or place aforesaid or forwarded to me/us by post at the address aforesaid. A notice sent by the post deemed to be given at the time when in due course of post it would be delivered at the address to which it is sent and in proving that such notice was posted a certificate signed by the Bank's local manager or agent or other authorized officer that envelope was so posted shall be conclusive
+19. That, Demand promissory note executed by me/us shall operate as continuing security to you to be enforceable for the repayment of the ultimate balance or all such sum remaining unpaid under the said loan facility now or hereafter. I/We do hereby also waive my/our rights of the presentment of the aforesaid Demand Promissory Note and further request you to note to dispense with a notice of dishonor in terms of section 98(a) of Negotiable instrument act 1881, and that in the event of payment not being made on demand by us, Axis Bank Ltd., may at its sole discretion give time for payment to me/us without discharging me/us from liability.
+20. The Following event shall constitute events of default and upon occurrence of which, the dues to the Bank shall become immediately due and payable by me/ us to the Bank and further enable Bank to enforce the Gold security.
+a)
+Failure on my/ our part to perform any of the obligations hereunder or if any circumstance or event occurs which adversely affects my/ our capacity to repay the loan or any part there of my/ our obligations.
+b)
+If any of the representation or statements or particulars made by me/ us herein are found to false/ misleading or incorrect.
+c)
+If the loan and interest is not repaid on the date of maturity/as per the time line specified by the bank.
+d)
+Upon detection of any systemic fraud in relation to the quality of the gold by the Bank.
+e)
+If the value of the said Gold Security falls lower than the required margin of the Bank as applicable from time to time, due to change in market price (whether actual or reasonably anticipated) or any other reason or if there is any deterioration or any part thereof, which causes the security in the judgment of the Bank to become unsatisfactory in character or value.
+f)
+If it is discovered that there is any collusion between the appraiser and me/us resulting in a fraudulent and erroneous valuation of gold ornaments & coins, or in case the Bank has a reasonable suspicion in this regard.
+g)
+If any attachment, distress, execution or other process against me/ us or any of the security is enforced/ levied upon.
+h)
+In the event of death, insolvency, commission of an act of bankruptcy of either of us.
+i)
+Any attempt by me/ us, without prior written consent of the bank to create any charge, lien, mortgage or any other encumbrance over the gold ornaments & coins.
+21. Upon the occurrence of an Event of Default, the Bank shall be entitled to sell the Gold Security in the open market after giving me/ us a sufficient notice which I/ We agree is a reasonable period for the purposes of Section 176 of the Contract, 1872. The proceeds so realized from the sale of the Gold
+Security shall be utilized towards the repayment of Dues under the Loan. In the event that the proceeds so realized or insufficient to meet the amount of Dues, the Bank may take such other and further actions as it may deem necessary to realize the balance amount from me/ us. In case of more than one borrower, we agree that our liability shall be joint and several.
+22. In case of my/ our failure to repay the loan, I/ we hereby authorize AXIS Bank to publish my/ our photographs in the print media under the title of a defaulter of loan / overdraft facility. I am also aware that the right to publish the photograph shall solely be with the Bank and the Bank shall have the discretion to publish the photographs of all or selected defaulters.
+23. I/We agree that, as per RBI guidelines, classification of accounts as NPA is done Borrower wise and not Facility wise and hence, it may be noted that in case of nonpayment of dues by the customer in case of any facility availed from the Bank and consequently the account is to be classified as NPA, all other loan accounts of the Borrower/ Card Holder, with the Bank also shall be classified as NPAas per the guidelines issued by RBI and it shall entitle the Bank to recall all such loans/facilities availed by the same customer from the Bank, irrespective of the regular repayment in such accounts.
+24. I/ We understand that as a pre-condition, relating to grant of the loans/ advances/ other funds based and/or non fund based credit facilities to me/us, the Bank requires our consent for the disclosure by the bank of, information and data relating to us of credit facility availed of/ to be availed, by us, by obligations assumed/to be assumed, by us, in relation thereon to and default, if any, committed by us, in discharge thereof. Accordingly, I/we hereby agree and give consent for the disclosure by the
+Bank of all or any such:
+1.
+Information & data relating to us
+2.
+The Information and data relating to any credit facility availed of/to be availed by us and
+3.
+Default, If any, committed by us, in discharge of any such obligations
+As the Bank may deemed appropriate and necessary to disclose and furnish to Credit Information
+Bureau (India) ltd and any other agency authorized in this behalf by RBI I/We, undertake that:
+1.
+The Credit Information Bureau (India) Ltd, and any other agency, no authorized may use, process the said information and data disclosed by the Bank in a manner as deemed fit by them and
+2.
+The Credit Information Bureau (India) Ltd, and any other agency, so authorized may furnish for consideration, the processed information and data or product there of prepaid by them, to
+Bank/FI's and other credit grantors or register users, as may be specified by the RBI in this behalf.
+I/ We confirm having received, read and understood the terms and conditions applicable to this
+Loan and accept hereby without notice the terms and conditions unconditionally and agree that this terms and conditions may be changed by the Bank at any time and will be bound by amended terms and conditions. All T&C of loan agreement will be updated on the bank website from time to time.
+25. Interest on the loan will be charged at (Effective Rate of Interest % p.a.) on the basis of monthly rest which is (Spread % p.a.) above the one year Marginal Cost of funds based
+Lending Rate (MCLR) which is at present (1 Year MCLR % p.a.). The rate of interest viz
+(Effective Rate of Interest % p.a.) will be valid for the entire tenor of the loan.
+26. The Borrower hereby gives specific consent to the Bank/Lender for disclosing / submitting the
+'financial information' as defined in Section 3 (13 ) of the Insolvency and Bankruptcy Code, 2016 (
+'Code' for brief ) read with the relevant Regulations/ Rules framed under the Code, as amended and in force from time to time and as specified there under from time to time, in respect of the Credit/
+Financial facilities availed from the Bank/ Lender, from time to time, to any 'Information Utility' ( 'IU' for brief ) as defined in Section 3 ( 21 ) of the Code, in accordance with the relevant Regulations framed under the Code, and directions issued by Reserve Bank of India to the banks from time to time and hereby specifically agree to promptly authenticate the 'financial information submitted by the Bank/Lender, as and when requested by the concerned 'IU'
+27. The Borrower is aware and agrees that in the event the Gold loan packet is found with spurious gold, the Bank shall not release the packet to the Borrower, even after closure of the loan until completion and closure of all the legal formalities related thereto.
+Declarations: I/We, declare that
+VERNACULAR DECLARATION/ANNEXURE FROM ILLITERATE PERSON
+The content of this application form and all loan / overdraft documentation have been read over and translated into language and explained to the Borrower(s) and
+He/She/ They having understood the contest thereof have subscribed to these presents (State the language of the borrower)
+To be signed by a third party other than bank employee
+Signed and Delivered by the within named Bank, Was Bank Ltd through its authorised official.
+For AXIS BANK LTD.
+Acknowledgement for receipt of Application form
+To,
+Date
+Serial No.
+For Axis Bank Ltd.
+Authorised Official
+Axis Bank has received your application for a good / overdraft loan for `
+The Bank would require a processing time of approximately 1 working day from the date of receipt of the completed application. This is the subject to submission of all documents, as required by the bank.
+Customer Copy
+RURAL/PGL/App. Form/ Jan 20/Version 1.0
+5
+Schedule of Charges
+Stamp Duty - At Actuals (Wherever Applicable)
+Non-utilisation charges(applicable only for overdraft facility)
+Fore Closure Charges:
+2% of the sanction amount plus applicable taxes, if loan is closed between 0 to 3 months from sanction date.
+1% of the sanction loan amount plus applicable taxes, if loan is closed between 3 to 6 months.
+0.5% of the sanction loan amount plus applicable taxes, if loan is closed between 6 to 11 months.
+Nil pre-payment charges will be applicable if loan is closed >11 months from the sanction date.
+*All of the above charges are subject to change as per Bank’s discretion from time to time.
+Goods & Services tax (GST) will be charged extra as per the applicable rates, on all the charges and fees (Wherever GST is applicable)
+Signature of Applicant
+6
