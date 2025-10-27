@@ -61,3 +61,8 @@ aiohttp>=3.9.5
 tqdm>=4.66.1
 rich>=13.7.0
 python-dotenv>=1.0.1
+
+
+pytest
+pytest-cov
+pytest-mock

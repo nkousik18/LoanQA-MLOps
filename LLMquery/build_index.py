@@ -1,82 +1,98 @@
-"""
-build_index.py
-Smart vectorstore builder — adds only new documents if index already exists.
-Usage:
-  python -m LLMquery.build_index --input_dir data/loan_docs --persist_dir LLMquery/vectorstores/loan_doc_index
-"""
-
 import os
-import argparse
-from langchain_community.vectorstores import Chroma
-from langchain.embeddings import HuggingFaceEmbeddings
+import time
+import shutil
 from langchain_community.document_loaders import TextLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-
-
-# ============================================================
-# 1️⃣ Parse CLI arguments
-# ============================================================
-parser = argparse.ArgumentParser(description="Build or update Chroma vectorstore for loan documents")
-parser.add_argument("--input_dir", type=str, required=True, help="Directory containing .txt documents")
-parser.add_argument("--persist_dir", type=str, required=True, help="Directory to store vector index")
-args = parser.parse_args()
-
-input_dir = args.input_dir
-persist_dir = args.persist_dir
+from langchain_community.vectorstores import Chroma
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_core.documents import Document
 
 # ============================================================
-# 2️⃣ Initialize embeddings and vectorstore
+# Configuration
 # ============================================================
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-
-# Load existing Chroma DB if available
-if os.path.exists(os.path.join(persist_dir, "chroma.sqlite3")):
-    print(f"📂 Existing Chroma index found at: {persist_dir}")
-    db = Chroma(persist_directory=persist_dir, embedding_function=embeddings)
-    existing_sources = set(
-        [m["source"] for m in db.get(include=["metadatas"])["metadatas"] if "source" in m]
-    )
-else:
-    print(f"🆕 No existing Chroma index found. Creating new one at: {persist_dir}")
-    db = None
-    existing_sources = set()
+DATA_PATH = "data/clean_texts"
+INDEX_PATH = "LLMquery/vectorstores/local_doc_index"
+EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 # ============================================================
-# 3️⃣ Load and split new documents
+# Add to Index (Self-Healing)
 # ============================================================
-print(f"📑 Scanning input folder: {input_dir}")
-new_files = []
-for file in os.listdir(input_dir):
-    if file.endswith(".txt") and file not in existing_sources:
-        new_files.append(os.path.join(input_dir, file))
+def add_to_index(new_file_path):
+    """
+    Adds a single extracted text file to the existing Chroma index.
+    Automatically rebuilds if corruption (TypeError len()) is detected.
+    """
+    if not os.path.exists(new_file_path):
+        print(f"❌ Extracted file not found: {new_file_path}")
+        return 0
 
-if not new_files:
-    print("✅ No new documents found. Vectorstore is already up to date.")
-    exit()
+    print(f"🧠 Adding {new_file_path} to existing index...")
+    loader = TextLoader(new_file_path, encoding="utf-8")
+    new_docs = loader.load()
 
-print(f"🆕 Found {len(new_files)} new file(s): {new_files}")
+    embeddings = HuggingFaceEmbeddings(model_name=EMBED_MODEL)
 
-docs = []
-for path in new_files:
-    loader = TextLoader(path, encoding="utf-8")
-    documents = loader.load()
-    for d in documents:
-        d.metadata["source"] = os.path.basename(path)
-    docs.extend(documents)
+    try:
+        db = Chroma(persist_directory=INDEX_PATH, embedding_function=embeddings)
+        db.add_documents(new_docs)
+        db.persist()
+        print(f"✅ Added {len(new_docs)} docs to index from {new_file_path}")
 
-splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-split_docs = splitter.split_documents(docs)
+    except TypeError as e:
+        # Known Chroma SQLite bug — invalid sequence ID decoding
+        if "len()" in str(e):
+            print("⚠️ Detected Chroma corruption — rebuilding vectorstore from scratch...")
+            shutil.rmtree(INDEX_PATH, ignore_errors=True)
 
-print(f"✂️ Split into {len(split_docs)} text chunks.")
+            db = Chroma.from_documents(new_docs, embeddings, persist_directory=INDEX_PATH)
+            db.persist()
+            print(f"✅ Rebuilt fresh index with {new_file_path}")
+        else:
+            raise e
+
+    except Exception as e:
+        print(f"❌ Failed to index {new_file_path}: {e}")
+        raise e
+
+    return len(new_docs)
 
 # ============================================================
-# 4️⃣ Add to Chroma vectorstore
+# Rebuild Entire Index
 # ============================================================
-if db is None:
-    db = Chroma.from_documents(split_docs, embeddings, persist_directory=persist_dir)
-else:
-    db.add_documents(split_docs)
+def rebuild_vector_index():
+    """Rebuilds the Chroma vector index from extracted clean text files."""
+    start = time.time()
+    print("🔄 Rebuilding vector index from extracted documents...")
 
-db.persist()
-print(f"✅ Index updated successfully with {len(split_docs)} new chunks.")
-print(f"📦 Total entries in Chroma DB: {db._collection.count()}")
+    if not os.path.exists(DATA_PATH):
+        raise FileNotFoundError(f"❌ Directory not found: {DATA_PATH}")
+
+    text_files = [os.path.join(DATA_PATH, f) for f in os.listdir(DATA_PATH) if f.endswith(".txt")]
+    if not text_files:
+        print("⚠️ No .txt files found in clean_texts.")
+        return 0
+
+    docs = []
+    for f in text_files:
+        try:
+            loader = TextLoader(f, encoding="utf-8")
+            docs.extend(loader.load())
+            print(f"✅ Loaded: {f}")
+        except Exception as e:
+            print(f"⚠️ Failed to load {f}: {e}")
+
+    embeddings = HuggingFaceEmbeddings(model_name=EMBED_MODEL)
+    db = Chroma.from_documents(docs, embeddings, persist_directory=INDEX_PATH)
+    db.persist()
+
+    total = len(docs)
+    duration = round(time.time() - start, 2)
+
+    # Debug: log vector dimensions
+    try:
+        sample_vec = embeddings.embed_query("Test")
+        print(f"📏 Embedding Dimension: {len(sample_vec)} | Total Docs: {total}")
+    except Exception:
+        pass
+
+    print(f"✅ Rebuilt index with {total} documents in {duration}s.")
+    return total

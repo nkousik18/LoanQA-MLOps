@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LoanDoc Assistant 💬</title>
+  <title>💼 LoanDoc Assistant</title>
   <style>
+    /* === Base Layout === */
     body {
       font-family: "Inter", system-ui, sans-serif;
       background: radial-gradient(circle at top, #0a0a0a, #111);
@@ -19,9 +20,9 @@
       background: linear-gradient(135deg, #00b0ff, #0078d4);
       padding: 1rem;
       text-align: center;
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       font-weight: 600;
-      color: #fff;
+      color: white;
       box-shadow: 0 2px 10px rgba(0,0,0,0.4);
     }
 
@@ -42,70 +43,67 @@
       line-height: 1.6;
       font-size: 0.98rem;
       animation: fadeIn 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      gap: 0.6rem;
       white-space: pre-wrap;
     }
 
     .user {
       align-self: flex-end;
       background: linear-gradient(135deg, #00b0ff, #0078d4);
-      color: white;
-      border-bottom-right-radius: 0.2rem;
-      box-shadow: 0 2px 8px rgba(0,176,255,0.4);
+      color: #fff;
+      border-bottom-right-radius: 0.3rem;
+      box-shadow: 0 2px 6px rgba(0,176,255,0.4);
     }
 
     .bot {
       align-self: flex-start;
       background: rgba(255,255,255,0.08);
       border: 1px solid rgba(255,255,255,0.1);
-      border-bottom-left-radius: 0.2rem;
+      border-bottom-left-radius: 0.3rem;
       backdrop-filter: blur(10px);
       color: #e0f2f1;
       box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     }
 
-    /* Markdown-like formatting */
     .bot b { color: #80d8ff; font-weight: 600; }
     .bot em { color: #aed581; }
     .bot code {
-      background: rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.1);
       border-radius: 6px;
       padding: 2px 6px;
       font-family: "JetBrains Mono", monospace;
       color: #ffd180;
-      font-size: 0.9rem;
-    }
-    .bot pre {
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 8px;
-      padding: 0.75rem 1rem;
-      color: #cfd8dc;
-      font-size: 0.9rem;
-      overflow-x: auto;
-      white-space: pre-wrap;
     }
 
-    .sources {
-      margin-top: 0.8rem;
-      font-size: 0.85rem;
-      border-top: 1px solid rgba(255,255,255,0.15);
-      padding-top: 0.6rem;
-    }
-    .source-item {
+    /* === Upload Section === */
+    #upload-section {
       background: rgba(255,255,255,0.05);
-      border-radius: 0.5rem;
-      padding: 0.5rem 0.7rem;
-      margin-top: 0.4rem;
+      border: 2px dashed rgba(0,176,255,0.3);
+      border-radius: 1rem;
+      margin: 0.8rem 1.5rem;
+      padding: 1rem;
+      text-align: center;
+      color: #b0bec5;
+      transition: all 0.3s ease;
     }
-    .source-item b { color: #00b0ff; }
+    #upload-section.dragover {
+      background: rgba(0,176,255,0.15);
+      border-color: #00b0ff;
+      color: white;
+    }
+    #fileInput {
+      display: none;
+    }
+    #upload-status {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #80d8ff;
+    }
 
+    /* === Query Bar === */
     form {
       display: flex;
       align-items: center;
-      padding: 0.7rem 1rem;
+      padding: 0.6rem 1rem;
       background: rgba(20,20,20,0.95);
       border-top: 1px solid #333;
       backdrop-filter: blur(8px);
@@ -114,7 +112,7 @@
     input {
       flex: 1;
       background: #111;
-      color: #fff;
+      color: white;
       border: none;
       padding: 0.8rem 1rem;
       font-size: 1rem;
@@ -126,7 +124,7 @@
     button {
       background: linear-gradient(135deg, #00b0ff, #0078d4);
       border: none;
-      color: #fff;
+      color: white;
       margin-left: 0.8rem;
       padding: 0.8rem 1.4rem;
       border-radius: 0.6rem;
@@ -134,7 +132,6 @@
       font-weight: 600;
       transition: all 0.25s ease;
     }
-
     button:hover {
       transform: translateY(-2px);
       box-shadow: 0 4px 12px rgba(0,176,255,0.4);
@@ -144,23 +141,42 @@
       from { opacity: 0; transform: translateY(10px); }
       to { opacity: 1; transform: translateY(0); }
     }
+
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
   </style>
 </head>
 
 <body>
   <header>💼 LoanDoc Assistant</header>
+
+  <!-- Upload -->
+  <div id="upload-section">
+    📎 Drag & drop loan documents here or
+    <label for="fileInput" style="color:#00b0ff;cursor:pointer;text-decoration:underline;">browse</label>
+    <input type="file" id="fileInput" accept=".pdf,.txt,.doc,.docx" />
+    <div id="upload-status"></div>
+  </div>
+
+  <!-- Chat -->
   <main id="chat"></main>
 
+  <!-- Query -->
   <form id="query-form">
     <input id="query" type="text" placeholder="Ask about your loan document..." autocomplete="off" />
     <button type="submit">Send</button>
   </form>
 
+  <!-- === SCRIPT SECTION === -->
   <script>
     const chat = document.getElementById('chat');
     const form = document.getElementById('query-form');
     const input = document.getElementById('query');
+    const uploadSection = document.getElementById('upload-section');
+    const fileInput = document.getElementById('fileInput');
+    const uploadStatus = document.getElementById('upload-status');
 
+    /* ---------------- Chat Helpers ---------------- */
     function addMessage(text, sender) {
       const div = document.createElement('div');
       div.className = 'message ' + sender;
@@ -179,6 +195,7 @@
         .replace(/\n/g, "<br>");
     }
 
+    /* ---------------- Chat Query Logic ---------------- */
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const question = input.value.trim();
@@ -195,22 +212,81 @@
           body: JSON.stringify({ question })
         });
 
-        const data = await resp.json();
+        const reader = resp.body.getReader();
+        const decoder = new TextDecoder('utf-8');
+        let buffer = '';
+        botMsg.innerHTML = '';
 
-        let formatted = formatText(data.answer || "No response received.");
-        formatted += `<div class='sources'><b>📚 Sources:</b>`;
-        for (const s of data.sources || []) {
-          formatted += `<div class='source-item'><b>${s.file}</b><br>${s.snippet}</div>`;
+        while (true) {
+          const { value, done } = await reader.read();
+          if (done) break;
+          buffer += decoder.decode(value, { stream: true });
+          const parts = buffer.split(/\n\n+/);
+          buffer = parts.pop();
+
+          for (const part of parts) {
+            const clean = part.trim();
+            if (!clean.startsWith('data:')) continue;
+
+            const jsonPart = clean.replace(/^data:\s*/, '');
+            if (jsonPart === '[DONE]') continue;
+
+            try {
+              const payload = JSON.parse(jsonPart);
+              if (payload.token) botMsg.innerHTML += formatText(payload.token);
+              else if (payload.answer) botMsg.innerHTML = formatText(payload.answer);
+              else if (payload.error) botMsg.innerHTML = `<b>Error:</b> ${payload.error}`;
+            } catch (err) {
+              console.warn('Parse error:', err);
+            }
+          }
+          chat.scrollTop = chat.scrollHeight;
         }
-        formatted += `</div>`;
-
-        botMsg.innerHTML = formatted;
-        chat.scrollTop = chat.scrollHeight;
-
       } catch (err) {
         botMsg.innerHTML = `<b>Error:</b> ${err.message}`;
       }
     });
+
+    /* ---------------- File Upload Logic ---------------- */
+    uploadSection.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      uploadSection.classList.add('dragover');
+    });
+    uploadSection.addEventListener('dragleave', () => {
+      uploadSection.classList.remove('dragover');
+    });
+    uploadSection.addEventListener('drop', (e) => {
+      e.preventDefault();
+      uploadSection.classList.remove('dragover');
+      handleUpload(e.dataTransfer.files[0]);
+    });
+    fileInput.addEventListener('change', () => handleUpload(fileInput.files[0]));
+
+    async function handleUpload(file) {
+      if (!file) return;
+      uploadStatus.textContent = `📤 Uploading ${file.name}...`;
+
+      const formData = new FormData();
+      formData.append("file", file);
+
+      try {
+        const resp = await fetch('http://127.0.0.1:8000/upload_file', {
+          method: 'POST',
+          body: formData,
+        });
+        const data = await resp.json();
+
+        if (data.status === 'success') {
+          uploadStatus.textContent = `✅ ${file.name} uploaded and indexed successfully.`;
+        } else {
+          uploadStatus.textContent = `⚠️ Upload failed: ${data.message || 'Unknown error'}`;
+        }
+      } catch (err) {
+        uploadStatus.textContent = `❌ Error: ${err.message}`;
+      }
+
+      setTimeout(() => (uploadStatus.textContent = ''), 5000);
+    }
   </script>
 </body>
 </html>

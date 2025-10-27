@@ -1,0 +1,104 @@
+# ================================================================
+# 🚀 Airflow + LoanDoc Pipeline (Mac M1/M2 Compatible)
+# ================================================================
+
+x-airflow-common: &airflow-common
+  build:
+    context: .
+    dockerfile: Dockerfile.airflow
+  platform: linux/arm64
+  environment:
+    - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+    - AIRFLOW__CORE__FERNET_KEY=dPz8OKcqqYUc9G9kzW4dHavmmFPvx3bDck8b9oPZtMI=
+    - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+    - PYTHONPATH=/opt/airflow:/opt/airflow/extraction_pipeline:/opt/airflow/LLMquery
+  volumes:
+    # Mount project components
+    - /Users/kousiknandury/PycharmProjects/DL_project/dags:/opt/airflow/dags
+    - /Users/kousiknandury/PycharmProjects/DL_project/data:/opt/airflow/data
+    - /Users/kousiknandury/PycharmProjects/DL_project/extraction_pipeline:/opt/airflow/extraction_pipeline
+    - /Users/kousiknandury/PycharmProjects/DL_project/LLMquery:/opt/airflow/LLMquery
+    # Cache Paddle models locally
+    - /Users/kousiknandury/.paddlex/official_models:/root/.paddlex/official_models
+  user: "${AIRFLOW_UID:-50000}:0"
+  depends_on:
+    postgres:
+      condition: service_healthy
+    redis:
+      condition: service_started
+
+# ================================================================
+# Database & Message Broker
+# ================================================================
+services:
+  postgres:
+    image: postgres:13
+    platform: linux/arm64
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow"]
+      interval: 5s
+      retries: 10
+      timeout: 5s
+
+  redis:
+    image: redis:latest
+    platform: linux/arm64
+
+# ================================================================
+# Airflow Initialization (DB + User)
+# ================================================================
+  airflow-init:
+    <<: *airflow-common
+    user: "0:0"  # Run as root for first-time DB migration
+    entrypoint: >
+      bash -c "
+        echo '🔹 Waiting for Postgres...';
+        while ! pg_isready -h postgres -U airflow; do sleep 2; done;
+        echo '✅ Postgres ready. Initializing Airflow DB...';
+        airflow db migrate;
+        echo '✅ Creating default admin user...';
+        airflow users create \
+          --username admin \
+          --password admin \
+          --firstname Kousik \
+          --lastname Nandury \
+          --role Admin \
+          --email kousik@example.com || true;
+        echo '✅ Initialization complete.';
+      "
+
+# ================================================================
+# Airflow Webserver
+# ================================================================
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8090:8080"
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 10s
+      retries: 5
+      start_period: 20s
+
+# ================================================================
+# Airflow Scheduler
+# ================================================================
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    restart: always
+
+# ================================================================
+# Volumes
+# ================================================================
+volumes:
+  postgres_data:

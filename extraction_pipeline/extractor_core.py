@@ -4,6 +4,7 @@ from PIL import Image
 from extraction_pipeline.ocr_utils import run_ocr_on_pdf_page, run_ocr_on_image
 from extraction_pipeline.config import MIN_TEXT_LEN
 
+
 def extract_text(file_path: str):
     """
     Extract text from any file: PDF or image.

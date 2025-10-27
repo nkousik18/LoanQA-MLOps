@@ -1,19 +1,41 @@
 import re
 import sympy as sp
 
-def evaluate_math(text):
+"""
+LLMquery/prompts/math_utils.py
+SymPy-based numeric evaluator with error handling and % parsing.
+"""
+import re
+from sympy import sympify
+from sympy.parsing.sympy_parser import parse_expr, standard_transformations, implicit_multiplication_application
+
+def evaluate_math(text: str):
     """
-    Extract and evaluate valid math expressions from text.
-    Ignores standalone numbers (e.g., 'Step 1') and computes only
-    expressions containing at least one operator.
+    Extract and safely evaluate any simple math expressions (e.g. '5000 * 0.05 * 1')
+    from LLM output. Returns a list of formatted numeric results.
     """
     results = []
-    matches = re.findall(r'([0-9\.\+\-\*/\(\)\s]+[+\-\*/][0-9\.\+\-\*/\(\)\s]+)', text)
-    for expr in matches:
-        expr = expr.strip()
+    if not text:
+        return results
+
+    # Normalize common math text
+    text = text.replace("^", "**").replace("×", "*").replace("÷", "/")
+
+    # Replace percentages with decimals: 5% -> 0.05
+    text = re.sub(r"(\d+(\.\d+)?)\s*%", lambda m: str(float(m.group(1)) / 100), text)
+
+    # Find math-like patterns (numbers + operators)
+    pattern = r"(\d+(\.\d+)?(\s*[\+\-\*/]\s*\d+(\.\d+)?){1,3})"
+    matches = re.findall(pattern, text)
+
+    for m in matches:
+        expr_str = m[0]
         try:
-            value = sp.sympify(expr).evalf()
-            results.append(f"{expr} = {float(value):.2f}")
+            expr = parse_expr(expr_str, transformations=(standard_transformations + (implicit_multiplication_application,)))
+            value = float(expr.evalf())
+            results.append(f"{expr_str} = {value:.2f}")
         except Exception:
+            # Skip malformed expressions
             continue
+
     return results
