@@ -1,0 +1,7 @@
+timestamp,metric,description,num_files,duration_sec,throughput_files_per_min
+2025-10-27T19:35:36,OCR_Extraction,OCR extraction for 4 PDFs,4,54.08,4.44
+2025-10-27T19:35:38,Vector_Index_Rebuild,Embedding + persistence of extracted documents,5,1.74,172.51
+2025-10-27T19:35:38,Retrieval_Latency,Query='What is the interest rate ment...',0,0.04,0.0
+2025-10-27T19:35:38,Retrieval_Latency,Query='Explain the loan repayment per...',0,0.01,0.0
+2025-10-27T19:35:38,Retrieval_Latency,Query='What is the collateral require...',0,0.04,0.0
+2025-10-27T19:35:38,Pipeline_Throughput,End-to-end extraction + indexing,9,55.82,9.67
