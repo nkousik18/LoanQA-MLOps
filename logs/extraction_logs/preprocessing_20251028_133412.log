@@ -1,0 +1,28 @@
+2025-10-28 13:34:12 | scripts.extraction_pipeline.ocr_utils | INFO | 🧩 Logger initialized for PREPROCESSING → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/preprocessing_20251028_133412.log
+2025-10-28 13:34:20 | scripts.extraction_pipeline.ocr_utils | INFO | 🖼️ Running OCR on image: empty.jpg using PaddleOCR
+2025-10-28 13:34:20 | scripts.extraction_pipeline.ocr_utils | INFO | ✅ OCR complete for empty.jpg | Lines: 0 | Avg confidence: 0.00 | Time: 0.00s
+2025-10-28 13:34:21 | scripts.extraction_pipeline.ocr_utils | INFO | 🖼️ Running OCR on image: loan_form.jpeg using PaddleOCR
+2025-10-28 13:34:21 | scripts.extraction_pipeline.ocr_utils | ERROR | ❌ OCR failed for image loan_form.jpeg: Image read Error: loan_form.jpeg
+Traceback (most recent call last):
+  File "/Users/kousiknandury/PycharmProjects/DL_project/scripts/extraction_pipeline/ocr_utils.py", line 26, in run_ocr_on_image
+    result = ocr_engine.ocr(image_path)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/typing_extensions.py", line 3004, in wrapper
+    return arg(*args, **kwargs)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/paddleocr/_pipelines/ocr.py", line 231, in ocr
+    return self.predict(img, **kwargs)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/paddleocr/_pipelines/ocr.py", line 213, in predict
+    return list(
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/paddlex/inference/pipelines/_parallel.py", line 129, in predict
+    yield from self._pipeline.predict(
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/paddlex/inference/pipelines/ocr/pipeline.py", line 340, in predict
+    image_arrays = self.img_reader(batch_data.instances)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/paddlex/inference/common/reader/image_reader.py", line 49, in __call__
+    return [self.read(img) for img in imgs]
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/paddlex/inference/common/reader/image_reader.py", line 49, in <listcomp>
+    return [self.read(img) for img in imgs]
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/paddlex/inference/common/reader/image_reader.py", line 59, in read
+    raise Exception(f"Image read Error: {img}")
+Exception: Image read Error: loan_form.jpeg
+2025-10-28 13:34:21 | scripts.extraction_pipeline.ocr_utils | INFO | 🖼️ Running OCR on image: tmp2xyzmikj.png using PaddleOCR
+2025-10-28 13:34:21 | scripts.extraction_pipeline.ocr_utils | INFO | ✅ OCR complete for tmp2xyzmikj.png | Lines: 1 | Avg confidence: 0.95 | Time: 0.00s
+2025-10-28 13:34:21 | scripts.extraction_pipeline.ocr_utils | INFO | 📄 OCR on mock.pdf page 1 completed in 0.00s | Chars extracted: 13

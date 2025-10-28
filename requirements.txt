@@ -66,3 +66,5 @@ python-dotenv>=1.0.1
 pytest
 pytest-cov
 pytest-mock
+
+marshmallow-oneofschema

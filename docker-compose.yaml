@@ -1,26 +1,27 @@
-# ================================================================
-# 🚀 Airflow + LoanDoc Pipeline (Mac M1/M2 Compatible)
-# ================================================================
+version: '3.8'
 
-x-airflow-common: &airflow-common
-  build:
-    context: .
-    dockerfile: Dockerfile.airflow
-  platform: linux/arm64
+x-airflow-common:
+  &airflow-common
+  image: apache/airflow:2.9.1
+  platform: linux/arm64  # ✅ For Mac M1/M2
   environment:
-    - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-    - AIRFLOW__CORE__FERNET_KEY=dPz8OKcqqYUc9G9kzW4dHavmmFPvx3bDck8b9oPZtMI=
-    - AIRFLOW__CORE__LOAD_EXAMPLES=False
-    - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
-    - PYTHONPATH=/opt/airflow:/opt/airflow/extraction_pipeline:/opt/airflow/LLMquery
+    &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+    AIRFLOW__CORE__FERNET_KEY: dPz8OKcqqYUc9G9kzW4dHavmmFPvx3bDck8b9oPZtMI=
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__API__AUTH_BACKEND: 'airflow.api.auth.backend.basic_auth'
+    AIRFLOW__LOGGING__LOGGING_LEVEL: 'INFO'
+    PYTHONPATH: /opt/airflow/scripts:/opt/airflow/scripts/extraction_pipeline:/opt/airflow/scripts/LLMquery
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CELERY__BROKER_URL: redis://redis:6379/0
+    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
   volumes:
-    # Mount project components
-    - /Users/kousiknandury/PycharmProjects/DL_project/dags:/opt/airflow/dags
-    - /Users/kousiknandury/PycharmProjects/DL_project/data:/opt/airflow/data
-    - /Users/kousiknandury/PycharmProjects/DL_project/extraction_pipeline:/opt/airflow/extraction_pipeline
-    - /Users/kousiknandury/PycharmProjects/DL_project/LLMquery:/opt/airflow/LLMquery
-    # Cache Paddle models locally
-    - /Users/kousiknandury/.paddlex/official_models:/root/.paddlex/official_models
+    - ./dags:/opt/airflow/dags
+    - ./logs:/opt/airflow/logs
+    - ./plugins:/opt/airflow/plugins
+    - ./scripts:/opt/airflow/scripts
+    - ./data:/opt/airflow/data
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     postgres:
@@ -28,9 +29,6 @@ x-airflow-common: &airflow-common
     redis:
       condition: service_started
 
-# ================================================================
-# Database & Message Broker
-# ================================================================
 services:
   postgres:
     image: postgres:13
@@ -40,30 +38,30 @@ services:
       POSTGRES_PASSWORD: airflow
       POSTGRES_DB: airflow
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres-db-volume:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U airflow"]
       interval: 5s
       retries: 10
       timeout: 5s
+    ports:
+      - "5432:5432"
 
   redis:
     image: redis:latest
     platform: linux/arm64
+    ports:
+      - "6379:6379"
 
-# ================================================================
-# Airflow Initialization (DB + User)
-# ================================================================
   airflow-init:
     <<: *airflow-common
-    user: "0:0"  # Run as root for first-time DB migration
+    user: "0:0"
     entrypoint: >
       bash -c "
-        echo '🔹 Waiting for Postgres...';
+        echo 'Waiting for Postgres...';
         while ! pg_isready -h postgres -U airflow; do sleep 2; done;
-        echo '✅ Postgres ready. Initializing Airflow DB...';
+        echo 'Initializing Airflow DB...';
         airflow db migrate;
-        echo '✅ Creating default admin user...';
         airflow users create \
           --username admin \
           --password admin \
@@ -74,9 +72,6 @@ services:
         echo '✅ Initialization complete.';
       "
 
-# ================================================================
-# Airflow Webserver
-# ================================================================
   airflow-webserver:
     <<: *airflow-common
     command: webserver
@@ -89,16 +84,15 @@ services:
       retries: 5
       start_period: 20s
 
-# ================================================================
-# Airflow Scheduler
-# ================================================================
   airflow-scheduler:
     <<: *airflow-common
     command: scheduler
     restart: always
 
-# ================================================================
-# Volumes
-# ================================================================
+  airflow-worker:
+    <<: *airflow-common
+    command: celery worker
+    restart: always
+
 volumes:
-  postgres_data:
+  postgres-db-volume:

@@ -1,0 +1,4 @@
+2025-10-28 13:34:16 | scripts.LLMquery.prompts.prompt_router | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_133416.log
+2025-10-28 13:34:18 | scripts.LLMquery.prompts.prompt_router | INFO | 🧠 Prompt Router initialized with model: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 13:34:18 | scripts.LLMquery.prompts.prompt_router | DEBUG | Computing prototype intent embeddings for router...
+2025-10-28 13:34:19 | scripts.LLMquery.prompts.prompt_router | INFO | ✅ Loaded 5 intent categories: ['finance', 'summary', 'translation', 'explanation', 'retrieval']

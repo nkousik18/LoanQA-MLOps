@@ -1,0 +1,45 @@
+2025-10-28 13:17:02 | scripts.extraction_pipeline.utils | INFO | 🧩 Logger initialized for EXTRACTION → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/extraction_20251028_131702.log
+2025-10-28 13:17:02 | scripts.extraction_pipeline.main_extractor | INFO | 🧩 Logger initialized for EXTRACTION → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/extraction_20251028_131702.log
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | INFO | Starting extraction pipeline on directory: data/loan_docs
+2025-10-28 13:17:10 | scripts.extraction_pipeline.utils | INFO | 📂 Found 5 supported files in data/loan_docs
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | INFO | Detected 5 files for extraction: ['data/loan_docs/user-needs.pdf', 'data/loan_docs/empty.pdf', 'data/loan_docs/1. Introduction.pdf', 'data/loan_docs/errors-failure (1).pdf', 'data/loan_docs/corrupt.pdf']
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: data/loan_docs/user-needs.pdf
+2025-10-28 13:17:10 | scripts.extraction_pipeline.utils | INFO | 💾 Saved extracted text → /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/user-needs_20251028_131710.txt | Size: 7965 chars | Time: 0.00s
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | INFO | ✅ Extracted text saved: /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/user-needs_20251028_131710.txt | Time taken: 0.04s
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: data/loan_docs/empty.pdf
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | ERROR | ❌ Error processing empty.pdf: Cannot open empty file: filename='data/loan_docs/empty.pdf'.
+Traceback (most recent call last):
+  File "/Users/kousiknandury/PycharmProjects/DL_project/scripts/extraction_pipeline/main_extractor.py", line 29, in process_single_file
+    extracted_text = extract_text(file_path)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/scripts/extraction_pipeline/extractor_core.py", line 37, in extract_text
+    doc = fitz.open(file_path)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2973, in __init__
+    raise EmptyFileError(f'Cannot open empty file: {filename=}.')
+pymupdf.EmptyFileError: Cannot open empty file: filename='data/loan_docs/empty.pdf'.
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: data/loan_docs/1. Introduction.pdf
+2025-10-28 13:17:10 | scripts.extraction_pipeline.utils | INFO | 💾 Saved extracted text → /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/1. Introduction_20251028_131710.txt | Size: 7725 chars | Time: 0.00s
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | INFO | ✅ Extracted text saved: /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/1. Introduction_20251028_131710.txt | Time taken: 0.23s
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: data/loan_docs/errors-failure (1).pdf
+2025-10-28 13:17:10 | scripts.extraction_pipeline.utils | INFO | 💾 Saved extracted text → /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/errors-failure (1)_20251028_131710.txt | Size: 3943 chars | Time: 0.00s
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | INFO | ✅ Extracted text saved: /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/errors-failure (1)_20251028_131710.txt | Time taken: 0.02s
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: data/loan_docs/corrupt.pdf
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | ERROR | ❌ Error processing corrupt.pdf: Failed to open file 'data/loan_docs/corrupt.pdf'.
+Traceback (most recent call last):
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2986, in __init__
+    doc = mupdf.fz_open_document(filename)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/pymupdf/mupdf.py", line 48462, in fz_open_document
+    return _mupdf.fz_open_document(filename)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/kousiknandury/PycharmProjects/DL_project/scripts/extraction_pipeline/main_extractor.py", line 29, in process_single_file
+    extracted_text = extract_text(file_path)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/scripts/extraction_pipeline/extractor_core.py", line 37, in extract_text
+    doc = fitz.open(file_path)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2989, in __init__
+    raise FileDataError(f'Failed to open file {filename!r}.') from e
+pymupdf.FileDataError: Failed to open file 'data/loan_docs/corrupt.pdf'.
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | INFO | 📊 Extraction Summary — Success: 3, Failed: 2, Duration: 0.31s
+2025-10-28 13:17:10 | scripts.extraction_pipeline.main_extractor | INFO | [✅] Extraction pipeline run complete.

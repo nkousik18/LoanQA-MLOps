@@ -1,0 +1,24 @@
+2025-10-28 12:29:46 | real_data_tests | INFO | 🧩 Logger initialized for TEST → /Users/kousiknandury/PycharmProjects/DL_project/logs/test_logs/test_20251028_122946.log
+2025-10-28 12:29:46 | real_data_tests | INFO | 🚀 Starting Real Data Integration Test Suite.
+2025-10-28 12:29:46 | real_data_tests | INFO | 📄 Found 3 PDF(s). Starting extraction pipeline.
+2025-10-28 12:29:46 | real_data_tests | INFO | 📂 Extracted 6 files → data/clean_texts
+2025-10-28 12:29:46 | real_data_tests | INFO | ✅ Real PDF extraction successful.
+2025-10-28 12:29:46 | real_data_tests | INFO | 🧱 Rebuilding Chroma index...
+2025-10-28 12:29:47 | real_data_tests | INFO | ✅ Chroma index rebuild complete.
+2025-10-28 12:29:47 | real_data_tests | INFO | 💬 Query: What is the interest rate mentioned?
+2025-10-28 12:29:48 | real_data_tests | INFO | 📄 Retrieved 3 docs from vectorstore for query: 'What is the interest rate mentioned?'
+2025-10-28 12:29:48 | real_data_tests | INFO | ✅ Query handled and logged successfully.
+2025-10-28 12:29:48 | real_data_tests | INFO | 💬 Query: Explain the loan repayment period.
+2025-10-28 12:29:48 | real_data_tests | INFO | 📄 Retrieved 3 docs from vectorstore for query: 'Explain the loan repayment period.'
+2025-10-28 12:29:48 | real_data_tests | INFO | ✅ Query handled and logged successfully.
+2025-10-28 12:29:48 | real_data_tests | INFO | 💬 Query: Translate this document into Hindi.
+2025-10-28 12:29:48 | real_data_tests | INFO | 📄 Retrieved 3 docs from vectorstore for query: 'Translate this document into Hindi.'
+2025-10-28 12:29:48 | real_data_tests | INFO | ✅ Query handled and logged successfully.
+2025-10-28 12:29:48 | real_data_tests | INFO | 💬 Query: What is the collateral required?
+2025-10-28 12:29:48 | real_data_tests | INFO | 📄 Retrieved 3 docs from vectorstore for query: 'What is the collateral required?'
+2025-10-28 12:29:48 | real_data_tests | INFO | ✅ Query handled and logged successfully.
+2025-10-28 12:29:48 | real_data_tests | INFO | 🪣 Adding file to index: data/clean_texts/user-needs_20251028_101723.txt
+2025-10-28 12:29:49 | real_data_tests | INFO | ✅ File successfully indexed.
+2025-10-28 12:29:49 | real_data_tests | INFO | ⚙️ Created test files: empty.pdf & corrupt.pdf
+2025-10-28 12:29:49 | real_data_tests | INFO | ✅ Edge case handling verified.
+2025-10-28 12:29:49 | real_data_tests | INFO | 🧾 Verifying log files...

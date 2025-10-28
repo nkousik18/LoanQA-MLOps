@@ -1,31 +1,46 @@
 """
 🧩 Real Data Integration Tests for LoanDocQA+
 =============================================
-This version is fully compatible with your actual pipeline functions.
-It runs end-to-end using real loan PDFs to test:
-    - Extraction (OCR)
-    - Index rebuilding
-    - Retrieval via FastAPI layer
-    - Edge handling (empty/corrupt files)
+Enhanced version with structured logging.
+Logs each test run to: logs/test_logs/real_data_tests.log
 """
 
-import os
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import pytest
-from extraction_pipeline.main_extractor import run_extraction_pipeline
-from LLMquery.build_index import rebuild_vector_index, add_to_index
-from LLMquery.api_server import retriever, cached_retrieval, log_to_csv
+from datetime import datetime
+from scripts.extraction_pipeline.config import setup_logger
+from scripts.extraction_pipeline.main_extractor import run_extraction_pipeline
+from scripts.LLMquery.build_index import rebuild_vector_index, add_to_index
+from scripts.LLMquery.api_server import cached_retrieval, log_to_csv
+
 
 # ============================================================
-# CONFIG (as per your project)
+# CONFIG (as per project structure)
 # ============================================================
 DATA_DIR = "data/loan_docs"
-OUTPUT_DIR = "data/clean_texts"        # ← your extractor’s default
+OUTPUT_DIR = "data/clean_texts"
 INDEX_PATH = "LLMquery/vectorstores/loan_doc_index"
 LOG_PATH = "logs/query_logs.csv"
-
+TEST_LOG_DIR = "logs/test_logs"
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
-os.makedirs("logs", exist_ok=True)
+os.makedirs(TEST_LOG_DIR, exist_ok=True)
+
+# ============================================================
+# GLOBAL LOGGER
+# ============================================================
+# ============================================================
+# GLOBAL LOGGER
+# ============================================================
+test_logger = setup_logger(
+    name="real_data_tests",
+    log_type="test"
+)
+test_logger.info("🚀 Starting Real Data Integration Test Suite.")
+
+
 
 
 # ============================================================
@@ -36,13 +51,16 @@ def test_real_pdf_extraction():
     pdfs = [f for f in os.listdir(DATA_DIR) if f.endswith(".pdf")]
     assert pdfs, "❌ No PDF files found in data/loan_docs — add at least one real loan document."
 
-    print(f"📄 Found {len(pdfs)} PDF(s). Running extraction...")
-    run_extraction_pipeline(DATA_DIR)  # ✅ only one arg in your version
-
-    txt_files = [f for f in os.listdir(OUTPUT_DIR) if f.endswith(".txt")]
-    print(f"📂 Extracted files in {OUTPUT_DIR}: {txt_files}")
-    assert len(txt_files) > 0, "❌ No extracted text files found."
-    print("✅ Real PDF extraction successful.")
+    test_logger.info(f"📄 Found {len(pdfs)} PDF(s). Starting extraction pipeline.")
+    try:
+        run_extraction_pipeline(DATA_DIR)
+        txt_files = [f for f in os.listdir(OUTPUT_DIR) if f.endswith(".txt")]
+        test_logger.info(f"📂 Extracted {len(txt_files)} files → {OUTPUT_DIR}")
+        assert txt_files, "❌ No text files found after extraction."
+        test_logger.info("✅ Real PDF extraction successful.")
+    except Exception as e:
+        test_logger.exception(f"❌ Extraction failed: {e}")
+        raise
 
 
 # ============================================================
@@ -53,9 +71,13 @@ def test_vector_index_rebuild():
     files = [os.path.join(OUTPUT_DIR, f) for f in os.listdir(OUTPUT_DIR) if f.endswith(".txt")]
     assert files, "❌ No text files available for indexing."
 
-    print("🧱 Rebuilding Chroma index...")
-    rebuild_vector_index()  # ✅ matches your current implementation
-    print("✅ Chroma index rebuild complete.")
+    test_logger.info("🧱 Rebuilding Chroma index...")
+    try:
+        rebuild_vector_index()
+        test_logger.info("✅ Chroma index rebuild complete.")
+    except Exception as e:
+        test_logger.exception(f"❌ Index rebuild failed: {e}")
+        raise
 
 
 # ============================================================
@@ -69,26 +91,30 @@ def test_vector_index_rebuild():
 ])
 def test_real_query_responses(query):
     """Ask real queries to cached retriever."""
-    print(f"💬 Query: {query}")
-    docs = cached_retrieval(query)
-    assert isinstance(docs, list)
-    print(f"📄 Retrieved {len(docs)} docs from vectorstore.")
-    assert len(docs) >= 0  # may be empty, but must not crash
+    test_logger.info(f"💬 Query: {query}")
+    try:
+        docs = cached_retrieval(query)
+        assert isinstance(docs, list)
+        test_logger.info(f"📄 Retrieved {len(docs)} docs from vectorstore for query: '{query}'")
 
-    log_to_csv({
-        "timestamp": "test-run",
-        "question": query,
-        "intent": "integration-test",
-        "confidence": "1.0",
-        "gap": "0",
-        "mode": "auto",
-        "response_length": 0,
-        "time_taken_sec": 0,
-        "sources": "mock",
-        "prompt": "mock",
-        "answer": "mock"
-    })
-    print("✅ Query handled and logged successfully.")
+        # Log query to CSV and to test log
+        log_to_csv({
+            "timestamp": datetime.now().isoformat(),
+            "question": query,
+            "intent": "integration-test",
+            "confidence": "1.0",
+            "gap": "0",
+            "mode": "auto",
+            "response_length": 0,
+            "time_taken_sec": 0,
+            "sources": "mock",
+            "prompt": "mock",
+            "answer": "mock"
+        })
+        test_logger.info("✅ Query handled and logged successfully.")
+    except Exception as e:
+        test_logger.exception(f"❌ Query '{query}' failed: {e}")
+        raise
 
 
 # ============================================================
@@ -98,16 +124,22 @@ def test_add_to_index():
     """Add one extracted text file to vector index."""
     files = [os.path.join(OUTPUT_DIR, f) for f in os.listdir(OUTPUT_DIR) if f.endswith(".txt")]
     assert files, "❌ No .txt files found to add."
-    print(f"Adding {files[0]} to index...")
-    result = add_to_index(files[0])
-    assert result is not None
-    print("✅ File successfully indexed.")
+
+    test_logger.info(f"🪣 Adding file to index: {files[0]}")
+    try:
+        result = add_to_index(files[0])
+        assert result is not None
+        test_logger.info("✅ File successfully indexed.")
+    except Exception as e:
+        test_logger.exception(f"❌ Failed to add to index: {e}")
+        raise
 
 
 # ============================================================
 # 5️⃣ Test: Handle empty and corrupt files gracefully
 # ============================================================
 def test_real_edge_cases():
+    """Ensure pipeline handles empty or corrupt PDFs gracefully."""
     empty_pdf = os.path.join(DATA_DIR, "empty.pdf")
     corrupt_pdf = os.path.join(DATA_DIR, "corrupt.pdf")
 
@@ -115,19 +147,35 @@ def test_real_edge_cases():
     with open(corrupt_pdf, "wb") as f:
         f.write(b"\x00\x01garbage")
 
+    test_logger.info("⚙️ Created test files: empty.pdf & corrupt.pdf")
+
     try:
         run_extraction_pipeline(DATA_DIR)
     except Exception as e:
-        print(f"⚠️ Gracefully handled file error: {e.__class__.__name__}")
+        test_logger.warning(f"⚠️ Gracefully handled file error: {e.__class__.__name__}")
 
     assert os.path.exists(empty_pdf)
     assert os.path.exists(corrupt_pdf)
-    print("✅ Edge case handling verified.")
+    test_logger.info("✅ Edge case handling verified.")
 
 
 # ============================================================
 # 6️⃣ Test: Verify logs
 # ============================================================
 def test_logs_exist():
+    """Check if logs exist and are not empty."""
+    test_logger.info("🧾 Verifying log files...")
     assert os.path.exists(LOG_PATH), "❌ logs/query_logs.csv not found."
-    print(f"📊 Log file OK — {os.path.getsize(LOG_PATH)} bytes.")
+
+    # Check for any test log file (timestamped)
+    test_logs = [f for f in os.listdir(TEST_LOG_DIR) if f.startswith("test_") and f.endswith(".log")]
+    assert test_logs, f"❌ No test logs found in {TEST_LOG_DIR}."
+    latest_log = max(test_logs, key=lambda f: os.path.getmtime(os.path.join(TEST_LOG_DIR, f)))
+    size = os.path.getsize(os.path.join(TEST_LOG_DIR, latest_log))
+
+    test_logger.info(f"📊 Found test log: {latest_log} ({size} bytes)")
+    assert size > 0, "❌ Test log file is empty."
+    assert os.path.getsize(LOG_PATH) > 0, "❌ query_logs.csv is empty."
+    test_logger.info("✅ Log verification passed.")
+
+

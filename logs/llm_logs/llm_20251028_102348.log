@@ -1,0 +1,6 @@
+2025-10-28 10:23:48 | __main__ | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_102348.log
+2025-10-28 10:23:48 | __main__ | INFO | [ENTRYPOINT] Loading vectorstore manually for validation...
+2025-10-28 10:23:48 | __main__ | INFO | 📂 Attempting to load Chroma vectorstore from: scripts/LLMquery/vectorstores/loan_doc_index
+2025-10-28 10:23:53 | __main__ | INFO | ✅ Loaded Chroma DB successfully | Entries: 0 | Model: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 10:23:53 | __main__ | INFO | ⏱️ Load time: 4.63s
+2025-10-28 10:23:53 | __main__ | INFO | 🎯 Vectorstore loaded successfully via CLI test.

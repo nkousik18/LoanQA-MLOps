@@ -1,0 +1,10 @@
+2025-10-28 13:49:35 | scripts.LLMquery.api_server | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_134935.log
+2025-10-28 13:49:35 | scripts.LLMquery.api_server | INFO | 🚀 LoanDocQA+ API initialized.
+2025-10-28 13:49:35 | scripts.LLMquery.api_server | INFO | CHROMA_PATH=scripts/LLMquery/vectorstores/local_doc_index, LLM_MODEL=phi3, EMBED_MODEL=sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 13:49:35 | scripts.LLMquery.api_server | INFO | 📂 Loading vectorstore and embeddings...
+2025-10-28 13:49:37 | scripts.LLMquery.api_server | INFO | ✅ Vectorstore ready with 62 entries.
+2025-10-28 13:49:37 | scripts.LLMquery.api_server | INFO | 🧠 Loading LLM model: phi3
+2025-10-28 13:49:37 | scripts.LLMquery.api_server | INFO | ✅ LLM initialized successfully.
+2025-10-28 13:49:39 | scripts.LLMquery.api_server | DEBUG | 🪶 Logged query metadata for 'hello...'
+2025-10-28 13:49:39 | scripts.LLMquery.api_server | DEBUG | 🔍 Cached retrieval called for: 'What is a loan?...'
+2025-10-28 13:49:39 | scripts.LLMquery.api_server | WARNING | ⚠️ Empty query received.

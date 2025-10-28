@@ -1,0 +1,15 @@
+2025-10-28 13:53:19 | scripts.LLMquery.prompts.prompt_router | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_135319.log
+2025-10-28 13:53:21 | scripts.LLMquery.prompts.prompt_router | INFO | 🧠 Prompt Router initialized with model: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 13:53:21 | scripts.LLMquery.prompts.prompt_router | DEBUG | Computing prototype intent embeddings for router...
+2025-10-28 13:53:21 | scripts.LLMquery.prompts.prompt_router | INFO | ✅ Loaded 5 intent categories: ['finance', 'summary', 'translation', 'explanation', 'retrieval']
+2025-10-28 13:53:25 | scripts.LLMquery.prompts.prompt_router | DEBUG | Extracted 1 context chunks.
+2025-10-28 13:53:25 | scripts.LLMquery.prompts.prompt_router | DEBUG | [Keyword Score] finance: 0.67
+2025-10-28 13:53:25 | scripts.LLMquery.prompts.prompt_router | DEBUG | [Numeric Score] 0.00
+2025-10-28 13:53:25 | scripts.LLMquery.prompts.prompt_router | INFO | [Router] Q='loan question...' | Intent='finance' | Confidence=0.529 | Gap=0.423 | Time=0.107s
+2025-10-28 13:53:25 | scripts.LLMquery.prompts.prompt_router | INFO | [Router Decision] Intent='finance' | Confidence=0.529 | Gap=0.423 | ContextLen=9 chars
+2025-10-28 13:53:25 | scripts.LLMquery.prompts.prompt_router | DEBUG | [Keyword Score] finance: 0.67
+2025-10-28 13:53:25 | scripts.LLMquery.prompts.prompt_router | DEBUG | [Numeric Score] 0.00
+2025-10-28 13:53:25 | scripts.LLMquery.prompts.prompt_router | INFO | [Router] Q='loan...' | Intent='finance' | Confidence=0.553 | Gap=0.278 | Time=0.012s
+2025-10-28 13:53:25 | scripts.LLMquery.prompts.prompt_router | DEBUG | [Keyword Score] finance: 0.67
+2025-10-28 13:53:25 | scripts.LLMquery.prompts.prompt_router | DEBUG | [Numeric Score] 0.50
+2025-10-28 13:53:25 | scripts.LLMquery.prompts.prompt_router | DEBUG | Extracted 11 context chunks.

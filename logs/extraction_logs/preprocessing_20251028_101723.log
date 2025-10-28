@@ -1,0 +1,14 @@
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | INFO | 🧩 Logger initialized for PREPROCESSING → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/preprocessing_20251028_101723.log
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: user-needs.pdf
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | INFO | Detected 10 pages in user-needs.pdf
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 1/10 processed (native text extraction) in 0.01s
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 2/10 processed (native text extraction) in 0.00s
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 3/10 processed (native text extraction) in 0.00s
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 4/10 processed (native text extraction) in 0.00s
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 5/10 processed (native text extraction) in 0.00s
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 6/10 processed (native text extraction) in 0.00s
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 7/10 processed (native text extraction) in 0.00s
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 8/10 processed (native text extraction) in 0.00s
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 9/10 processed (native text extraction) in 0.00s
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 10/10 processed (native text extraction) in 0.00s
+2025-10-28 10:17:23 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for user-needs.pdf | Pages: 10 | Time: 0.04s

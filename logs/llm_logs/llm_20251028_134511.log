@@ -1,0 +1,3 @@
+2025-10-28 13:45:11 | scripts.LLMquery.embeddings_index | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_134511.log
+2025-10-28 13:45:19 | scripts.LLMquery.embeddings_index | INFO | 📂 Attempting to load Chroma vectorstore from: index/
+2025-10-28 13:45:19 | scripts.LLMquery.embeddings_index | ERROR | ❌ Vectorstore path not found: index/

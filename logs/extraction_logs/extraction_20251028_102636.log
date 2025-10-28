@@ -1,0 +1,8 @@
+2025-10-28 10:26:36 | scripts.extraction_pipeline.utils | INFO | 🧩 Logger initialized for EXTRACTION → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/extraction_20251028_102636.log
+2025-10-28 10:26:36 | scripts.extraction_pipeline.main_extractor | INFO | 🧩 Logger initialized for EXTRACTION → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/extraction_20251028_102636.log
+2025-10-28 10:26:36 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: data/loan_docs/errors-failure (1).pdf
+2025-10-28 10:26:36 | scripts.extraction_pipeline.utils | INFO | 💾 Saved extracted text → /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/errors-failure (1)_20251028_102636.txt | Size: 3943 chars | Time: 0.00s
+2025-10-28 10:26:36 | scripts.extraction_pipeline.main_extractor | INFO | ✅ Extracted text saved: /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/errors-failure (1)_20251028_102636.txt | Time taken: 0.04s
+2025-10-28 10:29:40 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: data/loan_docs/1. Introduction.pdf
+2025-10-28 10:29:40 | scripts.extraction_pipeline.utils | INFO | 💾 Saved extracted text → /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/1. Introduction_20251028_102940.txt | Size: 7725 chars | Time: 0.00s
+2025-10-28 10:29:40 | scripts.extraction_pipeline.main_extractor | INFO | ✅ Extracted text saved: /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/1. Introduction_20251028_102940.txt | Time taken: 0.24s

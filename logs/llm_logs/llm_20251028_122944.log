@@ -1,0 +1,15 @@
+2025-10-28 12:29:44 | scripts.LLMquery.api_server | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_122944.log
+2025-10-28 12:29:44 | scripts.LLMquery.api_server | INFO | 🚀 LoanDocQA+ API initialized.
+2025-10-28 12:29:44 | scripts.LLMquery.api_server | INFO | CHROMA_PATH=scripts/LLMquery/vectorstores/local_doc_index, LLM_MODEL=phi3, EMBED_MODEL=sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 12:29:44 | scripts.LLMquery.api_server | INFO | 📂 Loading vectorstore and embeddings...
+2025-10-28 12:29:46 | scripts.LLMquery.api_server | INFO | ✅ Vectorstore ready with 3 entries.
+2025-10-28 12:29:46 | scripts.LLMquery.api_server | INFO | 🧠 Loading LLM model: phi3
+2025-10-28 12:29:46 | scripts.LLMquery.api_server | INFO | ✅ LLM initialized successfully.
+2025-10-28 12:29:47 | scripts.LLMquery.api_server | DEBUG | 🔍 Cached retrieval called for: 'What is the interest rate mentioned?...'
+2025-10-28 12:29:48 | scripts.LLMquery.api_server | DEBUG | 🪶 Logged query metadata for 'What is the interest rate mentioned?...'
+2025-10-28 12:29:48 | scripts.LLMquery.api_server | DEBUG | 🔍 Cached retrieval called for: 'Explain the loan repayment period....'
+2025-10-28 12:29:48 | scripts.LLMquery.api_server | DEBUG | 🪶 Logged query metadata for 'Explain the loan repayment period....'
+2025-10-28 12:29:48 | scripts.LLMquery.api_server | DEBUG | 🔍 Cached retrieval called for: 'Translate this document into Hindi....'
+2025-10-28 12:29:48 | scripts.LLMquery.api_server | DEBUG | 🪶 Logged query metadata for 'Translate this document into Hindi....'
+2025-10-28 12:29:48 | scripts.LLMquery.api_server | DEBUG | 🔍 Cached retrieval called for: 'What is the collateral required?...'
+2025-10-28 12:29:48 | scripts.LLMquery.api_server | DEBUG | 🪶 Logged query metadata for 'What is the collateral required?...'

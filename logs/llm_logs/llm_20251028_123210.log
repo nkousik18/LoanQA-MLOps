@@ -1,0 +1,19 @@
+2025-10-28 12:32:10 | scripts.LLMquery.build_index | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_123210.log
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | INFO | 🔄 Rebuilding vector index from extracted documents...
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/user-needs_20251028_101723.txt
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/1. Introduction_20251028_122946.txt
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/errors-failure (1)_20251028_102636.txt
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/errors-failure (1)_20251028_123217.txt
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/user-needs_20251028_122946.txt
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/1. Introduction_20251028_102940.txt
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/errors-failure (1)_20251028_122949.txt
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/errors-failure (1)_20251028_122946.txt
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/user-needs_20251028_122949.txt
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/1. Introduction_20251028_123217.txt
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/1. Introduction_20251028_122949.txt
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/user-needs_20251028_123217.txt
+2025-10-28 12:32:17 | scripts.LLMquery.build_index | INFO | 🧾 Total documents loaded: 12
+2025-10-28 12:32:18 | scripts.LLMquery.build_index | INFO | 📏 Embedding Dimension: 384 | Total Docs: 12
+2025-10-28 12:32:18 | scripts.LLMquery.build_index | INFO | ✅ Rebuilt index with 12 documents in 1.4s.
+2025-10-28 12:32:19 | scripts.LLMquery.build_index | INFO | 🧠 Adding data/clean_texts/user-needs_20251028_101723.txt to existing index...
+2025-10-28 12:32:20 | scripts.LLMquery.build_index | INFO | ✅ Added 1 docs to index from data/clean_texts/user-needs_20251028_101723.txt | Time: 0.05s

@@ -1,0 +1,14 @@
+2025-10-28 13:39:27 | scripts.extraction_pipeline.extractor_core | INFO | 🧩 Logger initialized for PREPROCESSING → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/preprocessing_20251028_133927.log
+2025-10-28 13:39:27 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: dummy.pdf
+2025-10-28 13:39:27 | scripts.extraction_pipeline.extractor_core | INFO | Detected 1 pages in dummy.pdf
+2025-10-28 13:39:27 | scripts.extraction_pipeline.extractor_core | WARNING | [OCR fallback] Page 1 had low text density in dummy.pdf
+2025-10-28 13:39:27 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 1/1 processed (OCR fallback) in 0.00s
+2025-10-28 13:39:27 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for dummy.pdf | Pages: 1 | Time: 0.00s
+2025-10-28 13:39:27 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: loan.pdf
+2025-10-28 13:39:27 | scripts.extraction_pipeline.extractor_core | ERROR | ❌ Extraction failed for loan.pdf: no such file: 'loan.pdf'
+Traceback (most recent call last):
+  File "/Users/kousiknandury/PycharmProjects/DL_project/scripts/extraction_pipeline/extractor_core.py", line 37, in extract_text
+    doc = fitz.open(file_path)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2969, in __init__
+    raise FileNotFoundError(f"no such file: '{filename}'")
+pymupdf.FileNotFoundError: no such file: 'loan.pdf'

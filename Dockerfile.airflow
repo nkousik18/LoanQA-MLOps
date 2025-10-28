@@ -1,16 +1,17 @@
 # ============================================================
-# 🧠  Custom Airflow + PaddleOCR + LangChain + PyMuPDF (ARM-ready)
+# 🧠  Custom Airflow + PaddleOCR + LangChain + PyMuPDF (ARM64 + Python 3.12 Safe)
 # ============================================================
 
 FROM apache/airflow:2.9.1
 
 # ------------------------------------------------------------
-# 🧩 Install system dependencies (root only)
+# 🧩 Install system dependencies
 # ------------------------------------------------------------
 USER root
 RUN apt-get update && apt-get install -y \
     wget git python3-dev libgl1-mesa-glx libglib2.0-0 libgomp1 \
-    libjpeg-dev poppler-utils tesseract-ocr \
+    libjpeg-dev libfreetype6-dev zlib1g-dev pkg-config \
+    poppler-utils tesseract-ocr \
     build-essential cmake g++ && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
@@ -19,20 +20,31 @@ RUN apt-get update && apt-get install -y \
 # ------------------------------------------------------------
 USER airflow
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
-    # ✅ 1. Install PaddlePaddle (ARM CPU mirror)
+    # ✅ 1️⃣ PaddleOCR Stack
     pip install --no-cache-dir -i https://www.paddlepaddle.org.cn/packages/stable/cpu paddlepaddle==2.6.1 && \
-    # ✅ 2. Install PaddleOCR from GitHub
     pip install --no-cache-dir "git+https://github.com/PaddlePaddle/PaddleOCR.git@release/2.8" && \
-    # ✅ 3. Install PyMuPDF + LangChain stack + Sentence Transformers
-    pip install --no-cache-dir --prefer-binary \
-        PyMuPDF==1.24.10 \
+    # ✅ 2️⃣ Direct install of PyMuPDF ARM64 binary (works on Python 3.12)
+    pip install --no-cache-dir \
+      https://github.com/pymupdf/PyMuPDF/releases/download/1.24.10/PyMuPDF-1.24.10-cp312-cp312-linux_aarch64.whl && \
+    # ✅ 3️⃣ LangChain + Embeddings
+    pip install --no-cache-dir \
         "langchain>=0.3.0" \
         "langchain-core>=0.3.0" \
         "langchain-community>=0.3.0" \
         "sentence-transformers==2.6.1" \
         "chromadb==0.5.3" \
         "tiktoken==0.7.0" && \
-    # ✅ 4. Install PyTorch CPU wheels
+    # ✅ 4️⃣ PyTorch CPU wheels
     pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu && \
-    # ✅ 5. Clean pip cache to reduce image size
+    # ✅ 5️⃣ Airflow schema deps
+    pip install --no-cache-dir marshmallow_oneofschema marshmallow_sqlalchemy && \
     pip cache purge
+
+# ------------------------------------------------------------
+# 🚀 Copy scripts and install editable
+# ------------------------------------------------------------
+COPY scripts /opt/airflow/scripts
+WORKDIR /opt/airflow/scripts
+RUN pip install -e .
+
+WORKDIR /opt/airflow

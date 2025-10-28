@@ -1,0 +1,86 @@
+2025-10-28 12:29:39 | scripts.extraction_pipeline.extractor_core | INFO | 🧩 Logger initialized for PREPROCESSING → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/preprocessing_20251028_122939.log
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: user-needs.pdf
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | INFO | Detected 10 pages in user-needs.pdf
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 1/10 processed (native text extraction) in 0.02s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 2/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 3/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 4/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 5/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 6/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 7/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 8/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 9/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 10/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for user-needs.pdf | Pages: 10 | Time: 0.04s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: 1. Introduction.pdf
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | INFO | Detected 6 pages in 1. Introduction.pdf
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 1/6 processed (native text extraction) in 0.09s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 2/6 processed (native text extraction) in 0.02s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 3/6 processed (native text extraction) in 0.02s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 4/6 processed (native text extraction) in 0.01s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 5/6 processed (native text extraction) in 0.03s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 6/6 processed (native text extraction) in 0.01s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for 1. Introduction.pdf | Pages: 6 | Time: 0.18s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: errors-failure (1).pdf
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | INFO | Detected 5 pages in errors-failure (1).pdf
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 1/5 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 2/5 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 3/5 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 4/5 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 5/5 processed (native text extraction) in 0.00s
+2025-10-28 12:29:46 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for errors-failure (1).pdf | Pages: 5 | Time: 0.01s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: user-needs.pdf
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | INFO | Detected 10 pages in user-needs.pdf
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 1/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 2/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 3/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 4/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 5/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 6/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 7/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 8/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 9/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 10/10 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for user-needs.pdf | Pages: 10 | Time: 0.02s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: empty.pdf
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | ERROR | ❌ Extraction failed for empty.pdf: Cannot open empty file: filename='data/loan_docs/empty.pdf'.
+Traceback (most recent call last):
+  File "/Users/kousiknandury/PycharmProjects/DL_project/scripts/extraction_pipeline/extractor_core.py", line 37, in extract_text
+    doc = fitz.open(file_path)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2973, in __init__
+    raise EmptyFileError(f'Cannot open empty file: {filename=}.')
+pymupdf.EmptyFileError: Cannot open empty file: filename='data/loan_docs/empty.pdf'.
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: 1. Introduction.pdf
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | INFO | Detected 6 pages in 1. Introduction.pdf
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 1/6 processed (native text extraction) in 0.08s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 2/6 processed (native text extraction) in 0.02s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 3/6 processed (native text extraction) in 0.02s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 4/6 processed (native text extraction) in 0.01s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 5/6 processed (native text extraction) in 0.03s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 6/6 processed (native text extraction) in 0.01s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for 1. Introduction.pdf | Pages: 6 | Time: 0.17s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: errors-failure (1).pdf
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | INFO | Detected 5 pages in errors-failure (1).pdf
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 1/5 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 2/5 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 3/5 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 4/5 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 5/5 processed (native text extraction) in 0.00s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for errors-failure (1).pdf | Pages: 5 | Time: 0.01s
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: corrupt.pdf
+2025-10-28 12:29:49 | scripts.extraction_pipeline.extractor_core | ERROR | ❌ Extraction failed for corrupt.pdf: Failed to open file 'data/loan_docs/corrupt.pdf'.
+Traceback (most recent call last):
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2986, in __init__
+    doc = mupdf.fz_open_document(filename)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/pymupdf/mupdf.py", line 48462, in fz_open_document
+    return _mupdf.fz_open_document(filename)
+pymupdf.mupdf.FzErrorFormat: code=7: no objects found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/kousiknandury/PycharmProjects/DL_project/scripts/extraction_pipeline/extractor_core.py", line 37, in extract_text
+    doc = fitz.open(file_path)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2989, in __init__
+    raise FileDataError(f'Failed to open file {filename!r}.') from e
+pymupdf.FileDataError: Failed to open file 'data/loan_docs/corrupt.pdf'.
