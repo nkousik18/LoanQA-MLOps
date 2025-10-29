@@ -6,7 +6,7 @@ Airflow DAG for the LoanDoc end-to-end pipeline:
 2. Vector index building
 3. LLM prompt generation
 
-Includes robust logging for each stage.
+Includes robust logging for each stage + anomaly alerts.
 """
 
 import os
@@ -20,13 +20,25 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 
 # ============================================================
-# Import pipeline components (now package-installed)
+# Import pipeline components
 # ============================================================
 from scripts.extraction_pipeline.config import setup_logger
 from scripts.extraction_pipeline.main_extractor import process_single_file
 from scripts.LLMquery.build_index import add_to_index
 from scripts.LLMquery.prompts.prompt_router import build_prompt
 from scripts.LLMquery.prompts.math_utils import evaluate_math
+
+# ============================================================
+# 🆕 Failure Alert Callback (Anomaly Integration)
+# ============================================================
+def notify_failure(context):
+    """Airflow failure alert callback to log anomalies."""
+    task = context.get("task_instance")
+    exception = context.get("exception")
+    anomaly_logger = setup_logger("airflow_alerts", log_type="anomaly")  # 🆕 anomaly log type
+    anomaly_logger.error(
+        f"🚨 Task '{task.task_id}' failed at {context['execution_date']} | DAG: {task.dag_id} | Exception: {exception}"
+    )
 
 # ============================================================
 # DAG Configuration
@@ -38,6 +50,7 @@ default_args = {
     "email_on_retry": False,
     "retries": 1,
     "retry_delay": timedelta(minutes=2),
+    "on_failure_callback": notify_failure,  # 🆕 automatic anomaly logging on task failure
 }
 
 dag = DAG(
@@ -55,6 +68,7 @@ dag = DAG(
 # ============================================================
 def extract_task(**_):
     logger = setup_logger("extract_task", log_type="dag")
+    anomaly_logger = setup_logger("extract_anomaly", log_type="anomaly")  # 🆕
     logger.info("📂 Starting OCR text extraction...")
 
     input_dir = "/opt/airflow/data/loan_docs"
@@ -71,8 +85,11 @@ def extract_task(**_):
                 if out:
                     extracted.append(out)
                     logger.info(f"✅ Extracted → {out}")
+                else:
+                    anomaly_logger.warning(f"⚠️ Empty OCR output for {f}")  # 🆕 anomaly record
             except Exception as e:
                 logger.exception(f"❌ Extraction failed for {f}: {e}")
+                anomaly_logger.error(f"❌ Extraction anomaly for {f}: {e}")  # 🆕 anomaly record
 
     logger.info(f"📊 Extraction Summary → Success: {len(extracted)} files")
     return extracted
@@ -89,6 +106,7 @@ extract_op = PythonOperator(
 # ============================================================
 def index_task(**ctx):
     logger = setup_logger("index_task", log_type="dag")
+    anomaly_logger = setup_logger("index_anomaly", log_type="anomaly")  # 🆕
     logger.info("🔗 Starting vector index update...")
 
     files = ctx["ti"].xcom_pull(task_ids="extract_text") or []
@@ -102,6 +120,9 @@ def index_task(**ctx):
                 logger.info(f"✅ Indexed → {f}")
             except Exception as e:
                 logger.exception(f"❌ Failed to index {f}: {e}")
+                anomaly_logger.error(f"❌ Vectorization anomaly for {f}: {e}")  # 🆕
+        else:
+            anomaly_logger.warning(f"⚠️ Missing file reference: {f}")  # 🆕
 
     logger.info(f"📊 Vector Index Summary → Updated: {updated}")
     return updated
@@ -118,6 +139,7 @@ index_op = PythonOperator(
 # ============================================================
 def llm_task():
     logger = setup_logger("llm_task", log_type="dag")
+    anomaly_logger = setup_logger("llm_anomaly", log_type="anomaly")  # 🆕
     logger.info("🧠 Generating LLM prompt...")
 
     from langchain_core.documents import Document
@@ -131,11 +153,15 @@ def llm_task():
                 text = f.read().strip()
             docs.append(Document(page_content=text, metadata={"source": os.path.basename(path)}))
             logger.debug(f"📄 Loaded: {os.path.basename(path)} ({len(text)} chars)")
+            if len(text) < 40:
+                anomaly_logger.warning(f"⚠️ Low text length anomaly: {os.path.basename(path)}")  # 🆕
         except Exception as e:
             logger.exception(f"⚠️ Failed to load {path}: {e}")
+            anomaly_logger.error(f"❌ Read failure anomaly for {path}: {e}")  # 🆕
 
     if not docs:
         logger.error("❌ No text files found for LLM processing.")
+        anomaly_logger.error("🚨 No valid text files available for LLM stage.")  # 🆕
         raise ValueError("No text files found for LLM processing.")
 
     q = "Can I postpone my federal loan payments?"
@@ -149,8 +175,12 @@ def llm_task():
         logger.info(f"🧭 Intent → {intent} | Confidence → {conf:.3f} | Gap → {gap:.3f}")
         logger.info(f"🧮 Math sanity check → {math_check}")
 
+        if conf < 0.6:  # 🆕 Semantic anomaly threshold
+            anomaly_logger.warning(f"⚠️ Low confidence anomaly (Intent={intent}, Conf={conf:.2f})")
+
     except Exception as e:
         logger.exception(f"❌ LLM task failed: {e}")
+        anomaly_logger.error(f"🚨 LLM processing anomaly: {e}")  # 🆕
         raise e
 
 

@@ -1,28 +1,17 @@
 timestamp,question,intent,confidence,gap,mode,response_length,time_taken_sec,sources,prompt,answer
-2025-10-28T10:36:09.989402,summarize the contents of Introduction document,summary,0.513,0.359,auto,960,67.81,"**/Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/1. Introduction_20251028_102940.txt** — === PAGE 1 === This project focuses on digitizing unstructured documents (PDFs or scanned uploads) and empowering users through translation, voice assistance, and an interactive chatbot. Users can upload documents, have them digitized and structured, and interactively learn about any word or sentence by clicking on it—triggering a right-side panel with explanations, translations, or voice playback...  **data/clean_texts/user-needs_20251028_101723.txt** — === PAGE 1 === pair.withgoogle.com/guidebook User Needs + Defining Success Chapter worksheet Instructions Block out time to get as many cross-functional leadsas possible together in a room to work through these exercises & checklists. Exercises 1. Evidence of user need [multiple sessions] Gather existing research and make a case for usingAI to solve your user need. 2. Augmentation versus automatio...  **/Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/errors-failure (1)_20251028_102636.txt** — === PAGE 1 === pair.withgoogle.com/guidebook Errors + Grace Failure Chapter worksheet Instructions Block out time to get as many cross-functional leadsas possible together in a room to work through these exercises & checklists. Exercises 1. Error audit [~1 hour] Collect canonical error examples to define existingand potential errors and solutions. 2. Quality assurance [~30 minutes] Prioritize how ...","You are LoanDocQA+, an advanced summarization and insight-extraction model,
-trained to read long government or policy documents and deliver structured, readable summaries.
+2025-10-28T15:57:59.676703,what is the introduction pdf talking about,retrieval,0.247,0.11,auto,671,39.47,"**/Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/1. Introduction_20251028_155541.txt** — === PAGE 1 === This project focuses on digitizing unstructured documents (PDFs or scanned uploads) and empowering users through translation, voice assistance, and an interactive chatbot. Users can upload documents, have them digitized and structured, and interactively learn about any word or sentence by clicking on it—triggering a right-side panel with explanations, translations, or voice playback...","You are LoanDocQA+, a factual retrieval assistant that answers questions accurately based on
+the provided document context.
 
-### Objective
-Read the document context carefully and summarize it in 4–7 clear, information-dense bullet points.
-Focus on clarity, key facts, and user relevance.
+### Your Responsibilities
+- Extract relevant facts only from the text below.
+- If the document does not include the answer, clearly state:
+  ""The document does not specify this information.""
+- Answer in 1–3 sentences max.
+- Maintain a professional, factual tone (no speculation).
 
-### Guidance
-- Capture the main ideas, not just text snippets.
-- Extract all main headings and their sub-points.
-- Avoid adding analytical or advisory text.
-- Maintain factual order as in the document.
-- Use short, crisp sentences (1–2 lines per point).
-- Highlight critical details like repayment terms, eligibility, interest rules, or exceptions.
-- Maintain a professional tone, similar to official education or banking sources.
-- End with one sentence giving overall context or user recommendation if relevant.
-
-### Example Output:
-**Summary of Federal Loan Repayment Plans**
-- Repayment begins once the borrower leaves school or drops below half-time enrollment.  
-- Standard, Graduated, and Income-Driven Plans available.  
-- Borrowers can apply for deferment or forbearance during hardship.  
-- PLUS Loans available to parents for full cost of attendance.  
-- Interest rates are fixed and set annually by the U.S. Department of Education.  
+### Example:
+**User:** When does repayment start for Direct PLUS Loans?  
+**You:** Repayment typically begins within 60 days of the final disbursement unless the borrower requests deferment while the student is enrolled.
 
 Context:
 === PAGE 1 ===
@@ -89,12 +78,26 @@ Unstructured documents are hard to search, analyze, or understand.
 Language barriers and complex terms hinder user comprehension.
 Lack of interactive, accessible tools for document education.
 b) Current Solutions
-Basic OCR tools extra","The introduction document provides a comprehensive guidebook for setting up and executing user needs + graceful failure, errors+graceful recovery exerty sessions within cross-functional teams. It includes detailed instructions on conducting an error audit to define existing and potential errors along with their solutions by using the provided template that categorizes errors based on rationale, solution type, feedback mechanisms, user control options, etc. Additionally, it emphasizes prioritizing quality assurance methods for monitoring these errors through various channels like customer service reports, social media, in-product metrics, surveys, and research to ensure early detection and continuous improvement of the AI model based on real user experiences. The document also stresses scheduling regular reviews with defined frequencies using a QA template that includes goals, review frequency, methods, start dates, and end dates for each session."
-2025-10-28T12:29:48.014015,What is the interest rate mentioned?,integration-test,1.0,0,auto,0,0,mock,mock,mock
-2025-10-28T12:29:48.026925,Explain the loan repayment period.,integration-test,1.0,0,auto,0,0,mock,mock,mock
-2025-10-28T12:29:48.066747,Translate this document into Hindi.,integration-test,1.0,0,auto,0,0,mock,mock,mock
-2025-10-28T12:29:48.085707,What is the collateral required?,integration-test,1.0,0,auto,0,0,mock,mock,mock
-2025-10-28T12:32:19.032081,What is the interest rate mentioned?,integration-test,1.0,0,auto,0,0,mock,mock,mock
-2025-10-28T12:32:19.046358,Explain the loan repayment period.,integration-test,1.0,0,auto,0,0,mock,mock,mock
-2025-10-28T12:32:19.084372,Translate this document into Hindi.,integration-test,1.0,0,auto,0,0,mock,mock,mock
-2025-10-28T12:32:19.094179,What is the collateral required?,integration-test,1.0,0,auto,0,0,mock,mock,mock
+Basic OCR tools extract text but lack translation or explanation features.
+Some web apps offer translation, but not interactive explanations or voice assistance.
+No seamless browser-based solution for real-time document education.
+
+
+=== PAGE 3 ===
+Flowchart:
+Bottlenecks:
+Improvements:
+c) Proposed Solutions
+Digitize and structure documents using OCR and NLP.
+Provide instant translation, voice playback, and chatbot explanations for any selected text.
+Deliver as a web dashboard for easy access and integration (Chrome extension in future
+scope).
+6. Current Approach Flowchart and Bottleneck
+Detection
+1. User uploads PDF/scanned document
+2. OCR extracts text and structure
+3. ","The introductory document discusses a project aimed at digitizing unstructured documents, such as PDFs or scanned images (JPG/PNG), and making them interactive for users through translation, voice assistance, and an integrated chatbot. The goal is to empower users by allowing them to upload their own documents which will then be structured and made searchable with the ability to interactively learn about any word or sentence within a document via right-side panel explanations, translations, or audio playbacks. This solution intends to deliver as an accessible web dashboard while considering future expansion through a Chrome extension for additional functionality."
+2025-10-28T16:28:22.742199,What is the interest rate mentioned?,integration-test,1.0,0,auto,0,0,mock,mock,mock
+2025-10-28T16:28:22.753687,Explain the loan repayment period.,integration-test,1.0,0,auto,0,0,mock,mock,mock
+2025-10-28T16:28:22.788040,Translate this document into Hindi.,integration-test,1.0,0,auto,0,0,mock,mock,mock
+2025-10-28T16:28:22.798741,What is the collateral required?,integration-test,1.0,0,auto,0,0,mock,mock,mock

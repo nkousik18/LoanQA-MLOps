@@ -15,6 +15,10 @@ from airflow.models import DAG
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from scripts.extraction_pipeline.config import setup_logger
+ROOT_DIR = os.path.dirname(os.path.dirname(__file__))
+os.chdir(ROOT_DIR)
+sys.path.append(ROOT_DIR)
+
 
 # ============================================================
 # Logger Setup
@@ -40,6 +44,8 @@ def import_dag_file(filepath):
     dags = [v for v in vars(module).values() if isinstance(v, DAG)]
     return dags
 
+if not os.path.exists("dags"):
+    pytest.skip("❌ 'dags/' directory not found — skipping DAG integrity tests.")
 
 # ============================================================
 # 1️⃣ DAG Integrity

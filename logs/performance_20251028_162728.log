@@ -1,0 +1,19 @@
+2025-10-28 16:27:28 | performance_tests | INFO | 🧩 Logger initialized for PERFORMANCE → /Users/kousiknandury/PycharmProjects/DL_project/logs/performance_20251028_162728.log
+2025-10-28 16:27:28 | performance_tests | INFO | 🚀 Starting Performance Benchmark Suite
+2025-10-28 16:27:28 | performance_tests | INFO | 🧾 Starting OCR extraction for 2 PDF(s)...
+2025-10-28 16:27:29 | performance_tests | INFO | ✅ OCR_Extraction: 0.19s | 626.5 files/min | Files: 2 | Desc: OCR extraction for 2 PDFs
+2025-10-28 16:27:29 | performance_tests | INFO | ✅ OCR extraction completed in 0.19s.
+2025-10-28 16:27:29 | performance_tests | INFO | 🔗 Rebuilding vector index from 3 text files...
+2025-10-28 16:27:30 | performance_tests | INFO | ✅ Vector_Index_Rebuild: 1.14s | 158.49 files/min | Files: 3 | Desc: Embedding + persistence of extracted docs
+2025-10-28 16:27:30 | performance_tests | INFO | ✅ Vector index rebuild took 1.14s.
+2025-10-28 16:27:30 | performance_tests | INFO | 💬 Measuring retrieval latency for: 'What is the interest rate mentioned?'
+2025-10-28 16:27:30 | performance_tests | INFO | ✅ Retrieval_Latency: 0.04s | 4348.97 files/min | Files: 3 | Desc: Query='What is the interest rate ment...'
+2025-10-28 16:27:30 | performance_tests | INFO | ✅ Retrieval latency for 'What is the interest rate mentioned?' = 0.04s.
+2025-10-28 16:27:30 | performance_tests | INFO | 💬 Measuring retrieval latency for: 'Explain the loan repayment period.'
+2025-10-28 16:27:30 | performance_tests | INFO | ✅ Retrieval_Latency: 0.01s | 15301.78 files/min | Files: 3 | Desc: Query='Explain the loan repayment per...'
+2025-10-28 16:27:30 | performance_tests | INFO | ✅ Retrieval latency for 'Explain the loan repayment period.' = 0.01s.
+2025-10-28 16:27:30 | performance_tests | INFO | 💬 Measuring retrieval latency for: 'What is the collateral required?'
+2025-10-28 16:27:30 | performance_tests | INFO | ✅ Retrieval_Latency: 0.04s | 4843.59 files/min | Files: 3 | Desc: Query='What is the collateral require...'
+2025-10-28 16:27:30 | performance_tests | INFO | ✅ Retrieval latency for 'What is the collateral required?' = 0.04s.
+2025-10-28 16:27:30 | performance_tests | INFO | ✅ Pipeline_Throughput: 1.33s | 225.56 files/min | Files: 5 | Desc: End-to-end extraction + indexing
+2025-10-28 16:27:30 | performance_tests | INFO | 🚀 Overall Throughput: 225.56 files/minute

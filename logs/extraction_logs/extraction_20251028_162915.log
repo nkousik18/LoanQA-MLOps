@@ -1,0 +1,22 @@
+2025-10-28 16:29:15 | scripts.extraction_pipeline.utils | INFO | 🧩 Logger initialized for EXTRACTION → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/extraction_20251028_162915.log
+2025-10-28 16:29:15 | scripts.extraction_pipeline.main_extractor | INFO | 🧩 Logger initialized for EXTRACTION → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/extraction_20251028_162915.log
+2025-10-28 16:29:15 | scripts.extraction_pipeline.postprocessor | INFO | 🧩 Logger initialized for EXTRACTION → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/extraction_20251028_162915.log
+2025-10-28 16:29:21 | scripts.extraction_pipeline.postprocessor | DEBUG | Starting text postprocessing and normalization.
+2025-10-28 16:29:21 | scripts.extraction_pipeline.postprocessor | INFO | ✅ Postprocessing complete | Input length: 23 | Output length: 18 | Time: 0.00s
+2025-10-28 16:29:21 | scripts.extraction_pipeline.utils | INFO | 💾 Saved extracted text → /private/var/folders/lp/4q0qj00n31x_gc0q_wdcm5hr0000gn/T/pytest-of-kousiknandury/pytest-34/test_save_text_creates_file0/loan_doc_20251028_162921.txt | Size: 4 chars | Time: 0.00s
+2025-10-28 16:29:21 | scripts.extraction_pipeline.utils | INFO | 📂 Found 0 supported files in /private/var/folders/lp/4q0qj00n31x_gc0q_wdcm5hr0000gn/T/pytest-of-kousiknandury/pytest-34/test_list_files0
+2025-10-28 16:29:21 | scripts.extraction_pipeline.utils | INFO | 📂 Found 2 supported files in /private/var/folders/lp/4q0qj00n31x_gc0q_wdcm5hr0000gn/T/pytest-of-kousiknandury/pytest-34/test_list_files0
+2025-10-28 16:29:21 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: loan.pdf
+2025-10-28 16:29:21 | scripts.extraction_pipeline.main_extractor | ERROR | ❌ Error processing loan.pdf: no such file: 'loan.pdf'
+Traceback (most recent call last):
+  File "/Users/kousiknandury/PycharmProjects/DL_project/scripts/extraction_pipeline/main_extractor.py", line 29, in process_single_file
+    extracted_text = extract_text(file_path)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/scripts/extraction_pipeline/extractor_core.py", line 37, in extract_text
+    doc = fitz.open(file_path)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2969, in __init__
+    raise FileNotFoundError(f"no such file: '{filename}'")
+pymupdf.FileNotFoundError: no such file: 'loan.pdf'
+2025-10-28 16:29:21 | scripts.extraction_pipeline.main_extractor | INFO | Starting extraction pipeline on directory: data/
+2025-10-28 16:29:21 | scripts.extraction_pipeline.main_extractor | INFO | Detected 2 files for extraction: ['a.pdf', 'b.pdf']
+2025-10-28 16:29:21 | scripts.extraction_pipeline.main_extractor | INFO | 📊 Extraction Summary — Success: 2, Failed: 0, Duration: 0.00s
+2025-10-28 16:29:21 | scripts.extraction_pipeline.main_extractor | INFO | [✅] Extraction pipeline run complete.

@@ -30,8 +30,11 @@ LLM_LOG_DIR = os.path.join(LOG_DIR, "llm_logs")
 DAG_LOG_DIR = os.path.join(LOG_DIR, "dag_logs")
 TEST_LOG_DIR = os.path.join(LOG_DIR, "test_logs")
 
+# 🆕 New anomaly-specific log folder
+ANOMALY_LOG_DIR = os.path.join(LOG_DIR, "anomaly_logs")
+
 # Create all log subfolders
-for d in [LOG_DIR, EXTRACTION_LOG_DIR, LLM_LOG_DIR, DAG_LOG_DIR, TEST_LOG_DIR]:
+for d in [LOG_DIR, EXTRACTION_LOG_DIR, LLM_LOG_DIR, DAG_LOG_DIR, TEST_LOG_DIR, ANOMALY_LOG_DIR]:  # 🆕
     os.makedirs(d, exist_ok=True)
 
 # Global constants
@@ -51,7 +54,7 @@ print(f"[CONFIG] Log Directory    : {LOG_DIR}")
 def setup_logger(name: str, log_type: str = "extraction") -> Logger:
     """
     Initializes and returns a centralized logger.
-    log_type options → 'extraction', 'llm', 'dag', 'test', 'preprocessing'
+    log_type options → 'extraction', 'llm', 'dag', 'test', 'preprocessing', 'anomaly'
     Each type goes into its own subdirectory under /logs/.
     """
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -63,13 +66,18 @@ def setup_logger(name: str, log_type: str = "extraction") -> Logger:
         "dag": DAG_LOG_DIR,
         "test": TEST_LOG_DIR,
         "preprocessing": EXTRACTION_LOG_DIR,  # ✅ send preprocessing logs to extraction_logs folder
+        "anomaly": ANOMALY_LOG_DIR,           # 🆕 dedicated anomaly logging
     }
 
     # Pick the correct folder; fallback to base /logs/ if undefined
     target_dir = log_subdir_map.get(log_type.lower(), LOG_DIR)
     os.makedirs(target_dir, exist_ok=True)
 
-    log_file = os.path.join(target_dir, f"{log_type}_{timestamp}.log")
+    # 🆕 File naming convention for anomaly logs
+    if log_type.lower() == "anomaly":
+        log_file = os.path.join(target_dir, f"anomaly_{timestamp}.log")
+    else:
+        log_file = os.path.join(target_dir, f"{log_type}_{timestamp}.log")
 
     # Configure logger
     logger = logging.getLogger(name)

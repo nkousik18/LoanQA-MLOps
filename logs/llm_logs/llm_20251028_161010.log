@@ -1,0 +1,7 @@
+2025-10-28 16:10:10 | scripts.LLMquery.embeddings_index | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_161010.log
+2025-10-28 16:10:29 | scripts.LLMquery.embeddings_index | INFO | 📂 Attempting to load Chroma vectorstore from: /private/var/folders/lp/4q0qj00n31x_gc0q_wdcm5hr0000gn/T/pytest-of-kousiknandury/pytest-28/test_load_vectorstore0/index
+2025-10-28 16:10:30 | scripts.LLMquery.embeddings_index | INFO | ✅ Loaded Chroma DB successfully | Entries: 0 | Model: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 16:10:30 | scripts.LLMquery.embeddings_index | INFO | ⏱️ Load time: 1.2s
+2025-10-28 16:10:32 | scripts.LLMquery.embeddings_index | INFO | 📂 Attempting to load Chroma vectorstore from: /private/var/folders/lp/4q0qj00n31x_gc0q_wdcm5hr0000gn/T/pytest-of-kousiknandury/pytest-28/test_load_vectorstore_empty_di0
+2025-10-28 16:10:33 | scripts.LLMquery.embeddings_index | INFO | ✅ Loaded Chroma DB successfully | Entries: 0 | Model: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 16:10:33 | scripts.LLMquery.embeddings_index | INFO | ⏱️ Load time: 1.0s

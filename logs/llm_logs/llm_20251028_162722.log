@@ -1,0 +1,8 @@
+2025-10-28 16:27:22 | scripts.LLMquery.build_index | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_162722.log
+2025-10-28 16:27:29 | scripts.LLMquery.build_index | INFO | 🔄 Rebuilding vector index from extracted documents...
+2025-10-28 16:27:29 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/1. Introduction_20251028_162729.txt
+2025-10-28 16:27:29 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/1. Introduction_20251028_155541.txt
+2025-10-28 16:27:29 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/user-needs_20251028_162729.txt
+2025-10-28 16:27:29 | scripts.LLMquery.build_index | INFO | 🧾 Total documents loaded: 3
+2025-10-28 16:27:30 | scripts.LLMquery.build_index | INFO | 📏 Embedding Dimension: 384 | Total Docs: 3
+2025-10-28 16:27:30 | scripts.LLMquery.build_index | INFO | ✅ Rebuilt index with 3 documents in 1.08s.

@@ -1,0 +1,13 @@
+2025-10-28 16:27:22 | scripts.extraction_pipeline.utils | INFO | 🧩 Logger initialized for EXTRACTION → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/extraction_20251028_162722.log
+2025-10-28 16:27:22 | scripts.extraction_pipeline.main_extractor | INFO | 🧩 Logger initialized for EXTRACTION → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/extraction_20251028_162722.log
+2025-10-28 16:27:29 | scripts.extraction_pipeline.main_extractor | INFO | Starting extraction pipeline on directory: data/loan_docs
+2025-10-28 16:27:29 | scripts.extraction_pipeline.utils | INFO | 📂 Found 2 supported files in data/loan_docs
+2025-10-28 16:27:29 | scripts.extraction_pipeline.main_extractor | INFO | Detected 2 files for extraction: ['data/loan_docs/user-needs.pdf', 'data/loan_docs/1. Introduction.pdf']
+2025-10-28 16:27:29 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: data/loan_docs/user-needs.pdf
+2025-10-28 16:27:29 | scripts.extraction_pipeline.utils | INFO | 💾 Saved extracted text → /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/user-needs_20251028_162729.txt | Size: 7965 chars | Time: 0.00s
+2025-10-28 16:27:29 | scripts.extraction_pipeline.main_extractor | INFO | ✅ Extracted text saved: /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/user-needs_20251028_162729.txt | Time taken: 0.03s
+2025-10-28 16:27:29 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: data/loan_docs/1. Introduction.pdf
+2025-10-28 16:27:29 | scripts.extraction_pipeline.utils | INFO | 💾 Saved extracted text → /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/1. Introduction_20251028_162729.txt | Size: 7725 chars | Time: 0.00s
+2025-10-28 16:27:29 | scripts.extraction_pipeline.main_extractor | INFO | ✅ Extracted text saved: /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/1. Introduction_20251028_162729.txt | Time taken: 0.16s
+2025-10-28 16:27:29 | scripts.extraction_pipeline.main_extractor | INFO | 📊 Extraction Summary — Success: 2, Failed: 0, Duration: 0.19s
+2025-10-28 16:27:29 | scripts.extraction_pipeline.main_extractor | INFO | [✅] Extraction pipeline run complete.

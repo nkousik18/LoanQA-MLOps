@@ -1,0 +1,29 @@
+2025-10-28 16:13:39 | scripts.extraction_pipeline.extractor_core | INFO | 🧩 Logger initialized for PREPROCESSING → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/preprocessing_20251028_161339.log
+2025-10-28 16:13:43 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: empty.pdf
+2025-10-28 16:13:43 | scripts.extraction_pipeline.extractor_core | INFO | Detected 0 pages in empty.pdf
+2025-10-28 16:13:43 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for empty.pdf | Pages: 0 | Time: 0.00s
+2025-10-28 16:13:43 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: corrupt.pdf
+2025-10-28 16:13:43 | scripts.extraction_pipeline.extractor_core | ERROR | ❌ Extraction failed for corrupt.pdf: Corrupted file
+Traceback (most recent call last):
+  File "/Users/kousiknandury/PycharmProjects/DL_project/scripts/extraction_pipeline/extractor_core.py", line 37, in extract_text
+    doc = fitz.open(file_path)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/tests/test_edge_cases.py", line 93, in <lambda>
+    monkeypatch.setattr("fitz.open", lambda f: (_ for _ in ()).throw(RuntimeError("Corrupted file")))
+  File "/Users/kousiknandury/PycharmProjects/DL_project/tests/test_edge_cases.py", line 93, in <genexpr>
+    monkeypatch.setattr("fitz.open", lambda f: (_ for _ in ()).throw(RuntimeError("Corrupted file")))
+RuntimeError: Corrupted file
+2025-10-28 16:13:43 | scripts.extraction_pipeline.extractor_core | INFO | 🖼️ Running OCR on image: loan_form.jpeg
+2025-10-28 16:13:43 | scripts.extraction_pipeline.extractor_core | INFO | ✅ OCR completed for image loan_form.jpeg in 0.00s
+2025-10-28 16:13:44 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: dummy.pdf
+2025-10-28 16:13:44 | scripts.extraction_pipeline.extractor_core | INFO | Detected 1 pages in dummy.pdf
+2025-10-28 16:13:44 | scripts.extraction_pipeline.extractor_core | WARNING | [OCR fallback] Page 1 had low text density in dummy.pdf
+2025-10-28 16:13:44 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 1/1 processed (OCR fallback) in 0.00s
+2025-10-28 16:13:44 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for dummy.pdf | Pages: 1 | Time: 0.00s
+2025-10-28 16:13:44 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: loan.pdf
+2025-10-28 16:13:44 | scripts.extraction_pipeline.extractor_core | ERROR | ❌ Extraction failed for loan.pdf: no such file: 'loan.pdf'
+Traceback (most recent call last):
+  File "/Users/kousiknandury/PycharmProjects/DL_project/scripts/extraction_pipeline/extractor_core.py", line 37, in extract_text
+    doc = fitz.open(file_path)
+  File "/Users/kousiknandury/PycharmProjects/DL_project/.venv/lib/python3.9/site-packages/pymupdf/__init__.py", line 2969, in __init__
+    raise FileNotFoundError(f"no such file: '{filename}'")
+pymupdf.FileNotFoundError: no such file: 'loan.pdf'

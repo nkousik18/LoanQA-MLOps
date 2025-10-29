@@ -1,0 +1,3 @@
+2025-10-28 16:40:39 | scripts.extraction_pipeline.postprocessor | INFO | 🧩 Logger initialized for EXTRACTION → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/extraction_20251028_164039.log
+2025-10-28 16:40:44 | scripts.extraction_pipeline.postprocessor | DEBUG | Starting text postprocessing and normalization.
+2025-10-28 16:40:44 | scripts.extraction_pipeline.postprocessor | INFO | ✅ Postprocessing complete | Input length: 23 | Output length: 18 | Time: 0.00s

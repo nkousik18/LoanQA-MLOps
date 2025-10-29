@@ -1,4 +1,0 @@
-2025-10-28 10:25:20 | __main__ | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_102520.log
-2025-10-28 10:25:21 | __main__ | INFO | 🧠 Prompt Router initialized with model: sentence-transformers/all-MiniLM-L6-v2
-2025-10-28 10:25:21 | __main__ | DEBUG | Computing prototype intent embeddings for router...
-2025-10-28 10:25:22 | __main__ | INFO | ✅ Loaded 5 intent categories: ['finance', 'summary', 'translation', 'explanation', 'retrieval']

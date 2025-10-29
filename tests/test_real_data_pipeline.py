@@ -6,24 +6,29 @@ Logs each test run to: logs/test_logs/real_data_tests.log
 """
 
 import sys, os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-import pytest
 from datetime import datetime
+import pytest
+
+# ============================================================
+# Ensure correct working directory and imports
+# ============================================================
+ROOT_DIR = os.path.dirname(os.path.dirname(__file__))
+os.chdir(ROOT_DIR)
+sys.path.append(ROOT_DIR)
+
 from scripts.extraction_pipeline.config import setup_logger
 from scripts.extraction_pipeline.main_extractor import run_extraction_pipeline
 from scripts.LLMquery.build_index import rebuild_vector_index, add_to_index
 from scripts.LLMquery.api_server import cached_retrieval, log_to_csv
 
+# ============================================================
+# CONFIGURATION (project structure aware)
+# ============================================================
+DATA_DIR = os.path.join("data", "loan_docs")
+OUTPUT_DIR = os.path.join("data", "clean_texts")
+LOG_PATH = os.path.join("logs", "query_logs.csv")
+TEST_LOG_DIR = os.path.join("logs", "test_logs")
 
-# ============================================================
-# CONFIG (as per project structure)
-# ============================================================
-DATA_DIR = "data/loan_docs"
-OUTPUT_DIR = "data/clean_texts"
-INDEX_PATH = "LLMquery/vectorstores/loan_doc_index"
-LOG_PATH = "logs/query_logs.csv"
-TEST_LOG_DIR = "logs/test_logs"
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(TEST_LOG_DIR, exist_ok=True)
@@ -31,27 +36,19 @@ os.makedirs(TEST_LOG_DIR, exist_ok=True)
 # ============================================================
 # GLOBAL LOGGER
 # ============================================================
-# ============================================================
-# GLOBAL LOGGER
-# ============================================================
-test_logger = setup_logger(
-    name="real_data_tests",
-    log_type="test"
-)
+test_logger = setup_logger(name="real_data_tests", log_type="test")
 test_logger.info("🚀 Starting Real Data Integration Test Suite.")
 
 
-
-
 # ============================================================
-# 1️⃣ Test: Run real extraction
+# 1️⃣ Real OCR Extraction
 # ============================================================
 def test_real_pdf_extraction():
-    """Run real OCR extraction on PDFs."""
+    """Run OCR extraction on real PDFs."""
     pdfs = [f for f in os.listdir(DATA_DIR) if f.endswith(".pdf")]
-    assert pdfs, "❌ No PDF files found in data/loan_docs — add at least one real loan document."
+    assert pdfs, "❌ No PDFs found in data/loan_docs."
 
-    test_logger.info(f"📄 Found {len(pdfs)} PDF(s). Starting extraction pipeline.")
+    test_logger.info(f"📄 Found {len(pdfs)} PDF(s). Starting extraction pipeline...")
     try:
         run_extraction_pipeline(DATA_DIR)
         txt_files = [f for f in os.listdir(OUTPUT_DIR) if f.endswith(".txt")]
@@ -64,14 +61,14 @@ def test_real_pdf_extraction():
 
 
 # ============================================================
-# 2️⃣ Test: Rebuild vector index on extracted text
+# 2️⃣ Vector Index Rebuild
 # ============================================================
 def test_vector_index_rebuild():
-    """Rebuild Chroma index using extracted text data."""
+    """Rebuild Chroma index using extracted text files."""
     files = [os.path.join(OUTPUT_DIR, f) for f in os.listdir(OUTPUT_DIR) if f.endswith(".txt")]
     assert files, "❌ No text files available for indexing."
 
-    test_logger.info("🧱 Rebuilding Chroma index...")
+    test_logger.info(f"🧱 Rebuilding Chroma index from {len(files)} files...")
     try:
         rebuild_vector_index()
         test_logger.info("✅ Chroma index rebuild complete.")
@@ -81,7 +78,7 @@ def test_vector_index_rebuild():
 
 
 # ============================================================
-# 3️⃣ Test: Real document retrieval
+# 3️⃣ Retrieval Queries
 # ============================================================
 @pytest.mark.parametrize("query", [
     "What is the interest rate mentioned?",
@@ -90,14 +87,14 @@ def test_vector_index_rebuild():
     "What is the collateral required?",
 ])
 def test_real_query_responses(query):
-    """Ask real queries to cached retriever."""
+    """Validate retrieval responses for real queries."""
     test_logger.info(f"💬 Query: {query}")
     try:
         docs = cached_retrieval(query)
         assert isinstance(docs, list)
-        test_logger.info(f"📄 Retrieved {len(docs)} docs from vectorstore for query: '{query}'")
+        test_logger.info(f"📄 Retrieved {len(docs)} docs for query: '{query}'")
 
-        # Log query to CSV and to test log
+        # Log query to CSV
         log_to_csv({
             "timestamp": datetime.now().isoformat(),
             "question": query,
@@ -118,10 +115,10 @@ def test_real_query_responses(query):
 
 
 # ============================================================
-# 4️⃣ Test: Add a single extracted file to index
+# 4️⃣ Add Single File to Index
 # ============================================================
 def test_add_to_index():
-    """Add one extracted text file to vector index."""
+    """Add one extracted text file to the vector index."""
     files = [os.path.join(OUTPUT_DIR, f) for f in os.listdir(OUTPUT_DIR) if f.endswith(".txt")]
     assert files, "❌ No .txt files found to add."
 
@@ -136,10 +133,10 @@ def test_add_to_index():
 
 
 # ============================================================
-# 5️⃣ Test: Handle empty and corrupt files gracefully
+# 5️⃣ Handle Empty & Corrupt PDFs
 # ============================================================
 def test_real_edge_cases():
-    """Ensure pipeline handles empty or corrupt PDFs gracefully."""
+    """Ensure pipeline handles empty/corrupt PDFs gracefully."""
     empty_pdf = os.path.join(DATA_DIR, "empty.pdf")
     corrupt_pdf = os.path.join(DATA_DIR, "corrupt.pdf")
 
@@ -148,7 +145,6 @@ def test_real_edge_cases():
         f.write(b"\x00\x01garbage")
 
     test_logger.info("⚙️ Created test files: empty.pdf & corrupt.pdf")
-
     try:
         run_extraction_pipeline(DATA_DIR)
     except Exception as e:
@@ -160,22 +156,21 @@ def test_real_edge_cases():
 
 
 # ============================================================
-# 6️⃣ Test: Verify logs
+# 6️⃣ Log Verification
 # ============================================================
 def test_logs_exist():
-    """Check if logs exist and are not empty."""
+    """Check for existence and content of log files."""
     test_logger.info("🧾 Verifying log files...")
     assert os.path.exists(LOG_PATH), "❌ logs/query_logs.csv not found."
 
-    # Check for any test log file (timestamped)
-    test_logs = [f for f in os.listdir(TEST_LOG_DIR) if f.startswith("test_") and f.endswith(".log")]
+    test_logs = [f for f in os.listdir(TEST_LOG_DIR) if f.endswith(".log")]
     assert test_logs, f"❌ No test logs found in {TEST_LOG_DIR}."
+
     latest_log = max(test_logs, key=lambda f: os.path.getmtime(os.path.join(TEST_LOG_DIR, f)))
-    size = os.path.getsize(os.path.join(TEST_LOG_DIR, latest_log))
+    log_path = os.path.join(TEST_LOG_DIR, latest_log)
+    size = os.path.getsize(log_path)
 
     test_logger.info(f"📊 Found test log: {latest_log} ({size} bytes)")
     assert size > 0, "❌ Test log file is empty."
     assert os.path.getsize(LOG_PATH) > 0, "❌ query_logs.csv is empty."
     test_logger.info("✅ Log verification passed.")
-
-

@@ -1,0 +1,3 @@
+2025-10-28 15:55:41 | scripts.LLMquery.build_index | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_155541.log
+2025-10-28 15:55:41 | scripts.LLMquery.build_index | INFO | 🧠 Adding /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/1. Introduction_20251028_155541.txt to existing index...
+2025-10-28 15:55:43 | scripts.LLMquery.build_index | INFO | ✅ Added 1 docs to index from /Users/kousiknandury/PycharmProjects/DL_project/data/clean_texts/1. Introduction_20251028_155541.txt | Time: 0.12s

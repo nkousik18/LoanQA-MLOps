@@ -1,6 +1,0 @@
-2025-10-28 13:36:05 | scripts.extraction_pipeline.ocr_utils | INFO | 🧩 Logger initialized for PREPROCESSING → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/preprocessing_20251028_133605.log
-2025-10-28 13:36:14 | scripts.extraction_pipeline.ocr_utils | INFO | 🖼️ Running OCR on image: empty.jpg using PaddleOCR
-2025-10-28 13:36:14 | scripts.extraction_pipeline.ocr_utils | INFO | ✅ OCR complete for empty.jpg | Lines: 0 | Avg confidence: 0.00 | Time: 0.00s
-2025-10-28 13:36:15 | scripts.extraction_pipeline.ocr_utils | INFO | 🖼️ Running OCR on image: tmpuiz30c1s.png using PaddleOCR
-2025-10-28 13:36:15 | scripts.extraction_pipeline.ocr_utils | INFO | ✅ OCR complete for tmpuiz30c1s.png | Lines: 1 | Avg confidence: 0.95 | Time: 0.00s
-2025-10-28 13:36:15 | scripts.extraction_pipeline.ocr_utils | INFO | 📄 OCR on mock.pdf page 1 completed in 0.00s | Chars extracted: 13

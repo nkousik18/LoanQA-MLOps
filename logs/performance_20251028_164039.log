@@ -1,0 +1,11 @@
+2025-10-28 16:40:39 | performance_tests | INFO | 🧩 Logger initialized for PERFORMANCE → /Users/kousiknandury/PycharmProjects/DL_project/logs/performance_20251028_164039.log
+2025-10-28 16:40:39 | performance_tests | INFO | 🚀 Starting Performance Benchmark Suite
+2025-10-28 16:40:44 | performance_tests | INFO | 💬 Measuring retrieval latency for: 'What is the interest rate mentioned?'
+2025-10-28 16:40:44 | performance_tests | INFO | ✅ Retrieval_Latency: 0.04s | 4435.4 files/min | Files: 3 | Desc: Query='What is the interest rate ment...'
+2025-10-28 16:40:44 | performance_tests | INFO | ✅ Retrieval latency for 'What is the interest rate mentioned?' = 0.04s.
+2025-10-28 16:40:44 | performance_tests | INFO | 💬 Measuring retrieval latency for: 'Explain the loan repayment period.'
+2025-10-28 16:40:44 | performance_tests | INFO | ✅ Retrieval_Latency: 0.01s | 12783.68 files/min | Files: 3 | Desc: Query='Explain the loan repayment per...'
+2025-10-28 16:40:44 | performance_tests | INFO | ✅ Retrieval latency for 'Explain the loan repayment period.' = 0.01s.
+2025-10-28 16:40:44 | performance_tests | INFO | 💬 Measuring retrieval latency for: 'What is the collateral required?'
+2025-10-28 16:40:44 | performance_tests | INFO | ✅ Retrieval_Latency: 0.04s | 4756.95 files/min | Files: 3 | Desc: Query='What is the collateral require...'
+2025-10-28 16:40:44 | performance_tests | INFO | ✅ Retrieval latency for 'What is the collateral required?' = 0.04s.

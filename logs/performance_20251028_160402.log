@@ -1,0 +1,5 @@
+2025-10-28 16:04:02 | performance_tests | INFO | 🧩 Logger initialized for PERFORMANCE → /Users/kousiknandury/PycharmProjects/DL_project/logs/performance_20251028_160402.log
+2025-10-28 16:04:02 | performance_tests | INFO | 🚀 Starting Performance Benchmark Suite
+2025-10-28 16:04:09 | performance_tests | INFO | 💬 Measuring retrieval latency for: 'What is the interest rate mentioned?'
+2025-10-28 16:04:09 | performance_tests | INFO | 💬 Measuring retrieval latency for: 'Explain the loan repayment period.'
+2025-10-28 16:04:09 | performance_tests | INFO | 💬 Measuring retrieval latency for: 'What is the collateral required?'

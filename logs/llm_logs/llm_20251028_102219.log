@@ -1,7 +1,0 @@
-2025-10-28 10:22:19 | __main__ | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_102219.log
-2025-10-28 10:22:19 | __main__ | INFO | [ENTRYPOINT] Rebuilding full vector index for LLMquery module
-2025-10-28 10:22:19 | __main__ | INFO | 🔄 Rebuilding vector index from extracted documents...
-2025-10-28 10:22:19 | __main__ | DEBUG | ✅ Loaded: data/clean_texts/user-needs_20251028_101723.txt
-2025-10-28 10:22:19 | __main__ | INFO | 🧾 Total documents loaded: 1
-2025-10-28 10:22:27 | __main__ | INFO | 📏 Embedding Dimension: 384 | Total Docs: 1
-2025-10-28 10:22:27 | __main__ | INFO | ✅ Rebuilt index with 1 documents in 7.75s.

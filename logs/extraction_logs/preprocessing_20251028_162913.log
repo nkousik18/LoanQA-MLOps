@@ -1,0 +1,14 @@
+2025-10-28 16:29:13 | scripts.extraction_pipeline.ocr_utils | INFO | 🧩 Logger initialized for PREPROCESSING → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/preprocessing_20251028_162913.log
+2025-10-28 16:29:19 | scripts.extraction_pipeline.ocr_utils | INFO | 🖼️ Running OCR on image: empty.jpg using PaddleOCR
+2025-10-28 16:29:19 | scripts.extraction_pipeline.ocr_utils | INFO | ✅ OCR complete for empty.jpg | Lines: 0 | Avg confidence: 0.00 | Time: 0.00s
+2025-10-28 16:29:19 | scripts.extraction_pipeline.ocr_utils | INFO | 🖼️ Running OCR on image: tmpnl1iyvkh.png using PaddleOCR
+2025-10-28 16:29:19 | scripts.extraction_pipeline.ocr_utils | INFO | ✅ OCR complete for tmpnl1iyvkh.png | Lines: 1 | Avg confidence: 0.95 | Time: 0.00s
+2025-10-28 16:29:19 | scripts.extraction_pipeline.ocr_utils | INFO | 📄 OCR on mock.pdf page 1 completed in 0.00s | Chars extracted: 13
+2025-10-28 16:29:21 | scripts.extraction_pipeline.ocr_utils | INFO | 🖼️ Running OCR on image: tmpjn505dhl.png using PaddleOCR
+2025-10-28 16:29:21 | scripts.extraction_pipeline.ocr_utils | INFO | ✅ OCR complete for tmpjn505dhl.png | Lines: 1 | Avg confidence: 0.90 | Time: 0.00s
+2025-10-28 16:29:21 | scripts.extraction_pipeline.ocr_utils | INFO | 📄 OCR on dummy.pdf page 1 completed in 0.00s | Chars extracted: 10
+2025-10-28 16:29:21 | scripts.extraction_pipeline.ocr_utils | INFO | 🖼️ Running OCR on image: image.png using PaddleOCR
+2025-10-28 16:29:21 | scripts.extraction_pipeline.ocr_utils | INFO | ✅ OCR complete for image.png | Lines: 1 | Avg confidence: 0.95 | Time: 0.00s
+2025-10-28 16:29:21 | scripts.extraction_pipeline.ocr_utils | INFO | 🖼️ Running OCR on image: tmp4z4c8uhq.png using PaddleOCR
+2025-10-28 16:29:21 | scripts.extraction_pipeline.ocr_utils | INFO | ✅ OCR complete for tmp4z4c8uhq.png | Lines: 1 | Avg confidence: 0.92 | Time: 0.00s
+2025-10-28 16:29:21 | scripts.extraction_pipeline.ocr_utils | INFO | 📄 OCR on file.pdf page 1 completed in 0.00s | Chars extracted: 6

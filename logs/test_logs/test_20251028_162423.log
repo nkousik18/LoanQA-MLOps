@@ -1,0 +1,16 @@
+2025-10-28 16:24:23 | edge_case_tests | INFO | 🧩 Logger initialized for TEST → /Users/kousiknandury/PycharmProjects/DL_project/logs/test_logs/test_20251028_162423.log
+2025-10-28 16:24:23 | edge_case_tests | INFO | 🚀 Starting Extraction Pipeline Unit Tests
+2025-10-28 16:24:24 | edge_case_tests | INFO | 🧪 Running test_extract_text_with_mock...
+2025-10-28 16:24:24 | edge_case_tests | INFO | ✅ PDF extraction mock test passed.
+2025-10-28 16:24:24 | edge_case_tests | INFO | 🧪 Testing run_ocr_on_image...
+2025-10-28 16:24:24 | edge_case_tests | INFO | ✅ OCR on image test passed.
+2025-10-28 16:24:24 | edge_case_tests | INFO | 🧪 Testing run_ocr_on_pdf_page...
+2025-10-28 16:24:24 | edge_case_tests | INFO | ✅ OCR on PDF page test passed.
+2025-10-28 16:24:24 | edge_case_tests | INFO | ✅ Text cleaning test passed.
+2025-10-28 16:24:24 | edge_case_tests | INFO | ✅ Postprocessing space merge test passed.
+2025-10-28 16:24:24 | edge_case_tests | INFO | ✅ save_text file creation test passed.
+2025-10-28 16:24:24 | edge_case_tests | INFO | ✅ list_files detection test passed.
+2025-10-28 16:24:24 | edge_case_tests | INFO | 🧪 Testing process_single_file...
+2025-10-28 16:24:24 | edge_case_tests | INFO | ✅ process_single_file test passed.
+2025-10-28 16:24:24 | edge_case_tests | INFO | 🧪 Testing run_extraction_pipeline...
+2025-10-28 16:24:24 | edge_case_tests | INFO | ✅ run_extraction_pipeline test passed.
