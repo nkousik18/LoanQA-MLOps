@@ -1566,3 +1566,171 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
 [2025-10-29T02:20:47.783+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
 [2025-10-29T02:20:47.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.069 seconds
+[2025-10-29T02:21:18.096+0000] {processor.py:161} INFO - Started process (PID=820) to work on /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:21:18.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/loan_doc_pipeline_dag.py for tasks to queue
+[2025-10-29T02:21:18.103+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:21:18.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:21:18.132+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:21:18.127+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/loan_doc_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 25, in <module>
+    from scripts.extraction_pipeline.config import setup_logger
+ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
+[2025-10-29T02:21:18.133+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:21:18.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.104 seconds
+[2025-10-29T02:21:48.423+0000] {processor.py:161} INFO - Started process (PID=821) to work on /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:21:48.427+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/loan_doc_pipeline_dag.py for tasks to queue
+[2025-10-29T02:21:48.434+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:21:48.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:21:48.443+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:21:48.441+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/loan_doc_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 25, in <module>
+    from scripts.extraction_pipeline.config import setup_logger
+ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
+[2025-10-29T02:21:48.443+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:21:48.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.077 seconds
+[2025-10-29T02:22:18.757+0000] {processor.py:161} INFO - Started process (PID=822) to work on /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:22:18.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/loan_doc_pipeline_dag.py for tasks to queue
+[2025-10-29T02:22:18.764+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:22:18.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:22:18.775+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:22:18.772+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/loan_doc_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 25, in <module>
+    from scripts.extraction_pipeline.config import setup_logger
+ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
+[2025-10-29T02:22:18.776+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:22:18.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.062 seconds
+[2025-10-29T02:22:49.036+0000] {processor.py:161} INFO - Started process (PID=823) to work on /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:22:49.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/loan_doc_pipeline_dag.py for tasks to queue
+[2025-10-29T02:22:49.049+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:22:49.048+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:22:49.077+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:22:49.073+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/loan_doc_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 25, in <module>
+    from scripts.extraction_pipeline.config import setup_logger
+ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
+[2025-10-29T02:22:49.081+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:22:49.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.117 seconds
+[2025-10-29T02:23:19.349+0000] {processor.py:161} INFO - Started process (PID=824) to work on /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:23:19.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/loan_doc_pipeline_dag.py for tasks to queue
+[2025-10-29T02:23:19.359+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:23:19.358+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:23:19.372+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:23:19.369+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/loan_doc_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 25, in <module>
+    from scripts.extraction_pipeline.config import setup_logger
+ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
+[2025-10-29T02:23:19.373+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:23:19.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.085 seconds
+[2025-10-29T02:23:49.675+0000] {processor.py:161} INFO - Started process (PID=825) to work on /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:23:49.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/loan_doc_pipeline_dag.py for tasks to queue
+[2025-10-29T02:23:49.681+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:23:49.680+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:23:49.689+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:23:49.687+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/loan_doc_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 25, in <module>
+    from scripts.extraction_pipeline.config import setup_logger
+ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
+[2025-10-29T02:23:49.689+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:23:49.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.059 seconds
+[2025-10-29T02:24:19.956+0000] {processor.py:161} INFO - Started process (PID=826) to work on /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:24:19.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/loan_doc_pipeline_dag.py for tasks to queue
+[2025-10-29T02:24:19.961+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:24:19.961+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:24:19.970+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:24:19.968+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/loan_doc_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 25, in <module>
+    from scripts.extraction_pipeline.config import setup_logger
+ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
+[2025-10-29T02:24:19.971+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:24:19.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.050 seconds
+[2025-10-29T02:24:50.210+0000] {processor.py:161} INFO - Started process (PID=827) to work on /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:24:50.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/loan_doc_pipeline_dag.py for tasks to queue
+[2025-10-29T02:24:50.215+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:24:50.215+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:24:50.224+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:24:50.222+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/loan_doc_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 25, in <module>
+    from scripts.extraction_pipeline.config import setup_logger
+ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
+[2025-10-29T02:24:50.225+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:24:50.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.050 seconds
+[2025-10-29T02:25:20.495+0000] {processor.py:161} INFO - Started process (PID=828) to work on /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:25:20.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/loan_doc_pipeline_dag.py for tasks to queue
+[2025-10-29T02:25:20.501+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:25:20.501+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:25:20.509+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:25:20.507+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/loan_doc_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 25, in <module>
+    from scripts.extraction_pipeline.config import setup_logger
+ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
+[2025-10-29T02:25:20.509+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:25:20.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.050 seconds
+[2025-10-29T02:25:50.851+0000] {processor.py:161} INFO - Started process (PID=829) to work on /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:25:50.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/loan_doc_pipeline_dag.py for tasks to queue
+[2025-10-29T02:25:50.859+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:25:50.858+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:25:50.871+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:25:50.869+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/loan_doc_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 25, in <module>
+    from scripts.extraction_pipeline.config import setup_logger
+ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
+[2025-10-29T02:25:50.872+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:25:50.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.069 seconds
+[2025-10-29T02:26:21.168+0000] {processor.py:161} INFO - Started process (PID=830) to work on /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:26:21.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/loan_doc_pipeline_dag.py for tasks to queue
+[2025-10-29T02:26:21.176+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:26:21.175+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:26:21.187+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:26:21.184+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/loan_doc_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 25, in <module>
+    from scripts.extraction_pipeline.config import setup_logger
+ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
+[2025-10-29T02:26:21.187+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:26:21.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.071 seconds
+[2025-10-29T02:26:51.415+0000] {processor.py:161} INFO - Started process (PID=831) to work on /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:26:51.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/loan_doc_pipeline_dag.py for tasks to queue
+[2025-10-29T02:26:51.422+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:26:51.422+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:26:51.434+0000] {logging_mixin.py:188} INFO - [2025-10-29T02:26:51.428+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/loan_doc_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 25, in <module>
+    from scripts.extraction_pipeline.config import setup_logger
+ModuleNotFoundError: No module named 'scripts.extraction_pipeline'
+[2025-10-29T02:26:51.436+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/loan_doc_pipeline_dag.py
+[2025-10-29T02:26:51.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/loan_doc_pipeline_dag.py took 0.064 seconds
