@@ -7,6 +7,20 @@
 
 The project demonstrates a full MLOps workflow from **data acquisition to orchestration, testing, logging, anomaly detection, and reproducibility** implemented through **Airflow DAGs**, **Docker**, and **DVC**.
 
+### Detailed User Needs Worksheet:
+
+[https://docs.google.com/document/d/12dYbbpB0W6WBYzO4yDMSRsQaNEjjQXcYo61cStaCd0k/edit?usp=sharing]
+
+### Detailed Errors and Failure :
+[https://docs.google.com/document/d/12dYbbpB0W6WBYzO4yDMSRsQaNEjjQXcYo61cStaCd0k/edit?usp=sharing]
+
+### Data Pipeline for API approach:
+[https://docs.google.com/document/d/1iw2rjK1tuYKPVX7fq9yl6H48UkradVXj9BYgm_qvBGY/edit?usp=sharing]
+
+### Data pipeline for Local implementation:
+[https://docs.google.com/document/d/1BWzV0JR8U0b1pw3ZfCMO6ESoFkCXYUV22zRPGZlIXcY/edit?usp=sharing]
+
+
 ---
 
 ##  Environment Setup
