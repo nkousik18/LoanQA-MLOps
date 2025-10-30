@@ -258,9 +258,23 @@ Key validations include:
 Graduate Student, Northeastern University
 Email: [nandury.k@northeastern.edu]
 
+**Venkata Raja Pratyusha Pillalamarri**
+Graduate Student, Northeastern University
+Email:[pillalamarri.v@northeastern.edu]
+
 **Yaswanth Kumar Reddy Gujjula**
 Graduate Student, Northeastern University
 Email: [gujjula.y@northeastern.edu]
+
+**Preetish Reddy Chennepalli**
+Graduate Student, Northeastern University
+Email: [chennepalli.p@northeastern.edu]
+
+**Chirag Verma**
+Graduate Student, Northeastern University
+Email: [verma.ch@northeastern.edu]
+
+
 
 
 
