@@ -1,0 +1,10 @@
+2025-11-07 23:15:57 | scripts.LLMquery.prompts.prompt_router | INFO | 🧩 Logger initialized for LLM → /opt/airflow/logs/llm_logs/llm_20251107_231557.log
+2025-11-07 23:15:58 | scripts.LLMquery.prompts.prompt_router | INFO | 🧠 Prompt Router initialized with model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 23:15:58 | scripts.LLMquery.prompts.prompt_router | DEBUG | Computing prototype intent embeddings for router...
+2025-11-07 23:15:58 | scripts.LLMquery.prompts.prompt_router | INFO | ✅ Loaded 5 intent categories: ['finance', 'summary', 'translation', 'explanation', 'retrieval']
+2025-11-07 23:15:58 | scripts.LLMquery.prompts.prompt_router | INFO | 🚀 Sending prompt to Ollama (attempt 1/3)
+2025-11-07 23:15:58 | scripts.LLMquery.prompts.prompt_router | DEBUG | [Ollama Request] URL=http://host.docker.internal:11434/api/generate | Model=phi3 | Timeout=60s
+2025-11-07 23:16:55 | scripts.LLMquery.prompts.prompt_router | INFO | ✅ Ollama model 'phi3' responded successfully (543 chars).
+2025-11-07 23:16:55 | scripts.LLMquery.prompts.prompt_router | INFO | 🚀 Sending prompt to Ollama (attempt 1/3)
+2025-11-07 23:16:55 | scripts.LLMquery.prompts.prompt_router | DEBUG | [Ollama Request] URL=http://host.docker.internal:11434/api/generate | Model=phi3 | Timeout=60s
+2025-11-07 23:19:53 | scripts.LLMquery.prompts.prompt_router | INFO | ✅ Ollama model 'phi3' responded successfully (6663 chars).

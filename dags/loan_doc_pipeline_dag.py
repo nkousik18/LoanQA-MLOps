@@ -25,7 +25,7 @@ from airflow.operators.python import PythonOperator
 from scripts.extraction_pipeline.config import setup_logger
 from scripts.extraction_pipeline.main_extractor import process_single_file
 from scripts.LLMquery.build_index import add_to_index
-from scripts.LLMquery.prompts.prompt_router import build_prompt
+from scripts.LLMquery.prompts.prompt_router import build_prompt, query_ollama
 from scripts.LLMquery.prompts.math_utils import evaluate_math
 
 # ============================================================
@@ -35,7 +35,7 @@ def notify_failure(context):
     """Airflow failure alert callback to log anomalies."""
     task = context.get("task_instance")
     exception = context.get("exception")
-    anomaly_logger = setup_logger("airflow_alerts", log_type="anomaly")  # 🆕 anomaly log type
+    anomaly_logger = setup_logger("airflow_alerts", log_type="anomaly")
     anomaly_logger.error(
         f"🚨 Task '{task.task_id}' failed at {context['execution_date']} | DAG: {task.dag_id} | Exception: {exception}"
     )
@@ -48,9 +48,9 @@ default_args = {
     "depends_on_past": False,
     "email_on_failure": False,
     "email_on_retry": False,
-    "retries": 1,
+    "retries": 2,
     "retry_delay": timedelta(minutes=2),
-    "on_failure_callback": notify_failure,  # 🆕 automatic anomaly logging on task failure
+    "on_failure_callback": notify_failure,
 }
 
 dag = DAG(
@@ -68,7 +68,7 @@ dag = DAG(
 # ============================================================
 def extract_task(**_):
     logger = setup_logger("extract_task", log_type="dag")
-    anomaly_logger = setup_logger("extract_anomaly", log_type="anomaly")  # 🆕
+    anomaly_logger = setup_logger("extract_anomaly", log_type="anomaly")
     logger.info("📂 Starting OCR text extraction...")
 
     input_dir = "/opt/airflow/data/loan_docs"
@@ -86,10 +86,10 @@ def extract_task(**_):
                     extracted.append(out)
                     logger.info(f"✅ Extracted → {out}")
                 else:
-                    anomaly_logger.warning(f"⚠️ Empty OCR output for {f}")  # 🆕 anomaly record
+                    anomaly_logger.warning(f"⚠️ Empty OCR output for {f}")
             except Exception as e:
                 logger.exception(f"❌ Extraction failed for {f}: {e}")
-                anomaly_logger.error(f"❌ Extraction anomaly for {f}: {e}")  # 🆕 anomaly record
+                anomaly_logger.error(f"❌ Extraction anomaly for {f}: {e}")
 
     logger.info(f"📊 Extraction Summary → Success: {len(extracted)} files")
     return extracted
@@ -106,7 +106,7 @@ extract_op = PythonOperator(
 # ============================================================
 def index_task(**ctx):
     logger = setup_logger("index_task", log_type="dag")
-    anomaly_logger = setup_logger("index_anomaly", log_type="anomaly")  # 🆕
+    anomaly_logger = setup_logger("index_anomaly", log_type="anomaly")
     logger.info("🔗 Starting vector index update...")
 
     files = ctx["ti"].xcom_pull(task_ids="extract_text") or []
@@ -120,9 +120,9 @@ def index_task(**ctx):
                 logger.info(f"✅ Indexed → {f}")
             except Exception as e:
                 logger.exception(f"❌ Failed to index {f}: {e}")
-                anomaly_logger.error(f"❌ Vectorization anomaly for {f}: {e}")  # 🆕
+                anomaly_logger.error(f"❌ Vectorization anomaly for {f}: {e}")
         else:
-            anomaly_logger.warning(f"⚠️ Missing file reference: {f}")  # 🆕
+            anomaly_logger.warning(f"⚠️ Missing file reference: {f}")
 
     logger.info(f"📊 Vector Index Summary → Updated: {updated}")
     return updated
@@ -135,12 +135,12 @@ index_op = PythonOperator(
 )
 
 # ============================================================
-# 3️⃣ Generate LLM Prompt Task
+# 3️⃣ Generate LLM Prompt Task (SAFE + RETRY)
 # ============================================================
-def llm_task():
-    logger = setup_logger("llm_task", log_type="dag")
-    anomaly_logger = setup_logger("llm_anomaly", log_type="anomaly")  # 🆕
-    logger.info("🧠 Generating LLM prompt...")
+def llm_task(**kwargs):
+    logger = setup_logger("llm_task", log_type="llm")
+    anomaly_logger = setup_logger("llm_anomaly", log_type="anomaly")
+    logger.info("🧠 Generating LLM prompt via Ollama...")
 
     from langchain_core.documents import Document
 
@@ -154,33 +154,43 @@ def llm_task():
             docs.append(Document(page_content=text, metadata={"source": os.path.basename(path)}))
             logger.debug(f"📄 Loaded: {os.path.basename(path)} ({len(text)} chars)")
             if len(text) < 40:
-                anomaly_logger.warning(f"⚠️ Low text length anomaly: {os.path.basename(path)}")  # 🆕
+                anomaly_logger.warning(f"⚠️ Low text length anomaly: {os.path.basename(path)}")
         except Exception as e:
             logger.exception(f"⚠️ Failed to load {path}: {e}")
-            anomaly_logger.error(f"❌ Read failure anomaly for {path}: {e}")  # 🆕
+            anomaly_logger.error(f"❌ Read failure anomaly for {path}: {e}")
 
     if not docs:
         logger.error("❌ No text files found for LLM processing.")
-        anomaly_logger.error("🚨 No valid text files available for LLM stage.")  # 🆕
+        anomaly_logger.error("🚨 No valid text files available for LLM stage.")
         raise ValueError("No text files found for LLM processing.")
 
     q = "Can I postpone my federal loan payments?"
     logger.info(f"🧩 Building prompt for query: '{q}'")
 
     try:
+        # Step 1: Build context-aware prompt
         prompt, intent, conf, gap = build_prompt(q, docs, mode=None)
-        math_check = evaluate_math("10 * 5 + 20")
-
-        logger.info("✅ Prompt built successfully.")
         logger.info(f"🧭 Intent → {intent} | Confidence → {conf:.3f} | Gap → {gap:.3f}")
-        logger.info(f"🧮 Math sanity check → {math_check}")
 
-        if conf < 0.6:  # 🆕 Semantic anomaly threshold
+        if conf < 0.6:
             anomaly_logger.warning(f"⚠️ Low confidence anomaly (Intent={intent}, Conf={conf:.2f})")
+
+        # Step 2: Send prompt to Ollama safely
+        response_text = query_ollama(prompt)
+
+        if not response_text:
+            logger.error("❌ Ollama query failed or returned empty response.")
+            anomaly_logger.error("🚨 Ollama query timeout or no output.")
+            raise ValueError("Ollama query failed or timed out.")
+
+        # Step 3: Validate + summarize math sanity
+        math_check = evaluate_math("10 * 5 + 20")
+        logger.info(f"🧮 Math sanity check → {math_check}")
+        logger.info(f"✅ LLM response (first 250 chars): {response_text[:250]}")
 
     except Exception as e:
         logger.exception(f"❌ LLM task failed: {e}")
-        anomaly_logger.error(f"🚨 LLM processing anomaly: {e}")  # 🆕
+        anomaly_logger.error(f"🚨 LLM processing anomaly: {e}")
         raise e
 
 
@@ -188,6 +198,8 @@ llm_op = PythonOperator(
     task_id="generate_llm_prompt",
     python_callable=llm_task,
     dag=dag,
+    retries=2,
+    retry_delay=timedelta(minutes=1),
 )
 
 # ============================================================
@@ -195,5 +207,4 @@ llm_op = PythonOperator(
 # ============================================================
 extract_op >> index_op >> llm_op
 
-# ✅ Ensure Airflow registers the DAG
 dag

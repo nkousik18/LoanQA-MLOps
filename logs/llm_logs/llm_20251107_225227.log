@@ -1,0 +1,12 @@
+2025-11-07 22:52:27 | llm_task | INFO | 🧩 Logger initialized for LLM → /opt/airflow/logs/llm_logs/llm_20251107_225227.log
+2025-11-07 22:52:27 | llm_task | INFO | 🧠 Generating LLM prompt via Ollama...
+2025-11-07 22:52:27 | llm_task | DEBUG | 📄 Loaded: Model_pipeline_20251107_224752.txt (6981 chars)
+2025-11-07 22:52:27 | llm_task | DEBUG | 📄 Loaded: Model_pipeline_20251107_224230.txt (6981 chars)
+2025-11-07 22:52:27 | llm_task | DEBUG | 📄 Loaded: loan_demo2_20251107_224230.txt (25449 chars)
+2025-11-07 22:52:27 | llm_task | DEBUG | 📄 Loaded: loan_demo2_20251107_224752.txt (25449 chars)
+2025-11-07 22:52:27 | llm_task | INFO | 🧩 Building prompt for query: 'Can I postpone my federal loan payments?'
+2025-11-07 22:52:27 | llm_task | INFO | 🧭 Intent → retrieval | Confidence → 0.342 | Gap → 0.371
+2025-11-07 22:55:23 | llm_task | INFO | 🧮 Math sanity check → ['10 * 5 + 20 = 70.00']
+2025-11-07 22:55:23 | llm_task | INFO | ✅ LLM response (first 250 chars): The instruction-healthcare is a software engineer with no more questions for the main reason as an academic paper in your documentary film'de
+
+Documentation and Legal Studies - Implementing Strategies to Optimize Your Opportunity Gaming Company has b

@@ -1,0 +1,12 @@
+2025-11-07 22:43:01 | llm_task | INFO | 🧩 Logger initialized for LLM → /opt/airflow/logs/llm_logs/llm_20251107_224301.log
+2025-11-07 22:43:01 | llm_task | INFO | 🧠 Generating LLM prompt via Ollama...
+2025-11-07 22:43:01 | llm_task | DEBUG | 📄 Loaded: Model_pipeline_20251107_224230.txt (6981 chars)
+2025-11-07 22:43:01 | llm_task | DEBUG | 📄 Loaded: loan_demo2_20251107_224230.txt (25449 chars)
+2025-11-07 22:43:01 | llm_task | INFO | 🧩 Building prompt for query: 'Can I postpone my federal loan payments?'
+2025-11-07 22:43:01 | llm_task | INFO | 🧭 Intent → retrieval | Confidence → 0.342 | Gap → 0.371
+2025-11-07 22:46:19 | llm_task | ERROR | ❌ Ollama query failed or returned empty response.
+2025-11-07 22:46:19 | llm_task | ERROR | ❌ LLM task failed: Ollama query failed or timed out.
+Traceback (most recent call last):
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 184, in llm_task
+    raise ValueError("Ollama query failed or timed out.")
+ValueError: Ollama query failed or timed out.

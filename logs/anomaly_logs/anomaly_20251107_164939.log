@@ -1,0 +1,2 @@
+2025-11-07 16:49:39 | airflow_alerts | INFO | 🧩 Logger initialized for ANOMALY → /opt/airflow/logs/anomaly_logs/anomaly_20251107_164939.log
+2025-11-07 16:49:39 | airflow_alerts | ERROR | 🚨 Task 'extract_text' failed at 2025-11-07 16:46:53+00:00 | DAG: loan_doc_pipeline_dag | Exception: Executor reports task instance <TaskInstance: loan_doc_pipeline_dag.extract_text final_check_run [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

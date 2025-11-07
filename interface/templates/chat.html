@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💼 LoanDoc Assistant</title>
+  <style>
+    body {
+      font-family: "Inter", system-ui, sans-serif;
+      background: radial-gradient(circle at top, #0a0a0a, #111);
+      color: #f5f5f5;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00b0ff, #0078d4);
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+
+    #chat {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      scroll-behavior: smooth;
+    }
+
+    .message {
+      max-width: 80%;
+      border-radius: 1rem;
+      padding: 1rem 1.2rem;
+      line-height: 1.6;
+      font-size: 0.98rem;
+      animation: fadeIn 0.3s ease;
+      white-space: pre-wrap;
+    }
+
+    .user {
+      align-self: flex-end;
+      background: linear-gradient(135deg, #00b0ff, #0078d4);
+      color: #fff;
+      border-bottom-right-radius: 0.3rem;
+      box-shadow: 0 2px 6px rgba(0,176,255,0.4);
+    }
+
+    .bot {
+      align-self: flex-start;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-bottom-left-radius: 0.3rem;
+      backdrop-filter: blur(10px);
+      color: #e0f2f1;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    #upload-section {
+      background: rgba(255,255,255,0.05);
+      border: 2px dashed rgba(0,176,255,0.3);
+      border-radius: 1rem;
+      margin: 0.8rem 1.5rem;
+      padding: 1rem;
+      text-align: center;
+      color: #b0bec5;
+      transition: all 0.3s ease;
+    }
+    #upload-section.dragover {
+      background: rgba(0,176,255,0.15);
+      border-color: #00b0ff;
+      color: white;
+    }
+    #fileInput { display: none; }
+    #upload-status {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #80d8ff;
+    }
+
+    form {
+      display: flex;
+      align-items: center;
+      padding: 0.6rem 1rem;
+      background: rgba(20,20,20,0.95);
+      border-top: 1px solid #333;
+      backdrop-filter: blur(8px);
+    }
+
+    input {
+      flex: 1;
+      background: #111;
+      color: white;
+      border: none;
+      padding: 0.8rem 1rem;
+      font-size: 1rem;
+      border-radius: 0.6rem;
+      outline: none;
+      box-shadow: inset 0 0 6px rgba(0,176,255,0.3);
+    }
+
+    button {
+      background: linear-gradient(135deg, #00b0ff, #0078d4);
+      border: none;
+      color: white;
+      margin-left: 0.8rem;
+      padding: 0.8rem 1.4rem;
+      border-radius: 0.6rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.25s ease;
+    }
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,176,255,0.4);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .thinking {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: #80d8ff;
+      font-style: italic;
+    }
+
+    .dot {
+      height: 6px;
+      width: 6px;
+      background-color: #80d8ff;
+      border-radius: 50%;
+      display: inline-block;
+      animation: blink 1s infinite;
+    }
+
+    .dot:nth-child(2) { animation-delay: 0.2s; }
+    .dot:nth-child(3) { animation-delay: 0.4s; }
+
+    @keyframes blink {
+      0%, 80%, 100% { opacity: 0.2; }
+      40% { opacity: 1; }
+    }
+
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+  </style>
+</head>
+
+<body>
+  <header>💼 LoanDoc Assistant</header>
+
+  <div id="upload-section">
+    📎 Drag & drop loan documents here or
+    <label for="fileInput" style="color:#00b0ff;cursor:pointer;text-decoration:underline;">browse</label>
+    <input type="file" id="fileInput" accept=".pdf,.txt,.doc,.docx" />
+    <div id="upload-status"></div>
+  </div>
+
+  <main id="chat"></main>
+
+  <form id="query-form">
+    <input id="query" type="text" placeholder="Ask about your loan document..." autocomplete="off" />
+    <button type="submit">Send</button>
+  </form>
+
+  <script>
+    const chat = document.getElementById('chat');
+    const form = document.getElementById('query-form');
+    const input = document.getElementById('query');
+    const uploadSection = document.getElementById('upload-section');
+    const fileInput = document.getElementById('fileInput');
+    const uploadStatus = document.getElementById('upload-status');
+
+    function addMessage(text, sender) {
+      const div = document.createElement('div');
+      div.className = 'message ' + sender;
+      div.innerHTML = text;
+      chat.appendChild(div);
+      chat.scrollTop = chat.scrollHeight;
+      return div;
+    }
+
+    /* ========== CHAT QUERY STREAMING (smooth typing) ========== */
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const question = input.value.trim();
+      if (!question) return;
+      addMessage(question, 'user');
+      input.value = '';
+
+      const botMsg = addMessage('', 'bot');
+      botMsg.innerHTML = `<div class="thinking"><span class="dot"></span><span class="dot"></span><span class="dot"></span><em> LoanDoc is thinking...</em></div>`;
+
+      try {
+        const resp = await fetch('http://127.0.0.1:8000/api/query_stream', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ question })
+        });
+
+        if (!resp.ok) throw new Error(`Server error: ${resp.status}`);
+
+        const reader = resp.body.getReader();
+        const decoder = new TextDecoder('utf-8');
+        let buffer = '';
+        let typingBuffer = '';
+        let firstChunk = true;
+
+        botMsg.innerHTML = '';
+
+        while (true) {
+          const { value, done } = await reader.read();
+          if (done) break;
+
+          buffer += decoder.decode(value, { stream: true });
+          const parts = buffer.split(/\n\n+/);
+          buffer = parts.pop();
+
+          for (const part of parts) {
+            const clean = part.trim();
+            if (!clean.startsWith('data:')) continue;
+
+            const jsonPart = clean.replace(/^data:\s*/, '');
+            if (jsonPart === '[DONE]') continue;
+
+            try {
+              const payload = JSON.parse(jsonPart);
+
+              if (payload.token) {
+                if (firstChunk) {
+                  botMsg.innerHTML = ''; // Clear "thinking..."
+                  firstChunk = false;
+                }
+                typingBuffer += payload.token;
+
+                // Print only complete words for smoother effect
+                const chunks = typingBuffer.split(/(\s+|[.,!?;])/);
+                if (chunks.length > 3) {
+                  const printable = chunks.splice(0, chunks.length - 3).join('');
+                  botMsg.innerHTML += printable;
+                  typingBuffer = chunks.join('');
+                }
+
+                await new Promise((r) => setTimeout(r, 25)); // simulate typing delay
+              } else if (payload.answer) {
+                botMsg.innerHTML = payload.answer;
+              } else if (payload.error) {
+                botMsg.innerHTML = `<b>Error:</b> ${payload.error}`;
+              }
+
+            } catch (err) {
+              console.warn('Parse error:', err);
+            }
+          }
+
+          chat.scrollTop = chat.scrollHeight;
+        }
+
+        // flush remaining tokens
+        if (typingBuffer.trim()) botMsg.innerHTML += typingBuffer.trim();
+        botMsg.innerHTML = botMsg.innerHTML.replace(/\s+/g, ' ').trim();
+
+      } catch (err) {
+        botMsg.innerHTML = `<b>Error:</b> ${err.message}`;
+      }
+    });
+
+    /* ========== FILE UPLOAD ========== */
+    uploadSection.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      uploadSection.classList.add('dragover');
+    });
+    uploadSection.addEventListener('dragleave', () => uploadSection.classList.remove('dragover'));
+    uploadSection.addEventListener('drop', (e) => {
+      e.preventDefault();
+      uploadSection.classList.remove('dragover');
+      handleUpload(e.dataTransfer.files[0]);
+    });
+    fileInput.addEventListener('change', () => handleUpload(fileInput.files[0]));
+
+    async function handleUpload(file) {
+      if (!file) return;
+      uploadStatus.textContent = `📤 Uploading ${file.name}...`;
+
+      const formData = new FormData();
+      formData.append("file", file);
+
+      try {
+        const resp = await fetch('http://127.0.0.1:8000/api/upload', {
+          method: 'POST',
+          body: formData,
+        });
+        const data = await resp.json();
+
+        if (data.status === 'success')
+          uploadStatus.textContent = `✅ ${file.name} uploaded and indexed successfully.`;
+        else
+          uploadStatus.textContent = `⚠️ Upload failed: ${data.message || 'Unknown error'}`;
+      } catch (err) {
+        uploadStatus.textContent = `❌ Error: ${err.message}`;
+      }
+
+      setTimeout(() => (uploadStatus.textContent = ''), 6000);
+    }
+  </script>
+</body>
+</html>

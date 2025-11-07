@@ -1,0 +1,17 @@
+2025-11-07 21:21:27 | llm_task | INFO | 🧩 Logger initialized for DAG → /opt/airflow/logs/dag_logs/dag_20251107_212127.log
+2025-11-07 21:21:27 | llm_task | INFO | 🧠 Generating LLM prompt...
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: Model_pipeline_20251107_134405.txt (6981 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: loan_demo2_20251107_202203.txt (25449 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: Model_pipeline_20251107_211850.txt (6981 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: Model_pipeline_20251107_201505.txt (6981 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: loan_demo2_20251107_212116.txt (25449 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: loan_demo2_20251107_204629.txt (25449 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: Model_pipeline_20251107_203909.txt (6981 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: Model_pipeline_20251107_202203.txt (6981 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: Model_pipeline_20251107_212116.txt (6981 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: Model_pipeline_20251107_204629.txt (6981 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: loan_demo2_20251107_203909.txt (25449 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: loan_demo2_20251107_211850.txt (25449 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: loan_demo2_20251107_201505.txt (25449 chars)
+2025-11-07 21:21:27 | llm_task | DEBUG | 📄 Loaded: loan_demo2_20251107_134510.txt (25448 chars)
+2025-11-07 21:21:27 | llm_task | INFO | 🧩 Building prompt for query: 'Can I postpone my federal loan payments?'

@@ -1,0 +1,33 @@
+[2025-11-07T20:22:08.688+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-07T20:22:08.695+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: loan_doc_pipeline_dag.update_vector_index manual__2025-11-07T20:21:58.349775+00:00 [queued]>
+[2025-11-07T20:22:08.698+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: loan_doc_pipeline_dag.update_vector_index manual__2025-11-07T20:21:58.349775+00:00 [queued]>
+[2025-11-07T20:22:08.698+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-11-07T20:22:08.703+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): update_vector_index> on 2025-11-07 20:21:58.349775+00:00
+[2025-11-07T20:22:08.716+0000] {standard_task_runner.py:63} INFO - Started process 181 to run task
+[2025-11-07T20:22:08.719+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'loan_doc_pipeline_dag', 'update_vector_index', 'manual__2025-11-07T20:21:58.349775+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/loan_doc_pipeline_dag.py', '--cfg-path', '/tmp/tmpc353djpe']
+[2025-11-07T20:22:08.720+0000] {standard_task_runner.py:91} INFO - Job 5: Subtask update_vector_index
+[2025-11-07T20:22:08.750+0000] {task_command.py:426} INFO - Running <TaskInstance: loan_doc_pipeline_dag.update_vector_index manual__2025-11-07T20:21:58.349775+00:00 [running]> on host ed9b922c53c8
+[2025-11-07T20:22:08.783+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kousik' AIRFLOW_CTX_DAG_ID='loan_doc_pipeline_dag' AIRFLOW_CTX_TASK_ID='update_vector_index' AIRFLOW_CTX_EXECUTION_DATE='2025-11-07T20:21:58.349775+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-07T20:21:58.349775+00:00'
+[2025-11-07T20:22:08.785+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-07T20:22:08.805+0000] {logging_mixin.py:188} WARNING - 2025-11-07 20:22:08 | index_task | INFO | 🧩 Logger initialized for DAG → /opt/***/logs/dag_logs/dag_20251107_202208.log
+[2025-11-07T20:22:08.804+0000] {config.py:104} INFO - 🧩 Logger initialized for DAG → /opt/***/logs/dag_logs/dag_20251107_202208.log
+[2025-11-07T20:22:08.805+0000] {logging_mixin.py:188} WARNING - 2025-11-07 20:22:08 | index_anomaly | INFO | 🧩 Logger initialized for ANOMALY → /opt/***/logs/anomaly_logs/anomaly_20251107_202208.log
+[2025-11-07T20:22:08.805+0000] {config.py:104} INFO - 🧩 Logger initialized for ANOMALY → /opt/***/logs/anomaly_logs/anomaly_20251107_202208.log
+[2025-11-07T20:22:08.806+0000] {logging_mixin.py:188} WARNING - 2025-11-07 20:22:08 | index_task | INFO | 🔗 Starting vector index update...
+[2025-11-07T20:22:08.806+0000] {loan_doc_pipeline_dag.py:110} INFO - 🔗 Starting vector index update...
+[2025-11-07T20:22:08.814+0000] {log.py:232} WARNING - 2025-11-07 20:22:08 | scripts.LLMquery.build_index | INFO | 🧠 Adding /opt/***/data/clean_texts/Model_pipeline_20251107_202203.txt to existing index...
+[2025-11-07T20:22:08.814+0000] {build_index.py:36} INFO - 🧠 Adding /opt/***/data/clean_texts/Model_pipeline_20251107_202203.txt to existing index...
+[2025-11-07T20:22:08.815+0000] {warnings.py:109} WARNING - /opt/***/scripts/LLMquery/build_index.py:40: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the `langchain-huggingface package and should be used instead. To use it run `pip install -U `langchain-huggingface` and import as `from `langchain_huggingface import HuggingFaceEmbeddings``.
+  embeddings = HuggingFaceEmbeddings(model_name=EMBED_MODEL)
+
+[2025-11-07T20:22:08.816+0000] {SentenceTransformer.py:107} INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-11-07T20:22:09.602+0000] {SentenceTransformer.py:213} INFO - Use pytorch device_name: cpu
+[2025-11-07T20:22:09.603+0000] {warnings.py:109} WARNING - /opt/***/scripts/LLMquery/build_index.py:44: LangChainDeprecationWarning: The class `Chroma` was deprecated in LangChain 0.2.9 and will be removed in 1.0. An updated version of the class exists in the `langchain-chroma package and should be used instead. To use it run `pip install -U `langchain-chroma` and import as `from `langchain_chroma import Chroma``.
+  db = Chroma(persist_directory=INDEX_PATH, embedding_function=embeddings)
+
+[2025-11-07T20:22:09.993+0000] {posthog.py:20} INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-11-07T20:22:10.067+0000] {posthog.py:59} ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[2025-11-07T20:22:10.069+0000] {posthog.py:59} ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2025-11-07T20:27:55.310+0000] {local_task_job_runner.py:124} ERROR - Received SIGTERM. Terminating subprocesses
+[2025-11-07T20:27:55.391+0000] {process_utils.py:132} INFO - Sending 15 to group 181. PIDs of all processes in the group: [181]
+[2025-11-07T20:27:55.407+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 181

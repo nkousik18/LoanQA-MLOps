@@ -1,0 +1,70 @@
+[2025-11-07T22:14:03.411+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-07T22:14:03.419+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: loan_doc_pipeline_dag.extract_text manual__2025-11-07T22:13:58.944732+00:00 [queued]>
+[2025-11-07T22:14:03.423+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: loan_doc_pipeline_dag.extract_text manual__2025-11-07T22:13:58.944732+00:00 [queued]>
+[2025-11-07T22:14:03.423+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2025-11-07T22:14:03.430+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extract_text> on 2025-11-07 22:13:58.944732+00:00
+[2025-11-07T22:14:03.438+0000] {standard_task_runner.py:63} INFO - Started process 144 to run task
+[2025-11-07T22:14:03.441+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'loan_doc_pipeline_dag', 'extract_text', 'manual__2025-11-07T22:13:58.944732+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/loan_doc_pipeline_dag.py', '--cfg-path', '/tmp/tmpf6fcsa9i']
+[2025-11-07T22:14:03.442+0000] {standard_task_runner.py:91} INFO - Job 5: Subtask extract_text
+[2025-11-07T22:14:03.513+0000] {task_command.py:426} INFO - Running <TaskInstance: loan_doc_pipeline_dag.extract_text manual__2025-11-07T22:13:58.944732+00:00 [running]> on host 642a43ff8067
+[2025-11-07T22:14:03.565+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kousik' AIRFLOW_CTX_DAG_ID='loan_doc_pipeline_dag' AIRFLOW_CTX_TASK_ID='extract_text' AIRFLOW_CTX_EXECUTION_DATE='2025-11-07T22:13:58.944732+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-07T22:13:58.944732+00:00'
+[2025-11-07T22:14:03.569+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-07T22:14:03.581+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:14:03 | extract_task | INFO | 🧩 Logger initialized for DAG → /opt/***/logs/dag_logs/dag_20251107_221403.log
+[2025-11-07T22:14:03.580+0000] {config.py:104} INFO - 🧩 Logger initialized for DAG → /opt/***/logs/dag_logs/dag_20251107_221403.log
+[2025-11-07T22:14:03.582+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:14:03 | extract_anomaly | INFO | 🧩 Logger initialized for ANOMALY → /opt/***/logs/anomaly_logs/anomaly_20251107_221403.log
+[2025-11-07T22:14:03.581+0000] {config.py:104} INFO - 🧩 Logger initialized for ANOMALY → /opt/***/logs/anomaly_logs/anomaly_20251107_221403.log
+[2025-11-07T22:14:03.582+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:14:03 | extract_task | INFO | 📂 Starting OCR text extraction...
+[2025-11-07T22:14:03.582+0000] {loan_doc_pipeline_dag.py:72} INFO - 📂 Starting OCR text extraction...
+[2025-11-07T22:14:03.583+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:14:03 | extract_task | INFO | 🔍 Processing file: Model_pipeline.pdf
+[2025-11-07T22:14:03.583+0000] {loan_doc_pipeline_dag.py:82} INFO - 🔍 Processing file: Model_pipeline.pdf
+[2025-11-07T22:14:03.583+0000] {log.py:232} WARNING - 2025-11-07 22:14:03 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: /opt/***/data/loan_docs/Model_pipeline.pdf
+[2025-11-07T22:14:03.583+0000] {main_extractor.py:27} INFO - Processing file: /opt/***/data/loan_docs/Model_pipeline.pdf
+[2025-11-07T22:14:03.583+0000] {log.py:232} WARNING - 2025-11-07 22:14:03 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: Model_pipeline.pdf
+[2025-11-07T22:14:03.583+0000] {extractor_core.py:36} INFO - 📄 Extracting text from PDF: Model_pipeline.pdf
+[2025-11-07T22:14:03.586+0000] {log.py:232} WARNING - 2025-11-07 22:14:03 | scripts.extraction_pipeline.extractor_core | INFO | Detected 4 pages in Model_pipeline.pdf
+[2025-11-07T22:14:03.586+0000] {extractor_core.py:40} INFO - Detected 4 pages in Model_pipeline.pdf
+[2025-11-07T22:14:03.592+0000] {extractor_core.py:58} DEBUG - Page 1/4 processed (native text extraction) in 0.01s
+[2025-11-07T22:14:03.594+0000] {extractor_core.py:58} DEBUG - Page 2/4 processed (native text extraction) in 0.00s
+[2025-11-07T22:14:03.595+0000] {extractor_core.py:58} DEBUG - Page 3/4 processed (native text extraction) in 0.00s
+[2025-11-07T22:14:03.595+0000] {extractor_core.py:58} DEBUG - Page 4/4 processed (native text extraction) in 0.00s
+[2025-11-07T22:14:03.596+0000] {log.py:232} WARNING - 2025-11-07 22:14:03 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for Model_pipeline.pdf | Pages: 4 | Time: 0.01s
+[2025-11-07T22:14:03.595+0000] {extractor_core.py:61} INFO - ✅ Extraction complete for Model_pipeline.pdf | Pages: 4 | Time: 0.01s
+[2025-11-07T22:14:03.596+0000] {log.py:232} WARNING - 2025-11-07 22:14:03 | scripts.extraction_pipeline.utils | INFO | 💾 Saved extracted text → /opt/***/data/clean_texts/Model_pipeline_20251107_221403.txt | Size: 6983 chars | Time: 0.00s
+[2025-11-07T22:14:03.596+0000] {utils.py:25} INFO - 💾 Saved extracted text → /opt/***/data/clean_texts/Model_pipeline_20251107_221403.txt | Size: 6983 chars | Time: 0.00s
+[2025-11-07T22:14:03.597+0000] {log.py:232} WARNING - 2025-11-07 22:14:03 | scripts.extraction_pipeline.main_extractor | INFO | ✅ Extracted text saved: /opt/***/data/clean_texts/Model_pipeline_20251107_221403.txt | Time taken: 0.01s
+[2025-11-07T22:14:03.597+0000] {main_extractor.py:35} INFO - ✅ Extracted text saved: /opt/***/data/clean_texts/Model_pipeline_20251107_221403.txt | Time taken: 0.01s
+[2025-11-07T22:14:03.597+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:14:03 | extract_task | INFO | ✅ Extracted → /opt/***/data/clean_texts/Model_pipeline_20251107_221403.txt
+[2025-11-07T22:14:03.597+0000] {loan_doc_pipeline_dag.py:87} INFO - ✅ Extracted → /opt/***/data/clean_texts/Model_pipeline_20251107_221403.txt
+[2025-11-07T22:14:03.597+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:14:03 | extract_task | INFO | 🔍 Processing file: loan_demo2.pdf
+[2025-11-07T22:14:03.597+0000] {loan_doc_pipeline_dag.py:82} INFO - 🔍 Processing file: loan_demo2.pdf
+[2025-11-07T22:14:03.597+0000] {log.py:232} WARNING - 2025-11-07 22:14:03 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: /opt/***/data/loan_docs/loan_demo2.pdf
+[2025-11-07T22:14:03.597+0000] {main_extractor.py:27} INFO - Processing file: /opt/***/data/loan_docs/loan_demo2.pdf
+[2025-11-07T22:14:03.598+0000] {log.py:232} WARNING - 2025-11-07 22:14:03 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: loan_demo2.pdf
+[2025-11-07T22:14:03.597+0000] {extractor_core.py:36} INFO - 📄 Extracting text from PDF: loan_demo2.pdf
+[2025-11-07T22:14:03.598+0000] {log.py:232} WARNING - 2025-11-07 22:14:03 | scripts.extraction_pipeline.extractor_core | INFO | Detected 9 pages in loan_demo2.pdf
+[2025-11-07T22:14:03.598+0000] {extractor_core.py:40} INFO - Detected 9 pages in loan_demo2.pdf
+[2025-11-07T22:14:03.605+0000] {extractor_core.py:58} DEBUG - Page 1/9 processed (native text extraction) in 0.00s
+[2025-11-07T22:14:03.608+0000] {extractor_core.py:58} DEBUG - Page 2/9 processed (native text extraction) in 0.00s
+[2025-11-07T22:14:03.610+0000] {extractor_core.py:58} DEBUG - Page 3/9 processed (native text extraction) in 0.00s
+[2025-11-07T22:14:03.612+0000] {extractor_core.py:58} DEBUG - Page 4/9 processed (native text extraction) in 0.00s
+[2025-11-07T22:14:03.614+0000] {extractor_core.py:58} DEBUG - Page 5/9 processed (native text extraction) in 0.00s
+[2025-11-07T22:14:03.618+0000] {extractor_core.py:58} DEBUG - Page 6/9 processed (native text extraction) in 0.00s
+[2025-11-07T22:14:03.619+0000] {extractor_core.py:58} DEBUG - Page 7/9 processed (native text extraction) in 0.00s
+[2025-11-07T22:14:03.620+0000] {extractor_core.py:58} DEBUG - Page 8/9 processed (native text extraction) in 0.00s
+[2025-11-07T22:14:03.621+0000] {extractor_core.py:58} DEBUG - Page 9/9 processed (native text extraction) in 0.00s
+[2025-11-07T22:14:03.622+0000] {log.py:232} WARNING - 2025-11-07 22:14:03 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for loan_demo2.pdf | Pages: 9 | Time: 0.02s
+[2025-11-07T22:14:03.621+0000] {extractor_core.py:61} INFO - ✅ Extraction complete for loan_demo2.pdf | Pages: 9 | Time: 0.02s
+[2025-11-07T22:14:03.622+0000] {log.py:232} WARNING - 2025-11-07 22:14:03 | scripts.extraction_pipeline.utils | INFO | 💾 Saved extracted text → /opt/***/data/clean_texts/loan_demo2_20251107_221403.txt | Size: 25451 chars | Time: 0.00s
+[2025-11-07T22:14:03.622+0000] {utils.py:25} INFO - 💾 Saved extracted text → /opt/***/data/clean_texts/loan_demo2_20251107_221403.txt | Size: 25451 chars | Time: 0.00s
+[2025-11-07T22:14:03.623+0000] {log.py:232} WARNING - 2025-11-07 22:14:03 | scripts.extraction_pipeline.main_extractor | INFO | ✅ Extracted text saved: /opt/***/data/clean_texts/loan_demo2_20251107_221403.txt | Time taken: 0.03s
+[2025-11-07T22:14:03.623+0000] {main_extractor.py:35} INFO - ✅ Extracted text saved: /opt/***/data/clean_texts/loan_demo2_20251107_221403.txt | Time taken: 0.03s
+[2025-11-07T22:14:03.623+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:14:03 | extract_task | INFO | ✅ Extracted → /opt/***/data/clean_texts/loan_demo2_20251107_221403.txt
+[2025-11-07T22:14:03.623+0000] {loan_doc_pipeline_dag.py:87} INFO - ✅ Extracted → /opt/***/data/clean_texts/loan_demo2_20251107_221403.txt
+[2025-11-07T22:14:03.623+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:14:03 | extract_task | INFO | 📊 Extraction Summary → Success: 2 files
+[2025-11-07T22:14:03.623+0000] {loan_doc_pipeline_dag.py:94} INFO - 📊 Extraction Summary → Success: 2 files
+[2025-11-07T22:14:03.623+0000] {python.py:237} INFO - Done. Returned value was: ['/opt/***/data/clean_texts/Model_pipeline_20251107_221403.txt', '/opt/***/data/clean_texts/loan_demo2_20251107_221403.txt']
+[2025-11-07T22:14:03.623+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-07T22:14:03.632+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=loan_doc_pipeline_dag, task_id=extract_text, run_id=manual__2025-11-07T22:13:58.944732+00:00, execution_date=20251107T221358, start_date=20251107T221403, end_date=20251107T221403
+[2025-11-07T22:14:03.669+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-11-07T22:14:03.680+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-07T22:14:03.680+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

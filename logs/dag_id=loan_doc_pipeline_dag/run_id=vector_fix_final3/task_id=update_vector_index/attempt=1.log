@@ -1,0 +1,425 @@
+[2025-11-07T21:19:00.164+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-07T21:19:00.178+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: loan_doc_pipeline_dag.update_vector_index vector_fix_final3 [queued]>
+[2025-11-07T21:19:00.182+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: loan_doc_pipeline_dag.update_vector_index vector_fix_final3 [queued]>
+[2025-11-07T21:19:00.183+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-11-07T21:19:00.190+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): update_vector_index> on 2025-11-07 21:02:19+00:00
+[2025-11-07T21:19:00.205+0000] {standard_task_runner.py:63} INFO - Started process 148 to run task
+[2025-11-07T21:19:00.214+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'loan_doc_pipeline_dag', 'update_vector_index', 'vector_fix_final3', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/loan_doc_pipeline_dag.py', '--cfg-path', '/tmp/tmpziho1k_o']
+[2025-11-07T21:19:00.217+0000] {standard_task_runner.py:91} INFO - Job 5: Subtask update_vector_index
+[2025-11-07T21:19:00.292+0000] {task_command.py:426} INFO - Running <TaskInstance: loan_doc_pipeline_dag.update_vector_index vector_fix_final3 [running]> on host 59ca2c858a0e
+[2025-11-07T21:19:00.383+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kousik' AIRFLOW_CTX_DAG_ID='loan_doc_pipeline_dag' AIRFLOW_CTX_TASK_ID='update_vector_index' AIRFLOW_CTX_EXECUTION_DATE='2025-11-07T21:02:19+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='vector_fix_final3'
+[2025-11-07T21:19:00.393+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-07T21:19:00.437+0000] {logging_mixin.py:188} WARNING - 2025-11-07 21:19:00 | index_task | INFO | 🧩 Logger initialized for DAG → /opt/***/logs/dag_logs/dag_20251107_211900.log
+[2025-11-07T21:19:00.437+0000] {config.py:104} INFO - 🧩 Logger initialized for DAG → /opt/***/logs/dag_logs/dag_20251107_211900.log
+[2025-11-07T21:19:00.440+0000] {logging_mixin.py:188} WARNING - 2025-11-07 21:19:00 | index_anomaly | INFO | 🧩 Logger initialized for ANOMALY → /opt/***/logs/anomaly_logs/anomaly_20251107_211900.log
+[2025-11-07T21:19:00.439+0000] {config.py:104} INFO - 🧩 Logger initialized for ANOMALY → /opt/***/logs/anomaly_logs/anomaly_20251107_211900.log
+[2025-11-07T21:19:00.441+0000] {logging_mixin.py:188} WARNING - 2025-11-07 21:19:00 | index_task | INFO | 🔗 Starting vector index update...
+[2025-11-07T21:19:00.440+0000] {loan_doc_pipeline_dag.py:110} INFO - 🔗 Starting vector index update...
+[2025-11-07T21:19:00.461+0000] {log.py:232} WARNING - 2025-11-07 21:19:00 | scripts.LLMquery.build_index | INFO | 🧠 Adding /opt/***/data/clean_texts/Model_pipeline_20251107_211850.txt to existing index...
+[2025-11-07T21:19:00.460+0000] {build_index.py:55} INFO - 🧠 Adding /opt/***/data/clean_texts/Model_pipeline_20251107_211850.txt to existing index...
+[2025-11-07T21:19:00.466+0000] {SentenceTransformer.py:107} INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-11-07T21:19:01.274+0000] {SentenceTransformer.py:213} INFO - Use pytorch device_name: cpu
+[2025-11-07T21:19:01.283+0000] {log.py:232} WARNING - 2025-11-07 21:19:01 | scripts.LLMquery.build_index | ERROR | ❌ Failed to index /opt/***/data/clean_texts/Model_pipeline_20251107_211850.txt: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+Traceback (most recent call last):
+  File "/opt/***/scripts/LLMquery/build_index.py", line 65, in add_to_index
+    db = Chroma(persist_directory=INDEX_PATH, embedding_function=embeddings)
+  File "/home/***/.local/lib/python3.10/site-packages/langchain_chroma/vectorstores.py", line 367, in __init__
+    self._client = chromadb.PersistentClient(
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/__init__.py", line 213, in PersistentClient
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/api/client.py", line 66, in __init__
+    super().__init__(settings=settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 19, in __init__
+    SharedSystemClient._create_system_if_not_exists(self._identifier, settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 26, in _create_system_if_not_exists
+    new_system = System(settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/config.py", line 385, in __init__
+    if settings[key] is not None:
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/config.py", line 319, in __getitem__
+    raise ValueError(LEGACY_ERROR)
+ValueError: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+[2025-11-07T21:19:01.282+0000] {build_index.py:86} ERROR - ❌ Failed to index /opt/***/data/clean_texts/Model_pipeline_20251107_211850.txt: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+Traceback (most recent call last):
+  File "/opt/airflow/scripts/LLMquery/build_index.py", line 65, in add_to_index
+    db = Chroma(persist_directory=INDEX_PATH, embedding_function=embeddings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/langchain_chroma/vectorstores.py", line 367, in __init__
+    self._client = chromadb.PersistentClient(
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/__init__.py", line 213, in PersistentClient
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/api/client.py", line 66, in __init__
+    super().__init__(settings=settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 19, in __init__
+    SharedSystemClient._create_system_if_not_exists(self._identifier, settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 26, in _create_system_if_not_exists
+    new_system = System(settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/config.py", line 385, in __init__
+    if settings[key] is not None:
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/config.py", line 319, in __getitem__
+    raise ValueError(LEGACY_ERROR)
+ValueError: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+[2025-11-07T21:19:01.285+0000] {logging_mixin.py:188} WARNING - 2025-11-07 21:19:01 | index_task | ERROR | ❌ Failed to index /opt/***/data/clean_texts/Model_pipeline_20251107_211850.txt: You are using a deprecated configuration of Chroma.
+
+If you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help!
+Traceback (most recent call last):
+  File "/opt/***/dags/loan_doc_pipeline_dag.py", line 118, in index_task
+    add_to_index(f)
+  File "/opt/***/scripts/LLMquery/build_index.py", line 87, in add_to_index
+    raise e
+  File "/opt/***/scripts/LLMquery/build_index.py", line 65, in add_to_index
+    db = Chroma(persist_directory=INDEX_PATH, embedding_function=embeddings)
+  File "/home/***/.local/lib/python3.10/site-packages/langchain_chroma/vectorstores.py", line 367, in __init__
+    self._client = chromadb.PersistentClient(
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/__init__.py", line 213, in PersistentClient
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/api/client.py", line 66, in __init__
+    super().__init__(settings=settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 19, in __init__
+    SharedSystemClient._create_system_if_not_exists(self._identifier, settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 26, in _create_system_if_not_exists
+    new_system = System(settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/config.py", line 385, in __init__
+    if settings[key] is not None:
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/config.py", line 319, in __getitem__
+    raise ValueError(LEGACY_ERROR)
+ValueError: You are using a deprecated configuration of Chroma.
+
+If you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help!
+[2025-11-07T21:19:01.284+0000] {loan_doc_pipeline_dag.py:122} ERROR - ❌ Failed to index /opt/***/data/clean_texts/Model_pipeline_20251107_211850.txt: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+Traceback (most recent call last):
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 118, in index_task
+    add_to_index(f)
+  File "/opt/airflow/scripts/LLMquery/build_index.py", line 87, in add_to_index
+    raise e
+  File "/opt/airflow/scripts/LLMquery/build_index.py", line 65, in add_to_index
+    db = Chroma(persist_directory=INDEX_PATH, embedding_function=embeddings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/langchain_chroma/vectorstores.py", line 367, in __init__
+    self._client = chromadb.PersistentClient(
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/__init__.py", line 213, in PersistentClient
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/api/client.py", line 66, in __init__
+    super().__init__(settings=settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 19, in __init__
+    SharedSystemClient._create_system_if_not_exists(self._identifier, settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 26, in _create_system_if_not_exists
+    new_system = System(settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/config.py", line 385, in __init__
+    if settings[key] is not None:
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/config.py", line 319, in __getitem__
+    raise ValueError(LEGACY_ERROR)
+ValueError: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+[2025-11-07T21:19:01.285+0000] {logging_mixin.py:188} WARNING - 2025-11-07 21:19:01 | index_anomaly | ERROR | ❌ Vectorization anomaly for /opt/***/data/clean_texts/Model_pipeline_20251107_211850.txt: You are using a deprecated configuration of Chroma.
+
+If you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help!
+[2025-11-07T21:19:01.285+0000] {loan_doc_pipeline_dag.py:123} ERROR - ❌ Vectorization anomaly for /opt/***/data/clean_texts/Model_pipeline_20251107_211850.txt: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+[2025-11-07T21:19:01.288+0000] {log.py:232} WARNING - 2025-11-07 21:19:01 | scripts.LLMquery.build_index | INFO | 🧠 Adding /opt/***/data/clean_texts/loan_demo2_20251107_211850.txt to existing index...
+[2025-11-07T21:19:01.288+0000] {build_index.py:55} INFO - 🧠 Adding /opt/***/data/clean_texts/loan_demo2_20251107_211850.txt to existing index...
+[2025-11-07T21:19:01.288+0000] {SentenceTransformer.py:107} INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-11-07T21:19:01.956+0000] {SentenceTransformer.py:213} INFO - Use pytorch device_name: cpu
+[2025-11-07T21:19:01.961+0000] {log.py:232} WARNING - 2025-11-07 21:19:01 | scripts.LLMquery.build_index | ERROR | ❌ Failed to index /opt/***/data/clean_texts/loan_demo2_20251107_211850.txt: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+Traceback (most recent call last):
+  File "/opt/***/scripts/LLMquery/build_index.py", line 65, in add_to_index
+    db = Chroma(persist_directory=INDEX_PATH, embedding_function=embeddings)
+  File "/home/***/.local/lib/python3.10/site-packages/langchain_chroma/vectorstores.py", line 367, in __init__
+    self._client = chromadb.PersistentClient(
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/__init__.py", line 213, in PersistentClient
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/api/client.py", line 66, in __init__
+    super().__init__(settings=settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 19, in __init__
+    SharedSystemClient._create_system_if_not_exists(self._identifier, settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 26, in _create_system_if_not_exists
+    new_system = System(settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/config.py", line 385, in __init__
+    if settings[key] is not None:
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/config.py", line 319, in __getitem__
+    raise ValueError(LEGACY_ERROR)
+ValueError: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+[2025-11-07T21:19:01.961+0000] {build_index.py:86} ERROR - ❌ Failed to index /opt/***/data/clean_texts/loan_demo2_20251107_211850.txt: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+Traceback (most recent call last):
+  File "/opt/airflow/scripts/LLMquery/build_index.py", line 65, in add_to_index
+    db = Chroma(persist_directory=INDEX_PATH, embedding_function=embeddings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/langchain_chroma/vectorstores.py", line 367, in __init__
+    self._client = chromadb.PersistentClient(
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/__init__.py", line 213, in PersistentClient
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/api/client.py", line 66, in __init__
+    super().__init__(settings=settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 19, in __init__
+    SharedSystemClient._create_system_if_not_exists(self._identifier, settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 26, in _create_system_if_not_exists
+    new_system = System(settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/config.py", line 385, in __init__
+    if settings[key] is not None:
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/config.py", line 319, in __getitem__
+    raise ValueError(LEGACY_ERROR)
+ValueError: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+[2025-11-07T21:19:01.962+0000] {logging_mixin.py:188} WARNING - 2025-11-07 21:19:01 | index_task | ERROR | ❌ Failed to index /opt/***/data/clean_texts/loan_demo2_20251107_211850.txt: You are using a deprecated configuration of Chroma.
+
+If you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help!
+Traceback (most recent call last):
+  File "/opt/***/dags/loan_doc_pipeline_dag.py", line 118, in index_task
+    add_to_index(f)
+  File "/opt/***/scripts/LLMquery/build_index.py", line 87, in add_to_index
+    raise e
+  File "/opt/***/scripts/LLMquery/build_index.py", line 65, in add_to_index
+    db = Chroma(persist_directory=INDEX_PATH, embedding_function=embeddings)
+  File "/home/***/.local/lib/python3.10/site-packages/langchain_chroma/vectorstores.py", line 367, in __init__
+    self._client = chromadb.PersistentClient(
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/__init__.py", line 213, in PersistentClient
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/api/client.py", line 66, in __init__
+    super().__init__(settings=settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 19, in __init__
+    SharedSystemClient._create_system_if_not_exists(self._identifier, settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 26, in _create_system_if_not_exists
+    new_system = System(settings)
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/config.py", line 385, in __init__
+    if settings[key] is not None:
+  File "/home/***/.local/lib/python3.10/site-packages/chromadb/config.py", line 319, in __getitem__
+    raise ValueError(LEGACY_ERROR)
+ValueError: You are using a deprecated configuration of Chroma.
+
+If you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help!
+[2025-11-07T21:19:01.962+0000] {loan_doc_pipeline_dag.py:122} ERROR - ❌ Failed to index /opt/***/data/clean_texts/loan_demo2_20251107_211850.txt: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+Traceback (most recent call last):
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 118, in index_task
+    add_to_index(f)
+  File "/opt/airflow/scripts/LLMquery/build_index.py", line 87, in add_to_index
+    raise e
+  File "/opt/airflow/scripts/LLMquery/build_index.py", line 65, in add_to_index
+    db = Chroma(persist_directory=INDEX_PATH, embedding_function=embeddings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/langchain_chroma/vectorstores.py", line 367, in __init__
+    self._client = chromadb.PersistentClient(
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/__init__.py", line 213, in PersistentClient
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/api/client.py", line 66, in __init__
+    super().__init__(settings=settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 19, in __init__
+    SharedSystemClient._create_system_if_not_exists(self._identifier, settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/api/shared_system_client.py", line 26, in _create_system_if_not_exists
+    new_system = System(settings)
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/config.py", line 385, in __init__
+    if settings[key] is not None:
+  File "/home/airflow/.local/lib/python3.10/site-packages/chromadb/config.py", line 319, in __getitem__
+    raise ValueError(LEGACY_ERROR)
+ValueError: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+[2025-11-07T21:19:01.963+0000] {logging_mixin.py:188} WARNING - 2025-11-07 21:19:01 | index_anomaly | ERROR | ❌ Vectorization anomaly for /opt/***/data/clean_texts/loan_demo2_20251107_211850.txt: You are using a deprecated configuration of Chroma.
+
+If you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help!
+[2025-11-07T21:19:01.963+0000] {loan_doc_pipeline_dag.py:123} ERROR - ❌ Vectorization anomaly for /opt/***/data/clean_texts/loan_demo2_20251107_211850.txt: [91mYou are using a deprecated configuration of Chroma.
+
+[94mIf you do not have data you wish to migrate, you only need to change how you construct
+your Chroma client. Please see the "New Clients" section of https://docs.trychroma.com/deployment/migration.
+________________________________________________________________________________________________
+
+If you do have data you wish to migrate, we have a migration tool you can use in order to
+migrate your data to the new Chroma architecture.
+Please `pip install chroma-migrate` and run `chroma-migrate` to migrate your data and then
+change how you construct your Chroma client.
+
+See https://docs.trychroma.com/deployment/migration for more information or join our discord at https://discord.gg/MMeYNTmh3x for help![0m
+[2025-11-07T21:19:01.974+0000] {logging_mixin.py:188} WARNING - 2025-11-07 21:19:01 | index_task | INFO | 📊 Vector Index Summary → Updated: 0
+[2025-11-07T21:19:01.970+0000] {loan_doc_pipeline_dag.py:127} INFO - 📊 Vector Index Summary → Updated: 0
+[2025-11-07T21:19:01.979+0000] {python.py:237} INFO - Done. Returned value was: 0
+[2025-11-07T21:19:01.980+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-07T21:19:02.002+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=loan_doc_pipeline_dag, task_id=update_vector_index, run_id=vector_fix_final3, execution_date=20251107T210219, start_date=20251107T211900, end_date=20251107T211902
+[2025-11-07T21:19:02.041+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-11-07T21:19:02.057+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-07T21:19:02.058+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

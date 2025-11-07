@@ -1,0 +1,2 @@
+2025-11-07 22:29:48 | scripts.LLMquery.build_index | INFO | 🧩 Logger initialized for LLM → /opt/airflow/logs/llm_logs/llm_20251107_222948.log
+2025-11-07 22:29:48 | scripts.LLMquery.prompts.prompt_router | INFO | 🧩 Logger initialized for LLM → /opt/airflow/logs/llm_logs/llm_20251107_222948.log

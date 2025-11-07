@@ -1,0 +1,2 @@
+2025-11-07 22:00:48 | scripts.extraction_pipeline.utils | INFO | 🧩 Logger initialized for EXTRACTION → /opt/airflow/logs/extraction_logs/extraction_20251107_220048.log
+2025-11-07 22:00:48 | scripts.extraction_pipeline.main_extractor | INFO | 🧩 Logger initialized for EXTRACTION → /opt/airflow/logs/extraction_logs/extraction_20251107_220048.log

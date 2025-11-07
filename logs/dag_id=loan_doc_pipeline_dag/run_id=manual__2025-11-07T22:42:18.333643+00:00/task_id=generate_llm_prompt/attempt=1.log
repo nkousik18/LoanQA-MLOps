@@ -1,0 +1,79 @@
+[2025-11-07T22:43:01.461+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-07T22:43:01.471+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: loan_doc_pipeline_dag.generate_llm_prompt manual__2025-11-07T22:42:18.333643+00:00 [queued]>
+[2025-11-07T22:43:01.476+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: loan_doc_pipeline_dag.generate_llm_prompt manual__2025-11-07T22:42:18.333643+00:00 [queued]>
+[2025-11-07T22:43:01.477+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2025-11-07T22:43:01.485+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): generate_llm_prompt> on 2025-11-07 22:42:18.333643+00:00
+[2025-11-07T22:43:01.496+0000] {standard_task_runner.py:63} INFO - Started process 75 to run task
+[2025-11-07T22:43:01.500+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'loan_doc_pipeline_dag', 'generate_llm_prompt', 'manual__2025-11-07T22:42:18.333643+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/loan_doc_pipeline_dag.py', '--cfg-path', '/tmp/tmpdon9axzl']
+[2025-11-07T22:43:01.502+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask generate_llm_prompt
+[2025-11-07T22:43:01.537+0000] {task_command.py:426} INFO - Running <TaskInstance: loan_doc_pipeline_dag.generate_llm_prompt manual__2025-11-07T22:42:18.333643+00:00 [running]> on host 9d099d758da1
+[2025-11-07T22:43:01.597+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kousik' AIRFLOW_CTX_DAG_ID='loan_doc_pipeline_dag' AIRFLOW_CTX_TASK_ID='generate_llm_prompt' AIRFLOW_CTX_EXECUTION_DATE='2025-11-07T22:42:18.333643+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-07T22:42:18.333643+00:00'
+[2025-11-07T22:43:01.600+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-07T22:43:01.616+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:43:01 | llm_task | INFO | 🧩 Logger initialized for LLM → /opt/***/logs/llm_logs/llm_20251107_224301.log
+[2025-11-07T22:43:01.616+0000] {config.py:104} INFO - 🧩 Logger initialized for LLM → /opt/***/logs/llm_logs/llm_20251107_224301.log
+[2025-11-07T22:43:01.617+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:43:01 | llm_anomaly | INFO | 🧩 Logger initialized for ANOMALY → /opt/***/logs/anomaly_logs/anomaly_20251107_224301.log
+[2025-11-07T22:43:01.617+0000] {config.py:104} INFO - 🧩 Logger initialized for ANOMALY → /opt/***/logs/anomaly_logs/anomaly_20251107_224301.log
+[2025-11-07T22:43:01.617+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:43:01 | llm_task | INFO | 🧠 Generating LLM prompt via Ollama...
+[2025-11-07T22:43:01.617+0000] {loan_doc_pipeline_dag.py:143} INFO - 🧠 Generating LLM prompt via Ollama...
+[2025-11-07T22:43:01.619+0000] {loan_doc_pipeline_dag.py:155} DEBUG - 📄 Loaded: Model_pipeline_20251107_224230.txt (6981 chars)
+[2025-11-07T22:43:01.619+0000] {loan_doc_pipeline_dag.py:155} DEBUG - 📄 Loaded: loan_demo2_20251107_224230.txt (25449 chars)
+[2025-11-07T22:43:01.620+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:43:01 | llm_task | INFO | 🧩 Building prompt for query: 'Can I postpone my federal loan payments?'
+[2025-11-07T22:43:01.620+0000] {loan_doc_pipeline_dag.py:168} INFO - 🧩 Building prompt for query: 'Can I postpone my federal loan payments?'
+[2025-11-07T22:43:01.620+0000] {prompt_router.py:211} DEBUG - Extracted 2 context chunks.
+[2025-11-07T22:43:01.625+0000] {logging_mixin.py:188} WARNING - Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+[2025-11-07T22:43:01.656+0000] {logging_mixin.py:188} WARNING - Batches: 100%|##########| 1/1 [00:00<00:00, 32.55it/s]
+[2025-11-07T22:43:01.657+0000] {prompt_router.py:147} DEBUG - [Keyword Score] finance: 0.67
+[2025-11-07T22:43:01.658+0000] {prompt_router.py:159} DEBUG - [Numeric Score] 0.00
+[2025-11-07T22:43:01.659+0000] {log.py:232} WARNING - 2025-11-07 22:43:01 | scripts.LLMquery.prompts.prompt_router | INFO | [Router] Q='Can I postpone my federal loan payments?...' | Intent='retrieval' | Confidence=0.342 | Gap=0.371 | Time=0.038s
+[2025-11-07T22:43:01.659+0000] {prompt_router.py:185} INFO - [Router] Q='Can I postpone my federal loan payments?...' | Intent='retrieval' | Confidence=0.342 | Gap=0.371 | Time=0.038s
+[2025-11-07T22:43:01.659+0000] {log.py:232} WARNING - 2025-11-07 22:43:01 | scripts.LLMquery.prompts.prompt_router | INFO | [Router Decision] Intent='retrieval' | Confidence=0.342 | Gap=0.371 | ContextLen=32432 chars
+[2025-11-07T22:43:01.659+0000] {prompt_router.py:244} INFO - [Router Decision] Intent='retrieval' | Confidence=0.342 | Gap=0.371 | ContextLen=32432 chars
+[2025-11-07T22:43:01.660+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:43:01 | llm_task | INFO | 🧭 Intent → retrieval | Confidence → 0.342 | Gap → 0.371
+[2025-11-07T22:43:01.660+0000] {loan_doc_pipeline_dag.py:173} INFO - 🧭 Intent → retrieval | Confidence → 0.342 | Gap → 0.371
+[2025-11-07T22:43:01.660+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:43:01 | llm_anomaly | WARNING | ⚠️ Low confidence anomaly (Intent=retrieval, Conf=0.34)
+[2025-11-07T22:43:01.660+0000] {loan_doc_pipeline_dag.py:176} WARNING - ⚠️ Low confidence anomaly (Intent=retrieval, Conf=0.34)
+[2025-11-07T22:44:01.974+0000] {logging_mixin.py:188} INFO - ⏱️ Ollama request timed out (attempt 1/3)
+[2025-11-07T22:44:02.086+0000] {logging_mixin.py:188} INFO - 🔁 Retrying Ollama call in 5 seconds...
+[2025-11-07T22:45:13.832+0000] {logging_mixin.py:188} INFO - ⏱️ Ollama request timed out (attempt 2/3)
+[2025-11-07T22:45:14.351+0000] {logging_mixin.py:188} INFO - 🔁 Retrying Ollama call in 5 seconds...
+[2025-11-07T22:46:19.148+0000] {logging_mixin.py:188} INFO - ⏱️ Ollama request timed out (attempt 3/3)
+[2025-11-07T22:46:19.165+0000] {logging_mixin.py:188} INFO - ❌ Ollama failed after 3 attempts.
+[2025-11-07T22:46:19.176+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:46:19 | llm_task | ERROR | ❌ Ollama query failed or returned empty response.
+[2025-11-07T22:46:19.172+0000] {loan_doc_pipeline_dag.py:182} ERROR - ❌ Ollama query failed or returned empty response.
+[2025-11-07T22:46:19.179+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:46:19 | llm_anomaly | ERROR | 🚨 Ollama query timeout or no output.
+[2025-11-07T22:46:19.178+0000] {loan_doc_pipeline_dag.py:183} ERROR - 🚨 Ollama query timeout or no output.
+[2025-11-07T22:46:19.186+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:46:19 | llm_task | ERROR | ❌ LLM task failed: Ollama query failed or timed out.
+Traceback (most recent call last):
+  File "/opt/***/dags/loan_doc_pipeline_dag.py", line 184, in llm_task
+    raise ValueError("Ollama query failed or timed out.")
+ValueError: Ollama query failed or timed out.
+[2025-11-07T22:46:19.182+0000] {loan_doc_pipeline_dag.py:192} ERROR - ❌ LLM task failed: Ollama query failed or timed out.
+Traceback (most recent call last):
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 184, in llm_task
+    raise ValueError("Ollama query failed or timed out.")
+ValueError: Ollama query failed or timed out.
+[2025-11-07T22:46:19.192+0000] {logging_mixin.py:188} WARNING - 2025-11-07 22:46:19 | llm_anomaly | ERROR | 🚨 LLM processing anomaly: Ollama query failed or timed out.
+[2025-11-07T22:46:19.192+0000] {loan_doc_pipeline_dag.py:193} ERROR - 🚨 LLM processing anomaly: Ollama query failed or timed out.
+[2025-11-07T22:46:19.194+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-07T22:46:19.204+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 194, in llm_task
+    raise e
+  File "/opt/airflow/dags/loan_doc_pipeline_dag.py", line 184, in llm_task
+    raise ValueError("Ollama query failed or timed out.")
+ValueError: Ollama query failed or timed out.
+[2025-11-07T22:46:19.267+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=loan_doc_pipeline_dag, task_id=generate_llm_prompt, run_id=manual__2025-11-07T22:42:18.333643+00:00, execution_date=20251107T224218, start_date=20251107T224301, end_date=20251107T224619
+[2025-11-07T22:46:19.345+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 4 for task generate_llm_prompt (Ollama query failed or timed out.; 75)
+[2025-11-07T22:46:19.453+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-11-07T22:46:19.529+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-07T22:46:19.531+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

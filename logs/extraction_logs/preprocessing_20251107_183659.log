@@ -1,0 +1,9 @@
+2025-11-07 18:36:59 | scripts.extraction_pipeline.extractor_core | INFO | 🧩 Logger initialized for PREPROCESSING → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/preprocessing_20251107_183659.log
+2025-11-07 18:37:58 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: errors-failure.pdf
+2025-11-07 18:37:58 | scripts.extraction_pipeline.extractor_core | INFO | Detected 5 pages in errors-failure.pdf
+2025-11-07 18:37:58 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 1/5 processed (native text extraction) in 0.02s
+2025-11-07 18:37:58 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 2/5 processed (native text extraction) in 0.00s
+2025-11-07 18:37:58 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 3/5 processed (native text extraction) in 0.00s
+2025-11-07 18:37:58 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 4/5 processed (native text extraction) in 0.00s
+2025-11-07 18:37:58 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 5/5 processed (native text extraction) in 0.00s
+2025-11-07 18:37:58 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for errors-failure.pdf | Pages: 5 | Time: 0.04s

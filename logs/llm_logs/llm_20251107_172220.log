@@ -1,0 +1,9 @@
+2025-11-07 17:22:20 | scripts.LLMquery.prompts.prompt_router | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251107_172220.log
+2025-11-07 17:22:21 | scripts.LLMquery.prompts.prompt_router | INFO | 🧠 Prompt Router initialized with model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-07 17:22:21 | scripts.LLMquery.prompts.prompt_router | DEBUG | Computing prototype intent embeddings for router...
+2025-11-07 17:22:21 | scripts.LLMquery.prompts.prompt_router | INFO | ✅ Loaded 5 intent categories: ['finance', 'summary', 'translation', 'explanation', 'retrieval']
+2025-11-07 17:29:14 | scripts.LLMquery.prompts.prompt_router | DEBUG | Extracted 3 context chunks.
+2025-11-07 17:29:14 | scripts.LLMquery.prompts.prompt_router | DEBUG | [Keyword Score] retrieval: 0.00
+2025-11-07 17:29:14 | scripts.LLMquery.prompts.prompt_router | DEBUG | [Numeric Score] 0.00
+2025-11-07 17:29:14 | scripts.LLMquery.prompts.prompt_router | INFO | [Router] Q='hey wassup...' | Intent='retrieval' | Confidence=0.170 | Gap=0.031 | Time=0.033s
+2025-11-07 17:29:14 | scripts.LLMquery.prompts.prompt_router | INFO | [Router Decision] Intent='retrieval' | Confidence=0.170 | Gap=0.031 | ContextLen=23173 chars
