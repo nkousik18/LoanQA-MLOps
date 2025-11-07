@@ -1,0 +1,358 @@
+AXIS [BANK]
+AXIS [BANK]
+AXIS [BANK]
+Fill all fields in capital letters only
+Fill all fields in capital letters only
+Fill all fields in capital letters only
+Date
+Date
+Date
+Branch
+Branch
+Branch
+Case Type Fresh Case
+Case Type Fresh Case
+Case Type Fresh Case
+Are you an existing customer?
+Are you an existing customer?
+Are you an existing customer?
+Account No.
+Account No.
+Account No.
+PAN No.
+PAN No.
+PAN No.
+Type of facility
+Type of facility
+Type of facility
+Name (Same as ID proof)
+Name (Same as ID proof)
+Name (Same as ID proof)
+Maiden Name (if any)
+Maiden Name (if any)
+Maiden Name (if any)
+Father's Name
+Father's Name
+Father's Name
+Mother's Name"
+Mother's Name"
+Mother's Name"
+Nationality
+Nationality
+Nationality
+Age
+Age
+Age
+Martial Status
+Martial Status
+Martial Status
+Person with Disability:
+Person with Disability:
+Person with Disability:
+*GSTIN DETAILS
+*GSTIN DETAILS
+*GSTIN DETAILS
+Whether registered under GST
+Whether registered under GST
+Whether registered under GST
+*GST Registration
+*GST Registration
+*GST Registration
+GSTIN (Default)
+GSTIN (Default)
+GSTIN (Default)
+Address Registered for GSTIN
+Address Registered for GSTIN
+Address Registered for GSTIN
+City
+City
+City
+Address: Office
+Address: Office
+Address: Office
+City
+City
+City
+Address: Permanent
+Address: Permanent
+Address: Permanent
+City
+City
+City
+Tel. No. STD Code
+Tel. No. STD Code
+Tel. No. STD Code
+Residential Ownership
+Residential Ownership
+Residential Ownership
+Education
+Education
+Education
+APPLICATION Sr. No.
+APPLICATION Sr. No.
+APPLICATION Sr. No.
+HYDERABAD
+Yes
+Yes
+Yes
+No
+No
+No
+AB124YZ
+AB124YZ
+AB124YZ
+Passport No./Voter ID/Driving Licence/NREGA job card/Others [ACCOUNT]
+Passport No./Driving Licence. Expiry Date [ACCOUNT]
+Passport No./Voter ID/Driving Licence/NREGA job card/Others [ACCOUNT]
+Passport No./Voter ID/Driving Licence/NREGA job card/Others [ACCOUNT]
+Passport No./Driving Licence. Expiry Date [ACCOUNT]
+Passport No./Driving Licence. Expiry Date [ACCOUNT]
+Gold Term Loan
+Gold Term Loan
+Gold Term Loan
+Mr.
+Mr.
+Mr.
+Mm.
+Mm.
+Mm.
+MAS
+MAS
+MAS
+Indian
+Indian
+Indian
+52 S/W/DO SAHOO
+52 S/W/DO SAHOO
+Married
+Married
+Married
+Yes No If yes, (please specify)
+✓No
+✓No
+✓No
+Yes
+Yes
+Yes
+"Multiple
+Single
+Single
+Single
+Same as current Residence Address
+Same as current Residence Address
+Same as current Residence Address
+Address: Current Residence-2-9014
+Address: Current Residence-2-9014
+Address: Current Residence-2-9014
+CHENNAI State
+CHENNAI State
+CHENNAI State
+(R1)
+(R1)
+(R1)
+Self owned
+Self owned
+Self owned
+Below Matriculation Matriculate
+Below Matriculation Matriculate
+Below Matriculation Matriculate
+[ACCOUNT] SOLID 1234 Scheme TOMATO
+HYDERABAD
+[ACCOUNT] SOLID 1234 Scheme TOMATO
+HYDERABAD
+[ACCOUNT] SOLID 1234 Scheme TOMATO
+Renewal If renewal old Account Number
+Renewal If renewal old Account Number
+Renewal If renewal old Account Number
+[PII][PII][PII][ACCOUNT]
+Gold Overdraft
+Gold Overdraft
+Gold Overdraft
+RAJ KUMAR
+RAJ KUMAR
+RAJ KUMAR
+GAVASKAR REDDY
+ROY SHARMA
+Others Date of Birth [ACCOUNT] Gender M
+52 S/W/DO SAHOO
+GAVASKAR REDDY
+GAVASKAR REDDY
+ROY SHARMA
+ROY SHARMA
+Unmarried Others Religion Hindu
+Yes No If yes, (please specify)
+Unmarried Others Religion Hindu
+Yes No If yes, (please specify)
+Unmarried Others Religion Hindu
+No If yes, following details are mandatory)
+"Multiple
+(Please fill GST Annexure for multiple GST Registration)
+No If yes, following details are mandatory)
+"Multiple
+(Please fill GST Annexure for multiple GST Registration)
+No If yes, following details are mandatory)
+Same as Office Address
+Same as Office Address
+Same as Office Address
+State DRYSTATE
+State DRYSTATE
+State DRYSTATE
+State
+State
+State
+State
+State
+State
+Mekler No. [PII]
+Mekler No. [PII]
+Mekler No. [PII]
+Employer Provided
+Undergraduate
+Employer Provided
+Undergraduate
+Employer Provided
+Rental Parental
+Rental Parental
+Rental Parental
+Undergraduate
+Application for Power Gold Loan /
+Overdraft Facility
+Application for Power Gold Loan /
+Overdraft Facility
+Application for Power Gold Loan /
+Overdraft Facility
+Applicant's Personal Details (to be filled by the applicant)
+Applicant's Personal Details (to be filled by the applicant)
+Applicant's Personal Details (to be filled by the applicant)
+Form 60(Please fill form 60)
+Form 60(Please fill form 60)
+Form 60(Please fill form 60)
+Others Date of Birth [ACCOUNT] Gender M
+Others Date of Birth [ACCOUNT] Gender M
+Christian
+Christian
+Christian
+Muslim
+Muslim
+Muslim
+(Please fill GST Annexure for multiple GST Registration)
+HYDERABAD
+HYDERABAD
+HYDERABAD
+Landmark
+Landmark
+Landmark
+Landmark
+Landmark
+Landmark
+Landmark'
+Landmark'
+Landmark'
+Paying Guest
+Graduate PG
+Paying Guest
+Graduate PG
+Paying Guest
+Graduate PG
+1
+1
+1
+If Yes, Please provide Customer ID [ACCOUNT]
+C-KYC No. [ACCOUNT]
+If Yes, Please provide Customer ID [ACCOUNT]
+If Yes, Please provide Customer ID [ACCOUNT]
+C-KYC No. [ACCOUNT]
+C-KYC No. [ACCOUNT]
+UID Aadhaar No."
+UID Aadhaar No."
+UID Aadhaar No."
+Jain
+Jain
+Jain
+Sikh
+Sikh
+Sikh
+Mailing Address
+Mailing Address
+Mailing Address
+GST Exemption Yes No Exemption Reason (If Yes)
+*Special Economic Zone
+GST Exemption Yes No Exemption Reason (If Yes)
+*Special Economic Zone
+GST Exemption Yes No Exemption Reason (If Yes)
+*Special Economic Zone
+Same as Permanent Address
+Same as Permanent Address
+Same as Permanent Address
+"K" GRAND CANYON
+"K" GRAND CANYON
+"K" GRAND CANYON
+(R30 Ext
+(R30 Ext
+(R30 Ext
+Others
+Others
+Others
+Others
+Others
+Others
+Barcode
+Barcode
+Barcode
+"Mandatory Field
+"Mandatory Field
+"Mandatory Field
+Applicant Photo
+Applicant Photo
+Applicant Photo
+Last Nam
+Last Nam
+Last Nam
+ST
+ST
+ST
+Other/
+Other/
+Other/
+Parsi
+Parsi
+Parsi
+SC
+SC
+SC
+Current Residence
+Current Residence
+Current Residence
+Office
+Office
+Office
+No
+No
+No
+Yes
+Yes
+Yes
+Other (as per GST annexure)
+Other (as per GST annexure)
+Other (as per GST annexure)
+TURKEY
+TURKEY
+TURKEY
+Pincode
+Pincode
+Pincode
+For official use only
+For official use only
+For official use only
+0042
+0042
+0042
+OBC
+OBC
+OBC
+Permanent
+Permanent
+Permanent
+Pincode [ACCOUNT]
+Pincode [ACCOUNT]
+Pincode [ACCOUNT]
