@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+__pycache__/
+*.pyc
+
+# Logs and cache
+logs/
+*.log
+
+# Airflow and temp data
+dags/__pycache__/
+scheduler/
+dag_processor_manager/
+
+# Data and vector stores
+data/loan_docs/
+data/clean_texts/
+scripts/LLMquery/vectorstores/
+chroma.sqlite*
+*.db
+
+# OS files
+.DS_Store
