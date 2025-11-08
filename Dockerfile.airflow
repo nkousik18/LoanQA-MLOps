@@ -1,0 +1,76 @@
+# ============================================================
+# 🧠  Custom Airflow + PaddleOCR + LangChain + PyMuPDF (ARM64 + Python 3.12 Safe)
+# ============================================================
+
+FROM apache/airflow:2.9.1-python3.10
+
+# ------------------------------------------------------------
+# 🧩 Install system dependencies
+# ------------------------------------------------------------
+USER root
+RUN apt-get update && apt-get install -y \
+    wget git python3-dev libgl1-mesa-glx libglib2.0-0 libgomp1 \
+    libjpeg-dev libfreetype6-dev zlib1g-dev pkg-config \
+    poppler-utils tesseract-ocr \
+    build-essential cmake g++ && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# ------------------------------------------------------------
+# 🧠 Python layer (run as airflow user)
+# ------------------------------------------------------------
+USER airflow
+
+# Upgrade pip + base tools
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel
+
+# ------------------------------------------------------------
+# 🧠 Install PaddleOCR stack (ARM64 + Python 3.10 safe)
+# ------------------------------------------------------------
+USER airflow
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
+    # ✅ 1️⃣ Install PaddlePaddle CPU from the ARM wheel (hosted on paddlepaddle.org.cn)
+    pip install --no-cache-dir -i https://www.paddlepaddle.org.cn/packages/stable/cpu/ paddlepaddle==2.6.1 && \
+    # ✅ 2️⃣ Install PaddleOCR (latest stable)
+    pip install --no-cache-dir paddleocr==2.7.0.3 && \
+    pip cache purge
+
+
+# ✅ 2️⃣ PyMuPDF (fitz) — ARM64-compatible universal wheel
+RUN pip install --no-cache-dir "PyMuPDF==1.24.10"
+
+# ✅ 3️⃣ LangChain + Embeddings + Vector DB
+RUN pip install --no-cache-dir \
+    "langchain>=0.3.0" \
+    "langchain-core>=0.3.0" \
+    "langchain-community>=0.3.0" \
+    "langchain-huggingface>=0.1.0" \
+    "chromadb==0.5.3" \
+    "sentence-transformers==2.6.1" \
+    "tiktoken==0.7.0" && \
+    pip install --no-cache-dir langchain-huggingface langchain-chroma
+
+
+
+# ------------------------------------------------------------
+# 🚀 Copy custom scripts and set PYTHONPATH
+# ------------------------------------------------------------
+USER root
+COPY scripts /opt/airflow/scripts
+COPY data /opt/airflow/data
+COPY dags /opt/airflow/dags
+COPY tests /opt/airflow/tests
+
+# ✅ Make sure scripts are importable from anywhere
+ENV PYTHONPATH="/opt/airflow:/opt/airflow/scripts:/opt/airflow/scripts/extraction_pipeline:/opt/airflow/scripts/LLMquery"
+
+# ------------------------------------------------------------
+# ✅ Final setup
+# ------------------------------------------------------------
+WORKDIR /opt/airflow
+USER airflow
+
+# Prevent local cache build-up
+RUN pip cache purge
+
+# Optional: copy a startup echo to verify successful build
+CMD echo "✅ Airflow custom image ready with PaddleOCR + LangChain + PyMuPDF"

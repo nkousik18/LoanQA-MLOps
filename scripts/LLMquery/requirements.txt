@@ -1,0 +1,14 @@
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+torch
+transformers
+ollama
+fastapi
+uvicorn
+langchain
+chromadb
+sentence-transformers
+sympy
+openai
