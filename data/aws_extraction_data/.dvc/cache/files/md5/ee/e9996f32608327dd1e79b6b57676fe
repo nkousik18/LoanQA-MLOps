@@ -1,0 +1,170 @@
+[
+  {
+    "doc_id": "5a093494-a0fb-42f3-a87b-e04aeb7a21c8",
+    "page": 1,
+    "span_id": 1,
+    "span_type": "line",
+    "text": "Home Loan Agreement (Sample)",
+    "conf": 99.99003601074219,
+    "bbox": {
+      "Width": 0.3618467152118683,
+      "Height": 0.016867129132151604,
+      "Left": 0.09645751863718033,
+      "Top": 0.054569948464632034
+    }
+  },
+  {
+    "doc_id": "5a093494-a0fb-42f3-a87b-e04aeb7a21c8",
+    "page": 1,
+    "span_id": 2,
+    "span_type": "line",
+    "text": "Borrower Name: Rahul Kumar",
+    "conf": 99.98759460449219,
+    "bbox": {
+      "Width": 0.22464269399642944,
+      "Height": 0.00958593375980854,
+      "Left": 0.09598410129547119,
+      "Top": 0.09878940880298615
+    }
+  },
+  {
+    "doc_id": "5a093494-a0fb-42f3-a87b-e04aeb7a21c8",
+    "page": 1,
+    "span_id": 3,
+    "span_type": "line",
+    "text": "Borrower ID: AID-947201",
+    "conf": 99.765625,
+    "bbox": {
+      "Width": 0.18568390607833862,
+      "Height": 0.009384839795529842,
+      "Left": 0.09622575342655182,
+      "Top": 0.1257094442844391
+    }
+  },
+  {
+    "doc_id": "5a093494-a0fb-42f3-a87b-e04aeb7a21c8",
+    "page": 1,
+    "span_id": 4,
+    "span_type": "line",
+    "text": "Property Address: 12, Green Park, New Delhi - 110016",
+    "conf": 99.39942169189453,
+    "bbox": {
+      "Width": 0.40921229124069214,
+      "Height": 0.01184286642819643,
+      "Left": 0.0961683914065361,
+      "Top": 0.1527092307806015
+    }
+  },
+  {
+    "doc_id": "5a093494-a0fb-42f3-a87b-e04aeb7a21c8",
+    "page": 1,
+    "span_id": 5,
+    "span_type": "line",
+    "text": "Loan Amount: 16,985,000.00",
+    "conf": 98.77079010009766,
+    "bbox": {
+      "Width": 0.21923106908798218,
+      "Height": 0.010938848368823528,
+      "Left": 0.09579344838857651,
+      "Top": 0.17967632412910461
+    }
+  },
+  {
+    "doc_id": "5a093494-a0fb-42f3-a87b-e04aeb7a21c8",
+    "page": 1,
+    "span_id": 6,
+    "span_type": "line",
+    "text": "Interest Rate (p.a.): 8.76%",
+    "conf": 99.75446319580078,
+    "bbox": {
+      "Width": 0.19560079276561737,
+      "Height": 0.011939152143895626,
+      "Left": 0.09633221477270126,
+      "Top": 0.20649072527885437
+    }
+  },
+  {
+    "doc_id": "5a093494-a0fb-42f3-a87b-e04aeb7a21c8",
+    "page": 1,
+    "span_id": 7,
+    "span_type": "line",
+    "text": "Tenure: 360 months",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.15004275739192963,
+      "Height": 0.009445116855204105,
+      "Left": 0.09523073583841324,
+      "Top": 0.23359063267707825
+    }
+  },
+  {
+    "doc_id": "5a093494-a0fb-42f3-a87b-e04aeb7a21c8",
+    "page": 1,
+    "span_id": 8,
+    "span_type": "line",
+    "text": "EMI (approx):",
+    "conf": 99.9109115600586,
+    "bbox": {
+      "Width": 0.09981245547533035,
+      "Height": 0.011714260093867779,
+      "Left": 0.09601390361785889,
+      "Top": 0.2604998052120209
+    }
+  },
+  {
+    "doc_id": "5a093494-a0fb-42f3-a87b-e04aeb7a21c8",
+    "page": 1,
+    "span_id": 9,
+    "span_type": "line",
+    "text": "158,261.00",
+    "conf": 98.73326110839844,
+    "bbox": {
+      "Width": 0.07560508698225021,
+      "Height": 0.010889782570302486,
+      "Left": 0.21342070400714874,
+      "Top": 0.2607421576976776
+    }
+  },
+  {
+    "doc_id": "5a093494-a0fb-42f3-a87b-e04aeb7a21c8",
+    "page": 1,
+    "span_id": 10,
+    "span_type": "line",
+    "text": "Prepayment Penalty: Nil",
+    "conf": 99.89397430419922,
+    "bbox": {
+      "Width": 0.1793563961982727,
+      "Height": 0.011869971640408039,
+      "Left": 0.09609492868185043,
+      "Top": 0.28738316893577576
+    }
+  },
+  {
+    "doc_id": "5a093494-a0fb-42f3-a87b-e04aeb7a21c8",
+    "page": 1,
+    "span_id": 11,
+    "span_type": "line",
+    "text": "Late Payment Fee: 2% of overdue amount",
+    "conf": 99.96070861816406,
+    "bbox": {
+      "Width": 0.3156967759132385,
+      "Height": 0.0118899280205369,
+      "Left": 0.09573597460985184,
+      "Top": 0.3143799304962158
+    }
+  },
+  {
+    "doc_id": "5a093494-a0fb-42f3-a87b-e04aeb7a21c8",
+    "page": 1,
+    "span_id": 12,
+    "span_type": "line",
+    "text": "Document ID: 334418 Generated: 2025-10-08",
+    "conf": 99.83382415771484,
+    "bbox": {
+      "Width": 0.28582409024238586,
+      "Height": 0.008327796123921871,
+      "Left": 0.09589724242687225,
+      "Top": 0.3831029534339905
+    }
+  }
+]

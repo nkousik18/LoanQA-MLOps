@@ -1,0 +1,6246 @@
+[
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 1,
+    "span_type": "line",
+    "text": "(SPECIMEN OF MEMORANDUM OF TERM LOAN AGREEMENT FOR",
+    "conf": 99.92157745361328,
+    "bbox": {
+      "Width": 0.6213281154632568,
+      "Height": 0.015408944338560104,
+      "Left": 0.18847893178462982,
+      "Top": 0.09335259348154068
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 2,
+    "span_type": "line",
+    "text": "HOME LOAN GRANTED TO PUBLIC)",
+    "conf": 99.62822723388672,
+    "bbox": {
+      "Width": 0.33306384086608887,
+      "Height": 0.015353121794760227,
+      "Left": 0.3359087407588959,
+      "Top": 0.11253058165311813
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 3,
+    "span_type": "line",
+    "text": "TO BE STAMPED AS AN AGREEMENT IN ACCORDANCE WITH THE STAMP ACT",
+    "conf": 98.89720153808594,
+    "bbox": {
+      "Width": 0.7410921454429626,
+      "Height": 0.012318381108343601,
+      "Left": 0.12857428193092346,
+      "Top": 0.15025672316551208
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 4,
+    "span_type": "line",
+    "text": "IN FORCE IN THE STATE IN WHICH THE DOCUMENT IS EXECUTED AND NOT TO",
+    "conf": 99.66744995117188,
+    "bbox": {
+      "Width": 0.753390371799469,
+      "Height": 0.01248281542211771,
+      "Left": 0.12349873781204224,
+      "Top": 0.16805022954940796
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 5,
+    "span_type": "line",
+    "text": "BE ATTESTED",
+    "conf": 99.92636108398438,
+    "bbox": {
+      "Width": 0.1326870173215866,
+      "Height": 0.01221522781997919,
+      "Left": 0.4338100254535675,
+      "Top": 0.18638132512569427
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 6,
+    "span_type": "line",
+    "text": "To",
+    "conf": 99.89098358154297,
+    "bbox": {
+      "Width": 0.022872641682624817,
+      "Height": 0.01199947576969862,
+      "Left": 0.11679345369338989,
+      "Top": 0.22312866151332855
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 7,
+    "span_type": "line",
+    "text": "STATE BANK OF INDIA",
+    "conf": 99.96337890625,
+    "bbox": {
+      "Width": 0.21209782361984253,
+      "Height": 0.012273598462343216,
+      "Left": 0.1797448992729187,
+      "Top": 0.24138474464416504
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 8,
+    "span_type": "line",
+    "text": "PLACE :",
+    "conf": 97.158203125,
+    "bbox": {
+      "Width": 0.07423873990774155,
+      "Height": 0.012302426621317863,
+      "Left": 0.6463010311126709,
+      "Top": 0.24148821830749512
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 9,
+    "span_type": "line",
+    "text": "DATE :",
+    "conf": 96.26953125,
+    "bbox": {
+      "Width": 0.06184626743197441,
+      "Height": 0.012204752303659916,
+      "Left": 0.6472610831260681,
+      "Top": 0.25976139307022095
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 10,
+    "span_type": "line",
+    "text": "Dear Sirs,",
+    "conf": 99.93612670898438,
+    "bbox": {
+      "Width": 0.0852750688791275,
+      "Height": 0.014299210160970688,
+      "Left": 0.11770468205213547,
+      "Top": 0.29678645730018616
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 11,
+    "span_type": "line",
+    "text": "Whereas, State Bank of India, a body corporate constituted under State Bank of",
+    "conf": 99.88548278808594,
+    "bbox": {
+      "Width": 0.7177691459655762,
+      "Height": 0.01532813347876072,
+      "Left": 0.14060185849666595,
+      "Top": 0.33408111333847046
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 12,
+    "span_type": "line",
+    "text": "India Act 1955, having its Corporate Centre at Madame Cama Road, Nariman Point,",
+    "conf": 99.91644287109375,
+    "bbox": {
+      "Width": 0.7145313620567322,
+      "Height": 0.015254929661750793,
+      "Left": 0.14332987368106842,
+      "Top": 0.35204288363456726
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 13,
+    "span_type": "line",
+    "text": "Mumbai-400 021 having one of its Branch Offices at",
+    "conf": 99.69509887695312,
+    "bbox": {
+      "Width": 0.4731767475605011,
+      "Height": 0.015170281752943993,
+      "Left": 0.14272503554821014,
+      "Top": 0.36988505721092224
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 14,
+    "span_type": "line",
+    "text": "(hereinafter",
+    "conf": 99.57290649414062,
+    "bbox": {
+      "Width": 0.10094849765300751,
+      "Height": 0.015337429009377956,
+      "Left": 0.7580949664115906,
+      "Top": 0.36980512738227844
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 15,
+    "span_type": "line",
+    "text": "called the \"the Bank\" which expression shall include its successors and assigns)",
+    "conf": 99.82061767578125,
+    "bbox": {
+      "Width": 0.7155830264091492,
+      "Height": 0.01555774174630642,
+      "Left": 0.14259129762649536,
+      "Top": 0.3876587152481079
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 16,
+    "span_type": "line",
+    "text": "having,",
+    "conf": 99.990234375,
+    "bbox": {
+      "Width": 0.06187642738223076,
+      "Height": 0.015227611176669598,
+      "Left": 0.14266876876354218,
+      "Top": 0.40615183115005493
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 17,
+    "span_type": "line",
+    "text": "at",
+    "conf": 99.92107391357422,
+    "bbox": {
+      "Width": 0.01704207807779312,
+      "Height": 0.011584467254579067,
+      "Left": 0.2664829194545746,
+      "Top": 0.4067612588405609
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 18,
+    "span_type": "line",
+    "text": "my/our",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.059985894709825516,
+      "Height": 0.015076215378940105,
+      "Left": 0.34401392936706543,
+      "Top": 0.40621981024742126
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 19,
+    "span_type": "line",
+    "text": "request{",
+    "conf": 99.814453125,
+    "bbox": {
+      "Width": 0.0716979131102562,
+      "Height": 0.015077665448188782,
+      "Left": 0.46469175815582275,
+      "Top": 0.4060440957546234
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 20,
+    "span_type": "line",
+    "text": "Son/Daughter/Wife",
+    "conf": 99.56472778320312,
+    "bbox": {
+      "Width": 0.16515670716762543,
+      "Height": 0.01496986672282219,
+      "Left": 0.693166196346283,
+      "Top": 0.40596964955329895
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 21,
+    "span_type": "line",
+    "text": "of",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.017282824963331223,
+      "Height": 0.012078956700861454,
+      "Left": 0.14254744350910187,
+      "Top": 0.42390668392181396
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 22,
+    "span_type": "line",
+    "text": "at present aged around",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.20201097428798676,
+      "Height": 0.015056670643389225,
+      "Left": 0.29597169160842896,
+      "Top": 0.4240065813064575
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 23,
+    "span_type": "line",
+    "text": "and residing",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.11833961308002472,
+      "Height": 0.01502962876111269,
+      "Left": 0.6557788848876953,
+      "Top": 0.42404741048812866
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 24,
+    "span_type": "line",
+    "text": "at",
+    "conf": 99.931640625,
+    "bbox": {
+      "Width": 0.017001451924443245,
+      "Height": 0.011368134059011936,
+      "Left": 0.14256322383880615,
+      "Top": 0.4426667392253876
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 25,
+    "span_type": "line",
+    "text": "and",
+    "conf": 99.990234375,
+    "bbox": {
+      "Width": 0.0323648676276207,
+      "Height": 0.011608232744038105,
+      "Left": 0.3406756520271301,
+      "Top": 0.442110538482666
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 26,
+    "span_type": "line",
+    "text": "Son/Daughter/Wife",
+    "conf": 99.41665649414062,
+    "bbox": {
+      "Width": 0.1659305840730667,
+      "Height": 0.015164991840720177,
+      "Left": 0.515478253364563,
+      "Top": 0.44175130128860474
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 27,
+    "span_type": "line",
+    "text": "of",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.017497634515166283,
+      "Height": 0.012148537673056126,
+      "Left": 0.14240145683288574,
+      "Top": 0.4595668613910675
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 28,
+    "span_type": "line",
+    "text": "at present aged around",
+    "conf": 99.96826171875,
+    "bbox": {
+      "Width": 0.27836352586746216,
+      "Height": 0.01485831756144762,
+      "Left": 0.3406131863594055,
+      "Top": 0.4598575532436371
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 29,
+    "span_type": "line",
+    "text": "and residing",
+    "conf": 99.9755859375,
+    "bbox": {
+      "Width": 0.13160310685634613,
+      "Height": 0.015014851465821266,
+      "Left": 0.7261948585510254,
+      "Top": 0.4597799479961395
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 30,
+    "span_type": "line",
+    "text": "at",
+    "conf": 99.88201141357422,
+    "bbox": {
+      "Width": 0.016904182732105255,
+      "Height": 0.011294439435005188,
+      "Left": 0.14258746802806854,
+      "Top": 0.47828400135040283
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 31,
+    "span_type": "line",
+    "text": "(hereinafter, called \"the Borrower\" which expression shall",
+    "conf": 99.61325073242188,
+    "bbox": {
+      "Width": 0.5312093496322632,
+      "Height": 0.015234273858368397,
+      "Left": 0.3266952931880951,
+      "Top": 0.47736334800720215
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 32,
+    "span_type": "line",
+    "text": "include his/her respective heirs, executors, administrators and assigns)} granted",
+    "conf": 99.89107513427734,
+    "bbox": {
+      "Width": 0.7147380709648132,
+      "Height": 0.015828831121325493,
+      "Left": 0.14276328682899475,
+      "Top": 0.4950609505176544
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 33,
+    "span_type": "line",
+    "text": "me/us *Home Loan limit / 'SBI-Maxgain'(on Overdraft basis) /",
+    "conf": 96.17313385009766,
+    "bbox": {
+      "Width": 0.646363377571106,
+      "Height": 0.015330244787037373,
+      "Left": 0.14283272624015808,
+      "Top": 0.5134921073913574
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 34,
+    "span_type": "line",
+    "text": "of",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.01692085899412632,
+      "Height": 0.012335731647908688,
+      "Left": 0.842423677444458,
+      "Top": 0.5134321451187134
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 35,
+    "span_type": "line",
+    "text": "Rs",
+    "conf": 99.85271453857422,
+    "bbox": {
+      "Width": 0.02294103428721428,
+      "Height": 0.011988983489573002,
+      "Left": 0.1432967483997345,
+      "Top": 0.5317501425743103
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 36,
+    "span_type": "line",
+    "text": "(Rupees",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.0732412189245224,
+      "Height": 0.01548020914196968,
+      "Left": 0.2811022102832794,
+      "Top": 0.5313127636909485
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 37,
+    "span_type": "line",
+    "text": ") for purchase/construction of a",
+    "conf": 98.63285064697266,
+    "bbox": {
+      "Width": 0.29244062304496765,
+      "Height": 0.015287984162569046,
+      "Left": 0.566710889339447,
+      "Top": 0.531379759311676
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 38,
+    "span_type": "line",
+    "text": "flat/house/ plot of land or for extension/repairs/ renovations of an existing",
+    "conf": 99.75406646728516,
+    "bbox": {
+      "Width": 0.7159458994865417,
+      "Height": 0.015571611002087593,
+      "Left": 0.1421012133359909,
+      "Top": 0.5490736365318298
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 39,
+    "span_type": "line",
+    "text": "house/flat/purchase of consumer durables and furnishings/funding of Home Loan",
+    "conf": 99.87679290771484,
+    "bbox": {
+      "Width": 0.7148974537849426,
+      "Height": 0.015379175543785095,
+      "Left": 0.1423254907131195,
+      "Top": 0.5671353936195374
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 40,
+    "span_type": "line",
+    "text": "insurance cover (hereinafter referred to as the 'project'), situated at",
+    "conf": 99.60009002685547,
+    "bbox": {
+      "Width": 0.5851394534111023,
+      "Height": 0.015393704175949097,
+      "Left": 0.14276501536369324,
+      "Top": 0.5849920511245728
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 41,
+    "span_type": "line",
+    "text": "(*Delete whichever is not applicable)",
+    "conf": 99.90919494628906,
+    "bbox": {
+      "Width": 0.31518739461898804,
+      "Height": 0.015305986627936363,
+      "Left": 0.16374488174915314,
+      "Top": 0.6218172311782837
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 42,
+    "span_type": "line",
+    "text": "2. In consideration of the grant of the said advance and continuance of the said",
+    "conf": 99.92791748046875,
+    "bbox": {
+      "Width": 0.7166354656219482,
+      "Height": 0.015330197289586067,
+      "Left": 0.14112110435962677,
+      "Top": 0.6583195924758911
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 43,
+    "span_type": "line",
+    "text": "facility for such time as the Bank may deem fit, I/we, \"the Borrower(s)\" do hereby",
+    "conf": 99.61884307861328,
+    "bbox": {
+      "Width": 0.7175807952880859,
+      "Height": 0.015392201952636242,
+      "Left": 0.14089107513427734,
+      "Top": 0.6761680841445923
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 44,
+    "span_type": "line",
+    "text": "irrevocably and unconditionally agree and undertake, so as to bind",
+    "conf": 99.41543579101562,
+    "bbox": {
+      "Width": 0.7159335613250732,
+      "Height": 0.015124180354177952,
+      "Left": 0.1412694901227951,
+      "Top": 0.6944769620895386
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 45,
+    "span_type": "line",
+    "text": "myself/ourselves, my / our heirs, executors, administrators, estates, assigns and",
+    "conf": 99.47867584228516,
+    "bbox": {
+      "Width": 0.7165748476982117,
+      "Height": 0.015456088818609715,
+      "Left": 0.1415056735277176,
+      "Top": 0.7121743559837341
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 46,
+    "span_type": "line",
+    "text": "effects as follows, viz.",
+    "conf": 99.85396575927734,
+    "bbox": {
+      "Width": 0.18842805922031403,
+      "Height": 0.014015085063874722,
+      "Left": 0.1412091702222824,
+      "Top": 0.7301223874092102
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 47,
+    "span_type": "line",
+    "text": "a) The disbursement of the amount of the loan shall be at the Bank's absolute",
+    "conf": 99.93328857421875,
+    "bbox": {
+      "Width": 0.716192901134491,
+      "Height": 0.015423081815242767,
+      "Left": 0.14119894802570343,
+      "Top": 0.767668604850769
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 48,
+    "span_type": "line",
+    "text": "discretion and shall be co-related to the actual progress in the construction of the",
+    "conf": 99.97257232666016,
+    "bbox": {
+      "Width": 0.71759432554245,
+      "Height": 0.01509364414960146,
+      "Left": 0.14096899330615997,
+      "Top": 0.7857711315155029
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 49,
+    "span_type": "line",
+    "text": "project. Such disbursements shall be made by means of Bankers cheques drawn in",
+    "conf": 99.93216705322266,
+    "bbox": {
+      "Width": 0.7172688245773315,
+      "Height": 0.014915048144757748,
+      "Left": 0.14133794605731964,
+      "Top": 0.8034452795982361
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 50,
+    "span_type": "line",
+    "text": "favour of the builders/promoters duly authorized or to engineer / architect /",
+    "conf": 99.65396881103516,
+    "bbox": {
+      "Width": 0.7194034457206726,
+      "Height": 0.015406274236738682,
+      "Left": 0.1408221274614334,
+      "Top": 0.8211371302604675
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 51,
+    "span_type": "line",
+    "text": "contractor or to suppliers of goods and services when the construction is undertaken",
+    "conf": 99.9224624633789,
+    "bbox": {
+      "Width": 0.7163047194480896,
+      "Height": 0.015214484184980392,
+      "Left": 0.14116883277893066,
+      "Top": 0.8391579985618591
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 52,
+    "span_type": "line",
+    "text": "by the Borrower and instruct you to make payment for the purpose of the 'project'.",
+    "conf": 99.74516296386719,
+    "bbox": {
+      "Width": 0.7155463695526123,
+      "Height": 0.015441455878317356,
+      "Left": 0.14167891442775726,
+      "Top": 0.8571096062660217
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 53,
+    "span_type": "line",
+    "text": "The Bank may, at your discretion and at my/our request credit a part of the loan",
+    "conf": 99.91783142089844,
+    "bbox": {
+      "Width": 0.716061532497406,
+      "Height": 0.015210438519716263,
+      "Left": 0.14075727760791779,
+      "Top": 0.8752641677856445
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 1,
+    "span_id": 54,
+    "span_type": "line",
+    "text": "amount to my/our current/savings bank account (maintained in single or joint",
+    "conf": 99.91102600097656,
+    "bbox": {
+      "Width": 0.7164711356163025,
+      "Height": 0.015265239402651787,
+      "Left": 0.14135891199111938,
+      "Top": 0.8933417797088623
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 55,
+    "span_type": "line",
+    "text": "names) to enable me/us to make payments to suppliers of goods and services.",
+    "conf": 99.93472290039062,
+    "bbox": {
+      "Width": 0.7155443429946899,
+      "Height": 0.015451600775122643,
+      "Left": 0.1414262056350708,
+      "Top": 0.0934629887342453
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 56,
+    "span_type": "line",
+    "text": "I/We shall submit to the Bank, within a reasonable time, satisfactory proof of the",
+    "conf": 99.78349304199219,
+    "bbox": {
+      "Width": 0.7160029411315918,
+      "Height": 0.015176224522292614,
+      "Left": 0.1420474499464035,
+      "Top": 0.11143483221530914
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 57,
+    "span_type": "line",
+    "text": "proper utilisation of the amount of the loan, such as Architect's certificate, certifying",
+    "conf": 99.90869140625,
+    "bbox": {
+      "Width": 0.716891348361969,
+      "Height": 0.015346439555287361,
+      "Left": 0.14149443805217743,
+      "Top": 0.12957802414894104
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 58,
+    "span_type": "line",
+    "text": "the value of the work carried out, Contractor's bills, stamped receipts, sale",
+    "conf": 99.91471862792969,
+    "bbox": {
+      "Width": 0.7164915800094604,
+      "Height": 0.015238534659147263,
+      "Left": 0.1409507840871811,
+      "Top": 0.14742931723594666
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 59,
+    "span_type": "line",
+    "text": "agreement for house / flat etc. If considered necessary by the Bank, I/we shall",
+    "conf": 99.7685546875,
+    "bbox": {
+      "Width": 0.717241644859314,
+      "Height": 0.015309278853237629,
+      "Left": 0.14099937677383423,
+      "Top": 0.165319561958313
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 60,
+    "span_type": "line",
+    "text": "produce, at my/our cost, photographs showing the progress of construction work",
+    "conf": 99.9579849243164,
+    "bbox": {
+      "Width": 0.7169118523597717,
+      "Height": 0.01542450301349163,
+      "Left": 0.14129632711410522,
+      "Top": 0.18322914838790894
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 61,
+    "span_type": "line",
+    "text": "carried out by me / us, which photographs besides showing portion of the",
+    "conf": 98.86126708984375,
+    "bbox": {
+      "Width": 0.7169229388237,
+      "Height": 0.015444708056747913,
+      "Left": 0.1412755697965622,
+      "Top": 0.20107124745845795
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 62,
+    "span_type": "line",
+    "text": "neighbouring properties, shall be certified by persons whose certificates are",
+    "conf": 99.94557189941406,
+    "bbox": {
+      "Width": 0.7170584797859192,
+      "Height": 0.015443888492882252,
+      "Left": 0.14158234000205994,
+      "Top": 0.2189776599407196
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 63,
+    "span_type": "line",
+    "text": "acceptable to the Bank.",
+    "conf": 99.94325256347656,
+    "bbox": {
+      "Width": 0.20355355739593506,
+      "Height": 0.015216938219964504,
+      "Left": 0.1411994844675064,
+      "Top": 0.2372446209192276
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 64,
+    "span_type": "line",
+    "text": "b) i I/We shall repay the amount of loan as per arrangement/sanction letter which",
+    "conf": 99.1589584350586,
+    "bbox": {
+      "Width": 0.7171782851219177,
+      "Height": 0.01530054584145546,
+      "Left": 0.14065955579280853,
+      "Top": 0.27406570315361023
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 65,
+    "span_type": "line",
+    "text": "forms part of this Agreement in equated monthly instalments of Rs",
+    "conf": 99.77304077148438,
+    "bbox": {
+      "Width": 0.5707882046699524,
+      "Height": 0.015582064166665077,
+      "Left": 0.14086046814918518,
+      "Top": 0.292209267616272
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 66,
+    "span_type": "line",
+    "text": "each till the",
+    "conf": 99.95416259765625,
+    "bbox": {
+      "Width": 0.09767068177461624,
+      "Height": 0.012088670395314693,
+      "Left": 0.7603315114974976,
+      "Top": 0.2926514148712158
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 67,
+    "span_type": "line",
+    "text": "entire loan with interest is fully repaid. The equated monthly instalments also",
+    "conf": 99.94061279296875,
+    "bbox": {
+      "Width": 0.7164367437362671,
+      "Height": 0.015432571060955524,
+      "Left": 0.14130288362503052,
+      "Top": 0.31022515892982483
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 68,
+    "span_type": "line",
+    "text": "include interest component.",
+    "conf": 99.86414337158203,
+    "bbox": {
+      "Width": 0.23820486664772034,
+      "Height": 0.014926091767847538,
+      "Left": 0.14143560826778412,
+      "Top": 0.3281671702861786
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 69,
+    "span_type": "line",
+    "text": "b) ii The house should be constructed on the plot financed by the Bank within a",
+    "conf": 99.48661041259766,
+    "bbox": {
+      "Width": 0.7174950838088989,
+      "Height": 0.0153212184086442,
+      "Left": 0.14042623341083527,
+      "Top": 0.3531026542186737
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 70,
+    "span_type": "line",
+    "text": "period of 5 years from the date of first disbursement of the loan and completion",
+    "conf": 99.93605041503906,
+    "bbox": {
+      "Width": 0.7172847390174866,
+      "Height": 0.015566065907478333,
+      "Left": 0.1413508951663971,
+      "Top": 0.3710004687309265
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 71,
+    "span_type": "line",
+    "text": "certificate should be submitted to the Bank within 5 years from the date of first",
+    "conf": 99.95275115966797,
+    "bbox": {
+      "Width": 0.7179692387580872,
+      "Height": 0.015391950495541096,
+      "Left": 0.14103129506111145,
+      "Top": 0.3893349766731262
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 72,
+    "span_type": "line",
+    "text": "disbursement. In case of failure to construct the house and/or non-submission of",
+    "conf": 99.80365753173828,
+    "bbox": {
+      "Width": 0.7182024717330933,
+      "Height": 0.0125359408557415,
+      "Left": 0.14101384580135345,
+      "Top": 0.4071986973285675
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 73,
+    "span_type": "line",
+    "text": "completion certificate within the stipulated time period of 5 years from the date of",
+    "conf": 99.95205688476562,
+    "bbox": {
+      "Width": 0.7172716856002808,
+      "Height": 0.015288016758859158,
+      "Left": 0.14114102721214294,
+      "Top": 0.4254090189933777
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 74,
+    "span_type": "line",
+    "text": "first disbursement, the amount of the loan or the balance outstanding with applicable",
+    "conf": 99.89411163330078,
+    "bbox": {
+      "Width": 0.716812014579773,
+      "Height": 0.015306102111935616,
+      "Left": 0.14086203277111053,
+      "Top": 0.443197101354599
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 75,
+    "span_type": "line",
+    "text": "interest shall be repayable at once and in the event of failure to fully repay the loan",
+    "conf": 99.95199584960938,
+    "bbox": {
+      "Width": 0.7156018018722534,
+      "Height": 0.01562640815973282,
+      "Left": 0.1414748728275299,
+      "Top": 0.46128523349761963
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 76,
+    "span_type": "line",
+    "text": "amount/loan outstanding with applicable interest the account shall be classified as",
+    "conf": 99.95258331298828,
+    "bbox": {
+      "Width": 0.7168510556221008,
+      "Height": 0.0153879439458251,
+      "Left": 0.14131106436252594,
+      "Top": 0.4793773591518402
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 77,
+    "span_type": "line",
+    "text": "NPA and the Bank shall be at liberty to take such steps to recover its dues and",
+    "conf": 99.97238159179688,
+    "bbox": {
+      "Width": 0.7162537574768066,
+      "Height": 0.015256442129611969,
+      "Left": 0.14194266498088837,
+      "Top": 0.49720823764801025
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 78,
+    "span_type": "line",
+    "text": "enforce the security as provided under law.",
+    "conf": 99.95769500732422,
+    "bbox": {
+      "Width": 0.3728598952293396,
+      "Height": 0.015160080045461655,
+      "Left": 0.14120300114154816,
+      "Top": 0.5154162049293518
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 79,
+    "span_type": "line",
+    "text": "3. Rate of Interest on Loans:",
+    "conf": 99.91795349121094,
+    "bbox": {
+      "Width": 0.24631692469120026,
+      "Height": 0.012551942840218544,
+      "Left": 0.14051060378551483,
+      "Top": 0.5653300285339355
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 80,
+    "span_type": "line",
+    "text": "3 A) Fixed Rate of Interest",
+    "conf": 98.06255340576172,
+    "bbox": {
+      "Width": 0.24188190698623657,
+      "Height": 0.013916295021772385,
+      "Left": 0.14053316414356232,
+      "Top": 0.5904976725578308
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 81,
+    "span_type": "line",
+    "text": "Interest on the loan will be fixed at",
+    "conf": 99.94335174560547,
+    "bbox": {
+      "Width": 0.30783456563949585,
+      "Height": 0.012304363772273064,
+      "Left": 0.1412051022052765,
+      "Top": 0.6156774759292603
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 82,
+    "span_type": "line",
+    "text": "% per annum on daily reducing balance",
+    "conf": 99.90094757080078,
+    "bbox": {
+      "Width": 0.35298651456832886,
+      "Height": 0.015537034720182419,
+      "Left": 0.5047082901000977,
+      "Top": 0.615544855594635
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 83,
+    "span_type": "line",
+    "text": "with monthly rests for a period of",
+    "conf": 99.88389587402344,
+    "bbox": {
+      "Width": 0.2978264391422272,
+      "Height": 0.014810112304985523,
+      "Left": 0.1399771273136139,
+      "Top": 0.6335498094558716
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 84,
+    "span_type": "line",
+    "text": "years from the date of first disbursement.",
+    "conf": 99.64485168457031,
+    "bbox": {
+      "Width": 0.3695385754108429,
+      "Height": 0.015345490537583828,
+      "Left": 0.4881286323070526,
+      "Top": 0.6335874795913696
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 85,
+    "span_type": "line",
+    "text": "Thenceforth the interest rate in the account will be reset to floating Home Loan card",
+    "conf": 99.9500961303711,
+    "bbox": {
+      "Width": 0.7186684012413025,
+      "Height": 0.015097514726221561,
+      "Left": 0.13959452509880066,
+      "Top": 0.651557981967926
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 86,
+    "span_type": "line",
+    "text": "rate prevailing as on the date of reset. The effective rate of Interest on the loan",
+    "conf": 99.92947387695312,
+    "bbox": {
+      "Width": 0.7161581516265869,
+      "Height": 0.01514880545437336,
+      "Left": 0.14083528518676758,
+      "Top": 0.6696046590805054
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 87,
+    "span_type": "line",
+    "text": "outstanding will be charged at the rate of",
+    "conf": 99.95829772949219,
+    "bbox": {
+      "Width": 0.3619116246700287,
+      "Height": 0.01512251514941454,
+      "Left": 0.14015065133571625,
+      "Top": 0.6875136494636536
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 88,
+    "span_type": "line",
+    "text": "% (spread) above RBI's Repo Rate",
+    "conf": 99.57512664794922,
+    "bbox": {
+      "Width": 0.31076064705848694,
+      "Height": 0.015289428643882275,
+      "Left": 0.5471756458282471,
+      "Top": 0.6871477365493774
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 89,
+    "span_type": "line",
+    "text": "which is",
+    "conf": 99.8876953125,
+    "bbox": {
+      "Width": 0.06991130113601685,
+      "Height": 0.01189333200454712,
+      "Left": 0.13972866535186768,
+      "Top": 0.7058905363082886
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 90,
+    "span_type": "line",
+    "text": "% p. a as on 01st day of current calendar quarter. The present effective",
+    "conf": 97.71952819824219,
+    "bbox": {
+      "Width": 0.6127144694328308,
+      "Height": 0.015788188204169273,
+      "Left": 0.2454044073820114,
+      "Top": 0.7054409384727478
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 91,
+    "span_type": "line",
+    "text": "rate",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.03322571516036987,
+      "Height": 0.01120709627866745,
+      "Left": 0.14083091914653778,
+      "Top": 0.7245539426803589
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 92,
+    "span_type": "line",
+    "text": "of",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.01689901575446129,
+      "Height": 0.012471135705709457,
+      "Left": 0.18144793808460236,
+      "Top": 0.7233890295028687
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 93,
+    "span_type": "line",
+    "text": "interest being % p. a calculated on daily balance of the loan amount at",
+    "conf": 98.05342864990234,
+    "bbox": {
+      "Width": 0.6534289121627808,
+      "Height": 0.015345695428550243,
+      "Left": 0.20529897511005402,
+      "Top": 0.7233783602714539
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 94,
+    "span_type": "line",
+    "text": "monthly rests, subject to the interest rate reset on the 1st day of every calendar",
+    "conf": 99.92449188232422,
+    "bbox": {
+      "Width": 0.7174962162971497,
+      "Height": 0.015432488173246384,
+      "Left": 0.14074358344078064,
+      "Top": 0.7417461276054382
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 95,
+    "span_type": "line",
+    "text": "quarter, on the basis of the prevailing RBI Repo Rate. The spread is sum of Credit",
+    "conf": 99.93272399902344,
+    "bbox": {
+      "Width": 0.7175595760345459,
+      "Height": 0.015528441406786442,
+      "Left": 0.14034953713417053,
+      "Top": 0.7595358490943909
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 96,
+    "span_type": "line",
+    "text": "Risk Premium of",
+    "conf": 99.94764709472656,
+    "bbox": {
+      "Width": 0.14569027721881866,
+      "Height": 0.01232169196009636,
+      "Left": 0.1410912573337555,
+      "Top": 0.7774085998535156
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 97,
+    "span_type": "line",
+    "text": "% and other cost including operating cost. The Bank shall at",
+    "conf": 99.89591217041016,
+    "bbox": {
+      "Width": 0.527775764465332,
+      "Height": 0.015874279662966728,
+      "Left": 0.3311977982521057,
+      "Top": 0.7771388292312622
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 98,
+    "span_type": "line",
+    "text": "any time and from time to time be entitled to change Credit Risk Premium when",
+    "conf": 99.96978759765625,
+    "bbox": {
+      "Width": 0.7167736291885376,
+      "Height": 0.015461063012480736,
+      "Left": 0.14061473309993744,
+      "Top": 0.795444667339325
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 99,
+    "span_type": "line",
+    "text": "borrower's credit assessment undergoes change. Also, other cost including",
+    "conf": 99.93365478515625,
+    "bbox": {
+      "Width": 0.7175880670547485,
+      "Height": 0.015282676555216312,
+      "Left": 0.1406322866678238,
+      "Top": 0.8134238123893738
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 100,
+    "span_type": "line",
+    "text": "operating cost can be altered periodically at Bank's discretion.\". The Bank has the",
+    "conf": 98.7313003540039,
+    "bbox": {
+      "Width": 0.7180581092834473,
+      "Height": 0.015532569028437138,
+      "Left": 0.14039339125156403,
+      "Top": 0.831540584564209
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 101,
+    "span_type": "line",
+    "text": "option to reduce or increase the EMI or extend the repayment period or both",
+    "conf": 99.93379974365234,
+    "bbox": {
+      "Width": 0.7174892425537109,
+      "Height": 0.015269515104591846,
+      "Left": 0.1404438614845276,
+      "Top": 0.84958416223526
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 102,
+    "span_type": "line",
+    "text": "consequent upon revision in interest rate. The Bank shall be entitled to charge at its",
+    "conf": 99.94147491455078,
+    "bbox": {
+      "Width": 0.7176691293716431,
+      "Height": 0.015364408493041992,
+      "Left": 0.14050337672233582,
+      "Top": 0.8677126169204712
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 2,
+    "span_id": 103,
+    "span_type": "line",
+    "text": "own discretion such enhanced rate of interest on the account(s) either on the entire",
+    "conf": 99.9239273071289,
+    "bbox": {
+      "Width": 0.718238353729248,
+      "Height": 0.015184637159109116,
+      "Left": 0.14043976366519928,
+      "Top": 0.8856201767921448
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 104,
+    "span_type": "line",
+    "text": "outstanding or on a portion thereof as it may fix for any irregularity including non-",
+    "conf": 99.87773895263672,
+    "bbox": {
+      "Width": 0.7184821963310242,
+      "Height": 0.015440857037901878,
+      "Left": 0.14037860929965973,
+      "Top": 0.09350943565368652
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 105,
+    "span_type": "line",
+    "text": "observance or non-compliance of terms and conditions of the loan, for such period",
+    "conf": 99.94786071777344,
+    "bbox": {
+      "Width": 0.7175466418266296,
+      "Height": 0.015083249658346176,
+      "Left": 0.14030994474887848,
+      "Top": 0.1118042841553688
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 106,
+    "span_type": "line",
+    "text": "as the Bank deems it necessary and charging of such enhanced rate of interest shall",
+    "conf": 99.93799591064453,
+    "bbox": {
+      "Width": 0.717871367931366,
+      "Height": 0.015180622227489948,
+      "Left": 0.14063963294029236,
+      "Top": 0.12976869940757751
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 107,
+    "span_type": "line",
+    "text": "be without prejudice to the Bank's other rights and remedies. Borrower shall be",
+    "conf": 99.94517517089844,
+    "bbox": {
+      "Width": 0.7171320915222168,
+      "Height": 0.015355754643678665,
+      "Left": 0.14070037007331848,
+      "Top": 0.14758197963237762
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 108,
+    "span_type": "line",
+    "text": "deemed to have notice of change in the rate of interest when the changes are",
+    "conf": 99.96919250488281,
+    "bbox": {
+      "Width": 0.7171690464019775,
+      "Height": 0.015419957228004932,
+      "Left": 0.14049237966537476,
+      "Top": 0.16564209759235382
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 109,
+    "span_type": "line",
+    "text": "notified at/displayed at the branch notice board or published in a newspaper or in",
+    "conf": 99.82671356201172,
+    "bbox": {
+      "Width": 0.7178134322166443,
+      "Height": 0.015201397240161896,
+      "Left": 0.14071856439113617,
+      "Top": 0.18360741436481476
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 110,
+    "span_type": "line",
+    "text": "the website of the Bank or made through the statement of account / pass book.",
+    "conf": 99.18821716308594,
+    "bbox": {
+      "Width": 0.683394193649292,
+      "Height": 0.015291880816221237,
+      "Left": 0.1400720179080963,
+      "Top": 0.20168554782867432
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 111,
+    "span_type": "line",
+    "text": "3B) Loan on floating interest rate basis",
+    "conf": 99.72838592529297,
+    "bbox": {
+      "Width": 0.3629061281681061,
+      "Height": 0.014471817761659622,
+      "Left": 0.14026015996932983,
+      "Top": 0.2518024742603302
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 112,
+    "span_type": "line",
+    "text": "The effective rate of Interest on the loan outstanding will be charged at the rate of",
+    "conf": 99.95199584960938,
+    "bbox": {
+      "Width": 0.7184320092201233,
+      "Height": 0.015526019968092442,
+      "Left": 0.1401112973690033,
+      "Top": 0.2767580449581146
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 113,
+    "span_type": "line",
+    "text": "% (spread) above RBI's Repo Rate which is",
+    "conf": 99.67646789550781,
+    "bbox": {
+      "Width": 0.3741125464439392,
+      "Height": 0.01535338256508112,
+      "Left": 0.18099841475486755,
+      "Top": 0.29465562105178833
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 114,
+    "span_type": "line",
+    "text": "% p. a as on 01st day of current",
+    "conf": 95.7369613647461,
+    "bbox": {
+      "Width": 0.26950809359550476,
+      "Height": 0.015433614142239094,
+      "Left": 0.5897598266601562,
+      "Top": 0.29459503293037415
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 115,
+    "span_type": "line",
+    "text": "calendar quarter. The present effective rate of interest being % p. a calculated on",
+    "conf": 96.88468170166016,
+    "bbox": {
+      "Width": 0.7163879871368408,
+      "Height": 0.015408809296786785,
+      "Left": 0.14128507673740387,
+      "Top": 0.3127090036869049
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 116,
+    "span_type": "line",
+    "text": "daily balance of the loan amount at monthly rests, subject to the interest rate reset",
+    "conf": 99.95345306396484,
+    "bbox": {
+      "Width": 0.7172780632972717,
+      "Height": 0.01516561396420002,
+      "Left": 0.14125432074069977,
+      "Top": 0.3308568596839905
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 117,
+    "span_type": "line",
+    "text": "on the 1st day of every calendar quarter, on the basis of the prevailing RBI Repo",
+    "conf": 99.88150787353516,
+    "bbox": {
+      "Width": 0.7170922756195068,
+      "Height": 0.015299445018172264,
+      "Left": 0.1412827968597412,
+      "Top": 0.34903931617736816
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 118,
+    "span_type": "line",
+    "text": "Rate. The spread is sum of Credit Risk Premium of",
+    "conf": 99.95101165771484,
+    "bbox": {
+      "Width": 0.44292715191841125,
+      "Height": 0.014976192265748978,
+      "Left": 0.14184796810150146,
+      "Top": 0.36687636375427246
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 119,
+    "span_type": "line",
+    "text": "% and other cost including",
+    "conf": 99.69921875,
+    "bbox": {
+      "Width": 0.22940200567245483,
+      "Height": 0.015470302663743496,
+      "Left": 0.6289899945259094,
+      "Top": 0.3666735291481018
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 120,
+    "span_type": "line",
+    "text": "operating cost. The Bank shall at any time and from time to time be entitled to",
+    "conf": 99.97737121582031,
+    "bbox": {
+      "Width": 0.716877818107605,
+      "Height": 0.015292938798666,
+      "Left": 0.1410241574048996,
+      "Top": 0.384713351726532
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 121,
+    "span_type": "line",
+    "text": "change Credit Risk Premium when borrower's credit assessment undergoes",
+    "conf": 99.93934631347656,
+    "bbox": {
+      "Width": 0.7170158624649048,
+      "Height": 0.015357577241957188,
+      "Left": 0.1411869376897812,
+      "Top": 0.40286579728126526
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 122,
+    "span_type": "line",
+    "text": "change. Also, other cost including operating cost can be altered periodically at",
+    "conf": 99.9795913696289,
+    "bbox": {
+      "Width": 0.717255711555481,
+      "Height": 0.01537418831139803,
+      "Left": 0.1412534862756729,
+      "Top": 0.4208926558494568
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 123,
+    "span_type": "line",
+    "text": "Bank's discretion. The Bank has the option to reduce or increase the EMI or extend",
+    "conf": 99.91647338867188,
+    "bbox": {
+      "Width": 0.7154680490493774,
+      "Height": 0.01487119123339653,
+      "Left": 0.14192643761634827,
+      "Top": 0.4390573501586914
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 124,
+    "span_type": "line",
+    "text": "the repayment period or both consequent upon revision in interest rate. The Bank",
+    "conf": 99.94686126708984,
+    "bbox": {
+      "Width": 0.7174171209335327,
+      "Height": 0.015337681397795677,
+      "Left": 0.14086595177650452,
+      "Top": 0.4568961262702942
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 125,
+    "span_type": "line",
+    "text": "shall be entitled to charge at its own discretion such enhanced rate of interest on",
+    "conf": 99.95941925048828,
+    "bbox": {
+      "Width": 0.7166162729263306,
+      "Height": 0.015155607834458351,
+      "Left": 0.1412164568901062,
+      "Top": 0.4748591482639313
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 126,
+    "span_type": "line",
+    "text": "the account(s) either on the entire outstanding or on a portion thereof as it may fix",
+    "conf": 99.84398651123047,
+    "bbox": {
+      "Width": 0.7173820734024048,
+      "Height": 0.015430326573550701,
+      "Left": 0.14081402122974396,
+      "Top": 0.49286994338035583
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 127,
+    "span_type": "line",
+    "text": "for any irregularity including non-observance or non-compliance of terms and",
+    "conf": 99.9290542602539,
+    "bbox": {
+      "Width": 0.718137264251709,
+      "Height": 0.01544987317174673,
+      "Left": 0.14089052379131317,
+      "Top": 0.5108325481414795
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 128,
+    "span_type": "line",
+    "text": "conditions of the loan, for such period as the Bank deems it necessary and charging",
+    "conf": 99.93853759765625,
+    "bbox": {
+      "Width": 0.7166616916656494,
+      "Height": 0.01539149135351181,
+      "Left": 0.14105947315692902,
+      "Top": 0.5289081931114197
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 129,
+    "span_type": "line",
+    "text": "of such enhanced rate of interest shall be without prejudice to the Bank's other rights",
+    "conf": 99.96278381347656,
+    "bbox": {
+      "Width": 0.7173757553100586,
+      "Height": 0.015137343667447567,
+      "Left": 0.14115619659423828,
+      "Top": 0.5470439791679382
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 130,
+    "span_type": "line",
+    "text": "and remedies. Borrower shall be deemed to have notice of change in the rate of",
+    "conf": 99.95194244384766,
+    "bbox": {
+      "Width": 0.717340886592865,
+      "Height": 0.015251150354743004,
+      "Left": 0.141254261136055,
+      "Top": 0.5651765465736389
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 131,
+    "span_type": "line",
+    "text": "interest when the changes are notified at/displayed at the branch notice board or",
+    "conf": 99.9470443725586,
+    "bbox": {
+      "Width": 0.7170833945274353,
+      "Height": 0.015251479111611843,
+      "Left": 0.14154230058193207,
+      "Top": 0.58296138048172
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 132,
+    "span_type": "line",
+    "text": "published in a newspaper or in the website of the Bank or made through the",
+    "conf": 99.84693908691406,
+    "bbox": {
+      "Width": 0.7166194915771484,
+      "Height": 0.015162825584411621,
+      "Left": 0.14132249355316162,
+      "Top": 0.6009330749511719
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 133,
+    "span_type": "line",
+    "text": "statement of account / pass-book. The Bank has the option to reduce or increase",
+    "conf": 99.17481994628906,
+    "bbox": {
+      "Width": 0.7166609764099121,
+      "Height": 0.0151495561003685,
+      "Left": 0.14104239642620087,
+      "Top": 0.6190487742424011
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 134,
+    "span_type": "line",
+    "text": "the EMI or extend the repayment period or both consequent upon revision in interest",
+    "conf": 99.94385528564453,
+    "bbox": {
+      "Width": 0.7181719541549683,
+      "Height": 0.015208019874989986,
+      "Left": 0.1409001648426056,
+      "Top": 0.6369355320930481
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 135,
+    "span_type": "line",
+    "text": "rate. The Bank shall be entitled to charge at its own discretion such enhanced rate",
+    "conf": 99.95801544189453,
+    "bbox": {
+      "Width": 0.7167482972145081,
+      "Height": 0.01523890346288681,
+      "Left": 0.14173753559589386,
+      "Top": 0.6551528573036194
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 136,
+    "span_type": "line",
+    "text": "of interest on the account(s) either on the entire outstanding or on a portion thereof",
+    "conf": 99.3104248046875,
+    "bbox": {
+      "Width": 0.7175498008728027,
+      "Height": 0.015197314321994781,
+      "Left": 0.14117375016212463,
+      "Top": 0.6729331016540527
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 137,
+    "span_type": "line",
+    "text": "as it may fix for any irregularity including non-observance or non-compliance of",
+    "conf": 99.91239166259766,
+    "bbox": {
+      "Width": 0.7180860638618469,
+      "Height": 0.015332536771893501,
+      "Left": 0.14135298132896423,
+      "Top": 0.6908501982688904
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 138,
+    "span_type": "line",
+    "text": "terms and conditions of the loan, for such period as the Bank deems it necessary",
+    "conf": 99.94027709960938,
+    "bbox": {
+      "Width": 0.717475175857544,
+      "Height": 0.015208998695015907,
+      "Left": 0.14093080163002014,
+      "Top": 0.7089772820472717
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 139,
+    "span_type": "line",
+    "text": "and charging of such enhanced rate of interest shall be without prejudice to the",
+    "conf": 99.96419525146484,
+    "bbox": {
+      "Width": 0.7165055274963379,
+      "Height": 0.015431519597768784,
+      "Left": 0.14127348363399506,
+      "Top": 0.7270570397377014
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 140,
+    "span_type": "line",
+    "text": "Bank's other rights and remedies. Borrower shall be deemed to have notice of",
+    "conf": 99.9489974975586,
+    "bbox": {
+      "Width": 0.717417299747467,
+      "Height": 0.01497560739517212,
+      "Left": 0.14185699820518494,
+      "Top": 0.7450547218322754
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 141,
+    "span_type": "line",
+    "text": "change in the rate of interest when the changes are notified at/displayed at the",
+    "conf": 99.95791625976562,
+    "bbox": {
+      "Width": 0.7166070342063904,
+      "Height": 0.015321547165513039,
+      "Left": 0.14127321541309357,
+      "Top": 0.7628114819526672
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 142,
+    "span_type": "line",
+    "text": "branch notice board or published in a newspaper or in the website of the Bank or",
+    "conf": 99.8970718383789,
+    "bbox": {
+      "Width": 0.7170085906982422,
+      "Height": 0.01511441171169281,
+      "Left": 0.1414991021156311,
+      "Top": 0.7808125615119934
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 143,
+    "span_type": "line",
+    "text": "made through the statement of account / pass-book The Bank has the option to",
+    "conf": 99.37693786621094,
+    "bbox": {
+      "Width": 0.7169562578201294,
+      "Height": 0.015421601012349129,
+      "Left": 0.14171306788921356,
+      "Top": 0.7987821698188782
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 144,
+    "span_type": "line",
+    "text": "reduce or increase the EMI or extend the repayment period or both consequent",
+    "conf": 99.9294662475586,
+    "bbox": {
+      "Width": 0.7171030640602112,
+      "Height": 0.015094549395143986,
+      "Left": 0.14181625843048096,
+      "Top": 0.8169947266578674
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 145,
+    "span_type": "line",
+    "text": "upon revision in interest rate. The Bank shall be entitled to charge at its own",
+    "conf": 99.94011688232422,
+    "bbox": {
+      "Width": 0.7152433395385742,
+      "Height": 0.015236315317451954,
+      "Left": 0.14190413057804108,
+      "Top": 0.835077702999115
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 146,
+    "span_type": "line",
+    "text": "discretion such enhanced rate of interest on the account(s) either on the entire",
+    "conf": 99.91938781738281,
+    "bbox": {
+      "Width": 0.7176746726036072,
+      "Height": 0.014933045953512192,
+      "Left": 0.14095555245876312,
+      "Top": 0.8528714776039124
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 147,
+    "span_type": "line",
+    "text": "outstanding or on a portion thereof as it may fix for any irregularity including non-",
+    "conf": 99.75956726074219,
+    "bbox": {
+      "Width": 0.7176662683486938,
+      "Height": 0.015606643632054329,
+      "Left": 0.14108996093273163,
+      "Top": 0.8709281086921692
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 3,
+    "span_id": 148,
+    "span_type": "line",
+    "text": "observance or non-compliance of terms and conditions of the loan, for such period",
+    "conf": 99.91707611083984,
+    "bbox": {
+      "Width": 0.7167710661888123,
+      "Height": 0.014982705004513264,
+      "Left": 0.14112091064453125,
+      "Top": 0.8889419436454773
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 149,
+    "span_type": "line",
+    "text": "as the Bank deems it necessary and charging of such enhanced rate of interest shall",
+    "conf": 99.96674346923828,
+    "bbox": {
+      "Width": 0.7163740396499634,
+      "Height": 0.01519988663494587,
+      "Left": 0.1414957046508789,
+      "Top": 0.09365895390510559
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 150,
+    "span_type": "line",
+    "text": "be without prejudice to the Bank's other rights and remedies. Borrower shall be",
+    "conf": 99.96733093261719,
+    "bbox": {
+      "Width": 0.7160142660140991,
+      "Height": 0.015065699815750122,
+      "Left": 0.14167091250419617,
+      "Top": 0.11190348118543625
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 151,
+    "span_type": "line",
+    "text": "deemed to have notice of change in the rate of interest when the changes are",
+    "conf": 99.9778060913086,
+    "bbox": {
+      "Width": 0.71640944480896,
+      "Height": 0.014951230026781559,
+      "Left": 0.14131170511245728,
+      "Top": 0.1298016458749771
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 152,
+    "span_type": "line",
+    "text": "notified at/displayed at the branch notice board or published in a newspaper or in",
+    "conf": 99.541015625,
+    "bbox": {
+      "Width": 0.7154607772827148,
+      "Height": 0.01511814258992672,
+      "Left": 0.14164017140865326,
+      "Top": 0.1475910097360611
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 153,
+    "span_type": "line",
+    "text": "the website of the Bank or made through the statement of account /pass-book",
+    "conf": 98.9272232055664,
+    "bbox": {
+      "Width": 0.6750344634056091,
+      "Height": 0.015008226968348026,
+      "Left": 0.14088812470436096,
+      "Top": 0.1658473014831543
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 154,
+    "span_type": "line",
+    "text": "3 C) Salary account concession$",
+    "conf": 99.25849151611328,
+    "bbox": {
+      "Width": 0.3061182498931885,
+      "Height": 0.0153860654681921,
+      "Left": 0.14139725267887115,
+      "Top": 0.20865625143051147
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 155,
+    "span_type": "line",
+    "text": "I / We, the Borrower(s), am/are aware that concession of",
+    "conf": 97.52891540527344,
+    "bbox": {
+      "Width": 0.4989369213581085,
+      "Height": 0.015185876749455929,
+      "Left": 0.1422332376241684,
+      "Top": 0.22751782834529877
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 156,
+    "span_type": "line",
+    "text": "% p.a. is included",
+    "conf": 98.07477569580078,
+    "bbox": {
+      "Width": 0.155949205160141,
+      "Height": 0.014857357367873192,
+      "Left": 0.7018257975578308,
+      "Top": 0.2277003824710846
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 157,
+    "span_type": "line",
+    "text": "in the above mentioned interest rate on account of maintenance of my/our salary",
+    "conf": 99.95618438720703,
+    "bbox": {
+      "Width": 0.7166032791137695,
+      "Height": 0.01510575320571661,
+      "Left": 0.14173784852027893,
+      "Top": 0.2455340325832367
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 158,
+    "span_type": "line",
+    "text": "account with the Bank and the same is referred as Salary Account Concession in",
+    "conf": 99.95350646972656,
+    "bbox": {
+      "Width": 0.7159205675125122,
+      "Height": 0.015181245282292366,
+      "Left": 0.14148494601249695,
+      "Top": 0.26333725452423096
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 159,
+    "span_type": "line",
+    "text": "this Agreement.",
+    "conf": 99.89546203613281,
+    "bbox": {
+      "Width": 0.13585802912712097,
+      "Height": 0.015135406516492367,
+      "Left": 0.14094392955303192,
+      "Top": 0.28128135204315186
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 160,
+    "span_type": "line",
+    "text": "I/We declare and confirm that in the circumstances like change in job etc., wherein",
+    "conf": 99.93009185791016,
+    "bbox": {
+      "Width": 0.7163103222846985,
+      "Height": 0.015254088677465916,
+      "Left": 0.14136047661304474,
+      "Top": 0.3178260028362274
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 161,
+    "span_type": "line",
+    "text": "the salary is not credited by my/our employer to account maintained with the Bank,",
+    "conf": 99.97274017333984,
+    "bbox": {
+      "Width": 0.715413510799408,
+      "Height": 0.015264044515788555,
+      "Left": 0.14086030423641205,
+      "Top": 0.3359968066215515
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 162,
+    "span_type": "line",
+    "text": "I/We undertake to advise such development to the Bank, further I/We would issue",
+    "conf": 99.96757507324219,
+    "bbox": {
+      "Width": 0.7165424227714539,
+      "Height": 0.015100064687430859,
+      "Left": 0.14132028818130493,
+      "Top": 0.37273266911506653
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 163,
+    "span_type": "line",
+    "text": "standing instructions to the salary account servicing bank to transfer entire salary",
+    "conf": 99.97864532470703,
+    "bbox": {
+      "Width": 0.7168167233467102,
+      "Height": 0.015103391371667385,
+      "Left": 0.14125216007232666,
+      "Top": 0.3907688856124878
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 164,
+    "span_type": "line",
+    "text": "credit to my/our account maintained by the Bank for continuation of Salary Account",
+    "conf": 99.95687866210938,
+    "bbox": {
+      "Width": 0.7172706723213196,
+      "Height": 0.015207868069410324,
+      "Left": 0.14132194221019745,
+      "Top": 0.4087565839290619
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 165,
+    "span_type": "line",
+    "text": "Concession as mentioned above and for the limited purpose of continuation of",
+    "conf": 99.94881439208984,
+    "bbox": {
+      "Width": 0.7172272205352783,
+      "Height": 0.015268341638147831,
+      "Left": 0.14148718118667603,
+      "Top": 0.42663419246673584
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 166,
+    "span_type": "line",
+    "text": "concessions in interest rates, my /our account with the Bank under the arrangement",
+    "conf": 99.44381713867188,
+    "bbox": {
+      "Width": 0.7174986600875854,
+      "Height": 0.015170803293585777,
+      "Left": 0.14140105247497559,
+      "Top": 0.4447936415672302
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 167,
+    "span_type": "line",
+    "text": "will be reckoned as pseudo-salary account.",
+    "conf": 99.92310333251953,
+    "bbox": {
+      "Width": 0.3744494318962097,
+      "Height": 0.014840828254818916,
+      "Left": 0.1407964676618576,
+      "Top": 0.46297383308410645
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 168,
+    "span_type": "line",
+    "text": "I/We further agree and confirm that in the event of discontinuation of my/our salary",
+    "conf": 99.94223022460938,
+    "bbox": {
+      "Width": 0.715923011302948,
+      "Height": 0.015279841609299183,
+      "Left": 0.14208447933197021,
+      "Top": 0.4999595880508423
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 169,
+    "span_type": "line",
+    "text": "account/pseudo salary account with the Bank, the Bank shall have the right to",
+    "conf": 99.94830322265625,
+    "bbox": {
+      "Width": 0.7162044048309326,
+      "Height": 0.015049773268401623,
+      "Left": 0.14153431355953217,
+      "Top": 0.5179256796836853
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 170,
+    "span_type": "line",
+    "text": "withdraw the salary account concession and the Bank shall have the right to revise",
+    "conf": 99.96129608154297,
+    "bbox": {
+      "Width": 0.7171329855918884,
+      "Height": 0.015219091437757015,
+      "Left": 0.14086394011974335,
+      "Top": 0.5357827544212341
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 171,
+    "span_type": "line",
+    "text": "the interest rate accordingly and I/We will not raise any objection /dispute to the said",
+    "conf": 99.07363891601562,
+    "bbox": {
+      "Width": 0.7168294787406921,
+      "Height": 0.015201292000710964,
+      "Left": 0.14087887108325958,
+      "Top": 0.5536476969718933
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 172,
+    "span_type": "line",
+    "text": "action of the Bank\". $ delete, if not applicable",
+    "conf": 99.58523559570312,
+    "bbox": {
+      "Width": 0.4070449471473694,
+      "Height": 0.01566287875175476,
+      "Left": 0.14147049188613892,
+      "Top": 0.5712800025939941
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 173,
+    "span_type": "line",
+    "text": "Without prejudice to the Bank's other rights and remedies, the Bank shall be entitled",
+    "conf": 99.96488952636719,
+    "bbox": {
+      "Width": 0.7176485657691956,
+      "Height": 0.015066433697938919,
+      "Left": 0.14006729423999786,
+      "Top": 0.6100641489028931
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 174,
+    "span_type": "line",
+    "text": "to charge at its own discretion enhanced rates of interest on the outstanding in the",
+    "conf": 99.95996856689453,
+    "bbox": {
+      "Width": 0.7170049548149109,
+      "Height": 0.015056164003908634,
+      "Left": 0.1409246325492859,
+      "Top": 0.6279508471488953
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 175,
+    "span_type": "line",
+    "text": "loan account (s) or a portion thereof for any default or irregularity on my/our part",
+    "conf": 99.47731018066406,
+    "bbox": {
+      "Width": 0.717090368270874,
+      "Height": 0.015581389889121056,
+      "Left": 0.14171843230724335,
+      "Top": 0.6458146572113037
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 176,
+    "span_type": "line",
+    "text": "which in the opinion of the Bank warrants charging of such enhanced rates of",
+    "conf": 99.98175048828125,
+    "bbox": {
+      "Width": 0.7176637053489685,
+      "Height": 0.01509896107017994,
+      "Left": 0.14085465669631958,
+      "Top": 0.6638879776000977
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 177,
+    "span_type": "line",
+    "text": "interest for such period as the Bank may deem fit. The Equated Monthly Instalments",
+    "conf": 99.90290069580078,
+    "bbox": {
+      "Width": 0.7165350317955017,
+      "Height": 0.015486282296478748,
+      "Left": 0.14162810146808624,
+      "Top": 0.6815694570541382
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 178,
+    "span_type": "line",
+    "text": "will have to be paid till the entire loan and the interest is fully repaid. Further, the",
+    "conf": 99.96166229248047,
+    "bbox": {
+      "Width": 0.7175788283348083,
+      "Height": 0.015174156986176968,
+      "Left": 0.14073389768600464,
+      "Top": 0.69972163438797
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 179,
+    "span_type": "line",
+    "text": "amount of Equated Monthly Instalment may change/increase as may be decided by",
+    "conf": 99.93592834472656,
+    "bbox": {
+      "Width": 0.7172024846076965,
+      "Height": 0.015510191209614277,
+      "Left": 0.14142511785030365,
+      "Top": 0.7176275253295898
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 180,
+    "span_type": "line",
+    "text": "the Bank. Besides the Bank shall also charge a penalty, the rate of which shall be",
+    "conf": 99.80425262451172,
+    "bbox": {
+      "Width": 0.7165332436561584,
+      "Height": 0.015395311638712883,
+      "Left": 0.14080415666103363,
+      "Top": 0.735950231552124
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 181,
+    "span_type": "line",
+    "text": "at the discretion of the Bank, for every bounced cheque for any reason whatsoever",
+    "conf": 99.96263122558594,
+    "bbox": {
+      "Width": 0.7182798385620117,
+      "Height": 0.015178515575826168,
+      "Left": 0.14120139181613922,
+      "Top": 0.7539051175117493
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 182,
+    "span_type": "line",
+    "text": "in addition to the enhanced rate of interest as applicable.",
+    "conf": 99.95761108398438,
+    "bbox": {
+      "Width": 0.48957255482673645,
+      "Height": 0.015052387490868568,
+      "Left": 0.14172710478305817,
+      "Top": 0.7719371914863586
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 183,
+    "span_type": "line",
+    "text": "Such enhanced interest will start accruing from the date of disbursement of the loan",
+    "conf": 99.9313735961914,
+    "bbox": {
+      "Width": 0.7152864933013916,
+      "Height": 0.015001805499196053,
+      "Left": 0.14185228943824768,
+      "Top": 0.811446487903595
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 184,
+    "span_type": "line",
+    "text": "or the date of disbursement of the first instalment of the loan where such loan is paid",
+    "conf": 99.93309020996094,
+    "bbox": {
+      "Width": 0.7165569067001343,
+      "Height": 0.014719152823090553,
+      "Left": 0.14116235077381134,
+      "Top": 0.8292438387870789
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 185,
+    "span_type": "line",
+    "text": "in instalments or from 30 days from the due date of equated monthly instalments",
+    "conf": 99.93125915527344,
+    "bbox": {
+      "Width": 0.7156176567077637,
+      "Height": 0.015200984664261341,
+      "Left": 0.14173732697963715,
+      "Top": 0.8471559286117554
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 186,
+    "span_type": "line",
+    "text": "(EMI) if it remains unpaid for a period of 30 days from the due date, for any reason,",
+    "conf": 99.84583282470703,
+    "bbox": {
+      "Width": 0.7146205902099609,
+      "Height": 0.01538780052214861,
+      "Left": 0.1422353833913803,
+      "Top": 0.8648855090141296
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 4,
+    "span_id": 187,
+    "span_type": "line",
+    "text": "including bounced cheque.",
+    "conf": 99.98345947265625,
+    "bbox": {
+      "Width": 0.23131908476352692,
+      "Height": 0.015073922462761402,
+      "Left": 0.14183081686496735,
+      "Top": 0.8834850788116455
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 188,
+    "span_type": "line",
+    "text": "c)",
+    "conf": 99.71360778808594,
+    "bbox": {
+      "Width": 0.014743959531188011,
+      "Height": 0.015519184991717339,
+      "Left": 0.09787748008966446,
+      "Top": 0.11408825218677521
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 189,
+    "span_type": "line",
+    "text": "If the loan amount has been utilised by me/us for purchase of ready built house/flat,",
+    "conf": 99.92926025390625,
+    "bbox": {
+      "Width": 0.7155218720436096,
+      "Height": 0.015206142328679562,
+      "Left": 0.1421569436788559,
+      "Top": 0.11384507268667221
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 190,
+    "span_type": "line",
+    "text": "I/we shall pay the first such monthly instalment following the month in which the loan",
+    "conf": 99.9481430053711,
+    "bbox": {
+      "Width": 0.7148136496543884,
+      "Height": 0.015277224592864513,
+      "Left": 0.14218072593212128,
+      "Top": 0.13196313381195068
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 191,
+    "span_type": "line",
+    "text": "amount is disbursed to me/us. The subsequent monthly instalments shall be paid",
+    "conf": 99.92595672607422,
+    "bbox": {
+      "Width": 0.7154805660247803,
+      "Height": 0.015069855377078056,
+      "Left": 0.14141111075878143,
+      "Top": 0.1500675231218338
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 192,
+    "span_type": "line",
+    "text": "before the last day of each subsequent month. If the loan amount has been utilised",
+    "conf": 99.94239044189453,
+    "bbox": {
+      "Width": 0.7170664668083191,
+      "Height": 0.015084878541529179,
+      "Left": 0.14155803620815277,
+      "Top": 0.16784578561782837
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 193,
+    "span_type": "line",
+    "text": "for construction of / additions to house / flat, I / we may be permitted to pay the first",
+    "conf": 97.62454986572266,
+    "bbox": {
+      "Width": 0.7189467549324036,
+      "Height": 0.015175648964941502,
+      "Left": 0.1408950835466385,
+      "Top": 0.186040997505188
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 194,
+    "span_type": "line",
+    "text": "such monthly instalment till 2 months after the month in which the house / flat has",
+    "conf": 99.73110961914062,
+    "bbox": {
+      "Width": 0.7171527743339539,
+      "Height": 0.015134457498788834,
+      "Left": 0.1413617730140686,
+      "Top": 0.20393677055835724
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 195,
+    "span_type": "line",
+    "text": "been completed or on the expiry of 18 months from the date of disbursement of the",
+    "conf": 99.95387268066406,
+    "bbox": {
+      "Width": 0.7172039747238159,
+      "Height": 0.015264633111655712,
+      "Left": 0.1415243297815323,
+      "Top": 0.2220933586359024
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 196,
+    "span_type": "line",
+    "text": "first instalment, whichever may be earlier. The subsequent monthly instalments will",
+    "conf": 99.92870330810547,
+    "bbox": {
+      "Width": 0.7169779539108276,
+      "Height": 0.015122948214411736,
+      "Left": 0.14100266993045807,
+      "Top": 0.24007947742938995
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 197,
+    "span_type": "line",
+    "text": "be paid before the expiry of each subsequent month.",
+    "conf": 99.9704360961914,
+    "bbox": {
+      "Width": 0.4560896158218384,
+      "Height": 0.015139387920498848,
+      "Left": 0.14162953197956085,
+      "Top": 0.2579596936702728
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 198,
+    "span_type": "line",
+    "text": "d) Pre-EMI Interest:",
+    "conf": 99.81365966796875,
+    "bbox": {
+      "Width": 0.18208540976047516,
+      "Height": 0.015453535132110119,
+      "Left": 0.14156371355056763,
+      "Top": 0.298005074262619
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 199,
+    "span_type": "line",
+    "text": "(i) * I/We have opted for servicing of Pre-EMI interest and have already delivered or",
+    "conf": 99.85856628417969,
+    "bbox": {
+      "Width": 0.7504596710205078,
+      "Height": 0.015424799174070358,
+      "Left": 0.10825556516647339,
+      "Top": 0.31645697355270386
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 200,
+    "span_type": "line",
+    "text": "hereby undertake to deliver post-dated cheques drawn at monthly intervals for",
+    "conf": 99.95791625976562,
+    "bbox": {
+      "Width": 0.717187762260437,
+      "Height": 0.015130255371332169,
+      "Left": 0.14168094098567963,
+      "Top": 0.334527850151062
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 201,
+    "span_type": "line",
+    "text": "servicing of the amounts of Pre-EMI interest during the moratorium period.",
+    "conf": 99.95176696777344,
+    "bbox": {
+      "Width": 0.642331063747406,
+      "Height": 0.015244072303175926,
+      "Left": 0.14137254655361176,
+      "Top": 0.35254207253456116
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 202,
+    "span_type": "line",
+    "text": "(ii) * I/We have opted for capitalizing the Pre-EMI interest and agree that loan amount",
+    "conf": 99.80323028564453,
+    "bbox": {
+      "Width": 0.7507636547088623,
+      "Height": 0.01587957888841629,
+      "Left": 0.10835032910108566,
+      "Top": 0.3923853933811188
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 203,
+    "span_type": "line",
+    "text": "will be fixed suitably taking into account approximate Pre-EMI interest during the",
+    "conf": 99.9566650390625,
+    "bbox": {
+      "Width": 0.7179425954818726,
+      "Height": 0.015249313786625862,
+      "Left": 0.14082971215248108,
+      "Top": 0.41038092970848083
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 204,
+    "span_type": "line",
+    "text": "moratorium period as detailed in paragraph pertaining to the Pre-EMI interest in the",
+    "conf": 99.9130630493164,
+    "bbox": {
+      "Width": 0.716880202293396,
+      "Height": 0.015158628113567829,
+      "Left": 0.1416645497083664,
+      "Top": 0.4286019802093506
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 205,
+    "span_type": "line",
+    "text": "Arrangement letter dated",
+    "conf": 99.90074920654297,
+    "bbox": {
+      "Width": 0.2260705828666687,
+      "Height": 0.014828439801931381,
+      "Left": 0.14107035100460052,
+      "Top": 0.4466029703617096
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 206,
+    "span_type": "line",
+    "text": "I / We hereby unconditionally agree to",
+    "conf": 97.5544662475586,
+    "bbox": {
+      "Width": 0.35600516200065613,
+      "Height": 0.015347634442150593,
+      "Left": 0.5021729469299316,
+      "Top": 0.4463519752025604
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 207,
+    "span_type": "line",
+    "text": "execute necessary authority in favour of my / our employer or tender post-dated",
+    "conf": 99.83306884765625,
+    "bbox": {
+      "Width": 0.7166785597801208,
+      "Height": 0.015357967466115952,
+      "Left": 0.14137962460517883,
+      "Top": 0.4643840491771698
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 208,
+    "span_type": "line",
+    "text": "cheques towards EMI's of the loan amount. If necessary I/we would request for",
+    "conf": 99.8341064453125,
+    "bbox": {
+      "Width": 0.7172681093215942,
+      "Height": 0.015483750030398369,
+      "Left": 0.1413315236568451,
+      "Top": 0.48216181993484497
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 209,
+    "span_type": "line",
+    "text": "resetting of EMI's based on the actual outstanding in the loan account after final",
+    "conf": 99.86454772949219,
+    "bbox": {
+      "Width": 0.7158048748970032,
+      "Height": 0.015359362587332726,
+      "Left": 0.14176756143569946,
+      "Top": 0.500320315361023
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 210,
+    "span_type": "line",
+    "text": "disbursement.",
+    "conf": 99.35247802734375,
+    "bbox": {
+      "Width": 0.12218611687421799,
+      "Height": 0.011964816600084305,
+      "Left": 0.14110761880874634,
+      "Top": 0.5186845660209656
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 211,
+    "span_type": "line",
+    "text": "(* score off whichever is not applicable)",
+    "conf": 98.2726821899414,
+    "bbox": {
+      "Width": 0.3394944965839386,
+      "Height": 0.015720240771770477,
+      "Left": 0.32975420355796814,
+      "Top": 0.5554438829421997
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 212,
+    "span_type": "line",
+    "text": "e) I/We declare and confirm that the amount of the loan or the balance then",
+    "conf": 99.95459747314453,
+    "bbox": {
+      "Width": 0.7591961622238159,
+      "Height": 0.015452851541340351,
+      "Left": 0.09822780638933182,
+      "Top": 0.5931624174118042
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 213,
+    "span_type": "line",
+    "text": "outstanding shall become payable at once in case of my death or death of anyone",
+    "conf": 99.96077728271484,
+    "bbox": {
+      "Width": 0.7164100408554077,
+      "Height": 0.015136247500777245,
+      "Left": 0.14126437902450562,
+      "Top": 0.6113411784172058
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 214,
+    "span_type": "line",
+    "text": "of us. In case of death, the Bank may, at its discretion, continue the loan provided",
+    "conf": 99.9176254272461,
+    "bbox": {
+      "Width": 0.7166076898574829,
+      "Height": 0.015007480047643185,
+      "Left": 0.1413000077009201,
+      "Top": 0.6291611790657043
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 215,
+    "span_type": "line",
+    "text": "sufficient collateral security is furnished by my/our legal heirs/surviving borrower(s)",
+    "conf": 99.84215545654297,
+    "bbox": {
+      "Width": 0.7162270545959473,
+      "Height": 0.015383562073111534,
+      "Left": 0.1410810798406601,
+      "Top": 0.647087037563324
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 216,
+    "span_type": "line",
+    "text": "or some satisfactory arrangement for repayment acceptable to the Bank has been",
+    "conf": 99.95220184326172,
+    "bbox": {
+      "Width": 0.7156047821044922,
+      "Height": 0.015249625779688358,
+      "Left": 0.14126142859458923,
+      "Top": 0.6651056408882141
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 217,
+    "span_type": "line",
+    "text": "made by my/our legal heirs/surviving borrower(s).",
+    "conf": 99.86587524414062,
+    "bbox": {
+      "Width": 0.42787057161331177,
+      "Height": 0.015064542181789875,
+      "Left": 0.14175467193126678,
+      "Top": 0.6828843951225281
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 218,
+    "span_type": "line",
+    "text": "f)",
+    "conf": 99.15636444091797,
+    "bbox": {
+      "Width": 0.012758194468915462,
+      "Height": 0.015480595640838146,
+      "Left": 0.09777619689702988,
+      "Top": 0.7206880450248718
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 219,
+    "span_type": "line",
+    "text": "I/We shall arrange for the payment of the equated monthly instalments from my/our",
+    "conf": 99.95843505859375,
+    "bbox": {
+      "Width": 0.7163679003715515,
+      "Height": 0.015226819552481174,
+      "Left": 0.14218769967556,
+      "Top": 0.7205334305763245
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 220,
+    "span_type": "line",
+    "text": "monthly salary or in whatever manner deemed fit * or by debit on the due dates from",
+    "conf": 99.49698638916016,
+    "bbox": {
+      "Width": 0.7158315777778625,
+      "Height": 0.0150242168456316,
+      "Left": 0.14166565239429474,
+      "Top": 0.7386877536773682
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 221,
+    "span_type": "line",
+    "text": "the Current/Savings Bank account with Branch/or any other Branch where I/we may",
+    "conf": 99.00531768798828,
+    "bbox": {
+      "Width": 0.7181159257888794,
+      "Height": 0.015298093669116497,
+      "Left": 0.14090190827846527,
+      "Top": 0.7565293312072754
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 222,
+    "span_type": "line",
+    "text": "hold the account singly or jointly and to appropriate the same in repayment of the",
+    "conf": 99.96794128417969,
+    "bbox": {
+      "Width": 0.7161802649497986,
+      "Height": 0.015163951553404331,
+      "Left": 0.14179323613643646,
+      "Top": 0.7745007872581482
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 223,
+    "span_type": "line",
+    "text": "said loan and interest.",
+    "conf": 99.89566802978516,
+    "bbox": {
+      "Width": 0.1905040591955185,
+      "Height": 0.012252856977283955,
+      "Left": 0.14132755994796753,
+      "Top": 0.7927536964416504
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 224,
+    "span_type": "line",
+    "text": "I/We shall execute in favour of the Bank a letter of authority, addressed to my/our",
+    "conf": 99.81674194335938,
+    "bbox": {
+      "Width": 0.7164126634597778,
+      "Height": 0.015052493661642075,
+      "Left": 0.14211155474185944,
+      "Top": 0.8299944996833801
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 225,
+    "span_type": "line",
+    "text": "employers to recover and pay to the Bank the equated monthly instalment from",
+    "conf": 99.94818115234375,
+    "bbox": {
+      "Width": 0.7160729765892029,
+      "Height": 0.015248051844537258,
+      "Left": 0.14142927527427673,
+      "Top": 0.8478286266326904
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 5,
+    "span_id": 226,
+    "span_type": "line",
+    "text": "my/our salary every month*.",
+    "conf": 98.3470230102539,
+    "bbox": {
+      "Width": 0.24314993619918823,
+      "Height": 0.015150095336139202,
+      "Left": 0.1417565792798996,
+      "Top": 0.8657417297363281
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 227,
+    "span_type": "line",
+    "text": "* Delete if not appropriate.",
+    "conf": 99.46208953857422,
+    "bbox": {
+      "Width": 0.2263243943452835,
+      "Height": 0.01507414411753416,
+      "Left": 0.14057335257530212,
+      "Top": 0.09357400983572006
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 228,
+    "span_type": "line",
+    "text": "g)",
+    "conf": 99.51988983154297,
+    "bbox": {
+      "Width": 0.016307497397065163,
+      "Height": 0.015964705497026443,
+      "Left": 0.09718623012304306,
+      "Top": 0.1315367966890335
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 229,
+    "span_type": "line",
+    "text": "On demand I/We agree to deliver to the Bank post-dated cheques for the monthly",
+    "conf": 99.96785736083984,
+    "bbox": {
+      "Width": 0.7167649269104004,
+      "Height": 0.015118036419153214,
+      "Left": 0.14150398969650269,
+      "Top": 0.13136030733585358
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 230,
+    "span_type": "line",
+    "text": "instalments and warrant that the cheques will be honoured on first presentation.",
+    "conf": 99.93810272216797,
+    "bbox": {
+      "Width": 0.7155911326408386,
+      "Height": 0.015140734612941742,
+      "Left": 0.14149220287799835,
+      "Top": 0.1490958333015442
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 231,
+    "span_type": "line",
+    "text": "Any non-presentation of a cheque due to any reason will not affect my/our liability",
+    "conf": 99.74763488769531,
+    "bbox": {
+      "Width": 0.7167083621025085,
+      "Height": 0.01512142550200224,
+      "Left": 0.14093348383903503,
+      "Top": 0.16734102368354797
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 232,
+    "span_type": "line",
+    "text": "to pay the monthly instalments or any other sum. I/We agree to forthwith replace",
+    "conf": 99.93299102783203,
+    "bbox": {
+      "Width": 0.7166913151741028,
+      "Height": 0.014905678108334541,
+      "Left": 0.14089184999465942,
+      "Top": 0.18535588681697845
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 233,
+    "span_type": "line",
+    "text": "the cheques/issue fresh cheques, if required by the Bank. I/We shall not be entitled",
+    "conf": 99.95013427734375,
+    "bbox": {
+      "Width": 0.7170351147651672,
+      "Height": 0.015190821141004562,
+      "Left": 0.1409139782190323,
+      "Top": 0.20323549211025238
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 234,
+    "span_type": "line",
+    "text": "to call upon the Bank to refrain from presenting any cheque for payment and if I/we",
+    "conf": 99.94644927978516,
+    "bbox": {
+      "Width": 0.7176434993743896,
+      "Height": 0.01531695481389761,
+      "Left": 0.14095276594161987,
+      "Top": 0.22122269868850708
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 235,
+    "span_type": "line",
+    "text": "do so, the Bank shall nevertheless be entitled to present the cheque for payment",
+    "conf": 99.83724212646484,
+    "bbox": {
+      "Width": 0.7172881960868835,
+      "Height": 0.015118828043341637,
+      "Left": 0.1412401795387268,
+      "Top": 0.2394070327281952
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 236,
+    "span_type": "line",
+    "text": "and in the event of dishonour the provisions under the Negotiable Instruments Act,",
+    "conf": 99.95068359375,
+    "bbox": {
+      "Width": 0.7161542177200317,
+      "Height": 0.015110722742974758,
+      "Left": 0.14142923057079315,
+      "Top": 0.257337361574173
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 237,
+    "span_type": "line",
+    "text": "shall apply. I/We also agree to pay a penalty as stipulated by the Bank from time to",
+    "conf": 99.86518859863281,
+    "bbox": {
+      "Width": 0.716601550579071,
+      "Height": 0.015157015062868595,
+      "Left": 0.14130628108978271,
+      "Top": 0.2751578092575073
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 238,
+    "span_type": "line",
+    "text": "time, for every bounced cheque for any reason whatsoever in addition to the",
+    "conf": 99.98028564453125,
+    "bbox": {
+      "Width": 0.717073380947113,
+      "Height": 0.015106630511581898,
+      "Left": 0.14095182716846466,
+      "Top": 0.293433278799057
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 239,
+    "span_type": "line",
+    "text": "enhanced rate of interest as applicable.",
+    "conf": 99.97383117675781,
+    "bbox": {
+      "Width": 0.3407932221889496,
+      "Height": 0.01510730478912592,
+      "Left": 0.1411549150943756,
+      "Top": 0.3113318681716919
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 240,
+    "span_type": "line",
+    "text": "h)",
+    "conf": 99.814453125,
+    "bbox": {
+      "Width": 0.017357047647237778,
+      "Height": 0.015365935862064362,
+      "Left": 0.09677708894014359,
+      "Top": 0.348864883184433
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 241,
+    "span_type": "line",
+    "text": "I/We declare and confirm that on my/our retirement, the outstanding amount of the",
+    "conf": 99.94930267333984,
+    "bbox": {
+      "Width": 0.7159646153450012,
+      "Height": 0.015341530553996563,
+      "Left": 0.14215625822544098,
+      "Top": 0.348773330450058
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 242,
+    "span_type": "line",
+    "text": "loan sanctioned to me will become repayable at once. The Bank may, at its",
+    "conf": 99.971923828125,
+    "bbox": {
+      "Width": 0.7158913612365723,
+      "Height": 0.015237230807542801,
+      "Left": 0.14178594946861267,
+      "Top": 0.36683809757232666
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 243,
+    "span_type": "line",
+    "text": "discretion, continue the loan provided satisfactory arrangement for repayment,",
+    "conf": 99.92362213134766,
+    "bbox": {
+      "Width": 0.7163904309272766,
+      "Height": 0.015133221633732319,
+      "Left": 0.141025111079216,
+      "Top": 0.38484078645706177
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 244,
+    "span_type": "line",
+    "text": "acceptable to the Bank has been made by me/us.",
+    "conf": 99.96835327148438,
+    "bbox": {
+      "Width": 0.42876899242401123,
+      "Height": 0.015142236836254597,
+      "Left": 0.14136390388011932,
+      "Top": 0.4027506709098816
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 245,
+    "span_type": "line",
+    "text": "i)",
+    "conf": 99.765625,
+    "bbox": {
+      "Width": 0.011473366990685463,
+      "Height": 0.015402302145957947,
+      "Left": 0.09699834138154984,
+      "Top": 0.4405270218849182
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 246,
+    "span_type": "line",
+    "text": "In the event of cessation of my / our business/service with my / our employers by",
+    "conf": 99.5239486694336,
+    "bbox": {
+      "Width": 0.7172753810882568,
+      "Height": 0.015122141689062119,
+      "Left": 0.14214099943637848,
+      "Top": 0.44039273262023926
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 247,
+    "span_type": "line",
+    "text": "way of resignation or otherwise (except as a result of death or retirement), I/we",
+    "conf": 99.90544891357422,
+    "bbox": {
+      "Width": 0.7174757122993469,
+      "Height": 0.015312173403799534,
+      "Left": 0.1407887041568756,
+      "Top": 0.458486407995224
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 248,
+    "span_type": "line",
+    "text": "undertake to repay to the Bank forthwith on demand the balance principal amount",
+    "conf": 99.97433471679688,
+    "bbox": {
+      "Width": 0.7165672183036804,
+      "Height": 0.015242183580994606,
+      "Left": 0.14152169227600098,
+      "Top": 0.47638049721717834
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 249,
+    "span_type": "line",
+    "text": "of the loan, or the balances then outstanding whichever is higher.",
+    "conf": 99.97425842285156,
+    "bbox": {
+      "Width": 0.5638021230697632,
+      "Height": 0.015157509595155716,
+      "Left": 0.14129123091697693,
+      "Top": 0.49432218074798584
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 250,
+    "span_type": "line",
+    "text": "j)",
+    "conf": 99.38237762451172,
+    "bbox": {
+      "Width": 0.011692790314555168,
+      "Height": 0.01602281630039215,
+      "Left": 0.0956362634897232,
+      "Top": 0.5321009755134583
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 251,
+    "span_type": "line",
+    "text": "In the event of my/our ceasing to be in business/service of my/our employer whether",
+    "conf": 99.89700317382812,
+    "bbox": {
+      "Width": 0.717287003993988,
+      "Height": 0.01531556248664856,
+      "Left": 0.14214983582496643,
+      "Top": 0.531764566898346
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 252,
+    "span_type": "line",
+    "text": "by retirement, resignation, death or by operation of law or for any other reason or",
+    "conf": 99.9283447265625,
+    "bbox": {
+      "Width": 0.7169697284698486,
+      "Height": 0.01501409150660038,
+      "Left": 0.14154569804668427,
+      "Top": 0.5501148104667664
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 253,
+    "span_type": "line",
+    "text": "cause whatsoever and howsoever the Bank shall be entitled at its discretion, to write",
+    "conf": 99.94083404541016,
+    "bbox": {
+      "Width": 0.716381847858429,
+      "Height": 0.01389305293560028,
+      "Left": 0.14153660833835602,
+      "Top": 0.5680135488510132
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 254,
+    "span_type": "line",
+    "text": "to my/our employers to appropriate and set off (i) any amount which may then be",
+    "conf": 99.96473693847656,
+    "bbox": {
+      "Width": 0.7178385853767395,
+      "Height": 0.015406250022351742,
+      "Left": 0.14090701937675476,
+      "Top": 0.5856253504753113
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 255,
+    "span_type": "line",
+    "text": "payable by my/our employers to me/us whether by way of salary, allowances,",
+    "conf": 99.95396423339844,
+    "bbox": {
+      "Width": 0.7159269452095032,
+      "Height": 0.015239906497299671,
+      "Left": 0.14153172075748444,
+      "Top": 0.6039664149284363
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 256,
+    "span_type": "line",
+    "text": "bonus, other remuneration or any payment (whether ex-gratia or otherwise)",
+    "conf": 99.91302490234375,
+    "bbox": {
+      "Width": 0.7161508202552795,
+      "Height": 0.015143467113375664,
+      "Left": 0.14157898724079132,
+      "Top": 0.6218512654304504
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 257,
+    "span_type": "line",
+    "text": "whatsoever and (ii) any amount that may be standing to the credit of any account",
+    "conf": 99.96588134765625,
+    "bbox": {
+      "Width": 0.7174715995788574,
+      "Height": 0.015043163672089577,
+      "Left": 0.1406497061252594,
+      "Top": 0.6400918960571289
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 258,
+    "span_type": "line",
+    "text": "which I/we may have with my/our employers or with the Bank, either singly or jointly,",
+    "conf": 99.9457015991211,
+    "bbox": {
+      "Width": 0.7165993452072144,
+      "Height": 0.01529921405017376,
+      "Left": 0.14091336727142334,
+      "Top": 0.6576603651046753
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 259,
+    "span_type": "line",
+    "text": "towards repayment of the balance that may be then remaining due and payable by",
+    "conf": 99.9853515625,
+    "bbox": {
+      "Width": 0.7173308730125427,
+      "Height": 0.015266557224094868,
+      "Left": 0.14110322296619415,
+      "Top": 0.6758071780204773
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 260,
+    "span_type": "line",
+    "text": "me/us in my/our said loan account together with interest thereon at the applicable",
+    "conf": 99.94773864746094,
+    "bbox": {
+      "Width": 0.7162479162216187,
+      "Height": 0.015370819717645645,
+      "Left": 0.14177685976028442,
+      "Top": 0.693835973739624
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 261,
+    "span_type": "line",
+    "text": "rates upto the date of such repayment. Any such appropriation made by the Bank",
+    "conf": 99.97471618652344,
+    "bbox": {
+      "Width": 0.7167923450469971,
+      "Height": 0.015006143599748611,
+      "Left": 0.14194676280021667,
+      "Top": 0.7119048237800598
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 262,
+    "span_type": "line",
+    "text": "or my/our employers shall be conclusive and binding on me/us and my/our estate",
+    "conf": 99.92375946044922,
+    "bbox": {
+      "Width": 0.7163367867469788,
+      "Height": 0.015189984813332558,
+      "Left": 0.14133577048778534,
+      "Top": 0.7299281358718872
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 263,
+    "span_type": "line",
+    "text": "both in and out of court. In any event my / our liability to make repayment of the",
+    "conf": 99.77330017089844,
+    "bbox": {
+      "Width": 0.7165371179580688,
+      "Height": 0.015453202649950981,
+      "Left": 0.14161820709705353,
+      "Top": 0.7476218938827515
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 264,
+    "span_type": "line",
+    "text": "entire dues immediately shall remain valid till the entire amount with applicable",
+    "conf": 99.9611587524414,
+    "bbox": {
+      "Width": 0.7155191898345947,
+      "Height": 0.015301641076803207,
+      "Left": 0.14140869677066803,
+      "Top": 0.7659897804260254
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 265,
+    "span_type": "line",
+    "text": "interest as up to the date of payment has been realised by the Bank whether by way",
+    "conf": 99.97343444824219,
+    "bbox": {
+      "Width": 0.7165875434875488,
+      "Height": 0.015156849287450314,
+      "Left": 0.14165550470352173,
+      "Top": 0.7839617133140564
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 266,
+    "span_type": "line",
+    "text": "of recovery from my/our employer or otherwise.",
+    "conf": 99.92851257324219,
+    "bbox": {
+      "Width": 0.409126341342926,
+      "Height": 0.015330394729971886,
+      "Left": 0.14129884541034698,
+      "Top": 0.801561176776886
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 267,
+    "span_type": "line",
+    "text": "k)",
+    "conf": 99.814453125,
+    "bbox": {
+      "Width": 0.016898222267627716,
+      "Height": 0.015196814201772213,
+      "Left": 0.09675093740224838,
+      "Top": 0.8393913507461548
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 268,
+    "span_type": "line",
+    "text": "I/We will not sell assign, mortgage, charge or in any way encumber or alienate the",
+    "conf": 99.9393081665039,
+    "bbox": {
+      "Width": 0.7154358625411987,
+      "Height": 0.015379316173493862,
+      "Left": 0.14216792583465576,
+      "Top": 0.839325487613678
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 269,
+    "span_type": "line",
+    "text": "said flat/house/land or any part thereof/furnishings so long as I/we am/are indebted",
+    "conf": 99.23856353759766,
+    "bbox": {
+      "Width": 0.7162181735038757,
+      "Height": 0.015457414090633392,
+      "Left": 0.1413651704788208,
+      "Top": 0.8572587370872498
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 270,
+    "span_type": "line",
+    "text": "to the Bank in the said loan account without prior permission of the Bank in writing.",
+    "conf": 99.96501159667969,
+    "bbox": {
+      "Width": 0.7159925699234009,
+      "Height": 0.01519303023815155,
+      "Left": 0.14092794060707092,
+      "Top": 0.8752667307853699
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 6,
+    "span_id": 271,
+    "span_type": "line",
+    "text": "I/We undertake to give prior intimation to the Bank before letting out / giving on lease",
+    "conf": 98.77635955810547,
+    "bbox": {
+      "Width": 0.7159022092819214,
+      "Height": 0.01550109963864088,
+      "Left": 0.14213024079799652,
+      "Top": 0.8930432200431824
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 272,
+    "span_type": "line",
+    "text": "and licence the said flat / house. In the event of my/our account becoming irregular,",
+    "conf": 98.8285903930664,
+    "bbox": {
+      "Width": 0.715661346912384,
+      "Height": 0.015306088142096996,
+      "Left": 0.14144064486026764,
+      "Top": 0.09358314424753189
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 273,
+    "span_type": "line",
+    "text": "NPA the Bank is at liberty to take vacant possession of building/flat/house",
+    "conf": 99.87118530273438,
+    "bbox": {
+      "Width": 0.715822160243988,
+      "Height": 0.015126354061067104,
+      "Left": 0.14204959571361542,
+      "Top": 0.11179301887750626
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 274,
+    "span_type": "line",
+    "text": "(premises) from me/us, and hire the said premises at market rent for its commercial",
+    "conf": 99.91764068603516,
+    "bbox": {
+      "Width": 0.715198814868927,
+      "Height": 0.01517344731837511,
+      "Left": 0.14198707044124603,
+      "Top": 0.12972447276115417
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 275,
+    "span_type": "line",
+    "text": "or residential purpose as the case may be and adjust the proceeds of the hire",
+    "conf": 99.97320556640625,
+    "bbox": {
+      "Width": 0.7166244387626648,
+      "Height": 0.015127909369766712,
+      "Left": 0.1413758099079132,
+      "Top": 0.14759863913059235
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 276,
+    "span_type": "line",
+    "text": "charges towards outstanding of my/our loan account.",
+    "conf": 99.92839813232422,
+    "bbox": {
+      "Width": 0.4582332372665405,
+      "Height": 0.015356263145804405,
+      "Left": 0.14148388803005219,
+      "Top": 0.1657242625951767
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 277,
+    "span_type": "line",
+    "text": "1)",
+    "conf": 98.59992980957031,
+    "bbox": {
+      "Width": 0.011798443272709846,
+      "Height": 0.01560850627720356,
+      "Left": 0.14082229137420654,
+      "Top": 0.20274078845977783
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 278,
+    "span_type": "line",
+    "text": "i",
+    "conf": 90.62838745117188,
+    "bbox": {
+      "Width": 0.003722531022503972,
+      "Height": 0.011584032326936722,
+      "Left": 0.17678159475326538,
+      "Top": 0.20295484364032745
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 279,
+    "span_type": "line",
+    "text": "I/We hereby declare and confirm that no proceedings under any of the",
+    "conf": 99.96473693847656,
+    "bbox": {
+      "Width": 0.6443617343902588,
+      "Height": 0.015184647403657436,
+      "Left": 0.2142309546470642,
+      "Top": 0.20283211767673492
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 280,
+    "span_type": "line",
+    "text": "provisions of the Income Tax Act, 1961 including but not limited to proceeding for",
+    "conf": 99.98110961914062,
+    "bbox": {
+      "Width": 0.7174268960952759,
+      "Height": 0.015445315279066563,
+      "Left": 0.14125753939151764,
+      "Top": 0.22269514203071594
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 281,
+    "span_type": "line",
+    "text": "default in compliance with the provisions of said Act/ rules/regulations thereunder",
+    "conf": 99.85708618164062,
+    "bbox": {
+      "Width": 0.7168025374412537,
+      "Height": 0.01533813402056694,
+      "Left": 0.1412937045097351,
+      "Top": 0.24297505617141724
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 282,
+    "span_type": "line",
+    "text": "or proceeding for recovery of tax/ interest/ any other amount or any such",
+    "conf": 99.95068359375,
+    "bbox": {
+      "Width": 0.7167128324508667,
+      "Height": 0.015440426766872406,
+      "Left": 0.1414071023464203,
+      "Top": 0.26291608810424805
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 283,
+    "span_type": "line",
+    "text": "proceedings that might be construed as pending/ completed under Section 281 of",
+    "conf": 99.87115478515625,
+    "bbox": {
+      "Width": 0.7167694568634033,
+      "Height": 0.015181481838226318,
+      "Left": 0.14141283929347992,
+      "Top": 0.2830301821231842
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 284,
+    "span_type": "line",
+    "text": "the said Act are initiated, contemplated or pending against me/us for the time being",
+    "conf": 99.93199920654297,
+    "bbox": {
+      "Width": 0.7170541882514954,
+      "Height": 0.015141350217163563,
+      "Left": 0.1409272700548172,
+      "Top": 0.3030558228492737
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 285,
+    "span_type": "line",
+    "text": "and that no notice has been issued and/or served on me/us under Rule 2, 16 or 51",
+    "conf": 99.85945892333984,
+    "bbox": {
+      "Width": 0.7150779962539673,
+      "Height": 0.013862628489732742,
+      "Left": 0.14146414399147034,
+      "Top": 0.32305270433425903
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 286,
+    "span_type": "line",
+    "text": "or any Rule of the Second Schedule to the said Act or under any other law and there",
+    "conf": 99.96514129638672,
+    "bbox": {
+      "Width": 0.7169840931892395,
+      "Height": 0.015419797040522099,
+      "Left": 0.14130739867687225,
+      "Top": 0.34279751777648926
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 287,
+    "span_type": "line",
+    "text": "are no other pending show cause notices or attachments whatsoever issued or",
+    "conf": 99.92413330078125,
+    "bbox": {
+      "Width": 0.7173429131507874,
+      "Height": 0.014855093322694302,
+      "Left": 0.14140406250953674,
+      "Top": 0.36323633790016174
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 288,
+    "span_type": "line",
+    "text": "initiated against the said flat/house/land/immovable properties secured or otherwise",
+    "conf": 98.94161224365234,
+    "bbox": {
+      "Width": 0.7168588042259216,
+      "Height": 0.015264161862432957,
+      "Left": 0.14153987169265747,
+      "Top": 0.38295602798461914
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 289,
+    "span_type": "line",
+    "text": "or any of them or any part thereof.",
+    "conf": 99.9571762084961,
+    "bbox": {
+      "Width": 0.2950924336910248,
+      "Height": 0.015122060663998127,
+      "Left": 0.14133141934871674,
+      "Top": 0.4033758342266083
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 290,
+    "span_type": "line",
+    "text": "m) The loan shall be secured by a valid equitable/legal mortgage of the land/house/flat",
+    "conf": 99.80486297607422,
+    "bbox": {
+      "Width": 0.762001633644104,
+      "Height": 0.015748463571071625,
+      "Left": 0.09681160002946854,
+      "Top": 0.4546922743320465
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 291,
+    "span_type": "line",
+    "text": "purchased/constructed by me/us for which the Loan facility is provided by",
+    "conf": 99.92359924316406,
+    "bbox": {
+      "Width": 0.7171626091003418,
+      "Height": 0.015319790691137314,
+      "Left": 0.1413983851671219,
+      "Top": 0.4728788137435913
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 292,
+    "span_type": "line",
+    "text": "executing/registering such documents in such form as may be decided by the Bank.",
+    "conf": 99.90399932861328,
+    "bbox": {
+      "Width": 0.7169780731201172,
+      "Height": 0.015177739784121513,
+      "Left": 0.14125369489192963,
+      "Top": 0.4909469485282898
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 293,
+    "span_type": "line",
+    "text": "I/We shall, if required by the Bank, give such further security as acceptable to the",
+    "conf": 99.96072387695312,
+    "bbox": {
+      "Width": 0.7158215641975403,
+      "Height": 0.015104289166629314,
+      "Left": 0.142197385430336,
+      "Top": 0.5091205835342407
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 294,
+    "span_type": "line",
+    "text": "Bank forthwith on demand by the Bank. In case it is not possible to create security",
+    "conf": 99.95895385742188,
+    "bbox": {
+      "Width": 0.7160812020301819,
+      "Height": 0.01504921168088913,
+      "Left": 0.14190389215946198,
+      "Top": 0.5271010994911194
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 295,
+    "span_type": "line",
+    "text": "by way of mortgage as aforesaid I/we shall forthwith on demand arrange for other",
+    "conf": 99.96483612060547,
+    "bbox": {
+      "Width": 0.7181224822998047,
+      "Height": 0.014964540489017963,
+      "Left": 0.14151161909103394,
+      "Top": 0.5453609228134155
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 296,
+    "span_type": "line",
+    "text": "collateral securities, by way of pledge/hypothecation, such as Bank's Fixed",
+    "conf": 99.84095764160156,
+    "bbox": {
+      "Width": 0.7163473963737488,
+      "Height": 0.01513685379177332,
+      "Left": 0.14123977720737457,
+      "Top": 0.5631040334701538
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 297,
+    "span_type": "line",
+    "text": "Deposits, National Savings Certificates, Kisan Vikas Patra, Life Insurance Policies,",
+    "conf": 99.89058685302734,
+    "bbox": {
+      "Width": 0.715631902217865,
+      "Height": 0.015263122506439686,
+      "Left": 0.1420387178659439,
+      "Top": 0.580980658531189
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 298,
+    "span_type": "line",
+    "text": "promissory notes issued by any Govt., shares or debentures of the companies,",
+    "conf": 99.90563201904297,
+    "bbox": {
+      "Width": 0.7156124114990234,
+      "Height": 0.015385442413389683,
+      "Left": 0.14128698408603668,
+      "Top": 0.5990435481071472
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 299,
+    "span_type": "line",
+    "text": "sufficient quantity of gold or gold ornaments or other articles or things acceptable to",
+    "conf": 99.94013977050781,
+    "bbox": {
+      "Width": 0.71700119972229,
+      "Height": 0.015239288099110126,
+      "Left": 0.14114531874656677,
+      "Top": 0.6170175075531006
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 300,
+    "span_type": "line",
+    "text": "the Bank as security for the loan. The loan shall also be secured by the guarantee",
+    "conf": 99.96105194091797,
+    "bbox": {
+      "Width": 0.716831386089325,
+      "Height": 0.015142430551350117,
+      "Left": 0.1408885419368744,
+      "Top": 0.6352888345718384
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 301,
+    "span_type": "line",
+    "text": "of a person acceptable to the Bank and good for the loan amount involved and by",
+    "conf": 99.92092895507812,
+    "bbox": {
+      "Width": 0.7172161340713501,
+      "Height": 0.015265041962265968,
+      "Left": 0.14131760597229004,
+      "Top": 0.6528589129447937
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 302,
+    "span_type": "line",
+    "text": "mortgage of the guarantor's property also or pledge/assignment/hypothecation of",
+    "conf": 99.8111801147461,
+    "bbox": {
+      "Width": 0.7179594039916992,
+      "Height": 0.015598762780427933,
+      "Left": 0.14152312278747559,
+      "Top": 0.6708583831787109
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 303,
+    "span_type": "line",
+    "text": "other securities acceptable to the Bank, if need be.",
+    "conf": 97.11669921875,
+    "bbox": {
+      "Width": 0.4444359540939331,
+      "Height": 0.015020279213786125,
+      "Left": 0.14130334556102753,
+      "Top": 0.6889416575431824
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 304,
+    "span_type": "line",
+    "text": "n)",
+    "conf": 99.814453125,
+    "bbox": {
+      "Width": 0.01727730967104435,
+      "Height": 0.015043377876281738,
+      "Left": 0.09684772789478302,
+      "Top": 0.7269723415374756
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 305,
+    "span_type": "line",
+    "text": "I/We shall obtain at my/our cost and produce for the satisfaction of the Bank a",
+    "conf": 99.48712921142578,
+    "bbox": {
+      "Width": 0.7153717875480652,
+      "Height": 0.015245231799781322,
+      "Left": 0.14218926429748535,
+      "Top": 0.7265003323554993
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 306,
+    "span_type": "line",
+    "text": "certificate from the Advocate /Solicitors approved by the Bank certifying that I/we",
+    "conf": 99.53116607666016,
+    "bbox": {
+      "Width": 0.7168785333633423,
+      "Height": 0.01530542504042387,
+      "Left": 0.14113759994506836,
+      "Top": 0.744373083114624
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 307,
+    "span_type": "line",
+    "text": "will have clear, valid and marketable title to the land/house/flat proposed to be",
+    "conf": 99.89543151855469,
+    "bbox": {
+      "Width": 0.716765820980072,
+      "Height": 0.015464961528778076,
+      "Left": 0.14078740775585175,
+      "Top": 0.7621551752090454
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 308,
+    "span_type": "line",
+    "text": "purchased by me/us and agree that the Bank shall be entitled not to disburse any",
+    "conf": 99.96023559570312,
+    "bbox": {
+      "Width": 0.7176260352134705,
+      "Height": 0.015285980887711048,
+      "Left": 0.1414124220609665,
+      "Top": 0.7807254791259766
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 309,
+    "span_type": "line",
+    "text": "amount of the loan until such certificate has been produced by me/us.",
+    "conf": 99.9397964477539,
+    "bbox": {
+      "Width": 0.6020557880401611,
+      "Height": 0.015264649875462055,
+      "Left": 0.14148305356502533,
+      "Top": 0.7983848452568054
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 310,
+    "span_type": "line",
+    "text": "o)",
+    "conf": 95.41932678222656,
+    "bbox": {
+      "Width": 0.01648770086467266,
+      "Height": 0.015038585290312767,
+      "Left": 0.09709946066141129,
+      "Top": 0.8364629745483398
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 311,
+    "span_type": "line",
+    "text": "I/We shall maintain the flat/house in good tenantable repair and condition at my /our",
+    "conf": 99.79025268554688,
+    "bbox": {
+      "Width": 0.7160003781318665,
+      "Height": 0.015273293480277061,
+      "Left": 0.14211975038051605,
+      "Top": 0.8359526991844177
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 312,
+    "span_type": "line",
+    "text": "cost at all times so long as I/we am/are indebted to the Bank and that I/we shall",
+    "conf": 99.5510482788086,
+    "bbox": {
+      "Width": 0.716230034828186,
+      "Height": 0.01511312648653984,
+      "Left": 0.14147430658340454,
+      "Top": 0.854036271572113
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 313,
+    "span_type": "line",
+    "text": "ensure that the Bank's security is not in any way jeopardised. I/we shall duly and",
+    "conf": 99.9447250366211,
+    "bbox": {
+      "Width": 0.7163116931915283,
+      "Height": 0.015050189569592476,
+      "Left": 0.14149422943592072,
+      "Top": 0.87211674451828
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 7,
+    "span_id": 314,
+    "span_type": "line",
+    "text": "punctually pay the charges, if any, payable to the Co-operative Housing",
+    "conf": 99.94445037841797,
+    "bbox": {
+      "Width": 0.7177664637565613,
+      "Height": 0.01519278809428215,
+      "Left": 0.14125314354896545,
+      "Top": 0.8900274634361267
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 315,
+    "span_type": "line",
+    "text": "Society/condominium association and also all the municipal/revenue taxes,",
+    "conf": 99.83617401123047,
+    "bbox": {
+      "Width": 0.714862048625946,
+      "Height": 0.015199167653918266,
+      "Left": 0.1418991982936859,
+      "Top": 0.09360941499471664
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 316,
+    "span_type": "line",
+    "text": "charges, rates, cesses etc. from time to time payable by me/us in respect of the",
+    "conf": 99.94694519042969,
+    "bbox": {
+      "Width": 0.7164182662963867,
+      "Height": 0.015191716141998768,
+      "Left": 0.14132395386695862,
+      "Top": 0.11188804358243942
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 317,
+    "span_type": "line",
+    "text": "flat/house/land. The Bank shall be at liberty to inspect the flat/house/land at any",
+    "conf": 99.87157440185547,
+    "bbox": {
+      "Width": 0.7179951667785645,
+      "Height": 0.015060591511428356,
+      "Left": 0.1412215232849121,
+      "Top": 0.12972477078437805
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 318,
+    "span_type": "line",
+    "text": "reasonable time and I/we shall furnish all such information/particulars whatsoever",
+    "conf": 99.90122985839844,
+    "bbox": {
+      "Width": 0.7180161476135254,
+      "Height": 0.015176656655967236,
+      "Left": 0.1415690779685974,
+      "Top": 0.14741332828998566
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 319,
+    "span_type": "line",
+    "text": "as and when called upon to do so by the Bank. I / We shall provide the required no",
+    "conf": 97.80506134033203,
+    "bbox": {
+      "Width": 0.7169544696807861,
+      "Height": 0.015274801291525364,
+      "Left": 0.14151926338672638,
+      "Top": 0.16573861241340637
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 320,
+    "span_type": "line",
+    "text": "objection consent for creating a charge on the property secured for the Loan, from",
+    "conf": 99.91934204101562,
+    "bbox": {
+      "Width": 0.7167022824287415,
+      "Height": 0.015422291122376919,
+      "Left": 0.14105089008808136,
+      "Top": 0.18356327712535858
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 321,
+    "span_type": "line",
+    "text": "the Society /Condominium or any other permissions by any authority necessary for",
+    "conf": 99.20805358886719,
+    "bbox": {
+      "Width": 0.7177720665931702,
+      "Height": 0.015412474982440472,
+      "Left": 0.14091019332408905,
+      "Top": 0.2016906887292862
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 322,
+    "span_type": "line",
+    "text": "creating the security in favour of the Bank.",
+    "conf": 99.95087432861328,
+    "bbox": {
+      "Width": 0.36477869749069214,
+      "Height": 0.014985620975494385,
+      "Left": 0.14136111736297607,
+      "Top": 0.21975655853748322
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 323,
+    "span_type": "line",
+    "text": "p) I / We shall at my/our cost insure and keep insured in the joint names of",
+    "conf": 98.63685607910156,
+    "bbox": {
+      "Width": 0.76127690076828,
+      "Height": 0.015983616933226585,
+      "Left": 0.09710132330656052,
+      "Top": 0.2572021484375
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 324,
+    "span_type": "line",
+    "text": "myself/ourselves and the Bank my / our house/flat at all times against fire, flood,",
+    "conf": 99.56365203857422,
+    "bbox": {
+      "Width": 0.7157696485519409,
+      "Height": 0.015245998278260231,
+      "Left": 0.1417085826396942,
+      "Top": 0.27514955401420593
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 325,
+    "span_type": "line",
+    "text": "cyclone, typhoon, lightning, explosion, riot, strike, earthquake risks and other acts",
+    "conf": 99.92057037353516,
+    "bbox": {
+      "Width": 0.7158216834068298,
+      "Height": 0.015136528760194778,
+      "Left": 0.14141611754894257,
+      "Top": 0.29348456859588623
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 326,
+    "span_type": "line",
+    "text": "of God for such other risks for its full market value as desired by the Bank from time",
+    "conf": 99.96952819824219,
+    "bbox": {
+      "Width": 0.7160528302192688,
+      "Height": 0.014982563443481922,
+      "Left": 0.14131200313568115,
+      "Top": 0.3112596273422241
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 327,
+    "span_type": "line",
+    "text": "to time and shall endeavour to get the building in which my/our flat is situated",
+    "conf": 99.95540618896484,
+    "bbox": {
+      "Width": 0.7167288661003113,
+      "Height": 0.015363236889243126,
+      "Left": 0.14096561074256897,
+      "Top": 0.32926610112190247
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 328,
+    "span_type": "line",
+    "text": "insured against fire, flood, cyclone, typhoon, lightning, explosion, riot, strike,",
+    "conf": 99.91735076904297,
+    "bbox": {
+      "Width": 0.7154775261878967,
+      "Height": 0.015543214976787567,
+      "Left": 0.14168287813663483,
+      "Top": 0.3471734821796417
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 329,
+    "span_type": "line",
+    "text": "earthquake, risks and other acts of God at all times by the Co-operative housing",
+    "conf": 99.94780731201172,
+    "bbox": {
+      "Width": 0.7165989279747009,
+      "Height": 0.015354587696492672,
+      "Left": 0.14156574010849,
+      "Top": 0.3650258183479309
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 330,
+    "span_type": "line",
+    "text": "society/apartment owner/association or any other body under whose control the",
+    "conf": 96.36356353759766,
+    "bbox": {
+      "Width": 0.7168026566505432,
+      "Height": 0.015187627635896206,
+      "Left": 0.1412656456232071,
+      "Top": 0.3833540380001068
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 331,
+    "span_type": "line",
+    "text": "building is vested. I/we shall deliver copies of the insurance policies, cover notes,",
+    "conf": 99.9399185180664,
+    "bbox": {
+      "Width": 0.7149392366409302,
+      "Height": 0.015115920454263687,
+      "Left": 0.14154969155788422,
+      "Top": 0.40120068192481995
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 332,
+    "span_type": "line",
+    "text": "premium receipts, etc., to the Bank. If I/we fail to effect such insurance the Bank",
+    "conf": 99.93843078613281,
+    "bbox": {
+      "Width": 0.716614842414856,
+      "Height": 0.015101512894034386,
+      "Left": 0.1413954794406891,
+      "Top": 0.4193638265132904
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 333,
+    "span_type": "line",
+    "text": "will be at liberty but not obliged to insure the said house/flat against fire, flood,",
+    "conf": 99.95101165771484,
+    "bbox": {
+      "Width": 0.716249942779541,
+      "Height": 0.015362514182925224,
+      "Left": 0.14084170758724213,
+      "Top": 0.4371316730976105
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 334,
+    "span_type": "line",
+    "text": "cyclone, typhoon, lightning, explosion, riot, strike, earthquake risks and other acts",
+    "conf": 99.91065979003906,
+    "bbox": {
+      "Width": 0.7157312631607056,
+      "Height": 0.015252449549734592,
+      "Left": 0.14144329726696014,
+      "Top": 0.4551588296890259
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 335,
+    "span_type": "line",
+    "text": "of God and debit the premium and other charges to any of my/our accounts with the",
+    "conf": 99.9658203125,
+    "bbox": {
+      "Width": 0.716903030872345,
+      "Height": 0.015294324606657028,
+      "Left": 0.14127132296562195,
+      "Top": 0.4732850193977356
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 336,
+    "span_type": "line",
+    "text": "Bank. I/we expressly agree and declare that the Bank shall be entitled to adjust,",
+    "conf": 99.96983337402344,
+    "bbox": {
+      "Width": 0.7156800627708435,
+      "Height": 0.015198290348052979,
+      "Left": 0.1419704109430313,
+      "Top": 0.49130550026893616
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 337,
+    "span_type": "line",
+    "text": "settle, compromise or refer to arbitration any dispute between the insurance",
+    "conf": 99.9243392944336,
+    "bbox": {
+      "Width": 0.7163952589035034,
+      "Height": 0.015086009167134762,
+      "Left": 0.14130035042762756,
+      "Top": 0.5094006657600403
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 338,
+    "span_type": "line",
+    "text": "company and the insured arising from or under or in connection with any such policy",
+    "conf": 99.96278381347656,
+    "bbox": {
+      "Width": 0.7175300121307373,
+      "Height": 0.01527051255106926,
+      "Left": 0.14124809205532074,
+      "Top": 0.5273188948631287
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 339,
+    "span_type": "line",
+    "text": "or policies of insurance and such adjustment, settlement, compromise or any award",
+    "conf": 99.89674377441406,
+    "bbox": {
+      "Width": 0.7166386842727661,
+      "Height": 0.015079070813953876,
+      "Left": 0.14137235283851624,
+      "Top": 0.545574426651001
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 340,
+    "span_type": "line",
+    "text": "made on such reference to arbitration shall be valid and binding on me/us. I/we",
+    "conf": 99.94641876220703,
+    "bbox": {
+      "Width": 0.7158515453338623,
+      "Height": 0.015001772902905941,
+      "Left": 0.14175160229206085,
+      "Top": 0.5634233951568604
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 341,
+    "span_type": "line",
+    "text": "further agree that the Bank shall have a right to receive all moneys payable under",
+    "conf": 99.85112762451172,
+    "bbox": {
+      "Width": 0.7175924777984619,
+      "Height": 0.01525873877108097,
+      "Left": 0.1409105360507965,
+      "Top": 0.5812534689903259
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 342,
+    "span_type": "line",
+    "text": "any such policy or under any claim made thereunder and to give a valid receipt",
+    "conf": 99.80595397949219,
+    "bbox": {
+      "Width": 0.7170535922050476,
+      "Height": 0.015155674889683723,
+      "Left": 0.14144419133663177,
+      "Top": 0.5993996262550354
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 343,
+    "span_type": "line",
+    "text": "therefor and that the amount so received shall be credited to my/our loan account",
+    "conf": 99.41062927246094,
+    "bbox": {
+      "Width": 0.7172712683677673,
+      "Height": 0.015098053961992264,
+      "Left": 0.14090068638324738,
+      "Top": 0.617242693901062
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 344,
+    "span_type": "line",
+    "text": "and I/we will not be entitled to raise any question that a larger sum might or ought",
+    "conf": 99.72752380371094,
+    "bbox": {
+      "Width": 0.7173777222633362,
+      "Height": 0.014920631423592567,
+      "Left": 0.1414007842540741,
+      "Top": 0.6356291174888611
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 345,
+    "span_type": "line",
+    "text": "to have been received or to dispute my/our liability for the balance remaining due",
+    "conf": 99.97407531738281,
+    "bbox": {
+      "Width": 0.7176997661590576,
+      "Height": 0.015243231318891048,
+      "Left": 0.14090946316719055,
+      "Top": 0.6531494855880737
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 346,
+    "span_type": "line",
+    "text": "on such account after such credit.",
+    "conf": 99.96894073486328,
+    "bbox": {
+      "Width": 0.2916487753391266,
+      "Height": 0.012032377533614635,
+      "Left": 0.14123253524303436,
+      "Top": 0.6713740825653076
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 347,
+    "span_type": "line",
+    "text": "q)",
+    "conf": 99.80388641357422,
+    "bbox": {
+      "Width": 0.016794651746749878,
+      "Height": 0.016307495534420013,
+      "Left": 0.09697913378477097,
+      "Top": 0.708538293838501
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 348,
+    "span_type": "line",
+    "text": "I/We agree and declare that notwithstanding anything contained herein or in any",
+    "conf": 99.93321990966797,
+    "bbox": {
+      "Width": 0.7170408368110657,
+      "Height": 0.015220346860587597,
+      "Left": 0.14217010140419006,
+      "Top": 0.7087836861610413
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 349,
+    "span_type": "line",
+    "text": "other security documents the entire amount of the loan or the balances then due",
+    "conf": 99.9569320678711,
+    "bbox": {
+      "Width": 0.7169272303581238,
+      "Height": 0.01507145818322897,
+      "Left": 0.14135360717773438,
+      "Top": 0.7269390821456909
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 350,
+    "span_type": "line",
+    "text": "shall, if so decided by the Bank, become forthwith due and payable by me/us to the",
+    "conf": 99.38571166992188,
+    "bbox": {
+      "Width": 0.7166579961776733,
+      "Height": 0.015167775563895702,
+      "Left": 0.14137202501296997,
+      "Top": 0.7445681095123291
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 351,
+    "span_type": "line",
+    "text": "Bank, upon the happening of any of the following events and the Bank shall be",
+    "conf": 99.984375,
+    "bbox": {
+      "Width": 0.715442419052124,
+      "Height": 0.015421026386320591,
+      "Left": 0.14190778136253357,
+      "Top": 0.7626582384109497
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 352,
+    "span_type": "line",
+    "text": "entitled to enforce its dues and security.",
+    "conf": 99.95919799804688,
+    "bbox": {
+      "Width": 0.34395062923431396,
+      "Height": 0.014953500591218472,
+      "Left": 0.141413614153862,
+      "Top": 0.7809190154075623
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 353,
+    "span_type": "line",
+    "text": "i) any instalment of the principal remaining unpaid for a period exceeding one month",
+    "conf": 99.80113983154297,
+    "bbox": {
+      "Width": 0.711500346660614,
+      "Height": 0.015425956808030605,
+      "Left": 0.14677467942237854,
+      "Top": 0.8179915547370911
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 354,
+    "span_type": "line",
+    "text": "after the due date for payment thereof has expired;",
+    "conf": 99.93952178955078,
+    "bbox": {
+      "Width": 0.4399057924747467,
+      "Height": 0.015252836979925632,
+      "Left": 0.14148926734924316,
+      "Top": 0.8359753489494324
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 355,
+    "span_type": "line",
+    "text": "ii) any interest including penal interest remaining unpaid and in arrears for a period",
+    "conf": 99.41719055175781,
+    "bbox": {
+      "Width": 0.7169395089149475,
+      "Height": 0.015686461701989174,
+      "Left": 0.1415693312883377,
+      "Top": 0.8721929788589478
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 8,
+    "span_id": 356,
+    "span_type": "line",
+    "text": "of one month after the same has become due whether demanded or not;",
+    "conf": 99.9630126953125,
+    "bbox": {
+      "Width": 0.6287263035774231,
+      "Height": 0.014264014549553394,
+      "Left": 0.17306654155254364,
+      "Top": 0.8905086517333984
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 357,
+    "span_type": "line",
+    "text": "iii) any breach or default in the performance or observance of any of the covenants",
+    "conf": 99.94027709960938,
+    "bbox": {
+      "Width": 0.7174357771873474,
+      "Height": 0.015591401606798172,
+      "Left": 0.1410723626613617,
+      "Top": 0.11309465020895004
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 358,
+    "span_type": "line",
+    "text": "contained in these presents and/or the security documents or any other term or",
+    "conf": 99.95630645751953,
+    "bbox": {
+      "Width": 0.685695230960846,
+      "Height": 0.01489109918475151,
+      "Left": 0.17312590777873993,
+      "Top": 0.13111647963523865
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 359,
+    "span_type": "line",
+    "text": "condition relating to the term loans;",
+    "conf": 99.94725036621094,
+    "bbox": {
+      "Width": 0.3040598928928375,
+      "Height": 0.01513705588877201,
+      "Left": 0.17318172752857208,
+      "Top": 0.14892615377902985
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 360,
+    "span_type": "line",
+    "text": "iv) entering into any arrangement or composition with my/our creditors or committing",
+    "conf": 99.95660400390625,
+    "bbox": {
+      "Width": 0.7489064335823059,
+      "Height": 0.015552452765405178,
+      "Left": 0.1093389242887497,
+      "Top": 0.18609802424907684
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 361,
+    "span_type": "line",
+    "text": "any act of insolvency;",
+    "conf": 99.90583038330078,
+    "bbox": {
+      "Width": 0.18642638623714447,
+      "Height": 0.01521025225520134,
+      "Left": 0.14139598608016968,
+      "Top": 0.20424404740333557
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 362,
+    "span_type": "line",
+    "text": "v) any execution or distress being enforced or levied against the whole or any part of",
+    "conf": 99.92483520507812,
+    "bbox": {
+      "Width": 0.7498636245727539,
+      "Height": 0.0156424380838871,
+      "Left": 0.10892888903617859,
+      "Top": 0.24157053232192993
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 363,
+    "span_type": "line",
+    "text": "my/our property;",
+    "conf": 99.77748107910156,
+    "bbox": {
+      "Width": 0.141698956489563,
+      "Height": 0.015211151912808418,
+      "Left": 0.1416385918855667,
+      "Top": 0.2596869468688965
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 364,
+    "span_type": "line",
+    "text": "vi) a receiver being appointed in respect of the whole or any part of my/our property;",
+    "conf": 99.86952209472656,
+    "bbox": {
+      "Width": 0.7326976656913757,
+      "Height": 0.0156086515635252,
+      "Left": 0.10904734581708908,
+      "Top": 0.2973161041736603
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 365,
+    "span_type": "line",
+    "text": "vii)the occurrence of any circumstances which is prejudicial to or impairs, imperils or",
+    "conf": 99.42630767822266,
+    "bbox": {
+      "Width": 0.7400575876235962,
+      "Height": 0.015203661285340786,
+      "Left": 0.11855105310678482,
+      "Top": 0.33452925086021423
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 366,
+    "span_type": "line",
+    "text": "depreciates or which is likely to prejudice, impair, imperil or depreciate the security",
+    "conf": 99.94524383544922,
+    "bbox": {
+      "Width": 0.7177562117576599,
+      "Height": 0.015248262323439121,
+      "Left": 0.14130349457263947,
+      "Top": 0.3524746000766754
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 367,
+    "span_type": "line",
+    "text": "given to the Bank ; and",
+    "conf": 97.95479583740234,
+    "bbox": {
+      "Width": 0.19974826276302338,
+      "Height": 0.01497423555701971,
+      "Left": 0.14141720533370972,
+      "Top": 0.37039944529533386
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 368,
+    "span_type": "line",
+    "text": "viii) the occurrence of any events or circumstances which prejudicially or adversely",
+    "conf": 99.87674713134766,
+    "bbox": {
+      "Width": 0.7402035593986511,
+      "Height": 0.015219584107398987,
+      "Left": 0.11843851953744888,
+      "Top": 0.4076371192932129
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 369,
+    "span_type": "line",
+    "text": "affect in any manner my/our capacity to repay the amount due under the loan.",
+    "conf": 99.97058868408203,
+    "bbox": {
+      "Width": 0.6723562479019165,
+      "Height": 0.015209666453301907,
+      "Left": 0.14142921566963196,
+      "Top": 0.4255237579345703
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 370,
+    "span_type": "line",
+    "text": "On the question whether any of the above event/s has/have happened, the decision",
+    "conf": 99.87661743164062,
+    "bbox": {
+      "Width": 0.7118179798126221,
+      "Height": 0.015165027230978012,
+      "Left": 0.14658939838409424,
+      "Top": 0.46282297372817993
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 371,
+    "span_type": "line",
+    "text": "of the Bank shall be conclusive and binding on me/us.",
+    "conf": 99.94776153564453,
+    "bbox": {
+      "Width": 0.46643924713134766,
+      "Height": 0.015073167160153389,
+      "Left": 0.1412762999534607,
+      "Top": 0.48095476627349854
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 372,
+    "span_type": "line",
+    "text": "Provided always that the Bank may in its discretion refrain from forthwith enforcing",
+    "conf": 99.95963287353516,
+    "bbox": {
+      "Width": 0.7161684036254883,
+      "Height": 0.01519228145480156,
+      "Left": 0.1416158676147461,
+      "Top": 0.5178996920585632
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 373,
+    "span_type": "line",
+    "text": "its rights under this Agreement in spite of the happening of the contingencies",
+    "conf": 99.94731140136719,
+    "bbox": {
+      "Width": 0.7168722748756409,
+      "Height": 0.015376240946352482,
+      "Left": 0.1416866034269333,
+      "Top": 0.5360095500946045
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 374,
+    "span_type": "line",
+    "text": "aforesaid and provided further that the failure or delay by the Bank in exercising any",
+    "conf": 99.96522521972656,
+    "bbox": {
+      "Width": 0.7178124189376831,
+      "Height": 0.01532305870205164,
+      "Left": 0.14123044908046722,
+      "Top": 0.553989052772522
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 375,
+    "span_type": "line",
+    "text": "right, power or privilege hereunder or under any of the security documents shall not",
+    "conf": 99.96344757080078,
+    "bbox": {
+      "Width": 0.7171289920806885,
+      "Height": 0.015150085091590881,
+      "Left": 0.141743466258049,
+      "Top": 0.5722308158874512
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 376,
+    "span_type": "line",
+    "text": "impair/extinguish the same or operate as waiver of the same nor shall any single or",
+    "conf": 99.95220947265625,
+    "bbox": {
+      "Width": 0.7176696062088013,
+      "Height": 0.015214413404464722,
+      "Left": 0.14173558354377747,
+      "Top": 0.5899558067321777
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 377,
+    "span_type": "line",
+    "text": "partial exercise of any right, power or privilege preclude any further exercise of the",
+    "conf": 99.956298828125,
+    "bbox": {
+      "Width": 0.7162548303604126,
+      "Height": 0.01521837804466486,
+      "Left": 0.14155404269695282,
+      "Top": 0.6079124808311462
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 378,
+    "span_type": "line",
+    "text": "same or the exercise of any other right, power or privilege. The rights and remedies",
+    "conf": 99.96192169189453,
+    "bbox": {
+      "Width": 0.716011106967926,
+      "Height": 0.015265368856489658,
+      "Left": 0.14140692353248596,
+      "Top": 0.6261492371559143
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 379,
+    "span_type": "line",
+    "text": "herein and in the security documents are cumulative and not exclusive of any rights",
+    "conf": 99.95549011230469,
+    "bbox": {
+      "Width": 0.7169908285140991,
+      "Height": 0.015125812031328678,
+      "Left": 0.14167778193950653,
+      "Top": 0.6439027190208435
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 380,
+    "span_type": "line",
+    "text": "and remedies provided by the law.",
+    "conf": 99.96528625488281,
+    "bbox": {
+      "Width": 0.2973545789718628,
+      "Height": 0.014870905317366123,
+      "Left": 0.14115121960639954,
+      "Top": 0.6621706485748291
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 381,
+    "span_type": "line",
+    "text": "q) I/We also agree that the Bank shall also be entitled to transfer loan account to any",
+    "conf": 99.97118377685547,
+    "bbox": {
+      "Width": 0.7454873919487,
+      "Height": 0.016186129301786423,
+      "Left": 0.11346079409122467,
+      "Top": 0.6992708444595337
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 382,
+    "span_type": "line",
+    "text": "of the branches of the Bank after giving due notice to me/us.",
+    "conf": 99.9507064819336,
+    "bbox": {
+      "Width": 0.5215989947319031,
+      "Height": 0.015136489644646645,
+      "Left": 0.14125292003154755,
+      "Top": 0.71754390001297
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 383,
+    "span_type": "line",
+    "text": "r) I/We declare and undertake that I/We have not paid/shall not pay any commission",
+    "conf": 99.87901306152344,
+    "bbox": {
+      "Width": 0.7457778453826904,
+      "Height": 0.015379616990685463,
+      "Left": 0.11334774643182755,
+      "Top": 0.7550714015960693
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 384,
+    "span_type": "line",
+    "text": "to any person/s for furnishing guarantees, counter guarantees or indemnities or for",
+    "conf": 99.88251495361328,
+    "bbox": {
+      "Width": 0.7174988985061646,
+      "Height": 0.015502258203923702,
+      "Left": 0.14088106155395508,
+      "Top": 0.7727858424186707
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 385,
+    "span_type": "line",
+    "text": "undertaking any other liability with respect to the aforesaid credit facility.",
+    "conf": 99.96678924560547,
+    "bbox": {
+      "Width": 0.6208860874176025,
+      "Height": 0.015588746406137943,
+      "Left": 0.14177632331848145,
+      "Top": 0.7909724116325378
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 386,
+    "span_type": "line",
+    "text": "s) I/We shall abide by the terms and conditions of the sanction of the loan to me/us as",
+    "conf": 99.92086029052734,
+    "bbox": {
+      "Width": 0.745328962802887,
+      "Height": 0.015250108204782009,
+      "Left": 0.11333401501178741,
+      "Top": 0.8283451199531555
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 387,
+    "span_type": "line",
+    "text": "mentioned in the arrangement letter/sanction letter which forms part of this",
+    "conf": 99.93869018554688,
+    "bbox": {
+      "Width": 0.7159348130226135,
+      "Height": 0.015018121339380741,
+      "Left": 0.14166229963302612,
+      "Top": 0.846588134765625
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 9,
+    "span_id": 388,
+    "span_type": "line",
+    "text": "agreement and also to the rules for such loans which are now in force and also",
+    "conf": 99.9822006225586,
+    "bbox": {
+      "Width": 0.7161858081817627,
+      "Height": 0.015197968110442162,
+      "Left": 0.1413123905658722,
+      "Top": 0.8645194172859192
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 389,
+    "span_type": "line",
+    "text": "those which may be altered, revised, amended, added from time to time by the",
+    "conf": 99.98163604736328,
+    "bbox": {
+      "Width": 0.7169385552406311,
+      "Height": 0.014981848187744617,
+      "Left": 0.14096467196941376,
+      "Top": 0.09371921420097351
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 390,
+    "span_type": "line",
+    "text": "Bank/the Reserve Bank of India/Central Government/State Government.",
+    "conf": 99.69014739990234,
+    "bbox": {
+      "Width": 0.6257025599479675,
+      "Height": 0.012349425815045834,
+      "Left": 0.14187276363372803,
+      "Top": 0.11168640106916428
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 391,
+    "span_type": "line",
+    "text": "The undertakings, authority and agreements herein contained shall be irrevocable",
+    "conf": 99.9483413696289,
+    "bbox": {
+      "Width": 0.7173126935958862,
+      "Height": 0.015156633220613003,
+      "Left": 0.14072543382644653,
+      "Top": 0.15071088075637817
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 392,
+    "span_type": "line",
+    "text": "so long as I/we continue to be liable to the Bank in the said loan account.",
+    "conf": 99.4892349243164,
+    "bbox": {
+      "Width": 0.6304099559783936,
+      "Height": 0.015148952603340149,
+      "Left": 0.14144352078437805,
+      "Top": 0.1684892773628235
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 393,
+    "span_type": "line",
+    "text": "I/We hereby further agree that as precondition of the loan/ advance given to me/us",
+    "conf": 99.77994537353516,
+    "bbox": {
+      "Width": 0.7153400182723999,
+      "Height": 0.015110124833881855,
+      "Left": 0.14213226735591888,
+      "Top": 0.20759759843349457
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 394,
+    "span_type": "line",
+    "text": "by the Bank, that in case of default in repayment of the loan/advances or in the",
+    "conf": 99.94757080078125,
+    "bbox": {
+      "Width": 0.7163703441619873,
+      "Height": 0.014982689172029495,
+      "Left": 0.14148826897144318,
+      "Top": 0.22554227709770203
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 395,
+    "span_type": "line",
+    "text": "repayment of the interest thereon or any of the agreed instalment of the loan on due",
+    "conf": 99.94766998291016,
+    "bbox": {
+      "Width": 0.7168684005737305,
+      "Height": 0.015258041210472584,
+      "Left": 0.1415424793958664,
+      "Top": 0.24363532662391663
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 396,
+    "span_type": "line",
+    "text": "date/s, the Bank and/or the Reserve Bank of India will have an unqualified right to",
+    "conf": 99.96603393554688,
+    "bbox": {
+      "Width": 0.7167882919311523,
+      "Height": 0.015099200420081615,
+      "Left": 0.14129504561424255,
+      "Top": 0.2615988850593567
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 397,
+    "span_type": "line",
+    "text": "disclose or publish my/our name(s), details and photograph(s) as defaulter in such",
+    "conf": 99.80519104003906,
+    "bbox": {
+      "Width": 0.716641366481781,
+      "Height": 0.015261758118867874,
+      "Left": 0.14124776422977448,
+      "Top": 0.27929192781448364
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 398,
+    "span_type": "line",
+    "text": "manner and through such medium as the Bank or Reserve Bank of India in their",
+    "conf": 99.97184753417969,
+    "bbox": {
+      "Width": 0.7161510586738586,
+      "Height": 0.014988009817898273,
+      "Left": 0.14180830121040344,
+      "Top": 0.2975955903530121
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 399,
+    "span_type": "line",
+    "text": "absolute discretion may think fit.",
+    "conf": 99.96045684814453,
+    "bbox": {
+      "Width": 0.2778070569038391,
+      "Height": 0.015237849205732346,
+      "Left": 0.14127835631370544,
+      "Top": 0.3154907822608948
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 400,
+    "span_type": "line",
+    "text": "I/We further agree that the Bank is at liberty to disclose/share my/our Credit",
+    "conf": 99.9690170288086,
+    "bbox": {
+      "Width": 0.7159261703491211,
+      "Height": 0.015383044257760048,
+      "Left": 0.14208751916885376,
+      "Top": 0.3361911475658417
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 401,
+    "span_type": "line",
+    "text": "information to/with Information Company formed under the Credit Information",
+    "conf": 99.92931365966797,
+    "bbox": {
+      "Width": 0.7162479162216187,
+      "Height": 0.0152598200365901,
+      "Left": 0.14173203706741333,
+      "Top": 0.3541103005409241
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 402,
+    "span_type": "line",
+    "text": "Company (Regulation), 2005, as to the loans granted to me/us and the nature of the",
+    "conf": 99.91873931884766,
+    "bbox": {
+      "Width": 0.7168164849281311,
+      "Height": 0.015271307900547981,
+      "Left": 0.1413411647081375,
+      "Top": 0.3724112808704376
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 403,
+    "span_type": "line",
+    "text": "securities given by me/ us, the guarantees furnished to secure the said loans",
+    "conf": 99.89303588867188,
+    "bbox": {
+      "Width": 0.7165549397468567,
+      "Height": 0.01532077044248581,
+      "Left": 0.14120405912399292,
+      "Top": 0.3903147578239441
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 404,
+    "span_type": "line",
+    "text": "whether fund based or non-fund based, my/our creditworthiness and any other",
+    "conf": 99.93202209472656,
+    "bbox": {
+      "Width": 0.7184295058250427,
+      "Height": 0.015137084759771824,
+      "Left": 0.1407204419374466,
+      "Top": 0.4082041382789612
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 405,
+    "span_type": "line",
+    "text": "manner which the RBI may consider necessary for inclusion in the Credit",
+    "conf": 99.98271179199219,
+    "bbox": {
+      "Width": 0.7166833281517029,
+      "Height": 0.015202376991510391,
+      "Left": 0.14163702726364136,
+      "Top": 0.42635923624038696
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 406,
+    "span_type": "line",
+    "text": "Information to be collected and maintained by Credit Information Companies and",
+    "conf": 99.9422378540039,
+    "bbox": {
+      "Width": 0.7157474160194397,
+      "Height": 0.015108640305697918,
+      "Left": 0.14234256744384766,
+      "Top": 0.4440864324569702
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 407,
+    "span_type": "line",
+    "text": "the Bank is not liable in any manner to me/us for providing the information as",
+    "conf": 99.96853637695312,
+    "bbox": {
+      "Width": 0.7177267670631409,
+      "Height": 0.01535609271377325,
+      "Left": 0.14095072448253632,
+      "Top": 0.462422251701355
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 408,
+    "span_type": "line",
+    "text": "aforesaid to the Information Company.",
+    "conf": 99.91864776611328,
+    "bbox": {
+      "Width": 0.33798739314079285,
+      "Height": 0.015200674533843994,
+      "Left": 0.14122940599918365,
+      "Top": 0.4802381992340088
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 409,
+    "span_type": "line",
+    "text": "In the event of my/we failing to repay any or more installment(s) at any point of time,",
+    "conf": 99.91944885253906,
+    "bbox": {
+      "Width": 0.7148808836936951,
+      "Height": 0.015426124446094036,
+      "Left": 0.14223654568195343,
+      "Top": 0.5189799070358276
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 410,
+    "span_type": "line",
+    "text": "the Bank may send written reminder or make tele-call/SMS or depute an official to",
+    "conf": 99.93467712402344,
+    "bbox": {
+      "Width": 0.7176052927970886,
+      "Height": 0.015038233250379562,
+      "Left": 0.14091724157333374,
+      "Top": 0.5372568368911743
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 411,
+    "span_type": "line",
+    "text": "meet me/us personally, all the incidental charges appurtenanat thereto such as",
+    "conf": 99.05644989013672,
+    "bbox": {
+      "Width": 0.7162066698074341,
+      "Height": 0.015065019950270653,
+      "Left": 0.14184346795082092,
+      "Top": 0.555336058139801
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 412,
+    "span_type": "line",
+    "text": "postage, telephone/SMS charges, transportation charges, on actual, would be",
+    "conf": 99.9449462890625,
+    "bbox": {
+      "Width": 0.7159636616706848,
+      "Height": 0.015412473119795322,
+      "Left": 0.14143210649490356,
+      "Top": 0.5732402205467224
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 413,
+    "span_type": "line",
+    "text": "recovered from me/us.",
+    "conf": 99.8787612915039,
+    "bbox": {
+      "Width": 0.19463126361370087,
+      "Height": 0.012147363275289536,
+      "Left": 0.14159569144248962,
+      "Top": 0.5913674235343933
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 414,
+    "span_type": "line",
+    "text": "I/We agree that the Bank has absolute right to assign this agreement in favour of",
+    "conf": 99.9723892211914,
+    "bbox": {
+      "Width": 0.7164353728294373,
+      "Height": 0.015108032152056694,
+      "Left": 0.14215806126594543,
+      "Top": 0.6270629167556763
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 415,
+    "span_type": "line",
+    "text": "any person including securitisation company or reconstruction company under the",
+    "conf": 99.9424057006836,
+    "bbox": {
+      "Width": 0.7167890667915344,
+      "Height": 0.01530879084020853,
+      "Left": 0.1414289027452469,
+      "Top": 0.6447526812553406
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 416,
+    "span_type": "line",
+    "text": "SARFAESI Act and on such assignment, I/We will be liable to such assignee as if",
+    "conf": 99.94608306884766,
+    "bbox": {
+      "Width": 0.7168925404548645,
+      "Height": 0.015196659602224827,
+      "Left": 0.14181847870349884,
+      "Top": 0.6626562476158142
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 417,
+    "span_type": "line",
+    "text": "assignee is the Bank/lender and assignee will have all rights against me/us and as",
+    "conf": 99.8448486328125,
+    "bbox": {
+      "Width": 0.7164055109024048,
+      "Height": 0.015425948426127434,
+      "Left": 0.14133793115615845,
+      "Top": 0.6808414459228516
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 418,
+    "span_type": "line",
+    "text": "well as overall properties either given as security or otherwise to recover all",
+    "conf": 99.97884368896484,
+    "bbox": {
+      "Width": 0.7167301177978516,
+      "Height": 0.015056734904646873,
+      "Left": 0.1409691721200943,
+      "Top": 0.6988001465797424
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 419,
+    "span_type": "line",
+    "text": "debts/liabilities payable by me/us under this agreement.",
+    "conf": 99.88842010498047,
+    "bbox": {
+      "Width": 0.4811283349990845,
+      "Height": 0.015323257073760033,
+      "Left": 0.1412833333015442,
+      "Top": 0.7169138789176941
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 420,
+    "span_type": "line",
+    "text": "Notwithstanding anything contained hereinabove, I/We confirm having agreed",
+    "conf": 99.84980010986328,
+    "bbox": {
+      "Width": 0.7167782187461853,
+      "Height": 0.01535584032535553,
+      "Left": 0.1413601189851761,
+      "Top": 0.7349870800971985
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 421,
+    "span_type": "line",
+    "text": "that the Bank reserves the absolute right to cancel the limits (either fully or",
+    "conf": 99.97396850585938,
+    "bbox": {
+      "Width": 0.7179930210113525,
+      "Height": 0.015429484657943249,
+      "Left": 0.14081360399723053,
+      "Top": 0.7529863715171814
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 422,
+    "span_type": "line",
+    "text": "partially) unconditionally without prior notice (a) in case the limits/part of the",
+    "conf": 99.86122131347656,
+    "bbox": {
+      "Width": 0.7165396809577942,
+      "Height": 0.015410803258419037,
+      "Left": 0.14159636199474335,
+      "Top": 0.7710174322128296
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 423,
+    "span_type": "line",
+    "text": "limits are not utilized by us, and/or (b) in case of deterioration in the loan",
+    "conf": 99.94456481933594,
+    "bbox": {
+      "Width": 0.7159311175346375,
+      "Height": 0.015610295347869396,
+      "Left": 0.14172545075416565,
+      "Top": 0.7890369892120361
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 424,
+    "span_type": "line",
+    "text": "accounts in any manner whatsoever, and/or (c) in case of non-compliance of",
+    "conf": 98.07167053222656,
+    "bbox": {
+      "Width": 0.7180220484733582,
+      "Height": 0.015382249839603901,
+      "Left": 0.1413062959909439,
+      "Top": 0.8070319890975952
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 425,
+    "span_type": "line",
+    "text": "terms and conditions of sanction.",
+    "conf": 99.91458129882812,
+    "bbox": {
+      "Width": 0.3132202923297882,
+      "Height": 0.01222350262105465,
+      "Left": 0.14075236022472382,
+      "Top": 0.8251695036888123
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 426,
+    "span_type": "line",
+    "text": "I/We declare that I have understood all the terms and conditions for the sanction of",
+    "conf": 99.20744323730469,
+    "bbox": {
+      "Width": 0.7165568470954895,
+      "Height": 0.012506578117609024,
+      "Left": 0.14207729697227478,
+      "Top": 0.846241295337677
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 427,
+    "span_type": "line",
+    "text": "this loan and agree to abide by the same and also by the rules and regulations which",
+    "conf": 99.97453308105469,
+    "bbox": {
+      "Width": 0.716956377029419,
+      "Height": 0.01513948105275631,
+      "Left": 0.14090920984745026,
+      "Top": 0.8641162514686584
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 10,
+    "span_id": 428,
+    "span_type": "line",
+    "text": "may be issued by the Bank in future from time to time and in the event of my/our",
+    "conf": 99.97766876220703,
+    "bbox": {
+      "Width": 0.7169209718704224,
+      "Height": 0.015450664795935154,
+      "Left": 0.1417054682970047,
+      "Top": 0.8822274208068848
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 429,
+    "span_type": "line",
+    "text": "failing to do so, the Bank will have a right to recall the advance without prejudice to",
+    "conf": 99.63967895507812,
+    "bbox": {
+      "Width": 0.7171329259872437,
+      "Height": 0.01515435241162777,
+      "Left": 0.14092783629894257,
+      "Top": 0.0936761274933815
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 430,
+    "span_type": "line",
+    "text": "the Bank's right to take such appropriate action as the Bank may deem it fit and",
+    "conf": 99.9870834350586,
+    "bbox": {
+      "Width": 0.7169488072395325,
+      "Height": 0.015337681397795677,
+      "Left": 0.14104428887367249,
+      "Top": 0.11170250177383423
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 431,
+    "span_type": "line",
+    "text": "proper.",
+    "conf": 100.0,
+    "bbox": {
+      "Width": 0.06117295101284981,
+      "Height": 0.012030880898237228,
+      "Left": 0.14153046905994415,
+      "Top": 0.13270695507526398
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 432,
+    "span_type": "line",
+    "text": "Signed and delivered by:",
+    "conf": 100.0,
+    "bbox": {
+      "Width": 0.21376830339431763,
+      "Height": 0.01524289045482874,
+      "Left": 0.14110800623893738,
+      "Top": 0.1669955551624298
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 433,
+    "span_type": "line",
+    "text": "Shri/Smt./Kum",
+    "conf": 99.19862365722656,
+    "bbox": {
+      "Width": 0.1255190074443817,
+      "Height": 0.01231167372316122,
+      "Left": 0.11735858768224716,
+      "Top": 0.20384782552719116
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 434,
+    "span_type": "line",
+    "text": "(Borrower)",
+    "conf": 99.95037078857422,
+    "bbox": {
+      "Width": 0.09025271981954575,
+      "Height": 0.015194674953818321,
+      "Left": 0.7909315228462219,
+      "Top": 0.20385539531707764
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 435,
+    "span_type": "line",
+    "text": "(Signature)",
+    "conf": 99.84056091308594,
+    "bbox": {
+      "Width": 0.09531224519014359,
+      "Height": 0.0151725048199296,
+      "Left": 0.11843377351760864,
+      "Top": 0.22213372588157654
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 436,
+    "span_type": "line",
+    "text": "Shri/Smt.Kum",
+    "conf": 96.4014663696289,
+    "bbox": {
+      "Width": 0.11919698119163513,
+      "Height": 0.012129249051213264,
+      "Left": 0.11802893877029419,
+      "Top": 0.277520090341568
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 437,
+    "span_type": "line",
+    "text": "(Borrower)",
+    "conf": 99.990234375,
+    "bbox": {
+      "Width": 0.09239678084850311,
+      "Height": 0.01520569808781147,
+      "Left": 0.43394121527671814,
+      "Top": 0.27758681774139404
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 438,
+    "span_type": "line",
+    "text": "(Signature)",
+    "conf": 99.69168090820312,
+    "bbox": {
+      "Width": 0.09608418494462967,
+      "Height": 0.015334044583141804,
+      "Left": 0.7858510613441467,
+      "Top": 0.2775188684463501
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 439,
+    "span_type": "line",
+    "text": "Signed for and on behalf of",
+    "conf": 99.9802017211914,
+    "bbox": {
+      "Width": 0.2406189739704132,
+      "Height": 0.01510168332606554,
+      "Left": 0.11758532375097275,
+      "Top": 0.2958608567714691
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 440,
+    "span_type": "line",
+    "text": "State Bank of India by",
+    "conf": 99.98030853271484,
+    "bbox": {
+      "Width": 0.1911960393190384,
+      "Height": 0.014933329075574875,
+      "Left": 0.11756150424480438,
+      "Top": 0.31422990560531616
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 441,
+    "span_type": "line",
+    "text": "Shri / Smt",
+    "conf": 98.51781463623047,
+    "bbox": {
+      "Width": 0.08583497256040573,
+      "Height": 0.012151905335485935,
+      "Left": 0.11776690930128098,
+      "Top": 0.33274927735328674
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 442,
+    "span_type": "line",
+    "text": "(Dy. General Manager/Asst. General Manager/",
+    "conf": 99.88951110839844,
+    "bbox": {
+      "Width": 0.40627023577690125,
+      "Height": 0.015576084144413471,
+      "Left": 0.11759142577648163,
+      "Top": 0.35103413462638855
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 443,
+    "span_type": "line",
+    "text": "Chief Manager/ Branch Manager",
+    "conf": 99.72352600097656,
+    "bbox": {
+      "Width": 0.28421375155448914,
+      "Height": 0.015257892198860645,
+      "Left": 0.11748389899730682,
+      "Top": 0.36934712529182434
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 444,
+    "span_type": "line",
+    "text": "Branch,",
+    "conf": 99.95037078857422,
+    "bbox": {
+      "Width": 0.06566262990236282,
+      "Height": 0.013907249085605145,
+      "Left": 0.30500736832618713,
+      "Top": 0.38783085346221924
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 445,
+    "span_type": "line",
+    "text": "an authorized officer of State Bank of India",
+    "conf": 99.97518920898438,
+    "bbox": {
+      "Width": 0.3698958456516266,
+      "Height": 0.012244406156241894,
+      "Left": 0.11727073043584824,
+      "Top": 0.40651875734329224
+    }
+  },
+  {
+    "doc_id": "79dfe29f-936f-43ab-a767-5e258ee487ec",
+    "page": 11,
+    "span_id": 446,
+    "span_type": "line",
+    "text": "(Signature)",
+    "conf": 99.81126403808594,
+    "bbox": {
+      "Width": 0.0951569452881813,
+      "Height": 0.015036532655358315,
+      "Left": 0.5862457752227783,
+      "Top": 0.4064907431602478
+    }
+  }
+]
