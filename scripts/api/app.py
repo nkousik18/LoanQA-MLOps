@@ -112,5 +112,5 @@ def create_app():
 # App Runner
 if __name__ == "__main__":
     app = create_app()
-    logger.info("LoanDoc Flask API starting on port 8000...")
-    app.run(host="0.0.0.0", port=8000, debug=True)
+    logger.info("LoanDoc Flask API starting on port 8080...")
+    app.run(host="0.0.0.0", port=8081, debug=True)

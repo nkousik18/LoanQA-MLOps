@@ -45,9 +45,9 @@ def reset_chroma_index():
     try:
         if os.path.exists(INDEX_PATH):
             shutil.rmtree(INDEX_PATH)
-            logger.warning(f"⚠️ Removed corrupted Chroma index at {INDEX_PATH}")
+            logger.warning(f"️ Removed corrupted Chroma index at {INDEX_PATH}")
     except Exception as e:
-        logger.error(f"❌ Failed to remove corrupted index: {e}")
+        logger.error(f" Failed to remove corrupted index: {e}")
 
 
 # ============================================================
@@ -56,10 +56,10 @@ def reset_chroma_index():
 def add_to_index(new_file_path):
     """Adds an extracted text file to the Chroma vector index."""
     if not os.path.exists(new_file_path):
-        logger.error(f"❌ Extracted file not found: {new_file_path}")
+        logger.error(f" Extracted file not found: {new_file_path}")
         return 0
 
-    logger.info(f"🧠 Adding {new_file_path} to existing index...")
+    logger.info(f" Adding {new_file_path} to existing index...")
 
     loader = TextLoader(new_file_path, encoding="utf-8")
     new_docs = loader.load()
@@ -71,11 +71,11 @@ def add_to_index(new_file_path):
         db.add_documents(new_docs)
         db.persist()
         elapsed = time.time() - start
-        logger.info(f"✅ Added {len(new_docs)} docs to index | Time: {elapsed:.2f}s")
+        logger.info(f" Added {len(new_docs)} docs to index | Time: {elapsed:.2f}s")
         return len(new_docs)
 
     except Exception as e:
-        logger.exception(f"❌ Indexing failed: {e}")
+        logger.exception(f" Indexing failed: {e}")
         reset_chroma_index()
         return 0
 
@@ -86,15 +86,15 @@ def add_to_index(new_file_path):
 def rebuild_vector_index():
     """Rebuilds the Chroma vector index from all extracted clean text files."""
     start = time.time()
-    logger.info("🔄 Rebuilding full vector index...")
+    logger.info(" Rebuilding full vector index...")
 
     if not os.path.exists(DATA_PATH):
-        logger.error(f"❌ Directory not found: {DATA_PATH}")
+        logger.error(f" Directory not found: {DATA_PATH}")
         raise FileNotFoundError(f"Directory not found: {DATA_PATH}")
 
     text_files = [os.path.join(DATA_PATH, f) for f in os.listdir(DATA_PATH) if f.endswith(".txt")]
     if not text_files:
-        logger.warning("⚠️ No .txt files found in clean_texts.")
+        logger.warning("️ No .txt files found in clean_texts.")
         return 0
 
     docs = []
@@ -103,7 +103,7 @@ def rebuild_vector_index():
             loader = TextLoader(f, encoding="utf-8")
             docs.extend(loader.load())
         except Exception as e:
-            logger.warning(f"⚠️ Failed to load {f}: {e}")
+            logger.warning(f" Failed to load {f}: {e}")
 
     embeddings = HuggingFaceEmbeddings(model_name=EMBED_MODEL)
     db = Chroma.from_documents(docs, embeddings, persist_directory=INDEX_PATH)
@@ -111,7 +111,7 @@ def rebuild_vector_index():
 
     total = len(docs)
     duration = round(time.time() - start, 2)
-    logger.info(f"✅ Rebuilt Chroma index with {total} documents in {duration}s.")
+    logger.info(f" Rebuilt Chroma index with {total} documents in {duration}s.")
     return total
 
 
