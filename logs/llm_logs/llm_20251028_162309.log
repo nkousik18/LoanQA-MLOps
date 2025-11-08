@@ -1,7 +1,0 @@
-2025-10-28 16:23:09 | scripts.LLMquery.build_index | INFO | 🧩 Logger initialized for LLM → /Users/kousiknandury/PycharmProjects/DL_project/logs/llm_logs/llm_20251028_162309.log
-2025-10-28 16:23:18 | scripts.LLMquery.build_index | ERROR | ❌ Extracted file not found: tests/sample_mock.txt
-2025-10-28 16:23:18 | scripts.LLMquery.build_index | INFO | 🔄 Rebuilding vector index from extracted documents...
-2025-10-28 16:23:18 | scripts.LLMquery.build_index | DEBUG | ✅ Loaded: data/clean_texts/1. Introduction_20251028_155541.txt
-2025-10-28 16:23:18 | scripts.LLMquery.build_index | INFO | 🧾 Total documents loaded: 1
-2025-10-28 16:23:20 | scripts.LLMquery.build_index | INFO | 📏 Embedding Dimension: 384 | Total Docs: 1
-2025-10-28 16:23:20 | scripts.LLMquery.build_index | INFO | ✅ Rebuilt index with 1 documents in 0.98s.

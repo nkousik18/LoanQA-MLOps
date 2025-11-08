@@ -1,69 +1,102 @@
-# extraction_pipeline/ocr_utils.py
+"""
+ocr_utils.py
+
+Utility module for OCR extraction using PaddleOCR.
+
+Implements lazy loading to prevent Airflow DAG parse crashes
+caused by PaddleOCR initialization during DAG import.
+
+Functions:
+    get_ocr_engine()          -> Lazily initializes PaddleOCR once per worker
+    run_ocr_on_image(path)    -> Runs OCR on image files (JPG, PNG)
+    run_ocr_on_pdf_page(page) -> Runs OCR on PDF page using PyMuPDF
+"""
 
 import os
-import fitz
-import tempfile
-import time
-from paddleocr import PaddleOCR
+import fitz  # PyMuPDF
+import logging
+from functools import lru_cache
 from PIL import Image
-from scripts.extraction_pipeline.config import setup_logger
+import io
 
-# Initialize centralized logger
-logger = setup_logger(__name__, log_type="preprocessing")
 
-# Initialize OCR engine once
-ocr_engine = PaddleOCR(use_angle_cls=True, lang="en")
-
-def run_ocr_on_image(image_path):
+# Lazy Load PaddleOCR
+@lru_cache(maxsize=1)
+def get_ocr_engine():
     """
-    Run OCR on a standalone image file.
-    Logs backend details, confidence scores, and runtime.
+    Lazily initializes the PaddleOCR model when first needed.
+    Prevents Airflow DAG import failures and reduces cold-start latency.
     """
-    start_time = time.time()
-    logger.info(f"🖼️ Running OCR on image: {os.path.basename(image_path)} using PaddleOCR")
+    from paddleocr import PaddleOCR
+    logging.info("Initializing PaddleOCR engine lazily...")
+    return PaddleOCR(use_angle_cls=True, lang="en")
 
+
+# OCR for Image Files
+def run_ocr_on_image(image_path: str):
+    """
+    Performs OCR on a given image file.
+
+    Args:
+        image_path (str): Path to image (PNG, JPG, etc.)
+    Returns:
+        text (str): Extracted text
+    """
     try:
-        result = ocr_engine.ocr(image_path)
-        lines, confidences = [], []
-        if result and result[0]:
-            for line in result[0]:
-                text, conf = line[1][0], line[1][1]
-                lines.append(text)
-                confidences.append(conf)
-
-        avg_conf = sum(confidences) / len(confidences) if confidences else 0.0
-        elapsed = time.time() - start_time
-        logger.info(f"✅ OCR complete for {os.path.basename(image_path)} | "
-                    f"Lines: {len(lines)} | Avg confidence: {avg_conf:.2f} | Time: {elapsed:.2f}s")
-        return "\n".join(lines)
-
+        ocr = get_ocr_engine()
+        logging.info(f"Running OCR on image: {image_path}")
+        result = ocr.ocr(image_path)
+        text = "\n".join(
+            [line[1][0] for block in result for line in block if len(line) > 1]
+        )
+        return text.strip()
     except Exception as e:
-        logger.error(f"❌ OCR failed for image {image_path}: {e}", exc_info=True)
+        logging.error(f"OCR on image failed: {e}")
         return ""
 
 
-def run_ocr_on_pdf_page(pdf_path, page_num):
+# OCR for PDF Pages
+def run_ocr_on_pdf_page(pdf_path: str, page_number: int):
     """
-    Run OCR on a single page of a PDF.
-    Converts page to image and runs OCR while tracking timing and results.
-    """
-    start_time = time.time()
-    base_name = os.path.basename(pdf_path)
+    Extracts text from a given PDF page using PyMuPDF (fitz)
+    and PaddleOCR for embedded images.
 
+    Args:
+        pdf_path (str): Path to PDF file
+        page_number (int): Page index (0-based)
+    Returns:
+        text (str): OCR-extracted text
+    """
     try:
         doc = fitz.open(pdf_path)
-        page = doc.load_page(page_num)
-        pix = page.get_pixmap()
-        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_img:
-            pix.save(tmp_img.name)
-            text = run_ocr_on_image(tmp_img.name)
-        os.remove(tmp_img.name)
+        page = doc.load_page(page_number)
+        pix = page.get_pixmap(dpi=200)
+        img_bytes = pix.tobytes("png")
+        image = Image.open(io.BytesIO(img_bytes))
 
-        elapsed = time.time() - start_time
-        logger.info(f"📄 OCR on {base_name} page {page_num + 1} completed in {elapsed:.2f}s | "
-                    f"Chars extracted: {len(text)}")
-        return text
+        temp_img_path = f"/tmp/page_{page_number}.png"
+        image.save(temp_img_path)
 
+        ocr = get_ocr_engine()
+        logging.info(f"Running OCR on PDF page {page_number} of {pdf_path}")
+        result = ocr.ocr(temp_img_path)
+        text = "\n".join(
+            [line[1][0] for block in result for line in block if len(line) > 1]
+        )
+
+        os.remove(temp_img_path)
+        return text.strip()
     except Exception as e:
-        logger.error(f"❌ OCR failed for {base_name} page {page_num + 1}: {e}", exc_info=True)
+        logging.error(f"OCR on PDF page {page_number} failed: {e}")
         return ""
+
+
+# Debug Mode (Optional)
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    sample = "/opt/airflow/data/sample_invoice.png"
+    if os.path.exists(sample):
+        text = run_ocr_on_image(sample)
+        print("\nExtracted Text Preview:\n", text[:500])
+    else:
+        print("Sample image not found - skipping test run.")

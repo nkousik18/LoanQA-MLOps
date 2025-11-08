@@ -4,8 +4,11 @@ Hybrid semantic–keyword–pattern–memory router for LoanDocQA+
 """
 
 import re
-import torch
+import os
+import json
 import time
+import torch
+import requests
 from sentence_transformers import SentenceTransformer, util
 from langchain_core.documents import Document
 
@@ -15,6 +18,86 @@ from scripts.LLMquery.prompts.summary_prompt import summary_prompt
 from scripts.LLMquery.prompts.translation_prompt import translation_prompt
 from scripts.LLMquery.prompts.retrieval_prompt import retrieval_prompt
 from scripts.LLMquery.prompts.explanation_prompt import explanation_prompt
+
+# ============================================================
+# Environment & Ollama Connection
+# ============================================================
+OLLAMA_API_BASE_URL = os.getenv("OLLAMA_API_BASE_URL", "http://localhost:11434")
+
+def check_ollama_connection():
+    """Verify Ollama server is reachable before prompting."""
+    try:
+        r = requests.get(f"{OLLAMA_API_BASE_URL}/api/tags", timeout=5)
+        if r.status_code == 200:
+            print(f"✅ Connected to Ollama at {OLLAMA_API_BASE_URL}")
+            return True
+        print(f"⚠️ Ollama reachable but returned {r.status_code}")
+        return False
+    except Exception as e:
+        print(f"❌ Could not reach Ollama at {OLLAMA_API_BASE_URL} → {e}")
+        return False
+
+
+def query_ollama(prompt: str, model: str = "phi3", max_retries: int = 3):
+    """
+    Send prompt to Ollama with streaming, retries, and adaptive timeout.
+    Returns the full model response text or None on failure.
+    """
+
+    import requests, json, time
+
+    payload = {"model": model, "prompt": prompt, "stream": True}
+    base_url = f"{OLLAMA_API_BASE_URL}/api/generate"
+
+    # Adaptive timeout: longer for long prompts
+    timeout = min(300, max(60, len(prompt) // 20))
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            logger.info(f"🚀 Sending prompt to Ollama (attempt {attempt}/{max_retries})")
+            logger.debug(f"[Ollama Request] URL={base_url} | Model={model} | Timeout={timeout}s")
+
+            with requests.post(base_url, data=json.dumps(payload), stream=True, timeout=timeout) as response:
+                response.raise_for_status()
+                full_output = ""
+
+                # Stream and accumulate chunks
+                for line in response.iter_lines():
+                    if not line:
+                        continue
+                    try:
+                        data = json.loads(line)
+                        chunk = data.get("response", "")
+                        full_output += chunk
+                    except json.JSONDecodeError:
+                        continue
+
+                if not full_output.strip():
+                    logger.warning(f"⚠️ Empty response from Ollama model {model}")
+                    continue
+
+                logger.info(f"✅ Ollama model '{model}' responded successfully ({len(full_output)} chars).")
+                return full_output.strip()
+
+        except requests.exceptions.Timeout:
+            logger.warning(f"⏱️ Ollama request timed out (attempt {attempt}/{max_retries})")
+
+        except requests.exceptions.ConnectionError:
+            logger.error(f"🔌 Could not connect to Ollama at {OLLAMA_API_BASE_URL}")
+
+        except Exception as e:
+            logger.error(f"❌ Unexpected Ollama error on attempt {attempt}: {e}")
+
+        # Exponential backoff before retrying
+        if attempt < max_retries:
+            wait = 5 * attempt
+            logger.info(f"🔁 Retrying Ollama call in {wait} seconds...")
+            time.sleep(wait)
+
+    logger.error(f"❌ Ollama failed after {max_retries} attempts.")
+    return None
+
+
 
 # ============================================================
 # Initialize Centralized Logger
@@ -27,8 +110,12 @@ logger = setup_logger(__name__, log_type="llm")
 router_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 logger.info("🧠 Prompt Router initialized with model: sentence-transformers/all-MiniLM-L6-v2")
 
+# ✅ Verify Ollama availability once on load
+check_ollama_connection()
+
 # ------------------------------------------------------------
 # Intent prototype definitions
+# ------------------------------------------------------------
 INTENT_EXAMPLES = {
     "finance": [
         "calculate interest", "loan repayment", "emi amount", "simple interest",
@@ -57,6 +144,7 @@ INTENT_EXAMPLES = {
 
 # ------------------------------------------------------------
 # Precompute mean embedding per intent
+# ------------------------------------------------------------
 logger.debug("Computing prototype intent embeddings for router...")
 INTENT_MAP = {
     k: torch.mean(router_model.encode(v, convert_to_tensor=True), dim=0)
@@ -66,6 +154,7 @@ logger.info(f"✅ Loaded {len(INTENT_MAP)} intent categories: {list(INTENT_MAP.k
 
 # ------------------------------------------------------------
 # Keyword lists for lightweight lexical scoring
+# ------------------------------------------------------------
 KEYWORDS = {k: [p.split()[0] for p in v] for k, v in INTENT_EXAMPLES.items()}
 
 
@@ -82,7 +171,7 @@ def keyword_score(question: str, intent: str) -> float:
 
 
 def numeric_pattern_score(question: str) -> float:
-    """Detects numeric, % or currency cues for financial biasing."""
+    """Detect numeric, % or currency cues for financial biasing."""
     has_number = bool(re.search(r"\d+", question))
     has_percent = bool(re.search(r"%|percent", question.lower()))
     has_currency = bool(re.search(r"\$|€|eur|rs|₹", question.lower()))
@@ -94,11 +183,7 @@ def numeric_pattern_score(question: str) -> float:
 
 
 def detect_intent(question: str, last_intent: str = None):
-    """
-    Multi-feature hybrid intent detector combining semantic, keyword,
-    and numeric cues.
-    Returns: (intent, confidence, gap)
-    """
+    """Hybrid intent detector combining semantic, keyword, and numeric cues."""
     start = time.time()
     q_vec = router_model.encode(question, convert_to_tensor=True)
     sem_scores = {k: float(util.cos_sim(q_vec, v)) for k, v in INTENT_MAP.items()}
@@ -127,10 +212,7 @@ def detect_intent(question: str, last_intent: str = None):
 
 
 def safe_extract_context(docs):
-    """
-    Build multi-document context safely.
-    Handles both LangChain Document and plain string inputs.
-    """
+    """Safely build multi-document context."""
     if not docs:
         logger.debug("No documents provided for context.")
         return ""

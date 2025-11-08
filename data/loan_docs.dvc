@@ -1,0 +1,6 @@
+outs:
+- md5: df3a84bb049fa2481c0cd53e81e5bbde.dir
+  size: 4712383
+  nfiles: 3
+  hash: md5
+  path: loan_docs

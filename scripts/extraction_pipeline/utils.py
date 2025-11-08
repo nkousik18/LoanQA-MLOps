@@ -1,4 +1,3 @@
-
 import os
 import time
 from datetime import datetime
@@ -22,10 +21,10 @@ def save_text(output_text, output_dir, source_file):
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(output_text)
         elapsed = time.time() - start_time
-        logger.info(f"💾 Saved extracted text → {out_path} | Size: {len(output_text)} chars | Time: {elapsed:.2f}s")
+        logger.info(f"Saved extracted text -> {out_path} | Size: {len(output_text)} chars | Time: {elapsed:.2f}s")
         return out_path
     except Exception as e:
-        logger.error(f"❌ Failed to save text file for {source_file}: {e}", exc_info=True)
+        logger.error(f"Failed to save text file for {source_file}: {e}", exc_info=True)
         return None
 
 
@@ -40,5 +39,5 @@ def list_files(directory):
         for f in os.listdir(directory)
         if f.lower().endswith(supported_exts)
     ]
-    logger.info(f"📂 Found {len(files)} supported files in {directory}")
+    logger.info(f"Found {len(files)} supported files in {directory}")
     return files

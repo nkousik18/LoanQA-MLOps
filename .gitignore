@@ -1,0 +1,20 @@
+/logs
+
+# Virtual Environment
+.venv/
+venv/
+
+# GCP Credentials
+gcp-credentials.json
+*.json
+
+# OS Files
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE
+.idea/

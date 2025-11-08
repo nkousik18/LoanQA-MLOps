@@ -1,27 +1,52 @@
-version: '3.8'
+# Custom Airflow Environment (M1/M2 ARM64 Compatible)
 
 x-airflow-common:
   &airflow-common
-  image: apache/airflow:2.9.1
-  platform: linux/arm64  # ✅ For Mac M1/M2
+  build:
+    context: .
+    dockerfile: Dockerfile.airflow
+  image: dl_project-airflow:latest
+  platform: linux/arm64
   environment:
     &airflow-common-env
+
+    # Airflow Core Configuration
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
     AIRFLOW__CORE__FERNET_KEY: dPz8OKcqqYUc9G9kzW4dHavmmFPvx3bDck8b9oPZtMI=
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__API__AUTH_BACKEND: 'airflow.api.auth.backend.basic_auth'
     AIRFLOW__LOGGING__LOGGING_LEVEL: 'INFO'
-    PYTHONPATH: /opt/airflow/scripts:/opt/airflow/scripts/extraction_pipeline:/opt/airflow/scripts/LLMquery
+    AIRFLOW__WEBSERVER__SECRET_KEY: "91f353ad4df6ec0dbcdf7dd17aa78009"
+    OLLAMA_API_BASE_URL: "http://host.docker.internal:11434"
+
+    # Performance & Thread Control
+    TOKENIZERS_PARALLELISM: "false"
+    OMP_NUM_THREADS: "1"
+    MKL_NUM_THREADS: "1"
+
+    # Disable Telemetry
+    ANONYMIZED_TELEMETRY: "false"
+    CHROMA_TELEMETRY_ENABLED: "false"
+    CHROMA_DISABLE_TELEMETRY: "1"
+    POSTHOG_DISABLED: "true"
+    CHROMA_DB_IMPL: "duckdb+parquet"
+
+    # Python Module Discovery
+    PYTHONPATH: /opt/airflow:/opt/airflow/scripts:/opt/airflow/scripts/extraction_pipeline:/opt/airflow/scripts/LLMquery
+
+    # Database & Celery Backend
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
     AIRFLOW__CELERY__BROKER_URL: redis://redis:6379/0
     AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
+
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - ./scripts:/opt/airflow/scripts
     - ./data:/opt/airflow/data
+    - ~/.paddlex:/home/airflow/.paddlex
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     postgres:
@@ -29,7 +54,12 @@ x-airflow-common:
     redis:
       condition: service_started
 
+
+# Services
+
 services:
+
+  # PostgreSQL Database
   postgres:
     image: postgres:13
     platform: linux/arm64
@@ -47,31 +77,27 @@ services:
     ports:
       - "5432:5432"
 
+  # Redis (Celery Broker)
   redis:
     image: redis:latest
     platform: linux/arm64
     ports:
       - "6379:6379"
 
+  # Airflow Initialization
   airflow-init:
     <<: *airflow-common
     user: "0:0"
     entrypoint: >
-      bash -c "
-        echo 'Waiting for Postgres...';
-        while ! pg_isready -h postgres -U airflow; do sleep 2; done;
-        echo 'Initializing Airflow DB...';
-        airflow db migrate;
-        airflow users create \
-          --username admin \
-          --password admin \
-          --firstname Kousik \
-          --lastname Nandury \
-          --role Admin \
-          --email kousik@example.com || true;
-        echo '✅ Initialization complete.';
-      "
+      bash -c "echo 'Waiting for Postgres...'; \
+      while ! pg_isready -h postgres -U airflow; do sleep 2; done; \
+      echo 'Initializing Airflow DB...'; \
+      airflow db migrate; \
+      echo 'Creating Admin user...'; \
+      airflow users create --username admin --password admin --firstname Kousik --lastname Nandury --role Admin --email kousik@example.com || true; \
+      echo 'Initialization complete.'"
 
+  # Airflow Webserver
   airflow-webserver:
     <<: *airflow-common
     command: webserver
@@ -84,15 +110,18 @@ services:
       retries: 5
       start_period: 20s
 
+  # Airflow Scheduler
   airflow-scheduler:
     <<: *airflow-common
     command: scheduler
     restart: always
 
+  # Airflow Worker (Celery)
   airflow-worker:
     <<: *airflow-common
     command: celery worker
     restart: always
 
+# Named Volumes
 volumes:
   postgres-db-volume:

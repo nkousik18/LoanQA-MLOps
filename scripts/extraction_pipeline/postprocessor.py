@@ -25,10 +25,10 @@ def postprocess_text(text: str):
         text = text.strip()
 
         elapsed = time.time() - start_time
-        logger.info(f"✅ Postprocessing complete | Input length: {initial_len} | "
+        logger.info(f"Postprocessing complete | Input length: {initial_len} | "
                     f"Output length: {len(text)} | Time: {elapsed:.2f}s")
         return text
 
     except Exception as e:
-        logger.error(f"❌ Postprocessing failed: {e}", exc_info=True)
+        logger.error(f"Postprocessing failed: {e}", exc_info=True)
         return text

@@ -1,7 +1,5 @@
 # extraction_pipeline/main_extractor.py
 from logging import Logger
-# extraction_pipeline/main_extractor.py
-from logging import Logger
 import os
 import traceback
 import time
@@ -32,13 +30,13 @@ def process_single_file(file_path: str):
 
         out_path = save_text(extracted_text, output_dir, file_path)
         elapsed = time.time() - start_time
-        logger.info(f"✅ Extracted text saved: {out_path} | Time taken: {elapsed:.2f}s")
+        logger.info(f"Extracted text saved: {out_path} | Time taken: {elapsed:.2f}s")
         return out_path
 
     except Exception as e:
-        logger.error(f"❌ Error processing {os.path.basename(file_path)}: {e}", exc_info=True)
+        logger.error(f"Error processing {os.path.basename(file_path)}: {e}", exc_info=True)
 
-        # 🩹 Optional fallback using pytesseract for image-based PDFs
+        # Optional fallback using pytesseract for image-based PDFs
         try:
             from PIL import Image
             import pytesseract
@@ -46,10 +44,10 @@ def process_single_file(file_path: str):
                 logger.warning(f"Attempting fallback OCR via pytesseract for {file_path}")
                 text = pytesseract.image_to_string(Image.open(file_path))
                 out_path = save_text(text, output_dir, file_path)
-                logger.info(f"🟢 Fallback OCR successful → {out_path}")
+                logger.info(f"Fallback OCR successful -> {out_path}")
                 return out_path
         except Exception as fe:
-            logger.warning(f"⚠️ Fallback OCR failed for {file_path}: {fe}", exc_info=True)
+            logger.warning(f"Fallback OCR failed for {file_path}: {fe}", exc_info=True)
 
         return None
 
@@ -66,7 +64,7 @@ def run_extraction_pipeline(data_dir: str):
     logger.info(f"Detected {len(files)} files for extraction: {files}")
 
     if not files:
-        logger.warning("⚠️ No files found for extraction.")
+        logger.warning("No files found for extraction.")
         return
 
     success, failed = 0, 0
@@ -78,8 +76,8 @@ def run_extraction_pipeline(data_dir: str):
             failed += 1
 
     elapsed = time.time() - pipeline_start
-    logger.info(f"📊 Extraction Summary — Success: {success}, Failed: {failed}, Duration: {elapsed:.2f}s")
-    logger.info("[✅] Extraction pipeline run complete.")
+    logger.info(f"Extraction Summary - Success: {success}, Failed: {failed}, Duration: {elapsed:.2f}s")
+    logger.info("Extraction pipeline run complete.")
 
 
 def main(data_dir: str):
