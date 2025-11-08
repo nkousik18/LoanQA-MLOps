@@ -29,12 +29,12 @@ def check_ollama_connection():
     try:
         r = requests.get(f"{OLLAMA_API_BASE_URL}/api/tags", timeout=5)
         if r.status_code == 200:
-            print(f"✅ Connected to Ollama at {OLLAMA_API_BASE_URL}")
+            print(f" Connected to Ollama at {OLLAMA_API_BASE_URL}")
             return True
-        print(f"⚠️ Ollama reachable but returned {r.status_code}")
+        print(f"️ Ollama reachable but returned {r.status_code}")
         return False
     except Exception as e:
-        print(f"❌ Could not reach Ollama at {OLLAMA_API_BASE_URL} → {e}")
+        print(f" Could not reach Ollama at {OLLAMA_API_BASE_URL} → {e}")
         return False
 
 
@@ -54,7 +54,7 @@ def query_ollama(prompt: str, model: str = "phi3", max_retries: int = 3):
 
     for attempt in range(1, max_retries + 1):
         try:
-            logger.info(f"🚀 Sending prompt to Ollama (attempt {attempt}/{max_retries})")
+            logger.info(f" Sending prompt to Ollama (attempt {attempt}/{max_retries})")
             logger.debug(f"[Ollama Request] URL={base_url} | Model={model} | Timeout={timeout}s")
 
             with requests.post(base_url, data=json.dumps(payload), stream=True, timeout=timeout) as response:
@@ -73,20 +73,20 @@ def query_ollama(prompt: str, model: str = "phi3", max_retries: int = 3):
                         continue
 
                 if not full_output.strip():
-                    logger.warning(f"⚠️ Empty response from Ollama model {model}")
+                    logger.warning(f" Empty response from Ollama model {model}")
                     continue
 
-                logger.info(f"✅ Ollama model '{model}' responded successfully ({len(full_output)} chars).")
+                logger.info(f" Ollama model '{model}' responded successfully ({len(full_output)} chars).")
                 return full_output.strip()
 
         except requests.exceptions.Timeout:
-            logger.warning(f"⏱️ Ollama request timed out (attempt {attempt}/{max_retries})")
+            logger.warning(f" Ollama request timed out (attempt {attempt}/{max_retries})")
 
         except requests.exceptions.ConnectionError:
-            logger.error(f"🔌 Could not connect to Ollama at {OLLAMA_API_BASE_URL}")
+            logger.error(f" Could not connect to Ollama at {OLLAMA_API_BASE_URL}")
 
         except Exception as e:
-            logger.error(f"❌ Unexpected Ollama error on attempt {attempt}: {e}")
+            logger.error(f" Unexpected Ollama error on attempt {attempt}: {e}")
 
         # Exponential backoff before retrying
         if attempt < max_retries:
@@ -94,7 +94,7 @@ def query_ollama(prompt: str, model: str = "phi3", max_retries: int = 3):
             logger.info(f"🔁 Retrying Ollama call in {wait} seconds...")
             time.sleep(wait)
 
-    logger.error(f"❌ Ollama failed after {max_retries} attempts.")
+    logger.error(f" Ollama failed after {max_retries} attempts.")
     return None
 
 
@@ -108,9 +108,9 @@ logger = setup_logger(__name__, log_type="llm")
 # Load Sentence Transformer (cached model)
 # ============================================================
 router_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
-logger.info("🧠 Prompt Router initialized with model: sentence-transformers/all-MiniLM-L6-v2")
+logger.info(" Prompt Router initialized with model: sentence-transformers/all-MiniLM-L6-v2")
 
-# ✅ Verify Ollama availability once on load
+#  Verify Ollama availability once on load
 check_ollama_connection()
 
 # ------------------------------------------------------------
@@ -150,7 +150,7 @@ INTENT_MAP = {
     k: torch.mean(router_model.encode(v, convert_to_tensor=True), dim=0)
     for k, v in INTENT_EXAMPLES.items()
 }
-logger.info(f"✅ Loaded {len(INTENT_MAP)} intent categories: {list(INTENT_MAP.keys())}")
+logger.info(f" Loaded {len(INTENT_MAP)} intent categories: {list(INTENT_MAP.keys())}")
 
 # ------------------------------------------------------------
 # Keyword lists for lightweight lexical scoring

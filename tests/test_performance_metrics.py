@@ -50,6 +50,15 @@ HEADER = [
     "num_files", "duration_sec", "throughput_files_per_min"
 ]
 
+@pytest.fixture(scope="session", autouse=True)
+def seed_sample_pdfs():
+    pdf_dir = "data/loan_docs"
+    os.makedirs(pdf_dir, exist_ok=True)
+    pdf_path = os.path.join(pdf_dir, "sample.pdf")
+    if not os.path.exists(pdf_path):
+        with open(pdf_path, "wb") as f:
+            f.write(b"%PDF-1.4\n%EOF")
+
 
 def _log_metric(metric, description, num_files, duration):
     """Append benchmark result to CSV and structured log."""

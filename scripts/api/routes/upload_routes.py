@@ -60,7 +60,7 @@ def upload_document():
     logger.info(f"📂 File uploaded: {filename}")
 
     # ============================================================
-    # 1️⃣ Run OCR extraction
+    # Run OCR extraction
     # ============================================================
     start = time.time()
     extracted_path = process_single_file(save_path)
@@ -68,7 +68,7 @@ def upload_document():
         return jsonify({"error": "Extraction failed"}), 500
 
     # ============================================================
-    # 2️⃣ Update Vector Index
+    # Update Vector Index
     # ============================================================
     try:
         embeddings = HuggingFaceEmbeddings(model_name=EMBED_MODEL)
@@ -82,12 +82,12 @@ def upload_document():
         db.add_documents(new_docs)
 
         elapsed = round(time.time() - start, 2)
-        logger.info(f"✅ Indexed {len(new_docs)} docs in {elapsed}s.")
+        logger.info(f" Indexed {len(new_docs)} docs in {elapsed}s.")
         return jsonify({
             "message": f"File processed successfully in {elapsed}s",
             "content_path": extracted_path
         }), 200
 
     except Exception as e:
-        logger.exception(f"❌ Indexing failed: {e}")
+        logger.exception(f" Indexing failed: {e}")
         return jsonify({"error": str(e)}), 500

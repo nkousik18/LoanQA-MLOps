@@ -30,7 +30,7 @@ client = get_chroma_client()
 vectorstore = Chroma(client=client, embedding_function=embeddings)
 retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
 
-logger.info(f"✅ Loaded persistent Chroma index from: {INDEX_PATH}")
+logger.info(f" Loaded persistent Chroma index from: {INDEX_PATH}")
 
 # ============================================================
 # Routes
@@ -68,11 +68,11 @@ def query_stream():
                 yield f"data: {json.dumps({'done': True, 'time_taken': elapsed})}\n\n"
                 yield "data: [DONE]\n\n"
             except Exception as e:
-                logger.error(f"❌ Streaming failed: {e}")
+                logger.error(f" Streaming failed: {e}")
                 yield f"data: {json.dumps({'error': str(e)})}\n\n"
 
         return Response(generate(), mimetype="text/event-stream")
 
     except Exception as e:
-        logger.error(f"❌ Query failed: {e}")
+        logger.error(f" Query failed: {e}")
         return jsonify({"error": str(e)}), 500

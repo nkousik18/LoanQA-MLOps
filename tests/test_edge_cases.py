@@ -133,7 +133,7 @@ def test_partial_ocr_failure(monkeypatch):
                         lambda self, img, **kw: [[(None, ("Detected text", 0.95))]])
 
     test_logger.info("🧩 Testing partial OCR results with missing segments...")
-    result = run_ocr_on_pdf_page("mock.pdf", page_num=0)
+    result = run_ocr_on_pdf_page("mock.pdf", page_number=0)
     assert isinstance(result, str)
     test_logger.info("✅ Partial OCR handled safely.")
 

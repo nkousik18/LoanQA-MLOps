@@ -25,7 +25,7 @@ llm_bp = Blueprint("llm", __name__)
 
 
 # ============================================================
-# 1️⃣  SUMMARY ROUTE
+#   SUMMARY ROUTE
 # ============================================================
 @llm_bp.route("/summary", methods=["POST"])
 def summarize_text():
@@ -53,7 +53,7 @@ def summarize_text():
 
 
 # ============================================================
-# 2️⃣  TRANSLATION ROUTE
+#  TRANSLATION ROUTE
 # ============================================================
 @llm_bp.route("/translate", methods=["POST"])
 def translate_text():
@@ -82,7 +82,7 @@ def translate_text():
 
 
 # ============================================================
-# 3️⃣  EXPLANATION ROUTE
+#   EXPLANATION ROUTE
 # ============================================================
 @llm_bp.route("/explain", methods=["POST"])
 def explain_text():

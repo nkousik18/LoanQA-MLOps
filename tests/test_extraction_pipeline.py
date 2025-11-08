@@ -1,6 +1,8 @@
 import os
 import sys
+import io
 import pytest
+from PIL import Image
 
 # ============================================================
 # ✅ Path Setup (make tests portable across Docker / local)
@@ -64,19 +66,55 @@ def test_run_ocr_on_image(monkeypatch):
 
 
 def test_run_ocr_on_pdf_page(monkeypatch, tmp_path):
-    class MockPixmap:
-        def save(self, path): (tmp_path / "mock.png").write_text("img")
-    class MockPage:
-        def get_pixmap(self): return MockPixmap()
-    class MockDoc:
-        def load_page(self, n): return MockPage()
-    monkeypatch.setattr("fitz.open", lambda f: MockDoc())
-    monkeypatch.setattr("paddleocr.PaddleOCR.ocr", lambda self, img, **kw: [[(None, ("OCR OK", 0.92))]])
+    """✅ Test run_ocr_on_pdf_page() with mocks for fitz + PaddleOCR."""
+    import scripts.extraction_pipeline.ocr_utils as ocr_utils
 
+    # 1️⃣ Mock fitz.open and Pixmap behavior
+    class MockPixmap:
+        def tobytes(self, fmt):
+            # Generate minimal valid PNG bytes
+            buf = io.BytesIO()
+            img = Image.new("RGB", (1, 1), color="white")
+            img.save(buf, format="PNG")
+            return buf.getvalue()
+
+        def save(self, path):
+            (tmp_path / "mock.png").write_text("img")
+
+    class MockPage:
+        def get_pixmap(self, *args, **kwargs):
+            return MockPixmap()
+
+    class MockDoc:
+        def load_page(self, n):
+            return MockPage()
+
+    monkeypatch.setattr("fitz.open", lambda f: MockDoc())
+
+    # 2️⃣ Mock OCR engine
+    class MockOCR:
+        def ocr(self, img_path):
+            return [[(None, ("Detected text from mock", 0.97))]]
+
+    monkeypatch.setattr(ocr_utils, "get_ocr_engine", lambda: MockOCR())
+
+    # 3️⃣ Run actual function
     test_logger.info("🧪 Testing run_ocr_on_pdf_page...")
-    out = run_ocr_on_pdf_page("file.pdf", 0)
-    assert "OCR" in out
+    result = run_ocr_on_pdf_page("dummy.pdf", page_number=0)
+
+    # 4️⃣ Verify result
+    assert isinstance(result, str)
+    assert "Detected" in result
     test_logger.info("✅ OCR on PDF page test passed.")
+
+
+def test_run_ocr_on_pdf_page_failure(monkeypatch):
+    """✅ Ensure graceful fallback on exceptions."""
+    import scripts.extraction_pipeline.ocr_utils as ocr_utils
+    monkeypatch.setattr("fitz.open", lambda path: (_ for _ in ()).throw(RuntimeError("PDF open failed")))
+    result = ocr_utils.run_ocr_on_pdf_page("broken.pdf", page_number=0)
+    assert result == ""
+    test_logger.info("✅ OCR failure path handled correctly.")
 
 
 # -------------------------------------------------------------------

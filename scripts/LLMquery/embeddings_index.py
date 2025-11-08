@@ -26,10 +26,10 @@ def load_vectorstore(index_path: str = DEFAULT_INDEX_PATH):
     Used for query retrival
     """
     start_time = time.time()
-    logger.info(f"📂 Attempting to load Chroma vectorstore from: {index_path}")
+    logger.info(f" Attempting to load Chroma vectorstore from: {index_path}")
 
     if not os.path.exists(index_path):
-        logger.error(f"❌ Vectorstore path not found: {index_path}")
+        logger.error(f" Vectorstore path not found: {index_path}")
         raise FileNotFoundError(f"Vectorstore path not found: {index_path}")
 
     try:
@@ -45,17 +45,17 @@ def load_vectorstore(index_path: str = DEFAULT_INDEX_PATH):
         return db, embeddings
 
     except Exception as e:
-        logger.exception(f"❌ Failed to load Chroma vectorstore at {index_path}: {e}")
+        logger.exception(f" Failed to load Chroma vectorstore at {index_path}: {e}")
         raise e
 
 
 # ============================================================
-# CLI Entry Point (for manual validation)
+# CLI Entry Point
 # ============================================================
 if __name__ == "__main__":
     logger.info("[ENTRYPOINT] Loading vectorstore manually for validation...")
     try:
         db, emb = load_vectorstore()
-        logger.info("🎯 Vectorstore loaded successfully via CLI test.")
+        logger.info(" Vectorstore loaded successfully via CLI test.")
     except Exception as e:
         logger.error(f"Vectorstore load failed: {e}", exc_info=True)
