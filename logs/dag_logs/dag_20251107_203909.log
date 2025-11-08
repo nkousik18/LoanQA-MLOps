@@ -1,7 +1,0 @@
-2025-11-07 20:39:09 | extract_task | INFO | 🧩 Logger initialized for DAG → /opt/airflow/logs/dag_logs/dag_20251107_203909.log
-2025-11-07 20:39:09 | extract_task | INFO | 📂 Starting OCR text extraction...
-2025-11-07 20:39:09 | extract_task | INFO | 🔍 Processing file: Model_pipeline.pdf
-2025-11-07 20:39:09 | extract_task | INFO | ✅ Extracted → /opt/airflow/data/clean_texts/Model_pipeline_20251107_203909.txt
-2025-11-07 20:39:09 | extract_task | INFO | 🔍 Processing file: loan_demo2.pdf
-2025-11-07 20:39:09 | extract_task | INFO | ✅ Extracted → /opt/airflow/data/clean_texts/loan_demo2_20251107_203909.txt
-2025-11-07 20:39:09 | extract_task | INFO | 📊 Extraction Summary → Success: 2 files

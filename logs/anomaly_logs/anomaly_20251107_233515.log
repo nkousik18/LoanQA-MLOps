@@ -1,2 +1,0 @@
-2025-11-07 23:35:15 | llm_anomaly | INFO | 🧩 Logger initialized for ANOMALY → /opt/airflow/logs/anomaly_logs/anomaly_20251107_233515.log
-2025-11-07 23:35:15 | llm_anomaly | WARNING | ⚠️ Low confidence anomaly (Intent=retrieval, Conf=0.34)

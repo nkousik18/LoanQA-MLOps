@@ -1,8 +1,0 @@
-2025-11-07 17:22:16 | scripts.extraction_pipeline.extractor_core | INFO | 🧩 Logger initialized for PREPROCESSING → /Users/kousiknandury/PycharmProjects/DL_project/logs/extraction_logs/preprocessing_20251107_172216.log
-2025-11-07 17:22:34 | scripts.extraction_pipeline.extractor_core | INFO | 📄 Extracting text from PDF: Model_pipeline.pdf
-2025-11-07 17:22:34 | scripts.extraction_pipeline.extractor_core | INFO | Detected 4 pages in Model_pipeline.pdf
-2025-11-07 17:22:34 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 1/4 processed (native text extraction) in 0.03s
-2025-11-07 17:22:34 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 2/4 processed (native text extraction) in 0.01s
-2025-11-07 17:22:34 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 3/4 processed (native text extraction) in 0.00s
-2025-11-07 17:22:34 | scripts.extraction_pipeline.extractor_core | DEBUG | Page 4/4 processed (native text extraction) in 0.00s
-2025-11-07 17:22:34 | scripts.extraction_pipeline.extractor_core | INFO | ✅ Extraction complete for Model_pipeline.pdf | Pages: 4 | Time: 0.06s

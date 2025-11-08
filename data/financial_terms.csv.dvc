@@ -1,0 +1,5 @@
+outs:
+- md5: ed78263f60567487892ea1622f7b2d75
+  size: 3679240
+  hash: md5
+  path: financial_terms.csv

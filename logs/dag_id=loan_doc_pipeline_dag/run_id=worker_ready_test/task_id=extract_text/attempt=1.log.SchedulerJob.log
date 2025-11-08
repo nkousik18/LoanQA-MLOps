@@ -1,1 +1,0 @@
-[2025-11-07T16:46:54.124+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: loan_doc_pipeline_dag.extract_text worker_ready_test [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

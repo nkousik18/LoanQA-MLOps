@@ -1,0 +1,6 @@
+outs:
+- md5: 8a983a8c40d745c00804633f2d17beb1.dir
+  size: 184950
+  nfiles: 1
+  hash: md5
+  path: handwritten_forms

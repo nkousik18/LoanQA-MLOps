@@ -1,5 +1,0 @@
-2025-11-07 23:15:05 | index_task | INFO | 🧩 Logger initialized for DAG → /opt/airflow/logs/dag_logs/dag_20251107_231505.log
-2025-11-07 23:15:05 | index_task | INFO | 🔗 Starting vector index update...
-2025-11-07 23:15:06 | index_task | INFO | ✅ Indexed → /opt/airflow/data/clean_texts/Model_pipeline_20251107_231459.txt
-2025-11-07 23:15:07 | index_task | INFO | ✅ Indexed → /opt/airflow/data/clean_texts/loan_demo2_20251107_231459.txt
-2025-11-07 23:15:07 | index_task | INFO | 📊 Vector Index Summary → Updated: 2

@@ -1,5 +1,0 @@
-2025-11-07 22:14:15 | llm_task | INFO | 🧩 Logger initialized for LLM → /opt/airflow/logs/llm_logs/llm_20251107_221415.log
-2025-11-07 22:14:15 | llm_task | INFO | 🧠 Generating LLM prompt via Ollama...
-2025-11-07 22:14:15 | llm_task | DEBUG | 📄 Loaded: Model_pipeline_20251107_221403.txt (6981 chars)
-2025-11-07 22:14:15 | llm_task | DEBUG | 📄 Loaded: loan_demo2_20251107_221403.txt (25449 chars)
-2025-11-07 22:14:15 | llm_task | INFO | 🧩 Building prompt for query: 'Can I postpone my federal loan payments?'

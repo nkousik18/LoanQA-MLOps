@@ -1,5 +1,0 @@
-2025-11-07 21:09:52 | scripts.LLMquery.build_index | INFO | 🧩 Logger initialized for LLM → /opt/airflow/logs/llm_logs/llm_20251107_210952.log
-2025-11-07 21:09:52 | scripts.LLMquery.prompts.prompt_router | INFO | 🧩 Logger initialized for LLM → /opt/airflow/logs/llm_logs/llm_20251107_210952.log
-2025-11-07 21:09:52 | scripts.LLMquery.prompts.prompt_router | INFO | 🧠 Prompt Router initialized with model: sentence-transformers/all-MiniLM-L6-v2
-2025-11-07 21:09:52 | scripts.LLMquery.prompts.prompt_router | DEBUG | Computing prototype intent embeddings for router...
-2025-11-07 21:09:53 | scripts.LLMquery.prompts.prompt_router | INFO | ✅ Loaded 5 intent categories: ['finance', 'summary', 'translation', 'explanation', 'retrieval']

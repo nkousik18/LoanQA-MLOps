@@ -1,9 +1,0 @@
-2025-10-28 16:21:59 | dag_tests | INFO | 🧩 Logger initialized for TEST → /Users/kousiknandury/PycharmProjects/DL_project/logs/test_logs/test_20251028_162159.log
-2025-10-28 16:21:59 | dag_tests | INFO | 🚀 Starting DAG validation suite.
-2025-10-28 16:21:59 | dag_tests | INFO | 🧩 Validating DAG file: dags/loan_doc_pipeline_dag.py
-2025-10-28 16:22:18 | dag_tests | INFO | 🔍 Checking DAG: loan_doc_pipeline_dag
-2025-10-28 16:22:18 | dag_tests | INFO | ✅ DAG loan_doc_pipeline_dag passed integrity checks.
-2025-10-28 16:22:18 | dag_tests | INFO | 🔗 Checking dependencies in DAG: loan_doc_pipeline_dag
-2025-10-28 16:22:18 | dag_tests | INFO | ✅ Dependencies OK for DAG loan_doc_pipeline_dag.
-2025-10-28 16:22:18 | dag_tests | INFO | ✏️ Checking naming conventions for loan_doc_pipeline_dag
-2025-10-28 16:22:18 | dag_tests | INFO | ✅ Naming OK for DAG loan_doc_pipeline_dag.

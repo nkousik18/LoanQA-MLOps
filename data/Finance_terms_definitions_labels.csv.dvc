@@ -1,0 +1,5 @@
+outs:
+- md5: 5c58df1d464435763a281f17bd6c7607
+  size: 4377205
+  hash: md5
+  path: Finance_terms_definitions_labels.csv

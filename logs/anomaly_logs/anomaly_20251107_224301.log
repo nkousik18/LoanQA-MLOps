@@ -1,4 +1,0 @@
-2025-11-07 22:43:01 | llm_anomaly | INFO | 🧩 Logger initialized for ANOMALY → /opt/airflow/logs/anomaly_logs/anomaly_20251107_224301.log
-2025-11-07 22:43:01 | llm_anomaly | WARNING | ⚠️ Low confidence anomaly (Intent=retrieval, Conf=0.34)
-2025-11-07 22:46:19 | llm_anomaly | ERROR | 🚨 Ollama query timeout or no output.
-2025-11-07 22:46:19 | llm_anomaly | ERROR | 🚨 LLM processing anomaly: Ollama query failed or timed out.

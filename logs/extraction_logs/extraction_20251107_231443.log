@@ -1,8 +1,0 @@
-2025-11-07 23:14:43 | scripts.extraction_pipeline.utils | INFO | 🧩 Logger initialized for EXTRACTION → /opt/airflow/logs/extraction_logs/extraction_20251107_231443.log
-2025-11-07 23:14:43 | scripts.extraction_pipeline.main_extractor | INFO | 🧩 Logger initialized for EXTRACTION → /opt/airflow/logs/extraction_logs/extraction_20251107_231443.log
-2025-11-07 23:14:59 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: /opt/airflow/data/loan_docs/Model_pipeline.pdf
-2025-11-07 23:14:59 | scripts.extraction_pipeline.utils | INFO | 💾 Saved extracted text → /opt/airflow/data/clean_texts/Model_pipeline_20251107_231459.txt | Size: 6983 chars | Time: 0.00s
-2025-11-07 23:14:59 | scripts.extraction_pipeline.main_extractor | INFO | ✅ Extracted text saved: /opt/airflow/data/clean_texts/Model_pipeline_20251107_231459.txt | Time taken: 0.03s
-2025-11-07 23:14:59 | scripts.extraction_pipeline.main_extractor | INFO | Processing file: /opt/airflow/data/loan_docs/loan_demo2.pdf
-2025-11-07 23:14:59 | scripts.extraction_pipeline.utils | INFO | 💾 Saved extracted text → /opt/airflow/data/clean_texts/loan_demo2_20251107_231459.txt | Size: 25451 chars | Time: 0.00s
-2025-11-07 23:14:59 | scripts.extraction_pipeline.main_extractor | INFO | ✅ Extracted text saved: /opt/airflow/data/clean_texts/loan_demo2_20251107_231459.txt | Time taken: 0.06s
