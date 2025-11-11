@@ -1,0 +1,7114 @@
+[
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 1,
+    "span_type": "line",
+    "text": "Shinhan Bank",
+    "conf": 100.0,
+    "bbox": {
+      "Width": 0.43810543417930603,
+      "Height": 0.04105287417769432,
+      "Left": 0.2864776849746704,
+      "Top": 0.2840816080570221
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 2,
+    "span_type": "line",
+    "text": "India",
+    "conf": 99.95037078857422,
+    "bbox": {
+      "Width": 0.08338380604982376,
+      "Height": 0.022057047113776207,
+      "Left": 0.4662432074546814,
+      "Top": 0.3324533998966217
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 3,
+    "span_type": "line",
+    "text": "PERSONAL LOAN",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.32740429043769836,
+      "Height": 0.022928066551685333,
+      "Left": 0.3448822498321533,
+      "Top": 0.4974813163280487
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 4,
+    "span_type": "line",
+    "text": "APPLICATION FORM",
+    "conf": 99.990234375,
+    "bbox": {
+      "Width": 0.3771265149116516,
+      "Height": 0.023080013692378998,
+      "Left": 0.3188377320766449,
+      "Top": 0.5309498310089111
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 5,
+    "span_type": "line",
+    "text": "Mumbai Branch",
+    "conf": 99.92107391357422,
+    "bbox": {
+      "Width": 0.08854865282773972,
+      "Height": 0.008966438472270966,
+      "Left": 0.10709874331951141,
+      "Top": 0.7642627954483032
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 6,
+    "span_type": "line",
+    "text": "New Delhi Branch",
+    "conf": 99.96745300292969,
+    "bbox": {
+      "Width": 0.0998581200838089,
+      "Height": 0.008907455950975418,
+      "Left": 0.3593681752681732,
+      "Top": 0.7640520930290222
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 7,
+    "span_type": "line",
+    "text": "Kancheepuram Branch",
+    "conf": 99.80598449707031,
+    "bbox": {
+      "Width": 0.12404052168130875,
+      "Height": 0.010840903967618942,
+      "Left": 0.5783270001411438,
+      "Top": 0.7642526626586914
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 8,
+    "span_type": "line",
+    "text": "Pune Branch",
+    "conf": 99.92595672607422,
+    "bbox": {
+      "Width": 0.06944170594215393,
+      "Height": 0.008630122989416122,
+      "Left": 0.8461834192276001,
+      "Top": 0.7662093639373779
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 9,
+    "span_type": "line",
+    "text": "Unit No 001, Grd Flr, Peninsula Tower 1,",
+    "conf": 98.14739990234375,
+    "bbox": {
+      "Width": 0.2126791775226593,
+      "Height": 0.010595877654850483,
+      "Left": 0.04575846344232559,
+      "Top": 0.7771614193916321
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 10,
+    "span_type": "line",
+    "text": "2nd Et 3rd Floor, D-5,",
+    "conf": 96.78057098388672,
+    "bbox": {
+      "Width": 0.1136631965637207,
+      "Height": 0.009690252132713795,
+      "Left": 0.35218340158462524,
+      "Top": 0.7772397994995117
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 11,
+    "span_type": "line",
+    "text": "Survey No: 69/4A1, B No: 101A,",
+    "conf": 94.76897430419922,
+    "bbox": {
+      "Width": 0.1702285259962082,
+      "Height": 0.010868347249925137,
+      "Left": 0.5552084445953369,
+      "Top": 0.7773239612579346
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 12,
+    "span_type": "line",
+    "text": "Ground Floor, Red Building",
+    "conf": 99.9658203125,
+    "bbox": {
+      "Width": 0.14297202229499817,
+      "Height": 0.01027250848710537,
+      "Left": 0.8093405365943909,
+      "Top": 0.7791546583175659
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 13,
+    "span_type": "line",
+    "text": "Peninsula Corporate Park, Ganpatrao Kadam Marg,",
+    "conf": 99.74143981933594,
+    "bbox": {
+      "Width": 0.271530419588089,
+      "Height": 0.012026152573525906,
+      "Left": 0.016676900908350945,
+      "Top": 0.7894396781921387
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 14,
+    "span_type": "line",
+    "text": "South Extension Part-2, Ring Road,",
+    "conf": 99.92155456542969,
+    "bbox": {
+      "Width": 0.19008514285087585,
+      "Height": 0.010981876403093338,
+      "Left": 0.3135230541229248,
+      "Top": 0.790015459060669
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 15,
+    "span_type": "line",
+    "text": "Bangalore Highway Road,",
+    "conf": 99.96745300292969,
+    "bbox": {
+      "Width": 0.13743561506271362,
+      "Height": 0.011102910153567791,
+      "Left": 0.5719385147094727,
+      "Top": 0.7904791235923767
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 16,
+    "span_type": "line",
+    "text": "Plot No 2, Galaxy Society,",
+    "conf": 98.96763610839844,
+    "bbox": {
+      "Width": 0.13637107610702515,
+      "Height": 0.01049868855625391,
+      "Left": 0.8132262229919434,
+      "Top": 0.791492223739624
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 17,
+    "span_type": "line",
+    "text": "Lower Parel, Mumbai 400 013.",
+    "conf": 99.05879211425781,
+    "bbox": {
+      "Width": 0.16186293959617615,
+      "Height": 0.010169104672968388,
+      "Left": 0.07049320638179779,
+      "Top": 0.8027120232582092
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 18,
+    "span_type": "line",
+    "text": "New Delhi - 110049",
+    "conf": 97.12870788574219,
+    "bbox": {
+      "Width": 0.10625698417425156,
+      "Height": 0.009155559353530407,
+      "Left": 0.35577937960624695,
+      "Top": 0.803364098072052
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 19,
+    "span_type": "line",
+    "text": "Thandalam Village, Sriperumbadur Taluk",
+    "conf": 99.76895904541016,
+    "bbox": {
+      "Width": 0.2170335352420807,
+      "Height": 0.011023621074855328,
+      "Left": 0.5319773554801941,
+      "Top": 0.8034406304359436
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 20,
+    "span_type": "line",
+    "text": "Boat Club Road, Pune - 411001",
+    "conf": 98.70575714111328,
+    "bbox": {
+      "Width": 0.16448894143104553,
+      "Height": 0.009646201506257057,
+      "Left": 0.798787534236908,
+      "Top": 0.8042769432067871
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 21,
+    "span_type": "line",
+    "text": "Tel: 022 6199 2000",
+    "conf": 99.36279296875,
+    "bbox": {
+      "Width": 0.10309924930334091,
+      "Height": 0.009776356630027294,
+      "Left": 0.09928254038095474,
+      "Top": 0.8155395984649658
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 22,
+    "span_type": "line",
+    "text": "Tel: 011 45004800",
+    "conf": 99.7653579711914,
+    "bbox": {
+      "Width": 0.09951324015855789,
+      "Height": 0.00903999712318182,
+      "Left": 0.358816921710968,
+      "Top": 0.8164817094802856
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 23,
+    "span_type": "line",
+    "text": "Kancheepuram, Dist - 602105",
+    "conf": 94.76874542236328,
+    "bbox": {
+      "Width": 0.15836240351200104,
+      "Height": 0.010626773349940777,
+      "Left": 0.5616942644119263,
+      "Top": 0.8165486454963684
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 24,
+    "span_type": "line",
+    "text": "Maharashtra, India",
+    "conf": 99.2979736328125,
+    "bbox": {
+      "Width": 0.09973202645778656,
+      "Height": 0.009640832431614399,
+      "Left": 0.8308268189430237,
+      "Top": 0.8171713352203369
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 25,
+    "span_type": "line",
+    "text": "Fax: 022 6199 2010",
+    "conf": 99.01835632324219,
+    "bbox": {
+      "Width": 0.10469335317611694,
+      "Height": 0.009556856006383896,
+      "Left": 0.09887784719467163,
+      "Top": 0.8284592628479004
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 26,
+    "span_type": "line",
+    "text": "Fax: 011 45004855",
+    "conf": 99.68889617919922,
+    "bbox": {
+      "Width": 0.10139940679073334,
+      "Height": 0.009029180742800236,
+      "Left": 0.3582371473312378,
+      "Top": 0.8295615911483765
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 27,
+    "span_type": "line",
+    "text": "Tel: 044 6714 4400 / Fax: 044 6714 4444",
+    "conf": 96.30648803710938,
+    "bbox": {
+      "Width": 0.22063642740249634,
+      "Height": 0.010174520313739777,
+      "Left": 0.5302093029022217,
+      "Top": 0.8291297554969788
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 28,
+    "span_type": "line",
+    "text": "Tel: 020 6704 0800 / Fax: 020 6704 0810",
+    "conf": 94.62372589111328,
+    "bbox": {
+      "Width": 0.21737349033355713,
+      "Height": 0.010154526680707932,
+      "Left": 0.7722007632255554,
+      "Top": 0.8292117714881897
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 29,
+    "span_type": "line",
+    "text": "E-mail: operations.mum@shinhan.com",
+    "conf": 98.97909545898438,
+    "bbox": {
+      "Width": 0.20844973623752594,
+      "Height": 0.010960579849779606,
+      "Left": 0.04732988029718399,
+      "Top": 0.8407238125801086
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 30,
+    "span_type": "line",
+    "text": "E-mail: operations.del@shinhan.com",
+    "conf": 83.767333984375,
+    "bbox": {
+      "Width": 0.19957759976387024,
+      "Height": 0.01080330740660429,
+      "Left": 0.3086586594581604,
+      "Top": 0.8422400951385498
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 31,
+    "span_type": "line",
+    "text": "E-mail: operations.vel@shinhan.co",
+    "conf": 96.18403625488281,
+    "bbox": {
+      "Width": 0.197604700922966,
+      "Height": 0.011222127825021744,
+      "Left": 0.5420163869857788,
+      "Top": 0.8420845866203308
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 32,
+    "span_type": "line",
+    "text": "E-mail: operations.pune@shinhan.com",
+    "conf": 83.68801879882812,
+    "bbox": {
+      "Width": 0.20780782401561737,
+      "Height": 0.010806741192936897,
+      "Left": 0.7773498296737671,
+      "Top": 0.8419888615608215
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 33,
+    "span_type": "line",
+    "text": "Ahmedabad Branch",
+    "conf": 99.92595672607422,
+    "bbox": {
+      "Width": 0.10524875670671463,
+      "Height": 0.008892906829714775,
+      "Left": 0.3551707863807678,
+      "Top": 0.8753599524497986
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 34,
+    "span_type": "line",
+    "text": "Ranga Reddy Branch",
+    "conf": 99.96392822265625,
+    "bbox": {
+      "Width": 0.1149940937757492,
+      "Height": 0.011484573595225811,
+      "Left": 0.5837773084640503,
+      "Top": 0.8755999803543091
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 35,
+    "span_type": "line",
+    "text": "Shapath V, First Floor, Unit 2 and 3,",
+    "conf": 98.98920440673828,
+    "bbox": {
+      "Width": 0.18493139743804932,
+      "Height": 0.010769763961434364,
+      "Left": 0.3156146705150604,
+      "Top": 0.8886219263076782
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 36,
+    "span_type": "line",
+    "text": "SLN Terminus, 1st Floor, Survey No. 133,",
+    "conf": 99.68331146240234,
+    "bbox": {
+      "Width": 0.21530818939208984,
+      "Height": 0.01021038182079792,
+      "Left": 0.5329997539520264,
+      "Top": 0.8888921737670898
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 37,
+    "span_type": "line",
+    "text": "Beside Crowne Plaza Hotel,",
+    "conf": 99.93328094482422,
+    "bbox": {
+      "Width": 0.14128872752189636,
+      "Height": 0.010048598051071167,
+      "Left": 0.3379408121109009,
+      "Top": 0.9011443257331848
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 38,
+    "span_type": "line",
+    "text": "Gachibowli, Serilingampally Mandal,",
+    "conf": 99.28983306884766,
+    "bbox": {
+      "Width": 0.19516664743423462,
+      "Height": 0.011066612787544727,
+      "Left": 0.5432494282722473,
+      "Top": 0.9015412926673889
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 39,
+    "span_type": "line",
+    "text": "Opp Karnavati Club, SG Road,",
+    "conf": 99.8916244506836,
+    "bbox": {
+      "Width": 0.15350407361984253,
+      "Height": 0.011100780218839645,
+      "Left": 0.3314853012561798,
+      "Top": 0.9138225317001343
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 40,
+    "span_type": "line",
+    "text": "Ranga Reddy District,",
+    "conf": 99.95037078857422,
+    "bbox": {
+      "Width": 0.11489038914442062,
+      "Height": 0.010701706632971764,
+      "Left": 0.5839129686355591,
+      "Top": 0.9143073558807373
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 41,
+    "span_type": "line",
+    "text": "Ahmedabad - 380015.",
+    "conf": 96.81730651855469,
+    "bbox": {
+      "Width": 0.11627236008644104,
+      "Height": 0.009219547733664513,
+      "Left": 0.3497130572795868,
+      "Top": 0.9266595244407654
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 42,
+    "span_type": "line",
+    "text": "Telangana- 500 032.",
+    "conf": 97.79741668701172,
+    "bbox": {
+      "Width": 0.11139160394668579,
+      "Height": 0.011105109937489033,
+      "Left": 0.5848978757858276,
+      "Top": 0.9268741607666016
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 43,
+    "span_type": "line",
+    "text": "Tel.: 079-7117 0400 Fax: 079-7117 0444",
+    "conf": 98.12110900878906,
+    "bbox": {
+      "Width": 0.2119455188512802,
+      "Height": 0.00940847396850586,
+      "Left": 0.3023698031902313,
+      "Top": 0.9393053650856018
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 44,
+    "span_type": "line",
+    "text": "Tel: 040 6635 2000 / Fax: 040 6635 2020",
+    "conf": 96.70880126953125,
+    "bbox": {
+      "Width": 0.22114023566246033,
+      "Height": 0.01009572297334671,
+      "Left": 0.5297322273254395,
+      "Top": 0.9393728971481323
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 45,
+    "span_type": "line",
+    "text": "E-mail: operation.ahd@shinhan.com",
+    "conf": 99.9109115600586,
+    "bbox": {
+      "Width": 0.1906941533088684,
+      "Height": 0.010567933320999146,
+      "Left": 0.3127993643283844,
+      "Top": 0.9518750905990601
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 46,
+    "span_type": "line",
+    "text": "E-mail: operations.rr@shinhan.com",
+    "conf": 99.85112762451172,
+    "bbox": {
+      "Width": 0.19072651863098145,
+      "Height": 0.011075172573328018,
+      "Left": 0.5456874370574951,
+      "Top": 0.951932430267334
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 1,
+    "span_id": 47,
+    "span_type": "line",
+    "text": "Website https://in.shinanglobal.c",
+    "conf": 93.28483581542969,
+    "bbox": {
+      "Width": 0.21590767800807953,
+      "Height": 0.011830495670437813,
+      "Left": 0.3998645544052124,
+      "Top": 0.9821356534957886
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 48,
+    "span_type": "line",
+    "text": "Shinhan Bank",
+    "conf": 99.9951171875,
+    "bbox": {
+      "Width": 0.2297435849905014,
+      "Height": 0.021237198263406754,
+      "Left": 0.3882943391799927,
+      "Top": 0.02584797516465187
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 49,
+    "span_type": "line",
+    "text": "PERSONAL LOAN APPLICATION FORM",
+    "conf": 99.97802734375,
+    "bbox": {
+      "Width": 0.407562792301178,
+      "Height": 0.0151668107137084,
+      "Left": 0.27009013295173645,
+      "Top": 0.07856959849596024
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 50,
+    "span_type": "line",
+    "text": "Date: 1 15/02/200",
+    "conf": 81.78033447265625,
+    "bbox": {
+      "Width": 0.29780131578445435,
+      "Height": 0.026723217219114304,
+      "Left": 0.7021986842155457,
+      "Top": 0.10330323129892349
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 51,
+    "span_type": "line",
+    "text": "To,",
+    "conf": 64.51590728759766,
+    "bbox": {
+      "Width": 0.02273939736187458,
+      "Height": 0.011732162907719612,
+      "Left": 0.03540046513080597,
+      "Top": 0.1478174328804016
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 52,
+    "span_type": "line",
+    "text": "Shinhan Bank,",
+    "conf": 99.8425521850586,
+    "bbox": {
+      "Width": 0.10587482899427414,
+      "Height": 0.011740731075406075,
+      "Left": 0.03591746464371681,
+      "Top": 0.16079536080360413
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 53,
+    "span_type": "line",
+    "text": "Indiranage Branch",
+    "conf": 94.35617065429688,
+    "bbox": {
+      "Width": 0.20407232642173767,
+      "Height": 0.03077821619808674,
+      "Left": 0.04152044653892517,
+      "Top": 0.18031907081604004
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 54,
+    "span_type": "line",
+    "text": "I/ We request you to grant me/us a Personal Loan of Rs 7,50,000",
+    "conf": 96.74725341796875,
+    "bbox": {
+      "Width": 0.5555700659751892,
+      "Height": 0.0231783464550972,
+      "Left": 0.16617639362812042,
+      "Top": 0.22827813029289246
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 55,
+    "span_type": "line",
+    "text": "(Rupees SeVEN LAKH FIFTY THOUSAND ONLY",
+    "conf": 96.38509368896484,
+    "bbox": {
+      "Width": 0.6919237971305847,
+      "Height": 0.026868581771850586,
+      "Left": 0.0363314151763916,
+      "Top": 0.25117266178131104
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 56,
+    "span_type": "line",
+    "text": ")",
+    "conf": 97.36587524414062,
+    "bbox": {
+      "Width": 0.006931751035153866,
+      "Height": 0.012952618300914764,
+      "Left": 0.8194903135299683,
+      "Top": 0.2578530013561249
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 57,
+    "span_type": "line",
+    "text": "The details on the type of loan are given below:",
+    "conf": 99.94409942626953,
+    "bbox": {
+      "Width": 0.34144163131713867,
+      "Height": 0.013123739510774612,
+      "Left": 0.035610828548669815,
+      "Top": 0.28404471278190613
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 58,
+    "span_type": "line",
+    "text": "Loan Type:",
+    "conf": 99.92147827148438,
+    "bbox": {
+      "Width": 0.08048903942108154,
+      "Height": 0.012483014725148678,
+      "Left": 0.036389052867889404,
+      "Top": 0.33300548791885376
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 59,
+    "span_type": "line",
+    "text": "Prime Personal Loan",
+    "conf": 99.921875,
+    "bbox": {
+      "Width": 0.15265651047229767,
+      "Height": 0.01060500554740429,
+      "Left": 0.19812868535518646,
+      "Top": 0.3326409161090851
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 60,
+    "span_type": "line",
+    "text": "General Personal Loan",
+    "conf": 99.94466400146484,
+    "bbox": {
+      "Width": 0.16829566657543182,
+      "Height": 0.010350092314183712,
+      "Left": 0.19798792898654938,
+      "Top": 0.3500218987464905
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 61,
+    "span_type": "line",
+    "text": "Staff Personal Loan",
+    "conf": 99.91483306884766,
+    "bbox": {
+      "Width": 0.14359571039676666,
+      "Height": 0.010468981228768826,
+      "Left": 0.19816654920578003,
+      "Top": 0.36733105778694153
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 62,
+    "span_type": "line",
+    "text": "The information required to process the application is given below. Please read the instructions",
+    "conf": 99.94920349121094,
+    "bbox": {
+      "Width": 0.81910640001297,
+      "Height": 0.015386350452899933,
+      "Left": 0.10056585818529129,
+      "Top": 0.3927438259124756
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 63,
+    "span_type": "line",
+    "text": "carefully prior to submitting the information.",
+    "conf": 99.86358642578125,
+    "bbox": {
+      "Width": 0.303885281085968,
+      "Height": 0.013357952237129211,
+      "Left": 0.036304134875535965,
+      "Top": 0.4140908420085907
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 64,
+    "span_type": "line",
+    "text": "PARTICULARS",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.11816267669200897,
+      "Height": 0.011015706695616245,
+      "Left": 0.12730814516544342,
+      "Top": 0.45864301919937134
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 65,
+    "span_type": "line",
+    "text": "APPLICANT",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.0954434871673584,
+      "Height": 0.010671412572264671,
+      "Left": 0.43126267194747925,
+      "Top": 0.457811176776886
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 66,
+    "span_type": "line",
+    "text": "CO-APPLICANT / GUARANTOR",
+    "conf": 91.17606353759766,
+    "bbox": {
+      "Width": 0.24447588622570038,
+      "Height": 0.01116651576012373,
+      "Left": 0.6493250727653503,
+      "Top": 0.45649096369743347
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 67,
+    "span_type": "line",
+    "text": "Please write in Block Letters",
+    "conf": 99.90234375,
+    "bbox": {
+      "Width": 0.1988106518983841,
+      "Height": 0.010648266412317753,
+      "Left": 0.07733342796564102,
+      "Top": 0.48270121216773987
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 68,
+    "span_type": "line",
+    "text": "Please paste passport size, latest,",
+    "conf": 99.98226165771484,
+    "bbox": {
+      "Width": 0.26567724347114563,
+      "Height": 0.012856793589890003,
+      "Left": 0.34620049595832825,
+      "Top": 0.48159098625183105
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 69,
+    "span_type": "line",
+    "text": "Please paste passport size, latest,",
+    "conf": 99.98812103271484,
+    "bbox": {
+      "Width": 0.2654930055141449,
+      "Height": 0.012693562544882298,
+      "Left": 0.6386874318122864,
+      "Top": 0.4805614948272705
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 70,
+    "span_type": "line",
+    "text": "color photo and sign across",
+    "conf": 99.82796478271484,
+    "bbox": {
+      "Width": 0.19359035789966583,
+      "Height": 0.012794507667422295,
+      "Left": 0.34583958983421326,
+      "Top": 0.4954434931278229
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 71,
+    "span_type": "line",
+    "text": "color photo and sign across",
+    "conf": 99.89030456542969,
+    "bbox": {
+      "Width": 0.19370214641094208,
+      "Height": 0.012823641300201416,
+      "Left": 0.6384717226028442,
+      "Top": 0.49432000517845154
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 72,
+    "span_type": "line",
+    "text": "All details / information must be",
+    "conf": 95.96768951416016,
+    "bbox": {
+      "Width": 0.24371714890003204,
+      "Height": 0.010687921196222305,
+      "Left": 0.07653629034757614,
+      "Top": 0.5027783513069153
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 73,
+    "span_type": "line",
+    "text": "filled in. If not applicable write NA",
+    "conf": 99.81864166259766,
+    "bbox": {
+      "Width": 0.2326178401708603,
+      "Height": 0.012598894536495209,
+      "Left": 0.07698489725589752,
+      "Top": 0.5163714289665222
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 74,
+    "span_type": "line",
+    "text": "In order to process your",
+    "conf": 99.86707305908203,
+    "bbox": {
+      "Width": 0.24395017325878143,
+      "Height": 0.012375625781714916,
+      "Left": 0.0774921327829361,
+      "Top": 0.5368785858154297
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 75,
+    "span_type": "line",
+    "text": "application, ensure to submit all",
+    "conf": 99.95866394042969,
+    "bbox": {
+      "Width": 0.24295447766780853,
+      "Height": 0.013133804313838482,
+      "Left": 0.07755584269762039,
+      "Top": 0.5500374436378479
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 76,
+    "span_type": "line",
+    "text": "Applicant",
+    "conf": 99.990234375,
+    "bbox": {
+      "Width": 0.06740663945674896,
+      "Height": 0.010582677088677883,
+      "Left": 0.4468863904476166,
+      "Top": 0.5560625791549683
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 77,
+    "span_type": "line",
+    "text": "Co-applicant",
+    "conf": 99.61674499511719,
+    "bbox": {
+      "Width": 0.08853381872177124,
+      "Height": 0.010615484789013863,
+      "Left": 0.7293282747268677,
+      "Top": 0.555082380771637
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 78,
+    "span_type": "line",
+    "text": "the information along with the",
+    "conf": 99.9524917602539,
+    "bbox": {
+      "Width": 0.2436014860868454,
+      "Height": 0.012735063210129738,
+      "Left": 0.07712851464748383,
+      "Top": 0.5635295510292053
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 79,
+    "span_type": "line",
+    "text": "Photo",
+    "conf": 99.92107391357422,
+    "bbox": {
+      "Width": 0.04125723987817764,
+      "Height": 0.008791168220341206,
+      "Left": 0.46021732687950134,
+      "Top": 0.5729920268058777
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 80,
+    "span_type": "line",
+    "text": "Photo",
+    "conf": 99.93083953857422,
+    "bbox": {
+      "Width": 0.04085700213909149,
+      "Height": 0.008845577947795391,
+      "Left": 0.7535291314125061,
+      "Top": 0.5718743205070496
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 81,
+    "span_type": "line",
+    "text": "required supporting documents.",
+    "conf": 99.94087219238281,
+    "bbox": {
+      "Width": 0.22781498730182648,
+      "Height": 0.012993847019970417,
+      "Left": 0.07775398343801498,
+      "Top": 0.5772399306297302
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 82,
+    "span_type": "line",
+    "text": "Please keep one set of photocopy",
+    "conf": 99.95442962646484,
+    "bbox": {
+      "Width": 0.24430832266807556,
+      "Height": 0.012946768663823605,
+      "Left": 0.07738865911960602,
+      "Top": 0.5975107550621033
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 83,
+    "span_type": "line",
+    "text": "of the documents (including",
+    "conf": 99.4921875,
+    "bbox": {
+      "Width": 0.24370095133781433,
+      "Height": 0.012739933095872402,
+      "Left": 0.07755392789840698,
+      "Top": 0.6109104156494141
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 84,
+    "span_type": "line",
+    "text": "application form) before",
+    "conf": 99.912109375,
+    "bbox": {
+      "Width": 0.2442053109407425,
+      "Height": 0.013753285631537437,
+      "Left": 0.0774388536810875,
+      "Top": 0.6242868900299072
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 85,
+    "span_type": "line",
+    "text": "submitting to Shinhan Bank.",
+    "conf": 99.92147827148438,
+    "bbox": {
+      "Width": 0.20034027099609375,
+      "Height": 0.0132327601313591,
+      "Left": 0.07739782333374023,
+      "Top": 0.6381493210792542
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 86,
+    "span_type": "line",
+    "text": "Shinhan Bank reserves the right to",
+    "conf": 99.9313735961914,
+    "bbox": {
+      "Width": 0.24515484273433685,
+      "Height": 0.012836094945669174,
+      "Left": 0.07674580812454224,
+      "Top": 0.6582831144332886
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 87,
+    "span_type": "line",
+    "text": "Guarantor",
+    "conf": 98.61547088623047,
+    "bbox": {
+      "Width": 0.0718754380941391,
+      "Height": 0.008691823109984398,
+      "Left": 0.74065762758255,
+      "Top": 0.6626841425895691
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 88,
+    "span_type": "line",
+    "text": "reject the application form after",
+    "conf": 99.9921875,
+    "bbox": {
+      "Width": 0.24524237215518951,
+      "Height": 0.013562452048063278,
+      "Left": 0.07744699716567993,
+      "Top": 0.6717470288276672
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 89,
+    "span_type": "line",
+    "text": "Photo",
+    "conf": 99.87145233154297,
+    "bbox": {
+      "Width": 0.04145367071032524,
+      "Height": 0.008680162020027637,
+      "Left": 0.7560122013092041,
+      "Top": 0.6797143220901489
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 2,
+    "span_id": 90,
+    "span_type": "line",
+    "text": "assigning reason in writing.",
+    "conf": 99.88445281982422,
+    "bbox": {
+      "Width": 0.19435523450374603,
+      "Height": 0.01301178615540266,
+      "Left": 0.07740501314401627,
+      "Top": 0.6859270930290222
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 91,
+    "span_type": "line",
+    "text": "Shinhan Bank",
+    "conf": 99.990234375,
+    "bbox": {
+      "Width": 0.20407313108444214,
+      "Height": 0.01887153647840023,
+      "Left": 0.39791709184646606,
+      "Top": 0.03641876205801964
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 92,
+    "span_type": "line",
+    "text": "PART I PERSONAL AND EMPLOYMENT DETAILS",
+    "conf": 99.36676025390625,
+    "bbox": {
+      "Width": 0.372144490480423,
+      "Height": 0.012225226499140263,
+      "Left": 0.28788426518440247,
+      "Top": 0.08501171320676804
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 93,
+    "span_type": "line",
+    "text": "For Bank",
+    "conf": 99.8974609375,
+    "bbox": {
+      "Width": 0.05315765365958214,
+      "Height": 0.00879744440317154,
+      "Left": 0.06452242285013199,
+      "Top": 0.11686801165342331
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 94,
+    "span_type": "line",
+    "text": "use only",
+    "conf": 99.90234375,
+    "bbox": {
+      "Width": 0.04914425313472748,
+      "Height": 0.010114856995642185,
+      "Left": 0.06612768024206161,
+      "Top": 0.12796960771083832
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 95,
+    "span_type": "line",
+    "text": "For Existing Customers",
+    "conf": 99.94791412353516,
+    "bbox": {
+      "Width": 0.1323956400156021,
+      "Height": 0.010662414133548737,
+      "Left": 0.1333722323179245,
+      "Top": 0.12417716532945633
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 96,
+    "span_type": "line",
+    "text": "Applicant CIF No. 12345",
+    "conf": 99.6962661743164,
+    "bbox": {
+      "Width": 0.17845819890499115,
+      "Height": 0.01288197934627533,
+      "Left": 0.34151655435562134,
+      "Top": 0.12099768221378326
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 97,
+    "span_type": "line",
+    "text": "Co. Applicant CIF No. 11223456",
+    "conf": 99.5536117553711,
+    "bbox": {
+      "Width": 0.2485690712928772,
+      "Height": 0.015216330997645855,
+      "Left": 0.6059226393699646,
+      "Top": 0.11703381687402725
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 98,
+    "span_type": "line",
+    "text": "PARTICULARS",
+    "conf": 99.794921875,
+    "bbox": {
+      "Width": 0.09250950068235397,
+      "Height": 0.009822886437177658,
+      "Left": 0.09914643317461014,
+      "Top": 0.16091302037239075
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 99,
+    "span_type": "line",
+    "text": "APPLICANT",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.07430866360664368,
+      "Height": 0.009057832881808281,
+      "Left": 0.36499279737472534,
+      "Top": 0.16054488718509674
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 100,
+    "span_type": "line",
+    "text": "CO-APPLICANT/ GUARANTOR",
+    "conf": 81.34934997558594,
+    "bbox": {
+      "Width": 0.19062748551368713,
+      "Height": 0.011129851453006268,
+      "Left": 0.6309353113174438,
+      "Top": 0.15714594721794128
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 101,
+    "span_type": "line",
+    "text": "Title",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.02503974549472332,
+      "Height": 0.008932649157941341,
+      "Left": 0.06209081783890724,
+      "Top": 0.18166086077690125
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 102,
+    "span_type": "line",
+    "text": "Mr.",
+    "conf": 99.84375,
+    "bbox": {
+      "Width": 0.01830732636153698,
+      "Height": 0.00843899603933096,
+      "Left": 0.24864190816879272,
+      "Top": 0.18358954787254333
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 103,
+    "span_type": "line",
+    "text": "Ms.",
+    "conf": 99.75267028808594,
+    "bbox": {
+      "Width": 0.021101009100675583,
+      "Height": 0.00869375467300415,
+      "Left": 0.29110902547836304,
+      "Top": 0.18354728817939758
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 104,
+    "span_type": "line",
+    "text": "M/s.",
+    "conf": 99.07505798339844,
+    "bbox": {
+      "Width": 0.024590061977505684,
+      "Height": 0.008647610433399677,
+      "Left": 0.3325771391391754,
+      "Top": 0.1831064224243164
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 105,
+    "span_type": "line",
+    "text": "Others",
+    "conf": 99.63229370117188,
+    "bbox": {
+      "Width": 0.03929423540830612,
+      "Height": 0.008869215846061707,
+      "Left": 0.37389200925827026,
+      "Top": 0.1827053427696228
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 106,
+    "span_type": "line",
+    "text": "Mr.",
+    "conf": 98.6670913696289,
+    "bbox": {
+      "Width": 0.018209610134363174,
+      "Height": 0.008564633317291737,
+      "Left": 0.5711248517036438,
+      "Top": 0.18194399774074554
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 107,
+    "span_type": "line",
+    "text": ">",
+    "conf": 94.384765625,
+    "bbox": {
+      "Width": 0.01541786827147007,
+      "Height": 0.009655226022005081,
+      "Left": 0.5884642601013184,
+      "Top": 0.1809810847043991
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 108,
+    "span_type": "line",
+    "text": "Ms.",
+    "conf": 99.76403045654297,
+    "bbox": {
+      "Width": 0.02167118713259697,
+      "Height": 0.008731898851692677,
+      "Left": 0.613590657711029,
+      "Top": 0.18165400624275208
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 109,
+    "span_type": "line",
+    "text": "M/s.",
+    "conf": 98.08992004394531,
+    "bbox": {
+      "Width": 0.02532520703971386,
+      "Height": 0.00875234603881836,
+      "Left": 0.6551939845085144,
+      "Top": 0.1810666024684906
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 110,
+    "span_type": "line",
+    "text": "Others",
+    "conf": 99.85112762451172,
+    "bbox": {
+      "Width": 0.040270041674375534,
+      "Height": 0.008916707709431648,
+      "Left": 0.6969558000564575,
+      "Top": 0.18047504127025604
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 111,
+    "span_type": "line",
+    "text": "First Name",
+    "conf": 99.736328125,
+    "bbox": {
+      "Width": 0.06311295181512833,
+      "Height": 0.008779022842645645,
+      "Left": 0.06257449090480804,
+      "Top": 0.19859835505485535
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 112,
+    "span_type": "line",
+    "text": "ARJUN",
+    "conf": 99.53304290771484,
+    "bbox": {
+      "Width": 0.07539787888526917,
+      "Height": 0.014301210641860962,
+      "Left": 0.2511780858039856,
+      "Top": 0.19688314199447632
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 113,
+    "span_type": "line",
+    "text": "JAGAN",
+    "conf": 99.81365966796875,
+    "bbox": {
+      "Width": 0.07677256315946579,
+      "Height": 0.01768876239657402,
+      "Left": 0.5719938278198242,
+      "Top": 0.1935119330883026
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 114,
+    "span_type": "line",
+    "text": "Middle Name",
+    "conf": 99.90234375,
+    "bbox": {
+      "Width": 0.07624758034944534,
+      "Height": 0.008926689624786377,
+      "Left": 0.06178322061896324,
+      "Top": 0.21319638192653656
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 115,
+    "span_type": "line",
+    "text": "RAMESH",
+    "conf": 98.70854949951172,
+    "bbox": {
+      "Width": 0.08582375198602676,
+      "Height": 0.013884361833333969,
+      "Left": 0.2530944347381592,
+      "Top": 0.21228526532649994
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 116,
+    "span_type": "line",
+    "text": "Last Name",
+    "conf": 99.8876953125,
+    "bbox": {
+      "Width": 0.06293650716543198,
+      "Height": 0.009006435982882977,
+      "Left": 0.06125491484999657,
+      "Top": 0.22822995483875275
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 117,
+    "span_type": "line",
+    "text": "IYER",
+    "conf": 98.67884826660156,
+    "bbox": {
+      "Width": 0.06662797927856445,
+      "Height": 0.013639118522405624,
+      "Left": 0.24667297303676605,
+      "Top": 0.2265482395887375
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 118,
+    "span_type": "line",
+    "text": "REDDY",
+    "conf": 99.65262603759766,
+    "bbox": {
+      "Width": 0.07347778975963593,
+      "Height": 0.01700631156563759,
+      "Left": 0.5761605501174927,
+      "Top": 0.22352565824985504
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 119,
+    "span_type": "line",
+    "text": "Date of Birth",
+    "conf": 99.89583587646484,
+    "bbox": {
+      "Width": 0.07147792726755142,
+      "Height": 0.009302467107772827,
+      "Left": 0.061500370502471924,
+      "Top": 0.24486896395683289
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 120,
+    "span_type": "line",
+    "text": "15 - 04 - 1992",
+    "conf": 93.46075439453125,
+    "bbox": {
+      "Width": 0.15301762521266937,
+      "Height": 0.012353473342955112,
+      "Left": 0.25114625692367554,
+      "Top": 0.244175523519516
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 121,
+    "span_type": "line",
+    "text": "15 - 05 - 1993",
+    "conf": 91.738037109375,
+    "bbox": {
+      "Width": 0.1500459909439087,
+      "Height": 0.01342341210693121,
+      "Left": 0.5776601433753967,
+      "Top": 0.24155907332897186
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 122,
+    "span_type": "line",
+    "text": "Gender",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.04455242305994034,
+      "Height": 0.008897832594811916,
+      "Left": 0.0607556514441967,
+      "Top": 0.26128917932510376
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 123,
+    "span_type": "line",
+    "text": "Male",
+    "conf": 99.65740203857422,
+    "bbox": {
+      "Width": 0.028368093073368073,
+      "Height": 0.008810820989310741,
+      "Left": 0.26740166544914246,
+      "Top": 0.26145121455192566
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 124,
+    "span_type": "line",
+    "text": "Female",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.0431126169860363,
+      "Height": 0.008653511293232441,
+      "Left": 0.34406018257141113,
+      "Top": 0.2610825300216675
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 125,
+    "span_type": "line",
+    "text": "Transgender",
+    "conf": 99.93083953857422,
+    "bbox": {
+      "Width": 0.07422474771738052,
+      "Height": 0.010408483445644379,
+      "Left": 0.43397849798202515,
+      "Top": 0.26108312606811523
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 126,
+    "span_type": "line",
+    "text": "Male",
+    "conf": 99.61834716796875,
+    "bbox": {
+      "Width": 0.028085598722100258,
+      "Height": 0.008890246972441673,
+      "Left": 0.5929113626480103,
+      "Top": 0.26039764285087585
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 127,
+    "span_type": "line",
+    "text": "Female",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.04360271990299225,
+      "Height": 0.008950402960181236,
+      "Left": 0.6696939468383789,
+      "Top": 0.25946953892707825
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 128,
+    "span_type": "line",
+    "text": "Transgender",
+    "conf": 99.7120132446289,
+    "bbox": {
+      "Width": 0.0757504552602768,
+      "Height": 0.011134488508105278,
+      "Left": 0.7599156498908997,
+      "Top": 0.2573775053024292
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 129,
+    "span_type": "line",
+    "text": "PAN Card",
+    "conf": 99.66757202148438,
+    "bbox": {
+      "Width": 0.05738728865981102,
+      "Height": 0.009223314002156258,
+      "Left": 0.24652224779129028,
+      "Top": 0.27711474895477295
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 130,
+    "span_type": "line",
+    "text": "AABP14589M",
+    "conf": 96.07521057128906,
+    "bbox": {
+      "Width": 0.15291838347911835,
+      "Height": 0.015008562244474888,
+      "Left": 0.32454773783683777,
+      "Top": 0.27422821521759033
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 131,
+    "span_type": "line",
+    "text": "PAN Card",
+    "conf": 99.697265625,
+    "bbox": {
+      "Width": 0.057682886719703674,
+      "Height": 0.009355086833238602,
+      "Left": 0.5743804574012756,
+      "Top": 0.2759881019592285
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 132,
+    "span_type": "line",
+    "text": "ACLI234568",
+    "conf": 96.95651245117188,
+    "bbox": {
+      "Width": 0.15465950965881348,
+      "Height": 0.015135052613914013,
+      "Left": 0.6527968049049377,
+      "Top": 0.27262765169143677
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 133,
+    "span_type": "line",
+    "text": "Aadhar No.",
+    "conf": 99.39413452148438,
+    "bbox": {
+      "Width": 0.06604565680027008,
+      "Height": 0.009152650833129883,
+      "Left": 0.2459236979484558,
+      "Top": 0.2937610149383545
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 134,
+    "span_type": "line",
+    "text": "67891234567",
+    "conf": 97.978515625,
+    "bbox": {
+      "Width": 0.17625880241394043,
+      "Height": 0.015151472762227058,
+      "Left": 0.32416579127311707,
+      "Top": 0.29024526476860046
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 135,
+    "span_type": "line",
+    "text": "Aadhar No.",
+    "conf": 99.54021453857422,
+    "bbox": {
+      "Width": 0.06615790724754333,
+      "Height": 0.009223184548318386,
+      "Left": 0.5739675164222717,
+      "Top": 0.29271313548088074
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 136,
+    "span_type": "line",
+    "text": "78912312468",
+    "conf": 92.69670867919922,
+    "bbox": {
+      "Width": 0.17330698668956757,
+      "Height": 0.016362683847546577,
+      "Left": 0.6546932458877563,
+      "Top": 0.288211852312088
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 137,
+    "span_type": "line",
+    "text": "Father's/ Husband's Name",
+    "conf": 87.8360824584961,
+    "bbox": {
+      "Width": 0.1567937433719635,
+      "Height": 0.00998932495713234,
+      "Left": 0.06021847948431969,
+      "Top": 0.3085179626941681
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 138,
+    "span_type": "line",
+    "text": "ABBAVRAN",
+    "conf": 98.96524047851562,
+    "bbox": {
+      "Width": 0.12712568044662476,
+      "Height": 0.013441082090139389,
+      "Left": 0.2510201930999756,
+      "Top": 0.306712806224823
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 139,
+    "span_type": "line",
+    "text": "KIRAN",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.07605443149805069,
+      "Height": 0.014248632825911045,
+      "Left": 0.5787439942359924,
+      "Top": 0.3037954866886139
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 140,
+    "span_type": "line",
+    "text": "Mother's Maiden Name",
+    "conf": 99.34876251220703,
+    "bbox": {
+      "Width": 0.13419146835803986,
+      "Height": 0.009562734514474869,
+      "Left": 0.05938291177153587,
+      "Top": 0.3240815997123718
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 141,
+    "span_type": "line",
+    "text": "ROJA",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.0658559501171112,
+      "Height": 0.01347636803984642,
+      "Left": 0.24797561764717102,
+      "Top": 0.3231202960014343
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 142,
+    "span_type": "line",
+    "text": "Marital Status",
+    "conf": 99.77947235107422,
+    "bbox": {
+      "Width": 0.07972030341625214,
+      "Height": 0.009176777675747871,
+      "Left": 0.05901205912232399,
+      "Top": 0.34098395705223083
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 143,
+    "span_type": "line",
+    "text": "<",
+    "conf": 87.21939086914062,
+    "bbox": {
+      "Width": 0.01574971154332161,
+      "Height": 0.007117756642401218,
+      "Left": 0.24991321563720703,
+      "Top": 0.3416477143764496
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 144,
+    "span_type": "line",
+    "text": "Single",
+    "conf": 99.69647216796875,
+    "bbox": {
+      "Width": 0.036843881011009216,
+      "Height": 0.010955418460071087,
+      "Left": 0.2666179835796356,
+      "Top": 0.3417041599750519
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 145,
+    "span_type": "line",
+    "text": "Married",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.04442464932799339,
+      "Height": 0.009015210904181004,
+      "Left": 0.33530643582344055,
+      "Top": 0.34163352847099304
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 146,
+    "span_type": "line",
+    "text": "Divorced",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.05182816833257675,
+      "Height": 0.008948786184191704,
+      "Left": 0.41506093740463257,
+      "Top": 0.3411043584346771
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 147,
+    "span_type": "line",
+    "text": "Widow",
+    "conf": 99.87145233154297,
+    "bbox": {
+      "Width": 0.04091620445251465,
+      "Height": 0.009032649919390678,
+      "Left": 0.5055279731750488,
+      "Top": 0.3408159613609314
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 148,
+    "span_type": "line",
+    "text": "X",
+    "conf": 44.18367385864258,
+    "bbox": {
+      "Width": 0.014947502873837948,
+      "Height": 0.011538884602487087,
+      "Left": 0.577267587184906,
+      "Top": 0.33819133043289185
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 149,
+    "span_type": "line",
+    "text": "Single",
+    "conf": 99.76483154296875,
+    "bbox": {
+      "Width": 0.03703313320875168,
+      "Height": 0.01120545994490385,
+      "Left": 0.5951813459396362,
+      "Top": 0.3405238389968872
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 150,
+    "span_type": "line",
+    "text": "Married",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.04547613486647606,
+      "Height": 0.009159311652183533,
+      "Left": 0.6633684635162354,
+      "Top": 0.3402549624443054
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 151,
+    "span_type": "line",
+    "text": "Divorced",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.05212320014834404,
+      "Height": 0.00896554533392191,
+      "Left": 0.744685709476471,
+      "Top": 0.3393370509147644
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 152,
+    "span_type": "line",
+    "text": "Widow",
+    "conf": 99.91131591796875,
+    "bbox": {
+      "Width": 0.041378725320100784,
+      "Height": 0.008790570311248302,
+      "Left": 0.8362542390823364,
+      "Top": 0.3383951187133789
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 153,
+    "span_type": "line",
+    "text": "Nationality*",
+    "conf": 94.50096130371094,
+    "bbox": {
+      "Width": 0.06512761861085892,
+      "Height": 0.010754751972854137,
+      "Left": 0.05882866308093071,
+      "Top": 0.3580063581466675
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 154,
+    "span_type": "line",
+    "text": "In-India",
+    "conf": 98.33805084228516,
+    "bbox": {
+      "Width": 0.041453007608652115,
+      "Height": 0.009088071063160896,
+      "Left": 0.26702243089675903,
+      "Top": 0.35905152559280396
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 155,
+    "span_type": "line",
+    "text": "Others",
+    "conf": 99.912109375,
+    "bbox": {
+      "Width": 0.03789732605218887,
+      "Height": 0.008830095641314983,
+      "Left": 0.3357909619808197,
+      "Top": 0.3590658903121948
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 156,
+    "span_type": "line",
+    "text": "In-India",
+    "conf": 97.89958953857422,
+    "bbox": {
+      "Width": 0.0421639047563076,
+      "Height": 0.009133201092481613,
+      "Left": 0.5959452986717224,
+      "Top": 0.3578204810619354
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 157,
+    "span_type": "line",
+    "text": "Others",
+    "conf": 99.912109375,
+    "bbox": {
+      "Width": 0.03866215795278549,
+      "Height": 0.009143493138253689,
+      "Left": 0.6645405292510986,
+      "Top": 0.3574695885181427
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 158,
+    "span_type": "line",
+    "text": "Current Resident Address",
+    "conf": 99.91536712646484,
+    "bbox": {
+      "Width": 0.15091609954833984,
+      "Height": 0.009577088989317417,
+      "Left": 0.057921189814805984,
+      "Top": 0.3766493499279022
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 159,
+    "span_type": "line",
+    "text": "SRINIVAS NAGAR",
+    "conf": 97.58480072021484,
+    "bbox": {
+      "Width": 0.22483716905117035,
+      "Height": 0.016354717314243317,
+      "Left": 0.34295448660850525,
+      "Top": 0.37310099601745605
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 160,
+    "span_type": "line",
+    "text": "9/23, SHIVA STREET,",
+    "conf": 96.96521759033203,
+    "bbox": {
+      "Width": 0.2818482518196106,
+      "Height": 0.020113125443458557,
+      "Left": 0.578965425491333,
+      "Top": 0.3693818151950836
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 161,
+    "span_type": "line",
+    "text": "KADAPA, ANDHRAPRAPE",
+    "conf": 92.93925476074219,
+    "bbox": {
+      "Width": 0.3135676681995392,
+      "Height": 0.019164545461535454,
+      "Left": 0.2514227628707886,
+      "Top": 0.3891238272190094
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 162,
+    "span_type": "line",
+    "text": "KADAPA,ANDHRAPRAPESH",
+    "conf": 48.090721130371094,
+    "bbox": {
+      "Width": 0.32706794142723083,
+      "Height": 0.017251232638955116,
+      "Left": 0.5792655348777771,
+      "Top": 0.3870650827884674
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 163,
+    "span_type": "line",
+    "text": "SH, 516310",
+    "conf": 93.38628387451172,
+    "bbox": {
+      "Width": 0.13182581961154938,
+      "Height": 0.0164481271058321,
+      "Left": 0.2534509301185608,
+      "Top": 0.40512463450431824
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 164,
+    "span_type": "line",
+    "text": "No of years in current",
+    "conf": 99.88835144042969,
+    "bbox": {
+      "Width": 0.12235715985298157,
+      "Height": 0.01086499821394682,
+      "Left": 0.05638225004076958,
+      "Top": 0.41689401865005493
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 165,
+    "span_type": "line",
+    "text": "resident address",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.09503266215324402,
+      "Height": 0.009198669344186783,
+      "Left": 0.05598774552345276,
+      "Top": 0.4274015426635742
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 166,
+    "span_type": "line",
+    "text": "05",
+    "conf": 99.59243774414062,
+    "bbox": {
+      "Width": 0.0301861260086298,
+      "Height": 0.011290759779512882,
+      "Left": 0.25012028217315674,
+      "Top": 0.4233296513557434
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 167,
+    "span_type": "line",
+    "text": "12",
+    "conf": 99.93083953857422,
+    "bbox": {
+      "Width": 0.03323018550872803,
+      "Height": 0.012253190390765667,
+      "Left": 0.582309365272522,
+      "Top": 0.4211851954460144
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 168,
+    "span_type": "line",
+    "text": "Permanent Resident Address",
+    "conf": 99.88201141357422,
+    "bbox": {
+      "Width": 0.17257246375083923,
+      "Height": 0.009412112645804882,
+      "Left": 0.05594303086400032,
+      "Top": 0.4422714412212372
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 169,
+    "span_type": "line",
+    "text": "108 SCHOOL ST,",
+    "conf": 96.62175750732422,
+    "bbox": {
+      "Width": 0.22818288207054138,
+      "Height": 0.016622601076960564,
+      "Left": 0.24970252811908722,
+      "Top": 0.44037842750549316
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 170,
+    "span_type": "line",
+    "text": "108 MANSION HOUS",
+    "conf": 96.93253326416016,
+    "bbox": {
+      "Width": 0.2809343934059143,
+      "Height": 0.017136525362730026,
+      "Left": 0.5842710137367249,
+      "Top": 0.4376722276210785
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 171,
+    "span_type": "line",
+    "text": "BOSTON, MA, 02119",
+    "conf": 91.85347747802734,
+    "bbox": {
+      "Width": 0.26963332295417786,
+      "Height": 0.01808806322515011,
+      "Left": 0.2483745962381363,
+      "Top": 0.45414015650749207
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 172,
+    "span_type": "line",
+    "text": "Address for Communication",
+    "conf": 99.87171936035156,
+    "bbox": {
+      "Width": 0.16482391953468323,
+      "Height": 0.009932114742696285,
+      "Left": 0.05355576425790787,
+      "Top": 0.4930493235588074
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 173,
+    "span_type": "line",
+    "text": "SAME AS CURRENT",
+    "conf": 99.56964874267578,
+    "bbox": {
+      "Width": 0.24538281559944153,
+      "Height": 0.016187982633709908,
+      "Left": 0.2447730153799057,
+      "Top": 0.48949676752090454
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 174,
+    "span_type": "line",
+    "text": "SAME AS CURRENT",
+    "conf": 97.36115264892578,
+    "bbox": {
+      "Width": 0.24271570146083832,
+      "Height": 0.01714346557855606,
+      "Left": 0.5824476480484009,
+      "Top": 0.487932413816452
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 175,
+    "span_type": "line",
+    "text": "ADDRESS",
+    "conf": 92.33717346191406,
+    "bbox": {
+      "Width": 0.10626674443483353,
+      "Height": 0.01438907440751791,
+      "Left": 0.2501950263977051,
+      "Top": 0.5069053769111633
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 176,
+    "span_type": "line",
+    "text": "APPRESS",
+    "conf": 95.5125961303711,
+    "bbox": {
+      "Width": 0.10596629232168198,
+      "Height": 0.016825737431645393,
+      "Left": 0.5846826434135437,
+      "Top": 0.5051069855690002
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 177,
+    "span_type": "line",
+    "text": "Phone Number",
+    "conf": 99.92636108398438,
+    "bbox": {
+      "Width": 0.09111571311950684,
+      "Height": 0.009803335182368755,
+      "Left": 0.052762310951948166,
+      "Top": 0.5427295565605164
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 178,
+    "span_type": "line",
+    "text": "+1 9515176747",
+    "conf": 91.30799865722656,
+    "bbox": {
+      "Width": 0.21396329998970032,
+      "Height": 0.01667557656764984,
+      "Left": 0.24583065509796143,
+      "Top": 0.5399461984634399
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 179,
+    "span_type": "line",
+    "text": "+2 8573512102",
+    "conf": 78.7745132446289,
+    "bbox": {
+      "Width": 0.21476653218269348,
+      "Height": 0.01616009511053562,
+      "Left": 0.5845586657524109,
+      "Top": 0.5386801958084106
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 180,
+    "span_type": "line",
+    "text": "Email ID",
+    "conf": 99.7900390625,
+    "bbox": {
+      "Width": 0.050970662385225296,
+      "Height": 0.009150986559689045,
+      "Left": 0.05301034078001976,
+      "Top": 0.5617320537567139
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 181,
+    "span_type": "line",
+    "text": "guji.2@gmAIL.COM",
+    "conf": 32.491031646728516,
+    "bbox": {
+      "Width": 0.2635236382484436,
+      "Height": 0.02437262423336506,
+      "Left": 0.2457018345594406,
+      "Top": 0.5567114353179932
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 182,
+    "span_type": "line",
+    "text": "RAM.PU@gmAIL.COM",
+    "conf": 78.66529846191406,
+    "bbox": {
+      "Width": 0.27452895045280457,
+      "Height": 0.02100014127790928,
+      "Left": 0.5837610363960266,
+      "Top": 0.5566713213920593
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 183,
+    "span_type": "line",
+    "text": "Educational Qualification",
+    "conf": 99.89218139648438,
+    "bbox": {
+      "Width": 0.14740972220897675,
+      "Height": 0.0096341073513031,
+      "Left": 0.0527329221367836,
+      "Top": 0.5770812034606934
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 184,
+    "span_type": "line",
+    "text": "INTERMEDIATE",
+    "conf": 97.21520233154297,
+    "bbox": {
+      "Width": 0.19532795250415802,
+      "Height": 0.017648611217737198,
+      "Left": 0.24612843990325928,
+      "Top": 0.5722722411155701
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 185,
+    "span_type": "line",
+    "text": "DEGREE",
+    "conf": 99.73233795166016,
+    "bbox": {
+      "Width": 0.09628325700759888,
+      "Height": 0.01456457655876875,
+      "Left": 0.5866175293922424,
+      "Top": 0.5739192366600037
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 186,
+    "span_type": "line",
+    "text": "No of dependent",
+    "conf": 99.8630142211914,
+    "bbox": {
+      "Width": 0.09990882873535156,
+      "Height": 0.011262706480920315,
+      "Left": 0.05217485874891281,
+      "Top": 0.5939114093780518
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 187,
+    "span_type": "line",
+    "text": "Children",
+    "conf": 99.81126403808594,
+    "bbox": {
+      "Width": 0.05026513338088989,
+      "Height": 0.009489386342465878,
+      "Left": 0.2845593988895416,
+      "Top": 0.593515932559967
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 188,
+    "span_type": "line",
+    "text": "Others",
+    "conf": 99.91131591796875,
+    "bbox": {
+      "Width": 0.041389100253582,
+      "Height": 0.009475004859268665,
+      "Left": 0.4284232258796692,
+      "Top": 0.5932708382606506
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 189,
+    "span_type": "line",
+    "text": "Children",
+    "conf": 99.87145233154297,
+    "bbox": {
+      "Width": 0.05069950595498085,
+      "Height": 0.00951180886477232,
+      "Left": 0.6218428611755371,
+      "Top": 0.5927029252052307
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 190,
+    "span_type": "line",
+    "text": "Others",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.041130926460027695,
+      "Height": 0.009252224117517471,
+      "Left": 0.7685508728027344,
+      "Top": 0.5925968885421753
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 191,
+    "span_type": "line",
+    "text": "Occupation Type*",
+    "conf": 91.41670989990234,
+    "bbox": {
+      "Width": 0.10636794567108154,
+      "Height": 0.011367392726242542,
+      "Left": 0.05166317895054817,
+      "Top": 0.6102258563041687
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 192,
+    "span_type": "line",
+    "text": "S-Service",
+    "conf": 99.68590545654297,
+    "bbox": {
+      "Width": 0.058558229357004166,
+      "Height": 0.009253320284187794,
+      "Left": 0.26695141196250916,
+      "Top": 0.6098808646202087
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 193,
+    "span_type": "line",
+    "text": "Private Sector",
+    "conf": 99.619140625,
+    "bbox": {
+      "Width": 0.08434897661209106,
+      "Height": 0.009586949832737446,
+      "Left": 0.3586386740207672,
+      "Top": 0.6095383763313293
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 194,
+    "span_type": "line",
+    "text": "Public Sector",
+    "conf": 99.853515625,
+    "bbox": {
+      "Width": 0.07925783097743988,
+      "Height": 0.009537453763186932,
+      "Left": 0.48312658071517944,
+      "Top": 0.6090689301490784
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 195,
+    "span_type": "line",
+    "text": "S-Service",
+    "conf": 99.68431091308594,
+    "bbox": {
+      "Width": 0.05873487889766693,
+      "Height": 0.009358513168990612,
+      "Left": 0.6051603555679321,
+      "Top": 0.60909104347229
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 196,
+    "span_type": "line",
+    "text": "(",
+    "conf": 41.11726760864258,
+    "bbox": {
+      "Width": 0.022386297583580017,
+      "Height": 0.013245999813079834,
+      "Left": 0.6776098012924194,
+      "Top": 0.6042055487632751
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 197,
+    "span_type": "line",
+    "text": "Private Sector",
+    "conf": 99.765625,
+    "bbox": {
+      "Width": 0.08522287756204605,
+      "Height": 0.009760186076164246,
+      "Left": 0.6991461515426636,
+      "Top": 0.6086538434028625
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 198,
+    "span_type": "line",
+    "text": "Public Sector",
+    "conf": 99.90234375,
+    "bbox": {
+      "Width": 0.0811610296368599,
+      "Height": 0.009574241936206818,
+      "Left": 0.8238550424575806,
+      "Top": 0.6084783673286438
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 199,
+    "span_type": "line",
+    "text": "Government Sector",
+    "conf": 99.86737060546875,
+    "bbox": {
+      "Width": 0.11662471294403076,
+      "Height": 0.009710396640002728,
+      "Left": 0.3582775294780731,
+      "Top": 0.6248080730438232
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 200,
+    "span_type": "line",
+    "text": "Government Sector",
+    "conf": 99.81854248046875,
+    "bbox": {
+      "Width": 0.1175260990858078,
+      "Height": 0.009551766328513622,
+      "Left": 0.6996840238571167,
+      "Top": 0.6243276596069336
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 201,
+    "span_type": "line",
+    "text": "O-Others",
+    "conf": 99.314208984375,
+    "bbox": {
+      "Width": 0.056102652102708817,
+      "Height": 0.009308726526796818,
+      "Left": 0.2666066586971283,
+      "Top": 0.6414552927017212
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 202,
+    "span_type": "line",
+    "text": "Professional",
+    "conf": 99.95037078857422,
+    "bbox": {
+      "Width": 0.07354985922574997,
+      "Height": 0.00920013152062893,
+      "Left": 0.3591397702693939,
+      "Top": 0.641349196434021
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 203,
+    "span_type": "line",
+    "text": "Self Employed",
+    "conf": 99.9169921875,
+    "bbox": {
+      "Width": 0.08713667094707489,
+      "Height": 0.011652185581624508,
+      "Left": 0.4831540882587433,
+      "Top": 0.6409465074539185
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 204,
+    "span_type": "line",
+    "text": "O-Others",
+    "conf": 99.49317932128906,
+    "bbox": {
+      "Width": 0.05592802166938782,
+      "Height": 0.009202374145388603,
+      "Left": 0.6059089303016663,
+      "Top": 0.6408833265304565
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 205,
+    "span_type": "line",
+    "text": "Professional",
+    "conf": 99.93083953857422,
+    "bbox": {
+      "Width": 0.07474052160978317,
+      "Height": 0.009490643627941608,
+      "Left": 0.700528085231781,
+      "Top": 0.6405749320983887
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 206,
+    "span_type": "line",
+    "text": "Self Employed",
+    "conf": 99.88241577148438,
+    "bbox": {
+      "Width": 0.08839799463748932,
+      "Height": 0.011439538560807705,
+      "Left": 0.8257085680961609,
+      "Top": 0.6403870582580566
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 207,
+    "span_type": "line",
+    "text": "Retired",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.04364033415913582,
+      "Height": 0.00919415894895792,
+      "Left": 0.35997334122657776,
+      "Top": 0.6578138470649719
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 208,
+    "span_type": "line",
+    "text": "Housewife",
+    "conf": 99.7315444946289,
+    "bbox": {
+      "Width": 0.06411894410848618,
+      "Height": 0.009846770204603672,
+      "Left": 0.43165433406829834,
+      "Top": 0.6573725938796997
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 209,
+    "span_type": "line",
+    "text": "Retired",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.04365863651037216,
+      "Height": 0.009674630127847195,
+      "Left": 0.7022005915641785,
+      "Top": 0.6569120287895203
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 210,
+    "span_type": "line",
+    "text": "Housewife",
+    "conf": 99.57210540771484,
+    "bbox": {
+      "Width": 0.06349882483482361,
+      "Height": 0.009931297041475773,
+      "Left": 0.775060772895813,
+      "Top": 0.6566860675811768
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 211,
+    "span_type": "line",
+    "text": "B-Business",
+    "conf": 99.84295654296875,
+    "bbox": {
+      "Width": 0.06670615822076797,
+      "Height": 0.009309254586696625,
+      "Left": 0.2670147716999054,
+      "Top": 0.67351895570755
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 212,
+    "span_type": "line",
+    "text": "Politician",
+    "conf": 99.89098358154297,
+    "bbox": {
+      "Width": 0.05382970720529556,
+      "Height": 0.00936176534742117,
+      "Left": 0.35904422402381897,
+      "Top": 0.6734057068824768
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 213,
+    "span_type": "line",
+    "text": "B-Business",
+    "conf": 99.83238983154297,
+    "bbox": {
+      "Width": 0.06721609830856323,
+      "Height": 0.009489054791629314,
+      "Left": 0.6082057356834412,
+      "Top": 0.6728944778442383
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 214,
+    "span_type": "line",
+    "text": "Politician",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.05419443920254707,
+      "Height": 0.009474992752075195,
+      "Left": 0.7021397352218628,
+      "Top": 0.6727078557014465
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 215,
+    "span_type": "line",
+    "text": "X-Not Categorised",
+    "conf": 99.57479858398438,
+    "bbox": {
+      "Width": 0.11372324079275131,
+      "Height": 0.012399150989949703,
+      "Left": 0.26619815826416016,
+      "Top": 0.6899294257164001
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 216,
+    "span_type": "line",
+    "text": "X-Not Categorised",
+    "conf": 99.3640365600586,
+    "bbox": {
+      "Width": 0.11365800350904465,
+      "Height": 0.012183771468698978,
+      "Left": 0.6071416139602661,
+      "Top": 0.6894944906234741
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 217,
+    "span_type": "line",
+    "text": "Employer's Business",
+    "conf": 77.49182891845703,
+    "bbox": {
+      "Width": 0.13417576253414154,
+      "Height": 0.011595859192311764,
+      "Left": 0.048900991678237915,
+      "Top": 0.7184153199195862
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 218,
+    "span_type": "line",
+    "text": "INFOSYS Ltd, HOSUR",
+    "conf": 97.64628601074219,
+    "bbox": {
+      "Width": 0.2794908881187439,
+      "Height": 0.018857009708881378,
+      "Left": 0.24522773921489716,
+      "Top": 0.714024543762207
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 219,
+    "span_type": "line",
+    "text": "INFOSVS Ltd, HOSUR",
+    "conf": 98.23873138427734,
+    "bbox": {
+      "Width": 0.28441154956817627,
+      "Height": 0.020999981090426445,
+      "Left": 0.5886994004249573,
+      "Top": 0.7119874358177185
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 220,
+    "span_type": "line",
+    "text": "Name and Address",
+    "conf": 99.7265625,
+    "bbox": {
+      "Width": 0.11744622886180878,
+      "Height": 0.00965536292642355,
+      "Left": 0.048212260007858276,
+      "Top": 0.7307015061378479
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 221,
+    "span_type": "line",
+    "text": "ROAP, BENGALURU, 560100",
+    "conf": 83.68682098388672,
+    "bbox": {
+      "Width": 0.32464614510536194,
+      "Height": 0.018251117318868637,
+      "Left": 0.24787740409374237,
+      "Top": 0.7312213182449341
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 222,
+    "span_type": "line",
+    "text": "ROAP,BENGALURU,560100",
+    "conf": 64.72078704833984,
+    "bbox": {
+      "Width": 0.3346520662307739,
+      "Height": 0.0190426055341959,
+      "Left": 0.5905060172080994,
+      "Top": 0.7305075526237488
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 223,
+    "span_type": "line",
+    "text": "Designation of Applicant",
+    "conf": 99.92811584472656,
+    "bbox": {
+      "Width": 0.1489410251379013,
+      "Height": 0.012078414671123028,
+      "Left": 0.04670131951570511,
+      "Top": 0.7852932810783386
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 224,
+    "span_type": "line",
+    "text": "ANALYST",
+    "conf": 99.990234375,
+    "bbox": {
+      "Width": 0.11655174195766449,
+      "Height": 0.014740768820047379,
+      "Left": 0.24469511210918427,
+      "Top": 0.7826986312866211
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 225,
+    "span_type": "line",
+    "text": "ANALYST",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.11504901945590973,
+      "Height": 0.018045322969555855,
+      "Left": 0.592226505279541,
+      "Top": 0.7784674167633057
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 226,
+    "span_type": "line",
+    "text": "No of years of completed service/",
+    "conf": 99.90018463134766,
+    "bbox": {
+      "Width": 0.1939864605665207,
+      "Height": 0.011817306280136108,
+      "Left": 0.046038489788770676,
+      "Top": 0.8040440082550049
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 227,
+    "span_type": "line",
+    "text": "08",
+    "conf": 98.9758071899414,
+    "bbox": {
+      "Width": 0.026776889339089394,
+      "Height": 0.014472298324108124,
+      "Left": 0.24709059298038483,
+      "Top": 0.8083019256591797
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 228,
+    "span_type": "line",
+    "text": "12",
+    "conf": 99.53543853759766,
+    "bbox": {
+      "Width": 0.02694178745150566,
+      "Height": 0.01258859969675541,
+      "Left": 0.5955834984779358,
+      "Top": 0.8064966797828674
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 229,
+    "span_type": "line",
+    "text": "Total Work Experience",
+    "conf": 99.9216079711914,
+    "bbox": {
+      "Width": 0.13040727376937866,
+      "Height": 0.011120254173874855,
+      "Left": 0.04550378769636154,
+      "Top": 0.8159979581832886
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 230,
+    "span_type": "line",
+    "text": "Details of immediate",
+    "conf": 98.51754760742188,
+    "bbox": {
+      "Width": 0.12475240975618362,
+      "Height": 0.009936107322573662,
+      "Left": 0.045572295784950256,
+      "Top": 0.8328816890716553
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 231,
+    "span_type": "line",
+    "text": "Employment / Business details/",
+    "conf": 84.15383911132812,
+    "bbox": {
+      "Width": 0.19253027439117432,
+      "Height": 0.012762271799147129,
+      "Left": 0.04520474746823311,
+      "Top": 0.8446295857429504
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 232,
+    "span_type": "line",
+    "text": "Profession Details",
+    "conf": 99.814453125,
+    "bbox": {
+      "Width": 0.1105395033955574,
+      "Height": 0.0101236617192626,
+      "Left": 0.04543783515691757,
+      "Top": 0.8583310842514038
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 233,
+    "span_type": "line",
+    "text": "(Name / Address)",
+    "conf": 88.01329040527344,
+    "bbox": {
+      "Width": 0.10757295787334442,
+      "Height": 0.01258056703954935,
+      "Left": 0.04430636763572693,
+      "Top": 0.8706323504447937
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 234,
+    "span_type": "line",
+    "text": "Nature of Business/Profession",
+    "conf": 99.75532531738281,
+    "bbox": {
+      "Width": 0.18804238736629486,
+      "Height": 0.010862115770578384,
+      "Left": 0.043193183839321136,
+      "Top": 0.9010868072509766
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 235,
+    "span_type": "line",
+    "text": "Office Phone No",
+    "conf": 99.94791412353516,
+    "bbox": {
+      "Width": 0.1023612767457962,
+      "Height": 0.01066188421100378,
+      "Left": 0.04263067990541458,
+      "Top": 0.9205184578895569
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 236,
+    "span_type": "line",
+    "text": "08025567891",
+    "conf": 98.51622772216797,
+    "bbox": {
+      "Width": 0.17391715943813324,
+      "Height": 0.018628958612680435,
+      "Left": 0.24832576513290405,
+      "Top": 0.9171817302703857
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 237,
+    "span_type": "line",
+    "text": "Fax",
+    "conf": 99.912109375,
+    "bbox": {
+      "Width": 0.02395363338291645,
+      "Height": 0.010221590287983418,
+      "Left": 0.0424322709441185,
+      "Top": 0.940535843372345
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 238,
+    "span_type": "line",
+    "text": "Landline",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.05273173749446869,
+      "Height": 0.0102324727922678,
+      "Left": 0.04149177297949791,
+      "Top": 0.9584433436393738
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 239,
+    "span_type": "line",
+    "text": "Email",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.03518429771065712,
+      "Height": 0.01040254719555378,
+      "Left": 0.04110758379101753,
+      "Top": 0.9764454364776611
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 3,
+    "span_id": 240,
+    "span_type": "line",
+    "text": "hr@infosys.com",
+    "conf": 99.49398040771484,
+    "bbox": {
+      "Width": 0.21760858595371246,
+      "Height": 0.025111356750130653,
+      "Left": 0.2455677092075348,
+      "Top": 0.9688539505004883
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 241,
+    "span_type": "line",
+    "text": "S",
+    "conf": 85.77566528320312,
+    "bbox": {
+      "Width": 0.03919654339551926,
+      "Height": 0.03420194983482361,
+      "Left": 0.39623433351516724,
+      "Top": 0.01745549403131008
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 242,
+    "span_type": "line",
+    "text": "Shinhan Bank",
+    "conf": 99.96542358398438,
+    "bbox": {
+      "Width": 0.230786994099617,
+      "Height": 0.022076738998293877,
+      "Left": 0.45198145508766174,
+      "Top": 0.020989514887332916
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 243,
+    "span_type": "line",
+    "text": "INSTRUCTIONS",
+    "conf": 99.990234375,
+    "bbox": {
+      "Width": 0.12169770896434784,
+      "Height": 0.010007253848016262,
+      "Left": 0.0903080627322197,
+      "Top": 0.08880995959043503
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 244,
+    "span_type": "line",
+    "text": "1",
+    "conf": 99.76483154296875,
+    "bbox": {
+      "Width": 0.005947983358055353,
+      "Height": 0.009112990461289883,
+      "Left": 0.10795047879219055,
+      "Top": 0.12213026732206345
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 245,
+    "span_type": "line",
+    "text": "Please write all the information in BLOCK LETTER.",
+    "conf": 99.88996124267578,
+    "bbox": {
+      "Width": 0.3655085861682892,
+      "Height": 0.013250038959085941,
+      "Left": 0.15548963844776154,
+      "Top": 0.11889173090457916
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 246,
+    "span_type": "line",
+    "text": "2",
+    "conf": 99.912109375,
+    "bbox": {
+      "Width": 0.009435676038265228,
+      "Height": 0.008992241695523262,
+      "Left": 0.10516059398651123,
+      "Top": 0.15012048184871674
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 247,
+    "span_type": "line",
+    "text": "Please do not overwrite nor use correction fluid. Please cancel and re-write with due authentication.",
+    "conf": 99.93279266357422,
+    "bbox": {
+      "Width": 0.7109761834144592,
+      "Height": 0.016159413382411003,
+      "Left": 0.15398354828357697,
+      "Top": 0.14346465468406677
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 248,
+    "span_type": "line",
+    "text": "3",
+    "conf": 99.892578125,
+    "bbox": {
+      "Width": 0.009436511434614658,
+      "Height": 0.009371784515678883,
+      "Left": 0.10374489426612854,
+      "Top": 0.17789815366268158
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 249,
+    "span_type": "line",
+    "text": "Tick or Fill in the box wherever applicable.",
+    "conf": 99.92219543457031,
+    "bbox": {
+      "Width": 0.30023860931396484,
+      "Height": 0.012308415956795216,
+      "Left": 0.1518104374408722,
+      "Top": 0.17547811567783356
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 250,
+    "span_type": "line",
+    "text": "4",
+    "conf": 99.88201141357422,
+    "bbox": {
+      "Width": 0.010022412985563278,
+      "Height": 0.009059499949216843,
+      "Left": 0.10203805565834045,
+      "Top": 0.2058190554380417
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 251,
+    "span_type": "line",
+    "text": "All details must be filled in, please write NA if not applicable.",
+    "conf": 99.7505111694336,
+    "bbox": {
+      "Width": 0.42931199073791504,
+      "Height": 0.013640373013913631,
+      "Left": 0.15033520758152008,
+      "Top": 0.20185646414756775
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 252,
+    "span_type": "line",
+    "text": "5",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.009380284696817398,
+      "Height": 0.009196312166750431,
+      "Left": 0.10087548941373825,
+      "Top": 0.2337837815284729
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 253,
+    "span_type": "line",
+    "text": "Please add supplementary application form if there is more than one co-applicant for the loan.",
+    "conf": 98.9669418334961,
+    "bbox": {
+      "Width": 0.6722090244293213,
+      "Height": 0.016826756298542023,
+      "Left": 0.1497252881526947,
+      "Top": 0.22730408608913422
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 254,
+    "span_type": "line",
+    "text": "6",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.009503291919827461,
+      "Height": 0.00930850487202406,
+      "Left": 0.09944622963666916,
+      "Top": 0.26168093085289
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 255,
+    "span_type": "line",
+    "text": "Please ensure that all the documents are self-attested by the applicants.",
+    "conf": 99.96257019042969,
+    "bbox": {
+      "Width": 0.5186280012130737,
+      "Height": 0.013384782709181309,
+      "Left": 0.1478554904460907,
+      "Top": 0.25732702016830444
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 256,
+    "span_type": "line",
+    "text": "Salaried",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.0634179562330246,
+      "Height": 0.010390265844762325,
+      "Left": 0.08095628768205643,
+      "Top": 0.3221701383590698
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 257,
+    "span_type": "line",
+    "text": "Self Employed Professional / Non Professional",
+    "conf": 97.27366638183594,
+    "bbox": {
+      "Width": 0.36452752351760864,
+      "Height": 0.013899804092943668,
+      "Left": 0.5433812141418457,
+      "Top": 0.31753140687942505
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 258,
+    "span_type": "line",
+    "text": "Duly Filled Application Form with Photograph",
+    "conf": 98.95916748046875,
+    "bbox": {
+      "Width": 0.24854587018489838,
+      "Height": 0.011728010140359402,
+      "Left": 0.07399894297122955,
+      "Top": 0.35180148482322693
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 259,
+    "span_type": "line",
+    "text": "Duly Filled Application Form with Photograph",
+    "conf": 99.5403823852539,
+    "bbox": {
+      "Width": 0.2505056858062744,
+      "Height": 0.012280466966331005,
+      "Left": 0.5488443970680237,
+      "Top": 0.34924113750457764
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 260,
+    "span_type": "line",
+    "text": "Age Proof (PAN Card, Passport and Aadhar Card)",
+    "conf": 99.85466003417969,
+    "bbox": {
+      "Width": 0.2777301073074341,
+      "Height": 0.012023628689348698,
+      "Left": 0.07161134481430054,
+      "Top": 0.3765321969985962
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 261,
+    "span_type": "line",
+    "text": "Age Proof (PAN Card, Passport and Aadhar Card)",
+    "conf": 99.8719482421875,
+    "bbox": {
+      "Width": 0.27944672107696533,
+      "Height": 0.011955340392887592,
+      "Left": 0.5473778247833252,
+      "Top": 0.3747533857822418
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 262,
+    "span_type": "line",
+    "text": "Residence Proof Passport, Voter ID Card, Driving Licence, Aadhar Card, Utility Bill",
+    "conf": 99.53307342529297,
+    "bbox": {
+      "Width": 0.4565865695476532,
+      "Height": 0.01207674015313387,
+      "Left": 0.0705280750989914,
+      "Top": 0.3990245759487152
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 263,
+    "span_type": "line",
+    "text": "Residence Proof Passport, Voter ID Card, Driving Licence, Aadhar Card, Utility Bill",
+    "conf": 99.74853515625,
+    "bbox": {
+      "Width": 0.4312606453895569,
+      "Height": 0.01130383275449276,
+      "Left": 0.5471940040588379,
+      "Top": 0.39709725975990295
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 264,
+    "span_type": "line",
+    "text": "(Electricity Bill, Telephone Bill-Max-3 Months) Leave & Licence Agreement.",
+    "conf": 99.6024398803711,
+    "bbox": {
+      "Width": 0.41408464312553406,
+      "Height": 0.011610343120992184,
+      "Left": 0.06996604055166245,
+      "Top": 0.4097283184528351
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 265,
+    "span_type": "line",
+    "text": "(Electricity Bill, Telephone Bill-Max-3 Months) Leave & Licence Agreement.",
+    "conf": 99.45771026611328,
+    "bbox": {
+      "Width": 0.3916996717453003,
+      "Height": 0.011886388063430786,
+      "Left": 0.5471409559249878,
+      "Top": 0.4074021279811859
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 266,
+    "span_type": "line",
+    "text": "Educational Qualification Proof (Latest Degree)",
+    "conf": 99.88592529296875,
+    "bbox": {
+      "Width": 0.26217547059059143,
+      "Height": 0.010955440811812878,
+      "Left": 0.06800471991300583,
+      "Top": 0.4341050386428833
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 267,
+    "span_type": "line",
+    "text": "Educational Qualification Proof - Latest Degree (for Professionals)",
+    "conf": 98.21747589111328,
+    "bbox": {
+      "Width": 0.36737361550331116,
+      "Height": 0.011045180261135101,
+      "Left": 0.5465928912162781,
+      "Top": 0.43173542618751526
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 268,
+    "span_type": "line",
+    "text": "Latest 3 Months Salary Slip",
+    "conf": 99.51953125,
+    "bbox": {
+      "Width": 0.153303325176239,
+      "Height": 0.010366410948336124,
+      "Left": 0.06620707362890244,
+      "Top": 0.4597659707069397
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 269,
+    "span_type": "line",
+    "text": "Certificate & Acceptable Proof of business existence along with Business Profile",
+    "conf": 99.7305679321289,
+    "bbox": {
+      "Width": 0.42884933948516846,
+      "Height": 0.011009673587977886,
+      "Left": 0.5450147390365601,
+      "Top": 0.4565190076828003
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 270,
+    "span_type": "line",
+    "text": "Form 16 for last 2 years",
+    "conf": 99.8974609375,
+    "bbox": {
+      "Width": 0.13288825750350952,
+      "Height": 0.010200385004281998,
+      "Left": 0.06483466178178787,
+      "Top": 0.4848686158657074
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 271,
+    "span_type": "line",
+    "text": "Last 3 year Income Tax returns (Self & Business) with Profit & Loss Account &",
+    "conf": 99.30452728271484,
+    "bbox": {
+      "Width": 0.4168528914451599,
+      "Height": 0.011545310728251934,
+      "Left": 0.5444871783256531,
+      "Top": 0.4807785749435425
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 272,
+    "span_type": "line",
+    "text": "Balance Sheet duly certificate / audited by Chartered Accountant",
+    "conf": 98.25334167480469,
+    "bbox": {
+      "Width": 0.3477608859539032,
+      "Height": 0.011100281029939651,
+      "Left": 0.5444064736366272,
+      "Top": 0.49223649501800537
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 273,
+    "span_type": "line",
+    "text": "Last 06 months Bank Statements (Salary Account)",
+    "conf": 99.92723083496094,
+    "bbox": {
+      "Width": 0.2824445068836212,
+      "Height": 0.011040247045457363,
+      "Left": 0.06297536194324493,
+      "Top": 0.5172408223152161
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 274,
+    "span_type": "line",
+    "text": "Last 06 months bank Account Statements.",
+    "conf": 99.92622375488281,
+    "bbox": {
+      "Width": 0.23790518939495087,
+      "Height": 0.009504292160272598,
+      "Left": 0.5432431697845459,
+      "Top": 0.5152727961540222
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 275,
+    "span_type": "line",
+    "text": "Processing Free Cheque in favour of \"Shinhan Bank Ltd.\"",
+    "conf": 98.35233306884766,
+    "bbox": {
+      "Width": 0.32110893726348877,
+      "Height": 0.011406942270696163,
+      "Left": 0.06176932528614998,
+      "Top": 0.541754424571991
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 276,
+    "span_type": "line",
+    "text": "Processing Free Cheque in favour of \"Shinhan Bank Ltd.\"",
+    "conf": 96.76066589355469,
+    "bbox": {
+      "Width": 0.321930855512619,
+      "Height": 0.011330806650221348,
+      "Left": 0.5429188013076782,
+      "Top": 0.5398859977722168
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 277,
+    "span_type": "line",
+    "text": "(Processing Fees Not Acceptable in Cash)",
+    "conf": 99.9244613647461,
+    "bbox": {
+      "Width": 0.23738858103752136,
+      "Height": 0.011393360793590546,
+      "Left": 0.06119448319077492,
+      "Top": 0.5533466935157776
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 278,
+    "span_type": "line",
+    "text": "(Processing Fees Not Acceptable in Cash)",
+    "conf": 99.90467071533203,
+    "bbox": {
+      "Width": 0.23870442807674408,
+      "Height": 0.011354389600455761,
+      "Left": 0.5424222350120544,
+      "Top": 0.5512056946754456
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 279,
+    "span_type": "line",
+    "text": "Employment Continuity Proof",
+    "conf": 99.96745300292969,
+    "bbox": {
+      "Width": 0.1638142466545105,
+      "Height": 0.011106052435934544,
+      "Left": 0.059862975031137466,
+      "Top": 0.578324019908905
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 280,
+    "span_type": "line",
+    "text": "KYC for Guarantor",
+    "conf": 99.95767974853516,
+    "bbox": {
+      "Width": 0.10632125288248062,
+      "Height": 0.008931934833526611,
+      "Left": 0.5413761138916016,
+      "Top": 0.5764490962028503
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 281,
+    "span_type": "line",
+    "text": "Copy of Income Tax Returns for last two years with IT acknowledgment",
+    "conf": 99.76225280761719,
+    "bbox": {
+      "Width": 0.39839595556259155,
+      "Height": 0.011969726532697678,
+      "Left": 0.05772285908460617,
+      "Top": 0.6059399247169495
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 282,
+    "span_type": "line",
+    "text": "Copy of ID card issued by existing employer, visiting card",
+    "conf": 99.96858978271484,
+    "bbox": {
+      "Width": 0.3207826614379883,
+      "Height": 0.011902878060936928,
+      "Left": 0.055904608219861984,
+      "Top": 0.6345254778862
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 283,
+    "span_type": "line",
+    "text": "KYC for Guarantor",
+    "conf": 99.92134857177734,
+    "bbox": {
+      "Width": 0.10533229261636734,
+      "Height": 0.009261565282940865,
+      "Left": 0.05454716458916664,
+      "Top": 0.6647483706474304
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 4,
+    "span_id": 284,
+    "span_type": "line",
+    "text": "All documents have to be self-attested.",
+    "conf": 99.93110656738281,
+    "bbox": {
+      "Width": 0.2206517904996872,
+      "Height": 0.00912506878376007,
+      "Left": 0.4036232531070709,
+      "Top": 0.6917029023170471
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 285,
+    "span_type": "line",
+    "text": "S",
+    "conf": 86.8125228881836,
+    "bbox": {
+      "Width": 0.03714797645807266,
+      "Height": 0.03213333338499069,
+      "Left": 0.3733830451965332,
+      "Top": 0.007272570393979549
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 286,
+    "span_type": "line",
+    "text": "Shinhan Bank",
+    "conf": 99.98046875,
+    "bbox": {
+      "Width": 0.2002323418855667,
+      "Height": 0.018241774290800095,
+      "Left": 0.42378494143486023,
+      "Top": 0.013927296735346317
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 287,
+    "span_type": "line",
+    "text": "PART II FINANCIAL DETAILS",
+    "conf": 98.07601928710938,
+    "bbox": {
+      "Width": 0.21474617719650269,
+      "Height": 0.01186341606080532,
+      "Left": 0.389900267124176,
+      "Top": 0.061999596655368805
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 288,
+    "span_type": "line",
+    "text": "PARTICULARS",
+    "conf": 99.892578125,
+    "bbox": {
+      "Width": 0.08878396451473236,
+      "Height": 0.008549126796424389,
+      "Left": 0.13509869575500488,
+      "Top": 0.10173280537128448
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 289,
+    "span_type": "line",
+    "text": "APPLICANT",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.07221129536628723,
+      "Height": 0.00935096200555563,
+      "Left": 0.2846064567565918,
+      "Top": 0.09945724159479141
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 290,
+    "span_type": "line",
+    "text": "Income Details (Monthly)",
+    "conf": 99.64012908935547,
+    "bbox": {
+      "Width": 0.13712094724178314,
+      "Height": 0.010382724925875664,
+      "Left": 0.10884224623441696,
+      "Top": 0.1284755915403366
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 291,
+    "span_type": "line",
+    "text": "Particulars",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.059373512864112854,
+      "Height": 0.008743243291974068,
+      "Left": 0.2813032567501068,
+      "Top": 0.12643086910247803
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 292,
+    "span_type": "line",
+    "text": "Amount (Rupees)",
+    "conf": 99.76522827148438,
+    "bbox": {
+      "Width": 0.09906312823295593,
+      "Height": 0.01097240298986435,
+      "Left": 0.7801353335380554,
+      "Top": 0.1210094466805458
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 293,
+    "span_type": "line",
+    "text": "Gross Monthly Income",
+    "conf": 99.30278778076172,
+    "bbox": {
+      "Width": 0.11861611902713776,
+      "Height": 0.01049721147865057,
+      "Left": 0.28064391016960144,
+      "Top": 0.14345389604568481
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 294,
+    "span_type": "line",
+    "text": "120000",
+    "conf": 90.81253814697266,
+    "bbox": {
+      "Width": 0.06760979443788528,
+      "Height": 0.012774372473359108,
+      "Left": 0.7850773334503174,
+      "Top": 0.1382119208574295
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 295,
+    "span_type": "line",
+    "text": "Deductions from Monthly Income",
+    "conf": 99.65117645263672,
+    "bbox": {
+      "Width": 0.17299529910087585,
+      "Height": 0.010621748864650726,
+      "Left": 0.2804121673107147,
+      "Top": 0.1584591418504715
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 296,
+    "span_type": "line",
+    "text": "10000",
+    "conf": 96.2669448852539,
+    "bbox": {
+      "Width": 0.05422959104180336,
+      "Height": 0.01335855945944786,
+      "Left": 0.7887482047080994,
+      "Top": 0.15713942050933838
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 297,
+    "span_type": "line",
+    "text": "Net Monthly Income",
+    "conf": 99.57230377197266,
+    "bbox": {
+      "Width": 0.10546358674764633,
+      "Height": 0.010382293723523617,
+      "Left": 0.2798805832862854,
+      "Top": 0.17597006261348724
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 298,
+    "span_type": "line",
+    "text": "110 0000",
+    "conf": 42.693119049072266,
+    "bbox": {
+      "Width": 0.06956552714109421,
+      "Height": 0.013943290337920189,
+      "Left": 0.7928149700164795,
+      "Top": 0.17254899442195892
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 299,
+    "span_type": "line",
+    "text": "Provident Fund Contribution",
+    "conf": 99.7824935913086,
+    "bbox": {
+      "Width": 0.14782333374023438,
+      "Height": 0.010168359614908695,
+      "Left": 0.2794587016105652,
+      "Top": 0.19106651842594147
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 300,
+    "span_type": "line",
+    "text": "50 000",
+    "conf": 95.99330139160156,
+    "bbox": {
+      "Width": 0.052473679184913635,
+      "Height": 0.014156085439026356,
+      "Left": 0.7938758134841919,
+      "Top": 0.18744492530822754
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 301,
+    "span_type": "line",
+    "text": "Any other monthly Income",
+    "conf": 99.42910766601562,
+    "bbox": {
+      "Width": 0.13886071741580963,
+      "Height": 0.011454205960035324,
+      "Left": 0.2781742215156555,
+      "Top": 0.20760226249694824
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 302,
+    "span_type": "line",
+    "text": "5000",
+    "conf": 99.83159637451172,
+    "bbox": {
+      "Width": 0.03634097799658775,
+      "Height": 0.0121085736900568,
+      "Left": 0.7980992197990417,
+      "Top": 0.2045825719833374
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 303,
+    "span_type": "line",
+    "text": "Expenses Details (Monthly)",
+    "conf": 99.59449005126953,
+    "bbox": {
+      "Width": 0.15221168100833893,
+      "Height": 0.011740220710635185,
+      "Left": 0.10384006798267365,
+      "Top": 0.22737492620944977
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 304,
+    "span_type": "line",
+    "text": "Particulars",
+    "conf": 99.84215545654297,
+    "bbox": {
+      "Width": 0.06004694476723671,
+      "Height": 0.009075123816728592,
+      "Left": 0.27769798040390015,
+      "Top": 0.22601892054080963
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 305,
+    "span_type": "line",
+    "text": "Amount (Rupees)",
+    "conf": 99.74569702148438,
+    "bbox": {
+      "Width": 0.10112666338682175,
+      "Height": 0.011786183342337608,
+      "Left": 0.782874584197998,
+      "Top": 0.2206607460975647
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 306,
+    "span_type": "line",
+    "text": "Monthly Household fixed Expenses",
+    "conf": 99.87528991699219,
+    "bbox": {
+      "Width": 0.18718579411506653,
+      "Height": 0.011772748082876205,
+      "Left": 0.277274489402771,
+      "Top": 0.2430286556482315
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 307,
+    "span_type": "line",
+    "text": "25 000",
+    "conf": 86.61750793457031,
+    "bbox": {
+      "Width": 0.061029233038425446,
+      "Height": 0.01372132170945406,
+      "Left": 0.7906883358955383,
+      "Top": 0.23917478322982788
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 308,
+    "span_type": "line",
+    "text": "Existing EMI",
+    "conf": 99.88729858398438,
+    "bbox": {
+      "Width": 0.06646663695573807,
+      "Height": 0.010639507323503494,
+      "Left": 0.2770130932331085,
+      "Top": 0.2606794834136963
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 309,
+    "span_type": "line",
+    "text": "8000",
+    "conf": 99.59402465820312,
+    "bbox": {
+      "Width": 0.04194777458906174,
+      "Height": 0.013757959939539433,
+      "Left": 0.8011938333511353,
+      "Top": 0.25677382946014404
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 310,
+    "span_type": "line",
+    "text": "LIC / Other saving obligations",
+    "conf": 96.5068588256836,
+    "bbox": {
+      "Width": 0.15780149400234222,
+      "Height": 0.010942000895738602,
+      "Left": 0.2764045298099518,
+      "Top": 0.27675727009773254
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 311,
+    "span_type": "line",
+    "text": "3000",
+    "conf": 99.921875,
+    "bbox": {
+      "Width": 0.043983202427625656,
+      "Height": 0.013109640218317509,
+      "Left": 0.7928922772407532,
+      "Top": 0.27308139204978943
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 312,
+    "span_type": "line",
+    "text": "Existing Personal Loan (EMI)",
+    "conf": 99.82138061523438,
+    "bbox": {
+      "Width": 0.15593717992305756,
+      "Height": 0.011193615384399891,
+      "Left": 0.2758599519729614,
+      "Top": 0.29341351985931396
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 313,
+    "span_type": "line",
+    "text": "24000",
+    "conf": 99.73394012451172,
+    "bbox": {
+      "Width": 0.06177004799246788,
+      "Height": 0.01613699458539486,
+      "Left": 0.7903903126716614,
+      "Top": 0.28908461332321167
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 314,
+    "span_type": "line",
+    "text": "Other monthly expenses",
+    "conf": 99.84700775146484,
+    "bbox": {
+      "Width": 0.1315196305513382,
+      "Height": 0.010823062621057034,
+      "Left": 0.2750767469406128,
+      "Top": 0.31053802371025085
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 315,
+    "span_type": "line",
+    "text": "15 000.",
+    "conf": 44.59263229370117,
+    "bbox": {
+      "Width": 0.04324200376868248,
+      "Height": 0.013606133870780468,
+      "Left": 0.7947859168052673,
+      "Top": 0.30274996161460876
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 316,
+    "span_type": "line",
+    "text": "Assets Information",
+    "conf": 99.14700317382812,
+    "bbox": {
+      "Width": 0.1045537069439888,
+      "Height": 0.00977170281112194,
+      "Left": 0.09869786351919174,
+      "Top": 0.33068349957466125
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 317,
+    "span_type": "line",
+    "text": "Particulars",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.06126769632101059,
+      "Height": 0.009496062062680721,
+      "Left": 0.2747238874435425,
+      "Top": 0.32865801453590393
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 318,
+    "span_type": "line",
+    "text": "Amount (Rupees)",
+    "conf": 99.7009506225586,
+    "bbox": {
+      "Width": 0.10303714871406555,
+      "Height": 0.011479402892291546,
+      "Left": 0.7853100895881653,
+      "Top": 0.32388514280319214
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 319,
+    "span_type": "line",
+    "text": "Existing Immovable property",
+    "conf": 99.78900909423828,
+    "bbox": {
+      "Width": 0.15358486771583557,
+      "Height": 0.01148646418005228,
+      "Left": 0.2747111916542053,
+      "Top": 0.34759724140167236
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 320,
+    "span_type": "line",
+    "text": "55 00 000",
+    "conf": 91.52104949951172,
+    "bbox": {
+      "Width": 0.09730563312768936,
+      "Height": 0.01594199612736702,
+      "Left": 0.7793788909912109,
+      "Top": 0.3409208655357361
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 321,
+    "span_type": "line",
+    "text": "Motor vehicle",
+    "conf": 99.60897827148438,
+    "bbox": {
+      "Width": 0.07314296811819077,
+      "Height": 0.008856818079948425,
+      "Left": 0.27412399649620056,
+      "Top": 0.3646557927131653
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 322,
+    "span_type": "line",
+    "text": "800000",
+    "conf": 99.77220153808594,
+    "bbox": {
+      "Width": 0.07314014434814453,
+      "Height": 0.016351982951164246,
+      "Left": 0.7802004218101501,
+      "Top": 0.35971489548683167
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 323,
+    "span_type": "line",
+    "text": "Fixed Deposits",
+    "conf": 99.6923828125,
+    "bbox": {
+      "Width": 0.08150467276573181,
+      "Height": 0.011261703446507454,
+      "Left": 0.2739356458187103,
+      "Top": 0.3812742829322815
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 324,
+    "span_type": "line",
+    "text": "200000",
+    "conf": 99.75426483154297,
+    "bbox": {
+      "Width": 0.06597303599119186,
+      "Height": 0.014538838528096676,
+      "Left": 0.7802913188934326,
+      "Top": 0.37478458881378174
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 325,
+    "span_type": "line",
+    "text": "Cash/ Bank balances",
+    "conf": 96.015625,
+    "bbox": {
+      "Width": 0.11566361784934998,
+      "Height": 0.009533734060823917,
+      "Left": 0.27362650632858276,
+      "Top": 0.39853960275650024
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 326,
+    "span_type": "line",
+    "text": "150,000",
+    "conf": 99.27515411376953,
+    "bbox": {
+      "Width": 0.0683247521519661,
+      "Height": 0.015342074446380138,
+      "Left": 0.7809367775917053,
+      "Top": 0.3921591639518738
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 327,
+    "span_type": "line",
+    "text": "Investments",
+    "conf": 99.0344009399414,
+    "bbox": {
+      "Width": 0.06646595150232315,
+      "Height": 0.008996078744530678,
+      "Left": 0.27347785234451294,
+      "Top": 0.41589415073394775
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 328,
+    "span_type": "line",
+    "text": "350000",
+    "conf": 93.94292449951172,
+    "bbox": {
+      "Width": 0.07660242170095444,
+      "Height": 0.016536958515644073,
+      "Left": 0.7798279523849487,
+      "Top": 0.41152629256248474
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 329,
+    "span_type": "line",
+    "text": "Balance in PF / PPF",
+    "conf": 96.65963745117188,
+    "bbox": {
+      "Width": 0.11017090827226639,
+      "Height": 0.00907210074365139,
+      "Left": 0.27346962690353394,
+      "Top": 0.43302011489868164
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 330,
+    "span_type": "line",
+    "text": "400 000",
+    "conf": 96.42717742919922,
+    "bbox": {
+      "Width": 0.0691942349076271,
+      "Height": 0.01505192369222641,
+      "Left": 0.7813170552253723,
+      "Top": 0.43222910165786743
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 331,
+    "span_type": "line",
+    "text": "Any other Asset",
+    "conf": 99.85677337646484,
+    "bbox": {
+      "Width": 0.08761240541934967,
+      "Height": 0.010425442829728127,
+      "Left": 0.272883802652359,
+      "Top": 0.4504911005496979
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 332,
+    "span_type": "line",
+    "text": "100 000",
+    "conf": 91.34227752685547,
+    "bbox": {
+      "Width": 0.07182639092206955,
+      "Height": 0.016221363097429276,
+      "Left": 0.7825255393981934,
+      "Top": 0.44943252205848694
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 333,
+    "span_type": "line",
+    "text": "Liability Information:",
+    "conf": 99.63957214355469,
+    "bbox": {
+      "Width": 0.11628235876560211,
+      "Height": 0.01086434442549944,
+      "Left": 0.09163325279951096,
+      "Top": 0.4726572036743164
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 334,
+    "span_type": "line",
+    "text": "1. Existing Loans",
+    "conf": 99.81771087646484,
+    "bbox": {
+      "Width": 0.09890443831682205,
+      "Height": 0.01052155252546072,
+      "Left": 0.09186023473739624,
+      "Top": 0.49151283502578735
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 335,
+    "span_type": "line",
+    "text": "Loan Type",
+    "conf": 99.84375,
+    "bbox": {
+      "Width": 0.06127798184752464,
+      "Height": 0.010692168958485126,
+      "Left": 0.28004005551338196,
+      "Top": 0.4915257692337036
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 336,
+    "span_type": "line",
+    "text": "Amount",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.045980215072631836,
+      "Height": 0.008630200289189816,
+      "Left": 0.37967273592948914,
+      "Top": 0.4915388524532318
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 337,
+    "span_type": "line",
+    "text": "Date",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.027215907350182533,
+      "Height": 0.00860215350985527,
+      "Left": 0.4805852174758911,
+      "Top": 0.49118953943252563
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 338,
+    "span_type": "line",
+    "text": "O/S",
+    "conf": 99.87145233154297,
+    "bbox": {
+      "Width": 0.022941548377275467,
+      "Height": 0.009017064236104488,
+      "Left": 0.5740039348602295,
+      "Top": 0.49070215225219727
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 339,
+    "span_type": "line",
+    "text": "EMI",
+    "conf": 99.92107391357422,
+    "bbox": {
+      "Width": 0.023551294580101967,
+      "Height": 0.008810958825051785,
+      "Left": 0.6654857993125916,
+      "Top": 0.4899865388870239
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 340,
+    "span_type": "line",
+    "text": "Bal Tenure",
+    "conf": 99.79332733154297,
+    "bbox": {
+      "Width": 0.0633188858628273,
+      "Height": 0.008774436078965664,
+      "Left": 0.7387995719909668,
+      "Top": 0.4893852472305298
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 341,
+    "span_type": "line",
+    "text": "Bank IFSC",
+    "conf": 99.4140625,
+    "bbox": {
+      "Width": 0.06575183570384979,
+      "Height": 0.009447256103157997,
+      "Left": 0.832777202129364,
+      "Top": 0.48804938793182373
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 342,
+    "span_type": "line",
+    "text": "credit",
+    "conf": 75.79141235351562,
+    "bbox": {
+      "Width": 0.06274126470088959,
+      "Height": 0.016278961673378944,
+      "Left": 0.2676358222961426,
+      "Top": 0.5052504539489746
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 343,
+    "span_type": "line",
+    "text": "ENF",
+    "conf": 80.04045104980469,
+    "bbox": {
+      "Width": 0.04288521781563759,
+      "Height": 0.013077390380203724,
+      "Left": 0.30702653527259827,
+      "Top": 0.5158161520957947
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 344,
+    "span_type": "line",
+    "text": "80000",
+    "conf": 99.921875,
+    "bbox": {
+      "Width": 0.050335634499788284,
+      "Height": 0.014024592004716396,
+      "Left": 0.3772605359554291,
+      "Top": 0.5123229026794434
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 345,
+    "span_type": "line",
+    "text": "05-2024",
+    "conf": 95.37567138671875,
+    "bbox": {
+      "Width": 0.06938232481479645,
+      "Height": 0.012416847050189972,
+      "Left": 0.46947917342185974,
+      "Top": 0.514078676700592
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 346,
+    "span_type": "line",
+    "text": "60000",
+    "conf": 99.87145233154297,
+    "bbox": {
+      "Width": 0.05676939710974693,
+      "Height": 0.01737755723297596,
+      "Left": 0.5631950497627258,
+      "Top": 0.5098517537117004
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 347,
+    "span_type": "line",
+    "text": "8000",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.039747703820466995,
+      "Height": 0.016613919287919998,
+      "Left": 0.653377890586853,
+      "Top": 0.5062333941459656
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 348,
+    "span_type": "line",
+    "text": "8",
+    "conf": 99.85271453857422,
+    "bbox": {
+      "Width": 0.013675481081008911,
+      "Height": 0.01340480986982584,
+      "Left": 0.7566137313842773,
+      "Top": 0.5098075270652771
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 349,
+    "span_type": "line",
+    "text": "HDF HDF C000123.",
+    "conf": 52.114158630371094,
+    "bbox": {
+      "Width": 0.11997752636671066,
+      "Height": 0.018853485584259033,
+      "Left": 0.817798912525177,
+      "Top": 0.5065765976905823
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 350,
+    "span_type": "line",
+    "text": "2. Loans from Relatives /",
+    "conf": 98.78766632080078,
+    "bbox": {
+      "Width": 0.15024085342884064,
+      "Height": 0.009296637959778309,
+      "Left": 0.08838906139135361,
+      "Top": 0.5939587950706482
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 351,
+    "span_type": "line",
+    "text": "Particulars",
+    "conf": 99.92107391357422,
+    "bbox": {
+      "Width": 0.06227494403719902,
+      "Height": 0.008758634328842163,
+      "Left": 0.27079764008522034,
+      "Top": 0.5935970544815063
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 352,
+    "span_type": "line",
+    "text": "Amount (Rupees)",
+    "conf": 99.7119140625,
+    "bbox": {
+      "Width": 0.10208481550216675,
+      "Height": 0.011147676967084408,
+      "Left": 0.47662726044654846,
+      "Top": 0.5914416909217834
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 353,
+    "span_type": "line",
+    "text": "Particulars",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.06154371798038483,
+      "Height": 0.008754588663578033,
+      "Left": 0.598188042640686,
+      "Top": 0.5923587083816528
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 354,
+    "span_type": "line",
+    "text": "Amount (Rupees)",
+    "conf": 99.78475952148438,
+    "bbox": {
+      "Width": 0.10587165504693985,
+      "Height": 0.011196047998964787,
+      "Left": 0.800787091255188,
+      "Top": 0.5906246304512024
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 355,
+    "span_type": "line",
+    "text": "Friends (if any)",
+    "conf": 99.43631744384766,
+    "bbox": {
+      "Width": 0.08713410794734955,
+      "Height": 0.010746601037681103,
+      "Left": 0.10675591230392456,
+      "Top": 0.6058393716812134
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 356,
+    "span_type": "line",
+    "text": "Name of relative",
+    "conf": 99.90885162353516,
+    "bbox": {
+      "Width": 0.08975108712911606,
+      "Height": 0.009177008643746376,
+      "Left": 0.2708459496498108,
+      "Top": 0.6124247312545776
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 357,
+    "span_type": "line",
+    "text": "Rott IT",
+    "conf": 81.13241577148438,
+    "bbox": {
+      "Width": 0.07346781343221664,
+      "Height": 0.01872880384325981,
+      "Left": 0.4769341051578522,
+      "Top": 0.6097673177719116
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 358,
+    "span_type": "line",
+    "text": "Name of relative",
+    "conf": 99.88580322265625,
+    "bbox": {
+      "Width": 0.09006094932556152,
+      "Height": 0.009215948171913624,
+      "Left": 0.5982035398483276,
+      "Top": 0.6111275553703308
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 359,
+    "span_type": "line",
+    "text": "Relationship",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.06811103969812393,
+      "Height": 0.01030623447149992,
+      "Left": 0.2703968584537506,
+      "Top": 0.6315449476242065
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 360,
+    "span_type": "line",
+    "text": "FRIEND",
+    "conf": 99.64445495605469,
+    "bbox": {
+      "Width": 0.0991581454873085,
+      "Height": 0.01876811310648918,
+      "Left": 0.47814539074897766,
+      "Top": 0.6288884878158569
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 361,
+    "span_type": "line",
+    "text": "Relationship",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.06779932230710983,
+      "Height": 0.010775867849588394,
+      "Left": 0.5982263088226318,
+      "Top": 0.6303284168243408
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 362,
+    "span_type": "line",
+    "text": "Secured/Unsecured",
+    "conf": 99.77458953857422,
+    "bbox": {
+      "Width": 0.10934679210186005,
+      "Height": 0.00901204627007246,
+      "Left": 0.269612193107605,
+      "Top": 0.6501331329345703
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 363,
+    "span_type": "line",
+    "text": "UNSECURED",
+    "conf": 99.35486602783203,
+    "bbox": {
+      "Width": 0.11743476241827011,
+      "Height": 0.014822150580585003,
+      "Left": 0.4718085527420044,
+      "Top": 0.6491429805755615
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 364,
+    "span_type": "line",
+    "text": "Secured/Unsecured",
+    "conf": 99.775390625,
+    "bbox": {
+      "Width": 0.10912776738405228,
+      "Height": 0.009316795505583286,
+      "Left": 0.5982146263122559,
+      "Top": 0.6491292119026184
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 365,
+    "span_type": "line",
+    "text": "Particulars",
+    "conf": 99.93083953857422,
+    "bbox": {
+      "Width": 0.062360551208257675,
+      "Height": 0.008702962659299374,
+      "Left": 0.26891836524009705,
+      "Top": 0.672328770160675
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 366,
+    "span_type": "line",
+    "text": "Amount (Rupees)",
+    "conf": 99.8388671875,
+    "bbox": {
+      "Width": 0.10272308439016342,
+      "Height": 0.011780860833823681,
+      "Left": 0.47626370191574097,
+      "Top": 0.6697860956192017
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 367,
+    "span_type": "line",
+    "text": "Particulars",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.06220797821879387,
+      "Height": 0.009084710851311684,
+      "Left": 0.598360002040863,
+      "Top": 0.6710312962532043
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 368,
+    "span_type": "line",
+    "text": "Amount (Rupees)",
+    "conf": 99.8486328125,
+    "bbox": {
+      "Width": 0.10547789186239243,
+      "Height": 0.011082680895924568,
+      "Left": 0.8022613525390625,
+      "Top": 0.6703678965568542
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 369,
+    "span_type": "line",
+    "text": "Loan amount",
+    "conf": 99.833984375,
+    "bbox": {
+      "Width": 0.07292210310697556,
+      "Height": 0.008871871046721935,
+      "Left": 0.26837968826293945,
+      "Top": 0.6923105120658875
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 370,
+    "span_type": "line",
+    "text": "50000",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.0593179352581501,
+      "Height": 0.013662988319993019,
+      "Left": 0.4701618254184723,
+      "Top": 0.6909949779510498
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 371,
+    "span_type": "line",
+    "text": "Loan amount",
+    "conf": 99.86328125,
+    "bbox": {
+      "Width": 0.073356993496418,
+      "Height": 0.008948109112679958,
+      "Left": 0.5981340408325195,
+      "Top": 0.6908401846885681
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 372,
+    "span_type": "line",
+    "text": "Balance Loan",
+    "conf": 99.86288452148438,
+    "bbox": {
+      "Width": 0.07630186527967453,
+      "Height": 0.009169618599116802,
+      "Left": 0.26783570647239685,
+      "Top": 0.7111212015151978
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 373,
+    "span_type": "line",
+    "text": "70000",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.07123172283172607,
+      "Height": 0.015328099951148033,
+      "Left": 0.466041624546051,
+      "Top": 0.7094029784202576
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 374,
+    "span_type": "line",
+    "text": "Balance Loan",
+    "conf": 99.90682983398438,
+    "bbox": {
+      "Width": 0.07623853534460068,
+      "Height": 0.00930667296051979,
+      "Left": 0.5984234809875488,
+      "Top": 0.7098062038421631
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 375,
+    "span_type": "line",
+    "text": "Balance tenor",
+    "conf": 99.88729858398438,
+    "bbox": {
+      "Width": 0.07788865268230438,
+      "Height": 0.009094493463635445,
+      "Left": 0.2672780156135559,
+      "Top": 0.7306544780731201
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 376,
+    "span_type": "line",
+    "text": "Balance tenor",
+    "conf": 99.85271453857422,
+    "bbox": {
+      "Width": 0.07778661698102951,
+      "Height": 0.009597428143024445,
+      "Left": 0.598515510559082,
+      "Top": 0.7291660904884338
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 377,
+    "span_type": "line",
+    "text": "Details of Existing Bankers",
+    "conf": 99.9267578125,
+    "bbox": {
+      "Width": 0.1547684371471405,
+      "Height": 0.011532572098076344,
+      "Left": 0.08600343763828278,
+      "Top": 0.7484591603279114
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 378,
+    "span_type": "line",
+    "text": "Name",
+    "conf": 99.990234375,
+    "bbox": {
+      "Width": 0.03560556098818779,
+      "Height": 0.008715999312698841,
+      "Left": 0.2969842255115509,
+      "Top": 0.7483228445053101
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 379,
+    "span_type": "line",
+    "text": "Address",
+    "conf": 100.0,
+    "bbox": {
+      "Width": 0.04937771335244179,
+      "Height": 0.00904766470193863,
+      "Left": 0.41150468587875366,
+      "Top": 0.7471832633018494
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 380,
+    "span_type": "line",
+    "text": "Type of account",
+    "conf": 99.88606262207031,
+    "bbox": {
+      "Width": 0.09398758411407471,
+      "Height": 0.011517167091369629,
+      "Left": 0.5154079794883728,
+      "Top": 0.7465572953224182
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 381,
+    "span_type": "line",
+    "text": "Account No",
+    "conf": 99.8974609375,
+    "bbox": {
+      "Width": 0.06924298405647278,
+      "Height": 0.009346251375973225,
+      "Left": 0.6262334585189819,
+      "Top": 0.7471140623092651
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 382,
+    "span_type": "line",
+    "text": "Balance in the",
+    "conf": 99.86600494384766,
+    "bbox": {
+      "Width": 0.08476943522691727,
+      "Height": 0.009632628411054611,
+      "Left": 0.7241154909133911,
+      "Top": 0.7473583221435547
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 383,
+    "span_type": "line",
+    "text": "No of years",
+    "conf": 99.80741119384766,
+    "bbox": {
+      "Width": 0.0686848983168602,
+      "Height": 0.011419487185776234,
+      "Left": 0.8296868205070496,
+      "Top": 0.747242271900177
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 384,
+    "span_type": "line",
+    "text": "Current / Saving",
+    "conf": 93.8033447265625,
+    "bbox": {
+      "Width": 0.09538836032152176,
+      "Height": 0.011322196573019028,
+      "Left": 0.5146493911743164,
+      "Top": 0.7589072585105896
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 385,
+    "span_type": "line",
+    "text": "account on",
+    "conf": 99.8095703125,
+    "bbox": {
+      "Width": 0.0657166913151741,
+      "Height": 0.008397405967116356,
+      "Left": 0.7335889935493469,
+      "Top": 0.7593070864677429
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 386,
+    "span_type": "line",
+    "text": "banking with",
+    "conf": 99.931640625,
+    "bbox": {
+      "Width": 0.07504871487617493,
+      "Height": 0.010928137227892876,
+      "Left": 0.8263837695121765,
+      "Top": 0.7582436800003052
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 387,
+    "span_type": "line",
+    "text": "application date",
+    "conf": 99.6522216796875,
+    "bbox": {
+      "Width": 0.0936937928199768,
+      "Height": 0.010923236608505249,
+      "Left": 0.7198790311813354,
+      "Top": 0.7692047953605652
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 388,
+    "span_type": "line",
+    "text": "existing bank",
+    "conf": 99.83318328857422,
+    "bbox": {
+      "Width": 0.07971946895122528,
+      "Height": 0.01115671917796135,
+      "Left": 0.8250084519386292,
+      "Top": 0.7688984870910645
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 389,
+    "span_type": "line",
+    "text": "HDFC",
+    "conf": 63.32170867919922,
+    "bbox": {
+      "Width": 0.06491176038980484,
+      "Height": 0.017238957807421684,
+      "Left": 0.2668975591659546,
+      "Top": 0.7886179089546204
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 390,
+    "span_type": "line",
+    "text": "INDIRANAN",
+    "conf": 33.883331298828125,
+    "bbox": {
+      "Width": 0.14222782850265503,
+      "Height": 0.024804577231407166,
+      "Left": 0.3761563003063202,
+      "Top": 0.7819125652313232
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 391,
+    "span_type": "line",
+    "text": "SAVINGS",
+    "conf": 99.41167449951172,
+    "bbox": {
+      "Width": 0.08539097756147385,
+      "Height": 0.016324225813150406,
+      "Left": 0.5237177014350891,
+      "Top": 0.7852946519851685
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 392,
+    "span_type": "line",
+    "text": "501002839",
+    "conf": 99.87145233154297,
+    "bbox": {
+      "Width": 0.08163528889417648,
+      "Height": 0.014114925637841225,
+      "Left": 0.6181264519691467,
+      "Top": 0.7843909859657288
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 393,
+    "span_type": "line",
+    "text": "150000",
+    "conf": 85.61543273925781,
+    "bbox": {
+      "Width": 0.06830385327339172,
+      "Height": 0.014621395617723465,
+      "Left": 0.7316381931304932,
+      "Top": 0.7840885519981384
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 394,
+    "span_type": "line",
+    "text": "6 YEARS",
+    "conf": 40.7606201171875,
+    "bbox": {
+      "Width": 0.0807913988828659,
+      "Height": 0.020720897242426872,
+      "Left": 0.83281409740448,
+      "Top": 0.7824663519859314
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 395,
+    "span_type": "line",
+    "text": "Details of charges",
+    "conf": 99.94791412353516,
+    "bbox": {
+      "Width": 0.10509540140628815,
+      "Height": 0.011707223951816559,
+      "Left": 0.08339133858680725,
+      "Top": 0.8767347931861877
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 396,
+    "span_type": "line",
+    "text": "Please refer our website: https://in.shinhanglobal.com, for details on charges and fees.",
+    "conf": 99.41168975830078,
+    "bbox": {
+      "Width": 0.5058565735816956,
+      "Height": 0.012407144531607628,
+      "Left": 0.2686282694339752,
+      "Top": 0.8780058026313782
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 397,
+    "span_type": "line",
+    "text": "(i.e. processing fees,",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.12085322290658951,
+      "Height": 0.011717059649527073,
+      "Left": 0.0831638053059578,
+      "Top": 0.8873677849769592
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 398,
+    "span_type": "line",
+    "text": "prepayment charges and",
+    "conf": 99.96419525146484,
+    "bbox": {
+      "Width": 0.14566193521022797,
+      "Height": 0.01078701764345169,
+      "Left": 0.0827280655503273,
+      "Top": 0.8991864323616028
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 399,
+    "span_type": "line",
+    "text": "other charges, if any)",
+    "conf": 99.80937194824219,
+    "bbox": {
+      "Width": 0.12378416955471039,
+      "Height": 0.011690315790474415,
+      "Left": 0.08211103826761246,
+      "Top": 0.9093229174613953
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 400,
+    "span_type": "line",
+    "text": "4",
+    "conf": 99.22772216796875,
+    "bbox": {
+      "Width": 0.00955225620418787,
+      "Height": 0.010188041254878044,
+      "Left": 0.07050292938947678,
+      "Top": 0.9672535061836243
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 5,
+    "span_id": 401,
+    "span_type": "line",
+    "text": "Extend Your Financial Network™",
+    "conf": 95.94921112060547,
+    "bbox": {
+      "Width": 0.2682837247848511,
+      "Height": 0.018379317596554756,
+      "Left": 0.6378768086433411,
+      "Top": 0.9664093255996704
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 402,
+    "span_type": "line",
+    "text": "S",
+    "conf": 85.55773162841797,
+    "bbox": {
+      "Width": 0.04027794301509857,
+      "Height": 0.03391523286700249,
+      "Left": 0.37357786297798157,
+      "Top": 0.0261873546987772
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 403,
+    "span_type": "line",
+    "text": "Shinhan Bank",
+    "conf": 99.9853515625,
+    "bbox": {
+      "Width": 0.214194193482399,
+      "Height": 0.022147348150610924,
+      "Left": 0.42720845341682434,
+      "Top": 0.03339839354157448
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 404,
+    "span_type": "line",
+    "text": "PART III LOAN DETAILS",
+    "conf": 99.84236145019531,
+    "bbox": {
+      "Width": 0.19138211011886597,
+      "Height": 0.013019834645092487,
+      "Left": 0.4109225571155548,
+      "Top": 0.08526185154914856
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 405,
+    "span_type": "line",
+    "text": "PURPOSE OF LOAN",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.14822359383106232,
+      "Height": 0.013536520302295685,
+      "Left": 0.09055785834789276,
+      "Top": 0.12128562480211258
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 406,
+    "span_type": "line",
+    "text": "Details of Loans",
+    "conf": 99.93814849853516,
+    "bbox": {
+      "Width": 0.09881461411714554,
+      "Height": 0.011949881911277771,
+      "Left": 0.08740226924419403,
+      "Top": 0.14699316024780273
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 407,
+    "span_type": "line",
+    "text": "Particulars",
+    "conf": 99.990234375,
+    "bbox": {
+      "Width": 0.06377463042736053,
+      "Height": 0.009751730598509312,
+      "Left": 0.2770547866821289,
+      "Top": 0.17129233479499817
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 408,
+    "span_type": "line",
+    "text": "Amount (Rupees)",
+    "conf": 99.89218139648438,
+    "bbox": {
+      "Width": 0.10609598457813263,
+      "Height": 0.012190490029752254,
+      "Left": 0.8143447041511536,
+      "Top": 0.17526178061962128
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 409,
+    "span_type": "line",
+    "text": "Loan requested from Bank- Rupees",
+    "conf": 99.41474151611328,
+    "bbox": {
+      "Width": 0.20160210132598877,
+      "Height": 0.012407719157636166,
+      "Left": 0.276678204536438,
+      "Top": 0.18989123404026031
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 410,
+    "span_type": "line",
+    "text": "7,50,000",
+    "conf": 98.80001831054688,
+    "bbox": {
+      "Width": 0.10227066278457642,
+      "Height": 0.01943754218518734,
+      "Left": 0.8091489672660828,
+      "Top": 0.1964617520570755
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 411,
+    "span_type": "line",
+    "text": "Maximum Tenor/Term",
+    "conf": 99.04685974121094,
+    "bbox": {
+      "Width": 0.1230907291173935,
+      "Height": 0.010142002254724503,
+      "Left": 0.2767934799194336,
+      "Top": 0.212250217795372
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 412,
+    "span_type": "line",
+    "text": "36MONTHS",
+    "conf": 97.10220336914062,
+    "bbox": {
+      "Width": 0.12077615410089493,
+      "Height": 0.017518125474452972,
+      "Left": 0.8079320788383484,
+      "Top": 0.21759963035583496
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 413,
+    "span_type": "line",
+    "text": "Preferred Rate of Interest",
+    "conf": 99.80982208251953,
+    "bbox": {
+      "Width": 0.1445605307817459,
+      "Height": 0.010317958891391754,
+      "Left": 0.27694860100746155,
+      "Top": 0.23488521575927734
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 414,
+    "span_type": "line",
+    "text": "Fixed Rate / Floating Rate",
+    "conf": 97.63700103759766,
+    "bbox": {
+      "Width": 0.14875243604183197,
+      "Height": 0.011944000609219074,
+      "Left": 0.27691444754600525,
+      "Top": 0.2574736475944519
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 415,
+    "span_type": "line",
+    "text": "FLOATING",
+    "conf": 99.8046875,
+    "bbox": {
+      "Width": 0.11959989368915558,
+      "Height": 0.019326437264680862,
+      "Left": 0.805734395980835,
+      "Top": 0.25925830006599426
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 416,
+    "span_type": "line",
+    "text": "Preferred EMI (For Rs.1 Lakhs)",
+    "conf": 99.34342956542969,
+    "bbox": {
+      "Width": 0.17816700041294098,
+      "Height": 0.012321613729000092,
+      "Left": 0.2769930064678192,
+      "Top": 0.2801617681980133
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 417,
+    "span_type": "line",
+    "text": "3200 PaLAKH",
+    "conf": 88.0947036743164,
+    "bbox": {
+      "Width": 0.1713455319404602,
+      "Height": 0.021714933216571808,
+      "Left": 0.8087770342826843,
+      "Top": 0.28116559982299805
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 418,
+    "span_type": "line",
+    "text": "Security offered",
+    "conf": 99.9658203125,
+    "bbox": {
+      "Width": 0.0903649777173996,
+      "Height": 0.011819197796285152,
+      "Left": 0.27689507603645325,
+      "Top": 0.3028079569339752
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 419,
+    "span_type": "line",
+    "text": "UNSECURED",
+    "conf": 99.52407836914062,
+    "bbox": {
+      "Width": 0.1350041925907135,
+      "Height": 0.021348338574171066,
+      "Left": 0.805683970451355,
+      "Top": 0.3039989471435547
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 420,
+    "span_type": "line",
+    "text": "Deduction of monthly EMI by",
+    "conf": 99.91796875,
+    "bbox": {
+      "Width": 0.17518320679664612,
+      "Height": 0.013427027501165867,
+      "Left": 0.08705194294452667,
+      "Top": 0.3228279948234558
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 421,
+    "span_type": "line",
+    "text": "1. Standing Instructions",
+    "conf": 96.88602447509766,
+    "bbox": {
+      "Width": 0.13416588306427002,
+      "Height": 0.011867067776620388,
+      "Left": 0.27733200788497925,
+      "Top": 0.3261954188346863
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 422,
+    "span_type": "line",
+    "text": "(Select the applicable option)",
+    "conf": 99.93388366699219,
+    "bbox": {
+      "Width": 0.17619460821151733,
+      "Height": 0.013632058165967464,
+      "Left": 0.08707569539546967,
+      "Top": 0.33466482162475586
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 423,
+    "span_type": "line",
+    "text": "2. Electronic Clearance Service (ECS)",
+    "conf": 99.953125,
+    "bbox": {
+      "Width": 0.21754980087280273,
+      "Height": 0.012655137106776237,
+      "Left": 0.27672550082206726,
+      "Top": 0.34253889322280884
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 424,
+    "span_type": "line",
+    "text": "ECS",
+    "conf": 99.93083953857422,
+    "bbox": {
+      "Width": 0.0505613349378109,
+      "Height": 0.017469465732574463,
+      "Left": 0.8245643377304077,
+      "Top": 0.33388552069664
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 425,
+    "span_type": "line",
+    "text": "3. Post Dated Cheque (PDC)",
+    "conf": 99.90804290771484,
+    "bbox": {
+      "Width": 0.16600754857063293,
+      "Height": 0.012506644241511822,
+      "Left": 0.2768339514732361,
+      "Top": 0.3590390086174011
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 426,
+    "span_type": "line",
+    "text": "Purpose of Loan (select the",
+    "conf": 99.93359375,
+    "bbox": {
+      "Width": 0.1691766381263733,
+      "Height": 0.012427411042153835,
+      "Left": 0.08626557886600494,
+      "Top": 0.3980158865451813
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 427,
+    "span_type": "line",
+    "text": "Purchase of Consumer Durable (Electronic) goods / Medical Expenses / Marriage Expenses /",
+    "conf": 95.53028106689453,
+    "bbox": {
+      "Width": 0.5651686787605286,
+      "Height": 0.01566557213664055,
+      "Left": 0.27739062905311584,
+      "Top": 0.40026941895484924
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 428,
+    "span_type": "line",
+    "text": "appropriate option)",
+    "conf": 99.9853515625,
+    "bbox": {
+      "Width": 0.11712376028299332,
+      "Height": 0.012511149980127811,
+      "Left": 0.08605720102787018,
+      "Top": 0.4104623794555664
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 429,
+    "span_type": "line",
+    "text": "Higher Education / Others (please specify) ELECTRONICS GOODS",
+    "conf": 97.73967742919922,
+    "bbox": {
+      "Width": 0.5413058996200562,
+      "Height": 0.024273831397294998,
+      "Left": 0.27729377150535583,
+      "Top": 0.4135538339614868
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 430,
+    "span_type": "line",
+    "text": "Disbursement instruction",
+    "conf": 99.5078353881836,
+    "bbox": {
+      "Width": 0.152033269405365,
+      "Height": 0.011004641652107239,
+      "Left": 0.08555451780557632,
+      "Top": 0.44384512305259705
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 431,
+    "span_type": "line",
+    "text": "I hereby request Shinhan Bank to credit the loan amount in my saving account/",
+    "conf": 97.81285858154297,
+    "bbox": {
+      "Width": 0.479653924703598,
+      "Height": 0.014500311575829983,
+      "Left": 0.27731820940971375,
+      "Top": 0.44622334837913513
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 432,
+    "span_type": "line",
+    "text": "current account No 501002839 maintained with INDTRANAGAR",
+    "conf": 98.63007354736328,
+    "bbox": {
+      "Width": 0.5794354677200317,
+      "Height": 0.020914200693368912,
+      "Left": 0.2771129310131073,
+      "Top": 0.45800378918647766
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 433,
+    "span_type": "line",
+    "text": "Branch.",
+    "conf": 99.88201141357422,
+    "bbox": {
+      "Width": 0.046888887882232666,
+      "Height": 0.009340223856270313,
+      "Left": 0.9040141701698303,
+      "Top": 0.4664929211139679
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 434,
+    "span_type": "line",
+    "text": "I further authorize the Bank to deduct the applicable charges, fees, taxes, stamp duty etc.,",
+    "conf": 99.83964538574219,
+    "bbox": {
+      "Width": 0.5416784882545471,
+      "Height": 0.015076198615133762,
+      "Left": 0.277358740568161,
+      "Top": 0.48633241653442383
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 435,
+    "span_type": "line",
+    "text": "from the gross loan amount disbursed.",
+    "conf": 99.9425048828125,
+    "bbox": {
+      "Width": 0.23372361063957214,
+      "Height": 0.011926211416721344,
+      "Left": 0.2767906188964844,
+      "Top": 0.5006335377693176
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 436,
+    "span_type": "line",
+    "text": "SOURCING",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.0945410430431366,
+      "Height": 0.012617334723472595,
+      "Left": 0.46638864278793335,
+      "Top": 0.5365057587623596
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 437,
+    "span_type": "line",
+    "text": "RM Name :",
+    "conf": 97.1484375,
+    "bbox": {
+      "Width": 0.07045861333608627,
+      "Height": 0.009959346614778042,
+      "Left": 0.08170071244239807,
+      "Top": 0.5862659215927124
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 438,
+    "span_type": "line",
+    "text": "SANJAY VERMA",
+    "conf": 99.78645324707031,
+    "bbox": {
+      "Width": 0.23298883438110352,
+      "Height": 0.02236912027001381,
+      "Left": 0.19100993871688843,
+      "Top": 0.578280508518219
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 439,
+    "span_type": "line",
+    "text": "RM Employee ID: 10245",
+    "conf": 99.33712768554688,
+    "bbox": {
+      "Width": 0.21797390282154083,
+      "Height": 0.016045063734054565,
+      "Left": 0.6633349061012268,
+      "Top": 0.5870058536529541
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 440,
+    "span_type": "line",
+    "text": "DSA:",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.032852694392204285,
+      "Height": 0.009920324198901653,
+      "Left": 0.08130449801683426,
+      "Top": 0.6146928071975708
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 441,
+    "span_type": "line",
+    "text": "Branch:",
+    "conf": 99.93083953857422,
+    "bbox": {
+      "Width": 0.048660263419151306,
+      "Height": 0.010134118609130383,
+      "Left": 0.08081182837486267,
+      "Top": 0.6431519985198975
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 442,
+    "span_type": "line",
+    "text": "INDIRANAGAR",
+    "conf": 98.11323547363281,
+    "bbox": {
+      "Width": 0.24901795387268066,
+      "Height": 0.02029651775956154,
+      "Left": 0.1754254400730133,
+      "Top": 0.6347794532775879
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 443,
+    "span_type": "line",
+    "text": "Walk In Customers:",
+    "conf": 98.98882293701172,
+    "bbox": {
+      "Width": 0.12304612994194031,
+      "Height": 0.010441554710268974,
+      "Left": 0.07974742352962494,
+      "Top": 0.6719183325767517
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 444,
+    "span_type": "line",
+    "text": "Yes",
+    "conf": 99.794921875,
+    "bbox": {
+      "Width": 0.02437693625688553,
+      "Height": 0.009971190243959427,
+      "Left": 0.24123282730579376,
+      "Top": 0.6726509928703308
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 445,
+    "span_type": "line",
+    "text": "No",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.018648015335202217,
+      "Height": 0.009484468027949333,
+      "Left": 0.30372655391693115,
+      "Top": 0.673209011554718
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 6,
+    "span_id": 446,
+    "span_type": "line",
+    "text": "Others:",
+    "conf": 99.990234375,
+    "bbox": {
+      "Width": 0.046565525233745575,
+      "Height": 0.010025149211287498,
+      "Left": 0.07954610884189606,
+      "Top": 0.7008362412452698
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 447,
+    "span_type": "line",
+    "text": "Shinhan Bank",
+    "conf": 99.990234375,
+    "bbox": {
+      "Width": 0.20700030028820038,
+      "Height": 0.01954471692442894,
+      "Left": 0.40480515360832214,
+      "Top": 0.02596997655928135
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 448,
+    "span_type": "line",
+    "text": "PART IV- DECLARATION FROM APPLICANT",
+    "conf": 99.44483947753906,
+    "bbox": {
+      "Width": 0.3383958637714386,
+      "Height": 0.01078125275671482,
+      "Left": 0.3131103515625,
+      "Top": 0.07622428238391876
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 449,
+    "span_type": "line",
+    "text": "1.",
+    "conf": 99.67693328857422,
+    "bbox": {
+      "Width": 0.012024417519569397,
+      "Height": 0.01023368164896965,
+      "Left": 0.07616904377937317,
+      "Top": 0.11234322935342789
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 450,
+    "span_type": "line",
+    "text": "I declare that all the particulars and information given in the application form are true, correct and complete and updated in all",
+    "conf": 97.62798309326172,
+    "bbox": {
+      "Width": 0.7818781137466431,
+      "Height": 0.011917074210941792,
+      "Left": 0.1084277331829071,
+      "Top": 0.11223247647285461
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 451,
+    "span_type": "line",
+    "text": "respects and I have not withheld any information while making this application.",
+    "conf": 96.26103210449219,
+    "bbox": {
+      "Width": 0.4775552451610565,
+      "Height": 0.01183679886162281,
+      "Left": 0.10951069742441177,
+      "Top": 0.12436135113239288
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 452,
+    "span_type": "line",
+    "text": "2.",
+    "conf": 99.8828125,
+    "bbox": {
+      "Width": 0.012611323967576027,
+      "Height": 0.008875195868313313,
+      "Left": 0.07575716078281403,
+      "Top": 0.1418789178133011
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 453,
+    "span_type": "line",
+    "text": "I confirm that there are no Insolvency proceedings against men or have ever been adjudicated Insolvent and further confirm that",
+    "conf": 98.3676528930664,
+    "bbox": {
+      "Width": 0.7836781740188599,
+      "Height": 0.012054071761667728,
+      "Left": 0.10858947783708572,
+      "Top": 0.1409376561641693
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 454,
+    "span_type": "line",
+    "text": "have read the terms and conditions applicable to this loan and understood the contents.",
+    "conf": 99.9146728515625,
+    "bbox": {
+      "Width": 0.5333895683288574,
+      "Height": 0.011651124805212021,
+      "Left": 0.10963499546051025,
+      "Top": 0.15324631333351135
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 455,
+    "span_type": "line",
+    "text": "3.",
+    "conf": 99.873046875,
+    "bbox": {
+      "Width": 0.0123102106153965,
+      "Height": 0.00908271037042141,
+      "Left": 0.07610946893692017,
+      "Top": 0.17061710357666016
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 456,
+    "span_type": "line",
+    "text": "I understand and agree that the processing fees are non-refundable and my application being rejected by the Shinhan Bank for",
+    "conf": 99.67317962646484,
+    "bbox": {
+      "Width": 0.7856183648109436,
+      "Height": 0.011974499560892582,
+      "Left": 0.10847942531108856,
+      "Top": 0.16981101036071777
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 457,
+    "span_type": "line",
+    "text": "any reason whatsoever, or the same being with drawn by me, I shall not be entitled for refund of the same either in part or in full.",
+    "conf": 98.90802764892578,
+    "bbox": {
+      "Width": 0.7681138515472412,
+      "Height": 0.011907489970326424,
+      "Left": 0.10968814790248871,
+      "Top": 0.18191158771514893
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 458,
+    "span_type": "line",
+    "text": "4. I am aware that the repayments are by way of Equated Monthly Installments (EMIs) comprising principal and interest and are",
+    "conf": 99.5880126953125,
+    "bbox": {
+      "Width": 0.8187073469161987,
+      "Height": 0.011867309920489788,
+      "Left": 0.07597706466913223,
+      "Top": 0.1987377256155014
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 459,
+    "span_type": "line",
+    "text": "calculated on the basis of monthly interests.",
+    "conf": 99.89351654052734,
+    "bbox": {
+      "Width": 0.2694149613380432,
+      "Height": 0.011899255216121674,
+      "Left": 0.1094701737165451,
+      "Top": 0.21090325713157654
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 460,
+    "span_type": "line",
+    "text": "5.",
+    "conf": 99.873046875,
+    "bbox": {
+      "Width": 0.012192972004413605,
+      "Height": 0.00920635461807251,
+      "Left": 0.0764416828751564,
+      "Top": 0.22858528792858124
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 461,
+    "span_type": "line",
+    "text": "I confirm having read the terms and conditions governing the loans from Shinhan Bank. I will use the loan for the purpose",
+    "conf": 99.1466064453125,
+    "bbox": {
+      "Width": 0.7880198359489441,
+      "Height": 0.011720757000148296,
+      "Left": 0.10870680958032608,
+      "Top": 0.2277664691209793
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 462,
+    "span_type": "line",
+    "text": "mentioned in the application form and will not use for speculative purpose or any other prohibited purpose.",
+    "conf": 99.87554931640625,
+    "bbox": {
+      "Width": 0.6498029828071594,
+      "Height": 0.011773589067161083,
+      "Left": 0.10991121828556061,
+      "Top": 0.24003836512565613
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 463,
+    "span_type": "line",
+    "text": "6.",
+    "conf": 99.853515625,
+    "bbox": {
+      "Width": 0.012429970316588879,
+      "Height": 0.009189536795020103,
+      "Left": 0.07643499225378036,
+      "Top": 0.2576780915260315
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 464,
+    "span_type": "line",
+    "text": "I acknowledge that the Shinhan Bank remains entitled to assign any activities to any third party, agency at its sole discretion. I",
+    "conf": 98.0093765258789,
+    "bbox": {
+      "Width": 0.7891546487808228,
+      "Height": 0.012435222044587135,
+      "Left": 0.10865288227796555,
+      "Top": 0.2565191686153412
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 465,
+    "span_type": "line",
+    "text": "further acknowledge the right of the Shinhan Bank to provide details of my account to third party agencies for the purpose of",
+    "conf": 99.92971801757812,
+    "bbox": {
+      "Width": 0.7903505563735962,
+      "Height": 0.012994305230677128,
+      "Left": 0.10932672768831253,
+      "Top": 0.26836714148521423
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 466,
+    "span_type": "line",
+    "text": "availing support services of any nature by the Bank, without any specific consent or authorisation from me.",
+    "conf": 99.86166381835938,
+    "bbox": {
+      "Width": 0.6515729427337646,
+      "Height": 0.012125851586461067,
+      "Left": 0.11013719439506531,
+      "Top": 0.2811645567417145
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 467,
+    "span_type": "line",
+    "text": "7. I have read, understood and acknowledge and agree that Shinhan Bank may refer my name to credit referencing agency/les",
+    "conf": 97.85105895996094,
+    "bbox": {
+      "Width": 0.8216509222984314,
+      "Height": 0.012545967474579811,
+      "Left": 0.07902812212705612,
+      "Top": 0.2978762090206146
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 468,
+    "span_type": "line",
+    "text": "and/or make such references and enquiries as they may consider necessary. I hereby authorize to disclose such information",
+    "conf": 99.63825225830078,
+    "bbox": {
+      "Width": 0.7914361357688904,
+      "Height": 0.012293096631765366,
+      "Left": 0.1101536825299263,
+      "Top": 0.31030750274658203
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 469,
+    "span_type": "line",
+    "text": "relating to my credit facility to such parties as deemed necessary at the sole discretion of the Shinhan Bank. Further, I have read,",
+    "conf": 99.35939025878906,
+    "bbox": {
+      "Width": 0.7912107706069946,
+      "Height": 0.012350421398878098,
+      "Left": 0.11053113639354706,
+      "Top": 0.3224008083343506
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 470,
+    "span_type": "line",
+    "text": "understood, acknowledge and agree that a request and demand from any authority under the statutory law will be mandatorily",
+    "conf": 99.88878631591797,
+    "bbox": {
+      "Width": 0.7928463816642761,
+      "Height": 0.012464586645364761,
+      "Left": 0.11037799715995789,
+      "Top": 0.33475708961486816
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 471,
+    "span_type": "line",
+    "text": "complied with by the Shinhan Bank.",
+    "conf": 99.92147827148438,
+    "bbox": {
+      "Width": 0.22160881757736206,
+      "Height": 0.01195598766207695,
+      "Left": 0.11057258397340775,
+      "Top": 0.3475947380065918
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 472,
+    "span_type": "line",
+    "text": "8.",
+    "conf": 99.84375,
+    "bbox": {
+      "Width": 0.012463824823498726,
+      "Height": 0.009244726970791817,
+      "Left": 0.07694870978593826,
+      "Top": 0.3654792010784149
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 473,
+    "span_type": "line",
+    "text": "I undertake to inform Shinhan Bank regarding change in my employment/residential address and to provide any further",
+    "conf": 99.44169616699219,
+    "bbox": {
+      "Width": 0.795315146446228,
+      "Height": 0.012625609524548054,
+      "Left": 0.10998880118131638,
+      "Top": 0.3643018901348114
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 474,
+    "span_type": "line",
+    "text": "information that the bank may require.",
+    "conf": 95.15564727783203,
+    "bbox": {
+      "Width": 0.23610392212867737,
+      "Height": 0.011760068126022816,
+      "Left": 0.11076240241527557,
+      "Top": 0.37722066044807434
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 475,
+    "span_type": "line",
+    "text": "9.",
+    "conf": 99.912109375,
+    "bbox": {
+      "Width": 0.012545349076390266,
+      "Height": 0.009715914726257324,
+      "Left": 0.07701463252305984,
+      "Top": 0.394396036863327
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 476,
+    "span_type": "line",
+    "text": "I also understand that the sanction of the loan is subject to execution of documents as per Bank's requirements. I agree to",
+    "conf": 99.48735046386719,
+    "bbox": {
+      "Width": 0.7964898943901062,
+      "Height": 0.012022394686937332,
+      "Left": 0.10963927209377289,
+      "Top": 0.3943868577480316
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 477,
+    "span_type": "line",
+    "text": "execute the necessary documents before the loan is availed.",
+    "conf": 99.89674377441406,
+    "bbox": {
+      "Width": 0.37662050127983093,
+      "Height": 0.011776106432080269,
+      "Left": 0.11094296723604202,
+      "Top": 0.40683990716934204
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 478,
+    "span_type": "line",
+    "text": "10. I undertake to pay the Bank all the charges applicable to the Loan as per Schedule of Charges as applicable from time to time.",
+    "conf": 99.7686767578125,
+    "bbox": {
+      "Width": 0.8061467409133911,
+      "Height": 0.012118380516767502,
+      "Left": 0.07746759057044983,
+      "Top": 0.4240689277648926
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 479,
+    "span_type": "line",
+    "text": "Signature of Applicant",
+    "conf": 99.92486572265625,
+    "bbox": {
+      "Width": 0.14429928362369537,
+      "Height": 0.011881154961884022,
+      "Left": 0.07677845656871796,
+      "Top": 0.489702969789505
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 480,
+    "span_type": "line",
+    "text": "Signature of Co-Applicant / Guarantor",
+    "conf": 96.201171875,
+    "bbox": {
+      "Width": 0.24538153409957886,
+      "Height": 0.011783204041421413,
+      "Left": 0.5941392183303833,
+      "Top": 0.4898422658443451
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 481,
+    "span_type": "line",
+    "text": "Name Yaswith",
+    "conf": 64.16852569580078,
+    "bbox": {
+      "Width": 0.16308104991912842,
+      "Height": 0.03365321829915047,
+      "Left": 0.07665622234344482,
+      "Top": 0.5129217505455017
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 482,
+    "span_type": "line",
+    "text": "Name",
+    "conf": 99.9609375,
+    "bbox": {
+      "Width": 0.039151933044195175,
+      "Height": 0.009521715342998505,
+      "Left": 0.5958373546600342,
+      "Top": 0.5265622138977051
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 483,
+    "span_type": "line",
+    "text": "Unite",
+    "conf": 20.213298797607422,
+    "bbox": {
+      "Width": 0.09822580963373184,
+      "Height": 0.026243651285767555,
+      "Left": 0.6863019466400146,
+      "Top": 0.5157158970832825
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 484,
+    "span_type": "line",
+    "text": "Place",
+    "conf": 99.951171875,
+    "bbox": {
+      "Width": 0.036491796374320984,
+      "Height": 0.010080183856189251,
+      "Left": 0.07719305902719498,
+      "Top": 0.5623764991760254
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 485,
+    "span_type": "line",
+    "text": "KAPAPA",
+    "conf": 97.37085723876953,
+    "bbox": {
+      "Width": 0.12658967077732086,
+      "Height": 0.024824155494570732,
+      "Left": 0.18801116943359375,
+      "Top": 0.545925498008728
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 486,
+    "span_type": "line",
+    "text": "Place",
+    "conf": 99.912109375,
+    "bbox": {
+      "Width": 0.03716576099395752,
+      "Height": 0.009939027018845081,
+      "Left": 0.5970675349235535,
+      "Top": 0.563014805316925
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 487,
+    "span_type": "line",
+    "text": "KAPAPA",
+    "conf": 77.48983764648438,
+    "bbox": {
+      "Width": 0.14247041940689087,
+      "Height": 0.029579926282167435,
+      "Left": 0.6997817754745483,
+      "Top": 0.5474788546562195
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 488,
+    "span_type": "line",
+    "text": "Date",
+    "conf": 99.970703125,
+    "bbox": {
+      "Width": 0.0305080097168684,
+      "Height": 0.009877906180918217,
+      "Left": 0.07723241299390793,
+      "Top": 0.5991635918617249
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 489,
+    "span_type": "line",
+    "text": "01/12/2025",
+    "conf": 67.54524230957031,
+    "bbox": {
+      "Width": 0.14260941743850708,
+      "Height": 0.03493356332182884,
+      "Left": 0.1632428765296936,
+      "Top": 0.5826127529144287
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 490,
+    "span_type": "line",
+    "text": "Date",
+    "conf": 99.931640625,
+    "bbox": {
+      "Width": 0.031947601586580276,
+      "Height": 0.009598247706890106,
+      "Left": 0.5981066226959229,
+      "Top": 0.600173830986023
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 491,
+    "span_type": "line",
+    "text": "01/12/2025",
+    "conf": 99.83159637451172,
+    "bbox": {
+      "Width": 0.15550699830055237,
+      "Height": 0.026412269100546837,
+      "Left": 0.6772814393043518,
+      "Top": 0.5842930674552917
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 492,
+    "span_type": "line",
+    "text": "Acknowledgment for Applicant",
+    "conf": 99.02137756347656,
+    "bbox": {
+      "Width": 0.24888305366039276,
+      "Height": 0.013595976866781712,
+      "Left": 0.37606263160705566,
+      "Top": 0.7380726933479309
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 493,
+    "span_type": "line",
+    "text": "Shinhan Bank,",
+    "conf": 99.83358764648438,
+    "bbox": {
+      "Width": 0.09593889862298965,
+      "Height": 0.011937765404582024,
+      "Left": 0.07789753377437592,
+      "Top": 0.7622444033622742
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 494,
+    "span_type": "line",
+    "text": "Branch",
+    "conf": 99.84135437011719,
+    "bbox": {
+      "Width": 0.04607849568128586,
+      "Height": 0.00982565339654684,
+      "Left": 0.07803194224834442,
+      "Top": 0.7840220332145691
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 495,
+    "span_type": "line",
+    "text": "INDIRANAGAR",
+    "conf": 96.1768569946289,
+    "bbox": {
+      "Width": 0.23392952978610992,
+      "Height": 0.025726040825247765,
+      "Left": 0.1822672337293625,
+      "Top": 0.7706104516983032
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 496,
+    "span_type": "line",
+    "text": "Acknowledgment issued to Mr./Mrs./Ms. ARJUN",
+    "conf": 95.44459533691406,
+    "bbox": {
+      "Width": 0.36635416746139526,
+      "Height": 0.021792663261294365,
+      "Left": 0.1076849102973938,
+      "Top": 0.8106820583343506
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 497,
+    "span_type": "line",
+    "text": "for his/her Prime Personal Loan application",
+    "conf": 99.73619842529297,
+    "bbox": {
+      "Width": 0.28046077489852905,
+      "Height": 0.012524021789431572,
+      "Left": 0.6469668745994568,
+      "Top": 0.819675862789154
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 498,
+    "span_type": "line",
+    "text": "dated 0/12/25",
+    "conf": 99.45780944824219,
+    "bbox": {
+      "Width": 0.13791748881340027,
+      "Height": 0.020741716027259827,
+      "Left": 0.07752768695354462,
+      "Top": 0.8340939879417419
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 499,
+    "span_type": "line",
+    "text": "with application No 01234",
+    "conf": 99.72621154785156,
+    "bbox": {
+      "Width": 0.20828746259212494,
+      "Height": 0.01797238364815712,
+      "Left": 0.24369733035564423,
+      "Top": 0.8378351926803589
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 500,
+    "span_type": "line",
+    "text": "dated 01/12/25",
+    "conf": 85.65071105957031,
+    "bbox": {
+      "Width": 0.16693218052387238,
+      "Height": 0.02551743946969509,
+      "Left": 0.49205082654953003,
+      "Top": 0.8320382237434387
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 501,
+    "span_type": "line",
+    "text": "Signature of Authorised Person",
+    "conf": 99.93612670898438,
+    "bbox": {
+      "Width": 0.20784777402877808,
+      "Height": 0.012778280302882195,
+      "Left": 0.07761019468307495,
+      "Top": 0.8740753531455994
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 502,
+    "span_type": "line",
+    "text": "Shinhan Bank,",
+    "conf": 99.84783172607422,
+    "bbox": {
+      "Width": 0.0966108962893486,
+      "Height": 0.011702885851264,
+      "Left": 0.07731860131025314,
+      "Top": 0.9042873978614807
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 503,
+    "span_type": "line",
+    "text": "INDIRANAGAR",
+    "conf": 87.10638427734375,
+    "bbox": {
+      "Width": 0.20745277404785156,
+      "Height": 0.026535162702202797,
+      "Left": 0.22009247541427612,
+      "Top": 0.8873558640480042
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 504,
+    "span_type": "line",
+    "text": "Branch",
+    "conf": 99.921875,
+    "bbox": {
+      "Width": 0.04838242381811142,
+      "Height": 0.009870760142803192,
+      "Left": 0.4657452404499054,
+      "Top": 0.9040282368659973
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 505,
+    "span_type": "line",
+    "text": "Date:-",
+    "conf": 99.658203125,
+    "bbox": {
+      "Width": 0.0399433895945549,
+      "Height": 0.011050377041101456,
+      "Left": 0.07703977823257446,
+      "Top": 0.9341939091682434
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 506,
+    "span_type": "line",
+    "text": "01/12/20",
+    "conf": 93.15608978271484,
+    "bbox": {
+      "Width": 0.11109879612922668,
+      "Height": 0.02725612185895443,
+      "Left": 0.15340015292167664,
+      "Top": 0.9215590953826904
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 507,
+    "span_type": "line",
+    "text": "6",
+    "conf": 99.53125,
+    "bbox": {
+      "Width": 0.009774560108780861,
+      "Height": 0.010355980135500431,
+      "Left": 0.07232467085123062,
+      "Top": 0.9821382761001587
+    }
+  },
+  {
+    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "page": 7,
+    "span_id": 508,
+    "span_type": "line",
+    "text": "Extend Your Financial Network™",
+    "conf": 98.3177261352539,
+    "bbox": {
+      "Width": 0.27375108003616333,
+      "Height": 0.016897063702344894,
+      "Left": 0.6559355854988098,
+      "Top": 0.9792692065238953
+    }
+  }
+]
