@@ -3,17 +3,27 @@ scripts/api/app.py
 ────────────────────────────────────────────
 Flask backend for the LoanDoc Intelligence Interface.
 
-Serves endpoints for:
-1. Document upload and OCR extraction
+Supports:
+1. Document upload → OCR extraction → vectorstore → LLM
 2. LLM-powered Summary / Translation / Explanation
 3. Chatbot streaming and UI
 4. File reading for full text display
+5. Glyph-accurate text map extraction (via PyMuPDF)
 """
 
 import os
+import sys
+import json
+import fitz  # PyMuPDF
+import hashlib
 import logging
 from flask import Flask, jsonify, render_template, request, send_file
 from flask_cors import CORS
+
+# ============================================================
+#  Ensure proper path imports
+# ============================================================
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../..")))
 
 # ============================================================
 #  Logging Configuration
@@ -39,12 +49,12 @@ def create_app():
     """Application factory for the LoanDoc Intelligence Interface."""
     app = Flask(
         __name__,
-        template_folder="../../interface/templates",
-        static_folder="../../interface/static"
+        static_folder="../../interface/build",
+        template_folder="../../interface/build"
     )
 
-    # Enable CORS for frontend access
-    CORS(app)
+    # ✅ Enable CORS
+    CORS(app, resources={r"/*": {"origins": "*"}})
     logger.info("🚀 Flask app initialized with CORS enabled.")
 
     # Register blueprints
@@ -58,65 +68,174 @@ def create_app():
     # ============================================================
     @app.route("/api/health", methods=["GET"])
     def health_check():
-        """Simple health check endpoint."""
         logger.info("🩺 Health check requested.")
         return jsonify({"status": "running", "message": "LoanDoc API operational."})
 
     # ============================================================
-    # Read Extracted Text Endpoint (used by upload_text_viewer.js)
+    # Unified Pipeline Endpoint
     # ============================================================
-    from flask import request, send_file
+    @app.route("/api/process_pdf", methods=["POST"])
+    def process_pdf():
+        """Upload → Extract → Index"""
+        try:
+            file = request.files.get("file")
+            if not file:
+                return jsonify({"error": "No file uploaded"}), 400
 
-    @app.route("/api/read_text", methods=["GET"])
-    def read_text():
-        """Safely streams the full extracted text file back to the UI."""
-        path = request.args.get("path")
-        if not path:
-            logger.error("❌ Missing file path in /api/read_text request.")
-            return "Missing file path", 400
+            project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../.."))
+            loan_dir = os.path.join(project_root, "data", "loan_docs")
+            os.makedirs(loan_dir, exist_ok=True)
+            file_path = os.path.join(loan_dir, file.filename)
+            file.save(file_path)
+            logger.info(f"📥 [Step 1] Saved uploaded file → {file_path}")
 
-        # ✅ Detect the absolute project root robustly
-        # Start from this file’s location → go up until 'data' folder is found
-        current_dir = os.path.abspath(os.path.dirname(__file__))
-        while current_dir and not os.path.isdir(os.path.join(current_dir, "data")):
-            parent = os.path.dirname(current_dir)
-            if parent == current_dir:
-                break  # Stop at system root
-            current_dir = parent
+            from scripts.extraction_pipeline.main_extractor import process_single_file
+            extracted_path = process_single_file(file_path)
+            logger.info(f"🧾 Extracted text saved → {extracted_path}")
 
-        project_root = current_dir
-        clean_dir = os.path.join(project_root, "data", "clean_texts")
-        abs_path = os.path.abspath(path)
+            from scripts.LLMquery.build_index import add_to_index
+            add_to_index(extracted_path)
+            logger.info("✅ Vectorstore index updated successfully.")
 
-        logger.debug(f"[DEBUG] project_root = {project_root}")
-        logger.debug(f"[DEBUG] clean_dir = {clean_dir}")
-        logger.debug(f"[DEBUG] abs_path  = {abs_path}")
+            return jsonify({
+                "status": "✅ Ready for interaction",
+                "file": file.filename,
+                "message": "Text extracted & indexed. Ready for user interaction."
+            }), 200
 
-        # 🛡️ Security check: ensure the path is within clean_texts
-        if not abs_path.startswith(os.path.abspath(clean_dir)):
-            logger.warning(f"⚠️ Attempted access outside clean_texts: {abs_path}")
-            return "Access denied", 403
-
-        # ✅ Verify file exists
-        if not os.path.exists(abs_path):
-            logger.error(f"❌ File not found: {abs_path}")
-            return "File not found", 404
-
-        logger.info(f"📄 Streaming extracted text file: {abs_path}")
-        return send_file(abs_path, mimetype="text/plain")
+        except Exception as e:
+            logger.exception("❌ Error in /api/process_pdf")
+            return jsonify({"error": str(e)}), 500
 
     # ============================================================
-    # UI Routes
+    # Text-Level LLM Operations
+    # ============================================================
+    @app.route("/api/process_text", methods=["POST"])
+    def process_text():
+        try:
+            data = request.get_json(force=True)
+            text = data.get("text")
+            action = data.get("action", "summary").lower()
+            language = data.get("language", "English")
+
+            if not text:
+                return jsonify({"error": "No text provided"}), 400
+
+            from scripts.LLMquery.prompts.prompt_router import build_prompt
+            from scripts.LLMquery.prompts.llm_executor import run_llm
+
+            question_map = {
+                "summary": "Summarize this passage concisely, focusing on key financial or ethical aspects.",
+                "translate": f"Translate the following passage into {language}.",
+                "explain": "Explain the meaning of this passage in simple and clear terms."
+            }
+
+            question = question_map.get(action, question_map["summary"])
+            prompt_text, intent, conf, gap = build_prompt(
+                question=question, docs=[text], mode=action
+            )
+            response = run_llm(prompt_text)
+
+            return jsonify({
+                "action": action,
+                "language": language,
+                "result": response or prompt_text,
+                "confidence": conf,
+                "intent": intent
+            }), 200
+
+        except Exception as e:
+            logger.exception("❌ Error in /api/process_text")
+            return jsonify({"error": str(e)}), 500
+
+    # ============================================================
+    # Glyph-Level Text Map Extraction (Precise Selection)
+    # ============================================================
+    @app.route("/api/get_text_map", methods=["POST"])
+    def get_text_map():
+        """Extracts or serves cached glyph-level text geometry via PyMuPDF."""
+        try:
+            file = request.files.get("file")
+            if not file:
+                return jsonify({"error": "No file uploaded"}), 400
+
+            # Compute hash for caching
+            file_bytes = file.read()
+            pdf_hash = hashlib.sha256(file_bytes).hexdigest()
+
+            project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../.."))
+            cache_dir = os.path.join(project_root, "data", "cache")
+            os.makedirs(cache_dir, exist_ok=True)
+            cache_path = os.path.join(cache_dir, f"{pdf_hash}.json")
+
+            # Return from cache if exists
+            if os.path.exists(cache_path):
+                with open(cache_path, "r", encoding="utf-8") as f:
+                    return jsonify(json.load(f)), 200
+
+            # Save temporarily
+            temp_dir = os.path.join(project_root, "data", "temp")
+            os.makedirs(temp_dir, exist_ok=True)
+            pdf_path = os.path.join(temp_dir, file.filename)
+            with open(pdf_path, "wb") as f:
+                f.write(file_bytes)
+
+            logger.info(f"🔍 Extracting glyph geometry for {file.filename}")
+            doc = fitz.open(pdf_path)
+            pages = []
+
+            for i, page in enumerate(doc):
+                text_dict = page.get_text("rawdict")
+                page_info = {
+                    "page": i + 1,
+                    "width": float(page.rect.width),
+                    "height": float(page.rect.height),
+                    "words": []
+                }
+
+                for block in text_dict.get("blocks", []):
+                    for line in block.get("lines", []):
+                        for span in line.get("spans", []):
+                            text_value = span.get("text", "").strip()
+                            if not text_value:
+                                continue
+                            x0, y0, x1, y1 = span.get("bbox", [0, 0, 0, 0])
+                            page_info["words"].append({
+                                "text": text_value,
+                                "x": float(x0),
+                                "y": float(y0),
+                                "width": float(x1 - x0),
+                                "height": float(y1 - y0)
+                            })
+
+                pages.append(page_info)
+
+            doc.close()
+            os.remove(pdf_path)
+
+            result = {"pdf_hash": pdf_hash, "pages": pages}
+            with open(cache_path, "w", encoding="utf-8") as f:
+                json.dump(result, f)
+            logger.info(f"[CACHE] Saved text map for {file.filename} ({pdf_hash[:12]})")
+
+            return jsonify(result), 200
+
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            logger.error(f"❌ Error in get_text_map: {e}")
+            return jsonify({"error": str(e)}), 500
+
+    # ============================================================
+    # Root & Chat Routes
     # ============================================================
     @app.route("/")
     def home():
-        """Serves the main LoanDoc Intelligence interface."""
-        logger.info("🏠 Serving index.html for main interface.")
-        return render_template("index.html")
+        logger.info("🏠 Root accessed — frontend runs separately on port 3000.")
+        return jsonify({"status": "running", "frontend_url": "http://localhost:3000"})
 
-    @app.route("/api/chat", methods=["GET"])
+    @app.route("/chat", methods=["GET"])
     def chat_page():
-        """Serves the chatbot interface (chat.html)."""
         logger.info("💬 Serving chat.html interface.")
         return render_template("chat.html")
 
@@ -128,5 +247,5 @@ def create_app():
 # ============================================================
 if __name__ == "__main__":
     app = create_app()
-    logger.info("🚀 LoanDoc Flask API starting on port 8000...")
-    app.run(host="0.0.0.0", port=8000, debug=True)
+    logger.info("🚀 LoanDoc Flask API starting on port 8080...")
+    app.run(host="0.0.0.0", port=8080, debug=True)

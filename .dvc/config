@@ -1,0 +1,5 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = gs://docpipeline-data-v1
+    credentialpath = /Users/pvrpratyusha/Workspace/NEU/MLOps/loanQA-project/LoanQA-MLOps/gcp-credentials.json
