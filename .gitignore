@@ -1,23 +1,21 @@
-# Virtual environments
-.venv/
+# Python
 __pycache__/
 *.pyc
 
-# Logs and cache
+# Node / React
+interface/node_modules/
+interface/build/
+interface/.cache/
+interface/.parcel-cache/
+interface/dist/
+interface/.vite/
+interface.zip
+
+# Logs
 logs/
 *.log
 
-# Airflow and temp data
+# Airflow / Dags cache
 dags/__pycache__/
-scheduler/
-dag_processor_manager/
-
-# Data and vector stores
-data/loan_docs/
-data/clean_texts/
-scripts/LLMquery/vectorstores/
-chroma.sqlite*
-*.db
-
-# OS files
-.DS_Store
+.dvc/
+.cache/

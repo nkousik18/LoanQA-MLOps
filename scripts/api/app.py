@@ -104,7 +104,7 @@ def create_app():
             }), 200
 
         except Exception as e:
-            logger.exception("❌ Error in /api/process_pdf")
+            logger.exception(" Error in /api/process_pdf")
             return jsonify({"error": str(e)}), 500
 
     # ============================================================
