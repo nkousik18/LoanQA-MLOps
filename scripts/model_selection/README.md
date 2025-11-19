@@ -18,7 +18,8 @@ It is designed to test how well each LLM handles:
 This is your **core model-evaluation system** before deploying LoanDocQA to production.
 
 ---
-
+**LoanDocQA+ Retrieval-Augmented Model Evaluation Framework**  
+Documentation (Google Docs): https://docs.google.com/document/d/1laSd_3Eb83f8EENUCYGbCuGDNnbXZJCvoZ0BDlmbGms/edit?usp=sharing
 #  **Folder Overview**
 
 ```
