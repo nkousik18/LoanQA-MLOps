@@ -68,3 +68,8 @@ pytest-cov
 pytest-mock
 
 marshmallow-oneofschema
+
+# -------------------------------
+# MLflow Experiment Tracking
+# -------------------------------
+mlflow>=2.9.0

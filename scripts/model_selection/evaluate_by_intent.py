@@ -19,7 +19,7 @@ from scripts.model_selection.retriever import MiniLMVectorStore
 from scripts.model_selection.metrics import detect_hallucination
 from scripts.LLMquery.prompts.prompt_router import build_prompt
 from scripts.model_selection.logger import log_event
-
+from scripts.model_selection.mlflow_tracker import MLflowRAGTracker
 
 # ============================================================
 # Evaluation Query Sets (FULL and LIGHT)
@@ -100,14 +100,107 @@ def load_clean_texts(folder="data/clean_texts"):
 # ============================================================
 # Run Evaluation for a Single Model
 # ============================================================
+#
+# def evaluate_model(model_name, mode="light"):
+#     """
+#     Runs evaluation over all documents.
+#     Saves results to evaluation_results/prompt_eval/summary.csv.
+#     """
+#
+#     print(f"\n[RUN] Evaluating model: {model_name} (mode={mode})\n")
+#
+#     out_dir = "evaluation_results/prompt_eval"
+#     os.makedirs(out_dir, exist_ok=True)
+#     out_csv = os.path.join(out_dir, "summary.csv")
+#
+#     # load existing results if present
+#     df_existing = pd.read_csv(out_csv) if os.path.exists(out_csv) else pd.DataFrame()
+#
+#     # choose evaluation set
+#     queries = EVAL_QUERIES_LIGHT if mode == "light" else EVAL_QUERIES_FULL
+#
+#     # initialize RAG + retrieve
+#     store = MiniLMVectorStore()
+#     rag = RAGPipeline(index_store=store)
+#
+#     docs = load_clean_texts()
+#
+#     all_rows = []
+#
+#     for doc_id, doc_text in docs.items():
+#         print(f"[DOC] Evaluating: {doc_id}")
+#
+#         for intent_category, q_list in queries.items():
+#
+#             for q in q_list:
+#                 start = time.time()
+#
+#                 # -------------------------------
+#                 # Step 1 — RAG Pipeline
+#                 # -------------------------------
+#                 result = rag.run(model_name, q, doc_text)
+#
+#                 # -------------------------------
+#                 # Step 2 — Hallucination scoring
+#                 # -------------------------------
+#                 scores = detect_hallucination(
+#                     result["llm_output"],
+#                     result["retrieved_chunks"]
+#                 )
+#
+#                 # -------------------------------
+#                 # Step 3 — Store structured row
+#                 # -------------------------------
+#                 row = {
+#                     "timestamp": time.time(),
+#                     "model": model_name,
+#                     "doc": doc_id,
+#
+#                     # routing & query
+#                     "intent_group": intent_category,
+#                     "router_intent": result["intent"],
+#                     "query": q,
+#
+#                     # output
+#                     "llm_output": result["llm_output"],
+#
+#                     # hallucination metrics
+#                     "groundedness": scores["groundedness"],
+#                     "severity": scores["severity"],
+#                     "confidence": scores["confidence"],
+#                     "summary_divergence": scores["summary_divergence"],
+#                     "hallucinated": scores["hallucinated"],
+#                     "verdict": scores["verdict"],
+#
+#                     # performance
+#                     "llm_latency": result["llm_latency"],
+#                     "pipeline_latency": result["pipeline_latency"],
+#                 }
+#
+#                 all_rows.append(row)
 
+    # -------------------------------
+    # Save CSV
+    # # -------------------------------
+    # df_new = pd.DataFrame(all_rows)
+    # df_out = pd.concat([df_existing, df_new], ignore_index=True)
+    # df_out.to_csv(out_csv, index=False)
+    #
+    # print(f"\n[✓] Evaluation complete.")
+    # print(f"[✓] Saved summary at: {out_csv}")
+    # return df_out
 def evaluate_model(model_name, mode="light"):
     """
-    Runs evaluation over all documents.
+    Runs evaluation over all documents with MLflow tracking.
     Saves results to evaluation_results/prompt_eval/summary.csv.
     """
 
     print(f"\n[RUN] Evaluating model: {model_name} (mode={mode})\n")
+
+    # Initialize MLflow tracker
+    tracker = MLflowRAGTracker()
+    run_name = f"{model_name}_{mode}_{int(time.time())}"
+    tracker.start_run(run_name, model_name, mode)
 
     out_dir = "evaluation_results/prompt_eval"
     os.makedirs(out_dir, exist_ok=True)
@@ -118,6 +211,13 @@ def evaluate_model(model_name, mode="light"):
 
     # choose evaluation set
     queries = EVAL_QUERIES_LIGHT if mode == "light" else EVAL_QUERIES_FULL
+
+    # Log evaluation parameters
+    tracker.log_parameters({
+        "num_documents": len(load_clean_texts()),
+        "num_intents": len(queries),
+        "total_queries": sum(len(q_list) for q_list in queries.values())
+    })
 
     # initialize RAG + retrieve
     store = MiniLMVectorStore()
@@ -149,7 +249,21 @@ def evaluate_model(model_name, mode="light"):
                 )
 
                 # -------------------------------
-                # Step 3 — Store structured row
+                # Step 3 — Log to MLflow
+                # -------------------------------
+                tracker.log_query_result(
+                    doc_id=doc_id,
+                    intent=intent_category,
+                    query=q,
+                    metrics=scores,
+                    latency={
+                        "llm_latency": result["llm_latency"],
+                        "pipeline_latency": result["pipeline_latency"]
+                    }
+                )
+
+                # -------------------------------
+                # Step 4 — Store structured row
                 # -------------------------------
                 row = {
                     "timestamp": time.time(),
@@ -186,10 +300,20 @@ def evaluate_model(model_name, mode="light"):
     df_out = pd.concat([df_existing, df_new], ignore_index=True)
     df_out.to_csv(out_csv, index=False)
 
-    print(f"\n[✓] Evaluation complete.")
-    print(f"[✓] Saved summary at: {out_csv}")
-    return df_out
+    # -------------------------------
+    # Log aggregate metrics to MLflow
+    # -------------------------------
+    tracker.log_aggregate_metrics(df_new)
+    tracker.log_evaluation_summary(out_csv)
 
+    # End MLflow run
+    tracker.end_run()
+
+    print(f"\n Evaluation complete.")
+    print(f" Saved summary at: {out_csv}")
+    print(f" MLflow tracking at: http://localhost:5000")
+
+    return df_out
 
 # ============================================================
 # CLI

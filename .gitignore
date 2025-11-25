@@ -19,3 +19,8 @@ logs/
 dags/__pycache__/
 .dvc/
 .cache/
+
+# MLflow tracking data
+logs/mlruns/
+logs/mlartifacts/
+mlflow.db
