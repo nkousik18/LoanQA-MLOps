@@ -1,0 +1,15 @@
+{
+  "tasks": [
+    {
+      "id": "t_translate",
+      "kind": "doc_translate",
+      "query": "translate to telugu",
+      "domain": "general",
+      "scope": "local",
+      "language": "en",
+      "tone": null,
+      "depends_on": []
+    }
+  ],
+  "final_answer_instructions": "Follow the tasks in order. Keep the answer focused on the user's query."
+}

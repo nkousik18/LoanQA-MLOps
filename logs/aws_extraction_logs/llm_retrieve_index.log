@@ -1,0 +1,3 @@
+2025-11-14 13:41:52 [INFO] [llm_retrieve_index] 📘 Loaded FAISS index and manifest successfully.
+2025-11-14 13:41:52 [INFO] [llm_retrieve_index] 📚 Loaded 5332 text spans from normalized JSONs.
+2025-11-14 13:41:53 [INFO] [llm_retrieve_index] ✅ Retrieved top-5 results for query: 'who is the borrower'

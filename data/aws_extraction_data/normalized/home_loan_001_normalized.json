@@ -1,6 +1,6 @@
 [
   {
-    "doc_id": "77a84066-0385-4efc-952e-8eaf9be3a0bf",
+    "doc_id": "2bf9fefd-84b2-4938-9d79-1fb31939fdb0",
     "page": 1,
     "span_id": 1,
     "span_type": "line",
@@ -14,10 +14,10 @@
     },
     "text_display": "Home Loan Agreement (Sample)",
     "text_clean": "home loan agreement sample",
-    "text_preserved": "home loan agreement sample"
+    "text_preserved": "home loan agreement (sample)"
   },
   {
-    "doc_id": "77a84066-0385-4efc-952e-8eaf9be3a0bf",
+    "doc_id": "2bf9fefd-84b2-4938-9d79-1fb31939fdb0",
     "page": 1,
     "span_id": 2,
     "span_type": "line",
@@ -31,10 +31,10 @@
     },
     "text_display": "Borrower Name: Rahul Kumar",
     "text_clean": "borrower name rahul kumar",
-    "text_preserved": "borrower name rahul kumar"
+    "text_preserved": "borrower name: rahul kumar"
   },
   {
-    "doc_id": "77a84066-0385-4efc-952e-8eaf9be3a0bf",
+    "doc_id": "2bf9fefd-84b2-4938-9d79-1fb31939fdb0",
     "page": 1,
     "span_id": 3,
     "span_type": "line",
@@ -48,10 +48,10 @@
     },
     "text_display": "Borrower ID: AID-947201",
     "text_clean": "borrower id aid 947201",
-    "text_preserved": "borrower id aid-947201"
+    "text_preserved": "borrower id: aid-947201"
   },
   {
-    "doc_id": "77a84066-0385-4efc-952e-8eaf9be3a0bf",
+    "doc_id": "2bf9fefd-84b2-4938-9d79-1fb31939fdb0",
     "page": 1,
     "span_id": 4,
     "span_type": "line",
@@ -65,10 +65,10 @@
     },
     "text_display": "Property Address: 12, Green Park, New Delhi - 110016",
     "text_clean": "property address 12 green park new delhi 110016",
-    "text_preserved": "property address 12 green park new delhi - 110016"
+    "text_preserved": "property address: 12, green park, new delhi - 110016"
   },
   {
-    "doc_id": "77a84066-0385-4efc-952e-8eaf9be3a0bf",
+    "doc_id": "2bf9fefd-84b2-4938-9d79-1fb31939fdb0",
     "page": 1,
     "span_id": 5,
     "span_type": "line",
@@ -82,10 +82,10 @@
     },
     "text_display": "Loan Amount: 16,985,000.00",
     "text_clean": "loan amount 16 985 000 00",
-    "text_preserved": "loan amount 16 985 000.00"
+    "text_preserved": "loan amount: 16,985,000.00"
   },
   {
-    "doc_id": "77a84066-0385-4efc-952e-8eaf9be3a0bf",
+    "doc_id": "2bf9fefd-84b2-4938-9d79-1fb31939fdb0",
     "page": 1,
     "span_id": 6,
     "span_type": "line",
@@ -99,10 +99,10 @@
     },
     "text_display": "Interest Rate (p.a.): 8.76%",
     "text_clean": "interest rate p a 8 76",
-    "text_preserved": "interest rate p.a. 8.76"
+    "text_preserved": "interest rate (p.a.): 8.76%"
   },
   {
-    "doc_id": "77a84066-0385-4efc-952e-8eaf9be3a0bf",
+    "doc_id": "2bf9fefd-84b2-4938-9d79-1fb31939fdb0",
     "page": 1,
     "span_id": 7,
     "span_type": "line",
@@ -116,10 +116,10 @@
     },
     "text_display": "Tenure: 360 months",
     "text_clean": "tenure 360 months",
-    "text_preserved": "tenure 360 months"
+    "text_preserved": "tenure: 360 months"
   },
   {
-    "doc_id": "77a84066-0385-4efc-952e-8eaf9be3a0bf",
+    "doc_id": "2bf9fefd-84b2-4938-9d79-1fb31939fdb0",
     "page": 1,
     "span_id": 8,
     "span_type": "line",
@@ -133,10 +133,10 @@
     },
     "text_display": "EMI (approx):",
     "text_clean": "emi approx",
-    "text_preserved": "emi approx"
+    "text_preserved": "emi (approx):"
   },
   {
-    "doc_id": "77a84066-0385-4efc-952e-8eaf9be3a0bf",
+    "doc_id": "2bf9fefd-84b2-4938-9d79-1fb31939fdb0",
     "page": 1,
     "span_id": 9,
     "span_type": "line",
@@ -150,10 +150,10 @@
     },
     "text_display": "158,261.00",
     "text_clean": "158 261 00",
-    "text_preserved": "158 261.00"
+    "text_preserved": "158,261.00"
   },
   {
-    "doc_id": "77a84066-0385-4efc-952e-8eaf9be3a0bf",
+    "doc_id": "2bf9fefd-84b2-4938-9d79-1fb31939fdb0",
     "page": 1,
     "span_id": 10,
     "span_type": "line",
@@ -167,10 +167,10 @@
     },
     "text_display": "Prepayment Penalty: Nil",
     "text_clean": "prepayment penalty nil",
-    "text_preserved": "prepayment penalty nil"
+    "text_preserved": "prepayment penalty: nil"
   },
   {
-    "doc_id": "77a84066-0385-4efc-952e-8eaf9be3a0bf",
+    "doc_id": "2bf9fefd-84b2-4938-9d79-1fb31939fdb0",
     "page": 1,
     "span_id": 11,
     "span_type": "line",
@@ -184,10 +184,10 @@
     },
     "text_display": "Late Payment Fee: 2% of overdue amount",
     "text_clean": "late payment fee 2 of overdue amount",
-    "text_preserved": "late payment fee 2 of overdue amount"
+    "text_preserved": "late payment fee: 2% of overdue amount"
   },
   {
-    "doc_id": "77a84066-0385-4efc-952e-8eaf9be3a0bf",
+    "doc_id": "2bf9fefd-84b2-4938-9d79-1fb31939fdb0",
     "page": 1,
     "span_id": 12,
     "span_type": "line",
@@ -201,6 +201,6 @@
     },
     "text_display": "Document ID: 334418 Generated: 2025-10-08",
     "text_clean": "document id 334418 generated 2025 10 08",
-    "text_preserved": "document id 334418 generated 2025-10-08"
+    "text_preserved": "document id: 334418 generated: 2025-10-08"
   }
 ]

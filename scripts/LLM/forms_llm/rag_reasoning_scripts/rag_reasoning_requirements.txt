@@ -1,0 +1,13 @@
+# ===============================================
+# 📘 RAG / LLM Reasoning Dependencies
+# ===============================================
+
+# Core LLM + Embedding Libraries
+sentence-transformers
+faiss-cpu
+torch
+
+# Optional — if later you connect to mistral or open LLMs
+transformers
+groq
+

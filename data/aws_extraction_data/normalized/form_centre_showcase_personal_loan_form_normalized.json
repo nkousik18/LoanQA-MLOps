@@ -1,6 +1,6 @@
 [
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 1,
     "span_type": "line",
@@ -17,7 +17,7 @@
     "text_preserved": "deutsche bank"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 2,
     "span_type": "line",
@@ -34,7 +34,7 @@
     "text_preserved": "1"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 3,
     "span_type": "line",
@@ -48,10 +48,10 @@
     },
     "text_display": "Serial No.:",
     "text_clean": "serial no",
-    "text_preserved": "serial no."
+    "text_preserved": "serial no.:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 4,
     "span_type": "line",
@@ -68,7 +68,7 @@
     "text_preserved": "personal loan application form"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 5,
     "span_type": "line",
@@ -82,10 +82,10 @@
     },
     "text_display": "If applicant is an existing customer of Deutsche Bank AG, please quote the customer ID:",
     "text_clean": "if applicant is an existing customer of deutsche bank ag please quote the customer id",
-    "text_preserved": "if applicant is an existing customer of deutsche bank ag please quote the customer id"
+    "text_preserved": "if applicant is an existing customer of deutsche bank ag, please quote the customer id:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 6,
     "span_type": "line",
@@ -99,10 +99,10 @@
     },
     "text_display": "(Individual Applicant)",
     "text_clean": "individual applicant",
-    "text_preserved": "individual applicant"
+    "text_preserved": "(individual applicant)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 7,
     "span_type": "line",
@@ -116,10 +116,10 @@
     },
     "text_display": "(Please fill details in Capital letters. All fields marked in Blue are mandatory)",
     "text_clean": "please fill details in capital letters all fields marked in blue are mandatory",
-    "text_preserved": "please fill details in capital letters. all fields marked in blue are mandatory"
+    "text_preserved": "(please fill details in capital letters. all fields marked in blue are mandatory)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 8,
     "span_type": "line",
@@ -136,7 +136,7 @@
     "text_preserved": "kyc number"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 9,
     "span_type": "line",
@@ -153,7 +153,7 @@
     "text_preserved": "1. personal details of the borrower"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 10,
     "span_type": "line",
@@ -170,7 +170,7 @@
     "text_preserved": "title"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 11,
     "span_type": "line",
@@ -187,7 +187,7 @@
     "text_preserved": "mr."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 12,
     "span_type": "line",
@@ -204,7 +204,7 @@
     "text_preserved": "ms."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 13,
     "span_type": "line",
@@ -221,7 +221,7 @@
     "text_preserved": "mrs."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 14,
     "span_type": "line",
@@ -238,7 +238,7 @@
     "text_preserved": "dr."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 15,
     "span_type": "line",
@@ -255,7 +255,7 @@
     "text_preserved": "prof."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 16,
     "span_type": "line",
@@ -269,10 +269,10 @@
     },
     "text_display": "Others (Please specify)",
     "text_clean": "others please specify",
-    "text_preserved": "others please specify"
+    "text_preserved": "others (please specify)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 17,
     "span_type": "line",
@@ -289,7 +289,7 @@
     "text_preserved": "name as per aadhaar"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 18,
     "span_type": "line",
@@ -306,7 +306,7 @@
     "text_preserved": "first name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 19,
     "span_type": "line",
@@ -323,7 +323,7 @@
     "text_preserved": "middle name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 20,
     "span_type": "line",
@@ -340,7 +340,7 @@
     "text_preserved": "last name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 21,
     "span_type": "line",
@@ -357,7 +357,7 @@
     "text_preserved": "date of birth"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 22,
     "span_type": "line",
@@ -374,7 +374,7 @@
     "text_preserved": "ddmmyyyy"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 23,
     "span_type": "line",
@@ -391,7 +391,7 @@
     "text_preserved": "nationality"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 24,
     "span_type": "line",
@@ -408,7 +408,7 @@
     "text_preserved": "mother s maiden name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 25,
     "span_type": "line",
@@ -425,7 +425,7 @@
     "text_preserved": "gender"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 26,
     "span_type": "line",
@@ -442,7 +442,7 @@
     "text_preserved": "male"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 27,
     "span_type": "line",
@@ -459,7 +459,7 @@
     "text_preserved": "female"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 28,
     "span_type": "line",
@@ -476,7 +476,7 @@
     "text_preserved": "third gender"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 29,
     "span_type": "line",
@@ -493,7 +493,7 @@
     "text_preserved": "pan gir no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 30,
     "span_type": "line",
@@ -510,7 +510,7 @@
     "text_preserved": "father s spouse name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 31,
     "span_type": "line",
@@ -527,7 +527,7 @@
     "text_preserved": "passport no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 32,
     "span_type": "line",
@@ -544,7 +544,7 @@
     "text_preserved": "nrega job card"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 33,
     "span_type": "line",
@@ -561,7 +561,7 @@
     "text_preserved": "voter id no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 34,
     "span_type": "line",
@@ -578,7 +578,7 @@
     "text_preserved": "aadhaar no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 35,
     "span_type": "line",
@@ -595,7 +595,7 @@
     "text_preserved": "dl no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 36,
     "span_type": "line",
@@ -612,7 +612,7 @@
     "text_preserved": "marital status"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 37,
     "span_type": "line",
@@ -629,7 +629,7 @@
     "text_preserved": "single"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 38,
     "span_type": "line",
@@ -646,7 +646,7 @@
     "text_preserved": "married"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 39,
     "span_type": "line",
@@ -663,7 +663,7 @@
     "text_preserved": "others"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 40,
     "span_type": "line",
@@ -680,7 +680,7 @@
     "text_preserved": "p leasespecif"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 41,
     "span_type": "line",
@@ -697,7 +697,7 @@
     "text_preserved": "number of dependents"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 42,
     "span_type": "line",
@@ -711,10 +711,10 @@
     },
     "text_display": "Full Name (If abbreviation provided above)",
     "text_clean": "full name if abbreviation provided above",
-    "text_preserved": "full name if abbreviation provided above"
+    "text_preserved": "full name (if abbreviation provided above)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 43,
     "span_type": "line",
@@ -731,7 +731,7 @@
     "text_preserved": "proof of identity submitted"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 44,
     "span_type": "line",
@@ -748,7 +748,7 @@
     "text_preserved": "residential address present address"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 45,
     "span_type": "line",
@@ -765,7 +765,7 @@
     "text_preserved": "address line 1"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 46,
     "span_type": "line",
@@ -782,7 +782,7 @@
     "text_preserved": "address line 2"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 47,
     "span_type": "line",
@@ -799,7 +799,7 @@
     "text_preserved": "city"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 48,
     "span_type": "line",
@@ -816,7 +816,7 @@
     "text_preserved": "state"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 49,
     "span_type": "line",
@@ -833,7 +833,7 @@
     "text_preserved": "pin code"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 50,
     "span_type": "line",
@@ -847,10 +847,10 @@
     },
     "text_display": "Residential Tel. No. (Mandatory)",
     "text_clean": "residential tel no mandatory",
-    "text_preserved": "residential tel. no. mandatory"
+    "text_preserved": "residential tel. no. (mandatory)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 51,
     "span_type": "line",
@@ -867,7 +867,7 @@
     "text_preserved": "tel. no. is"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 52,
     "span_type": "line",
@@ -884,7 +884,7 @@
     "text_preserved": "landline"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 53,
     "span_type": "line",
@@ -901,7 +901,7 @@
     "text_preserved": "c/o no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 54,
     "span_type": "line",
@@ -918,7 +918,7 @@
     "text_preserved": "mobile"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 55,
     "span_type": "line",
@@ -935,7 +935,7 @@
     "text_preserved": "std code"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 56,
     "span_type": "line",
@@ -952,7 +952,7 @@
     "text_preserved": "country of residence"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 57,
     "span_type": "line",
@@ -969,7 +969,7 @@
     "text_preserved": "place of birth"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 58,
     "span_type": "line",
@@ -983,10 +983,10 @@
     },
     "text_display": "The above address can be used for all my existing DB relationships:",
     "text_clean": "the above address can be used for all my existing db relationships",
-    "text_preserved": "the above address can be used for all my existing db relationships"
+    "text_preserved": "the above address can be used for all my existing db relationships:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 59,
     "span_type": "line",
@@ -1003,7 +1003,7 @@
     "text_preserved": "yes"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 60,
     "span_type": "line",
@@ -1020,7 +1020,7 @@
     "text_preserved": "no"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 61,
     "span_type": "line",
@@ -1037,7 +1037,7 @@
     "text_preserved": "registered for gst"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 62,
     "span_type": "line",
@@ -1054,7 +1054,7 @@
     "text_preserved": "yes"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 63,
     "span_type": "line",
@@ -1071,7 +1071,7 @@
     "text_preserved": "no"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 64,
     "span_type": "line",
@@ -1085,10 +1085,10 @@
     },
     "text_display": "If no, reason for not being registered under GST",
     "text_clean": "if no reason for not being registered under gst",
-    "text_preserved": "if no reason for not being registered under gst"
+    "text_preserved": "if no, reason for not being registered under gst"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 65,
     "span_type": "line",
@@ -1105,7 +1105,7 @@
     "text_preserved": "individual"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 66,
     "span_type": "line",
@@ -1122,7 +1122,7 @@
     "text_preserved": "below threshold"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 67,
     "span_type": "line",
@@ -1139,7 +1139,7 @@
     "text_preserved": "non resident"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 68,
     "span_type": "line",
@@ -1156,7 +1156,7 @@
     "text_preserved": "other"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 69,
     "span_type": "line",
@@ -1170,10 +1170,10 @@
     },
     "text_display": "If yes, please fill in the GSTIN form",
     "text_clean": "if yes please fill in the gstin form",
-    "text_preserved": "if yes please fill in the gstin form"
+    "text_preserved": "if yes, please fill in the gstin form"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 70,
     "span_type": "line",
@@ -1190,7 +1190,7 @@
     "text_preserved": "e-mail"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 71,
     "span_type": "line",
@@ -1207,7 +1207,7 @@
     "text_preserved": "residential status"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 72,
     "span_type": "line",
@@ -1224,7 +1224,7 @@
     "text_preserved": "self-owned"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 73,
     "span_type": "line",
@@ -1241,7 +1241,7 @@
     "text_preserved": "rented house"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 74,
     "span_type": "line",
@@ -1258,7 +1258,7 @@
     "text_preserved": "parent-owned"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 75,
     "span_type": "line",
@@ -1275,7 +1275,7 @@
     "text_preserved": "company provided"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 76,
     "span_type": "line",
@@ -1292,7 +1292,7 @@
     "text_preserved": "mortgaged"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 77,
     "span_type": "line",
@@ -1309,7 +1309,7 @@
     "text_preserved": "paying guest/hostel / chummery"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 78,
     "span_type": "line",
@@ -1326,7 +1326,7 @@
     "text_preserved": "others"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 79,
     "span_type": "line",
@@ -1343,7 +1343,7 @@
     "text_preserved": "pleasespecify"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 80,
     "span_type": "line",
@@ -1360,7 +1360,7 @@
     "text_preserved": "period of residence in current home"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 81,
     "span_type": "line",
@@ -1377,7 +1377,7 @@
     "text_preserved": "years"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 82,
     "span_type": "line",
@@ -1394,7 +1394,7 @@
     "text_preserved": "months"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 83,
     "span_type": "line",
@@ -1411,7 +1411,7 @@
     "text_preserved": "period of residence in current city"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 84,
     "span_type": "line",
@@ -1428,7 +1428,7 @@
     "text_preserved": "years"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 85,
     "span_type": "line",
@@ -1445,7 +1445,7 @@
     "text_preserved": "months"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 1,
     "span_id": 86,
     "span_type": "line",
@@ -1462,7 +1462,7 @@
     "text_preserved": "proof of address submitted"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 87,
     "span_type": "line",
@@ -1476,10 +1476,10 @@
     },
     "text_display": "Address as per Aadhaar (Mandatory if different from residential address)",
     "text_clean": "address as per aadhaar mandatory if different from residential address",
-    "text_preserved": "address as per aadhaar mandatory if different from residential address"
+    "text_preserved": "address as per aadhaar (mandatory if different from residential address)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 88,
     "span_type": "line",
@@ -1496,7 +1496,7 @@
     "text_preserved": "address line 1"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 89,
     "span_type": "line",
@@ -1513,7 +1513,7 @@
     "text_preserved": "address line 2"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 90,
     "span_type": "line",
@@ -1530,7 +1530,7 @@
     "text_preserved": "city"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 91,
     "span_type": "line",
@@ -1547,7 +1547,7 @@
     "text_preserved": "state"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 92,
     "span_type": "line",
@@ -1564,7 +1564,7 @@
     "text_preserved": "pin code"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 93,
     "span_type": "line",
@@ -1578,10 +1578,10 @@
     },
     "text_display": "Tel. No.(L)",
     "text_clean": "tel no l",
-    "text_preserved": "tel. no. l"
+    "text_preserved": "tel. no.(l)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 94,
     "span_type": "line",
@@ -1598,7 +1598,7 @@
     "text_preserved": "mobile"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 95,
     "span_type": "line",
@@ -1615,7 +1615,7 @@
     "text_preserved": "std code"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 96,
     "span_type": "line",
@@ -1632,7 +1632,7 @@
     "text_preserved": "education"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 97,
     "span_type": "line",
@@ -1649,7 +1649,7 @@
     "text_preserved": "high-school"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 98,
     "span_type": "line",
@@ -1666,7 +1666,7 @@
     "text_preserved": "diploma"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 99,
     "span_type": "line",
@@ -1683,7 +1683,7 @@
     "text_preserved": "graduate"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 100,
     "span_type": "line",
@@ -1700,7 +1700,7 @@
     "text_preserved": "postgraduate and above"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 101,
     "span_type": "line",
@@ -1717,7 +1717,7 @@
     "text_preserved": "professional"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 102,
     "span_type": "line",
@@ -1734,7 +1734,7 @@
     "text_preserved": "others"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 103,
     "span_type": "line",
@@ -1751,7 +1751,7 @@
     "text_preserved": "pleasespecify"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 104,
     "span_type": "line",
@@ -1768,7 +1768,7 @@
     "text_preserved": "non resident means anyone who is not a resident of india including foreign nationals."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 105,
     "span_type": "line",
@@ -1785,7 +1785,7 @@
     "text_preserved": "2. employment profession details"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 106,
     "span_type": "line",
@@ -1802,7 +1802,7 @@
     "text_preserved": "nature of employment"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 107,
     "span_type": "line",
@@ -1819,7 +1819,7 @@
     "text_preserved": "salaried"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 108,
     "span_type": "line",
@@ -1836,7 +1836,7 @@
     "text_preserved": "housewife"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 109,
     "span_type": "line",
@@ -1853,7 +1853,7 @@
     "text_preserved": "retired"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 110,
     "span_type": "line",
@@ -1867,10 +1867,10 @@
     },
     "text_display": "If salaried, type of employer",
     "text_clean": "if salaried type of employer",
-    "text_preserved": "if salaried type of employer"
+    "text_preserved": "if salaried, type of employer"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 111,
     "span_type": "line",
@@ -1887,7 +1887,7 @@
     "text_preserved": "public sector"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 112,
     "span_type": "line",
@@ -1904,7 +1904,7 @@
     "text_preserved": "government"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 113,
     "span_type": "line",
@@ -1921,7 +1921,7 @@
     "text_preserved": "private limited"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 114,
     "span_type": "line",
@@ -1938,7 +1938,7 @@
     "text_preserved": "partnership / proprietorship"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 115,
     "span_type": "line",
@@ -1955,7 +1955,7 @@
     "text_preserved": "mnc"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 116,
     "span_type": "line",
@@ -1972,7 +1972,7 @@
     "text_preserved": "public limited"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 117,
     "span_type": "line",
@@ -1989,7 +1989,7 @@
     "text_preserved": "designation"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 118,
     "span_type": "line",
@@ -2006,7 +2006,7 @@
     "text_preserved": "department"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 119,
     "span_type": "line",
@@ -2023,7 +2023,7 @@
     "text_preserved": "retirement age"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 120,
     "span_type": "line",
@@ -2040,7 +2040,7 @@
     "text_preserved": "total years in employment/business"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 121,
     "span_type": "line",
@@ -2057,7 +2057,7 @@
     "text_preserved": "name of last employer"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 122,
     "span_type": "line",
@@ -2074,7 +2074,7 @@
     "text_preserved": "years of service with last employer"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 123,
     "span_type": "line",
@@ -2091,7 +2091,7 @@
     "text_preserved": "years"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 124,
     "span_type": "line",
@@ -2108,7 +2108,7 @@
     "text_preserved": "months"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 125,
     "span_type": "line",
@@ -2122,10 +2122,10 @@
     },
     "text_display": "If professional, are you",
     "text_clean": "if professional are you",
-    "text_preserved": "if professional are you"
+    "text_preserved": "if professional, are you"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 126,
     "span_type": "line",
@@ -2142,7 +2142,7 @@
     "text_preserved": "ca"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 127,
     "span_type": "line",
@@ -2159,7 +2159,7 @@
     "text_preserved": "banker"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 128,
     "span_type": "line",
@@ -2176,7 +2176,7 @@
     "text_preserved": "lawyer"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 129,
     "span_type": "line",
@@ -2193,7 +2193,7 @@
     "text_preserved": "consultant"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 130,
     "span_type": "line",
@@ -2210,7 +2210,7 @@
     "text_preserved": "doctor"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 131,
     "span_type": "line",
@@ -2227,7 +2227,7 @@
     "text_preserved": "academician"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 132,
     "span_type": "line",
@@ -2244,7 +2244,7 @@
     "text_preserved": "others"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 133,
     "span_type": "line",
@@ -2261,7 +2261,7 @@
     "text_preserved": "years in current employment/business"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 134,
     "span_type": "line",
@@ -2278,7 +2278,7 @@
     "text_preserved": "gross monthly income rs."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 135,
     "span_type": "line",
@@ -2292,10 +2292,10 @@
     },
     "text_display": "Net take home income (monthly) Rs.",
     "text_clean": "net take home income monthly rs",
-    "text_preserved": "net take home income monthly rs."
+    "text_preserved": "net take home income (monthly) rs."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 136,
     "span_type": "line",
@@ -2309,10 +2309,10 @@
     },
     "text_display": "Other income (monthly) Rs.",
     "text_clean": "other income monthly rs",
-    "text_preserved": "other income monthly rs."
+    "text_preserved": "other income (monthly) rs."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 137,
     "span_type": "line",
@@ -2329,7 +2329,7 @@
     "text_preserved": "emi affordable rs."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 138,
     "span_type": "line",
@@ -2346,7 +2346,7 @@
     "text_preserved": "office/business address details"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 139,
     "span_type": "line",
@@ -2363,7 +2363,7 @@
     "text_preserved": "name of employer/business"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 140,
     "span_type": "line",
@@ -2380,7 +2380,7 @@
     "text_preserved": "address line 1"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 141,
     "span_type": "line",
@@ -2397,7 +2397,7 @@
     "text_preserved": "address line 2"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 142,
     "span_type": "line",
@@ -2414,7 +2414,7 @@
     "text_preserved": "city"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 143,
     "span_type": "line",
@@ -2431,7 +2431,7 @@
     "text_preserved": "state"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 144,
     "span_type": "line",
@@ -2448,7 +2448,7 @@
     "text_preserved": "pin code"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 145,
     "span_type": "line",
@@ -2465,7 +2465,7 @@
     "text_preserved": "country"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 146,
     "span_type": "line",
@@ -2482,7 +2482,7 @@
     "text_preserved": "board no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 147,
     "span_type": "line",
@@ -2499,7 +2499,7 @@
     "text_preserved": "extension"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 148,
     "span_type": "line",
@@ -2516,7 +2516,7 @@
     "text_preserved": "std code"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 149,
     "span_type": "line",
@@ -2533,7 +2533,7 @@
     "text_preserved": "email"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 150,
     "span_type": "line",
@@ -2547,10 +2547,10 @@
     },
     "text_display": "Telephone (D)",
     "text_clean": "telephone d",
-    "text_preserved": "telephone d"
+    "text_preserved": "telephone (d)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 151,
     "span_type": "line",
@@ -2567,7 +2567,7 @@
     "text_preserved": "std code"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 152,
     "span_type": "line",
@@ -2584,7 +2584,7 @@
     "text_preserved": "3. banking relationships"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 153,
     "span_type": "line",
@@ -2598,10 +2598,10 @@
     },
     "text_display": "1. Primary bank account (Salary account for salaried individuals)",
     "text_clean": "1 primary bank account salary account for salaried individuals",
-    "text_preserved": "1. primary bank account salary account for salaried individuals"
+    "text_preserved": "1. primary bank account (salary account for salaried individuals)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 154,
     "span_type": "line",
@@ -2618,7 +2618,7 @@
     "text_preserved": "2. other bank account details"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 155,
     "span_type": "line",
@@ -2635,7 +2635,7 @@
     "text_preserved": "name of bank"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 156,
     "span_type": "line",
@@ -2652,7 +2652,7 @@
     "text_preserved": "name of bank"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 157,
     "span_type": "line",
@@ -2669,7 +2669,7 @@
     "text_preserved": "location"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 158,
     "span_type": "line",
@@ -2686,7 +2686,7 @@
     "text_preserved": "location"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 159,
     "span_type": "line",
@@ -2703,7 +2703,7 @@
     "text_preserved": "city"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 160,
     "span_type": "line",
@@ -2720,7 +2720,7 @@
     "text_preserved": "city"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 161,
     "span_type": "line",
@@ -2737,7 +2737,7 @@
     "text_preserved": "account no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 162,
     "span_type": "line",
@@ -2754,7 +2754,7 @@
     "text_preserved": "account no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 163,
     "span_type": "line",
@@ -2771,7 +2771,7 @@
     "text_preserved": "type of account"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 164,
     "span_type": "line",
@@ -2788,7 +2788,7 @@
     "text_preserved": "savings"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 165,
     "span_type": "line",
@@ -2805,7 +2805,7 @@
     "text_preserved": "current"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 166,
     "span_type": "line",
@@ -2822,7 +2822,7 @@
     "text_preserved": "cc/od"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 167,
     "span_type": "line",
@@ -2839,7 +2839,7 @@
     "text_preserved": "type of account"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 168,
     "span_type": "line",
@@ -2856,7 +2856,7 @@
     "text_preserved": "savings"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 169,
     "span_type": "line",
@@ -2873,7 +2873,7 @@
     "text_preserved": "current"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 170,
     "span_type": "line",
@@ -2890,7 +2890,7 @@
     "text_preserved": "cc/od"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 171,
     "span_type": "line",
@@ -2907,7 +2907,7 @@
     "text_preserved": "4. credit card"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 172,
     "span_type": "line",
@@ -2921,10 +2921,10 @@
     },
     "text_display": "If you have credit cards, kindly fill in the following details:",
     "text_clean": "if you have credit cards kindly fill in the following details",
-    "text_preserved": "if you have credit cards kindly fill in the following details"
+    "text_preserved": "if you have credit cards, kindly fill in the following details:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 173,
     "span_type": "line",
@@ -2941,7 +2941,7 @@
     "text_preserved": "card 1"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 174,
     "span_type": "line",
@@ -2958,7 +2958,7 @@
     "text_preserved": "card 2"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 175,
     "span_type": "line",
@@ -2975,7 +2975,7 @@
     "text_preserved": "credit card no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 176,
     "span_type": "line",
@@ -2992,7 +2992,7 @@
     "text_preserved": "credit card no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 177,
     "span_type": "line",
@@ -3009,7 +3009,7 @@
     "text_preserved": "bank name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 178,
     "span_type": "line",
@@ -3026,7 +3026,7 @@
     "text_preserved": "bank name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 179,
     "span_type": "line",
@@ -3043,7 +3043,7 @@
     "text_preserved": "5. loan details"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 180,
     "span_type": "line",
@@ -3060,7 +3060,7 @@
     "text_preserved": "details of loans and liabilities"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 181,
     "span_type": "line",
@@ -3077,7 +3077,7 @@
     "text_preserved": "sr. no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 182,
     "span_type": "line",
@@ -3094,7 +3094,7 @@
     "text_preserved": "institution name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 183,
     "span_type": "line",
@@ -3111,7 +3111,7 @@
     "text_preserved": "type of loan"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 184,
     "span_type": "line",
@@ -3128,7 +3128,7 @@
     "text_preserved": "loan amount"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 185,
     "span_type": "line",
@@ -3145,7 +3145,7 @@
     "text_preserved": "emi"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 186,
     "span_type": "line",
@@ -3162,7 +3162,7 @@
     "text_preserved": "current o/s"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 187,
     "span_type": "line",
@@ -3179,7 +3179,7 @@
     "text_preserved": "balance tenure"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 2,
     "span_id": 188,
     "span_type": "line",
@@ -3193,10 +3193,10 @@
     },
     "text_display": "*Kindly attach additional sheet, if need arises. **If loan taken from employee kindly mention employer's name",
     "text_clean": "kindly attach additional sheet if need arises if loan taken from employee kindly mention employer s name",
-    "text_preserved": "kindly attach additional sheet if need arises. if loan taken from employee kindly mention employer s name"
+    "text_preserved": "kindly attach additional sheet, if need arises. if loan taken from employee kindly mention employer s name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 189,
     "span_type": "line",
@@ -3213,7 +3213,7 @@
     "text_preserved": "6. loan requirement"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 190,
     "span_type": "line",
@@ -3227,10 +3227,10 @@
     },
     "text_display": "I hereby apply for a personal loan as follows:",
     "text_clean": "i hereby apply for a personal loan as follows",
-    "text_preserved": "i hereby apply for a personal loan as follows"
+    "text_preserved": "i hereby apply for a personal loan as follows:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 191,
     "span_type": "line",
@@ -3247,7 +3247,7 @@
     "text_preserved": "purpose of loan"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 192,
     "span_type": "line",
@@ -3264,7 +3264,7 @@
     "text_preserved": "consumer durables"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 193,
     "span_type": "line",
@@ -3281,7 +3281,7 @@
     "text_preserved": "working capital"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 194,
     "span_type": "line",
@@ -3298,7 +3298,7 @@
     "text_preserved": "home-related expenses"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 195,
     "span_type": "line",
@@ -3315,7 +3315,7 @@
     "text_preserved": "wedding expenses"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 196,
     "span_type": "line",
@@ -3332,7 +3332,7 @@
     "text_preserved": "repayment of existing loans"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 197,
     "span_type": "line",
@@ -3349,7 +3349,7 @@
     "text_preserved": "education"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 198,
     "span_type": "line",
@@ -3366,7 +3366,7 @@
     "text_preserved": "travel"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 199,
     "span_type": "line",
@@ -3383,7 +3383,7 @@
     "text_preserved": "purchase of professional equipment"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 200,
     "span_type": "line",
@@ -3400,7 +3400,7 @@
     "text_preserved": "others"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 201,
     "span_type": "line",
@@ -3417,7 +3417,7 @@
     "text_preserved": "pleasespecify"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 202,
     "span_type": "line",
@@ -3434,7 +3434,7 @@
     "text_preserved": "loan amount required rs."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 203,
     "span_type": "line",
@@ -3451,7 +3451,7 @@
     "text_preserved": "loan tenor required"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 204,
     "span_type": "line",
@@ -3468,7 +3468,7 @@
     "text_preserved": "months"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 205,
     "span_type": "line",
@@ -3485,7 +3485,7 @@
     "text_preserved": "7. disbursal instructions"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 206,
     "span_type": "line",
@@ -3499,10 +3499,10 @@
     },
     "text_display": "Please disburse my loan as per the following instructions:",
     "text_clean": "please disburse my loan as per the following instructions",
-    "text_preserved": "please disburse my loan as per the following instructions"
+    "text_preserved": "please disburse my loan as per the following instructions:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 207,
     "span_type": "line",
@@ -3519,7 +3519,7 @@
     "text_preserved": "by pay order"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 208,
     "span_type": "line",
@@ -3536,7 +3536,7 @@
     "text_preserved": "to my savings account with"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 209,
     "span_type": "line",
@@ -3553,7 +3553,7 @@
     "text_preserved": "account no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 210,
     "span_type": "line",
@@ -3570,7 +3570,7 @@
     "text_preserved": "i wish to pay my monthly installment by"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 211,
     "span_type": "line",
@@ -3584,10 +3584,10 @@
     },
     "text_display": "Debit from my Saving Account with Deutsche Bank, account number",
     "text_clean": "debit from my saving account with deutsche bank account number",
-    "text_preserved": "debit from my saving account with deutsche bank account number"
+    "text_preserved": "debit from my saving account with deutsche bank, account number"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 212,
     "span_type": "line",
@@ -3601,10 +3601,10 @@
     },
     "text_display": "Electronic Clearing Service (ECS) / NACH",
     "text_clean": "electronic clearing service ecs nach",
-    "text_preserved": "electronic clearing service ecs / nach"
+    "text_preserved": "electronic clearing service (ecs) / nach"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 213,
     "span_type": "line",
@@ -3621,7 +3621,7 @@
     "text_preserved": "8. contact details"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 214,
     "span_type": "line",
@@ -3638,7 +3638,7 @@
     "text_preserved": "preferred address for correspondence"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 215,
     "span_type": "line",
@@ -3655,7 +3655,7 @@
     "text_preserved": "present address"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 216,
     "span_type": "line",
@@ -3672,7 +3672,7 @@
     "text_preserved": "permanent address"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 217,
     "span_type": "line",
@@ -3689,7 +3689,7 @@
     "text_preserved": "office address"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 218,
     "span_type": "line",
@@ -3706,7 +3706,7 @@
     "text_preserved": "preferred mode of conduct preferred"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 219,
     "span_type": "line",
@@ -3723,7 +3723,7 @@
     "text_preserved": "e-mail"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 220,
     "span_type": "line",
@@ -3737,10 +3737,10 @@
     },
     "text_display": "Phone (L)",
     "text_clean": "phone l",
-    "text_preserved": "phone l"
+    "text_preserved": "phone (l)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 221,
     "span_type": "line",
@@ -3757,7 +3757,7 @@
     "text_preserved": "mobile"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 222,
     "span_type": "line",
@@ -3774,7 +3774,7 @@
     "text_preserved": "personal visit"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 223,
     "span_type": "line",
@@ -3791,7 +3791,7 @@
     "text_preserved": "residence"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 224,
     "span_type": "line",
@@ -3808,7 +3808,7 @@
     "text_preserved": "visit office"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 225,
     "span_type": "line",
@@ -3825,7 +3825,7 @@
     "text_preserved": "do not call"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 226,
     "span_type": "line",
@@ -3842,7 +3842,7 @@
     "text_preserved": "time of contact"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 227,
     "span_type": "line",
@@ -3859,7 +3859,7 @@
     "text_preserved": "before 7 am"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 228,
     "span_type": "line",
@@ -3876,7 +3876,7 @@
     "text_preserved": "7 am - 9 am"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 229,
     "span_type": "line",
@@ -3893,7 +3893,7 @@
     "text_preserved": "10 am - 6 pm"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 230,
     "span_type": "line",
@@ -3910,7 +3910,7 @@
     "text_preserved": "7 pm- 9 pm"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 231,
     "span_type": "line",
@@ -3927,7 +3927,7 @@
     "text_preserved": "anytime during the day"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 232,
     "span_type": "line",
@@ -3944,7 +3944,7 @@
     "text_preserved": "reference 1"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 233,
     "span_type": "line",
@@ -3961,7 +3961,7 @@
     "text_preserved": "reference 2"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 234,
     "span_type": "line",
@@ -3978,7 +3978,7 @@
     "text_preserved": "name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 235,
     "span_type": "line",
@@ -3995,7 +3995,7 @@
     "text_preserved": "name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 236,
     "span_type": "line",
@@ -4012,7 +4012,7 @@
     "text_preserved": "address"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 237,
     "span_type": "line",
@@ -4029,7 +4029,7 @@
     "text_preserved": "address"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 238,
     "span_type": "line",
@@ -4046,7 +4046,7 @@
     "text_preserved": "contact number"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 239,
     "span_type": "line",
@@ -4063,7 +4063,7 @@
     "text_preserved": "contact number"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 240,
     "span_type": "line",
@@ -4080,7 +4080,7 @@
     "text_preserved": "relationship with"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 241,
     "span_type": "line",
@@ -4097,7 +4097,7 @@
     "text_preserved": "relationship with"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 242,
     "span_type": "line",
@@ -4114,7 +4114,7 @@
     "text_preserved": "the applicant"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 3,
     "span_id": 243,
     "span_type": "line",
@@ -4131,7 +4131,7 @@
     "text_preserved": "the applicant"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 244,
     "span_type": "line",
@@ -4148,7 +4148,7 @@
     "text_preserved": "declaration"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 245,
     "span_type": "line",
@@ -4162,10 +4162,10 @@
     },
     "text_display": "I hereby declare that the information and documents given by me / us to Deutsche Bank AG, India (\"Bank\") are true, correct and accurate and I",
     "text_clean": "i hereby declare that the information and documents given by me us to deutsche bank ag india bank are true correct and accurate and i",
-    "text_preserved": "i hereby declare that the information and documents given by me / us to deutsche bank ag india bank are true correct and accurate and i"
+    "text_preserved": "i hereby declare that the information and documents given by me / us to deutsche bank ag, india ( bank ) are true, correct and accurate and i"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 246,
     "span_type": "line",
@@ -4182,7 +4182,7 @@
     "text_preserved": "have not withheld any material information. i understand that such information and documents have been submitted to induce the bank to"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 247,
     "span_type": "line",
@@ -4199,7 +4199,7 @@
     "text_preserved": "sanction and grant the loan. i confirm that the bank is not required to return this loan application form along with the supporting documents or"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 248,
     "span_type": "line",
@@ -4216,7 +4216,7 @@
     "text_preserved": "any other documents supplied by me. i have carefully read and understood the terms and conditions of this application as well as the terms"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 249,
     "span_type": "line",
@@ -4230,10 +4230,10 @@
     },
     "text_display": "and conditions of the loan facility. I hereby irrevocably agree to be bound by the terms and conditions governing the loan facility, which may be",
     "text_clean": "and conditions of the loan facility i hereby irrevocably agree to be bound by the terms and conditions governing the loan facility which may be",
-    "text_preserved": "and conditions of the loan facility. i hereby irrevocably agree to be bound by the terms and conditions governing the loan facility which may be"
+    "text_preserved": "and conditions of the loan facility. i hereby irrevocably agree to be bound by the terms and conditions governing the loan facility, which may be"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 250,
     "span_type": "line",
@@ -4250,7 +4250,7 @@
     "text_preserved": "amended from time to time by the bank without obtaining consent of me. i hereby declare that i am fully competent to apply for the loan and"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 251,
     "span_type": "line",
@@ -4267,7 +4267,7 @@
     "text_preserved": "there is no legal impediment for availing the loan facility from the bank. i confirm that there are no bankruptcy or liquidation proceedings"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 252,
     "span_type": "line",
@@ -4284,7 +4284,7 @@
     "text_preserved": "instituted against me and i am not an undischarged insolvent and that none of my credit facilities / loans with any financial institution has"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 253,
     "span_type": "line",
@@ -4298,10 +4298,10 @@
     },
     "text_display": "turned / bad / irregular or is under default. I hereby authorise the Bank to contact me and / or my friends, relatives, employer (past and",
     "text_clean": "turned bad irregular or is under default i hereby authorise the bank to contact me and or my friends relatives employer past and",
-    "text_preserved": "turned / bad / irregular or is under default. i hereby authorise the bank to contact me and / or my friends relatives employer past and"
+    "text_preserved": "turned / bad / irregular or is under default. i hereby authorise the bank to contact me and / or my friends, relatives, employer (past and"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 254,
     "span_type": "line",
@@ -4315,10 +4315,10 @@
     },
     "text_display": "present), business associates or any other source to verify the details furnished by me. I also authorise the Bank to conduct such credit check",
     "text_clean": "present business associates or any other source to verify the details furnished by me i also authorise the bank to conduct such credit check",
-    "text_preserved": "present business associates or any other source to verify the details furnished by me. i also authorise the bank to conduct such credit check"
+    "text_preserved": "present), business associates or any other source to verify the details furnished by me. i also authorise the bank to conduct such credit check"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 255,
     "span_type": "line",
@@ -4332,10 +4332,10 @@
     },
     "text_display": "as it considers necessary in its sole discretion. I understand and agree that the sanction of the loan shall be at the sole discretion of the Bank,",
     "text_clean": "as it considers necessary in its sole discretion i understand and agree that the sanction of the loan shall be at the sole discretion of the bank",
-    "text_preserved": "as it considers necessary in its sole discretion. i understand and agree that the sanction of the loan shall be at the sole discretion of the bank"
+    "text_preserved": "as it considers necessary in its sole discretion. i understand and agree that the sanction of the loan shall be at the sole discretion of the bank,"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 256,
     "span_type": "line",
@@ -4349,10 +4349,10 @@
     },
     "text_display": "and the Bank reserves its right to reject this loan application without providing any reasons. I hereby consent, agree and authorise the Bank to",
     "text_clean": "and the bank reserves its right to reject this loan application without providing any reasons i hereby consent agree and authorise the bank to",
-    "text_preserved": "and the bank reserves its right to reject this loan application without providing any reasons. i hereby consent agree and authorise the bank to"
+    "text_preserved": "and the bank reserves its right to reject this loan application without providing any reasons. i hereby consent, agree and authorise the bank to"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 257,
     "span_type": "line",
@@ -4366,10 +4366,10 @@
     },
     "text_display": "disclose information and data relating to me, information and data of any credit facilities availed of / to be availed of by me, and / or information",
     "text_clean": "disclose information and data relating to me information and data of any credit facilities availed of to be availed of by me and or information",
-    "text_preserved": "disclose information and data relating to me information and data of any credit facilities availed of / to be availed of by me and / or information"
+    "text_preserved": "disclose information and data relating to me, information and data of any credit facilities availed of / to be availed of by me, and / or information"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 258,
     "span_type": "line",
@@ -4383,10 +4383,10 @@
     },
     "text_display": "and data relating to any default, if any, committed by me in discharge of my obligations as and when the Bank deems appropriate and",
     "text_clean": "and data relating to any default if any committed by me in discharge of my obligations as and when the bank deems appropriate and",
-    "text_preserved": "and data relating to any default if any committed by me in discharge of my obligations as and when the bank deems appropriate and"
+    "text_preserved": "and data relating to any default, if any, committed by me in discharge of my obligations as and when the bank deems appropriate and"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 259,
     "span_type": "line",
@@ -4400,10 +4400,10 @@
     },
     "text_display": "necessary and furnish the same to the Credit Information Bureau (India) Limited (CIBIL) and / or any other agency as deemed necessary at the",
     "text_clean": "necessary and furnish the same to the credit information bureau india limited cibil and or any other agency as deemed necessary at the",
-    "text_preserved": "necessary and furnish the same to the credit information bureau india limited cibil and / or any other agency as deemed necessary at the"
+    "text_preserved": "necessary and furnish the same to the credit information bureau (india) limited (cibil) and / or any other agency as deemed necessary at the"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 260,
     "span_type": "line",
@@ -4420,7 +4420,7 @@
     "text_preserved": "sole discretion of the bank. i agree to provide to the bank such further documents as may be required by the bank from time to time to comply"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 261,
     "span_type": "line",
@@ -4434,10 +4434,10 @@
     },
     "text_display": "with the Know Your Customer (KYC) requirements of the Reserve Bank of India and",
     "text_clean": "with the know your customer kyc requirements of the reserve bank of india and",
-    "text_preserved": "with the know your customer kyc requirements of the reserve bank of india and"
+    "text_preserved": "with the know your customer (kyc) requirements of the reserve bank of india and"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 262,
     "span_type": "line",
@@ -4454,7 +4454,7 @@
     "text_preserved": "the bank."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 263,
     "span_type": "line",
@@ -4468,10 +4468,10 @@
     },
     "text_display": "I further agree that my loan should be governed by the terms and conditions laid down in this application form, sanction letter and",
     "text_clean": "i further agree that my loan should be governed by the terms and conditions laid down in this application form sanction letter and",
-    "text_preserved": "i further agree that my loan should be governed by the terms and conditions laid down in this application form sanction letter and"
+    "text_preserved": "i further agree that my loan should be governed by the terms and conditions laid down in this application form, sanction letter and"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 264,
     "span_type": "line",
@@ -4488,7 +4488,7 @@
     "text_preserved": "loan agreement."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 265,
     "span_type": "line",
@@ -4505,7 +4505,7 @@
     "text_preserved": "i will update the bank in case of any change in my / my related party / ultimate beneficiary owner details provided at the time of opening the"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 266,
     "span_type": "line",
@@ -4519,10 +4519,10 @@
     },
     "text_display": "account which includes address change, change in industry, change in employment etc. I hereby consent, agree and authorise the Bank to",
     "text_clean": "account which includes address change change in industry change in employment etc i hereby consent agree and authorise the bank to",
-    "text_preserved": "account which includes address change change in industry change in employment etc. i hereby consent agree and authorise the bank to"
+    "text_preserved": "account which includes address change, change in industry, change in employment etc. i hereby consent, agree and authorise the bank to"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 267,
     "span_type": "line",
@@ -4539,7 +4539,7 @@
     "text_preserved": "disclose and share information and profile data relating to me / us with risk scoring systems and global data bases of the bank for profile"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 268,
     "span_type": "line",
@@ -4556,7 +4556,7 @@
     "text_preserved": "checks."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 269,
     "span_type": "line",
@@ -4570,10 +4570,10 @@
     },
     "text_display": "The information including landline, mobile and email-id as mentioned above (apart from being used for Mandatory account verification and",
     "text_clean": "the information including landline mobile and email id as mentioned above apart from being used for mandatory account verification and",
-    "text_preserved": "the information including landline mobile and email-id as mentioned above apart from being used for mandatory account verification and"
+    "text_preserved": "the information including landline, mobile and email-id as mentioned above (apart from being used for mandatory account verification and"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 270,
     "span_type": "line",
@@ -4587,10 +4587,10 @@
     },
     "text_display": "maintenance purposes) may also be used by the Bank to contact the customer and offer carefully selected products and services from time to",
     "text_clean": "maintenance purposes may also be used by the bank to contact the customer and offer carefully selected products and services from time to",
-    "text_preserved": "maintenance purposes may also be used by the bank to contact the customer and offer carefully selected products and services from time to"
+    "text_preserved": "maintenance purposes) may also be used by the bank to contact the customer and offer carefully selected products and services from time to"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 271,
     "span_type": "line",
@@ -4607,7 +4607,7 @@
     "text_preserved": "time either itself or through its authorised agents or authorised representatives."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 272,
     "span_type": "line",
@@ -4621,10 +4621,10 @@
     },
     "text_display": "By submitting Aadhaar number/copy of Aadhaar Card to Deutsche Bank, I/we confirm and agree that the Bank has duly explained to me/us",
     "text_clean": "by submitting aadhaar number copy of aadhaar card to deutsche bank i we confirm and agree that the bank has duly explained to me us",
-    "text_preserved": "by submitting aadhaar number/copy of aadhaar card to deutsche bank i/we confirm and agree that the bank has duly explained to me/us"
+    "text_preserved": "by submitting aadhaar number/copy of aadhaar card to deutsche bank, i/we confirm and agree that the bank has duly explained to me/us"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 273,
     "span_type": "line",
@@ -4641,7 +4641,7 @@
     "text_preserved": "that submission of aadhaar number / aadhaar card is no longer mandated for the purpose kyc for bank accounts and i/ we have the option to"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 274,
     "span_type": "line",
@@ -4655,10 +4655,10 @@
     },
     "text_display": "submit any other documents considered as a valid proof for the purpose of KYC as per the Reserve Bank of India direction. However, I/we are",
     "text_clean": "submit any other documents considered as a valid proof for the purpose of kyc as per the reserve bank of india direction however i we are",
-    "text_preserved": "submit any other documents considered as a valid proof for the purpose of kyc as per the reserve bank of india direction. however i/we are"
+    "text_preserved": "submit any other documents considered as a valid proof for the purpose of kyc as per the reserve bank of india direction. however, i/we are"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 275,
     "span_type": "line",
@@ -4672,10 +4672,10 @@
     },
     "text_display": "providing my/our Aadhaar number/Aadhaar card, as proof to Deutsche Bank voluntarily for the purpose of KYC and I confirm that I have struck",
     "text_clean": "providing my our aadhaar number aadhaar card as proof to deutsche bank voluntarily for the purpose of kyc and i confirm that i have struck",
-    "text_preserved": "providing my/our aadhaar number/aadhaar card as proof to deutsche bank voluntarily for the purpose of kyc and i confirm that i have struck"
+    "text_preserved": "providing my/our aadhaar number/aadhaar card, as proof to deutsche bank voluntarily for the purpose of kyc and i confirm that i have struck"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 276,
     "span_type": "line",
@@ -4692,7 +4692,7 @@
     "text_preserved": "off the aadhaar number from the copy of the aadhaar card submitted by me to deutsche bank. i/we further confirm that deutsche bank is"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 277,
     "span_type": "line",
@@ -4706,10 +4706,10 @@
     },
     "text_display": "authorized to collect, store and use my/our Aadhaar as proof of address/KYC document in accordance with extant rules and regulations.",
     "text_clean": "authorized to collect store and use my our aadhaar as proof of address kyc document in accordance with extant rules and regulations",
-    "text_preserved": "authorized to collect store and use my/our aadhaar as proof of address/kyc document in accordance with extant rules and regulations."
+    "text_preserved": "authorized to collect, store and use my/our aadhaar as proof of address/kyc document in accordance with extant rules and regulations."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 278,
     "span_type": "line",
@@ -4726,7 +4726,7 @@
     "text_preserved": "my / our personal / kyc details may be shared with central kyc registry. i/ we hereby consent to receive information from central kyc"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 279,
     "span_type": "line",
@@ -4743,7 +4743,7 @@
     "text_preserved": "registry through sms / email on the above registered number / email address."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 280,
     "span_type": "line",
@@ -4757,10 +4757,10 @@
     },
     "text_display": "The Bank shall share the information provided in the application form with the credit information companies (CICs). Basis this information, CIC",
     "text_clean": "the bank shall share the information provided in the application form with the credit information companies cics basis this information cic",
-    "text_preserved": "the bank shall share the information provided in the application form with the credit information companies cics . basis this information cic"
+    "text_preserved": "the bank shall share the information provided in the application form with the credit information companies (cics). basis this information, cic"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 281,
     "span_type": "line",
@@ -4777,7 +4777,7 @@
     "text_preserved": "would provide the credit information report to the bank. the bank may use this credit information report while taking decision on grant of loan"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 282,
     "span_type": "line",
@@ -4794,7 +4794,7 @@
     "text_preserved": "facility. the bank on the request of the customer shall share credit information report with her / him / them."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 283,
     "span_type": "line",
@@ -4808,10 +4808,10 @@
     },
     "text_display": "Please indicate if your are agreeable to receiving such offers: Yes",
     "text_clean": "please indicate if your are agreeable to receiving such offers yes",
-    "text_preserved": "please indicate if your are agreeable to receiving such offers yes"
+    "text_preserved": "please indicate if your are agreeable to receiving such offers: yes"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 284,
     "span_type": "line",
@@ -4828,7 +4828,7 @@
     "text_preserved": "no"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 285,
     "span_type": "line",
@@ -4842,10 +4842,10 @@
     },
     "text_display": "Applicant's Signature (Sign within the box and use black ink for signature)",
     "text_clean": "applicant s signature sign within the box and use black ink for signature",
-    "text_preserved": "applicant s signature sign within the box and use black ink for signature"
+    "text_preserved": "applicant s signature (sign within the box and use black ink for signature)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 286,
     "span_type": "line",
@@ -4862,7 +4862,7 @@
     "text_preserved": "name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 287,
     "span_type": "line",
@@ -4879,7 +4879,7 @@
     "text_preserved": "location"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 4,
     "span_id": 288,
     "span_type": "line",
@@ -4896,7 +4896,7 @@
     "text_preserved": "date dd m yyyy"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 289,
     "span_type": "line",
@@ -4910,10 +4910,10 @@
     },
     "text_display": "Customer disclosure in respect to relationship with director/senior officer of the Bank/any other bank:",
     "text_clean": "customer disclosure in respect to relationship with director senior officer of the bank any other bank",
-    "text_preserved": "customer disclosure in respect to relationship with director/senior officer of the bank/any other bank"
+    "text_preserved": "customer disclosure in respect to relationship with director/senior officer of the bank/any other bank:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 290,
     "span_type": "line",
@@ -4927,10 +4927,10 @@
     },
     "text_display": "I/ We hereby certify and declare that (tick whichever is applicable):",
     "text_clean": "i we hereby certify and declare that tick whichever is applicable",
-    "text_preserved": "i/ we hereby certify and declare that tick whichever is applicable"
+    "text_preserved": "i/ we hereby certify and declare that (tick whichever is applicable):"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 291,
     "span_type": "line",
@@ -4944,10 +4944,10 @@
     },
     "text_display": "(a) I/ We am/are not a director or a specified near relation of a director of board of a banking company or to any senior officer of the Bank",
     "text_clean": "a i we am are not a director or a specified near relation of a director of board of a banking company or to any senior officer of the bank",
-    "text_preserved": "a i/ we am/are not a director or a specified near relation of a director of board of a banking company or to any senior officer of the bank"
+    "text_preserved": "(a) i/ we am/are not a director or a specified near relation of a director of board of a banking company or to any senior officer of the bank"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 292,
     "span_type": "line",
@@ -4961,10 +4961,10 @@
     },
     "text_display": "(where the borrower is an individual);",
     "text_clean": "where the borrower is an individual",
-    "text_preserved": "where the borrower is an individual"
+    "text_preserved": "(where the borrower is an individual);"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 293,
     "span_type": "line",
@@ -4978,10 +4978,10 @@
     },
     "text_display": "(b) None of our partners is a director or specified near relation of a director of board of a banking company or to any senior officer of the Bank",
     "text_clean": "b none of our partners is a director or specified near relation of a director of board of a banking company or to any senior officer of the bank",
-    "text_preserved": "b none of our partners is a director or specified near relation of a director of board of a banking company or to any senior officer of the bank"
+    "text_preserved": "(b) none of our partners is a director or specified near relation of a director of board of a banking company or to any senior officer of the bank"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 294,
     "span_type": "line",
@@ -4995,10 +4995,10 @@
     },
     "text_display": "(where the borrower is a partnership firm); and",
     "text_clean": "where the borrower is a partnership firm and",
-    "text_preserved": "where the borrower is a partnership firm and"
+    "text_preserved": "(where the borrower is a partnership firm); and"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 295,
     "span_type": "line",
@@ -5012,10 +5012,10 @@
     },
     "text_display": "(c) None of our directors is a director or specified near relation of a director of board of a banking company or to any senior officer of the Bank",
     "text_clean": "c none of our directors is a director or specified near relation of a director of board of a banking company or to any senior officer of the bank",
-    "text_preserved": "c none of our directors is a director or specified near relation of a director of board of a banking company or to any senior officer of the bank"
+    "text_preserved": "(c) none of our directors is a director or specified near relation of a director of board of a banking company or to any senior officer of the bank"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 296,
     "span_type": "line",
@@ -5029,10 +5029,10 @@
     },
     "text_display": "(where the borrower is a joint stock company).",
     "text_clean": "where the borrower is a joint stock company",
-    "text_preserved": "where the borrower is a joint stock company ."
+    "text_preserved": "(where the borrower is a joint stock company)."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 297,
     "span_type": "line",
@@ -5046,10 +5046,10 @@
     },
     "text_display": "(d) I/ We am/are a director or specified near relation of a director of a board of a banking company or to any senior officer of the Bank as detailed",
     "text_clean": "d i we am are a director or specified near relation of a director of a board of a banking company or to any senior officer of the bank as detailed",
-    "text_preserved": "d i/ we am/are a director or specified near relation of a director of a board of a banking company or to any senior officer of the bank as detailed"
+    "text_preserved": "(d) i/ we am/are a director or specified near relation of a director of a board of a banking company or to any senior officer of the bank as detailed"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 298,
     "span_type": "line",
@@ -5063,10 +5063,10 @@
     },
     "text_display": "below:",
     "text_clean": "below",
-    "text_preserved": "below"
+    "text_preserved": "below:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 299,
     "span_type": "line",
@@ -5080,10 +5080,10 @@
     },
     "text_display": "Sr. No Name of Director(s) / Senior Officer(s) Designation Relationship",
     "text_clean": "sr no name of director s senior officer s designation relationship",
-    "text_preserved": "sr. no name of director s / senior officer s designation relationship"
+    "text_preserved": "sr. no name of director(s) / senior officer(s) designation relationship"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 300,
     "span_type": "line",
@@ -5100,7 +5100,7 @@
     "text_preserved": "1"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 301,
     "span_type": "line",
@@ -5117,7 +5117,7 @@
     "text_preserved": "2"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 302,
     "span_type": "line",
@@ -5134,7 +5134,7 @@
     "text_preserved": "3"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 303,
     "span_type": "line",
@@ -5151,7 +5151,7 @@
     "text_preserved": "4"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 304,
     "span_type": "line",
@@ -5165,10 +5165,10 @@
     },
     "text_display": "I/ We understand that Deutsche Bank AG, India is entitled to revoke and/ or recall the credit facility if the declaration made by me / us with",
     "text_clean": "i we understand that deutsche bank ag india is entitled to revoke and or recall the credit facility if the declaration made by me us with",
-    "text_preserved": "i/ we understand that deutsche bank ag india is entitled to revoke and/ or recall the credit facility if the declaration made by me / us with"
+    "text_preserved": "i/ we understand that deutsche bank ag, india is entitled to revoke and/ or recall the credit facility if the declaration made by me / us with"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 305,
     "span_type": "line",
@@ -5185,7 +5185,7 @@
     "text_preserved": "reference to the above is found to be false."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 306,
     "span_type": "line",
@@ -5202,7 +5202,7 @@
     "text_preserved": "x"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 307,
     "span_type": "line",
@@ -5219,7 +5219,7 @@
     "text_preserved": "signature of the applicant"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 308,
     "span_type": "line",
@@ -5233,10 +5233,10 @@
     },
     "text_display": "Date:",
     "text_clean": "date",
-    "text_preserved": "date"
+    "text_preserved": "date:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 309,
     "span_type": "line",
@@ -5250,10 +5250,10 @@
     },
     "text_display": "The scope of the term 'relative' shall mean and include Spouse/ Father, Mother (including step-mother), Son (including step-son), Son's wife,",
     "text_clean": "the scope of the term relative shall mean and include spouse father mother including step mother son including step son son s wife",
-    "text_preserved": "the scope of the term relative shall mean and include spouse/ father mother including step-mother son including step-son son s wife"
+    "text_preserved": "the scope of the term relative shall mean and include spouse/ father, mother (including step-mother), son (including step-son), son s wife,"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 310,
     "span_type": "line",
@@ -5267,10 +5267,10 @@
     },
     "text_display": "Daughter (including step-daughter), Daughter's Husband, Brother (including step-brother), Brother's wife, Sister (including step-sister), Sister's",
     "text_clean": "daughter including step daughter daughter s husband brother including step brother brother s wife sister including step sister sister s",
-    "text_preserved": "daughter including step-daughter daughter s husband brother including step-brother brother s wife sister including step-sister sister s"
+    "text_preserved": "daughter (including step-daughter), daughter s husband, brother (including step-brother), brother s wife, sister (including step-sister), sister s"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 311,
     "span_type": "line",
@@ -5284,10 +5284,10 @@
     },
     "text_display": "Husband, Brother (including step-brother) of the Spouse, Sister (including step-sister) of the Spouse.",
     "text_clean": "husband brother including step brother of the spouse sister including step sister of the spouse",
-    "text_preserved": "husband brother including step-brother of the spouse sister including step-sister of the spouse."
+    "text_preserved": "husband, brother (including step-brother) of the spouse, sister (including step-sister) of the spouse."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 312,
     "span_type": "line",
@@ -5301,10 +5301,10 @@
     },
     "text_display": "The term 'senior officer' will refer to a)any officer in senior management level in Grade IV and above in a nationalised bank, and b) any officer in",
     "text_clean": "the term senior officer will refer to a any officer in senior management level in grade iv and above in a nationalised bank and b any officer in",
-    "text_preserved": "the term senior officer will refer to a any officer in senior management level in grade iv and above in a nationalised bank and b any officer in"
+    "text_preserved": "the term senior officer will refer to a)any officer in senior management level in grade iv and above in a nationalised bank, and b) any officer in"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 313,
     "span_type": "line",
@@ -5318,10 +5318,10 @@
     },
     "text_display": "equivalent scale in the State Bank of India and associate banks, and in any banking company in India.",
     "text_clean": "equivalent scale in the state bank of india and associate banks and in any banking company in india",
-    "text_preserved": "equivalent scale in the state bank of india and associate banks and in any banking company in india."
+    "text_preserved": "equivalent scale in the state bank of india and associate banks, and in any banking company in india."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 314,
     "span_type": "line",
@@ -5338,7 +5338,7 @@
     "text_preserved": "for bank use only"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 315,
     "span_type": "line",
@@ -5355,7 +5355,7 @@
     "text_preserved": "sales reference no."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 316,
     "span_type": "line",
@@ -5372,7 +5372,7 @@
     "text_preserved": "promotion code"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 317,
     "span_type": "line",
@@ -5389,7 +5389,7 @@
     "text_preserved": "application received on"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 318,
     "span_type": "line",
@@ -5406,7 +5406,7 @@
     "text_preserved": "ddmmyy"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 319,
     "span_type": "line",
@@ -5423,7 +5423,7 @@
     "text_preserved": "office use only section"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 320,
     "span_type": "line",
@@ -5440,7 +5440,7 @@
     "text_preserved": "industry codes"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 321,
     "span_type": "line",
@@ -5457,7 +5457,7 @@
     "text_preserved": "01"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 322,
     "span_type": "line",
@@ -5474,7 +5474,7 @@
     "text_preserved": "advertising and marketing"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 323,
     "span_type": "line",
@@ -5491,7 +5491,7 @@
     "text_preserved": "14"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 324,
     "span_type": "line",
@@ -5508,7 +5508,7 @@
     "text_preserved": "power and electricity"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 325,
     "span_type": "line",
@@ -5525,7 +5525,7 @@
     "text_preserved": "27"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 326,
     "span_type": "line",
@@ -5542,7 +5542,7 @@
     "text_preserved": "infrastructure"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 327,
     "span_type": "line",
@@ -5559,7 +5559,7 @@
     "text_preserved": "02"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 328,
     "span_type": "line",
@@ -5576,7 +5576,7 @@
     "text_preserved": "agriculture"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 329,
     "span_type": "line",
@@ -5593,7 +5593,7 @@
     "text_preserved": "15"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 330,
     "span_type": "line",
@@ -5610,7 +5610,7 @@
     "text_preserved": "railways"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 331,
     "span_type": "line",
@@ -5627,7 +5627,7 @@
     "text_preserved": "28"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 332,
     "span_type": "line",
@@ -5644,7 +5644,7 @@
     "text_preserved": "law"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 333,
     "span_type": "line",
@@ -5661,7 +5661,7 @@
     "text_preserved": "03"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 334,
     "span_type": "line",
@@ -5678,7 +5678,7 @@
     "text_preserved": "airlines"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 335,
     "span_type": "line",
@@ -5695,7 +5695,7 @@
     "text_preserved": "16"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 336,
     "span_type": "line",
@@ -5712,7 +5712,7 @@
     "text_preserved": "recruitment"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 337,
     "span_type": "line",
@@ -5729,7 +5729,7 @@
     "text_preserved": "29"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 338,
     "span_type": "line",
@@ -5746,7 +5746,7 @@
     "text_preserved": "manufacturing"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 339,
     "span_type": "line",
@@ -5763,7 +5763,7 @@
     "text_preserved": "04"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 340,
     "span_type": "line",
@@ -5780,7 +5780,7 @@
     "text_preserved": "armed forces"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 341,
     "span_type": "line",
@@ -5797,7 +5797,7 @@
     "text_preserved": "17"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 342,
     "span_type": "line",
@@ -5814,7 +5814,7 @@
     "text_preserved": "retailing"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 343,
     "span_type": "line",
@@ -5831,7 +5831,7 @@
     "text_preserved": "30"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 344,
     "span_type": "line",
@@ -5848,7 +5848,7 @@
     "text_preserved": "medical and health care"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 345,
     "span_type": "line",
@@ -5865,7 +5865,7 @@
     "text_preserved": "05"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 346,
     "span_type": "line",
@@ -5882,7 +5882,7 @@
     "text_preserved": "automobile"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 347,
     "span_type": "line",
@@ -5899,7 +5899,7 @@
     "text_preserved": "18"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 348,
     "span_type": "line",
@@ -5916,7 +5916,7 @@
     "text_preserved": "service provider"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 349,
     "span_type": "line",
@@ -5933,7 +5933,7 @@
     "text_preserved": "31"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 350,
     "span_type": "line",
@@ -5950,7 +5950,7 @@
     "text_preserved": "ministry and state government"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 351,
     "span_type": "line",
@@ -5967,7 +5967,7 @@
     "text_preserved": "06"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 352,
     "span_type": "line",
@@ -5984,7 +5984,7 @@
     "text_preserved": "banking and insurance"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 353,
     "span_type": "line",
@@ -6001,7 +6001,7 @@
     "text_preserved": "19"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 354,
     "span_type": "line",
@@ -6018,7 +6018,7 @@
     "text_preserved": "shipping"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 355,
     "span_type": "line",
@@ -6035,7 +6035,7 @@
     "text_preserved": "32"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 356,
     "span_type": "line",
@@ -6052,7 +6052,7 @@
     "text_preserved": "pharma and biotech"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 357,
     "span_type": "line",
@@ -6069,7 +6069,7 @@
     "text_preserved": "07"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 358,
     "span_type": "line",
@@ -6086,7 +6086,7 @@
     "text_preserved": "construction and real estate"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 359,
     "span_type": "line",
@@ -6103,7 +6103,7 @@
     "text_preserved": "20"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 360,
     "span_type": "line",
@@ -6120,7 +6120,7 @@
     "text_preserved": "entertainment and media"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 361,
     "span_type": "line",
@@ -6137,7 +6137,7 @@
     "text_preserved": "33"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 362,
     "span_type": "line",
@@ -6154,7 +6154,7 @@
     "text_preserved": "post and telegraph"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 363,
     "span_type": "line",
@@ -6171,7 +6171,7 @@
     "text_preserved": "08"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 364,
     "span_type": "line",
@@ -6188,7 +6188,7 @@
     "text_preserved": "ca/cs/icwa"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 365,
     "span_type": "line",
@@ -6205,7 +6205,7 @@
     "text_preserved": "21"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 366,
     "span_type": "line",
@@ -6222,7 +6222,7 @@
     "text_preserved": "export and import"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 367,
     "span_type": "line",
@@ -6239,7 +6239,7 @@
     "text_preserved": "34"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 368,
     "span_type": "line",
@@ -6256,7 +6256,7 @@
     "text_preserved": "textile"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 369,
     "span_type": "line",
@@ -6273,7 +6273,7 @@
     "text_preserved": "09"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 370,
     "span_type": "line",
@@ -6290,7 +6290,7 @@
     "text_preserved": "courier and cargo"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 371,
     "span_type": "line",
@@ -6307,7 +6307,7 @@
     "text_preserved": "22"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 372,
     "span_type": "line",
@@ -6324,7 +6324,7 @@
     "text_preserved": "financial services"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 373,
     "span_type": "line",
@@ -6341,7 +6341,7 @@
     "text_preserved": "35"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 374,
     "span_type": "line",
@@ -6358,7 +6358,7 @@
     "text_preserved": "trader and stockist"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 375,
     "span_type": "line",
@@ -6375,7 +6375,7 @@
     "text_preserved": "10"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 376,
     "span_type": "line",
@@ -6392,7 +6392,7 @@
     "text_preserved": "doctor and diagnostics"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 377,
     "span_type": "line",
@@ -6409,7 +6409,7 @@
     "text_preserved": "23"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 378,
     "span_type": "line",
@@ -6426,7 +6426,7 @@
     "text_preserved": "gem and jewellery"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 379,
     "span_type": "line",
@@ -6443,7 +6443,7 @@
     "text_preserved": "36"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 380,
     "span_type": "line",
@@ -6460,7 +6460,7 @@
     "text_preserved": "timber furniture"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 381,
     "span_type": "line",
@@ -6477,7 +6477,7 @@
     "text_preserved": "11"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 382,
     "span_type": "line",
@@ -6494,7 +6494,7 @@
     "text_preserved": "education"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 383,
     "span_type": "line",
@@ -6511,7 +6511,7 @@
     "text_preserved": "24"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 384,
     "span_type": "line",
@@ -6528,7 +6528,7 @@
     "text_preserved": "government bodies"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 385,
     "span_type": "line",
@@ -6545,7 +6545,7 @@
     "text_preserved": "37"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 386,
     "span_type": "line",
@@ -6562,7 +6562,7 @@
     "text_preserved": "transport/logistics"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 387,
     "span_type": "line",
@@ -6579,7 +6579,7 @@
     "text_preserved": "12"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 388,
     "span_type": "line",
@@ -6596,7 +6596,7 @@
     "text_preserved": "consulting"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 389,
     "span_type": "line",
@@ -6613,7 +6613,7 @@
     "text_preserved": "25"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 390,
     "span_type": "line",
@@ -6630,7 +6630,7 @@
     "text_preserved": "hotel and restaurant"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 391,
     "span_type": "line",
@@ -6647,7 +6647,7 @@
     "text_preserved": "38"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 392,
     "span_type": "line",
@@ -6664,7 +6664,7 @@
     "text_preserved": "travel and tourism"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 393,
     "span_type": "line",
@@ -6681,7 +6681,7 @@
     "text_preserved": "13"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 394,
     "span_type": "line",
@@ -6698,7 +6698,7 @@
     "text_preserved": "electrical electronic goods"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 395,
     "span_type": "line",
@@ -6715,7 +6715,7 @@
     "text_preserved": "26"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 396,
     "span_type": "line",
@@ -6732,7 +6732,7 @@
     "text_preserved": "it telecom"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 397,
     "span_type": "line",
@@ -6749,7 +6749,7 @@
     "text_preserved": "39"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 398,
     "span_type": "line",
@@ -6766,7 +6766,7 @@
     "text_preserved": "others"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 399,
     "span_type": "line",
@@ -6783,7 +6783,7 @@
     "text_preserved": "industry type"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 400,
     "span_type": "line",
@@ -6800,7 +6800,7 @@
     "text_preserved": "complete supporting document received on"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 401,
     "span_type": "line",
@@ -6817,7 +6817,7 @@
     "text_preserved": "ddmmyy"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 402,
     "span_type": "line",
@@ -6834,7 +6834,7 @@
     "text_preserved": "submitted completed application documents to bank"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 403,
     "span_type": "line",
@@ -6851,7 +6851,7 @@
     "text_preserved": "ddmmyy"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 404,
     "span_type": "line",
@@ -6868,7 +6868,7 @@
     "text_preserved": "on executive name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 405,
     "span_type": "line",
@@ -6885,7 +6885,7 @@
     "text_preserved": "co de"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 406,
     "span_type": "line",
@@ -6902,7 +6902,7 @@
     "text_preserved": "i am proposing this case for credit approval."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 407,
     "span_type": "line",
@@ -6919,7 +6919,7 @@
     "text_preserved": "sales/ channel manager s name"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 408,
     "span_type": "line",
@@ -6936,7 +6936,7 @@
     "text_preserved": "signature"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 409,
     "span_type": "line",
@@ -6953,7 +6953,7 @@
     "text_preserved": "date"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 410,
     "span_type": "line",
@@ -6970,7 +6970,7 @@
     "text_preserved": "ddmmyy"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 411,
     "span_type": "line",
@@ -6987,7 +6987,7 @@
     "text_preserved": "application reference number date of"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 412,
     "span_type": "line",
@@ -7001,10 +7001,10 @@
     },
     "text_display": "Serial No.:",
     "text_clean": "serial no",
-    "text_preserved": "serial no."
+    "text_preserved": "serial no.:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 413,
     "span_type": "line",
@@ -7021,7 +7021,7 @@
     "text_preserved": "entering information"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 5,
     "span_id": 414,
     "span_type": "line",
@@ -7038,7 +7038,7 @@
     "text_preserved": "ddmmyy"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 415,
     "span_type": "line",
@@ -7055,7 +7055,7 @@
     "text_preserved": "most important terms and conditions"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 416,
     "span_type": "line",
@@ -7069,10 +7069,10 @@
     },
     "text_display": "I/ We declare that I/ We have been intimated and I/ We understand that:",
     "text_clean": "i we declare that i we have been intimated and i we understand that",
-    "text_preserved": "i/ we declare that i/ we have been intimated and i/ we understand that"
+    "text_preserved": "i/ we declare that i/ we have been intimated and i/ we understand that:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 417,
     "span_type": "line",
@@ -7089,7 +7089,7 @@
     "text_preserved": "- the interest rate applicable on my/ our loan will be tblr premium"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 418,
     "span_type": "line",
@@ -7103,10 +7103,10 @@
     },
     "text_display": "% =",
     "text_clean": "",
-    "text_preserved": ""
+    "text_preserved": "%"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 419,
     "span_type": "line",
@@ -7120,10 +7120,10 @@
     },
     "text_display": "% on floating rate",
     "text_clean": "on floating rate",
-    "text_preserved": "on floating rate"
+    "text_preserved": "% on floating rate"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 420,
     "span_type": "line",
@@ -7140,7 +7140,7 @@
     "text_preserved": "- currently applicable tblr for my/ our loan is"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 421,
     "span_type": "line",
@@ -7154,10 +7154,10 @@
     },
     "text_display": "%",
     "text_clean": "",
-    "text_preserved": ""
+    "text_preserved": "%"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 422,
     "span_type": "line",
@@ -7174,7 +7174,7 @@
     "text_preserved": "- charges on the loan will be applicable as per the schedule of charges published on the website from time to time and also available at branches of"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 423,
     "span_type": "line",
@@ -7191,7 +7191,7 @@
     "text_preserved": "deutsche bank. current charges are as follows"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 424,
     "span_type": "line",
@@ -7205,10 +7205,10 @@
     },
     "text_display": "- Penal interest, pre-closure terms and all other charges will be applicable as per the schedule of charges published on the website currently as follows:",
     "text_clean": "penal interest pre closure terms and all other charges will be applicable as per the schedule of charges published on the website currently as follows",
-    "text_preserved": "- penal interest pre-closure terms and all other charges will be applicable as per the schedule of charges published on the website currently as follows"
+    "text_preserved": "- penal interest, pre-closure terms and all other charges will be applicable as per the schedule of charges published on the website currently as follows:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 425,
     "span_type": "line",
@@ -7225,7 +7225,7 @@
     "text_preserved": "fee type"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 426,
     "span_type": "line",
@@ -7242,7 +7242,7 @@
     "text_preserved": "charges"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 427,
     "span_type": "line",
@@ -7259,7 +7259,7 @@
     "text_preserved": "loan prepayment terms"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 428,
     "span_type": "line",
@@ -7273,10 +7273,10 @@
     },
     "text_display": "Fixed Rate Loans:",
     "text_clean": "fixed rate loans",
-    "text_preserved": "fixed rate loans"
+    "text_preserved": "fixed rate loans:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 429,
     "span_type": "line",
@@ -7290,10 +7290,10 @@
     },
     "text_display": "- 5% of the principal outstanding at the time of closure if the loan is closed",
     "text_clean": "5 of the principal outstanding at the time of closure if the loan is closed",
-    "text_preserved": "- 5 of the principal outstanding at the time of closure if the loan is closed"
+    "text_preserved": "- 5% of the principal outstanding at the time of closure if the loan is closed"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 430,
     "span_type": "line",
@@ -7310,7 +7310,7 @@
     "text_preserved": "within 1 year from the date of disbursement"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 431,
     "span_type": "line",
@@ -7324,10 +7324,10 @@
     },
     "text_display": "- 3% of the principal outstanding at the time of closure if the loan is closed",
     "text_clean": "3 of the principal outstanding at the time of closure if the loan is closed",
-    "text_preserved": "- 3 of the principal outstanding at the time of closure if the loan is closed"
+    "text_preserved": "- 3% of the principal outstanding at the time of closure if the loan is closed"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 432,
     "span_type": "line",
@@ -7344,7 +7344,7 @@
     "text_preserved": "after 1 year from the date of disbursement"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 433,
     "span_type": "line",
@@ -7361,7 +7361,7 @@
     "text_preserved": "- no part payment is allowed"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 434,
     "span_type": "line",
@@ -7375,10 +7375,10 @@
     },
     "text_display": "Floating Rate Loans:",
     "text_clean": "floating rate loans",
-    "text_preserved": "floating rate loans"
+    "text_preserved": "floating rate loans:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 435,
     "span_type": "line",
@@ -7395,7 +7395,7 @@
     "text_preserved": "- nil prepayment charges"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 436,
     "span_type": "line",
@@ -7412,7 +7412,7 @@
     "text_preserved": "- part payment is allowed"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 437,
     "span_type": "line",
@@ -7429,7 +7429,7 @@
     "text_preserved": "charges for unsuccessful execution of standing"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 438,
     "span_type": "line",
@@ -7446,7 +7446,7 @@
     "text_preserved": "500/-"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 439,
     "span_type": "line",
@@ -7463,7 +7463,7 @@
     "text_preserved": "instruction for payment/ cheque/ ecs/ nach/"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 440,
     "span_type": "line",
@@ -7480,7 +7480,7 @@
     "text_preserved": "bounce charge"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 441,
     "span_type": "line",
@@ -7494,10 +7494,10 @@
     },
     "text_display": "Default Interest Rate (Penal Interest)*",
     "text_clean": "default interest rate penal interest",
-    "text_preserved": "default interest rate penal interest"
+    "text_preserved": "default interest rate (penal interest)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 442,
     "span_type": "line",
@@ -7511,10 +7511,10 @@
     },
     "text_display": "24% per annum on the overdue/ unpaid/ delayed amount payable",
     "text_clean": "24 per annum on the overdue unpaid delayed amount payable",
-    "text_preserved": "24 per annum on the overdue/ unpaid/ delayed amount payable"
+    "text_preserved": "24% per annum on the overdue/ unpaid/ delayed amount payable"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 443,
     "span_type": "line",
@@ -7531,7 +7531,7 @@
     "text_preserved": "post date cheques / ecs / nach / si swap charges"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 444,
     "span_type": "line",
@@ -7548,7 +7548,7 @@
     "text_preserved": "500/-"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 445,
     "span_type": "line",
@@ -7565,7 +7565,7 @@
     "text_preserved": "stamp duty on loan agreement"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 446,
     "span_type": "line",
@@ -7582,7 +7582,7 @@
     "text_preserved": "as applicable depending on local regulations"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 447,
     "span_type": "line",
@@ -7599,7 +7599,7 @@
     "text_preserved": "taxes and other government levies"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 448,
     "span_type": "line",
@@ -7616,7 +7616,7 @@
     "text_preserved": "as applicable"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 449,
     "span_type": "line",
@@ -7633,7 +7633,7 @@
     "text_preserved": "- penal interest will be charged for the number of days for which the payable amount remains unpaid."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 450,
     "span_type": "line",
@@ -7650,7 +7650,7 @@
     "text_preserved": "- total documentation and processing fees to be paid by me/ us is"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 451,
     "span_type": "line",
@@ -7664,10 +7664,10 @@
     },
     "text_display": "% of the loan amount; Tax as applicable. The processing fees will be",
     "text_clean": "of the loan amount tax as applicable the processing fees will be",
-    "text_preserved": "of the loan amount tax as applicable. the processing fees will be"
+    "text_preserved": "% of the loan amount; tax as applicable. the processing fees will be"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 452,
     "span_type": "line",
@@ -7684,7 +7684,7 @@
     "text_preserved": "deducted from my final loan amount disbursed."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 453,
     "span_type": "line",
@@ -7701,7 +7701,7 @@
     "text_preserved": "-"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 454,
     "span_type": "line",
@@ -7715,10 +7715,10 @@
     },
     "text_display": "Reference rate is TBLR (3 - Months Treasury Bill Linked Benchmark Lending Rate) which is determined by adding Government of India",
     "text_clean": "reference rate is tblr 3 months treasury bill linked benchmark lending rate which is determined by adding government of india",
-    "text_preserved": "reference rate is tblr 3 - months treasury bill linked benchmark lending rate which is determined by adding government of india"
+    "text_preserved": "reference rate is tblr (3 - months treasury bill linked benchmark lending rate) which is determined by adding government of india"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 455,
     "span_type": "line",
@@ -7732,10 +7732,10 @@
     },
     "text_display": "3 - Months Treasury Bill yield published by Financial Benchmarks India Private Limited (FBIL) to a markup. In the event the predetermined",
     "text_clean": "3 months treasury bill yield published by financial benchmarks india private limited fbil to a markup in the event the predetermined",
-    "text_preserved": "3 - months treasury bill yield published by financial benchmarks india private limited fbil to a markup. in the event the predetermined"
+    "text_preserved": "3 - months treasury bill yield published by financial benchmarks india private limited (fbil) to a markup. in the event the predetermined"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 456,
     "span_type": "line",
@@ -7749,10 +7749,10 @@
     },
     "text_display": "date is not a Business Day, then the immediately succeeding Business Day's rate will be used.",
     "text_clean": "date is not a business day then the immediately succeeding business day s rate will be used",
-    "text_preserved": "date is not a business day then the immediately succeeding business day s rate will be used."
+    "text_preserved": "date is not a business day, then the immediately succeeding business day s rate will be used."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 457,
     "span_type": "line",
@@ -7766,10 +7766,10 @@
     },
     "text_display": "- The markup comprises of factors like Operating cost, ALM cost or any other parameter determined by the Bank from time to time.",
     "text_clean": "the markup comprises of factors like operating cost alm cost or any other parameter determined by the bank from time to time",
-    "text_preserved": "- the markup comprises of factors like operating cost alm cost or any other parameter determined by the bank from time to time."
+    "text_preserved": "- the markup comprises of factors like operating cost, alm cost or any other parameter determined by the bank from time to time."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 458,
     "span_type": "line",
@@ -7783,10 +7783,10 @@
     },
     "text_display": "Calculated TBLR is rounded off to the nearest 0.05% to arrive at the applicable TBLR. The TBLR as arrived at above will be published by the",
     "text_clean": "calculated tblr is rounded off to the nearest 0 05 to arrive at the applicable tblr the tblr as arrived at above will be published by the",
-    "text_preserved": "calculated tblr is rounded off to the nearest 0.05 to arrive at the applicable tblr. the tblr as arrived at above will be published by the"
+    "text_preserved": "calculated tblr is rounded off to the nearest 0.05% to arrive at the applicable tblr. the tblr as arrived at above will be published by the"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 459,
     "span_type": "line",
@@ -7803,7 +7803,7 @@
     "text_preserved": "bank and shall act as the reference rate for determining the applicable rate of interest payable on my/our loan"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 460,
     "span_type": "line",
@@ -7817,10 +7817,10 @@
     },
     "text_display": "- Interest rate reset dates for floating rate loans would be Jan 16, Apr 16, Jul 16 and Oct 16 of each calendar year during the loan tenor.",
     "text_clean": "interest rate reset dates for floating rate loans would be jan 16 apr 16 jul 16 and oct 16 of each calendar year during the loan tenor",
-    "text_preserved": "- interest rate reset dates for floating rate loans would be jan 16 apr 16 jul 16 and oct 16 of each calendar year during the loan tenor."
+    "text_preserved": "- interest rate reset dates for floating rate loans would be jan 16, apr 16, jul 16 and oct 16 of each calendar year during the loan tenor."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 461,
     "span_type": "line",
@@ -7837,7 +7837,7 @@
     "text_preserved": "- the bank states that tblr prevailing on the date of first disbursement shall be applicable till the next reset date irrespective of the changes"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 462,
     "span_type": "line",
@@ -7854,7 +7854,7 @@
     "text_preserved": "in the benchmark in the interim. similarly effect of any subsequent change of tblr due to the change in the applicable 3 - months treasury"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 463,
     "span_type": "line",
@@ -7871,7 +7871,7 @@
     "text_preserved": "bill yield on that day shall be applicable from the next date irrespective of the changes in between two reset dates."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 464,
     "span_type": "line",
@@ -7885,10 +7885,10 @@
     },
     "text_display": "- The interest rate on my/our floating rate loan, is linked to TBLR. Interest on the loan will be charged at prevailing floating rate of interest on a",
     "text_clean": "the interest rate on my our floating rate loan is linked to tblr interest on the loan will be charged at prevailing floating rate of interest on a",
-    "text_preserved": "- the interest rate on my/our floating rate loan is linked to tblr. interest on the loan will be charged at prevailing floating rate of interest on a"
+    "text_preserved": "- the interest rate on my/our floating rate loan, is linked to tblr. interest on the loan will be charged at prevailing floating rate of interest on a"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 465,
     "span_type": "line",
@@ -7902,10 +7902,10 @@
     },
     "text_display": "daily reducing balance at monthly rests. The rate of interest is subject to revision from time to time due to (i) changes in TBLR or (ii) revision",
     "text_clean": "daily reducing balance at monthly rests the rate of interest is subject to revision from time to time due to i changes in tblr or ii revision",
-    "text_preserved": "daily reducing balance at monthly rests. the rate of interest is subject to revision from time to time due to i changes in tblr or ii revision"
+    "text_preserved": "daily reducing balance at monthly rests. the rate of interest is subject to revision from time to time due to (i) changes in tblr or (ii) revision"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 466,
     "span_type": "line",
@@ -7919,10 +7919,10 @@
     },
     "text_display": "even without change in TBLR, the Bank has the option to reduce or increase the EMI or extend the repayment period or both consequent upon",
     "text_clean": "even without change in tblr the bank has the option to reduce or increase the emi or extend the repayment period or both consequent upon",
-    "text_preserved": "even without change in tblr the bank has the option to reduce or increase the emi or extend the repayment period or both consequent upon"
+    "text_preserved": "even without change in tblr, the bank has the option to reduce or increase the emi or extend the repayment period or both consequent upon"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 467,
     "span_type": "line",
@@ -7939,7 +7939,7 @@
     "text_preserved": "revision in interest rate."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 468,
     "span_type": "line",
@@ -7956,7 +7956,7 @@
     "text_preserved": "-"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 469,
     "span_type": "line",
@@ -7973,7 +7973,7 @@
     "text_preserved": "i/ we understand that the bank can seek my/ our latest information and collect the required kyc documents on periodical basis in compliance"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 470,
     "span_type": "line",
@@ -7990,7 +7990,7 @@
     "text_preserved": "with the rbi guidelines."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 471,
     "span_type": "line",
@@ -8004,10 +8004,10 @@
     },
     "text_display": "- At present, I/ We do not wish to get included my/ our contact details with Do Not Call Registry/ National Do Not Call Registry and I/ We take",
     "text_clean": "at present i we do not wish to get included my our contact details with do not call registry national do not call registry and i we take",
-    "text_preserved": "- at present i/ we do not wish to get included my/ our contact details with do not call registry/ national do not call registry and i/ we take"
+    "text_preserved": "- at present, i/ we do not wish to get included my/ our contact details with do not call registry/ national do not call registry and i/ we take"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 472,
     "span_type": "line",
@@ -8024,7 +8024,7 @@
     "text_preserved": "note to update my/ our contact details with these registries whenever i/ we wish to."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 473,
     "span_type": "line",
@@ -8041,7 +8041,7 @@
     "text_preserved": "i/ we have read and agreed to the above terms and conditions. i/ we haven t signed a blank document/ application form."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 474,
     "span_type": "line",
@@ -8055,10 +8055,10 @@
     },
     "text_display": "Regards,",
     "text_clean": "regards",
-    "text_preserved": "regards"
+    "text_preserved": "regards,"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 475,
     "span_type": "line",
@@ -8072,10 +8072,10 @@
     },
     "text_display": "(Primary Applicant Signature)",
     "text_clean": "primary applicant signature",
-    "text_preserved": "primary applicant signature"
+    "text_preserved": "(primary applicant signature)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 6,
     "span_id": 476,
     "span_type": "line",
@@ -8089,10 +8089,10 @@
     },
     "text_display": "(Primary Applicant Name)",
     "text_clean": "primary applicant name",
-    "text_preserved": "primary applicant name"
+    "text_preserved": "(primary applicant name)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 477,
     "span_type": "line",
@@ -8109,7 +8109,7 @@
     "text_preserved": "most important terms and conditions"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 478,
     "span_type": "line",
@@ -8123,10 +8123,10 @@
     },
     "text_display": "I/ We declare that I/ We have been intimated and I We understand that:",
     "text_clean": "i we declare that i we have been intimated and i we understand that",
-    "text_preserved": "i/ we declare that i/ we have been intimated and i we understand that"
+    "text_preserved": "i/ we declare that i/ we have been intimated and i we understand that:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 479,
     "span_type": "line",
@@ -8143,7 +8143,7 @@
     "text_preserved": "- the interest rate applicable on my/ our loan will be tblr premium"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 480,
     "span_type": "line",
@@ -8157,10 +8157,10 @@
     },
     "text_display": "% =",
     "text_clean": "",
-    "text_preserved": ""
+    "text_preserved": "%"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 481,
     "span_type": "line",
@@ -8174,10 +8174,10 @@
     },
     "text_display": "% on floating rate",
     "text_clean": "on floating rate",
-    "text_preserved": "on floating rate"
+    "text_preserved": "% on floating rate"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 482,
     "span_type": "line",
@@ -8194,7 +8194,7 @@
     "text_preserved": "- currently applicable tblr for my/ our loan is"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 483,
     "span_type": "line",
@@ -8208,10 +8208,10 @@
     },
     "text_display": "%",
     "text_clean": "",
-    "text_preserved": ""
+    "text_preserved": "%"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 484,
     "span_type": "line",
@@ -8228,7 +8228,7 @@
     "text_preserved": "- charges on the loan will be applicable as per the schedule of charges published on the website from time to time and also available at branches of"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 485,
     "span_type": "line",
@@ -8245,7 +8245,7 @@
     "text_preserved": "deutsche bank. current charges are as follows"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 486,
     "span_type": "line",
@@ -8259,10 +8259,10 @@
     },
     "text_display": "- Penal interest, pre-closure terms and all other charges will be applicable as per the schedule of charges published on the website currently as follows:",
     "text_clean": "penal interest pre closure terms and all other charges will be applicable as per the schedule of charges published on the website currently as follows",
-    "text_preserved": "- penal interest pre-closure terms and all other charges will be applicable as per the schedule of charges published on the website currently as follows"
+    "text_preserved": "- penal interest, pre-closure terms and all other charges will be applicable as per the schedule of charges published on the website currently as follows:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 487,
     "span_type": "line",
@@ -8279,7 +8279,7 @@
     "text_preserved": "fee type"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 488,
     "span_type": "line",
@@ -8296,7 +8296,7 @@
     "text_preserved": "charges"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 489,
     "span_type": "line",
@@ -8313,7 +8313,7 @@
     "text_preserved": "default interest rate"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 490,
     "span_type": "line",
@@ -8327,10 +8327,10 @@
     },
     "text_display": "24% per annum",
     "text_clean": "24 per annum",
-    "text_preserved": "24 per annum"
+    "text_preserved": "24% per annum"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 491,
     "span_type": "line",
@@ -8347,7 +8347,7 @@
     "text_preserved": "loan prepayment terms"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 492,
     "span_type": "line",
@@ -8361,10 +8361,10 @@
     },
     "text_display": "Fixed Rate Loans:",
     "text_clean": "fixed rate loans",
-    "text_preserved": "fixed rate loans"
+    "text_preserved": "fixed rate loans:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 493,
     "span_type": "line",
@@ -8378,10 +8378,10 @@
     },
     "text_display": "- 5% of the principal outstanding at the time of closure if the loan is closed",
     "text_clean": "5 of the principal outstanding at the time of closure if the loan is closed",
-    "text_preserved": "- 5 of the principal outstanding at the time of closure if the loan is closed"
+    "text_preserved": "- 5% of the principal outstanding at the time of closure if the loan is closed"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 494,
     "span_type": "line",
@@ -8398,7 +8398,7 @@
     "text_preserved": "within 1 year from the date of disbursement"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 495,
     "span_type": "line",
@@ -8412,10 +8412,10 @@
     },
     "text_display": "- 3% of the principal outstanding at the time of closure if the loan is closed",
     "text_clean": "3 of the principal outstanding at the time of closure if the loan is closed",
-    "text_preserved": "- 3 of the principal outstanding at the time of closure if the loan is closed"
+    "text_preserved": "- 3% of the principal outstanding at the time of closure if the loan is closed"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 496,
     "span_type": "line",
@@ -8432,7 +8432,7 @@
     "text_preserved": "after 1 year from the date of disbursement"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 497,
     "span_type": "line",
@@ -8449,7 +8449,7 @@
     "text_preserved": "- no part payment is allowed"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 498,
     "span_type": "line",
@@ -8463,10 +8463,10 @@
     },
     "text_display": "Floating Rate Loans:",
     "text_clean": "floating rate loans",
-    "text_preserved": "floating rate loans"
+    "text_preserved": "floating rate loans:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 499,
     "span_type": "line",
@@ -8483,7 +8483,7 @@
     "text_preserved": "- nil prepayment charges"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 500,
     "span_type": "line",
@@ -8500,7 +8500,7 @@
     "text_preserved": "- part payment is allowed"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 501,
     "span_type": "line",
@@ -8517,7 +8517,7 @@
     "text_preserved": "charges for unsuccessful execution of standing"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 502,
     "span_type": "line",
@@ -8534,7 +8534,7 @@
     "text_preserved": "500/-"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 503,
     "span_type": "line",
@@ -8551,7 +8551,7 @@
     "text_preserved": "instruction for payment/ cheque/ ecs/ nach/"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 504,
     "span_type": "line",
@@ -8568,7 +8568,7 @@
     "text_preserved": "bounce charge"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 505,
     "span_type": "line",
@@ -8582,10 +8582,10 @@
     },
     "text_display": "Default Interest Rate (Penal Interest)*",
     "text_clean": "default interest rate penal interest",
-    "text_preserved": "default interest rate penal interest"
+    "text_preserved": "default interest rate (penal interest)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 506,
     "span_type": "line",
@@ -8599,10 +8599,10 @@
     },
     "text_display": "24% per annum on the overdue/ unpaid/ delayed amount payable",
     "text_clean": "24 per annum on the overdue unpaid delayed amount payable",
-    "text_preserved": "24 per annum on the overdue/ unpaid/ delayed amount payable"
+    "text_preserved": "24% per annum on the overdue/ unpaid/ delayed amount payable"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 507,
     "span_type": "line",
@@ -8619,7 +8619,7 @@
     "text_preserved": "post date cheques / ecs / nach / si swap charges"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 508,
     "span_type": "line",
@@ -8636,7 +8636,7 @@
     "text_preserved": "500/-"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 509,
     "span_type": "line",
@@ -8653,7 +8653,7 @@
     "text_preserved": "stamp duty on loan agreement"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 510,
     "span_type": "line",
@@ -8670,7 +8670,7 @@
     "text_preserved": "as applicable depending on local regulations"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 511,
     "span_type": "line",
@@ -8687,7 +8687,7 @@
     "text_preserved": "taxes and other government levies"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 512,
     "span_type": "line",
@@ -8704,7 +8704,7 @@
     "text_preserved": "as applicable"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 513,
     "span_type": "line",
@@ -8721,7 +8721,7 @@
     "text_preserved": "- penal interest will be charged for the number of days for which the payable amount remains unpaid."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 514,
     "span_type": "line",
@@ -8735,10 +8735,10 @@
     },
     "text_display": "- Total documentation and processing fees to be paid by me/ us is % of the loan amount; Tax as applicable. The processing fees will be",
     "text_clean": "total documentation and processing fees to be paid by me us is of the loan amount tax as applicable the processing fees will be",
-    "text_preserved": "- total documentation and processing fees to be paid by me/ us is of the loan amount tax as applicable. the processing fees will be"
+    "text_preserved": "- total documentation and processing fees to be paid by me/ us is % of the loan amount; tax as applicable. the processing fees will be"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 515,
     "span_type": "line",
@@ -8755,7 +8755,7 @@
     "text_preserved": "deducted from my final loan amount disbursed."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 516,
     "span_type": "line",
@@ -8772,7 +8772,7 @@
     "text_preserved": "-"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 517,
     "span_type": "line",
@@ -8786,10 +8786,10 @@
     },
     "text_display": "Reference rate is TBLR (3 - Months Treasury Bill Linked Benchmark Lending Rate) which is determined by adding Government of India",
     "text_clean": "reference rate is tblr 3 months treasury bill linked benchmark lending rate which is determined by adding government of india",
-    "text_preserved": "reference rate is tblr 3 - months treasury bill linked benchmark lending rate which is determined by adding government of india"
+    "text_preserved": "reference rate is tblr (3 - months treasury bill linked benchmark lending rate) which is determined by adding government of india"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 518,
     "span_type": "line",
@@ -8803,10 +8803,10 @@
     },
     "text_display": "3 - Months Treasury Bill yield published by Financial Benchmarks India Private Limited (FBIL) to a markup. In the event the predetermined",
     "text_clean": "3 months treasury bill yield published by financial benchmarks india private limited fbil to a markup in the event the predetermined",
-    "text_preserved": "3 - months treasury bill yield published by financial benchmarks india private limited fbil to a markup. in the event the predetermined"
+    "text_preserved": "3 - months treasury bill yield published by financial benchmarks india private limited (fbil) to a markup. in the event the predetermined"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 519,
     "span_type": "line",
@@ -8820,10 +8820,10 @@
     },
     "text_display": "date is not a Business Day, then the immediately succeeding Business Day's rate will be used.",
     "text_clean": "date is not a business day then the immediately succeeding business day s rate will be used",
-    "text_preserved": "date is not a business day then the immediately succeeding business day s rate will be used."
+    "text_preserved": "date is not a business day, then the immediately succeeding business day s rate will be used."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 520,
     "span_type": "line",
@@ -8837,10 +8837,10 @@
     },
     "text_display": "- The markup comprises of factors like Operating cost, ALM cost or any other parameter determined by the Bank from time to time.",
     "text_clean": "the markup comprises of factors like operating cost alm cost or any other parameter determined by the bank from time to time",
-    "text_preserved": "- the markup comprises of factors like operating cost alm cost or any other parameter determined by the bank from time to time."
+    "text_preserved": "- the markup comprises of factors like operating cost, alm cost or any other parameter determined by the bank from time to time."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 521,
     "span_type": "line",
@@ -8854,10 +8854,10 @@
     },
     "text_display": "Calculated TBLR is rounded off to the nearest 0.05% to arrive at the applicable TBLR. The TBLR as arrived at above will be published by the",
     "text_clean": "calculated tblr is rounded off to the nearest 0 05 to arrive at the applicable tblr the tblr as arrived at above will be published by the",
-    "text_preserved": "calculated tblr is rounded off to the nearest 0.05 to arrive at the applicable tblr. the tblr as arrived at above will be published by the"
+    "text_preserved": "calculated tblr is rounded off to the nearest 0.05% to arrive at the applicable tblr. the tblr as arrived at above will be published by the"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 522,
     "span_type": "line",
@@ -8874,7 +8874,7 @@
     "text_preserved": "bank and shall act as the reference rate for determining the applicable rate of interest payable on my/our loan"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 523,
     "span_type": "line",
@@ -8888,10 +8888,10 @@
     },
     "text_display": "- Interest rate reset dates for floating rate loans would be Jan 16, Apr 16, Jul 16 and Oct 16 of each calendar year during the loan tenor.",
     "text_clean": "interest rate reset dates for floating rate loans would be jan 16 apr 16 jul 16 and oct 16 of each calendar year during the loan tenor",
-    "text_preserved": "- interest rate reset dates for floating rate loans would be jan 16 apr 16 jul 16 and oct 16 of each calendar year during the loan tenor."
+    "text_preserved": "- interest rate reset dates for floating rate loans would be jan 16, apr 16, jul 16 and oct 16 of each calendar year during the loan tenor."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 524,
     "span_type": "line",
@@ -8908,7 +8908,7 @@
     "text_preserved": "- the bank states that tblr prevailing on the date of first disbursement shall be applicable till the next reset date irrespective of the changes"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 525,
     "span_type": "line",
@@ -8925,7 +8925,7 @@
     "text_preserved": "in the benchmark in the interim. similarly effect of any subsequent change of tblr due to the change in the applicable 3 - months treasury"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 526,
     "span_type": "line",
@@ -8942,7 +8942,7 @@
     "text_preserved": "bill yield on that day shall be applicable from the next date irrespective of the changes in between two reset dates."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 527,
     "span_type": "line",
@@ -8956,10 +8956,10 @@
     },
     "text_display": "- The interest rate on my/our floating rate loan, is linked to TBLR. Interest on the loan will be charged at prevailing floating rate of interest on a",
     "text_clean": "the interest rate on my our floating rate loan is linked to tblr interest on the loan will be charged at prevailing floating rate of interest on a",
-    "text_preserved": "- the interest rate on my/our floating rate loan is linked to tblr. interest on the loan will be charged at prevailing floating rate of interest on a"
+    "text_preserved": "- the interest rate on my/our floating rate loan, is linked to tblr. interest on the loan will be charged at prevailing floating rate of interest on a"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 528,
     "span_type": "line",
@@ -8973,10 +8973,10 @@
     },
     "text_display": "daily reducing balance at monthly rests. The rate of interest is subject to revision from time to time due to (i) changes in TBLR or (ii) revision",
     "text_clean": "daily reducing balance at monthly rests the rate of interest is subject to revision from time to time due to i changes in tblr or ii revision",
-    "text_preserved": "daily reducing balance at monthly rests. the rate of interest is subject to revision from time to time due to i changes in tblr or ii revision"
+    "text_preserved": "daily reducing balance at monthly rests. the rate of interest is subject to revision from time to time due to (i) changes in tblr or (ii) revision"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 529,
     "span_type": "line",
@@ -8990,10 +8990,10 @@
     },
     "text_display": "even without change in TBLR, the Bank has the option to reduce or increase the EMI or extend the repayment period or both consequent upon",
     "text_clean": "even without change in tblr the bank has the option to reduce or increase the emi or extend the repayment period or both consequent upon",
-    "text_preserved": "even without change in tblr the bank has the option to reduce or increase the emi or extend the repayment period or both consequent upon"
+    "text_preserved": "even without change in tblr, the bank has the option to reduce or increase the emi or extend the repayment period or both consequent upon"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 530,
     "span_type": "line",
@@ -9010,7 +9010,7 @@
     "text_preserved": "revision in interest rate."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 531,
     "span_type": "line",
@@ -9027,7 +9027,7 @@
     "text_preserved": "-"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 532,
     "span_type": "line",
@@ -9044,7 +9044,7 @@
     "text_preserved": "i/ we understand that the bank can seek my/ our latest information and collect the required kyc documents on periodical basis in compliance"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 533,
     "span_type": "line",
@@ -9061,7 +9061,7 @@
     "text_preserved": "with the rbi guidelines."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 534,
     "span_type": "line",
@@ -9075,10 +9075,10 @@
     },
     "text_display": "- At present, I/ We do not wish to get included my/ our contact details with Do Not Call Registry/ National Do Not Call Registry and I/ We take",
     "text_clean": "at present i we do not wish to get included my our contact details with do not call registry national do not call registry and i we take",
-    "text_preserved": "- at present i/ we do not wish to get included my/ our contact details with do not call registry/ national do not call registry and i/ we take"
+    "text_preserved": "- at present, i/ we do not wish to get included my/ our contact details with do not call registry/ national do not call registry and i/ we take"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 535,
     "span_type": "line",
@@ -9095,7 +9095,7 @@
     "text_preserved": "note to update my/ our contact details with these registries whenever i/ we wish to."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 536,
     "span_type": "line",
@@ -9112,7 +9112,7 @@
     "text_preserved": "i/ we have read and agreed to the above terms and conditions. i/ we haven t signed a blank document/ application form."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 537,
     "span_type": "line",
@@ -9126,10 +9126,10 @@
     },
     "text_display": "Regards,",
     "text_clean": "regards",
-    "text_preserved": "regards"
+    "text_preserved": "regards,"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 538,
     "span_type": "line",
@@ -9143,10 +9143,10 @@
     },
     "text_display": "(Primary Applicant Signature)",
     "text_clean": "primary applicant signature",
-    "text_preserved": "primary applicant signature"
+    "text_preserved": "(primary applicant signature)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 7,
     "span_id": 539,
     "span_type": "line",
@@ -9160,10 +9160,10 @@
     },
     "text_display": "(Primary Applicant Name)",
     "text_clean": "primary applicant name",
-    "text_preserved": "primary applicant name"
+    "text_preserved": "(primary applicant name)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 540,
     "span_type": "line",
@@ -9180,7 +9180,7 @@
     "text_preserved": "kyc details"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 541,
     "span_type": "line",
@@ -9194,10 +9194,10 @@
     },
     "text_display": "Know Your Customer Documents (Please refer www.deutschebank.co.in for complete list of documents)",
     "text_clean": "know your customer documents please refer www deutschebank co in for complete list of documents",
-    "text_preserved": "know your customer documents please refer www.deutschebank.co.in for complete list of documents"
+    "text_preserved": "know your customer documents (please refer www.deutschebank.co.in for complete list of documents)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 542,
     "span_type": "line",
@@ -9214,7 +9214,7 @@
     "text_preserved": "type of proof"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 543,
     "span_type": "line",
@@ -9228,10 +9228,10 @@
     },
     "text_display": "Copy of any one of the following:",
     "text_clean": "copy of any one of the following",
-    "text_preserved": "copy of any one of the following"
+    "text_preserved": "copy of any one of the following:"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 544,
     "span_type": "line",
@@ -9248,7 +9248,7 @@
     "text_preserved": "identity proof"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 545,
     "span_type": "line",
@@ -9265,7 +9265,7 @@
     "text_preserved": "valid passport / voter s id/ valid driving license/ pan"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 546,
     "span_type": "line",
@@ -9282,7 +9282,7 @@
     "text_preserved": "card/ aadhaar card/ job card issued by nrega"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 547,
     "span_type": "line",
@@ -9299,7 +9299,7 @@
     "text_preserved": "address proof"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 548,
     "span_type": "line",
@@ -9316,7 +9316,7 @@
     "text_preserved": "valid passport/ voter s id/ valid driving license/ pan"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 549,
     "span_type": "line",
@@ -9333,7 +9333,7 @@
     "text_preserved": "card/ aadhaar card/ job card issued by nrega"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 550,
     "span_type": "line",
@@ -9350,7 +9350,7 @@
     "text_preserved": "income documents"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 551,
     "span_type": "line",
@@ -9367,7 +9367,7 @@
     "text_preserved": "type of proof"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 552,
     "span_type": "line",
@@ -9384,7 +9384,7 @@
     "text_preserved": "salaried"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 553,
     "span_type": "line",
@@ -9401,7 +9401,7 @@
     "text_preserved": "last 3 month s salary slip"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 554,
     "span_type": "line",
@@ -9418,7 +9418,7 @@
     "text_preserved": "financials"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 555,
     "span_type": "line",
@@ -9435,7 +9435,7 @@
     "text_preserved": "latest year form 16 or itr"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 556,
     "span_type": "line",
@@ -9452,7 +9452,7 @@
     "text_preserved": "last 6 month s salaried bank statement"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 557,
     "span_type": "line",
@@ -9469,7 +9469,7 @@
     "text_preserved": "acknowledgement"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 558,
     "span_type": "line",
@@ -9486,7 +9486,7 @@
     "text_preserved": "branch"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 559,
     "span_type": "line",
@@ -9500,10 +9500,10 @@
     },
     "text_display": "Received the loan application form, from Mr. / Ms.",
     "text_clean": "received the loan application form from mr ms",
-    "text_preserved": "received the loan application form from mr. / ms."
+    "text_preserved": "received the loan application form, from mr. / ms."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 560,
     "span_type": "line",
@@ -9520,7 +9520,7 @@
     "text_preserved": "on"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 561,
     "span_type": "line",
@@ -9534,10 +9534,10 @@
     },
     "text_display": "(Any additional details/documents required, should be supplied immediately on intimation. In such a case date of receipt of such additional information",
     "text_clean": "any additional details documents required should be supplied immediately on intimation in such a case date of receipt of such additional information",
-    "text_preserved": "any additional details/documents required should be supplied immediately on intimation. in such a case date of receipt of such additional information"
+    "text_preserved": "(any additional details/documents required, should be supplied immediately on intimation. in such a case date of receipt of such additional information"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 562,
     "span_type": "line",
@@ -9551,10 +9551,10 @@
     },
     "text_display": "shall be treated as the date of application.)",
     "text_clean": "shall be treated as the date of application",
-    "text_preserved": "shall be treated as the date of application."
+    "text_preserved": "shall be treated as the date of application.)"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 563,
     "span_type": "line",
@@ -9571,7 +9571,7 @@
     "text_preserved": "decision shall be conveyed in writing within a maximum period of 21 days from the date of receipt of application."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 564,
     "span_type": "line",
@@ -9585,10 +9585,10 @@
     },
     "text_display": "Any grievances/disputes arising in this regard, should be made in writing to customer.care@db.com OR call 1860 266 6601.",
     "text_clean": "any grievances disputes arising in this regard should be made in writing to customer care db com or call 1860 266 6601",
-    "text_preserved": "any grievances/disputes arising in this regard should be made in writing to customer.care@db.com or call 1860 266 6601."
+    "text_preserved": "any grievances/disputes arising in this regard, should be made in writing to customer.care@db.com or call 1860 266 6601."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 565,
     "span_type": "line",
@@ -9605,7 +9605,7 @@
     "text_preserved": "customers outside india need to dial 91 22 6601 6601. customers in mumbai can also call at 6601 6601. call charges apply."
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 566,
     "span_type": "line",
@@ -9622,7 +9622,7 @@
     "text_preserved": "date"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 567,
     "span_type": "line",
@@ -9639,7 +9639,7 @@
     "text_preserved": "ddmmyyyy"
   },
   {
-    "doc_id": "2aeba54c-dcf6-47b0-aebe-1eae1ac919d4",
+    "doc_id": "d61b4fae-67ef-47aa-8208-d51cacdf07f8",
     "page": 8,
     "span_id": 568,
     "span_type": "line",

@@ -1,6 +1,6 @@
 [
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 1,
     "span_type": "line",
@@ -17,7 +17,7 @@
     "text_preserved": "personal loan"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 2,
     "span_type": "line",
@@ -34,7 +34,7 @@
     "text_preserved": "idfc first"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 3,
     "span_type": "line",
@@ -51,7 +51,7 @@
     "text_preserved": "bank"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 4,
     "span_type": "line",
@@ -68,7 +68,7 @@
     "text_preserved": "application form - resident individual"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 5,
     "span_type": "line",
@@ -85,7 +85,7 @@
     "text_preserved": "01 03 2025"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 6,
     "span_type": "line",
@@ -99,10 +99,10 @@
     },
     "text_display": "(Please write in BLOCK LETTERS. Please complete the application to help us serve you better)",
     "text_clean": "please write in block letters please complete the application to help us serve you better",
-    "text_preserved": "please write in block letters. please complete the application to help us serve you better"
+    "text_preserved": "(please write in block letters. please complete the application to help us serve you better)"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 7,
     "span_type": "line",
@@ -119,7 +119,7 @@
     "text_preserved": "dd mm yyyy"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 8,
     "span_type": "line",
@@ -136,7 +136,7 @@
     "text_preserved": "i"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 9,
     "span_type": "line",
@@ -150,10 +150,10 @@
     },
     "text_display": "hereby apply to IDFC FIRST Bank Limited (The Bank) to grant me Personal Loan as mentioned in this Application Form. I furnish my particulars as mentioned below.",
     "text_clean": "hereby apply to idfc first bank limited the bank to grant me personal loan as mentioned in this application form i furnish my particulars as mentioned below",
-    "text_preserved": "hereby apply to idfc first bank limited the bank to grant me personal loan as mentioned in this application form. i furnish my particulars as mentioned below."
+    "text_preserved": "hereby apply to idfc first bank limited (the bank) to grant me personal loan as mentioned in this application form. i furnish my particulars as mentioned below."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 10,
     "span_type": "line",
@@ -167,10 +167,10 @@
     },
     "text_display": "IDFC FIRST Bank Staff*: Yes",
     "text_clean": "idfc first bank staff yes",
-    "text_preserved": "idfc first bank staff yes"
+    "text_preserved": "idfc first bank staff : yes"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 11,
     "span_type": "line",
@@ -187,7 +187,7 @@
     "text_preserved": "no"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 12,
     "span_type": "line",
@@ -201,10 +201,10 @@
     },
     "text_display": "Application Ref. No*.:",
     "text_clean": "application ref no",
-    "text_preserved": "application ref. no ."
+    "text_preserved": "application ref. no .:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 13,
     "span_type": "line",
@@ -221,7 +221,7 @@
     "text_preserved": "pl2024"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 14,
     "span_type": "line",
@@ -235,10 +235,10 @@
     },
     "text_display": "City*:",
     "text_clean": "city",
-    "text_preserved": "city"
+    "text_preserved": "city :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 15,
     "span_type": "line",
@@ -255,7 +255,7 @@
     "text_preserved": "bengaluru"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 16,
     "span_type": "line",
@@ -269,10 +269,10 @@
     },
     "text_display": "Scheme*:",
     "text_clean": "scheme",
-    "text_preserved": "scheme"
+    "text_preserved": "scheme :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 17,
     "span_type": "line",
@@ -289,7 +289,7 @@
     "text_preserved": "standard personal loan"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 18,
     "span_type": "line",
@@ -303,10 +303,10 @@
     },
     "text_display": "FOS*:",
     "text_clean": "fos",
-    "text_preserved": "fos"
+    "text_preserved": "fos :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 19,
     "span_type": "line",
@@ -323,7 +323,7 @@
     "text_preserved": "ramesh kumar"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 20,
     "span_type": "line",
@@ -337,10 +337,10 @@
     },
     "text_display": "S.O./DSA Code*:",
     "text_clean": "s o dsa code",
-    "text_preserved": "s.o./dsa code"
+    "text_preserved": "s.o./dsa code :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 21,
     "span_type": "line",
@@ -357,7 +357,7 @@
     "text_preserved": "psa09384"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 22,
     "span_type": "line",
@@ -371,10 +371,10 @@
     },
     "text_display": "R.O. Code:",
     "text_clean": "r o code",
-    "text_preserved": "r.o. code"
+    "text_preserved": "r.o. code:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 23,
     "span_type": "line",
@@ -391,7 +391,7 @@
     "text_preserved": "r0560001"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 24,
     "span_type": "line",
@@ -408,7 +408,7 @@
     "text_preserved": "finance requirement"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 25,
     "span_type": "line",
@@ -422,10 +422,10 @@
     },
     "text_display": "Purpose of Personal Loan: Occasion in family",
     "text_clean": "purpose of personal loan occasion in family",
-    "text_preserved": "purpose of personal loan occasion in family"
+    "text_preserved": "purpose of personal loan: occasion in family"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 26,
     "span_type": "line",
@@ -442,7 +442,7 @@
     "text_preserved": "travel"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 27,
     "span_type": "line",
@@ -459,7 +459,7 @@
     "text_preserved": "purchase of household/electronic goods"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 28,
     "span_type": "line",
@@ -476,7 +476,7 @@
     "text_preserved": "loan consolidation"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 29,
     "span_type": "line",
@@ -490,10 +490,10 @@
     },
     "text_display": "Others (Please specify)* Laptop",
     "text_clean": "others please specify laptop",
-    "text_preserved": "others please specify laptop"
+    "text_preserved": "others (please specify) laptop"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 30,
     "span_type": "line",
@@ -510,7 +510,7 @@
     "text_preserved": "furniture"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 31,
     "span_type": "line",
@@ -527,7 +527,7 @@
     "text_preserved": "loan"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 32,
     "span_type": "line",
@@ -544,7 +544,7 @@
     "text_preserved": "amount"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 33,
     "span_type": "line",
@@ -558,10 +558,10 @@
     },
     "text_display": "(₹):",
     "text_clean": "",
-    "text_preserved": ""
+    "text_preserved": "( ):"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 34,
     "span_type": "line",
@@ -575,10 +575,10 @@
     },
     "text_display": "7,50,000",
     "text_clean": "7 50 000",
-    "text_preserved": "7 50 000"
+    "text_preserved": "7,50,000"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 35,
     "span_type": "line",
@@ -592,10 +592,10 @@
     },
     "text_display": "Desired Tenure:",
     "text_clean": "desired tenure",
-    "text_preserved": "desired tenure"
+    "text_preserved": "desired tenure:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 36,
     "span_type": "line",
@@ -612,7 +612,7 @@
     "text_preserved": "12"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 37,
     "span_type": "line",
@@ -629,7 +629,7 @@
     "text_preserved": "24"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 38,
     "span_type": "line",
@@ -646,7 +646,7 @@
     "text_preserved": "36"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 39,
     "span_type": "line",
@@ -663,7 +663,7 @@
     "text_preserved": "48"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 40,
     "span_type": "line",
@@ -680,7 +680,7 @@
     "text_preserved": "60"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 41,
     "span_type": "line",
@@ -697,7 +697,7 @@
     "text_preserved": "personal details"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 42,
     "span_type": "line",
@@ -714,7 +714,7 @@
     "text_preserved": "applicant"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 43,
     "span_type": "line",
@@ -731,7 +731,7 @@
     "text_preserved": "j"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 44,
     "span_type": "line",
@@ -748,7 +748,7 @@
     "text_preserved": "co-applicant"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 45,
     "span_type": "line",
@@ -765,7 +765,7 @@
     "text_preserved": "have you taken any finance from us earlier"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 46,
     "span_type": "line",
@@ -782,7 +782,7 @@
     "text_preserved": "yes"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 47,
     "span_type": "line",
@@ -799,7 +799,7 @@
     "text_preserved": "no"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 48,
     "span_type": "line",
@@ -816,7 +816,7 @@
     "text_preserved": ""
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 49,
     "span_type": "line",
@@ -830,10 +830,10 @@
     },
     "text_display": "If yes, application reference No.:",
     "text_clean": "if yes application reference no",
-    "text_preserved": "if yes application reference no."
+    "text_preserved": "if yes, application reference no.:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 50,
     "span_type": "line",
@@ -847,10 +847,10 @@
     },
     "text_display": "Title*: Mr.",
     "text_clean": "title mr",
-    "text_preserved": "title mr."
+    "text_preserved": "title : mr."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 51,
     "span_type": "line",
@@ -867,7 +867,7 @@
     "text_preserved": "ms."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 52,
     "span_type": "line",
@@ -881,10 +881,10 @@
     },
     "text_display": "Others (please specify)*",
     "text_clean": "others please specify",
-    "text_preserved": "others please specify"
+    "text_preserved": "others (please specify)"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 53,
     "span_type": "line",
@@ -901,7 +901,7 @@
     "text_preserved": "c-kyc no. 123456"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 54,
     "span_type": "line",
@@ -915,10 +915,10 @@
     },
     "text_display": "Name:",
     "text_clean": "name",
-    "text_preserved": "name"
+    "text_preserved": "name:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 55,
     "span_type": "line",
@@ -935,7 +935,7 @@
     "text_preserved": "yas wanth"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 56,
     "span_type": "line",
@@ -952,7 +952,7 @@
     "text_preserved": "middle name"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 57,
     "span_type": "line",
@@ -969,7 +969,7 @@
     "text_preserved": "guijula"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 58,
     "span_type": "line",
@@ -983,10 +983,10 @@
     },
     "text_display": "Father's/Spouse's Name*:",
     "text_clean": "father s spouse s name",
-    "text_preserved": "father s/spouse s name"
+    "text_preserved": "father s/spouse s name :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 59,
     "span_type": "line",
@@ -1003,7 +1003,7 @@
     "text_preserved": "ramesh"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 60,
     "span_type": "line",
@@ -1020,7 +1020,7 @@
     "text_preserved": "middle name"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 61,
     "span_type": "line",
@@ -1037,7 +1037,7 @@
     "text_preserved": "gujjula"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 62,
     "span_type": "line",
@@ -1051,10 +1051,10 @@
     },
     "text_display": "Mother's Name*:",
     "text_clean": "mother s name",
-    "text_preserved": "mother s name"
+    "text_preserved": "mother s name :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 63,
     "span_type": "line",
@@ -1071,7 +1071,7 @@
     "text_preserved": "latha"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 64,
     "span_type": "line",
@@ -1088,7 +1088,7 @@
     "text_preserved": "guijula"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 65,
     "span_type": "line",
@@ -1102,10 +1102,10 @@
     },
     "text_display": "(Please effix your coloured",
     "text_clean": "please effix your coloured",
-    "text_preserved": "please effix your coloured"
+    "text_preserved": "(please effix your coloured"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 66,
     "span_type": "line",
@@ -1122,7 +1122,7 @@
     "text_preserved": "middle name"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 67,
     "span_type": "line",
@@ -1139,7 +1139,7 @@
     "text_preserved": "photograph and sign across"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 68,
     "span_type": "line",
@@ -1153,10 +1153,10 @@
     },
     "text_display": "*Note: Additionally 1 of the below Officially Valid Document (OVD) is mandatory",
     "text_clean": "note additionally 1 of the below officially valid document ovd is mandatory",
-    "text_preserved": "note additionally 1 of the below officially valid document ovd is mandatory"
+    "text_preserved": "note: additionally 1 of the below officially valid document (ovd) is mandatory"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 69,
     "span_type": "line",
@@ -1170,10 +1170,10 @@
     },
     "text_display": "PAN No*.:",
     "text_clean": "pan no",
-    "text_preserved": "pan no ."
+    "text_preserved": "pan no .:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 70,
     "span_type": "line",
@@ -1190,7 +1190,7 @@
     "text_preserved": "aabp14589m"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 71,
     "span_type": "line",
@@ -1204,10 +1204,10 @@
     },
     "text_display": "Aadhar Card No.:",
     "text_clean": "aadhar card no",
-    "text_preserved": "aadhar card no."
+    "text_preserved": "aadhar card no.:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 72,
     "span_type": "line",
@@ -1224,7 +1224,7 @@
     "text_preserved": "678912345678"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 73,
     "span_type": "line",
@@ -1238,10 +1238,10 @@
     },
     "text_display": "Passport No.:",
     "text_clean": "passport no",
-    "text_preserved": "passport no."
+    "text_preserved": "passport no.:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 74,
     "span_type": "line",
@@ -1258,7 +1258,7 @@
     "text_preserved": "n9942356"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 75,
     "span_type": "line",
@@ -1272,10 +1272,10 @@
     },
     "text_display": "Voter ID Card:",
     "text_clean": "voter id card",
-    "text_preserved": "voter id card"
+    "text_preserved": "voter id card:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 76,
     "span_type": "line",
@@ -1292,7 +1292,7 @@
     "text_preserved": "kl12007561"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 77,
     "span_type": "line",
@@ -1306,10 +1306,10 @@
     },
     "text_display": "Driving License:",
     "text_clean": "driving license",
-    "text_preserved": "driving license"
+    "text_preserved": "driving license:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 78,
     "span_type": "line",
@@ -1326,7 +1326,7 @@
     "text_preserved": "ka05201h0098276"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 79,
     "span_type": "line",
@@ -1340,10 +1340,10 @@
     },
     "text_display": "Passport Expiry Date:",
     "text_clean": "passport expiry date",
-    "text_preserved": "passport expiry date"
+    "text_preserved": "passport expiry date:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 80,
     "span_type": "line",
@@ -1357,10 +1357,10 @@
     },
     "text_display": "Driving License Expiry Date:",
     "text_clean": "driving license expiry date",
-    "text_preserved": "driving license expiry date"
+    "text_preserved": "driving license expiry date:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 81,
     "span_type": "line",
@@ -1377,7 +1377,7 @@
     "text_preserved": "12062033"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 82,
     "span_type": "line",
@@ -1391,10 +1391,10 @@
     },
     "text_display": "Gender*: Male",
     "text_clean": "gender male",
-    "text_preserved": "gender male"
+    "text_preserved": "gender : male"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 83,
     "span_type": "line",
@@ -1411,7 +1411,7 @@
     "text_preserved": "female"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 84,
     "span_type": "line",
@@ -1428,7 +1428,7 @@
     "text_preserved": "transgender"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 85,
     "span_type": "line",
@@ -1442,10 +1442,10 @@
     },
     "text_display": "Date of Birth:",
     "text_clean": "date of birth",
-    "text_preserved": "date of birth"
+    "text_preserved": "date of birth:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 86,
     "span_type": "line",
@@ -1462,7 +1462,7 @@
     "text_preserved": "15041992"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 87,
     "span_type": "line",
@@ -1479,7 +1479,7 @@
     "text_preserved": "e-mail"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 88,
     "span_type": "line",
@@ -1493,10 +1493,10 @@
     },
     "text_display": "ID:",
     "text_clean": "id",
-    "text_preserved": "id"
+    "text_preserved": "id:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 89,
     "span_type": "line",
@@ -1513,7 +1513,7 @@
     "text_preserved": "yawianth.guilula@gmail.co"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 90,
     "span_type": "line",
@@ -1527,10 +1527,10 @@
     },
     "text_display": "Marital Status*: Single",
     "text_clean": "marital status single",
-    "text_preserved": "marital status single"
+    "text_preserved": "marital status : single"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 91,
     "span_type": "line",
@@ -1547,7 +1547,7 @@
     "text_preserved": "married"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 92,
     "span_type": "line",
@@ -1561,10 +1561,10 @@
     },
     "text_display": "Others (please specify)*",
     "text_clean": "others please specify",
-    "text_preserved": "others please specify"
+    "text_preserved": "others (please specify)"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 93,
     "span_type": "line",
@@ -1578,10 +1578,10 @@
     },
     "text_display": "Qualification*: Under Graduate",
     "text_clean": "qualification under graduate",
-    "text_preserved": "qualification under graduate"
+    "text_preserved": "qualification : under graduate"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 94,
     "span_type": "line",
@@ -1598,7 +1598,7 @@
     "text_preserved": "graduate"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 95,
     "span_type": "line",
@@ -1615,7 +1615,7 @@
     "text_preserved": "post graduate"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 96,
     "span_type": "line",
@@ -1629,10 +1629,10 @@
     },
     "text_display": "Others (Please specify)*",
     "text_clean": "others please specify",
-    "text_preserved": "others please specify"
+    "text_preserved": "others (please specify)"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 97,
     "span_type": "line",
@@ -1646,10 +1646,10 @@
     },
     "text_display": "Current Residential Address*:",
     "text_clean": "current residential address",
-    "text_preserved": "current residential address"
+    "text_preserved": "current residential address :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 98,
     "span_type": "line",
@@ -1663,10 +1663,10 @@
     },
     "text_display": "Flat 405, Maple Heights Apartments, ,Indiranggar",
     "text_clean": "flat 405 maple heights apartments indiranggar",
-    "text_preserved": "flat 405 maple heights apartments indiranggar"
+    "text_preserved": "flat 405, maple heights apartments, ,indiranggar"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 99,
     "span_type": "line",
@@ -1680,10 +1680,10 @@
     },
     "text_display": "*Note: Your current residence address is",
     "text_clean": "note your current residence address is",
-    "text_preserved": "note your current residence address is"
+    "text_preserved": "note: your current residence address is"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 100,
     "span_type": "line",
@@ -1697,10 +1697,10 @@
     },
     "text_display": "Landmark:",
     "text_clean": "landmark",
-    "text_preserved": "landmark"
+    "text_preserved": "landmark:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 101,
     "span_type": "line",
@@ -1717,7 +1717,7 @@
     "text_preserved": "near cmh hospital"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 102,
     "span_type": "line",
@@ -1734,7 +1734,7 @@
     "text_preserved": "considered as preferred mailing address. in"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 103,
     "span_type": "line",
@@ -1751,7 +1751,7 @@
     "text_preserved": "case of any other preference. kindly get in"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 104,
     "span_type": "line",
@@ -1768,7 +1768,7 @@
     "text_preserved": "touch with branch"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 105,
     "span_type": "line",
@@ -1782,10 +1782,10 @@
     },
     "text_display": "District: Bengaluru",
     "text_clean": "district bengaluru",
-    "text_preserved": "district bengaluru"
+    "text_preserved": "district: bengaluru"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 106,
     "span_type": "line",
@@ -1802,7 +1802,7 @@
     "text_preserved": "state"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 107,
     "span_type": "line",
@@ -1819,7 +1819,7 @@
     "text_preserved": "karnataka"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 108,
     "span_type": "line",
@@ -1836,7 +1836,7 @@
     "text_preserved": "city"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 109,
     "span_type": "line",
@@ -1853,7 +1853,7 @@
     "text_preserved": "bengaluru"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 110,
     "span_type": "line",
@@ -1870,7 +1870,7 @@
     "text_preserved": "pin"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 111,
     "span_type": "line",
@@ -1887,7 +1887,7 @@
     "text_preserved": "560038"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 112,
     "span_type": "line",
@@ -1901,10 +1901,10 @@
     },
     "text_display": "Residence Details:",
     "text_clean": "residence details",
-    "text_preserved": "residence details"
+    "text_preserved": "residence details:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 113,
     "span_type": "line",
@@ -1921,7 +1921,7 @@
     "text_preserved": "rented"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 114,
     "span_type": "line",
@@ -1938,7 +1938,7 @@
     "text_preserved": "self-owned"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 115,
     "span_type": "line",
@@ -1955,7 +1955,7 @@
     "text_preserved": "parental"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 116,
     "span_type": "line",
@@ -1972,7 +1972,7 @@
     "text_preserved": "company provided"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 117,
     "span_type": "line",
@@ -1986,10 +1986,10 @@
     },
     "text_display": "Others (Please specify)*",
     "text_clean": "others please specify",
-    "text_preserved": "others please specify"
+    "text_preserved": "others (please specify)"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 118,
     "span_type": "line",
@@ -2003,10 +2003,10 @@
     },
     "text_display": "Telephone*:",
     "text_clean": "telephone",
-    "text_preserved": "telephone"
+    "text_preserved": "telephone :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 119,
     "span_type": "line",
@@ -2020,10 +2020,10 @@
     },
     "text_display": "Mobile:",
     "text_clean": "mobile",
-    "text_preserved": "mobile"
+    "text_preserved": "mobile:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 120,
     "span_type": "line",
@@ -2040,7 +2040,7 @@
     "text_preserved": "9876543210"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 121,
     "span_type": "line",
@@ -2054,10 +2054,10 @@
     },
     "text_display": "STD Code:",
     "text_clean": "std code",
-    "text_preserved": "std code"
+    "text_preserved": "std code:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 122,
     "span_type": "line",
@@ -2074,7 +2074,7 @@
     "text_preserved": "no."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 123,
     "span_type": "line",
@@ -2091,7 +2091,7 @@
     "text_preserved": "same as current residence address"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 124,
     "span_type": "line",
@@ -2105,10 +2105,10 @@
     },
     "text_display": "Permanent Residence Address/Address as per OVD*:",
     "text_clean": "permanent residence address address as per ovd",
-    "text_preserved": "permanent residence address/address as per ovd"
+    "text_preserved": "permanent residence address/address as per ovd :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 125,
     "span_type": "line",
@@ -2122,10 +2122,10 @@
     },
     "text_display": "Flat HOS, Maple Heights Apartments, Indirangar",
     "text_clean": "flat hos maple heights apartments indirangar",
-    "text_preserved": "flat hos maple heights apartments indirangar"
+    "text_preserved": "flat hos, maple heights apartments, indirangar"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 126,
     "span_type": "line",
@@ -2139,10 +2139,10 @@
     },
     "text_display": "Landmark:",
     "text_clean": "landmark",
-    "text_preserved": "landmark"
+    "text_preserved": "landmark:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 127,
     "span_type": "line",
@@ -2159,7 +2159,7 @@
     "text_preserved": "state bengaluru"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 128,
     "span_type": "line",
@@ -2176,7 +2176,7 @@
     "text_preserved": "city"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 129,
     "span_type": "line",
@@ -2193,7 +2193,7 @@
     "text_preserved": "karnataka"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 130,
     "span_type": "line",
@@ -2210,7 +2210,7 @@
     "text_preserved": "pin"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 131,
     "span_type": "line",
@@ -2227,7 +2227,7 @@
     "text_preserved": "560038"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 132,
     "span_type": "line",
@@ -2241,10 +2241,10 @@
     },
     "text_display": "Residence Details:",
     "text_clean": "residence details",
-    "text_preserved": "residence details"
+    "text_preserved": "residence details:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 133,
     "span_type": "line",
@@ -2261,7 +2261,7 @@
     "text_preserved": "rented"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 134,
     "span_type": "line",
@@ -2278,7 +2278,7 @@
     "text_preserved": ""
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 135,
     "span_type": "line",
@@ -2295,7 +2295,7 @@
     "text_preserved": "self-owned"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 136,
     "span_type": "line",
@@ -2312,7 +2312,7 @@
     "text_preserved": "parental"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 137,
     "span_type": "line",
@@ -2329,7 +2329,7 @@
     "text_preserved": "company provided"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 138,
     "span_type": "line",
@@ -2343,10 +2343,10 @@
     },
     "text_display": "Others (please specify)*",
     "text_clean": "others please specify",
-    "text_preserved": "others please specify"
+    "text_preserved": "others (please specify)"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 139,
     "span_type": "line",
@@ -2360,10 +2360,10 @@
     },
     "text_display": "Telephone*:",
     "text_clean": "telephone",
-    "text_preserved": "telephone"
+    "text_preserved": "telephone :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 140,
     "span_type": "line",
@@ -2377,10 +2377,10 @@
     },
     "text_display": "STD Code:",
     "text_clean": "std code",
-    "text_preserved": "std code"
+    "text_preserved": "std code:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 141,
     "span_type": "line",
@@ -2397,7 +2397,7 @@
     "text_preserved": "no."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 142,
     "span_type": "line",
@@ -2414,7 +2414,7 @@
     "text_preserved": "9876543210"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 143,
     "span_type": "line",
@@ -2431,7 +2431,7 @@
     "text_preserved": "whether relative to director of idfc first bank ltd - yes"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 144,
     "span_type": "line",
@@ -2448,7 +2448,7 @@
     "text_preserved": "no"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 145,
     "span_type": "line",
@@ -2465,7 +2465,7 @@
     "text_preserved": "whether relative to senior management of idfc first bank ltd - yes"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 146,
     "span_type": "line",
@@ -2482,7 +2482,7 @@
     "text_preserved": "no"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 147,
     "span_type": "line",
@@ -2499,7 +2499,7 @@
     "text_preserved": "whether senior officer of the bank - yes"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 148,
     "span_type": "line",
@@ -2516,7 +2516,7 @@
     "text_preserved": "no"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 149,
     "span_type": "line",
@@ -2533,7 +2533,7 @@
     "text_preserved": "occupation details"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 150,
     "span_type": "line",
@@ -2547,10 +2547,10 @@
     },
     "text_display": "Occupation:",
     "text_clean": "occupation",
-    "text_preserved": "occupation"
+    "text_preserved": "occupation:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 151,
     "span_type": "line",
@@ -2567,7 +2567,7 @@
     "text_preserved": "self employed business"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 152,
     "span_type": "line",
@@ -2584,7 +2584,7 @@
     "text_preserved": "salaried"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 153,
     "span_type": "line",
@@ -2601,7 +2601,7 @@
     "text_preserved": "housewife"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 154,
     "span_type": "line",
@@ -2615,10 +2615,10 @@
     },
     "text_display": "Company Name:",
     "text_clean": "company name",
-    "text_preserved": "company name"
+    "text_preserved": "company name:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 155,
     "span_type": "line",
@@ -2635,7 +2635,7 @@
     "text_preserved": "infosys ltd."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 156,
     "span_type": "line",
@@ -2649,10 +2649,10 @@
     },
     "text_display": "Company/Entity Type:",
     "text_clean": "company entity type",
-    "text_preserved": "company/entity type"
+    "text_preserved": "company/entity type:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 157,
     "span_type": "line",
@@ -2669,7 +2669,7 @@
     "text_preserved": "government"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 158,
     "span_type": "line",
@@ -2686,7 +2686,7 @@
     "text_preserved": "partnership"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 159,
     "span_type": "line",
@@ -2703,7 +2703,7 @@
     "text_preserved": "proprietorship"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 160,
     "span_type": "line",
@@ -2720,7 +2720,7 @@
     "text_preserved": "private ltd."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 161,
     "span_type": "line",
@@ -2737,7 +2737,7 @@
     "text_preserved": "public ltd-unlisted"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 162,
     "span_type": "line",
@@ -2751,10 +2751,10 @@
     },
     "text_display": "(",
     "text_clean": "",
-    "text_preserved": ""
+    "text_preserved": "("
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 163,
     "span_type": "line",
@@ -2771,7 +2771,7 @@
     "text_preserved": "public ltd.listed"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 164,
     "span_type": "line",
@@ -2788,7 +2788,7 @@
     "text_preserved": "acknowledgement"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 165,
     "span_type": "line",
@@ -2805,7 +2805,7 @@
     "text_preserved": "we acknowledge receipt of the application for personal loan from idfc first bank ltd. the bank would require a processing time of approximately 20 working days from"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 166,
     "span_type": "line",
@@ -2819,10 +2819,10 @@
     },
     "text_display": "the date of the completed application. This is subject to submission of all documents as required by the Bank. For any queries or suggestions, please write to us at customer.",
     "text_clean": "the date of the completed application this is subject to submission of all documents as required by the bank for any queries or suggestions please write to us at customer",
-    "text_preserved": "the date of the completed application. this is subject to submission of all documents as required by the bank. for any queries or suggestions please write to us at customer."
+    "text_preserved": "the date of the completed application. this is subject to submission of all documents as required by the bank. for any queries or suggestions, please write to us at customer."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 167,
     "span_type": "line",
@@ -2839,7 +2839,7 @@
     "text_preserved": "care@idfcfirstbank.com or visit www.idfcfirstbank.com/our nearest branch."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 168,
     "span_type": "line",
@@ -2853,10 +2853,10 @@
     },
     "text_display": "Customer Name:",
     "text_clean": "customer name",
-    "text_preserved": "customer name"
+    "text_preserved": "customer name:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 169,
     "span_type": "line",
@@ -2873,7 +2873,7 @@
     "text_preserved": "yaswanth guijula"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 170,
     "span_type": "line",
@@ -2887,10 +2887,10 @@
     },
     "text_display": "Date:",
     "text_clean": "date",
-    "text_preserved": "date"
+    "text_preserved": "date:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 171,
     "span_type": "line",
@@ -2907,7 +2907,7 @@
     "text_preserved": "010325"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 172,
     "span_type": "line",
@@ -2924,7 +2924,7 @@
     "text_preserved": "ddmmyy"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 173,
     "span_type": "line",
@@ -2938,10 +2938,10 @@
     },
     "text_display": "Application Reference Number*:",
     "text_clean": "application reference number",
-    "text_preserved": "application reference number"
+    "text_preserved": "application reference number :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 174,
     "span_type": "line",
@@ -2958,7 +2958,7 @@
     "text_preserved": "pl2024"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 1,
     "span_id": 175,
     "span_type": "line",
@@ -2972,10 +2972,10 @@
     },
     "text_display": "Note: This is a Preprinted acknowledgment and does not require signature",
     "text_clean": "note this is a preprinted acknowledgment and does not require signature",
-    "text_preserved": "note this is a preprinted acknowledgment and does not require signature"
+    "text_preserved": "note: this is a preprinted acknowledgment and does not require signature"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 176,
     "span_type": "line",
@@ -2989,10 +2989,10 @@
     },
     "text_display": "Office Address:",
     "text_clean": "office address",
-    "text_preserved": "office address"
+    "text_preserved": "office address:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 177,
     "span_type": "line",
@@ -3006,10 +3006,10 @@
     },
     "text_display": "Injosys Tower, Hosur Road, Bengaliou -560100.",
     "text_clean": "injosys tower hosur road bengaliou 560100",
-    "text_preserved": "injosys tower hosur road bengaliou -560100."
+    "text_preserved": "injosys tower, hosur road, bengaliou -560100."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 178,
     "span_type": "line",
@@ -3023,10 +3023,10 @@
     },
     "text_display": "Landmark:",
     "text_clean": "landmark",
-    "text_preserved": "landmark"
+    "text_preserved": "landmark:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 179,
     "span_type": "line",
@@ -3043,7 +3043,7 @@
     "text_preserved": "state"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 180,
     "span_type": "line",
@@ -3060,7 +3060,7 @@
     "text_preserved": "bengaluru"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 181,
     "span_type": "line",
@@ -3077,7 +3077,7 @@
     "text_preserved": "city karnataka pin"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 182,
     "span_type": "line",
@@ -3094,7 +3094,7 @@
     "text_preserved": "560100"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 183,
     "span_type": "line",
@@ -3108,10 +3108,10 @@
     },
     "text_display": "Mobile:",
     "text_clean": "mobile",
-    "text_preserved": "mobile"
+    "text_preserved": "mobile:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 184,
     "span_type": "line",
@@ -3128,7 +3128,7 @@
     "text_preserved": "9834567812"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 185,
     "span_type": "line",
@@ -3142,10 +3142,10 @@
     },
     "text_display": "If Salaried*:",
     "text_clean": "if salaried",
-    "text_preserved": "if salaried"
+    "text_preserved": "if salaried :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 186,
     "span_type": "line",
@@ -3162,7 +3162,7 @@
     "text_preserved": "designation"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 187,
     "span_type": "line",
@@ -3179,7 +3179,7 @@
     "text_preserved": "analyst"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 188,
     "span_type": "line",
@@ -3196,7 +3196,7 @@
     "text_preserved": "department"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 189,
     "span_type": "line",
@@ -3213,7 +3213,7 @@
     "text_preserved": "finance"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 190,
     "span_type": "line",
@@ -3230,7 +3230,7 @@
     "text_preserved": "monthly"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 191,
     "span_type": "line",
@@ -3247,7 +3247,7 @@
     "text_preserved": "net"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 192,
     "span_type": "line",
@@ -3264,7 +3264,7 @@
     "text_preserved": "take"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 193,
     "span_type": "line",
@@ -3281,7 +3281,7 @@
     "text_preserved": "home"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 194,
     "span_type": "line",
@@ -3295,10 +3295,10 @@
     },
     "text_display": "1,10,000",
     "text_clean": "1 10 000",
-    "text_preserved": "1 10 000"
+    "text_preserved": "1,10,000"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 195,
     "span_type": "line",
@@ -3315,7 +3315,7 @@
     "text_preserved": "work email id"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 196,
     "span_type": "line",
@@ -3332,7 +3332,7 @@
     "text_preserved": "yasmanth.gujiula@gmail.co"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 197,
     "span_type": "line",
@@ -3346,10 +3346,10 @@
     },
     "text_display": "If Self-employed*: Date of Incorporation",
     "text_clean": "if self employed date of incorporation",
-    "text_preserved": "if self-employed date of incorporation"
+    "text_preserved": "if self-employed : date of incorporation"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 198,
     "span_type": "line",
@@ -3366,7 +3366,7 @@
     "text_preserved": "ddmmyy"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 199,
     "span_type": "line",
@@ -3383,7 +3383,7 @@
     "text_preserved": "annual"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 200,
     "span_type": "line",
@@ -3400,7 +3400,7 @@
     "text_preserved": "income"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 201,
     "span_type": "line",
@@ -3414,10 +3414,10 @@
     },
     "text_display": "12,00,000",
     "text_clean": "12 00 000",
-    "text_preserved": "12 00 000"
+    "text_preserved": "12,00,000"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 202,
     "span_type": "line",
@@ -3434,7 +3434,7 @@
     "text_preserved": "last 3 months monthly bank balance mandatory"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 203,
     "span_type": "line",
@@ -3448,10 +3448,10 @@
     },
     "text_display": "GST DECLARATION:",
     "text_clean": "gst declaration",
-    "text_preserved": "gst declaration"
+    "text_preserved": "gst declaration:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 204,
     "span_type": "line",
@@ -3465,10 +3465,10 @@
     },
     "text_display": "1) GST Regd No.: Yes",
     "text_clean": "1 gst regd no yes",
-    "text_preserved": "1 gst regd no. yes"
+    "text_preserved": "1) gst regd no.: yes"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 205,
     "span_type": "line",
@@ -3485,7 +3485,7 @@
     "text_preserved": "no"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 206,
     "span_type": "line",
@@ -3499,10 +3499,10 @@
     },
     "text_display": "2) GSTIN No.",
     "text_clean": "2 gstin no",
-    "text_preserved": "2 gstin no."
+    "text_preserved": "2) gstin no."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 207,
     "span_type": "line",
@@ -3516,10 +3516,10 @@
     },
     "text_display": "That I have shared correct GSTIN., hence separate verification of my GSTIN is not required and I shall not hold IDFC FIRST Bank Limited liable for loss of credit arising on",
     "text_clean": "that i have shared correct gstin hence separate verification of my gstin is not required and i shall not hold idfc first bank limited liable for loss of credit arising on",
-    "text_preserved": "that i have shared correct gstin. hence separate verification of my gstin is not required and i shall not hold idfc first bank limited liable for loss of credit arising on"
+    "text_preserved": "that i have shared correct gstin., hence separate verification of my gstin is not required and i shall not hold idfc first bank limited liable for loss of credit arising on"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 208,
     "span_type": "line",
@@ -3533,10 +3533,10 @@
     },
     "text_display": "account of incomplete, erroneous or wrong GST details. For all GST purposes the mailing address will be consider as place of supply i.e. GST address.",
     "text_clean": "account of incomplete erroneous or wrong gst details for all gst purposes the mailing address will be consider as place of supply i e gst address",
-    "text_preserved": "account of incomplete erroneous or wrong gst details. for all gst purposes the mailing address will be consider as place of supply i.e. gst address."
+    "text_preserved": "account of incomplete, erroneous or wrong gst details. for all gst purposes the mailing address will be consider as place of supply i.e. gst address."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 209,
     "span_type": "line",
@@ -3553,7 +3553,7 @@
     "text_preserved": "bank details"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 210,
     "span_type": "line",
@@ -3567,10 +3567,10 @@
     },
     "text_display": "Preferred Mode of Repayment: NACH",
     "text_clean": "preferred mode of repayment nach",
-    "text_preserved": "preferred mode of repayment nach"
+    "text_preserved": "preferred mode of repayment: nach"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 211,
     "span_type": "line",
@@ -3587,7 +3587,7 @@
     "text_preserved": "pdc"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 212,
     "span_type": "line",
@@ -3604,7 +3604,7 @@
     "text_preserved": "si"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 213,
     "span_type": "line",
@@ -3621,7 +3621,7 @@
     "text_preserved": "bank"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 214,
     "span_type": "line",
@@ -3635,10 +3635,10 @@
     },
     "text_display": "Name:",
     "text_clean": "name",
-    "text_preserved": "name"
+    "text_preserved": "name:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 215,
     "span_type": "line",
@@ -3655,7 +3655,7 @@
     "text_preserved": "hdfc bank"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 216,
     "span_type": "line",
@@ -3669,10 +3669,10 @@
     },
     "text_display": "Account Number:",
     "text_clean": "account number",
-    "text_preserved": "account number"
+    "text_preserved": "account number:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 217,
     "span_type": "line",
@@ -3689,7 +3689,7 @@
     "text_preserved": "50100283911218"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 218,
     "span_type": "line",
@@ -3703,10 +3703,10 @@
     },
     "text_display": "Account Type : Savings",
     "text_clean": "account type savings",
-    "text_preserved": "account type savings"
+    "text_preserved": "account type : savings"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 219,
     "span_type": "line",
@@ -3723,7 +3723,7 @@
     "text_preserved": "current"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 220,
     "span_type": "line",
@@ -3740,7 +3740,7 @@
     "text_preserved": "two reference details"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 221,
     "span_type": "line",
@@ -3754,10 +3754,10 @@
     },
     "text_display": "1) Name:",
     "text_clean": "1 name",
-    "text_preserved": "1 name"
+    "text_preserved": "1) name:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 222,
     "span_type": "line",
@@ -3774,7 +3774,7 @@
     "text_preserved": "rohit menon"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 223,
     "span_type": "line",
@@ -3788,10 +3788,10 @@
     },
     "text_display": "Relationship with Applicant:",
     "text_clean": "relationship with applicant",
-    "text_preserved": "relationship with applicant"
+    "text_preserved": "relationship with applicant:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 224,
     "span_type": "line",
@@ -3808,7 +3808,7 @@
     "text_preserved": "friend"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 225,
     "span_type": "line",
@@ -3822,10 +3822,10 @@
     },
     "text_display": "Mobile:",
     "text_clean": "mobile",
-    "text_preserved": "mobile"
+    "text_preserved": "mobile:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 226,
     "span_type": "line",
@@ -3842,7 +3842,7 @@
     "text_preserved": "9876001122"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 227,
     "span_type": "line",
@@ -3856,10 +3856,10 @@
     },
     "text_display": "2) Name:",
     "text_clean": "2 name",
-    "text_preserved": "2 name"
+    "text_preserved": "2) name:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 228,
     "span_type": "line",
@@ -3876,7 +3876,7 @@
     "text_preserved": "kavita sharma"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 229,
     "span_type": "line",
@@ -3890,10 +3890,10 @@
     },
     "text_display": "Relationship with Applicant:",
     "text_clean": "relationship with applicant",
-    "text_preserved": "relationship with applicant"
+    "text_preserved": "relationship with applicant:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 230,
     "span_type": "line",
@@ -3910,7 +3910,7 @@
     "text_preserved": "cousin"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 231,
     "span_type": "line",
@@ -3924,10 +3924,10 @@
     },
     "text_display": "Mobile:",
     "text_clean": "mobile",
-    "text_preserved": "mobile"
+    "text_preserved": "mobile:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 232,
     "span_type": "line",
@@ -3944,7 +3944,7 @@
     "text_preserved": "9822219900"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 233,
     "span_type": "line",
@@ -3961,7 +3961,7 @@
     "text_preserved": "declaration"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 234,
     "span_type": "line",
@@ -3975,10 +3975,10 @@
     },
     "text_display": "I/We declare that all the particulars and information given in the Application Form are true, correct, complete and up-to-date in all respects and I/We have not withheld any information whatsoever. I/We confirm",
     "text_clean": "i we declare that all the particulars and information given in the application form are true correct complete and up to date in all respects and i we have not withheld any information whatsoever i we confirm",
-    "text_preserved": "i/we declare that all the particulars and information given in the application form are true correct complete and up-to-date in all respects and i/we have not withheld any information whatsoever. i/we confirm"
+    "text_preserved": "i/we declare that all the particulars and information given in the application form are true, correct, complete and up-to-date in all respects and i/we have not withheld any information whatsoever. i/we confirm"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 235,
     "span_type": "line",
@@ -3992,10 +3992,10 @@
     },
     "text_display": "that no insolvency proceeding(s) or suit for recovery of outstanding dues or monies whatsoever and/or criminal proceedings have been initiated and/or pending against me/us and that I/We have never been",
     "text_clean": "that no insolvency proceeding s or suit for recovery of outstanding dues or monies whatsoever and or criminal proceedings have been initiated and or pending against me us and that i we have never been",
-    "text_preserved": "that no insolvency proceeding s or suit for recovery of outstanding dues or monies whatsoever and/or criminal proceedings have been initiated and/or pending against me/us and that i/we have never been"
+    "text_preserved": "that no insolvency proceeding(s) or suit for recovery of outstanding dues or monies whatsoever and/or criminal proceedings have been initiated and/or pending against me/us and that i/we have never been"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 236,
     "span_type": "line",
@@ -4009,10 +4009,10 @@
     },
     "text_display": "adjudicated insolvent/bankrupt by any court or other authority. I/We declare that I/We have not made any payment in cash, bearer, cheque or kind along with or in connection with this Application or any",
     "text_clean": "adjudicated insolvent bankrupt by any court or other authority i we declare that i we have not made any payment in cash bearer cheque or kind along with or in connection with this application or any",
-    "text_preserved": "adjudicated insolvent/bankrupt by any court or other authority. i/we declare that i/we have not made any payment in cash bearer cheque or kind along with or in connection with this application or any"
+    "text_preserved": "adjudicated insolvent/bankrupt by any court or other authority. i/we declare that i/we have not made any payment in cash, bearer, cheque or kind along with or in connection with this application or any"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 237,
     "span_type": "line",
@@ -4029,7 +4029,7 @@
     "text_preserved": "other application fees to the executive collecting my/our application/and i/we shall not hold idfc first bank limited liable for any such payment made by us to the executive collecting this application"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 238,
     "span_type": "line",
@@ -4046,7 +4046,7 @@
     "text_preserved": "i/we understand and confirm that the application form and all other documents submitted by me/us to idfc first bank limited shall not be returned to me/us and idfc first bank limited shall have"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 239,
     "span_type": "line",
@@ -4060,10 +4060,10 @@
     },
     "text_display": "the right to retain the same. I/We have read the Application Form and brochures and are agreeable to all the terms/conditions of availing finance from IDFC FIRST Bank Limited/its Group Companies, I/We",
     "text_clean": "the right to retain the same i we have read the application form and brochures and are agreeable to all the terms conditions of availing finance from idfc first bank limited its group companies i we",
-    "text_preserved": "the right to retain the same. i/we have read the application form and brochures and are agreeable to all the terms/conditions of availing finance from idfc first bank limited/its group companies i/we"
+    "text_preserved": "the right to retain the same. i/we have read the application form and brochures and are agreeable to all the terms/conditions of availing finance from idfc first bank limited/its group companies, i/we"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 240,
     "span_type": "line",
@@ -4080,7 +4080,7 @@
     "text_preserved": "authorise idfc first bank limited/its group companies/its agents to make reference and enquiries relevant to information in this application form which idfc first bank limited/its group companies/"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 241,
     "span_type": "line",
@@ -4097,7 +4097,7 @@
     "text_preserved": "its agents consider necessary. i/we undertake to inform idfc bank imited/its group companies/its agents regarding the change in the residential addresses/employment/profession and to provide any"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 242,
     "span_type": "line",
@@ -4114,7 +4114,7 @@
     "text_preserved": "further information that idfc bank limited/its group companies/its agents may require. i/we further declare and confirm that the credit facilities if any enjoyed by me/us with banks/financial institutions/"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 243,
     "span_type": "line",
@@ -4131,7 +4131,7 @@
     "text_preserved": "non banking finance companies has been disclosed here in above. i/we agree that idfc first bank limited may provide the credit facilities mentioned herein only if permitted and if approved in the"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 244,
     "span_type": "line",
@@ -4145,10 +4145,10 @@
     },
     "text_display": "manner specified or required by the Reserve Bank of India from time to time. I/We confirm that I/We shall not use the credit facility (or any part thereof) for any improper, illegal or unlawful purpose/activities.",
     "text_clean": "manner specified or required by the reserve bank of india from time to time i we confirm that i we shall not use the credit facility or any part thereof for any improper illegal or unlawful purpose activities",
-    "text_preserved": "manner specified or required by the reserve bank of india from time to time. i/we confirm that i/we shall not use the credit facility or any part thereof for any improper illegal or unlawful purpose/activities."
+    "text_preserved": "manner specified or required by the reserve bank of india from time to time. i/we confirm that i/we shall not use the credit facility (or any part thereof) for any improper, illegal or unlawful purpose/activities."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 245,
     "span_type": "line",
@@ -4162,10 +4162,10 @@
     },
     "text_display": "I/We have been read out and explained in the language known to me/us, the contents of the Application Form for availing the loan from IDFC FIRST Bank Limited by the executive of the Bank and I/we",
     "text_clean": "i we have been read out and explained in the language known to me us the contents of the application form for availing the loan from idfc first bank limited by the executive of the bank and i we",
-    "text_preserved": "i/we have been read out and explained in the language known to me/us the contents of the application form for availing the loan from idfc first bank limited by the executive of the bank and i/we"
+    "text_preserved": "i/we have been read out and explained in the language known to me/us, the contents of the application form for availing the loan from idfc first bank limited by the executive of the bank and i/we"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 246,
     "span_type": "line",
@@ -4182,7 +4182,7 @@
     "text_preserved": "have signed the said application form after having understood them and by signing the same. i/we wish to avail of the nach/pdc/si facility and hereby express my/our unconditional consent to debit"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 247,
     "span_type": "line",
@@ -4196,10 +4196,10 @@
     },
     "text_display": "my/our loan instalments etc., from above mentioned account through NACH/PDC/SI. I/We authorize the bank to honour all such instructions. I/we authorize the representative of the Company to get this",
     "text_clean": "my our loan instalments etc from above mentioned account through nach pdc si i we authorize the bank to honour all such instructions i we authorize the representative of the company to get this",
-    "text_preserved": "my/our loan instalments etc. from above mentioned account through nach/pdc/si. i/we authorize the bank to honour all such instructions. i/we authorize the representative of the company to get this"
+    "text_preserved": "my/our loan instalments etc., from above mentioned account through nach/pdc/si. i/we authorize the bank to honour all such instructions. i/we authorize the representative of the company to get this"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 248,
     "span_type": "line",
@@ -4213,10 +4213,10 @@
     },
     "text_display": "mandate verified and registered with bank. Mandate Verification Charges (if any) may be charged to my/our account. I/We will ensure sufficient balance in the funding account on the date of execution. In",
     "text_clean": "mandate verified and registered with bank mandate verification charges if any may be charged to my our account i we will ensure sufficient balance in the funding account on the date of execution in",
-    "text_preserved": "mandate verified and registered with bank. mandate verification charges if any may be charged to my/our account. i/we will ensure sufficient balance in the funding account on the date of execution. in"
+    "text_preserved": "mandate verified and registered with bank. mandate verification charges (if any) may be charged to my/our account. i/we will ensure sufficient balance in the funding account on the date of execution. in"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 249,
     "span_type": "line",
@@ -4230,10 +4230,10 @@
     },
     "text_display": "case NACH/PDC/SI instruction is unsuccessful due to financial reasons, the NACH/PDC/SI instructions will be presented again for clearance. I/We will bear the bounce charges for transactions that have",
     "text_clean": "case nach pdc si instruction is unsuccessful due to financial reasons the nach pdc si instructions will be presented again for clearance i we will bear the bounce charges for transactions that have",
-    "text_preserved": "case nach/pdc/si instruction is unsuccessful due to financial reasons the nach/pdc/si instructions will be presented again for clearance. i/we will bear the bounce charges for transactions that have"
+    "text_preserved": "case nach/pdc/si instruction is unsuccessful due to financial reasons, the nach/pdc/si instructions will be presented again for clearance. i/we will bear the bounce charges for transactions that have"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 250,
     "span_type": "line",
@@ -4250,7 +4250,7 @@
     "text_preserved": "been unsuccessful due to financial reason."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 251,
     "span_type": "line",
@@ -4267,7 +4267,7 @@
     "text_preserved": "i/we hereby agree to abide and be bound by all applicable rules/regulations/instruction/guidelines including but not limited to those issued by the reserve bank of india including the fema regulations 2000"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 252,
     "span_type": "line",
@@ -4281,10 +4281,10 @@
     },
     "text_display": "governing EEFC Accounts, the Foreign Exchange Management Act. 1999 and Foreign Account Tax Compliance Act, 2010 (to the extent applicable to India and the Common Reporting Standards (CRS), in",
     "text_clean": "governing eefc accounts the foreign exchange management act 1999 and foreign account tax compliance act 2010 to the extent applicable to india and the common reporting standards crs in",
-    "text_preserved": "governing eefc accounts the foreign exchange management act. 1999 and foreign account tax compliance act 2010 to the extent applicable to india and the common reporting standards crs in"
+    "text_preserved": "governing eefc accounts, the foreign exchange management act. 1999 and foreign account tax compliance act, 2010 (to the extent applicable to india and the common reporting standards (crs), in"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 253,
     "span_type": "line",
@@ -4298,10 +4298,10 @@
     },
     "text_display": "force time to time. I/we confirm having declared our status as per the rules applicable under section 285BA of the Income Tax Act, 1961 (the Act) as notified by Central Board of Direct Taxes (CBDT) in this",
     "text_clean": "force time to time i we confirm having declared our status as per the rules applicable under section 285ba of the income tax act 1961 the act as notified by central board of direct taxes cbdt in this",
-    "text_preserved": "force time to time. i/we confirm having declared our status as per the rules applicable under section 285ba of the income tax act 1961 the act as notified by central board of direct taxes cbdt in this"
+    "text_preserved": "force time to time. i/we confirm having declared our status as per the rules applicable under section 285ba of the income tax act, 1961 (the act) as notified by central board of direct taxes (cbdt) in this"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 254,
     "span_type": "line",
@@ -4315,10 +4315,10 @@
     },
     "text_display": "regard. I/WE confirm that except to the extent disclosed to the Bank, no director or a relative (as specified by RBI) of a director of a banking company (as specified by RBI) or a relative of a senior officer of",
     "text_clean": "regard i we confirm that except to the extent disclosed to the bank no director or a relative as specified by rbi of a director of a banking company as specified by rbi or a relative of a senior officer of",
-    "text_preserved": "regard. i/we confirm that except to the extent disclosed to the bank no director or a relative as specified by rbi of a director of a banking company as specified by rbi or a relative of a senior officer of"
+    "text_preserved": "regard. i/we confirm that except to the extent disclosed to the bank, no director or a relative (as specified by rbi) of a director of a banking company (as specified by rbi) or a relative of a senior officer of"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 255,
     "span_type": "line",
@@ -4332,10 +4332,10 @@
     },
     "text_display": "the Bank (as specified by RBI) is the applicant(s), or a partner, managing agent, manager, employee, director India of our concérn, or of our subsidiary or Chennai our holding company, or a guarantor on my/our behalf,",
     "text_clean": "the bank as specified by rbi is the applicant s or a partner managing agent manager employee director india of our conc rn or of our subsidiary or chennai our holding company or a guarantor on my our behalf",
-    "text_preserved": "the bank as specified by rbi is the applicant s or a partner managing agent manager employee director india of our conc rn or of our subsidiary or chennai our holding company or a guarantor on my/our behalf"
+    "text_preserved": "the bank (as specified by rbi) is the applicant(s), or a partner, managing agent, manager, employee, director india of our conc rn, or of our subsidiary or chennai our holding company, or a guarantor on my/our behalf,"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 256,
     "span_type": "line",
@@ -4352,7 +4352,7 @@
     "text_preserved": "or holds india substantial interest in our concern na subsidiary or holding company na country of birth"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 257,
     "span_type": "line",
@@ -4369,7 +4369,7 @@
     "text_preserved": "place of birth"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 258,
     "span_type": "line",
@@ -4386,7 +4386,7 @@
     "text_preserved": "country"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 259,
     "span_type": "line",
@@ -4403,7 +4403,7 @@
     "text_preserved": "of"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 260,
     "span_type": "line",
@@ -4420,7 +4420,7 @@
     "text_preserved": "residence"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 261,
     "span_type": "line",
@@ -4437,7 +4437,7 @@
     "text_preserved": "as"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 262,
     "span_type": "line",
@@ -4454,7 +4454,7 @@
     "text_preserved": "per"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 263,
     "span_type": "line",
@@ -4471,7 +4471,7 @@
     "text_preserved": "tax"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 264,
     "span_type": "line",
@@ -4488,7 +4488,7 @@
     "text_preserved": "laws"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 265,
     "span_type": "line",
@@ -4505,7 +4505,7 @@
     "text_preserved": "foreign"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 266,
     "span_type": "line",
@@ -4522,7 +4522,7 @@
     "text_preserved": "tin"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 267,
     "span_type": "line",
@@ -4539,7 +4539,7 @@
     "text_preserved": "tin"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 268,
     "span_type": "line",
@@ -4556,7 +4556,7 @@
     "text_preserved": "issuing"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 269,
     "span_type": "line",
@@ -4573,7 +4573,7 @@
     "text_preserved": "country"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 270,
     "span_type": "line",
@@ -4587,10 +4587,10 @@
     },
     "text_display": "If I provide deemed address proof, then within 3 months from date of disbursal, I will share the updated Officially Valid Document with the current address. I hereby consent to receive information about",
     "text_clean": "if i provide deemed address proof then within 3 months from date of disbursal i will share the updated officially valid document with the current address i hereby consent to receive information about",
-    "text_preserved": "if i provide deemed address proof then within 3 months from date of disbursal i will share the updated officially valid document with the current address. i hereby consent to receive information about"
+    "text_preserved": "if i provide deemed address proof, then within 3 months from date of disbursal, i will share the updated officially valid document with the current address. i hereby consent to receive information about"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 271,
     "span_type": "line",
@@ -4607,7 +4607,7 @@
     "text_preserved": "my loans and offers on whatsapp on my registered number. the borrower shall ensure that neither the borrower nor any director/partner/member/frustee of the borrower has been declared a willful"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 272,
     "span_type": "line",
@@ -4621,10 +4621,10 @@
     },
     "text_display": "defaulter; in case any director/partner/member/ trustee has been declared as a willful defaulter, the Borrower shall take expeditious steps for removal of such person. I/We hereby submit voluntarily at my/our",
     "text_clean": "defaulter in case any director partner member trustee has been declared as a willful defaulter the borrower shall take expeditious steps for removal of such person i we hereby submit voluntarily at my our",
-    "text_preserved": "defaulter in case any director/partner/member/ trustee has been declared as a willful defaulter the borrower shall take expeditious steps for removal of such person. i/we hereby submit voluntarily at my/our"
+    "text_preserved": "defaulter; in case any director/partner/member/ trustee has been declared as a willful defaulter, the borrower shall take expeditious steps for removal of such person. i/we hereby submit voluntarily at my/our"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 273,
     "span_type": "line",
@@ -4638,10 +4638,10 @@
     },
     "text_display": "own discretion, the physical copy of Aadhaar card/physical e-Aadhaar/ masked Aadhaar / offline electronic Aadhaar xml as issued by UIDAI (Aadhaar), to IDFC FIRST Bank for the purpose of establishing",
     "text_clean": "own discretion the physical copy of aadhaar card physical e aadhaar masked aadhaar offline electronic aadhaar xml as issued by uidai aadhaar to idfc first bank for the purpose of establishing",
-    "text_preserved": "own discretion the physical copy of aadhaar card/physical e-aadhaar/ masked aadhaar / offline electronic aadhaar xml as issued by uidai aadhaar to idfc first bank for the purpose of establishing"
+    "text_preserved": "own discretion, the physical copy of aadhaar card/physical e-aadhaar/ masked aadhaar / offline electronic aadhaar xml as issued by uidai (aadhaar), to idfc first bank for the purpose of establishing"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 274,
     "span_type": "line",
@@ -4658,7 +4658,7 @@
     "text_preserved": "my/our identity address proof and voluntarily give my/our consent in connection with me availing the financial facility from idfc and processing instructions for the said purpose and hereby give consent"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 275,
     "span_type": "line",
@@ -4675,7 +4675,7 @@
     "text_preserved": "to idfc for verification of my aadhaar to establish its genuineness through any such acceptable manner stipulated by uidai or under any act or law from time to time. i/we have also been explained that"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 276,
     "span_type": "line",
@@ -4689,10 +4689,10 @@
     },
     "text_display": "submission of this document is not mandatory. I/we have the option to submit any one of the documents as per the list of Officially Valid Documents (updated by the RBI from time to time) The consent and",
     "text_clean": "submission of this document is not mandatory i we have the option to submit any one of the documents as per the list of officially valid documents updated by the rbi from time to time the consent and",
-    "text_preserved": "submission of this document is not mandatory. i/we have the option to submit any one of the documents as per the list of officially valid documents updated by the rbi from time to time the consent and"
+    "text_preserved": "submission of this document is not mandatory. i/we have the option to submit any one of the documents as per the list of officially valid documents (updated by the rbi from time to time) the consent and"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 277,
     "span_type": "line",
@@ -4709,7 +4709,7 @@
     "text_preserved": "purpose of collecting aadhaar has been explained to me/us in local language. idfc has informed me/us that i am/we are required to redact/ blacken out the first eight digits of aadhaar number so that only"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 278,
     "span_type": "line",
@@ -4723,10 +4723,10 @@
     },
     "text_display": "last four digits of the Aadhaar number are visible; and in case I/We do not redact/ blacken out the first eight digits of Aadhaar number, I/We authorized IDFC FIRST Bank to redact/blacken out the Aadhaar",
     "text_clean": "last four digits of the aadhaar number are visible and in case i we do not redact blacken out the first eight digits of aadhaar number i we authorized idfc first bank to redact blacken out the aadhaar",
-    "text_preserved": "last four digits of the aadhaar number are visible and in case i/we do not redact/ blacken out the first eight digits of aadhaar number i/we authorized idfc first bank to redact/blacken out the aadhaar"
+    "text_preserved": "last four digits of the aadhaar number are visible; and in case i/we do not redact/ blacken out the first eight digits of aadhaar number, i/we authorized idfc first bank to redact/blacken out the aadhaar"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 279,
     "span_type": "line",
@@ -4743,7 +4743,7 @@
     "text_preserved": "number through appropriate means on my/our behalf . idfc has also informed me that this consent and my aadhar will be stored with idfc"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 280,
     "span_type": "line",
@@ -4760,7 +4760,7 @@
     "text_preserved": "would you like to receive updates about various offers and promotion from to time yes"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 281,
     "span_type": "line",
@@ -4777,7 +4777,7 @@
     "text_preserved": "no"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 282,
     "span_type": "line",
@@ -4791,10 +4791,10 @@
     },
     "text_display": "If yes, mode of communication: Phone",
     "text_clean": "if yes mode of communication phone",
-    "text_preserved": "if yes mode of communication phone"
+    "text_preserved": "if yes, mode of communication: phone"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 283,
     "span_type": "line",
@@ -4811,7 +4811,7 @@
     "text_preserved": "sms"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 284,
     "span_type": "line",
@@ -4828,7 +4828,7 @@
     "text_preserved": "e-mail"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 285,
     "span_type": "line",
@@ -4845,7 +4845,7 @@
     "text_preserved": "authorisation"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 286,
     "span_type": "line",
@@ -4859,10 +4859,10 @@
     },
     "text_display": "I hereby authorise the Bank, without any notice to me to conduct credit checks, references, make enquiries, in its sole discretion and also authorise the Bank and its agents to share and obtain information,",
     "text_clean": "i hereby authorise the bank without any notice to me to conduct credit checks references make enquiries in its sole discretion and also authorise the bank and its agents to share and obtain information",
-    "text_preserved": "i hereby authorise the bank without any notice to me to conduct credit checks references make enquiries in its sole discretion and also authorise the bank and its agents to share and obtain information"
+    "text_preserved": "i hereby authorise the bank, without any notice to me to conduct credit checks, references, make enquiries, in its sole discretion and also authorise the bank and its agents to share and obtain information,"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 287,
     "span_type": "line",
@@ -4876,10 +4876,10 @@
     },
     "text_display": "records from any agencies, statutory bodies, credit bureau, bank, financial institutions, or any third party in respect of the application, as it may consider necessary. The Bank shall not be liable for use/",
     "text_clean": "records from any agencies statutory bodies credit bureau bank financial institutions or any third party in respect of the application as it may consider necessary the bank shall not be liable for use",
-    "text_preserved": "records from any agencies statutory bodies credit bureau bank financial institutions or any third party in respect of the application as it may consider necessary. the bank shall not be liable for use/"
+    "text_preserved": "records from any agencies, statutory bodies, credit bureau, bank, financial institutions, or any third party in respect of the application, as it may consider necessary. the bank shall not be liable for use/"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 288,
     "span_type": "line",
@@ -4893,10 +4893,10 @@
     },
     "text_display": "sharing of the information. I would like to avail the benefits of the various bank loan offer schemes or loan promotional activities or any other promotional schemes and hereby authorize the Bank, its",
     "text_clean": "sharing of the information i would like to avail the benefits of the various bank loan offer schemes or loan promotional activities or any other promotional schemes and hereby authorize the bank its",
-    "text_preserved": "sharing of the information. i would like to avail the benefits of the various bank loan offer schemes or loan promotional activities or any other promotional schemes and hereby authorize the bank its"
+    "text_preserved": "sharing of the information. i would like to avail the benefits of the various bank loan offer schemes or loan promotional activities or any other promotional schemes and hereby authorize the bank, its"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 289,
     "span_type": "line",
@@ -4910,10 +4910,10 @@
     },
     "text_display": "employees, agents, representatives and associates to do so.",
     "text_clean": "employees agents representatives and associates to do so",
-    "text_preserved": "employees agents representatives and associates to do so."
+    "text_preserved": "employees, agents, representatives and associates to do so."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 290,
     "span_type": "line",
@@ -4930,7 +4930,7 @@
     "text_preserved": "i confirm that laws in relation to the unsolicited communication referred in national do not call registry as laid down by telecom regulatory of india will not be applicable for such communications/ calls/"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 291,
     "span_type": "line",
@@ -4944,10 +4944,10 @@
     },
     "text_display": "SMSs sent to receive information from Central, its representatives, agents. I hereby provide consent to send SMS confirmation to reference contacts provided by me as part of the loan application process.",
     "text_clean": "smss sent to receive information from central its representatives agents i hereby provide consent to send sms confirmation to reference contacts provided by me as part of the loan application process",
-    "text_preserved": "smss sent to receive information from central its representatives agents. i hereby provide consent to send sms confirmation to reference contacts provided by me as part of the loan application process."
+    "text_preserved": "smss sent to receive information from central, its representatives, agents. i hereby provide consent to send sms confirmation to reference contacts provided by me as part of the loan application process."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 292,
     "span_type": "line",
@@ -4964,7 +4964,7 @@
     "text_preserved": "the bank reserves the right to retain the photograph and documents submitted with the application and shall not be returned. idfc first bank limited shall be entitled at its sole and absolute discretion"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 293,
     "span_type": "line",
@@ -4981,7 +4981,7 @@
     "text_preserved": "to approve/reject this application form submitted by applicant/ co-applicant."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 294,
     "span_type": "line",
@@ -4998,7 +4998,7 @@
     "text_preserved": "a. i/we authorise the bank to submit application/other relevant documents submitted by me to cersai. i/we hereby provide my consent to receive information from central kyc"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 295,
     "span_type": "line",
@@ -5015,7 +5015,7 @@
     "text_preserved": "registry through sms/mail on the above registered number/email address. i/we also authorize the bank to freeze my idfc first bank account in an event of default."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 296,
     "span_type": "line",
@@ -5032,7 +5032,7 @@
     "text_preserved": "applicant/co-applicant/signature"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 297,
     "span_type": "line",
@@ -5049,7 +5049,7 @@
     "text_preserved": "yaswanth kumaredly"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 298,
     "span_type": "line",
@@ -5063,10 +5063,10 @@
     },
     "text_display": "Date:",
     "text_clean": "date",
-    "text_preserved": "date"
+    "text_preserved": "date:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 299,
     "span_type": "line",
@@ -5083,7 +5083,7 @@
     "text_preserved": "10/01/2025"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 300,
     "span_type": "line",
@@ -5097,10 +5097,10 @@
     },
     "text_display": "Place:",
     "text_clean": "place",
-    "text_preserved": "place"
+    "text_preserved": "place:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 301,
     "span_type": "line",
@@ -5117,7 +5117,7 @@
     "text_preserved": "kadapa."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 302,
     "span_type": "line",
@@ -5134,7 +5134,7 @@
     "text_preserved": "office use only"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 303,
     "span_type": "line",
@@ -5151,7 +5151,7 @@
     "text_preserved": "original"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 304,
     "span_type": "line",
@@ -5168,7 +5168,7 @@
     "text_preserved": "seen"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 305,
     "span_type": "line",
@@ -5185,7 +5185,7 @@
     "text_preserved": ""
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 306,
     "span_type": "line",
@@ -5202,7 +5202,7 @@
     "text_preserved": "verified"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 307,
     "span_type": "line",
@@ -5219,7 +5219,7 @@
     "text_preserved": "by -"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 308,
     "span_type": "line",
@@ -5233,10 +5233,10 @@
     },
     "text_display": "Name:",
     "text_clean": "name",
-    "text_preserved": "name"
+    "text_preserved": "name:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 309,
     "span_type": "line",
@@ -5253,7 +5253,7 @@
     "text_preserved": "ankit"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 310,
     "span_type": "line",
@@ -5270,7 +5270,7 @@
     "text_preserved": "rao"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 311,
     "span_type": "line",
@@ -5284,10 +5284,10 @@
     },
     "text_display": "Designation:",
     "text_clean": "designation",
-    "text_preserved": "designation"
+    "text_preserved": "designation:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 312,
     "span_type": "line",
@@ -5301,10 +5301,10 @@
     },
     "text_display": "DSA/Referral Code:",
     "text_clean": "dsa referral code",
-    "text_preserved": "dsa/referral code"
+    "text_preserved": "dsa/referral code:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 313,
     "span_type": "line",
@@ -5321,7 +5321,7 @@
     "text_preserved": "dsao 9384"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 314,
     "span_type": "line",
@@ -5335,10 +5335,10 @@
     },
     "text_display": "Sign:",
     "text_clean": "sign",
-    "text_preserved": "sign"
+    "text_preserved": "sign:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 2,
     "span_id": 315,
     "span_type": "line",
@@ -5355,7 +5355,7 @@
     "text_preserved": "yaswanth relation ship manager"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 316,
     "span_type": "line",
@@ -5372,7 +5372,7 @@
     "text_preserved": "priority sector lending"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 317,
     "span_type": "line",
@@ -5386,10 +5386,10 @@
     },
     "text_display": "Weaker Section:",
     "text_clean": "weaker section",
-    "text_preserved": "weaker section"
+    "text_preserved": "weaker section:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 318,
     "span_type": "line",
@@ -5406,7 +5406,7 @@
     "text_preserved": "i. individual women beneficiaries up to 1 lakh"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 319,
     "span_type": "line",
@@ -5420,10 +5420,10 @@
     },
     "text_display": "ii. Loans to:",
     "text_clean": "ii loans to",
-    "text_preserved": "ii. loans to"
+    "text_preserved": "ii. loans to:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 320,
     "span_type": "line",
@@ -5440,7 +5440,7 @@
     "text_preserved": "sc"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 321,
     "span_type": "line",
@@ -5457,7 +5457,7 @@
     "text_preserved": "st"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 322,
     "span_type": "line",
@@ -5474,7 +5474,7 @@
     "text_preserved": "general"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 323,
     "span_type": "line",
@@ -5491,7 +5491,7 @@
     "text_preserved": "obc"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 324,
     "span_type": "line",
@@ -5505,10 +5505,10 @@
     },
     "text_display": "Others iii. Religion:",
     "text_clean": "others iii religion",
-    "text_preserved": "others iii. religion"
+    "text_preserved": "others iii. religion:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 325,
     "span_type": "line",
@@ -5525,7 +5525,7 @@
     "text_preserved": "hindu"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 326,
     "span_type": "line",
@@ -5542,7 +5542,7 @@
     "text_preserved": "muslim"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 327,
     "span_type": "line",
@@ -5559,7 +5559,7 @@
     "text_preserved": "christians"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 328,
     "span_type": "line",
@@ -5576,7 +5576,7 @@
     "text_preserved": "zoroastrians"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 329,
     "span_type": "line",
@@ -5593,7 +5593,7 @@
     "text_preserved": "sikh"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 330,
     "span_type": "line",
@@ -5610,7 +5610,7 @@
     "text_preserved": "buddhists"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 331,
     "span_type": "line",
@@ -5627,7 +5627,7 @@
     "text_preserved": "jain"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 332,
     "span_type": "line",
@@ -5641,10 +5641,10 @@
     },
     "text_display": "Others (Please specify)",
     "text_clean": "others please specify",
-    "text_preserved": "others please specify"
+    "text_preserved": "others (please specify)"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 333,
     "span_type": "line",
@@ -5658,10 +5658,10 @@
     },
     "text_display": "iv. if Minority communities:",
     "text_clean": "iv if minority communities",
-    "text_preserved": "iv. if minority communities"
+    "text_preserved": "iv. if minority communities:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 334,
     "span_type": "line",
@@ -5678,7 +5678,7 @@
     "text_preserved": "yes"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 335,
     "span_type": "line",
@@ -5695,7 +5695,7 @@
     "text_preserved": "no"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 336,
     "span_type": "line",
@@ -5709,10 +5709,10 @@
     },
     "text_display": "V. Annual household Income : 12,00,000",
     "text_clean": "v annual household income 12 00 000",
-    "text_preserved": "v. annual household income 12 00 000"
+    "text_preserved": "v. annual household income : 12,00,000"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 337,
     "span_type": "line",
@@ -5726,10 +5726,10 @@
     },
     "text_display": "vi. Preference category:",
     "text_clean": "vi preference category",
-    "text_preserved": "vi. preference category"
+    "text_preserved": "vi. preference category:"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 338,
     "span_type": "line",
@@ -5746,7 +5746,7 @@
     "text_preserved": "widow"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 339,
     "span_type": "line",
@@ -5763,7 +5763,7 @@
     "text_preserved": "working"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 340,
     "span_type": "line",
@@ -5780,7 +5780,7 @@
     "text_preserved": "disability"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 341,
     "span_type": "line",
@@ -5794,10 +5794,10 @@
     },
     "text_display": "Others (Please specify)",
     "text_clean": "others please specify",
-    "text_preserved": "others please specify"
+    "text_preserved": "others (please specify)"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 342,
     "span_type": "line",
@@ -5814,7 +5814,7 @@
     "text_preserved": "documents required"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 343,
     "span_type": "line",
@@ -5828,10 +5828,10 @@
     },
     "text_display": "PAN (If not available then Form 60) is a mandatory document which is to be submitted, however it is not a Photo Identity Proof, hence 1 of the below documents should",
     "text_clean": "pan if not available then form 60 is a mandatory document which is to be submitted however it is not a photo identity proof hence 1 of the below documents should",
-    "text_preserved": "pan if not available then form 60 is a mandatory document which is to be submitted however it is not a photo identity proof hence 1 of the below documents should"
+    "text_preserved": "pan (if not available then form 60) is a mandatory document which is to be submitted, however it is not a photo identity proof, hence 1 of the below documents should"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 344,
     "span_type": "line",
@@ -5848,7 +5848,7 @@
     "text_preserved": "be submitted as a photo identity proof."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 345,
     "span_type": "line",
@@ -5862,10 +5862,10 @@
     },
     "text_display": "Photo identity proof*: Valid Passport with expiry date, photograph and signature; the driving license issued by regional transport authority, proof of possession of",
     "text_clean": "photo identity proof valid passport with expiry date photograph and signature the driving license issued by regional transport authority proof of possession of",
-    "text_preserved": "photo identity proof valid passport with expiry date photograph and signature the driving license issued by regional transport authority proof of possession of"
+    "text_preserved": "photo identity proof : valid passport with expiry date, photograph and signature; the driving license issued by regional transport authority, proof of possession of"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 346,
     "span_type": "line",
@@ -5879,10 +5879,10 @@
     },
     "text_display": "Aadhaar number issued by UIDAI, the Voter's Identity Card issued by the Election Commission of India, job card issued by NREGA duly signed by an officer of the",
     "text_clean": "aadhaar number issued by uidai the voter s identity card issued by the election commission of india job card issued by nrega duly signed by an officer of the",
-    "text_preserved": "aadhaar number issued by uidai the voter s identity card issued by the election commission of india job card issued by nrega duly signed by an officer of the"
+    "text_preserved": "aadhaar number issued by uidai, the voter s identity card issued by the election commission of india, job card issued by nrega duly signed by an officer of the"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 347,
     "span_type": "line",
@@ -5899,7 +5899,7 @@
     "text_preserved": "state government and letter issued by the national population register containing details of name and address."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 348,
     "span_type": "line",
@@ -5913,10 +5913,10 @@
     },
     "text_display": "Address Proof*:",
     "text_clean": "address proof",
-    "text_preserved": "address proof"
+    "text_preserved": "address proof :"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 349,
     "span_type": "line",
@@ -5930,10 +5930,10 @@
     },
     "text_display": "Official Valid Document: Valid Passport with expiry date, photograph and signature; the driving license issued by regional transport authority, proof of possession of",
     "text_clean": "official valid document valid passport with expiry date photograph and signature the driving license issued by regional transport authority proof of possession of",
-    "text_preserved": "official valid document valid passport with expiry date photograph and signature the driving license issued by regional transport authority proof of possession of"
+    "text_preserved": "official valid document: valid passport with expiry date, photograph and signature; the driving license issued by regional transport authority, proof of possession of"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 350,
     "span_type": "line",
@@ -5947,10 +5947,10 @@
     },
     "text_display": "Aadhaar number issued by UIDAI, the Voter's Identity Card issued by the Election Commission of India, job card issued by NREGA duly signed by an officer of the",
     "text_clean": "aadhaar number issued by uidai the voter s identity card issued by the election commission of india job card issued by nrega duly signed by an officer of the",
-    "text_preserved": "aadhaar number issued by uidai the voter s identity card issued by the election commission of india job card issued by nrega duly signed by an officer of the"
+    "text_preserved": "aadhaar number issued by uidai, the voter s identity card issued by the election commission of india, job card issued by nrega duly signed by an officer of the"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 351,
     "span_type": "line",
@@ -5967,7 +5967,7 @@
     "text_preserved": "state government and letter issued by the national population register containing details of name and address."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 352,
     "span_type": "line",
@@ -5981,10 +5981,10 @@
     },
     "text_display": "Deemed Official Valid Document*: Utility bill which is not more than two months old of any service provider (electricity, telephone, post-paid mobile phone, piped",
     "text_clean": "deemed official valid document utility bill which is not more than two months old of any service provider electricity telephone post paid mobile phone piped",
-    "text_preserved": "deemed official valid document utility bill which is not more than two months old of any service provider electricity telephone post-paid mobile phone piped"
+    "text_preserved": "deemed official valid document : utility bill which is not more than two months old of any service provider (electricity, telephone, post-paid mobile phone, piped"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 353,
     "span_type": "line",
@@ -5998,10 +5998,10 @@
     },
     "text_display": "gas, water bill); Property or Municipal tax receipt; Pension or family pension payment orders (PPOs) issued to retired employees by Government Departments or",
     "text_clean": "gas water bill property or municipal tax receipt pension or family pension payment orders ppos issued to retired employees by government departments or",
-    "text_preserved": "gas water bill property or municipal tax receipt pension or family pension payment orders ppos issued to retired employees by government departments or"
+    "text_preserved": "gas, water bill); property or municipal tax receipt; pension or family pension payment orders (ppos) issued to retired employees by government departments or"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 354,
     "span_type": "line",
@@ -6015,10 +6015,10 @@
     },
     "text_display": "Public Sector Undertakings, if they contain the address; letter of allotment of accommodation from employer, letter of allotment of accommodation from employer",
     "text_clean": "public sector undertakings if they contain the address letter of allotment of accommodation from employer letter of allotment of accommodation from employer",
-    "text_preserved": "public sector undertakings if they contain the address letter of allotment of accommodation from employer letter of allotment of accommodation from employer"
+    "text_preserved": "public sector undertakings, if they contain the address; letter of allotment of accommodation from employer, letter of allotment of accommodation from employer"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 355,
     "span_type": "line",
@@ -6032,10 +6032,10 @@
     },
     "text_display": "issued by State Government or Central Government Departments, statutory or regulatory bodies, public sector undertakings, scheduled commercial banks, financial",
     "text_clean": "issued by state government or central government departments statutory or regulatory bodies public sector undertakings scheduled commercial banks financial",
-    "text_preserved": "issued by state government or central government departments statutory or regulatory bodies public sector undertakings scheduled commercial banks financial"
+    "text_preserved": "issued by state government or central government departments, statutory or regulatory bodies, public sector undertakings, scheduled commercial banks, financial"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 356,
     "span_type": "line",
@@ -6052,7 +6052,7 @@
     "text_preserved": "institutions and listed companies and leave and license agreements with such employers allotting official accommodation."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 357,
     "span_type": "line",
@@ -6066,10 +6066,10 @@
     },
     "text_display": "Income proof*: Latest salary slip/certificate, Latest Audited Financials, Bank details with last 3 months salary credited.",
     "text_clean": "income proof latest salary slip certificate latest audited financials bank details with last 3 months salary credited",
-    "text_preserved": "income proof latest salary slip/certificate latest audited financials bank details with last 3 months salary credited."
+    "text_preserved": "income proof : latest salary slip/certificate, latest audited financials, bank details with last 3 months salary credited."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 358,
     "span_type": "line",
@@ -6083,10 +6083,10 @@
     },
     "text_display": "Business Proof*: Qualification Certificate/Certificate ofPractice(COP),Sho Act License/MOA & AOA/Sales TaxNat registration I Partnership Deed.",
     "text_clean": "business proof qualification certificate certificate ofpractice cop sho act license moa aoa sales taxnat registration i partnership deed",
-    "text_preserved": "business proof qualification certificate/certificate ofpractice cop sho act license/moa aoa/sales taxnat registration i partnership deed."
+    "text_preserved": "business proof : qualification certificate/certificate ofpractice(cop),sho act license/moa aoa/sales taxnat registration i partnership deed."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 359,
     "span_type": "line",
@@ -6103,7 +6103,7 @@
     "text_preserved": "mandatory document/field."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 360,
     "span_type": "line",
@@ -6120,7 +6120,7 @@
     "text_preserved": "requirement of documents might vary according to the scheme chosen"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 361,
     "span_type": "line",
@@ -6137,7 +6137,7 @@
     "text_preserved": ".. mandatory is ovd is not available. ovd to be submitted within 3 months from disbursal with the updated address."
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 362,
     "span_type": "line",
@@ -6154,7 +6154,7 @@
     "text_preserved": "idfcfirst/pl_app/09112020"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 363,
     "span_type": "line",
@@ -6171,7 +6171,7 @@
     "text_preserved": "address"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 364,
     "span_type": "line",
@@ -6185,10 +6185,10 @@
     },
     "text_display": "IDFC FIRST Bank Limited (formerly IDFC Bank Limited)",
     "text_clean": "idfc first bank limited formerly idfc bank limited",
-    "text_preserved": "idfc first bank limited formerly idfc bank limited"
+    "text_preserved": "idfc first bank limited (formerly idfc bank limited)"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 365,
     "span_type": "line",
@@ -6202,10 +6202,10 @@
     },
     "text_display": "Naman Chambers, C 32, G Block, Bandra Kurla Complex, Bandra (East), Mumbai 400051 Tel: +91 22 7132 5500, Fax: +91 22 2654 0354",
     "text_clean": "naman chambers c 32 g block bandra kurla complex bandra east mumbai 400051 tel 91 22 7132 5500 fax 91 22 2654 0354",
-    "text_preserved": "naman chambers c 32 g block bandra kurla complex bandra east mumbai 400051 tel 91 22 7132 5500 fax 91 22 2654 0354"
+    "text_preserved": "naman chambers, c 32, g block, bandra kurla complex, bandra (east), mumbai 400051 tel: 91 22 7132 5500, fax: 91 22 2654 0354"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 366,
     "span_type": "line",
@@ -6219,10 +6219,10 @@
     },
     "text_display": "Registered Office: KRM Towers, 7th Floor, No. 1, Harrington Road, Chetpet, Chennai 600031. Tel: +91 44 4564 4000 Fax: +91 44 4564 4022",
     "text_clean": "registered office krm towers 7th floor no 1 harrington road chetpet chennai 600031 tel 91 44 4564 4000 fax 91 44 4564 4022",
-    "text_preserved": "registered office krm towers 7th floor no. 1 harrington road chetpet chennai 600031. tel 91 44 4564 4000 fax 91 44 4564 4022"
+    "text_preserved": "registered office: krm towers, 7th floor, no. 1, harrington road, chetpet, chennai 600031. tel: 91 44 4564 4000 fax: 91 44 4564 4022"
   },
   {
-    "doc_id": "860e5521-eb34-4076-822d-8dfe86bd5839",
+    "doc_id": "9acf8608-4da3-4cc1-a779-72bef4976815",
     "page": 3,
     "span_id": 367,
     "span_type": "line",
@@ -6236,6 +6236,6 @@
     },
     "text_display": "CIN: L65110TN2014PLC097792 bank.info@idfcbank.com, www.idfcfirstbank.com",
     "text_clean": "cin l65110tn2014plc097792 bank info idfcbank com www idfcfirstbank com",
-    "text_preserved": "cin l65110tn2014plc097792 bank.info@idfcbank.com www.idfcfirstbank.com"
+    "text_preserved": "cin: l65110tn2014plc097792 bank.info@idfcbank.com, www.idfcfirstbank.com"
   }
 ]

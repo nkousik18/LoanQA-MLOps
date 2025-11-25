@@ -13,24 +13,27 @@ import os
 from pathlib import Path
 
 # ---------------------------------------------------------------------
-# 🌐 AWS SETTINGS
+# AWS SETTINGS
 # ---------------------------------------------------------------------
 BUCKET = os.getenv("S3_BUCKET", "textract-bucket-yash07")
 REGION = os.getenv("AWS_REGION", "us-east-1")
 
 # ---------------------------------------------------------------------
-# 🧭 PROJECT ROOT
+# PROJECT ROOT
 # ---------------------------------------------------------------------
 # Resolve project root dynamically (two levels above this config file)
 PROJECT_ROOT = Path(__file__).resolve().parents[2]  # .../doc-understand
 
 # ---------------------------------------------------------------------
-# 📂 BASE DIRECTORIES
+# BASE DIRECTORIES (batch / corpus pipeline)
 # ---------------------------------------------------------------------
 DATA_ROOT = PROJECT_ROOT / "data" / "aws_extraction_data"
 LOGS_ROOT = PROJECT_ROOT / "logs" / "aws_extraction_logs"
 REPORTS_ROOT = PROJECT_ROOT / "reports" / "aws_extraction_reports"
 
+# ---------------------------------------------------------------------
+# DATA SUBDIRECTORIES (batch / corpus)
+# ---------------------------------------------------------------------
 # ---------------------------------------------------------------------
 # 🧱 DATA SUBDIRECTORIES
 # ---------------------------------------------------------------------
@@ -38,9 +41,23 @@ RAW_DIR = DATA_ROOT / "raw"
 SEGMENTED_DIR = DATA_ROOT / "segmented"
 NORMALIZED_DIR = DATA_ROOT / "normalized"
 SCHEMA_DIR = DATA_ROOT / "schema"
+RAW_TEXT_DIR = DATA_ROOT / "raw_text"
+LAYOUT_DIR = DATA_ROOT / "layout_reconstructed"   # 👈 NEW
 
 # ---------------------------------------------------------------------
-# 🧾 LOG DIRECTORY (auto-switch for Airflow)
+# LIVE PER-SESSION PIPELINE (Doc-Understand UI)
+# ---------------------------------------------------------------------
+# For single-PDF, per-session processing:
+#   data/local_pipeline/sessions/<session_id>/
+#     raw.json
+#     raw_text.txt
+#     segmented.json
+#     normalized.json
+LIVE_PIPELINE_ROOT = PROJECT_ROOT / "data" / "local_pipeline"
+LIVE_SESSIONS_DIR = LIVE_PIPELINE_ROOT / "sessions"
+
+# ---------------------------------------------------------------------
+# LOG DIRECTORY (auto-switch for Airflow)
 # ---------------------------------------------------------------------
 AIRFLOW_HOME = Path("/opt/airflow")
 
@@ -50,31 +67,45 @@ else:
     LOG_DIR = LOGS_ROOT
 
 # ---------------------------------------------------------------------
-# ⚙️ RUNTIME SETTINGS
+# RUNTIME SETTINGS
 # ---------------------------------------------------------------------
 MAX_RETRIES = 5
 RETRY_DELAY = 5  # seconds
 
 # ---------------------------------------------------------------------
-# 🧩 Helper Function
+# Helper Function
 # ---------------------------------------------------------------------
 def ensure_directories() -> None:
     """Create all required directories if they don’t exist."""
-    for d in [RAW_DIR, SEGMENTED_DIR, NORMALIZED_DIR, SCHEMA_DIR, LOG_DIR, REPORTS_ROOT]:
+    for d in [
+        RAW_DIR,
+        SEGMENTED_DIR,
+        NORMALIZED_DIR,
+        SCHEMA_DIR,
+        LOG_DIR,
+        REPORTS_ROOT,
+        RAW_TEXT_DIR,
+        LAYOUT_DIR,        # 👈 NEW
+    ]:
         d.mkdir(parents=True, exist_ok=True)
-
-
 # ---------------------------------------------------------------------
-# 🧾 Path Verification (print all paths clearly)
+# Path Verification (print all paths clearly)
 # ---------------------------------------------------------------------
 def print_all_paths():
-    print("\n📁 ==== CONFIGURATION PATHS ====")
+    print("\n==== CONFIGURATION PATHS ====")
     print(f"Project Root       : {PROJECT_ROOT}")
     print(f"Data Root          : {DATA_ROOT}")
     print(f" ├── Raw Data      : {RAW_DIR}")
     print(f" ├── Segmented     : {SEGMENTED_DIR}")
     print(f" ├── Normalized    : {NORMALIZED_DIR}")
+    print(f" ├── Raw Text      : {RAW_TEXT_DIR}")
     print(f" └── Schema        : {SCHEMA_DIR}")
+    print(f" └── Schema        : {SCHEMA_DIR}")
+    print(f" ├── Raw Text      : {RAW_TEXT_DIR}")
+    print(f" └── Layout Recon  : {LAYOUT_DIR}")
+
+    print(f"Live Pipeline Root : {LIVE_PIPELINE_ROOT}")
+    print(f"Live Sessions Dir  : {LIVE_SESSIONS_DIR}")
     print(f"Logs Root          : {LOGS_ROOT}")
     print(f"Reports Root       : {REPORTS_ROOT}")
     print(f"Active Log Dir     : {LOG_DIR}")
@@ -86,4 +117,4 @@ def print_all_paths():
 if __name__ == "__main__":
     ensure_directories()
     print_all_paths()
-    print("✅ Directory structure verified and paths printed successfully.")
+    print("Directory structure verified and paths printed successfully.")

@@ -1,6 +1,6 @@
 [
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 1,
     "span_type": "line",
@@ -17,7 +17,7 @@
     "text_preserved": "personal loan agreement"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 2,
     "span_type": "line",
@@ -31,10 +31,10 @@
     },
     "text_display": "1. THE PARTIES. This Personal Loan Agreement (\"Agreement\") is made as of this",
     "text_clean": "1 the parties this personal loan agreement agreement is made as of this",
-    "text_preserved": "1. the parties. this personal loan agreement agreement is made as of this"
+    "text_preserved": "1. the parties. this personal loan agreement ( agreement ) is made as of this"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 3,
     "span_type": "line",
@@ -51,7 +51,7 @@
     "text_preserved": "10/08/2025"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 4,
     "span_type": "line",
@@ -65,10 +65,10 @@
     },
     "text_display": "(mm/dd/yyyy), by and between:",
     "text_clean": "mm dd yyyy by and between",
-    "text_preserved": "mm/dd/yyyy by and between"
+    "text_preserved": "(mm/dd/yyyy), by and between:"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 5,
     "span_type": "line",
@@ -82,10 +82,10 @@
     },
     "text_display": "Borrower: yaswanth kumar reddy",
     "text_clean": "borrower yaswanth kumar reddy",
-    "text_preserved": "borrower yaswanth kumar reddy"
+    "text_preserved": "borrower: yaswanth kumar reddy"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 6,
     "span_type": "line",
@@ -99,10 +99,10 @@
     },
     "text_display": ", with a mailing address of yaswanth.gujjula@gmail.com",
     "text_clean": "with a mailing address of yaswanth gujjula gmail com",
-    "text_preserved": "with a mailing address of yaswanth.gujjula@gmail.com"
+    "text_preserved": ", with a mailing address of yaswanth.gujjula@gmail.com"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 7,
     "span_type": "line",
@@ -116,10 +116,10 @@
     },
     "text_display": ",",
     "text_clean": "",
-    "text_preserved": ""
+    "text_preserved": ","
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 8,
     "span_type": "line",
@@ -136,7 +136,7 @@
     "text_preserved": "city of boston"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 9,
     "span_type": "line",
@@ -150,10 +150,10 @@
     },
     "text_display": ", State of MA",
     "text_clean": "state of ma",
-    "text_preserved": "state of ma"
+    "text_preserved": ", state of ma"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 10,
     "span_type": "line",
@@ -167,10 +167,10 @@
     },
     "text_display": "(\"Borrower\"), and",
     "text_clean": "borrower and",
-    "text_preserved": "borrower and"
+    "text_preserved": "( borrower ), and"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 11,
     "span_type": "line",
@@ -184,10 +184,10 @@
     },
     "text_display": "Lender: BANK",
     "text_clean": "lender bank",
-    "text_preserved": "lender bank"
+    "text_preserved": "lender: bank"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 12,
     "span_type": "line",
@@ -201,10 +201,10 @@
     },
     "text_display": ", with a mailing address of bank.x@gmail.com",
     "text_clean": "with a mailing address of bank x gmail com",
-    "text_preserved": "with a mailing address of bank.x@gmail.com"
+    "text_preserved": ", with a mailing address of bank.x@gmail.com"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 13,
     "span_type": "line",
@@ -218,10 +218,10 @@
     },
     "text_display": ",",
     "text_clean": "",
-    "text_preserved": ""
+    "text_preserved": ","
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 14,
     "span_type": "line",
@@ -238,7 +238,7 @@
     "text_preserved": "city of boston"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 15,
     "span_type": "line",
@@ -252,10 +252,10 @@
     },
     "text_display": ", State of MA",
     "text_clean": "state of ma",
-    "text_preserved": "state of ma"
+    "text_preserved": ", state of ma"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 16,
     "span_type": "line",
@@ -269,10 +269,10 @@
     },
     "text_display": "(\"Lender\").",
     "text_clean": "lender",
-    "text_preserved": "lender ."
+    "text_preserved": "( lender )."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 17,
     "span_type": "line",
@@ -289,7 +289,7 @@
     "text_preserved": "2. loan amount. the lender shall loan to borrower the amount of"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 18,
     "span_type": "line",
@@ -306,7 +306,7 @@
     "text_preserved": "ten thousand dollars"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 19,
     "span_type": "line",
@@ -320,10 +320,10 @@
     },
     "text_display": "Dollars ($ 10000",
     "text_clean": "dollars 10000",
-    "text_preserved": "dollars 10000"
+    "text_preserved": "dollars ($ 10000"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 20,
     "span_type": "line",
@@ -337,10 +337,10 @@
     },
     "text_display": ") (\"Loan\").",
     "text_clean": "loan",
-    "text_preserved": "loan ."
+    "text_preserved": ") ( loan )."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 21,
     "span_type": "line",
@@ -357,7 +357,7 @@
     "text_preserved": "3. interest."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 22,
     "span_type": "line",
@@ -374,7 +374,7 @@
     "text_preserved": "the loan will bear interest at a rate of eight"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 23,
     "span_type": "line",
@@ -388,10 +388,10 @@
     },
     "text_display": "Percent (8",
     "text_clean": "percent 8",
-    "text_preserved": "percent 8"
+    "text_preserved": "percent (8"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 24,
     "span_type": "line",
@@ -405,10 +405,10 @@
     },
     "text_display": "%)",
     "text_clean": "",
-    "text_preserved": ""
+    "text_preserved": "%)"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 25,
     "span_type": "line",
@@ -425,7 +425,7 @@
     "text_preserved": "compounded annually. the rate must be equal to or less than the usury rate in the state"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 26,
     "span_type": "line",
@@ -442,7 +442,7 @@
     "text_preserved": "of the borrower."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 27,
     "span_type": "line",
@@ -459,7 +459,7 @@
     "text_preserved": "the loan will not bear interest."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 28,
     "span_type": "line",
@@ -473,10 +473,10 @@
     },
     "text_display": "4. PAYMENT. The Loan shall be due and payable, including the principal and any accrued",
     "text_clean": "4 payment the loan shall be due and payable including the principal and any accrued",
-    "text_preserved": "4. payment. the loan shall be due and payable including the principal and any accrued"
+    "text_preserved": "4. payment. the loan shall be due and payable, including the principal and any accrued"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 29,
     "span_type": "line",
@@ -490,10 +490,10 @@
     },
     "text_display": "interest, in one (1) of the following ways (check one):",
     "text_clean": "interest in one 1 of the following ways check one",
-    "text_preserved": "interest in one 1 of the following ways check one"
+    "text_preserved": "interest, in one (1) of the following ways (check one):"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 30,
     "span_type": "line",
@@ -507,10 +507,10 @@
     },
     "text_display": "- Borrower will make weekly payments of $",
     "text_clean": "borrower will make weekly payments of",
-    "text_preserved": "- borrower will make weekly payments of"
+    "text_preserved": "- borrower will make weekly payments of $"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 31,
     "span_type": "line",
@@ -527,7 +527,7 @@
     "text_preserved": "beginning on"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 32,
     "span_type": "line",
@@ -541,10 +541,10 @@
     },
     "text_display": "(mm/dd/yyyy) and to be paid every",
     "text_clean": "mm dd yyyy and to be paid every",
-    "text_preserved": "mm/dd/yyyy and to be paid every"
+    "text_preserved": "(mm/dd/yyyy) and to be paid every"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 33,
     "span_type": "line",
@@ -558,10 +558,10 @@
     },
     "text_display": "(day of week)",
     "text_clean": "day of week",
-    "text_preserved": "day of week"
+    "text_preserved": "(day of week)"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 34,
     "span_type": "line",
@@ -575,10 +575,10 @@
     },
     "text_display": "until the Loan is paid, ending on",
     "text_clean": "until the loan is paid ending on",
-    "text_preserved": "until the loan is paid ending on"
+    "text_preserved": "until the loan is paid, ending on"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 35,
     "span_type": "line",
@@ -592,10 +592,10 @@
     },
     "text_display": "(mm/dd/yyyy) (\"Term\").",
     "text_clean": "mm dd yyyy term",
-    "text_preserved": "mm/dd/yyyy term ."
+    "text_preserved": "(mm/dd/yyyy) ( term )."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 36,
     "span_type": "line",
@@ -609,10 +609,10 @@
     },
     "text_display": "- Borrower will make monthly payments of $313.36",
     "text_clean": "borrower will make monthly payments of 313 36",
-    "text_preserved": "- borrower will make monthly payments of 313.36"
+    "text_preserved": "- borrower will make monthly payments of $313.36"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 37,
     "span_type": "line",
@@ -629,7 +629,7 @@
     "text_preserved": "beginning on"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 38,
     "span_type": "line",
@@ -646,7 +646,7 @@
     "text_preserved": "11/08/2025"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 39,
     "span_type": "line",
@@ -660,10 +660,10 @@
     },
     "text_display": "(mm/dd/yyyy) and to be paid on the 8th",
     "text_clean": "mm dd yyyy and to be paid on the 8th",
-    "text_preserved": "mm/dd/yyyy and to be paid on the 8th"
+    "text_preserved": "(mm/dd/yyyy) and to be paid on the 8th"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 40,
     "span_type": "line",
@@ -680,7 +680,7 @@
     "text_preserved": "of every month until the"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 41,
     "span_type": "line",
@@ -694,10 +694,10 @@
     },
     "text_display": "Loan is paid, ending on 10/08/2028",
     "text_clean": "loan is paid ending on 10 08 2028",
-    "text_preserved": "loan is paid ending on 10/08/2028"
+    "text_preserved": "loan is paid, ending on 10/08/2028"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 42,
     "span_type": "line",
@@ -711,10 +711,10 @@
     },
     "text_display": "(mm/dd/yyyy) (\"Term\").",
     "text_clean": "mm dd yyyy term",
-    "text_preserved": "mm/dd/yyyy term ."
+    "text_preserved": "(mm/dd/yyyy) ( term )."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 43,
     "span_type": "line",
@@ -728,10 +728,10 @@
     },
     "text_display": "- Borrower will make lump sum payment of $",
     "text_clean": "borrower will make lump sum payment of",
-    "text_preserved": "- borrower will make lump sum payment of"
+    "text_preserved": "- borrower will make lump sum payment of $"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 44,
     "span_type": "line",
@@ -748,7 +748,7 @@
     "text_preserved": "to be paid on"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 45,
     "span_type": "line",
@@ -762,10 +762,10 @@
     },
     "text_display": "(mm/dd/yyyy) (\"Term\").",
     "text_clean": "mm dd yyyy term",
-    "text_preserved": "mm/dd/yyyy term ."
+    "text_preserved": "(mm/dd/yyyy) ( term )."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 46,
     "span_type": "line",
@@ -779,10 +779,10 @@
     },
     "text_display": "- Other:",
     "text_clean": "other",
-    "text_preserved": "- other"
+    "text_preserved": "- other:"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 47,
     "span_type": "line",
@@ -796,10 +796,10 @@
     },
     "text_display": "(\"Term\").",
     "text_clean": "term",
-    "text_preserved": "term ."
+    "text_preserved": "( term )."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 48,
     "span_type": "line",
@@ -816,7 +816,7 @@
     "text_preserved": "all payments made by the borrower are to be applied first to any accrued interest and"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 49,
     "span_type": "line",
@@ -833,7 +833,7 @@
     "text_preserved": "secondly to the principal balance."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 50,
     "span_type": "line",
@@ -850,7 +850,7 @@
     "text_preserved": "5. payment instructions. the borrower shall make payment to the lender in under the"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 51,
     "span_type": "line",
@@ -864,10 +864,10 @@
     },
     "text_display": "following instructions:",
     "text_clean": "following instructions",
-    "text_preserved": "following instructions"
+    "text_preserved": "following instructions:"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 52,
     "span_type": "line",
@@ -881,10 +881,10 @@
     },
     "text_display": "All monthly payments of $313 36 shall be made by electronic transfer (ACH/online payment) to the Lender's designated bank account on or before the 8th day of each month, beginning November 8. 2025",
     "text_clean": "all monthly payments of 313 36 shall be made by electronic transfer ach online payment to the lender s designated bank account on or before the 8th day of each month beginning november 8 2025",
-    "text_preserved": "all monthly payments of 313 36 shall be made by electronic transfer ach/online payment to the lender s designated bank account on or before the 8th day of each month beginning november 8. 2025"
+    "text_preserved": "all monthly payments of $313 36 shall be made by electronic transfer (ach/online payment) to the lender s designated bank account on or before the 8th day of each month, beginning november 8. 2025"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 53,
     "span_type": "line",
@@ -901,7 +901,7 @@
     "text_preserved": "."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 54,
     "span_type": "line",
@@ -918,7 +918,7 @@
     "text_preserved": "6. late fee. if any payment is 10"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 55,
     "span_type": "line",
@@ -932,10 +932,10 @@
     },
     "text_display": "day(s) late, the Lender shall: (check one)",
     "text_clean": "day s late the lender shall check one",
-    "text_preserved": "day s late the lender shall check one"
+    "text_preserved": "day(s) late, the lender shall: (check one)"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 56,
     "span_type": "line",
@@ -949,10 +949,10 @@
     },
     "text_display": "- Charge a late fee of 25$",
     "text_clean": "charge a late fee of 25",
-    "text_preserved": "- charge a late fee of 25"
+    "text_preserved": "- charge a late fee of 25$"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 57,
     "span_type": "line",
@@ -969,7 +969,7 @@
     "text_preserved": "."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 58,
     "span_type": "line",
@@ -986,7 +986,7 @@
     "text_preserved": "- shall not charge a late."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 59,
     "span_type": "line",
@@ -1003,7 +1003,7 @@
     "text_preserved": "esign"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 1,
     "span_id": 60,
     "span_type": "line",
@@ -1020,7 +1020,7 @@
     "text_preserved": "page 1 of 3"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 61,
     "span_type": "line",
@@ -1034,10 +1034,10 @@
     },
     "text_display": "7. SECURITY: The Loan Amount under this Agreement shall be: (check one)",
     "text_clean": "7 security the loan amount under this agreement shall be check one",
-    "text_preserved": "7. security the loan amount under this agreement shall be check one"
+    "text_preserved": "7. security: the loan amount under this agreement shall be: (check one)"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 62,
     "span_type": "line",
@@ -1051,10 +1051,10 @@
     },
     "text_display": "- Secured. There shall be property described as:",
     "text_clean": "secured there shall be property described as",
-    "text_preserved": "- secured. there shall be property described as"
+    "text_preserved": "- secured. there shall be property described as:"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 63,
     "span_type": "line",
@@ -1068,10 +1068,10 @@
     },
     "text_display": "(\"Security\")",
     "text_clean": "security",
-    "text_preserved": "security"
+    "text_preserved": "( security )"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 64,
     "span_type": "line",
@@ -1088,7 +1088,7 @@
     "text_preserved": "that shall transfer to the possession and ownership of the lender immediately pursuant to"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 65,
     "span_type": "line",
@@ -1102,10 +1102,10 @@
     },
     "text_display": "Section 9(a) of this Agreement.",
     "text_clean": "section 9 a of this agreement",
-    "text_preserved": "section 9 a of this agreement."
+    "text_preserved": "section 9(a) of this agreement."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 66,
     "span_type": "line",
@@ -1122,7 +1122,7 @@
     "text_preserved": "- unsecured. there shall be no security provided in this agreement."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 67,
     "span_type": "line",
@@ -1139,7 +1139,7 @@
     "text_preserved": "the security may not be sold or transferred without the lender s consent until the due date."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 68,
     "span_type": "line",
@@ -1153,10 +1153,10 @@
     },
     "text_display": "If Borrower breaches this provision, Lender may declare all sums due under this Agreement",
     "text_clean": "if borrower breaches this provision lender may declare all sums due under this agreement",
-    "text_preserved": "if borrower breaches this provision lender may declare all sums due under this agreement"
+    "text_preserved": "if borrower breaches this provision, lender may declare all sums due under this agreement"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 69,
     "span_type": "line",
@@ -1170,10 +1170,10 @@
     },
     "text_display": "immediately due and payable, unless prohibited by applicable law. The Lender shall have",
     "text_clean": "immediately due and payable unless prohibited by applicable law the lender shall have",
-    "text_preserved": "immediately due and payable unless prohibited by applicable law. the lender shall have"
+    "text_preserved": "immediately due and payable, unless prohibited by applicable law. the lender shall have"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 70,
     "span_type": "line",
@@ -1190,7 +1190,7 @@
     "text_preserved": "the sole-option to accept the security as full-payment for the loan without further liabilities"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 71,
     "span_type": "line",
@@ -1204,10 +1204,10 @@
     },
     "text_display": "or obligations. If the market value of the Security does not exceed the balance of the Loan,",
     "text_clean": "or obligations if the market value of the security does not exceed the balance of the loan",
-    "text_preserved": "or obligations. if the market value of the security does not exceed the balance of the loan"
+    "text_preserved": "or obligations. if the market value of the security does not exceed the balance of the loan,"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 72,
     "span_type": "line",
@@ -1224,7 +1224,7 @@
     "text_preserved": "the borrower shall remain liable for the remaining balance while accruing interest at the"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 73,
     "span_type": "line",
@@ -1241,7 +1241,7 @@
     "text_preserved": "maximum rate allowed by law."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 74,
     "span_type": "line",
@@ -1258,7 +1258,7 @@
     "text_preserved": "8. prepayment. the borrower has the right to pay back the loan in-full or make additional"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 75,
     "span_type": "line",
@@ -1275,7 +1275,7 @@
     "text_preserved": "payments at any time without penalty."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 76,
     "span_type": "line",
@@ -1292,7 +1292,7 @@
     "text_preserved": "9. remedies. no delay or omission on the part of the holder of this agreement in exercising"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 77,
     "span_type": "line",
@@ -1309,7 +1309,7 @@
     "text_preserved": "any right hereunder shall operate as a waiver of any such right or of any other right of such"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 78,
     "span_type": "line",
@@ -1323,10 +1323,10 @@
     },
     "text_display": "holder, nor shall any delay, omission, or waiver on any one occasion be deemed a bar to or",
     "text_clean": "holder nor shall any delay omission or waiver on any one occasion be deemed a bar to or",
-    "text_preserved": "holder nor shall any delay omission or waiver on any one occasion be deemed a bar to or"
+    "text_preserved": "holder, nor shall any delay, omission, or waiver on any one occasion be deemed a bar to or"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 79,
     "span_type": "line",
@@ -1343,7 +1343,7 @@
     "text_preserved": "waiver of the same or any other right on any future occasion. the rights and remedies shall"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 80,
     "span_type": "line",
@@ -1357,10 +1357,10 @@
     },
     "text_display": "be cumulative and may be pursued singly, successively, or together, at the sole discretion of",
     "text_clean": "be cumulative and may be pursued singly successively or together at the sole discretion of",
-    "text_preserved": "be cumulative and may be pursued singly successively or together at the sole discretion of"
+    "text_preserved": "be cumulative and may be pursued singly, successively, or together, at the sole discretion of"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 81,
     "span_type": "line",
@@ -1377,7 +1377,7 @@
     "text_preserved": "the lender."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 82,
     "span_type": "line",
@@ -1391,10 +1391,10 @@
     },
     "text_display": "10. ATTORNEYS FEES. In the event any payment under this Agreement is not paid when due,",
     "text_clean": "10 attorneys fees in the event any payment under this agreement is not paid when due",
-    "text_preserved": "10. attorneys fees. in the event any payment under this agreement is not paid when due"
+    "text_preserved": "10. attorneys fees. in the event any payment under this agreement is not paid when due,"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 83,
     "span_type": "line",
@@ -1408,10 +1408,10 @@
     },
     "text_display": "the Borrower agrees to pay, in addition to the principal and interest hereunder, reasonable",
     "text_clean": "the borrower agrees to pay in addition to the principal and interest hereunder reasonable",
-    "text_preserved": "the borrower agrees to pay in addition to the principal and interest hereunder reasonable"
+    "text_preserved": "the borrower agrees to pay, in addition to the principal and interest hereunder, reasonable"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 84,
     "span_type": "line",
@@ -1428,7 +1428,7 @@
     "text_preserved": "attorneys fees not exceeding a sum equal to the maximum usury rate in the state of"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 85,
     "span_type": "line",
@@ -1442,10 +1442,10 @@
     },
     "text_display": ", of the then outstanding balance owing on the Loan, plus all other",
     "text_clean": "of the then outstanding balance owing on the loan plus all other",
-    "text_preserved": "of the then outstanding balance owing on the loan plus all other"
+    "text_preserved": ", of the then outstanding balance owing on the loan, plus all other"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 86,
     "span_type": "line",
@@ -1462,7 +1462,7 @@
     "text_preserved": "reasonable expenses incurred by lender in exercising any of its rights and remedies upon"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 87,
     "span_type": "line",
@@ -1479,7 +1479,7 @@
     "text_preserved": "default."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 88,
     "span_type": "line",
@@ -1496,7 +1496,7 @@
     "text_preserved": "11. events of acceleration. the occurrence of any of the following shall constitute an"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 89,
     "span_type": "line",
@@ -1510,10 +1510,10 @@
     },
     "text_display": "\"Event of Acceleration\" by the Lender under this Agreement:",
     "text_clean": "event of acceleration by the lender under this agreement",
-    "text_preserved": "event of acceleration by the lender under this agreement"
+    "text_preserved": "event of acceleration by the lender under this agreement:"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 90,
     "span_type": "line",
@@ -1527,10 +1527,10 @@
     },
     "text_display": "a) Borrower's failure to pay any part of the principal or interest as and when due under",
     "text_clean": "a borrower s failure to pay any part of the principal or interest as and when due under",
-    "text_preserved": "a borrower s failure to pay any part of the principal or interest as and when due under"
+    "text_preserved": "a) borrower s failure to pay any part of the principal or interest as and when due under"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 91,
     "span_type": "line",
@@ -1544,10 +1544,10 @@
     },
     "text_display": "this Agreement; or",
     "text_clean": "this agreement or",
-    "text_preserved": "this agreement or"
+    "text_preserved": "this agreement; or"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 92,
     "span_type": "line",
@@ -1561,10 +1561,10 @@
     },
     "text_display": "b) Borrower's becoming insolvent or not paying its debts as they become due.",
     "text_clean": "b borrower s becoming insolvent or not paying its debts as they become due",
-    "text_preserved": "b borrower s becoming insolvent or not paying its debts as they become due."
+    "text_preserved": "b) borrower s becoming insolvent or not paying its debts as they become due."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 93,
     "span_type": "line",
@@ -1578,10 +1578,10 @@
     },
     "text_display": "12. ACCELERATION. Upon the occurrence of an Event of Acceleration under this Agreement,",
     "text_clean": "12 acceleration upon the occurrence of an event of acceleration under this agreement",
-    "text_preserved": "12. acceleration. upon the occurrence of an event of acceleration under this agreement"
+    "text_preserved": "12. acceleration. upon the occurrence of an event of acceleration under this agreement,"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 94,
     "span_type": "line",
@@ -1595,10 +1595,10 @@
     },
     "text_display": "and in addition to any other rights and remedies that Lender's may have, Lender shall have",
     "text_clean": "and in addition to any other rights and remedies that lender s may have lender shall have",
-    "text_preserved": "and in addition to any other rights and remedies that lender s may have lender shall have"
+    "text_preserved": "and in addition to any other rights and remedies that lender s may have, lender shall have"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 95,
     "span_type": "line",
@@ -1612,10 +1612,10 @@
     },
     "text_display": "the right, at its sole and exclusive option, to declare the balance of the Loan AND the",
     "text_clean": "the right at its sole and exclusive option to declare the balance of the loan and the",
-    "text_preserved": "the right at its sole and exclusive option to declare the balance of the loan and the"
+    "text_preserved": "the right, at its sole and exclusive option, to declare the balance of the loan and the"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 96,
     "span_type": "line",
@@ -1632,7 +1632,7 @@
     "text_preserved": "security described in section 7 immediately due and payable."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 97,
     "span_type": "line",
@@ -1649,7 +1649,7 @@
     "text_preserved": "13. subordination the borrower s obligations under this agreement are subordinated to all"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 98,
     "span_type": "line",
@@ -1666,7 +1666,7 @@
     "text_preserved": "indebtedness of the borrower or any unrelated third-party lender to the extent such"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 99,
     "span_type": "line",
@@ -1683,7 +1683,7 @@
     "text_preserved": "indebtedness is outstanding on the date of this agreement and such subordination is"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 100,
     "span_type": "line",
@@ -1700,7 +1700,7 @@
     "text_preserved": "required under this agreement providing for such indebtedness."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 101,
     "span_type": "line",
@@ -1717,7 +1717,7 @@
     "text_preserved": "esign"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 2,
     "span_id": 102,
     "span_type": "line",
@@ -1734,7 +1734,7 @@
     "text_preserved": "page 2 of 3"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 103,
     "span_type": "line",
@@ -1751,7 +1751,7 @@
     "text_preserved": "14. waivers by borrower. no waiver of any provision of this agreement shall be effective"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 104,
     "span_type": "line",
@@ -1768,7 +1768,7 @@
     "text_preserved": "unless made in writing and signed by the waiving party. the failure of any party to require"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 105,
     "span_type": "line",
@@ -1782,10 +1782,10 @@
     },
     "text_display": "the performance of any term or obligation of this Agreement, or the waiver by any party of",
     "text_clean": "the performance of any term or obligation of this agreement or the waiver by any party of",
-    "text_preserved": "the performance of any term or obligation of this agreement or the waiver by any party of"
+    "text_preserved": "the performance of any term or obligation of this agreement, or the waiver by any party of"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 106,
     "span_type": "line",
@@ -1799,10 +1799,10 @@
     },
     "text_display": "any breach of this Agreement, shall not prevent any subsequent enforcement of such term or",
     "text_clean": "any breach of this agreement shall not prevent any subsequent enforcement of such term or",
-    "text_preserved": "any breach of this agreement shall not prevent any subsequent enforcement of such term or"
+    "text_preserved": "any breach of this agreement, shall not prevent any subsequent enforcement of such term or"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 107,
     "span_type": "line",
@@ -1819,7 +1819,7 @@
     "text_preserved": "obligation or be deemed a waiver of any subsequent breach."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 108,
     "span_type": "line",
@@ -1836,7 +1836,7 @@
     "text_preserved": "15. successors. this agreement shall be binding upon and inure to the benefit of the"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 109,
     "span_type": "line",
@@ -1853,7 +1853,7 @@
     "text_preserved": "respective successors and permitted assigns of each of the parties to this agreement."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 110,
     "span_type": "line",
@@ -1867,10 +1867,10 @@
     },
     "text_display": "16. GOVERNING LAW. This Agreement shall be governed by, and construed in accordance",
     "text_clean": "16 governing law this agreement shall be governed by and construed in accordance",
-    "text_preserved": "16. governing law. this agreement shall be governed by and construed in accordance"
+    "text_preserved": "16. governing law. this agreement shall be governed by, and construed in accordance"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 111,
     "span_type": "line",
@@ -1884,10 +1884,10 @@
     },
     "text_display": "with, the laws in the State of",
     "text_clean": "with the laws in the state of",
-    "text_preserved": "with the laws in the state of"
+    "text_preserved": "with, the laws in the state of"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 112,
     "span_type": "line",
@@ -1904,7 +1904,7 @@
     "text_preserved": "."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 113,
     "span_type": "line",
@@ -1921,7 +1921,7 @@
     "text_preserved": "17. additional terms conditions."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 114,
     "span_type": "line",
@@ -1935,10 +1935,10 @@
     },
     "text_display": "IN WITNESS WHEREOF, Borrower has executed this Agreement as of the day and year",
     "text_clean": "in witness whereof borrower has executed this agreement as of the day and year",
-    "text_preserved": "in witness whereof borrower has executed this agreement as of the day and year"
+    "text_preserved": "in witness whereof, borrower has executed this agreement as of the day and year"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 115,
     "span_type": "line",
@@ -1955,7 +1955,7 @@
     "text_preserved": "first above written."
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 116,
     "span_type": "line",
@@ -1969,10 +1969,10 @@
     },
     "text_display": "Borrower Signature:",
     "text_clean": "borrower signature",
-    "text_preserved": "borrower signature"
+    "text_preserved": "borrower signature:"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 117,
     "span_type": "line",
@@ -1986,10 +1986,10 @@
     },
     "text_display": "Date: 10/08/2025",
     "text_clean": "date 10 08 2025",
-    "text_preserved": "date 10/08/2025"
+    "text_preserved": "date: 10/08/2025"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 118,
     "span_type": "line",
@@ -2003,10 +2003,10 @@
     },
     "text_display": "Printed Name:",
     "text_clean": "printed name",
-    "text_preserved": "printed name"
+    "text_preserved": "printed name:"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 119,
     "span_type": "line",
@@ -2023,7 +2023,7 @@
     "text_preserved": "yaswanth kumar reddy"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 120,
     "span_type": "line",
@@ -2037,10 +2037,10 @@
     },
     "text_display": "Lender Signature:",
     "text_clean": "lender signature",
-    "text_preserved": "lender signature"
+    "text_preserved": "lender signature:"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 121,
     "span_type": "line",
@@ -2054,10 +2054,10 @@
     },
     "text_display": "Date: 10/08/2025",
     "text_clean": "date 10 08 2025",
-    "text_preserved": "date 10/08/2025"
+    "text_preserved": "date: 10/08/2025"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 122,
     "span_type": "line",
@@ -2071,10 +2071,10 @@
     },
     "text_display": "Printed Name: BANK",
     "text_clean": "printed name bank",
-    "text_preserved": "printed name bank"
+    "text_preserved": "printed name: bank"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 123,
     "span_type": "line",
@@ -2088,10 +2088,10 @@
     },
     "text_display": "Witness Signature:",
     "text_clean": "witness signature",
-    "text_preserved": "witness signature"
+    "text_preserved": "witness signature:"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 124,
     "span_type": "line",
@@ -2105,10 +2105,10 @@
     },
     "text_display": "Date: 10/08/2025",
     "text_clean": "date 10 08 2025",
-    "text_preserved": "date 10/08/2025"
+    "text_preserved": "date: 10/08/2025"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 125,
     "span_type": "line",
@@ -2122,10 +2122,10 @@
     },
     "text_display": "Printed Name:",
     "text_clean": "printed name",
-    "text_preserved": "printed name"
+    "text_preserved": "printed name:"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 126,
     "span_type": "line",
@@ -2142,7 +2142,7 @@
     "text_preserved": "1"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 127,
     "span_type": "line",
@@ -2156,10 +2156,10 @@
     },
     "text_display": "Witness Signature:",
     "text_clean": "witness signature",
-    "text_preserved": "witness signature"
+    "text_preserved": "witness signature:"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 128,
     "span_type": "line",
@@ -2173,10 +2173,10 @@
     },
     "text_display": "Date: 10/08/2025",
     "text_clean": "date 10 08 2025",
-    "text_preserved": "date 10/08/2025"
+    "text_preserved": "date: 10/08/2025"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 129,
     "span_type": "line",
@@ -2190,10 +2190,10 @@
     },
     "text_display": "Printed Name:",
     "text_clean": "printed name",
-    "text_preserved": "printed name"
+    "text_preserved": "printed name:"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 130,
     "span_type": "line",
@@ -2210,7 +2210,7 @@
     "text_preserved": "2"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 131,
     "span_type": "line",
@@ -2227,7 +2227,7 @@
     "text_preserved": "esign"
   },
   {
-    "doc_id": "37b22945-dc4f-4703-83fe-97e8169a1f72",
+    "doc_id": "03226612-b260-4035-b74b-5aeaff3a98db",
     "page": 3,
     "span_id": 132,
     "span_type": "line",

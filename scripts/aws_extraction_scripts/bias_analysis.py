@@ -30,7 +30,7 @@ if PROJECT_ROOT not in sys.path:
 os.chdir(PROJECT_ROOT)
 
 # ---------------------------------------------------------------------
-# 📦 Imports from centralized config and logger
+#  Imports from centralized config and logger
 # ---------------------------------------------------------------------
 from scripts.aws_extraction_scripts.config import NORMALIZED_DIR, REPORTS_ROOT
 from scripts.aws_extraction_scripts.log_utils import get_logger
@@ -38,7 +38,7 @@ from scripts.aws_extraction_scripts.log_utils import get_logger
 logger = get_logger("bias_analysis")
 
 # ---------------------------------------------------------------------
-# 🧠 Categorization logic
+#  Categorization logic
 # ---------------------------------------------------------------------
 def infer_category(filename: str, text_content: str = "") -> str:
     """
@@ -69,7 +69,7 @@ def infer_category(filename: str, text_content: str = "") -> str:
     return "other"
 
 # ---------------------------------------------------------------------
-# 🧩 Analyze bias + generate reports
+#  Analyze bias + generate reports
 # ---------------------------------------------------------------------
 def analyze_bias():
     normalized_dir = NORMALIZED_DIR
@@ -84,20 +84,20 @@ def analyze_bias():
     for file_path in normalized_dir.glob("*_normalized.json"):
         filename = file_path.name
 
-        # 🚫 Skip dummy/test/sample/trial files
+        #  Skip dummy/test/sample/trial files
         if any(kw in filename.lower() for kw in ["dummy", "test", "sample", "trial"]):
-            logger.info(f"🧪 Skipping test file: {filename}")
+            logger.info(f" Skipping test file: {filename}")
             continue
 
         try:
             with open(file_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
         except Exception as e:
-            logger.warning(f"⚠️ Skipping {filename}: {e}")
+            logger.warning(f" Skipping {filename}: {e}")
             continue
 
         if not isinstance(data, list) or not data:
-            logger.info(f"🚫 Skipping empty or invalid file: {filename}")
+            logger.info(f" Skipping empty or invalid file: {filename}")
             continue
 
         confidences = [entry.get("conf", 0) for entry in data if "conf" in entry]

@@ -3572,3 +3572,343 @@ airflow.exceptions.AirflowException: Task received SIGTERM signal
 2025-11-08 14:27:58 [INFO] [run_textract] ⚡ Skipping pl_agreement.pdf (already processed).
 2025-11-08 14:27:58 [INFO] [run_textract] ⚡ Skipping specimen-agreement.pdf (already processed).
 2025-11-08 14:27:58 [WARNING] [run_textract] ⚠️ No new PDFs to process.
+2025-11-15 22:20:32 [INFO] [run_textract] Skipping docs/Personal-Loan-Agreement.pdf (already processed).
+2025-11-15 22:20:32 [INFO] [run_textract] Skipping docs/form_centre_showcase_personal_loan_form.pdf (already processed).
+2025-11-15 22:20:32 [INFO] [run_textract] Skipping docs/gss-term-loan-agreement-ccd-5.pdf (already processed).
+2025-11-15 22:20:32 [INFO] [run_textract] Skipping docs/home_loan_001.pdf (already processed).
+2025-11-15 22:20:32 [INFO] [run_textract] Skipping docs/loan1.pdf (already processed).
+2025-11-15 22:20:32 [INFO] [run_textract] Skipping docs/loan2.pdf (already processed).
+2025-11-15 22:20:32 [INFO] [run_textract] Skipping docs/loan3.pdf (already processed).
+2025-11-15 22:20:32 [INFO] [run_textract] Skipping docs/pl_agreement.pdf (already processed).
+2025-11-15 22:20:32 [INFO] [run_textract] Skipping docs/specimen-agreement.pdf (already processed).
+2025-11-15 22:20:32 [WARNING] [run_textract] No new PDFs to process.
+2025-11-15 22:22:42 [INFO] [run_textract] Started Textract job for docs/Personal-Loan-Agreement.pdf: f3ac0f721cb8e6a0732484c015684b0f8718e4e04101c01bafe14c14e46e2ff5
+2025-11-15 22:22:42 [INFO] [run_textract] Skipping docs/form_centre_showcase_personal_loan_form.pdf (already processed).
+2025-11-15 22:22:42 [INFO] [run_textract] Skipping docs/gss-term-loan-agreement-ccd-5.pdf (already processed).
+2025-11-15 22:22:42 [INFO] [run_textract] Skipping docs/home_loan_001.pdf (already processed).
+2025-11-15 22:22:42 [INFO] [run_textract] Skipping docs/loan1.pdf (already processed).
+2025-11-15 22:22:42 [INFO] [run_textract] Skipping docs/loan2.pdf (already processed).
+2025-11-15 22:22:42 [INFO] [run_textract] Skipping docs/loan3.pdf (already processed).
+2025-11-15 22:22:42 [INFO] [run_textract] Skipping docs/pl_agreement.pdf (already processed).
+2025-11-15 22:22:42 [INFO] [run_textract] Skipping docs/specimen-agreement.pdf (already processed).
+2025-11-15 22:22:42 [INFO] [run_textract] Waiting for Textract job to finish for docs/Personal-Loan-Agreement.pdf (status=IN_PROGRESS)
+2025-11-15 22:22:47 [INFO] [run_textract] Waiting for Textract job to finish for docs/Personal-Loan-Agreement.pdf (status=IN_PROGRESS)
+2025-11-15 22:22:52 [INFO] [run_textract] Waiting for Textract job to finish for docs/Personal-Loan-Agreement.pdf (status=IN_PROGRESS)
+2025-11-15 22:22:58 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-15 22:22:59 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-15 22:22:59 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-15 22:22:59 [INFO] [run_textract] Saved Textract output: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\Personal-Loan-Agreement_raw.json
+2025-11-15 22:23:04 [INFO] [run_textract] Completed Textract for 1 files.
+2025-11-15 22:33:25 [INFO] [run_textract] Skipping docs/Personal-Loan-Agreement.pdf (already processed).
+2025-11-15 22:33:25 [INFO] [run_textract] Skipping docs/form_centre_showcase_personal_loan_form.pdf (already processed).
+2025-11-15 22:33:25 [INFO] [run_textract] Skipping docs/gss-term-loan-agreement-ccd-5.pdf (already processed).
+2025-11-15 22:33:25 [INFO] [run_textract] Skipping docs/home_loan_001.pdf (already processed).
+2025-11-15 22:33:25 [INFO] [run_textract] Skipping docs/loan1.pdf (already processed).
+2025-11-15 22:33:25 [INFO] [run_textract] Skipping docs/loan2.pdf (already processed).
+2025-11-15 22:33:25 [INFO] [run_textract] Skipping docs/loan3.pdf (already processed).
+2025-11-15 22:33:25 [INFO] [run_textract] Skipping docs/pl_agreement.pdf (already processed).
+2025-11-15 22:33:25 [INFO] [run_textract] Skipping docs/specimen-agreement.pdf (already processed).
+2025-11-15 22:33:25 [WARNING] [run_textract] No new PDFs to process.
+2025-11-15 22:49:00 [INFO] [run_textract] JSON exists but TXT missing for docs/Personal-Loan-Agreement.pdf. Building TXT from existing JSON.
+2025-11-15 22:49:01 [INFO] [run_textract] Wrote TXT file from existing JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw_text\Personal-Loan-Agreement_raw.txt
+2025-11-15 22:49:01 [INFO] [run_textract] JSON exists but TXT missing for docs/form_centre_showcase_personal_loan_form.pdf. Building TXT from existing JSON.
+2025-11-15 22:49:01 [INFO] [run_textract] Wrote TXT file from existing JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw_text\form_centre_showcase_personal_loan_form_raw.txt
+2025-11-15 22:49:01 [INFO] [run_textract] JSON exists but TXT missing for docs/gss-term-loan-agreement-ccd-5.pdf. Building TXT from existing JSON.
+2025-11-15 22:49:01 [INFO] [run_textract] Wrote TXT file from existing JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw_text\gss-term-loan-agreement-ccd-5_raw.txt
+2025-11-15 22:49:01 [INFO] [run_textract] JSON exists but TXT missing for docs/home_loan_001.pdf. Building TXT from existing JSON.
+2025-11-15 22:49:01 [INFO] [run_textract] Wrote TXT file from existing JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw_text\home_loan_001_raw.txt
+2025-11-15 22:49:01 [INFO] [run_textract] JSON exists but TXT missing for docs/loan1.pdf. Building TXT from existing JSON.
+2025-11-15 22:49:01 [INFO] [run_textract] Wrote TXT file from existing JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw_text\loan1_raw.txt
+2025-11-15 22:49:01 [INFO] [run_textract] JSON exists but TXT missing for docs/loan2.pdf. Building TXT from existing JSON.
+2025-11-15 22:49:01 [INFO] [run_textract] Wrote TXT file from existing JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw_text\loan2_raw.txt
+2025-11-15 22:49:01 [INFO] [run_textract] JSON exists but TXT missing for docs/loan3.pdf. Building TXT from existing JSON.
+2025-11-15 22:49:02 [INFO] [run_textract] Wrote TXT file from existing JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw_text\loan3_raw.txt
+2025-11-15 22:49:02 [INFO] [run_textract] JSON exists but TXT missing for docs/pl_agreement.pdf. Building TXT from existing JSON.
+2025-11-15 22:49:02 [INFO] [run_textract] Wrote TXT file from existing JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw_text\pl_agreement_raw.txt
+2025-11-15 22:49:02 [INFO] [run_textract] JSON exists but TXT missing for docs/specimen-agreement.pdf. Building TXT from existing JSON.
+2025-11-15 22:49:02 [INFO] [run_textract] Wrote TXT file from existing JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw_text\specimen-agreement_raw.txt
+2025-11-15 22:49:02 [INFO] [run_textract] No new Textract jobs needed; all PDFs already have JSON/TXT.
+2025-11-16 02:11:01 [INFO] [run_textract] Skipping docs/Personal-Loan-Agreement.pdf (JSON and TXT already exist).
+2025-11-16 02:11:01 [INFO] [run_textract] Skipping docs/form_centre_showcase_personal_loan_form.pdf (JSON and TXT already exist).
+2025-11-16 02:11:01 [INFO] [run_textract] Skipping docs/gss-term-loan-agreement-ccd-5.pdf (JSON and TXT already exist).
+2025-11-16 02:11:01 [INFO] [run_textract] Skipping docs/home_loan_001.pdf (JSON and TXT already exist).
+2025-11-16 02:11:01 [INFO] [run_textract] Skipping docs/loan1.pdf (JSON and TXT already exist).
+2025-11-16 02:11:01 [INFO] [run_textract] Skipping docs/loan2.pdf (JSON and TXT already exist).
+2025-11-16 02:11:01 [INFO] [run_textract] Skipping docs/loan3.pdf (JSON and TXT already exist).
+2025-11-16 02:11:01 [INFO] [run_textract] Skipping docs/pl_agreement.pdf (JSON and TXT already exist).
+2025-11-16 02:11:01 [INFO] [run_textract] Skipping docs/specimen-agreement.pdf (JSON and TXT already exist).
+2025-11-16 02:11:01 [INFO] [run_textract] No new Textract jobs needed; all PDFs already have JSON/TXT.
+2025-11-16 02:53:47 [INFO] [run_textract] Starting Textract for: user_uploads\loan1.pdf
+2025-11-16 02:53:48 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:53:54 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:54:00 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:54:06 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:54:12 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:54:17 [ERROR] [run_textract] Error running Textract for user_uploads\loan1.pdf: Failed to connect to Textract after multiple attempts.
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\run_textract.py", line 164, in run_textract_for_pdf_to_dirs
+    start_response = safe_textract_call(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\run_textract.py", line 97, in safe_textract_call
+    raise Exception("Failed to connect to Textract after multiple attempts.")
+Exception: Failed to connect to Textract after multiple attempts.
+2025-11-16 02:55:13 [INFO] [run_textract] Starting Textract for: user_uploads\loan1.pdf
+2025-11-16 02:55:14 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:55:20 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:55:26 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:55:31 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:55:37 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:55:43 [ERROR] [run_textract] Error running Textract for user_uploads\loan1.pdf: Failed to connect to Textract after multiple attempts.
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\run_textract.py", line 164, in run_textract_for_pdf_to_dirs
+    start_response = safe_textract_call(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\run_textract.py", line 97, in safe_textract_call
+    raise Exception("Failed to connect to Textract after multiple attempts.")
+Exception: Failed to connect to Textract after multiple attempts.
+2025-11-16 02:56:27 [INFO] [run_textract] Starting Textract for: user_uploads\loan1.pdf
+2025-11-16 02:56:28 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:56:33 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:56:39 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:56:45 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:56:51 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 02:56:56 [ERROR] [run_textract] Error running Textract for user_uploads\loan1.pdf: Failed to connect to Textract after multiple attempts.
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\run_textract.py", line 164, in run_textract_for_pdf_to_dirs
+    start_response = safe_textract_call(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\run_textract.py", line 97, in safe_textract_call
+    raise Exception("Failed to connect to Textract after multiple attempts.")
+Exception: Failed to connect to Textract after multiple attempts.
+2025-11-16 03:02:07 [INFO] [run_textract] Starting Textract for: user_uploads\Personal-Loan-Agreement - Copy.pdf
+2025-11-16 03:02:08 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:02:13 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:02:19 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:02:25 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:02:31 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:02:36 [ERROR] [run_textract] Error running Textract for user_uploads\Personal-Loan-Agreement - Copy.pdf: Failed to connect to Textract after multiple attempts.
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\run_textract.py", line 164, in run_textract_for_pdf_to_dirs
+    start_response = safe_textract_call(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\run_textract.py", line 97, in safe_textract_call
+    raise Exception("Failed to connect to Textract after multiple attempts.")
+Exception: Failed to connect to Textract after multiple attempts.
+2025-11-16 03:05:47 [INFO] [run_textract] Starting Textract for: user_uploads\Personal-Loan-Agreement - Copy.pdf
+2025-11-16 03:05:48 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:05:54 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:06:00 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:06:05 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:06:11 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:06:16 [ERROR] [run_textract] Error running Textract for user_uploads\Personal-Loan-Agreement - Copy.pdf: Failed to connect to Textract after multiple attempts.
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\run_textract.py", line 164, in run_textract_for_pdf_to_dirs
+    start_response = safe_textract_call(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\run_textract.py", line 97, in safe_textract_call
+    raise Exception("Failed to connect to Textract after multiple attempts.")
+Exception: Failed to connect to Textract after multiple attempts.
+2025-11-16 03:06:20 [INFO] [run_textract] Starting Textract for: user_uploads\Personal-Loan-Agreement - Copy.pdf
+2025-11-16 03:06:21 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:06:27 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:06:33 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:06:38 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:06:44 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:06:49 [ERROR] [run_textract] Error running Textract for user_uploads\Personal-Loan-Agreement - Copy.pdf: Failed to connect to Textract after multiple attempts.
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\run_textract.py", line 164, in run_textract_for_pdf_to_dirs
+    start_response = safe_textract_call(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\run_textract.py", line 97, in safe_textract_call
+    raise Exception("Failed to connect to Textract after multiple attempts.")
+Exception: Failed to connect to Textract after multiple attempts.
+2025-11-16 03:18:12 [INFO] [run_textract] Starting Textract for: user_uploads\Personal-Loan-Agreement - Copy.pdf
+2025-11-16 03:18:13 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:18:18 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:18:24 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:18:31 [WARNING] [run_textract] Unexpected error, retrying in 5s: An error occurred (InvalidS3ObjectException) when calling the StartDocumentTextDetection operation: Unable to get object metadata from S3. Check object key, region and/or access permissions.
+2025-11-16 03:18:38 [INFO] [run_textract] Skipping docs/Personal-Loan-Agreement.pdf (JSON and TXT already exist).
+2025-11-16 03:18:38 [INFO] [run_textract] Skipping docs/form_centre_showcase_personal_loan_form.pdf (JSON and TXT already exist).
+2025-11-16 03:18:38 [INFO] [run_textract] Skipping docs/gss-term-loan-agreement-ccd-5.pdf (JSON and TXT already exist).
+2025-11-16 03:18:38 [INFO] [run_textract] Skipping docs/home_loan_001.pdf (JSON and TXT already exist).
+2025-11-16 03:18:38 [INFO] [run_textract] Skipping docs/loan1.pdf (JSON and TXT already exist).
+2025-11-16 03:18:38 [INFO] [run_textract] Skipping docs/loan2.pdf (JSON and TXT already exist).
+2025-11-16 03:18:38 [INFO] [run_textract] Skipping docs/loan3.pdf (JSON and TXT already exist).
+2025-11-16 03:18:38 [INFO] [run_textract] Skipping docs/pl_agreement.pdf (JSON and TXT already exist).
+2025-11-16 03:18:38 [INFO] [run_textract] Skipping docs/specimen-agreement.pdf (JSON and TXT already exist).
+2025-11-16 03:18:38 [INFO] [run_textract] No new Textract jobs needed; all PDFs already have JSON/TXT.
+2025-11-16 03:25:08 [INFO] [run_textract] Skipping docs/Personal-Loan-Agreement.pdf (JSON and TXT already exist).
+2025-11-16 03:25:08 [INFO] [run_textract] Skipping docs/form_centre_showcase_personal_loan_form.pdf (JSON and TXT already exist).
+2025-11-16 03:25:08 [INFO] [run_textract] Skipping docs/gss-term-loan-agreement-ccd-5.pdf (JSON and TXT already exist).
+2025-11-16 03:25:08 [INFO] [run_textract] Skipping docs/home_loan_001.pdf (JSON and TXT already exist).
+2025-11-16 03:25:08 [INFO] [run_textract] Skipping docs/loan1.pdf (JSON and TXT already exist).
+2025-11-16 03:25:08 [INFO] [run_textract] Skipping docs/loan2.pdf (JSON and TXT already exist).
+2025-11-16 03:25:08 [INFO] [run_textract] Skipping docs/loan3.pdf (JSON and TXT already exist).
+2025-11-16 03:25:08 [INFO] [run_textract] Skipping docs/pl_agreement.pdf (JSON and TXT already exist).
+2025-11-16 03:25:08 [INFO] [run_textract] Skipping docs/specimen-agreement.pdf (JSON and TXT already exist).
+2025-11-16 03:25:08 [INFO] [run_textract] No new Textract jobs needed; all PDFs already have JSON/TXT.
+2025-11-16 03:25:19 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/Personal-Loan-Agreement - Copy.pdf
+2025-11-16 03:25:20 [INFO] [run_textract] Textract job started: 8fdf4f375f08b97c6d58d1fa101748ca67fa173d36c1edb08d575f47071e542a
+2025-11-16 03:25:20 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 03:25:25 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 03:25:31 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-16 03:25:32 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-16 03:25:32 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-16 03:25:32 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_cb4bb7a4\raw\Personal-Loan-Agreement - Copy_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_cb4bb7a4\raw_text\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)
+2025-11-16 03:28:22 [INFO] [run_textract] Skipping docs/Personal-Loan-Agreement.pdf (JSON and TXT already exist).
+2025-11-16 03:28:22 [INFO] [run_textract] Skipping docs/form_centre_showcase_personal_loan_form.pdf (JSON and TXT already exist).
+2025-11-16 03:28:22 [INFO] [run_textract] Skipping docs/gss-term-loan-agreement-ccd-5.pdf (JSON and TXT already exist).
+2025-11-16 03:28:22 [INFO] [run_textract] Skipping docs/home_loan_001.pdf (JSON and TXT already exist).
+2025-11-16 03:28:22 [INFO] [run_textract] Skipping docs/loan1.pdf (JSON and TXT already exist).
+2025-11-16 03:28:22 [INFO] [run_textract] Skipping docs/loan2.pdf (JSON and TXT already exist).
+2025-11-16 03:28:22 [INFO] [run_textract] Skipping docs/loan3.pdf (JSON and TXT already exist).
+2025-11-16 03:28:22 [INFO] [run_textract] Skipping docs/pl_agreement.pdf (JSON and TXT already exist).
+2025-11-16 03:28:22 [INFO] [run_textract] Skipping docs/specimen-agreement.pdf (JSON and TXT already exist).
+2025-11-16 03:28:22 [INFO] [run_textract] No new Textract jobs needed; all PDFs already have JSON/TXT.
+2025-11-16 03:32:36 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/Personal-Loan-Agreement - Copy.pdf
+2025-11-16 03:32:37 [INFO] [run_textract] Textract job started: fb1c245b7a83e8a82b128a905f7d7ec9d3f5bade38e9bc4aa4f7709f178a91cd
+2025-11-16 03:32:37 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 03:32:42 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 03:32:47 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-16 03:32:49 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-16 03:32:49 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-16 03:32:49 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_baee7e20\raw\Personal-Loan-Agreement - Copy_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_baee7e20\raw_text\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)
+2025-11-16 07:37:31 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/Personal-Loan-Agreement - Copy.pdf
+2025-11-16 07:37:32 [INFO] [run_textract] Textract job started: 0ecfe4cae0c03543f87ef21e272f737843139019c468733c9eeb1eff0911d816
+2025-11-16 07:37:32 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:37:37 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:37:42 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:37:47 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:37:52 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:37:57 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:38:03 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-16 07:38:04 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-16 07:38:04 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-16 07:38:04 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_4221c185\raw\Personal-Loan-Agreement - Copy_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_4221c185\raw_text\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)
+2025-11-16 07:39:22 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/Personal-Loan-Agreement - Copy.pdf
+2025-11-16 07:39:49 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/Personal-Loan-Agreement - Copy.pdf
+2025-11-16 07:39:50 [INFO] [run_textract] Textract job started: a2d4a9b755e4af8722391dca7d57c26e7c5bd7b1f98859c43fabcd0c6548aef8
+2025-11-16 07:39:50 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:39:55 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:40:00 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:40:05 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:40:11 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-16 07:40:12 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-16 07:40:12 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-16 07:40:12 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_89becc6f\raw\Personal-Loan-Agreement - Copy_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_89becc6f\raw_text\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)
+2025-11-16 07:51:27 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/Personal-Loan-Agreement - Copy.pdf
+2025-11-16 07:51:28 [INFO] [run_textract] Textract job started: 17edee3b0b59ae1e9f393ebe2528d472440ae4ed114728819c09d35f720de691
+2025-11-16 07:51:28 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:51:34 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-16 07:51:35 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-16 07:51:35 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-16 07:51:35 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_c363fad0\raw\Personal-Loan-Agreement - Copy_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_c363fad0\raw_text\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)
+2025-11-16 07:52:15 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/Personal-Loan-Agreement - Copy.pdf
+2025-11-16 07:52:16 [INFO] [run_textract] Textract job started: d186a65173de1e2061d57e8fdf72e2ca2e81b893a4298c73633149dfd8624419
+2025-11-16 07:52:16 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:52:24 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/Personal-Loan-Agreement - Copy.pdf
+2025-11-16 07:52:25 [INFO] [run_textract] Textract job started: 717057a90611d761adac43db693512b4ef9aed9c343cdc39eba21526903791d8
+2025-11-16 07:52:25 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 07:52:31 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-16 07:52:32 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-16 07:52:32 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-16 07:52:32 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_85f5b034\raw\Personal-Loan-Agreement - Copy_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_85f5b034\raw_text\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)
+2025-11-16 08:29:34 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/Personal-Loan-Agreement - Copy.pdf
+2025-11-16 08:29:35 [INFO] [run_textract] Textract job started: 0921589f6ecfb2bdd4e29a9ef3b4f71dfd091b256341f086a4c190938d1e35f9
+2025-11-16 08:29:35 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 08:29:42 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-16 08:29:43 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-16 08:29:43 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-16 08:29:44 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_7d45d811\raw\Personal-Loan-Agreement - Copy_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_7d45d811\raw_text\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)
+2025-11-16 08:41:22 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/Personal-Loan-Agreement - Copy.pdf
+2025-11-16 08:41:23 [INFO] [run_textract] Textract job started: bdff716059a879cc8f19dfbdb6155ef6e3a06d573a18a406e29ee97badb349f9
+2025-11-16 08:41:23 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 08:41:28 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 08:41:33 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 08:41:38 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 08:41:43 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/Personal-Loan-Agreement - Copy.pdf (status=IN_PROGRESS)
+2025-11-16 08:41:49 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-16 08:41:50 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-16 08:41:50 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-16 08:41:50 [INFO] [run_textract] Saved Textract JSON: c:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_b98bea3e\raw\Personal-Loan-Agreement - Copy_raw.json and text: c:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_b98bea3e\raw_text\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)
+2025-11-23 15:52:31 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/tmpa6d_plzy.pdf
+2025-11-23 15:52:32 [INFO] [run_textract] Textract job started: bab7cac5159f178fb0c168645011daf77f089b8feca610f08b647dbebe0d070f
+2025-11-23 15:52:32 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmpa6d_plzy.pdf (status=IN_PROGRESS)
+2025-11-23 15:52:39 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-23 15:52:40 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-23 15:52:40 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-23 15:52:40 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_7ea4a86d\raw\tmpa6d_plzy_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_7ea4a86d\raw_text\tmpa6d_plzy_raw.txt (blocks=1134)
+2025-11-23 16:26:03 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/tmpnbioniwk.pdf
+2025-11-23 16:26:05 [INFO] [run_textract] Textract job started: aa909b8e4cb85045d6224982d92aae369cbcd720d6cb24e3c17cee80c9afbd30
+2025-11-23 16:26:05 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmpnbioniwk.pdf (status=IN_PROGRESS)
+2025-11-23 16:26:10 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmpnbioniwk.pdf (status=IN_PROGRESS)
+2025-11-23 16:26:15 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmpnbioniwk.pdf (status=IN_PROGRESS)
+2025-11-23 16:26:20 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmpnbioniwk.pdf (status=IN_PROGRESS)
+2025-11-23 16:26:25 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmpnbioniwk.pdf (status=IN_PROGRESS)
+2025-11-23 16:26:30 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmpnbioniwk.pdf (status=IN_PROGRESS)
+2025-11-23 16:26:35 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmpnbioniwk.pdf (status=IN_PROGRESS)
+2025-11-23 16:26:40 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmpnbioniwk.pdf (status=IN_PROGRESS)
+2025-11-23 16:26:48 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-23 16:26:49 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-23 16:26:49 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-23 16:26:49 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_9d154eda\raw\tmpnbioniwk_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_9d154eda\raw_text\tmpnbioniwk_raw.txt (blocks=1134)
+2025-11-23 22:58:18 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/tmp1gh23nv7.pdf
+2025-11-23 22:58:19 [INFO] [run_textract] Textract job started: ca5fdd5b1a0a6796b40cac25087b3fe0b2e68852cfadf9f3e3f3f36c132c8a40
+2025-11-23 22:58:19 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmp1gh23nv7.pdf (status=IN_PROGRESS)
+2025-11-23 22:58:24 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmp1gh23nv7.pdf (status=IN_PROGRESS)
+2025-11-23 22:58:31 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-23 22:58:32 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-23 22:58:32 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-23 22:58:32 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_f985d8c1\raw\tmp1gh23nv7_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_f985d8c1\raw_text\tmp1gh23nv7_raw.txt (blocks=1134)
+2025-11-24 16:43:17 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/tmphuoe2xy4.pdf
+2025-11-24 16:43:18 [INFO] [run_textract] Textract job started: aa1447773c6d7b4ec77b93964ddbb42333c28db29fd49c60314bd73e21322f57
+2025-11-24 16:43:18 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:43:23 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:43:28 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:43:33 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:43:38 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:43:43 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:43:48 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:43:53 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:43:58 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:44:04 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:44:09 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:44:14 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:44:19 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:44:24 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:44:30 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:44:35 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmphuoe2xy4.pdf (status=IN_PROGRESS)
+2025-11-24 16:44:40 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-24 16:44:41 [INFO] [run_textract] Retrieved page 2 (136 blocks)
+2025-11-24 16:44:41 [INFO] [run_textract] Total blocks retrieved: 1136 across 2 pages
+2025-11-24 16:44:42 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_c729f346\raw\tmphuoe2xy4_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_c729f346\raw_text\tmphuoe2xy4_raw.txt (blocks=1136)
+2025-11-25 11:01:42 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/tmp7d1nnzkb.pdf
+2025-11-25 11:01:45 [INFO] [run_textract] Textract job started: 6155f5570bb468d49e02b5c5649591c1fa922bedf96a64fa8505cea38364508d
+2025-11-25 11:01:45 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmp7d1nnzkb.pdf (status=IN_PROGRESS)
+2025-11-25 11:01:50 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmp7d1nnzkb.pdf (status=IN_PROGRESS)
+2025-11-25 11:01:56 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-25 11:01:58 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-25 11:01:58 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-25 11:01:58 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_c995ad5e\raw\tmp7d1nnzkb_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_c995ad5e\raw_text\tmp7d1nnzkb_raw.txt (blocks=1134)
+2025-11-25 12:38:08 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/tmp_timadju.pdf
+2025-11-25 12:38:11 [INFO] [run_textract] Textract job started: 66924c88cfabaa69bb3ec09949717fbf40b2549ed5c28fea7235c4b4b8c17986
+2025-11-25 12:38:11 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmp_timadju.pdf (status=IN_PROGRESS)
+2025-11-25 12:38:16 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmp_timadju.pdf (status=IN_PROGRESS)
+2025-11-25 12:38:21 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmp_timadju.pdf (status=IN_PROGRESS)
+2025-11-25 12:38:26 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmp_timadju.pdf (status=IN_PROGRESS)
+2025-11-25 12:38:31 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmp_timadju.pdf (status=IN_PROGRESS)
+2025-11-25 12:38:36 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmp_timadju.pdf (status=IN_PROGRESS)
+2025-11-25 12:38:41 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmp_timadju.pdf (status=IN_PROGRESS)
+2025-11-25 12:38:51 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-25 12:38:55 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-25 12:38:55 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-25 12:38:55 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_9ccfa4c5\raw\tmp_timadju_raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_9ccfa4c5\raw_text\tmp_timadju_raw.txt (blocks=1134)
+2025-11-25 13:26:20 [INFO] [run_textract] Starting Textract for S3 key: user_uploads/tmpeffam0f_.pdf
+2025-11-25 13:26:22 [INFO] [run_textract] Textract job started: 3c44cfbd7d54c1ccc8c7f2f17215c26a91dcc7631f4be982ed1372704a1ad710
+2025-11-25 13:26:22 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmpeffam0f_.pdf (status=IN_PROGRESS)
+2025-11-25 13:26:27 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmpeffam0f_.pdf (status=IN_PROGRESS)
+2025-11-25 13:26:32 [INFO] [run_textract] Waiting for Textract job to finish for user_uploads/tmpeffam0f_.pdf (status=IN_PROGRESS)
+2025-11-25 13:26:38 [INFO] [run_textract] Retrieved page 1 (1000 blocks)
+2025-11-25 13:26:39 [INFO] [run_textract] Retrieved page 2 (134 blocks)
+2025-11-25 13:26:39 [INFO] [run_textract] Total blocks retrieved: 1134 across 2 pages
+2025-11-25 13:26:39 [INFO] [run_textract] Saved Textract JSON: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_31e1c79d\raw\tmpeffam0f__raw.json and text: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_31e1c79d\raw_text\tmpeffam0f__raw.txt (blocks=1134)

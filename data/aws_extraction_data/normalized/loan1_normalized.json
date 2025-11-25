@@ -1,6 +1,6 @@
 [
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 1,
     "span_type": "line",
@@ -17,7 +17,7 @@
     "text_preserved": "shinhan bank"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 2,
     "span_type": "line",
@@ -34,7 +34,7 @@
     "text_preserved": "india"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 3,
     "span_type": "line",
@@ -51,7 +51,7 @@
     "text_preserved": "personal loan"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 4,
     "span_type": "line",
@@ -68,7 +68,7 @@
     "text_preserved": "application form"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 5,
     "span_type": "line",
@@ -85,7 +85,7 @@
     "text_preserved": "mumbai branch"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 6,
     "span_type": "line",
@@ -102,7 +102,7 @@
     "text_preserved": "new delhi branch"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 7,
     "span_type": "line",
@@ -119,7 +119,7 @@
     "text_preserved": "kancheepuram branch"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 8,
     "span_type": "line",
@@ -136,7 +136,7 @@
     "text_preserved": "pune branch"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 9,
     "span_type": "line",
@@ -150,10 +150,10 @@
     },
     "text_display": "Unit No 001, Grd Flr, Peninsula Tower 1,",
     "text_clean": "unit no 001 grd flr peninsula tower 1",
-    "text_preserved": "unit no 001 grd flr peninsula tower 1"
+    "text_preserved": "unit no 001, grd flr, peninsula tower 1,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 10,
     "span_type": "line",
@@ -167,10 +167,10 @@
     },
     "text_display": "2nd Et 3rd Floor, D-5,",
     "text_clean": "2nd et 3rd floor d 5",
-    "text_preserved": "2nd et 3rd floor d-5"
+    "text_preserved": "2nd et 3rd floor, d-5,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 11,
     "span_type": "line",
@@ -184,10 +184,10 @@
     },
     "text_display": "Survey No: 69/4A1, B No: 101A,",
     "text_clean": "survey no 69 4a1 b no 101a",
-    "text_preserved": "survey no 69/4a1 b no 101a"
+    "text_preserved": "survey no: 69/4a1, b no: 101a,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 12,
     "span_type": "line",
@@ -201,10 +201,10 @@
     },
     "text_display": "Ground Floor, Red Building",
     "text_clean": "ground floor red building",
-    "text_preserved": "ground floor red building"
+    "text_preserved": "ground floor, red building"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 13,
     "span_type": "line",
@@ -218,10 +218,10 @@
     },
     "text_display": "Peninsula Corporate Park, Ganpatrao Kadam Marg,",
     "text_clean": "peninsula corporate park ganpatrao kadam marg",
-    "text_preserved": "peninsula corporate park ganpatrao kadam marg"
+    "text_preserved": "peninsula corporate park, ganpatrao kadam marg,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 14,
     "span_type": "line",
@@ -235,10 +235,10 @@
     },
     "text_display": "South Extension Part-2, Ring Road,",
     "text_clean": "south extension part 2 ring road",
-    "text_preserved": "south extension part-2 ring road"
+    "text_preserved": "south extension part-2, ring road,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 15,
     "span_type": "line",
@@ -252,10 +252,10 @@
     },
     "text_display": "Bangalore Highway Road,",
     "text_clean": "bangalore highway road",
-    "text_preserved": "bangalore highway road"
+    "text_preserved": "bangalore highway road,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 16,
     "span_type": "line",
@@ -269,10 +269,10 @@
     },
     "text_display": "Plot No 2, Galaxy Society,",
     "text_clean": "plot no 2 galaxy society",
-    "text_preserved": "plot no 2 galaxy society"
+    "text_preserved": "plot no 2, galaxy society,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 17,
     "span_type": "line",
@@ -286,10 +286,10 @@
     },
     "text_display": "Lower Parel, Mumbai 400 013.",
     "text_clean": "lower parel mumbai 400 013",
-    "text_preserved": "lower parel mumbai 400 013."
+    "text_preserved": "lower parel, mumbai 400 013."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 18,
     "span_type": "line",
@@ -306,7 +306,7 @@
     "text_preserved": "new delhi - 110049"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 19,
     "span_type": "line",
@@ -320,10 +320,10 @@
     },
     "text_display": "Thandalam Village, Sriperumbadur Taluk",
     "text_clean": "thandalam village sriperumbadur taluk",
-    "text_preserved": "thandalam village sriperumbadur taluk"
+    "text_preserved": "thandalam village, sriperumbadur taluk"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 20,
     "span_type": "line",
@@ -337,10 +337,10 @@
     },
     "text_display": "Boat Club Road, Pune - 411001",
     "text_clean": "boat club road pune 411001",
-    "text_preserved": "boat club road pune - 411001"
+    "text_preserved": "boat club road, pune - 411001"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 21,
     "span_type": "line",
@@ -354,10 +354,10 @@
     },
     "text_display": "Tel: 022 6199 2000",
     "text_clean": "tel 022 6199 2000",
-    "text_preserved": "tel 022 6199 2000"
+    "text_preserved": "tel: 022 6199 2000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 22,
     "span_type": "line",
@@ -371,10 +371,10 @@
     },
     "text_display": "Tel: 011 45004800",
     "text_clean": "tel 011 45004800",
-    "text_preserved": "tel 011 45004800"
+    "text_preserved": "tel: 011 45004800"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 23,
     "span_type": "line",
@@ -388,10 +388,10 @@
     },
     "text_display": "Kancheepuram, Dist - 602105",
     "text_clean": "kancheepuram dist 602105",
-    "text_preserved": "kancheepuram dist - 602105"
+    "text_preserved": "kancheepuram, dist - 602105"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 24,
     "span_type": "line",
@@ -405,10 +405,10 @@
     },
     "text_display": "Maharashtra, India",
     "text_clean": "maharashtra india",
-    "text_preserved": "maharashtra india"
+    "text_preserved": "maharashtra, india"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 25,
     "span_type": "line",
@@ -422,10 +422,10 @@
     },
     "text_display": "Fax: 022 6199 2010",
     "text_clean": "fax 022 6199 2010",
-    "text_preserved": "fax 022 6199 2010"
+    "text_preserved": "fax: 022 6199 2010"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 26,
     "span_type": "line",
@@ -439,10 +439,10 @@
     },
     "text_display": "Fax: 011 45004855",
     "text_clean": "fax 011 45004855",
-    "text_preserved": "fax 011 45004855"
+    "text_preserved": "fax: 011 45004855"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 27,
     "span_type": "line",
@@ -456,10 +456,10 @@
     },
     "text_display": "Tel: 044 6714 4400 / Fax: 044 6714 4444",
     "text_clean": "tel 044 6714 4400 fax 044 6714 4444",
-    "text_preserved": "tel 044 6714 4400 / fax 044 6714 4444"
+    "text_preserved": "tel: 044 6714 4400 / fax: 044 6714 4444"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 28,
     "span_type": "line",
@@ -473,10 +473,10 @@
     },
     "text_display": "Tel: 020 6704 0800 / Fax: 020 6704 0810",
     "text_clean": "tel 020 6704 0800 fax 020 6704 0810",
-    "text_preserved": "tel 020 6704 0800 / fax 020 6704 0810"
+    "text_preserved": "tel: 020 6704 0800 / fax: 020 6704 0810"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 29,
     "span_type": "line",
@@ -490,10 +490,10 @@
     },
     "text_display": "E-mail: operations.mum@shinhan.com",
     "text_clean": "e mail operations mum shinhan com",
-    "text_preserved": "e-mail operations.mum@shinhan.com"
+    "text_preserved": "e-mail: operations.mum@shinhan.com"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 30,
     "span_type": "line",
@@ -507,10 +507,10 @@
     },
     "text_display": "E-mail: operations.del@shinhan.com",
     "text_clean": "e mail operations del shinhan com",
-    "text_preserved": "e-mail operations.del@shinhan.com"
+    "text_preserved": "e-mail: operations.del@shinhan.com"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 31,
     "span_type": "line",
@@ -524,10 +524,10 @@
     },
     "text_display": "E-mail: operations.vel@shinhan.co",
     "text_clean": "e mail operations vel shinhan co",
-    "text_preserved": "e-mail operations.vel@shinhan.co"
+    "text_preserved": "e-mail: operations.vel@shinhan.co"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 32,
     "span_type": "line",
@@ -541,10 +541,10 @@
     },
     "text_display": "E-mail: operations.pune@shinhan.com",
     "text_clean": "e mail operations pune shinhan com",
-    "text_preserved": "e-mail operations.pune@shinhan.com"
+    "text_preserved": "e-mail: operations.pune@shinhan.com"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 33,
     "span_type": "line",
@@ -561,7 +561,7 @@
     "text_preserved": "ahmedabad branch"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 34,
     "span_type": "line",
@@ -578,7 +578,7 @@
     "text_preserved": "ranga reddy branch"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 35,
     "span_type": "line",
@@ -592,10 +592,10 @@
     },
     "text_display": "Shapath V, First Floor, Unit 2 and 3,",
     "text_clean": "shapath v first floor unit 2 and 3",
-    "text_preserved": "shapath v first floor unit 2 and 3"
+    "text_preserved": "shapath v, first floor, unit 2 and 3,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 36,
     "span_type": "line",
@@ -609,10 +609,10 @@
     },
     "text_display": "SLN Terminus, 1st Floor, Survey No. 133,",
     "text_clean": "sln terminus 1st floor survey no 133",
-    "text_preserved": "sln terminus 1st floor survey no. 133"
+    "text_preserved": "sln terminus, 1st floor, survey no. 133,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 37,
     "span_type": "line",
@@ -626,10 +626,10 @@
     },
     "text_display": "Beside Crowne Plaza Hotel,",
     "text_clean": "beside crowne plaza hotel",
-    "text_preserved": "beside crowne plaza hotel"
+    "text_preserved": "beside crowne plaza hotel,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 38,
     "span_type": "line",
@@ -643,10 +643,10 @@
     },
     "text_display": "Gachibowli, Serilingampally Mandal,",
     "text_clean": "gachibowli serilingampally mandal",
-    "text_preserved": "gachibowli serilingampally mandal"
+    "text_preserved": "gachibowli, serilingampally mandal,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 39,
     "span_type": "line",
@@ -660,10 +660,10 @@
     },
     "text_display": "Opp Karnavati Club, SG Road,",
     "text_clean": "opp karnavati club sg road",
-    "text_preserved": "opp karnavati club sg road"
+    "text_preserved": "opp karnavati club, sg road,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 40,
     "span_type": "line",
@@ -677,10 +677,10 @@
     },
     "text_display": "Ranga Reddy District,",
     "text_clean": "ranga reddy district",
-    "text_preserved": "ranga reddy district"
+    "text_preserved": "ranga reddy district,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 41,
     "span_type": "line",
@@ -697,7 +697,7 @@
     "text_preserved": "ahmedabad - 380015."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 42,
     "span_type": "line",
@@ -714,7 +714,7 @@
     "text_preserved": "telangana- 500 032."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 43,
     "span_type": "line",
@@ -728,10 +728,10 @@
     },
     "text_display": "Tel.: 079-7117 0400 Fax: 079-7117 0444",
     "text_clean": "tel 079 7117 0400 fax 079 7117 0444",
-    "text_preserved": "tel. 079-7117 0400 fax 079-7117 0444"
+    "text_preserved": "tel.: 079-7117 0400 fax: 079-7117 0444"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 44,
     "span_type": "line",
@@ -745,10 +745,10 @@
     },
     "text_display": "Tel: 040 6635 2000 / Fax: 040 6635 2020",
     "text_clean": "tel 040 6635 2000 fax 040 6635 2020",
-    "text_preserved": "tel 040 6635 2000 / fax 040 6635 2020"
+    "text_preserved": "tel: 040 6635 2000 / fax: 040 6635 2020"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 45,
     "span_type": "line",
@@ -762,10 +762,10 @@
     },
     "text_display": "E-mail: operation.ahd@shinhan.com",
     "text_clean": "e mail operation ahd shinhan com",
-    "text_preserved": "e-mail operation.ahd@shinhan.com"
+    "text_preserved": "e-mail: operation.ahd@shinhan.com"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 46,
     "span_type": "line",
@@ -779,10 +779,10 @@
     },
     "text_display": "E-mail: operations.rr@shinhan.com",
     "text_clean": "e mail operations rr shinhan com",
-    "text_preserved": "e-mail operations.rr@shinhan.com"
+    "text_preserved": "e-mail: operations.rr@shinhan.com"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 1,
     "span_id": 47,
     "span_type": "line",
@@ -796,10 +796,10 @@
     },
     "text_display": "Website https://in.shinanglobal.c",
     "text_clean": "website https in shinanglobal c",
-    "text_preserved": "website https //in.shinanglobal.c"
+    "text_preserved": "website https://in.shinanglobal.c"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 48,
     "span_type": "line",
@@ -816,7 +816,7 @@
     "text_preserved": "shinhan bank"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 49,
     "span_type": "line",
@@ -833,7 +833,7 @@
     "text_preserved": "personal loan application form"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 50,
     "span_type": "line",
@@ -847,10 +847,10 @@
     },
     "text_display": "Date: 1 15/02/200",
     "text_clean": "date 1 15 02 200",
-    "text_preserved": "date 1 15/02/200"
+    "text_preserved": "date: 1 15/02/200"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 51,
     "span_type": "line",
@@ -864,10 +864,10 @@
     },
     "text_display": "To,",
     "text_clean": "to",
-    "text_preserved": "to"
+    "text_preserved": "to,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 52,
     "span_type": "line",
@@ -881,10 +881,10 @@
     },
     "text_display": "Shinhan Bank,",
     "text_clean": "shinhan bank",
-    "text_preserved": "shinhan bank"
+    "text_preserved": "shinhan bank,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 53,
     "span_type": "line",
@@ -901,7 +901,7 @@
     "text_preserved": "indiranage branch"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 54,
     "span_type": "line",
@@ -915,10 +915,10 @@
     },
     "text_display": "I/ We request you to grant me/us a Personal Loan of Rs 7,50,000",
     "text_clean": "i we request you to grant me us a personal loan of rs 7 50 000",
-    "text_preserved": "i/ we request you to grant me/us a personal loan of rs 7 50 000"
+    "text_preserved": "i/ we request you to grant me/us a personal loan of rs 7,50,000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 55,
     "span_type": "line",
@@ -932,10 +932,10 @@
     },
     "text_display": "(Rupees SeVEN LAKH FIFTY THOUSAND ONLY",
     "text_clean": "rupees seven lakh fifty thousand only",
-    "text_preserved": "rupees seven lakh fifty thousand only"
+    "text_preserved": "(rupees seven lakh fifty thousand only"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 56,
     "span_type": "line",
@@ -949,10 +949,10 @@
     },
     "text_display": ")",
     "text_clean": "",
-    "text_preserved": ""
+    "text_preserved": ")"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 57,
     "span_type": "line",
@@ -966,10 +966,10 @@
     },
     "text_display": "The details on the type of loan are given below:",
     "text_clean": "the details on the type of loan are given below",
-    "text_preserved": "the details on the type of loan are given below"
+    "text_preserved": "the details on the type of loan are given below:"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 58,
     "span_type": "line",
@@ -983,10 +983,10 @@
     },
     "text_display": "Loan Type:",
     "text_clean": "loan type",
-    "text_preserved": "loan type"
+    "text_preserved": "loan type:"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 59,
     "span_type": "line",
@@ -1003,7 +1003,7 @@
     "text_preserved": "prime personal loan"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 60,
     "span_type": "line",
@@ -1020,7 +1020,7 @@
     "text_preserved": "general personal loan"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 61,
     "span_type": "line",
@@ -1037,7 +1037,7 @@
     "text_preserved": "staff personal loan"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 62,
     "span_type": "line",
@@ -1054,7 +1054,7 @@
     "text_preserved": "the information required to process the application is given below. please read the instructions"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 63,
     "span_type": "line",
@@ -1071,7 +1071,7 @@
     "text_preserved": "carefully prior to submitting the information."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 64,
     "span_type": "line",
@@ -1088,7 +1088,7 @@
     "text_preserved": "particulars"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 65,
     "span_type": "line",
@@ -1105,7 +1105,7 @@
     "text_preserved": "applicant"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 66,
     "span_type": "line",
@@ -1122,7 +1122,7 @@
     "text_preserved": "co-applicant / guarantor"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 67,
     "span_type": "line",
@@ -1139,7 +1139,7 @@
     "text_preserved": "please write in block letters"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 68,
     "span_type": "line",
@@ -1153,10 +1153,10 @@
     },
     "text_display": "Please paste passport size, latest,",
     "text_clean": "please paste passport size latest",
-    "text_preserved": "please paste passport size latest"
+    "text_preserved": "please paste passport size, latest,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 69,
     "span_type": "line",
@@ -1170,10 +1170,10 @@
     },
     "text_display": "Please paste passport size, latest,",
     "text_clean": "please paste passport size latest",
-    "text_preserved": "please paste passport size latest"
+    "text_preserved": "please paste passport size, latest,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 70,
     "span_type": "line",
@@ -1190,7 +1190,7 @@
     "text_preserved": "color photo and sign across"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 71,
     "span_type": "line",
@@ -1207,7 +1207,7 @@
     "text_preserved": "color photo and sign across"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 72,
     "span_type": "line",
@@ -1224,7 +1224,7 @@
     "text_preserved": "all details / information must be"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 73,
     "span_type": "line",
@@ -1241,7 +1241,7 @@
     "text_preserved": "filled in. if not applicable write na"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 74,
     "span_type": "line",
@@ -1258,7 +1258,7 @@
     "text_preserved": "in order to process your"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 75,
     "span_type": "line",
@@ -1272,10 +1272,10 @@
     },
     "text_display": "application, ensure to submit all",
     "text_clean": "application ensure to submit all",
-    "text_preserved": "application ensure to submit all"
+    "text_preserved": "application, ensure to submit all"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 76,
     "span_type": "line",
@@ -1292,7 +1292,7 @@
     "text_preserved": "applicant"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 77,
     "span_type": "line",
@@ -1309,7 +1309,7 @@
     "text_preserved": "co-applicant"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 78,
     "span_type": "line",
@@ -1326,7 +1326,7 @@
     "text_preserved": "the information along with the"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 79,
     "span_type": "line",
@@ -1343,7 +1343,7 @@
     "text_preserved": "photo"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 80,
     "span_type": "line",
@@ -1360,7 +1360,7 @@
     "text_preserved": "photo"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 81,
     "span_type": "line",
@@ -1377,7 +1377,7 @@
     "text_preserved": "required supporting documents."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 82,
     "span_type": "line",
@@ -1394,7 +1394,7 @@
     "text_preserved": "please keep one set of photocopy"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 83,
     "span_type": "line",
@@ -1408,10 +1408,10 @@
     },
     "text_display": "of the documents (including",
     "text_clean": "of the documents including",
-    "text_preserved": "of the documents including"
+    "text_preserved": "of the documents (including"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 84,
     "span_type": "line",
@@ -1425,10 +1425,10 @@
     },
     "text_display": "application form) before",
     "text_clean": "application form before",
-    "text_preserved": "application form before"
+    "text_preserved": "application form) before"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 85,
     "span_type": "line",
@@ -1445,7 +1445,7 @@
     "text_preserved": "submitting to shinhan bank."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 86,
     "span_type": "line",
@@ -1462,7 +1462,7 @@
     "text_preserved": "shinhan bank reserves the right to"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 87,
     "span_type": "line",
@@ -1479,7 +1479,7 @@
     "text_preserved": "guarantor"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 88,
     "span_type": "line",
@@ -1496,7 +1496,7 @@
     "text_preserved": "reject the application form after"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 89,
     "span_type": "line",
@@ -1513,7 +1513,7 @@
     "text_preserved": "photo"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 2,
     "span_id": 90,
     "span_type": "line",
@@ -1530,7 +1530,7 @@
     "text_preserved": "assigning reason in writing."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 91,
     "span_type": "line",
@@ -1547,7 +1547,7 @@
     "text_preserved": "shinhan bank"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 92,
     "span_type": "line",
@@ -1564,7 +1564,7 @@
     "text_preserved": "part i personal and employment details"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 93,
     "span_type": "line",
@@ -1581,7 +1581,7 @@
     "text_preserved": "for bank"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 94,
     "span_type": "line",
@@ -1598,7 +1598,7 @@
     "text_preserved": "use only"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 95,
     "span_type": "line",
@@ -1615,7 +1615,7 @@
     "text_preserved": "for existing customers"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 96,
     "span_type": "line",
@@ -1632,7 +1632,7 @@
     "text_preserved": "applicant cif no. 12345"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 97,
     "span_type": "line",
@@ -1649,7 +1649,7 @@
     "text_preserved": "co. applicant cif no. 11223456"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 98,
     "span_type": "line",
@@ -1666,7 +1666,7 @@
     "text_preserved": "particulars"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 99,
     "span_type": "line",
@@ -1683,7 +1683,7 @@
     "text_preserved": "applicant"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 100,
     "span_type": "line",
@@ -1700,7 +1700,7 @@
     "text_preserved": "co-applicant/ guarantor"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 101,
     "span_type": "line",
@@ -1717,7 +1717,7 @@
     "text_preserved": "title"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 102,
     "span_type": "line",
@@ -1734,7 +1734,7 @@
     "text_preserved": "mr."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 103,
     "span_type": "line",
@@ -1751,7 +1751,7 @@
     "text_preserved": "ms."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 104,
     "span_type": "line",
@@ -1768,7 +1768,7 @@
     "text_preserved": "m/s."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 105,
     "span_type": "line",
@@ -1785,7 +1785,7 @@
     "text_preserved": "others"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 106,
     "span_type": "line",
@@ -1802,7 +1802,7 @@
     "text_preserved": "mr."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 107,
     "span_type": "line",
@@ -1819,7 +1819,7 @@
     "text_preserved": ""
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 108,
     "span_type": "line",
@@ -1836,7 +1836,7 @@
     "text_preserved": "ms."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 109,
     "span_type": "line",
@@ -1853,7 +1853,7 @@
     "text_preserved": "m/s."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 110,
     "span_type": "line",
@@ -1870,7 +1870,7 @@
     "text_preserved": "others"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 111,
     "span_type": "line",
@@ -1887,7 +1887,7 @@
     "text_preserved": "first name"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 112,
     "span_type": "line",
@@ -1904,7 +1904,7 @@
     "text_preserved": "arjun"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 113,
     "span_type": "line",
@@ -1921,7 +1921,7 @@
     "text_preserved": "jagan"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 114,
     "span_type": "line",
@@ -1938,7 +1938,7 @@
     "text_preserved": "middle name"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 115,
     "span_type": "line",
@@ -1955,7 +1955,7 @@
     "text_preserved": "ramesh"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 116,
     "span_type": "line",
@@ -1972,7 +1972,7 @@
     "text_preserved": "last name"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 117,
     "span_type": "line",
@@ -1989,7 +1989,7 @@
     "text_preserved": "iyer"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 118,
     "span_type": "line",
@@ -2006,7 +2006,7 @@
     "text_preserved": "reddy"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 119,
     "span_type": "line",
@@ -2023,7 +2023,7 @@
     "text_preserved": "date of birth"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 120,
     "span_type": "line",
@@ -2040,7 +2040,7 @@
     "text_preserved": "15 - 04 - 1992"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 121,
     "span_type": "line",
@@ -2057,7 +2057,7 @@
     "text_preserved": "15 - 05 - 1993"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 122,
     "span_type": "line",
@@ -2074,7 +2074,7 @@
     "text_preserved": "gender"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 123,
     "span_type": "line",
@@ -2091,7 +2091,7 @@
     "text_preserved": "male"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 124,
     "span_type": "line",
@@ -2108,7 +2108,7 @@
     "text_preserved": "female"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 125,
     "span_type": "line",
@@ -2125,7 +2125,7 @@
     "text_preserved": "transgender"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 126,
     "span_type": "line",
@@ -2142,7 +2142,7 @@
     "text_preserved": "male"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 127,
     "span_type": "line",
@@ -2159,7 +2159,7 @@
     "text_preserved": "female"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 128,
     "span_type": "line",
@@ -2176,7 +2176,7 @@
     "text_preserved": "transgender"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 129,
     "span_type": "line",
@@ -2193,7 +2193,7 @@
     "text_preserved": "pan card"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 130,
     "span_type": "line",
@@ -2210,7 +2210,7 @@
     "text_preserved": "aabp14589m"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 131,
     "span_type": "line",
@@ -2227,7 +2227,7 @@
     "text_preserved": "pan card"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 132,
     "span_type": "line",
@@ -2244,7 +2244,7 @@
     "text_preserved": "acli234568"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 133,
     "span_type": "line",
@@ -2261,7 +2261,7 @@
     "text_preserved": "aadhar no."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 134,
     "span_type": "line",
@@ -2278,7 +2278,7 @@
     "text_preserved": "67891234567"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 135,
     "span_type": "line",
@@ -2295,7 +2295,7 @@
     "text_preserved": "aadhar no."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 136,
     "span_type": "line",
@@ -2312,7 +2312,7 @@
     "text_preserved": "78912312468"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 137,
     "span_type": "line",
@@ -2329,7 +2329,7 @@
     "text_preserved": "father s/ husband s name"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 138,
     "span_type": "line",
@@ -2346,7 +2346,7 @@
     "text_preserved": "abbavran"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 139,
     "span_type": "line",
@@ -2363,7 +2363,7 @@
     "text_preserved": "kiran"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 140,
     "span_type": "line",
@@ -2380,7 +2380,7 @@
     "text_preserved": "mother s maiden name"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 141,
     "span_type": "line",
@@ -2397,7 +2397,7 @@
     "text_preserved": "roja"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 142,
     "span_type": "line",
@@ -2414,7 +2414,7 @@
     "text_preserved": "marital status"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 143,
     "span_type": "line",
@@ -2431,7 +2431,7 @@
     "text_preserved": ""
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 144,
     "span_type": "line",
@@ -2448,7 +2448,7 @@
     "text_preserved": "single"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 145,
     "span_type": "line",
@@ -2465,7 +2465,7 @@
     "text_preserved": "married"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 146,
     "span_type": "line",
@@ -2482,7 +2482,7 @@
     "text_preserved": "divorced"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 147,
     "span_type": "line",
@@ -2499,7 +2499,7 @@
     "text_preserved": "widow"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 148,
     "span_type": "line",
@@ -2516,7 +2516,7 @@
     "text_preserved": "x"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 149,
     "span_type": "line",
@@ -2533,7 +2533,7 @@
     "text_preserved": "single"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 150,
     "span_type": "line",
@@ -2550,7 +2550,7 @@
     "text_preserved": "married"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 151,
     "span_type": "line",
@@ -2567,7 +2567,7 @@
     "text_preserved": "divorced"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 152,
     "span_type": "line",
@@ -2584,7 +2584,7 @@
     "text_preserved": "widow"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 153,
     "span_type": "line",
@@ -2601,7 +2601,7 @@
     "text_preserved": "nationality"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 154,
     "span_type": "line",
@@ -2618,7 +2618,7 @@
     "text_preserved": "in-india"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 155,
     "span_type": "line",
@@ -2635,7 +2635,7 @@
     "text_preserved": "others"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 156,
     "span_type": "line",
@@ -2652,7 +2652,7 @@
     "text_preserved": "in-india"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 157,
     "span_type": "line",
@@ -2669,7 +2669,7 @@
     "text_preserved": "others"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 158,
     "span_type": "line",
@@ -2686,7 +2686,7 @@
     "text_preserved": "current resident address"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 159,
     "span_type": "line",
@@ -2703,7 +2703,7 @@
     "text_preserved": "srinivas nagar"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 160,
     "span_type": "line",
@@ -2717,10 +2717,10 @@
     },
     "text_display": "9/23, SHIVA STREET,",
     "text_clean": "9 23 shiva street",
-    "text_preserved": "9/23 shiva street"
+    "text_preserved": "9/23, shiva street,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 161,
     "span_type": "line",
@@ -2734,10 +2734,10 @@
     },
     "text_display": "KADAPA, ANDHRAPRAPE",
     "text_clean": "kadapa andhraprape",
-    "text_preserved": "kadapa andhraprape"
+    "text_preserved": "kadapa, andhraprape"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 162,
     "span_type": "line",
@@ -2751,10 +2751,10 @@
     },
     "text_display": "KADAPA,ANDHRAPRAPESH",
     "text_clean": "kadapa andhraprapesh",
-    "text_preserved": "kadapa andhraprapesh"
+    "text_preserved": "kadapa,andhraprapesh"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 163,
     "span_type": "line",
@@ -2768,10 +2768,10 @@
     },
     "text_display": "SH, 516310",
     "text_clean": "sh 516310",
-    "text_preserved": "sh 516310"
+    "text_preserved": "sh, 516310"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 164,
     "span_type": "line",
@@ -2788,7 +2788,7 @@
     "text_preserved": "no of years in current"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 165,
     "span_type": "line",
@@ -2805,7 +2805,7 @@
     "text_preserved": "resident address"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 166,
     "span_type": "line",
@@ -2822,7 +2822,7 @@
     "text_preserved": "05"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 167,
     "span_type": "line",
@@ -2839,7 +2839,7 @@
     "text_preserved": "12"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 168,
     "span_type": "line",
@@ -2856,7 +2856,7 @@
     "text_preserved": "permanent resident address"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 169,
     "span_type": "line",
@@ -2870,10 +2870,10 @@
     },
     "text_display": "108 SCHOOL ST,",
     "text_clean": "108 school st",
-    "text_preserved": "108 school st"
+    "text_preserved": "108 school st,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 170,
     "span_type": "line",
@@ -2890,7 +2890,7 @@
     "text_preserved": "108 mansion hous"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 171,
     "span_type": "line",
@@ -2904,10 +2904,10 @@
     },
     "text_display": "BOSTON, MA, 02119",
     "text_clean": "boston ma 02119",
-    "text_preserved": "boston ma 02119"
+    "text_preserved": "boston, ma, 02119"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 172,
     "span_type": "line",
@@ -2924,7 +2924,7 @@
     "text_preserved": "address for communication"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 173,
     "span_type": "line",
@@ -2941,7 +2941,7 @@
     "text_preserved": "same as current"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 174,
     "span_type": "line",
@@ -2958,7 +2958,7 @@
     "text_preserved": "same as current"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 175,
     "span_type": "line",
@@ -2975,7 +2975,7 @@
     "text_preserved": "address"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 176,
     "span_type": "line",
@@ -2992,7 +2992,7 @@
     "text_preserved": "appress"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 177,
     "span_type": "line",
@@ -3009,7 +3009,7 @@
     "text_preserved": "phone number"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 178,
     "span_type": "line",
@@ -3026,7 +3026,7 @@
     "text_preserved": "1 9515176747"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 179,
     "span_type": "line",
@@ -3043,7 +3043,7 @@
     "text_preserved": "2 8573512102"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 180,
     "span_type": "line",
@@ -3060,7 +3060,7 @@
     "text_preserved": "email id"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 181,
     "span_type": "line",
@@ -3077,7 +3077,7 @@
     "text_preserved": "guji.2@gmail.com"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 182,
     "span_type": "line",
@@ -3094,7 +3094,7 @@
     "text_preserved": "ram.pu@gmail.com"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 183,
     "span_type": "line",
@@ -3111,7 +3111,7 @@
     "text_preserved": "educational qualification"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 184,
     "span_type": "line",
@@ -3128,7 +3128,7 @@
     "text_preserved": "intermediate"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 185,
     "span_type": "line",
@@ -3145,7 +3145,7 @@
     "text_preserved": "degree"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 186,
     "span_type": "line",
@@ -3162,7 +3162,7 @@
     "text_preserved": "no of dependent"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 187,
     "span_type": "line",
@@ -3179,7 +3179,7 @@
     "text_preserved": "children"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 188,
     "span_type": "line",
@@ -3196,7 +3196,7 @@
     "text_preserved": "others"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 189,
     "span_type": "line",
@@ -3213,7 +3213,7 @@
     "text_preserved": "children"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 190,
     "span_type": "line",
@@ -3230,7 +3230,7 @@
     "text_preserved": "others"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 191,
     "span_type": "line",
@@ -3247,7 +3247,7 @@
     "text_preserved": "occupation type"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 192,
     "span_type": "line",
@@ -3264,7 +3264,7 @@
     "text_preserved": "s-service"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 193,
     "span_type": "line",
@@ -3281,7 +3281,7 @@
     "text_preserved": "private sector"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 194,
     "span_type": "line",
@@ -3298,7 +3298,7 @@
     "text_preserved": "public sector"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 195,
     "span_type": "line",
@@ -3315,7 +3315,7 @@
     "text_preserved": "s-service"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 196,
     "span_type": "line",
@@ -3329,10 +3329,10 @@
     },
     "text_display": "(",
     "text_clean": "",
-    "text_preserved": ""
+    "text_preserved": "("
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 197,
     "span_type": "line",
@@ -3349,7 +3349,7 @@
     "text_preserved": "private sector"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 198,
     "span_type": "line",
@@ -3366,7 +3366,7 @@
     "text_preserved": "public sector"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 199,
     "span_type": "line",
@@ -3383,7 +3383,7 @@
     "text_preserved": "government sector"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 200,
     "span_type": "line",
@@ -3400,7 +3400,7 @@
     "text_preserved": "government sector"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 201,
     "span_type": "line",
@@ -3417,7 +3417,7 @@
     "text_preserved": "o-others"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 202,
     "span_type": "line",
@@ -3434,7 +3434,7 @@
     "text_preserved": "professional"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 203,
     "span_type": "line",
@@ -3451,7 +3451,7 @@
     "text_preserved": "self employed"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 204,
     "span_type": "line",
@@ -3468,7 +3468,7 @@
     "text_preserved": "o-others"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 205,
     "span_type": "line",
@@ -3485,7 +3485,7 @@
     "text_preserved": "professional"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 206,
     "span_type": "line",
@@ -3502,7 +3502,7 @@
     "text_preserved": "self employed"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 207,
     "span_type": "line",
@@ -3519,7 +3519,7 @@
     "text_preserved": "retired"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 208,
     "span_type": "line",
@@ -3536,7 +3536,7 @@
     "text_preserved": "housewife"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 209,
     "span_type": "line",
@@ -3553,7 +3553,7 @@
     "text_preserved": "retired"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 210,
     "span_type": "line",
@@ -3570,7 +3570,7 @@
     "text_preserved": "housewife"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 211,
     "span_type": "line",
@@ -3587,7 +3587,7 @@
     "text_preserved": "b-business"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 212,
     "span_type": "line",
@@ -3604,7 +3604,7 @@
     "text_preserved": "politician"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 213,
     "span_type": "line",
@@ -3621,7 +3621,7 @@
     "text_preserved": "b-business"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 214,
     "span_type": "line",
@@ -3638,7 +3638,7 @@
     "text_preserved": "politician"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 215,
     "span_type": "line",
@@ -3655,7 +3655,7 @@
     "text_preserved": "x-not categorised"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 216,
     "span_type": "line",
@@ -3672,7 +3672,7 @@
     "text_preserved": "x-not categorised"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 217,
     "span_type": "line",
@@ -3689,7 +3689,7 @@
     "text_preserved": "employer s business"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 218,
     "span_type": "line",
@@ -3703,10 +3703,10 @@
     },
     "text_display": "INFOSYS Ltd, HOSUR",
     "text_clean": "infosys ltd hosur",
-    "text_preserved": "infosys ltd hosur"
+    "text_preserved": "infosys ltd, hosur"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 219,
     "span_type": "line",
@@ -3720,10 +3720,10 @@
     },
     "text_display": "INFOSVS Ltd, HOSUR",
     "text_clean": "infosvs ltd hosur",
-    "text_preserved": "infosvs ltd hosur"
+    "text_preserved": "infosvs ltd, hosur"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 220,
     "span_type": "line",
@@ -3740,7 +3740,7 @@
     "text_preserved": "name and address"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 221,
     "span_type": "line",
@@ -3754,10 +3754,10 @@
     },
     "text_display": "ROAP, BENGALURU, 560100",
     "text_clean": "roap bengaluru 560100",
-    "text_preserved": "roap bengaluru 560100"
+    "text_preserved": "roap, bengaluru, 560100"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 222,
     "span_type": "line",
@@ -3771,10 +3771,10 @@
     },
     "text_display": "ROAP,BENGALURU,560100",
     "text_clean": "roap bengaluru 560100",
-    "text_preserved": "roap bengaluru 560100"
+    "text_preserved": "roap,bengaluru,560100"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 223,
     "span_type": "line",
@@ -3791,7 +3791,7 @@
     "text_preserved": "designation of applicant"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 224,
     "span_type": "line",
@@ -3808,7 +3808,7 @@
     "text_preserved": "analyst"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 225,
     "span_type": "line",
@@ -3825,7 +3825,7 @@
     "text_preserved": "analyst"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 226,
     "span_type": "line",
@@ -3842,7 +3842,7 @@
     "text_preserved": "no of years of completed service/"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 227,
     "span_type": "line",
@@ -3859,7 +3859,7 @@
     "text_preserved": "08"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 228,
     "span_type": "line",
@@ -3876,7 +3876,7 @@
     "text_preserved": "12"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 229,
     "span_type": "line",
@@ -3893,7 +3893,7 @@
     "text_preserved": "total work experience"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 230,
     "span_type": "line",
@@ -3910,7 +3910,7 @@
     "text_preserved": "details of immediate"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 231,
     "span_type": "line",
@@ -3927,7 +3927,7 @@
     "text_preserved": "employment / business details/"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 232,
     "span_type": "line",
@@ -3944,7 +3944,7 @@
     "text_preserved": "profession details"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 233,
     "span_type": "line",
@@ -3958,10 +3958,10 @@
     },
     "text_display": "(Name / Address)",
     "text_clean": "name address",
-    "text_preserved": "name / address"
+    "text_preserved": "(name / address)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 234,
     "span_type": "line",
@@ -3978,7 +3978,7 @@
     "text_preserved": "nature of business/profession"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 235,
     "span_type": "line",
@@ -3995,7 +3995,7 @@
     "text_preserved": "office phone no"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 236,
     "span_type": "line",
@@ -4012,7 +4012,7 @@
     "text_preserved": "08025567891"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 237,
     "span_type": "line",
@@ -4029,7 +4029,7 @@
     "text_preserved": "fax"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 238,
     "span_type": "line",
@@ -4046,7 +4046,7 @@
     "text_preserved": "landline"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 239,
     "span_type": "line",
@@ -4063,7 +4063,7 @@
     "text_preserved": "email"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 3,
     "span_id": 240,
     "span_type": "line",
@@ -4080,7 +4080,7 @@
     "text_preserved": "hr@infosys.com"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 241,
     "span_type": "line",
@@ -4097,7 +4097,7 @@
     "text_preserved": "s"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 242,
     "span_type": "line",
@@ -4114,7 +4114,7 @@
     "text_preserved": "shinhan bank"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 243,
     "span_type": "line",
@@ -4131,7 +4131,7 @@
     "text_preserved": "instructions"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 244,
     "span_type": "line",
@@ -4148,7 +4148,7 @@
     "text_preserved": "1"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 245,
     "span_type": "line",
@@ -4165,7 +4165,7 @@
     "text_preserved": "please write all the information in block letter."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 246,
     "span_type": "line",
@@ -4182,7 +4182,7 @@
     "text_preserved": "2"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 247,
     "span_type": "line",
@@ -4199,7 +4199,7 @@
     "text_preserved": "please do not overwrite nor use correction fluid. please cancel and re-write with due authentication."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 248,
     "span_type": "line",
@@ -4216,7 +4216,7 @@
     "text_preserved": "3"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 249,
     "span_type": "line",
@@ -4233,7 +4233,7 @@
     "text_preserved": "tick or fill in the box wherever applicable."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 250,
     "span_type": "line",
@@ -4250,7 +4250,7 @@
     "text_preserved": "4"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 251,
     "span_type": "line",
@@ -4264,10 +4264,10 @@
     },
     "text_display": "All details must be filled in, please write NA if not applicable.",
     "text_clean": "all details must be filled in please write na if not applicable",
-    "text_preserved": "all details must be filled in please write na if not applicable."
+    "text_preserved": "all details must be filled in, please write na if not applicable."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 252,
     "span_type": "line",
@@ -4284,7 +4284,7 @@
     "text_preserved": "5"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 253,
     "span_type": "line",
@@ -4301,7 +4301,7 @@
     "text_preserved": "please add supplementary application form if there is more than one co-applicant for the loan."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 254,
     "span_type": "line",
@@ -4318,7 +4318,7 @@
     "text_preserved": "6"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 255,
     "span_type": "line",
@@ -4335,7 +4335,7 @@
     "text_preserved": "please ensure that all the documents are self-attested by the applicants."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 256,
     "span_type": "line",
@@ -4352,7 +4352,7 @@
     "text_preserved": "salaried"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 257,
     "span_type": "line",
@@ -4369,7 +4369,7 @@
     "text_preserved": "self employed professional / non professional"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 258,
     "span_type": "line",
@@ -4386,7 +4386,7 @@
     "text_preserved": "duly filled application form with photograph"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 259,
     "span_type": "line",
@@ -4403,7 +4403,7 @@
     "text_preserved": "duly filled application form with photograph"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 260,
     "span_type": "line",
@@ -4417,10 +4417,10 @@
     },
     "text_display": "Age Proof (PAN Card, Passport and Aadhar Card)",
     "text_clean": "age proof pan card passport and aadhar card",
-    "text_preserved": "age proof pan card passport and aadhar card"
+    "text_preserved": "age proof (pan card, passport and aadhar card)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 261,
     "span_type": "line",
@@ -4434,10 +4434,10 @@
     },
     "text_display": "Age Proof (PAN Card, Passport and Aadhar Card)",
     "text_clean": "age proof pan card passport and aadhar card",
-    "text_preserved": "age proof pan card passport and aadhar card"
+    "text_preserved": "age proof (pan card, passport and aadhar card)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 262,
     "span_type": "line",
@@ -4451,10 +4451,10 @@
     },
     "text_display": "Residence Proof Passport, Voter ID Card, Driving Licence, Aadhar Card, Utility Bill",
     "text_clean": "residence proof passport voter id card driving licence aadhar card utility bill",
-    "text_preserved": "residence proof passport voter id card driving licence aadhar card utility bill"
+    "text_preserved": "residence proof passport, voter id card, driving licence, aadhar card, utility bill"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 263,
     "span_type": "line",
@@ -4468,10 +4468,10 @@
     },
     "text_display": "Residence Proof Passport, Voter ID Card, Driving Licence, Aadhar Card, Utility Bill",
     "text_clean": "residence proof passport voter id card driving licence aadhar card utility bill",
-    "text_preserved": "residence proof passport voter id card driving licence aadhar card utility bill"
+    "text_preserved": "residence proof passport, voter id card, driving licence, aadhar card, utility bill"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 264,
     "span_type": "line",
@@ -4485,10 +4485,10 @@
     },
     "text_display": "(Electricity Bill, Telephone Bill-Max-3 Months) Leave & Licence Agreement.",
     "text_clean": "electricity bill telephone bill max 3 months leave licence agreement",
-    "text_preserved": "electricity bill telephone bill-max-3 months leave licence agreement."
+    "text_preserved": "(electricity bill, telephone bill-max-3 months) leave licence agreement."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 265,
     "span_type": "line",
@@ -4502,10 +4502,10 @@
     },
     "text_display": "(Electricity Bill, Telephone Bill-Max-3 Months) Leave & Licence Agreement.",
     "text_clean": "electricity bill telephone bill max 3 months leave licence agreement",
-    "text_preserved": "electricity bill telephone bill-max-3 months leave licence agreement."
+    "text_preserved": "(electricity bill, telephone bill-max-3 months) leave licence agreement."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 266,
     "span_type": "line",
@@ -4519,10 +4519,10 @@
     },
     "text_display": "Educational Qualification Proof (Latest Degree)",
     "text_clean": "educational qualification proof latest degree",
-    "text_preserved": "educational qualification proof latest degree"
+    "text_preserved": "educational qualification proof (latest degree)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 267,
     "span_type": "line",
@@ -4536,10 +4536,10 @@
     },
     "text_display": "Educational Qualification Proof - Latest Degree (for Professionals)",
     "text_clean": "educational qualification proof latest degree for professionals",
-    "text_preserved": "educational qualification proof - latest degree for professionals"
+    "text_preserved": "educational qualification proof - latest degree (for professionals)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 268,
     "span_type": "line",
@@ -4556,7 +4556,7 @@
     "text_preserved": "latest 3 months salary slip"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 269,
     "span_type": "line",
@@ -4573,7 +4573,7 @@
     "text_preserved": "certificate acceptable proof of business existence along with business profile"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 270,
     "span_type": "line",
@@ -4590,7 +4590,7 @@
     "text_preserved": "form 16 for last 2 years"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 271,
     "span_type": "line",
@@ -4604,10 +4604,10 @@
     },
     "text_display": "Last 3 year Income Tax returns (Self & Business) with Profit & Loss Account &",
     "text_clean": "last 3 year income tax returns self business with profit loss account",
-    "text_preserved": "last 3 year income tax returns self business with profit loss account"
+    "text_preserved": "last 3 year income tax returns (self business) with profit loss account"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 272,
     "span_type": "line",
@@ -4624,7 +4624,7 @@
     "text_preserved": "balance sheet duly certificate / audited by chartered accountant"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 273,
     "span_type": "line",
@@ -4638,10 +4638,10 @@
     },
     "text_display": "Last 06 months Bank Statements (Salary Account)",
     "text_clean": "last 06 months bank statements salary account",
-    "text_preserved": "last 06 months bank statements salary account"
+    "text_preserved": "last 06 months bank statements (salary account)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 274,
     "span_type": "line",
@@ -4658,7 +4658,7 @@
     "text_preserved": "last 06 months bank account statements."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 275,
     "span_type": "line",
@@ -4675,7 +4675,7 @@
     "text_preserved": "processing free cheque in favour of shinhan bank ltd."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 276,
     "span_type": "line",
@@ -4692,7 +4692,7 @@
     "text_preserved": "processing free cheque in favour of shinhan bank ltd."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 277,
     "span_type": "line",
@@ -4706,10 +4706,10 @@
     },
     "text_display": "(Processing Fees Not Acceptable in Cash)",
     "text_clean": "processing fees not acceptable in cash",
-    "text_preserved": "processing fees not acceptable in cash"
+    "text_preserved": "(processing fees not acceptable in cash)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 278,
     "span_type": "line",
@@ -4723,10 +4723,10 @@
     },
     "text_display": "(Processing Fees Not Acceptable in Cash)",
     "text_clean": "processing fees not acceptable in cash",
-    "text_preserved": "processing fees not acceptable in cash"
+    "text_preserved": "(processing fees not acceptable in cash)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 279,
     "span_type": "line",
@@ -4743,7 +4743,7 @@
     "text_preserved": "employment continuity proof"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 280,
     "span_type": "line",
@@ -4760,7 +4760,7 @@
     "text_preserved": "kyc for guarantor"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 281,
     "span_type": "line",
@@ -4777,7 +4777,7 @@
     "text_preserved": "copy of income tax returns for last two years with it acknowledgment"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 282,
     "span_type": "line",
@@ -4791,10 +4791,10 @@
     },
     "text_display": "Copy of ID card issued by existing employer, visiting card",
     "text_clean": "copy of id card issued by existing employer visiting card",
-    "text_preserved": "copy of id card issued by existing employer visiting card"
+    "text_preserved": "copy of id card issued by existing employer, visiting card"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 283,
     "span_type": "line",
@@ -4811,7 +4811,7 @@
     "text_preserved": "kyc for guarantor"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 4,
     "span_id": 284,
     "span_type": "line",
@@ -4828,7 +4828,7 @@
     "text_preserved": "all documents have to be self-attested."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 285,
     "span_type": "line",
@@ -4845,7 +4845,7 @@
     "text_preserved": "s"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 286,
     "span_type": "line",
@@ -4862,7 +4862,7 @@
     "text_preserved": "shinhan bank"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 287,
     "span_type": "line",
@@ -4879,7 +4879,7 @@
     "text_preserved": "part ii financial details"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 288,
     "span_type": "line",
@@ -4896,7 +4896,7 @@
     "text_preserved": "particulars"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 289,
     "span_type": "line",
@@ -4913,7 +4913,7 @@
     "text_preserved": "applicant"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 290,
     "span_type": "line",
@@ -4927,10 +4927,10 @@
     },
     "text_display": "Income Details (Monthly)",
     "text_clean": "income details monthly",
-    "text_preserved": "income details monthly"
+    "text_preserved": "income details (monthly)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 291,
     "span_type": "line",
@@ -4947,7 +4947,7 @@
     "text_preserved": "particulars"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 292,
     "span_type": "line",
@@ -4961,10 +4961,10 @@
     },
     "text_display": "Amount (Rupees)",
     "text_clean": "amount rupees",
-    "text_preserved": "amount rupees"
+    "text_preserved": "amount (rupees)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 293,
     "span_type": "line",
@@ -4981,7 +4981,7 @@
     "text_preserved": "gross monthly income"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 294,
     "span_type": "line",
@@ -4998,7 +4998,7 @@
     "text_preserved": "120000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 295,
     "span_type": "line",
@@ -5015,7 +5015,7 @@
     "text_preserved": "deductions from monthly income"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 296,
     "span_type": "line",
@@ -5032,7 +5032,7 @@
     "text_preserved": "10000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 297,
     "span_type": "line",
@@ -5049,7 +5049,7 @@
     "text_preserved": "net monthly income"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 298,
     "span_type": "line",
@@ -5066,7 +5066,7 @@
     "text_preserved": "110 0000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 299,
     "span_type": "line",
@@ -5083,7 +5083,7 @@
     "text_preserved": "provident fund contribution"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 300,
     "span_type": "line",
@@ -5100,7 +5100,7 @@
     "text_preserved": "50 000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 301,
     "span_type": "line",
@@ -5117,7 +5117,7 @@
     "text_preserved": "any other monthly income"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 302,
     "span_type": "line",
@@ -5134,7 +5134,7 @@
     "text_preserved": "5000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 303,
     "span_type": "line",
@@ -5148,10 +5148,10 @@
     },
     "text_display": "Expenses Details (Monthly)",
     "text_clean": "expenses details monthly",
-    "text_preserved": "expenses details monthly"
+    "text_preserved": "expenses details (monthly)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 304,
     "span_type": "line",
@@ -5168,7 +5168,7 @@
     "text_preserved": "particulars"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 305,
     "span_type": "line",
@@ -5182,10 +5182,10 @@
     },
     "text_display": "Amount (Rupees)",
     "text_clean": "amount rupees",
-    "text_preserved": "amount rupees"
+    "text_preserved": "amount (rupees)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 306,
     "span_type": "line",
@@ -5202,7 +5202,7 @@
     "text_preserved": "monthly household fixed expenses"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 307,
     "span_type": "line",
@@ -5219,7 +5219,7 @@
     "text_preserved": "25 000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 308,
     "span_type": "line",
@@ -5236,7 +5236,7 @@
     "text_preserved": "existing emi"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 309,
     "span_type": "line",
@@ -5253,7 +5253,7 @@
     "text_preserved": "8000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 310,
     "span_type": "line",
@@ -5270,7 +5270,7 @@
     "text_preserved": "lic / other saving obligations"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 311,
     "span_type": "line",
@@ -5287,7 +5287,7 @@
     "text_preserved": "3000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 312,
     "span_type": "line",
@@ -5301,10 +5301,10 @@
     },
     "text_display": "Existing Personal Loan (EMI)",
     "text_clean": "existing personal loan emi",
-    "text_preserved": "existing personal loan emi"
+    "text_preserved": "existing personal loan (emi)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 313,
     "span_type": "line",
@@ -5321,7 +5321,7 @@
     "text_preserved": "24000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 314,
     "span_type": "line",
@@ -5338,7 +5338,7 @@
     "text_preserved": "other monthly expenses"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 315,
     "span_type": "line",
@@ -5355,7 +5355,7 @@
     "text_preserved": "15 000."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 316,
     "span_type": "line",
@@ -5372,7 +5372,7 @@
     "text_preserved": "assets information"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 317,
     "span_type": "line",
@@ -5389,7 +5389,7 @@
     "text_preserved": "particulars"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 318,
     "span_type": "line",
@@ -5403,10 +5403,10 @@
     },
     "text_display": "Amount (Rupees)",
     "text_clean": "amount rupees",
-    "text_preserved": "amount rupees"
+    "text_preserved": "amount (rupees)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 319,
     "span_type": "line",
@@ -5423,7 +5423,7 @@
     "text_preserved": "existing immovable property"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 320,
     "span_type": "line",
@@ -5440,7 +5440,7 @@
     "text_preserved": "55 00 000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 321,
     "span_type": "line",
@@ -5457,7 +5457,7 @@
     "text_preserved": "motor vehicle"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 322,
     "span_type": "line",
@@ -5474,7 +5474,7 @@
     "text_preserved": "800000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 323,
     "span_type": "line",
@@ -5491,7 +5491,7 @@
     "text_preserved": "fixed deposits"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 324,
     "span_type": "line",
@@ -5508,7 +5508,7 @@
     "text_preserved": "200000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 325,
     "span_type": "line",
@@ -5525,7 +5525,7 @@
     "text_preserved": "cash/ bank balances"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 326,
     "span_type": "line",
@@ -5539,10 +5539,10 @@
     },
     "text_display": "150,000",
     "text_clean": "150 000",
-    "text_preserved": "150 000"
+    "text_preserved": "150,000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 327,
     "span_type": "line",
@@ -5559,7 +5559,7 @@
     "text_preserved": "investments"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 328,
     "span_type": "line",
@@ -5576,7 +5576,7 @@
     "text_preserved": "350000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 329,
     "span_type": "line",
@@ -5593,7 +5593,7 @@
     "text_preserved": "balance in pf / ppf"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 330,
     "span_type": "line",
@@ -5610,7 +5610,7 @@
     "text_preserved": "400 000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 331,
     "span_type": "line",
@@ -5627,7 +5627,7 @@
     "text_preserved": "any other asset"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 332,
     "span_type": "line",
@@ -5644,7 +5644,7 @@
     "text_preserved": "100 000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 333,
     "span_type": "line",
@@ -5658,10 +5658,10 @@
     },
     "text_display": "Liability Information:",
     "text_clean": "liability information",
-    "text_preserved": "liability information"
+    "text_preserved": "liability information:"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 334,
     "span_type": "line",
@@ -5678,7 +5678,7 @@
     "text_preserved": "1. existing loans"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 335,
     "span_type": "line",
@@ -5695,7 +5695,7 @@
     "text_preserved": "loan type"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 336,
     "span_type": "line",
@@ -5712,7 +5712,7 @@
     "text_preserved": "amount"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 337,
     "span_type": "line",
@@ -5729,7 +5729,7 @@
     "text_preserved": "date"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 338,
     "span_type": "line",
@@ -5746,7 +5746,7 @@
     "text_preserved": "o/s"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 339,
     "span_type": "line",
@@ -5763,7 +5763,7 @@
     "text_preserved": "emi"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 340,
     "span_type": "line",
@@ -5780,7 +5780,7 @@
     "text_preserved": "bal tenure"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 341,
     "span_type": "line",
@@ -5797,7 +5797,7 @@
     "text_preserved": "bank ifsc"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 342,
     "span_type": "line",
@@ -5814,7 +5814,7 @@
     "text_preserved": "credit"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 343,
     "span_type": "line",
@@ -5831,7 +5831,7 @@
     "text_preserved": "enf"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 344,
     "span_type": "line",
@@ -5848,7 +5848,7 @@
     "text_preserved": "80000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 345,
     "span_type": "line",
@@ -5865,7 +5865,7 @@
     "text_preserved": "05-2024"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 346,
     "span_type": "line",
@@ -5882,7 +5882,7 @@
     "text_preserved": "60000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 347,
     "span_type": "line",
@@ -5899,7 +5899,7 @@
     "text_preserved": "8000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 348,
     "span_type": "line",
@@ -5916,7 +5916,7 @@
     "text_preserved": "8"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 349,
     "span_type": "line",
@@ -5933,7 +5933,7 @@
     "text_preserved": "hdf hdf c000123."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 350,
     "span_type": "line",
@@ -5950,7 +5950,7 @@
     "text_preserved": "2. loans from relatives /"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 351,
     "span_type": "line",
@@ -5967,7 +5967,7 @@
     "text_preserved": "particulars"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 352,
     "span_type": "line",
@@ -5981,10 +5981,10 @@
     },
     "text_display": "Amount (Rupees)",
     "text_clean": "amount rupees",
-    "text_preserved": "amount rupees"
+    "text_preserved": "amount (rupees)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 353,
     "span_type": "line",
@@ -6001,7 +6001,7 @@
     "text_preserved": "particulars"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 354,
     "span_type": "line",
@@ -6015,10 +6015,10 @@
     },
     "text_display": "Amount (Rupees)",
     "text_clean": "amount rupees",
-    "text_preserved": "amount rupees"
+    "text_preserved": "amount (rupees)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 355,
     "span_type": "line",
@@ -6032,10 +6032,10 @@
     },
     "text_display": "Friends (if any)",
     "text_clean": "friends if any",
-    "text_preserved": "friends if any"
+    "text_preserved": "friends (if any)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 356,
     "span_type": "line",
@@ -6052,7 +6052,7 @@
     "text_preserved": "name of relative"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 357,
     "span_type": "line",
@@ -6069,7 +6069,7 @@
     "text_preserved": "rott it"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 358,
     "span_type": "line",
@@ -6086,7 +6086,7 @@
     "text_preserved": "name of relative"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 359,
     "span_type": "line",
@@ -6103,7 +6103,7 @@
     "text_preserved": "relationship"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 360,
     "span_type": "line",
@@ -6120,7 +6120,7 @@
     "text_preserved": "friend"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 361,
     "span_type": "line",
@@ -6137,7 +6137,7 @@
     "text_preserved": "relationship"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 362,
     "span_type": "line",
@@ -6154,7 +6154,7 @@
     "text_preserved": "secured/unsecured"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 363,
     "span_type": "line",
@@ -6171,7 +6171,7 @@
     "text_preserved": "unsecured"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 364,
     "span_type": "line",
@@ -6188,7 +6188,7 @@
     "text_preserved": "secured/unsecured"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 365,
     "span_type": "line",
@@ -6205,7 +6205,7 @@
     "text_preserved": "particulars"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 366,
     "span_type": "line",
@@ -6219,10 +6219,10 @@
     },
     "text_display": "Amount (Rupees)",
     "text_clean": "amount rupees",
-    "text_preserved": "amount rupees"
+    "text_preserved": "amount (rupees)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 367,
     "span_type": "line",
@@ -6239,7 +6239,7 @@
     "text_preserved": "particulars"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 368,
     "span_type": "line",
@@ -6253,10 +6253,10 @@
     },
     "text_display": "Amount (Rupees)",
     "text_clean": "amount rupees",
-    "text_preserved": "amount rupees"
+    "text_preserved": "amount (rupees)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 369,
     "span_type": "line",
@@ -6273,7 +6273,7 @@
     "text_preserved": "loan amount"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 370,
     "span_type": "line",
@@ -6290,7 +6290,7 @@
     "text_preserved": "50000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 371,
     "span_type": "line",
@@ -6307,7 +6307,7 @@
     "text_preserved": "loan amount"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 372,
     "span_type": "line",
@@ -6324,7 +6324,7 @@
     "text_preserved": "balance loan"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 373,
     "span_type": "line",
@@ -6341,7 +6341,7 @@
     "text_preserved": "70000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 374,
     "span_type": "line",
@@ -6358,7 +6358,7 @@
     "text_preserved": "balance loan"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 375,
     "span_type": "line",
@@ -6375,7 +6375,7 @@
     "text_preserved": "balance tenor"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 376,
     "span_type": "line",
@@ -6392,7 +6392,7 @@
     "text_preserved": "balance tenor"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 377,
     "span_type": "line",
@@ -6409,7 +6409,7 @@
     "text_preserved": "details of existing bankers"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 378,
     "span_type": "line",
@@ -6426,7 +6426,7 @@
     "text_preserved": "name"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 379,
     "span_type": "line",
@@ -6443,7 +6443,7 @@
     "text_preserved": "address"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 380,
     "span_type": "line",
@@ -6460,7 +6460,7 @@
     "text_preserved": "type of account"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 381,
     "span_type": "line",
@@ -6477,7 +6477,7 @@
     "text_preserved": "account no"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 382,
     "span_type": "line",
@@ -6494,7 +6494,7 @@
     "text_preserved": "balance in the"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 383,
     "span_type": "line",
@@ -6511,7 +6511,7 @@
     "text_preserved": "no of years"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 384,
     "span_type": "line",
@@ -6528,7 +6528,7 @@
     "text_preserved": "current / saving"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 385,
     "span_type": "line",
@@ -6545,7 +6545,7 @@
     "text_preserved": "account on"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 386,
     "span_type": "line",
@@ -6562,7 +6562,7 @@
     "text_preserved": "banking with"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 387,
     "span_type": "line",
@@ -6579,7 +6579,7 @@
     "text_preserved": "application date"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 388,
     "span_type": "line",
@@ -6596,7 +6596,7 @@
     "text_preserved": "existing bank"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 389,
     "span_type": "line",
@@ -6613,7 +6613,7 @@
     "text_preserved": "hdfc"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 390,
     "span_type": "line",
@@ -6630,7 +6630,7 @@
     "text_preserved": "indiranan"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 391,
     "span_type": "line",
@@ -6647,7 +6647,7 @@
     "text_preserved": "savings"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 392,
     "span_type": "line",
@@ -6664,7 +6664,7 @@
     "text_preserved": "501002839"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 393,
     "span_type": "line",
@@ -6681,7 +6681,7 @@
     "text_preserved": "150000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 394,
     "span_type": "line",
@@ -6698,7 +6698,7 @@
     "text_preserved": "6 years"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 395,
     "span_type": "line",
@@ -6715,7 +6715,7 @@
     "text_preserved": "details of charges"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 396,
     "span_type": "line",
@@ -6729,10 +6729,10 @@
     },
     "text_display": "Please refer our website: https://in.shinhanglobal.com, for details on charges and fees.",
     "text_clean": "please refer our website https in shinhanglobal com for details on charges and fees",
-    "text_preserved": "please refer our website https //in.shinhanglobal.com for details on charges and fees."
+    "text_preserved": "please refer our website: https://in.shinhanglobal.com, for details on charges and fees."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 397,
     "span_type": "line",
@@ -6746,10 +6746,10 @@
     },
     "text_display": "(i.e. processing fees,",
     "text_clean": "i e processing fees",
-    "text_preserved": "i.e. processing fees"
+    "text_preserved": "(i.e. processing fees,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 398,
     "span_type": "line",
@@ -6766,7 +6766,7 @@
     "text_preserved": "prepayment charges and"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 399,
     "span_type": "line",
@@ -6780,10 +6780,10 @@
     },
     "text_display": "other charges, if any)",
     "text_clean": "other charges if any",
-    "text_preserved": "other charges if any"
+    "text_preserved": "other charges, if any)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 400,
     "span_type": "line",
@@ -6800,7 +6800,7 @@
     "text_preserved": "4"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 5,
     "span_id": 401,
     "span_type": "line",
@@ -6817,7 +6817,7 @@
     "text_preserved": "extend your financial network"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 402,
     "span_type": "line",
@@ -6834,7 +6834,7 @@
     "text_preserved": "s"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 403,
     "span_type": "line",
@@ -6851,7 +6851,7 @@
     "text_preserved": "shinhan bank"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 404,
     "span_type": "line",
@@ -6868,7 +6868,7 @@
     "text_preserved": "part iii loan details"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 405,
     "span_type": "line",
@@ -6885,7 +6885,7 @@
     "text_preserved": "purpose of loan"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 406,
     "span_type": "line",
@@ -6902,7 +6902,7 @@
     "text_preserved": "details of loans"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 407,
     "span_type": "line",
@@ -6919,7 +6919,7 @@
     "text_preserved": "particulars"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 408,
     "span_type": "line",
@@ -6933,10 +6933,10 @@
     },
     "text_display": "Amount (Rupees)",
     "text_clean": "amount rupees",
-    "text_preserved": "amount rupees"
+    "text_preserved": "amount (rupees)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 409,
     "span_type": "line",
@@ -6953,7 +6953,7 @@
     "text_preserved": "loan requested from bank- rupees"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 410,
     "span_type": "line",
@@ -6967,10 +6967,10 @@
     },
     "text_display": "7,50,000",
     "text_clean": "7 50 000",
-    "text_preserved": "7 50 000"
+    "text_preserved": "7,50,000"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 411,
     "span_type": "line",
@@ -6987,7 +6987,7 @@
     "text_preserved": "maximum tenor/term"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 412,
     "span_type": "line",
@@ -7004,7 +7004,7 @@
     "text_preserved": "36months"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 413,
     "span_type": "line",
@@ -7021,7 +7021,7 @@
     "text_preserved": "preferred rate of interest"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 414,
     "span_type": "line",
@@ -7038,7 +7038,7 @@
     "text_preserved": "fixed rate / floating rate"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 415,
     "span_type": "line",
@@ -7055,7 +7055,7 @@
     "text_preserved": "floating"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 416,
     "span_type": "line",
@@ -7069,10 +7069,10 @@
     },
     "text_display": "Preferred EMI (For Rs.1 Lakhs)",
     "text_clean": "preferred emi for rs 1 lakhs",
-    "text_preserved": "preferred emi for rs.1 lakhs"
+    "text_preserved": "preferred emi (for rs.1 lakhs)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 417,
     "span_type": "line",
@@ -7089,7 +7089,7 @@
     "text_preserved": "3200 palakh"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 418,
     "span_type": "line",
@@ -7106,7 +7106,7 @@
     "text_preserved": "security offered"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 419,
     "span_type": "line",
@@ -7123,7 +7123,7 @@
     "text_preserved": "unsecured"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 420,
     "span_type": "line",
@@ -7140,7 +7140,7 @@
     "text_preserved": "deduction of monthly emi by"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 421,
     "span_type": "line",
@@ -7157,7 +7157,7 @@
     "text_preserved": "1. standing instructions"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 422,
     "span_type": "line",
@@ -7171,10 +7171,10 @@
     },
     "text_display": "(Select the applicable option)",
     "text_clean": "select the applicable option",
-    "text_preserved": "select the applicable option"
+    "text_preserved": "(select the applicable option)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 423,
     "span_type": "line",
@@ -7188,10 +7188,10 @@
     },
     "text_display": "2. Electronic Clearance Service (ECS)",
     "text_clean": "2 electronic clearance service ecs",
-    "text_preserved": "2. electronic clearance service ecs"
+    "text_preserved": "2. electronic clearance service (ecs)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 424,
     "span_type": "line",
@@ -7208,7 +7208,7 @@
     "text_preserved": "ecs"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 425,
     "span_type": "line",
@@ -7222,10 +7222,10 @@
     },
     "text_display": "3. Post Dated Cheque (PDC)",
     "text_clean": "3 post dated cheque pdc",
-    "text_preserved": "3. post dated cheque pdc"
+    "text_preserved": "3. post dated cheque (pdc)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 426,
     "span_type": "line",
@@ -7239,10 +7239,10 @@
     },
     "text_display": "Purpose of Loan (select the",
     "text_clean": "purpose of loan select the",
-    "text_preserved": "purpose of loan select the"
+    "text_preserved": "purpose of loan (select the"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 427,
     "span_type": "line",
@@ -7256,10 +7256,10 @@
     },
     "text_display": "Purchase of Consumer Durable (Electronic) goods / Medical Expenses / Marriage Expenses /",
     "text_clean": "purchase of consumer durable electronic goods medical expenses marriage expenses",
-    "text_preserved": "purchase of consumer durable electronic goods / medical expenses / marriage expenses /"
+    "text_preserved": "purchase of consumer durable (electronic) goods / medical expenses / marriage expenses /"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 428,
     "span_type": "line",
@@ -7273,10 +7273,10 @@
     },
     "text_display": "appropriate option)",
     "text_clean": "appropriate option",
-    "text_preserved": "appropriate option"
+    "text_preserved": "appropriate option)"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 429,
     "span_type": "line",
@@ -7290,10 +7290,10 @@
     },
     "text_display": "Higher Education / Others (please specify) ELECTRONICS GOODS",
     "text_clean": "higher education others please specify electronics goods",
-    "text_preserved": "higher education / others please specify electronics goods"
+    "text_preserved": "higher education / others (please specify) electronics goods"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 430,
     "span_type": "line",
@@ -7310,7 +7310,7 @@
     "text_preserved": "disbursement instruction"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 431,
     "span_type": "line",
@@ -7327,7 +7327,7 @@
     "text_preserved": "i hereby request shinhan bank to credit the loan amount in my saving account/"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 432,
     "span_type": "line",
@@ -7344,7 +7344,7 @@
     "text_preserved": "current account no 501002839 maintained with indtranagar"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 433,
     "span_type": "line",
@@ -7361,7 +7361,7 @@
     "text_preserved": "branch."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 434,
     "span_type": "line",
@@ -7375,10 +7375,10 @@
     },
     "text_display": "I further authorize the Bank to deduct the applicable charges, fees, taxes, stamp duty etc.,",
     "text_clean": "i further authorize the bank to deduct the applicable charges fees taxes stamp duty etc",
-    "text_preserved": "i further authorize the bank to deduct the applicable charges fees taxes stamp duty etc."
+    "text_preserved": "i further authorize the bank to deduct the applicable charges, fees, taxes, stamp duty etc.,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 435,
     "span_type": "line",
@@ -7395,7 +7395,7 @@
     "text_preserved": "from the gross loan amount disbursed."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 436,
     "span_type": "line",
@@ -7412,7 +7412,7 @@
     "text_preserved": "sourcing"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 437,
     "span_type": "line",
@@ -7426,10 +7426,10 @@
     },
     "text_display": "RM Name :",
     "text_clean": "rm name",
-    "text_preserved": "rm name"
+    "text_preserved": "rm name :"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 438,
     "span_type": "line",
@@ -7446,7 +7446,7 @@
     "text_preserved": "sanjay verma"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 439,
     "span_type": "line",
@@ -7460,10 +7460,10 @@
     },
     "text_display": "RM Employee ID: 10245",
     "text_clean": "rm employee id 10245",
-    "text_preserved": "rm employee id 10245"
+    "text_preserved": "rm employee id: 10245"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 440,
     "span_type": "line",
@@ -7477,10 +7477,10 @@
     },
     "text_display": "DSA:",
     "text_clean": "dsa",
-    "text_preserved": "dsa"
+    "text_preserved": "dsa:"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 441,
     "span_type": "line",
@@ -7494,10 +7494,10 @@
     },
     "text_display": "Branch:",
     "text_clean": "branch",
-    "text_preserved": "branch"
+    "text_preserved": "branch:"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 442,
     "span_type": "line",
@@ -7514,7 +7514,7 @@
     "text_preserved": "indiranagar"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 443,
     "span_type": "line",
@@ -7528,10 +7528,10 @@
     },
     "text_display": "Walk In Customers:",
     "text_clean": "walk in customers",
-    "text_preserved": "walk in customers"
+    "text_preserved": "walk in customers:"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 444,
     "span_type": "line",
@@ -7548,7 +7548,7 @@
     "text_preserved": "yes"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 445,
     "span_type": "line",
@@ -7565,7 +7565,7 @@
     "text_preserved": "no"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 6,
     "span_id": 446,
     "span_type": "line",
@@ -7579,10 +7579,10 @@
     },
     "text_display": "Others:",
     "text_clean": "others",
-    "text_preserved": "others"
+    "text_preserved": "others:"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 447,
     "span_type": "line",
@@ -7599,7 +7599,7 @@
     "text_preserved": "shinhan bank"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 448,
     "span_type": "line",
@@ -7616,7 +7616,7 @@
     "text_preserved": "part iv- declaration from applicant"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 449,
     "span_type": "line",
@@ -7633,7 +7633,7 @@
     "text_preserved": "1."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 450,
     "span_type": "line",
@@ -7647,10 +7647,10 @@
     },
     "text_display": "I declare that all the particulars and information given in the application form are true, correct and complete and updated in all",
     "text_clean": "i declare that all the particulars and information given in the application form are true correct and complete and updated in all",
-    "text_preserved": "i declare that all the particulars and information given in the application form are true correct and complete and updated in all"
+    "text_preserved": "i declare that all the particulars and information given in the application form are true, correct and complete and updated in all"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 451,
     "span_type": "line",
@@ -7667,7 +7667,7 @@
     "text_preserved": "respects and i have not withheld any information while making this application."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 452,
     "span_type": "line",
@@ -7684,7 +7684,7 @@
     "text_preserved": "2."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 453,
     "span_type": "line",
@@ -7701,7 +7701,7 @@
     "text_preserved": "i confirm that there are no insolvency proceedings against men or have ever been adjudicated insolvent and further confirm that"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 454,
     "span_type": "line",
@@ -7718,7 +7718,7 @@
     "text_preserved": "have read the terms and conditions applicable to this loan and understood the contents."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 455,
     "span_type": "line",
@@ -7735,7 +7735,7 @@
     "text_preserved": "3."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 456,
     "span_type": "line",
@@ -7752,7 +7752,7 @@
     "text_preserved": "i understand and agree that the processing fees are non-refundable and my application being rejected by the shinhan bank for"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 457,
     "span_type": "line",
@@ -7766,10 +7766,10 @@
     },
     "text_display": "any reason whatsoever, or the same being with drawn by me, I shall not be entitled for refund of the same either in part or in full.",
     "text_clean": "any reason whatsoever or the same being with drawn by me i shall not be entitled for refund of the same either in part or in full",
-    "text_preserved": "any reason whatsoever or the same being with drawn by me i shall not be entitled for refund of the same either in part or in full."
+    "text_preserved": "any reason whatsoever, or the same being with drawn by me, i shall not be entitled for refund of the same either in part or in full."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 458,
     "span_type": "line",
@@ -7783,10 +7783,10 @@
     },
     "text_display": "4. I am aware that the repayments are by way of Equated Monthly Installments (EMIs) comprising principal and interest and are",
     "text_clean": "4 i am aware that the repayments are by way of equated monthly installments emis comprising principal and interest and are",
-    "text_preserved": "4. i am aware that the repayments are by way of equated monthly installments emis comprising principal and interest and are"
+    "text_preserved": "4. i am aware that the repayments are by way of equated monthly installments (emis) comprising principal and interest and are"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 459,
     "span_type": "line",
@@ -7803,7 +7803,7 @@
     "text_preserved": "calculated on the basis of monthly interests."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 460,
     "span_type": "line",
@@ -7820,7 +7820,7 @@
     "text_preserved": "5."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 461,
     "span_type": "line",
@@ -7837,7 +7837,7 @@
     "text_preserved": "i confirm having read the terms and conditions governing the loans from shinhan bank. i will use the loan for the purpose"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 462,
     "span_type": "line",
@@ -7854,7 +7854,7 @@
     "text_preserved": "mentioned in the application form and will not use for speculative purpose or any other prohibited purpose."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 463,
     "span_type": "line",
@@ -7871,7 +7871,7 @@
     "text_preserved": "6."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 464,
     "span_type": "line",
@@ -7885,10 +7885,10 @@
     },
     "text_display": "I acknowledge that the Shinhan Bank remains entitled to assign any activities to any third party, agency at its sole discretion. I",
     "text_clean": "i acknowledge that the shinhan bank remains entitled to assign any activities to any third party agency at its sole discretion i",
-    "text_preserved": "i acknowledge that the shinhan bank remains entitled to assign any activities to any third party agency at its sole discretion. i"
+    "text_preserved": "i acknowledge that the shinhan bank remains entitled to assign any activities to any third party, agency at its sole discretion. i"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 465,
     "span_type": "line",
@@ -7905,7 +7905,7 @@
     "text_preserved": "further acknowledge the right of the shinhan bank to provide details of my account to third party agencies for the purpose of"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 466,
     "span_type": "line",
@@ -7919,10 +7919,10 @@
     },
     "text_display": "availing support services of any nature by the Bank, without any specific consent or authorisation from me.",
     "text_clean": "availing support services of any nature by the bank without any specific consent or authorisation from me",
-    "text_preserved": "availing support services of any nature by the bank without any specific consent or authorisation from me."
+    "text_preserved": "availing support services of any nature by the bank, without any specific consent or authorisation from me."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 467,
     "span_type": "line",
@@ -7936,10 +7936,10 @@
     },
     "text_display": "7. I have read, understood and acknowledge and agree that Shinhan Bank may refer my name to credit referencing agency/les",
     "text_clean": "7 i have read understood and acknowledge and agree that shinhan bank may refer my name to credit referencing agency les",
-    "text_preserved": "7. i have read understood and acknowledge and agree that shinhan bank may refer my name to credit referencing agency/les"
+    "text_preserved": "7. i have read, understood and acknowledge and agree that shinhan bank may refer my name to credit referencing agency/les"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 468,
     "span_type": "line",
@@ -7956,7 +7956,7 @@
     "text_preserved": "and/or make such references and enquiries as they may consider necessary. i hereby authorize to disclose such information"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 469,
     "span_type": "line",
@@ -7970,10 +7970,10 @@
     },
     "text_display": "relating to my credit facility to such parties as deemed necessary at the sole discretion of the Shinhan Bank. Further, I have read,",
     "text_clean": "relating to my credit facility to such parties as deemed necessary at the sole discretion of the shinhan bank further i have read",
-    "text_preserved": "relating to my credit facility to such parties as deemed necessary at the sole discretion of the shinhan bank. further i have read"
+    "text_preserved": "relating to my credit facility to such parties as deemed necessary at the sole discretion of the shinhan bank. further, i have read,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 470,
     "span_type": "line",
@@ -7987,10 +7987,10 @@
     },
     "text_display": "understood, acknowledge and agree that a request and demand from any authority under the statutory law will be mandatorily",
     "text_clean": "understood acknowledge and agree that a request and demand from any authority under the statutory law will be mandatorily",
-    "text_preserved": "understood acknowledge and agree that a request and demand from any authority under the statutory law will be mandatorily"
+    "text_preserved": "understood, acknowledge and agree that a request and demand from any authority under the statutory law will be mandatorily"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 471,
     "span_type": "line",
@@ -8007,7 +8007,7 @@
     "text_preserved": "complied with by the shinhan bank."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 472,
     "span_type": "line",
@@ -8024,7 +8024,7 @@
     "text_preserved": "8."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 473,
     "span_type": "line",
@@ -8041,7 +8041,7 @@
     "text_preserved": "i undertake to inform shinhan bank regarding change in my employment/residential address and to provide any further"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 474,
     "span_type": "line",
@@ -8058,7 +8058,7 @@
     "text_preserved": "information that the bank may require."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 475,
     "span_type": "line",
@@ -8075,7 +8075,7 @@
     "text_preserved": "9."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 476,
     "span_type": "line",
@@ -8092,7 +8092,7 @@
     "text_preserved": "i also understand that the sanction of the loan is subject to execution of documents as per bank s requirements. i agree to"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 477,
     "span_type": "line",
@@ -8109,7 +8109,7 @@
     "text_preserved": "execute the necessary documents before the loan is availed."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 478,
     "span_type": "line",
@@ -8126,7 +8126,7 @@
     "text_preserved": "10. i undertake to pay the bank all the charges applicable to the loan as per schedule of charges as applicable from time to time."
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 479,
     "span_type": "line",
@@ -8143,7 +8143,7 @@
     "text_preserved": "signature of applicant"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 480,
     "span_type": "line",
@@ -8160,7 +8160,7 @@
     "text_preserved": "signature of co-applicant / guarantor"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 481,
     "span_type": "line",
@@ -8177,7 +8177,7 @@
     "text_preserved": "name yaswith"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 482,
     "span_type": "line",
@@ -8194,7 +8194,7 @@
     "text_preserved": "name"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 483,
     "span_type": "line",
@@ -8211,7 +8211,7 @@
     "text_preserved": "unite"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 484,
     "span_type": "line",
@@ -8228,7 +8228,7 @@
     "text_preserved": "place"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 485,
     "span_type": "line",
@@ -8245,7 +8245,7 @@
     "text_preserved": "kapapa"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 486,
     "span_type": "line",
@@ -8262,7 +8262,7 @@
     "text_preserved": "place"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 487,
     "span_type": "line",
@@ -8279,7 +8279,7 @@
     "text_preserved": "kapapa"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 488,
     "span_type": "line",
@@ -8296,7 +8296,7 @@
     "text_preserved": "date"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 489,
     "span_type": "line",
@@ -8313,7 +8313,7 @@
     "text_preserved": "01/12/2025"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 490,
     "span_type": "line",
@@ -8330,7 +8330,7 @@
     "text_preserved": "date"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 491,
     "span_type": "line",
@@ -8347,7 +8347,7 @@
     "text_preserved": "01/12/2025"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 492,
     "span_type": "line",
@@ -8364,7 +8364,7 @@
     "text_preserved": "acknowledgment for applicant"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 493,
     "span_type": "line",
@@ -8378,10 +8378,10 @@
     },
     "text_display": "Shinhan Bank,",
     "text_clean": "shinhan bank",
-    "text_preserved": "shinhan bank"
+    "text_preserved": "shinhan bank,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 494,
     "span_type": "line",
@@ -8398,7 +8398,7 @@
     "text_preserved": "branch"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 495,
     "span_type": "line",
@@ -8415,7 +8415,7 @@
     "text_preserved": "indiranagar"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 496,
     "span_type": "line",
@@ -8432,7 +8432,7 @@
     "text_preserved": "acknowledgment issued to mr./mrs./ms. arjun"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 497,
     "span_type": "line",
@@ -8449,7 +8449,7 @@
     "text_preserved": "for his/her prime personal loan application"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 498,
     "span_type": "line",
@@ -8466,7 +8466,7 @@
     "text_preserved": "dated 0/12/25"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 499,
     "span_type": "line",
@@ -8483,7 +8483,7 @@
     "text_preserved": "with application no 01234"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 500,
     "span_type": "line",
@@ -8500,7 +8500,7 @@
     "text_preserved": "dated 01/12/25"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 501,
     "span_type": "line",
@@ -8517,7 +8517,7 @@
     "text_preserved": "signature of authorised person"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 502,
     "span_type": "line",
@@ -8531,10 +8531,10 @@
     },
     "text_display": "Shinhan Bank,",
     "text_clean": "shinhan bank",
-    "text_preserved": "shinhan bank"
+    "text_preserved": "shinhan bank,"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 503,
     "span_type": "line",
@@ -8551,7 +8551,7 @@
     "text_preserved": "indiranagar"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 504,
     "span_type": "line",
@@ -8568,7 +8568,7 @@
     "text_preserved": "branch"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 505,
     "span_type": "line",
@@ -8582,10 +8582,10 @@
     },
     "text_display": "Date:-",
     "text_clean": "date",
-    "text_preserved": "date -"
+    "text_preserved": "date:-"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 506,
     "span_type": "line",
@@ -8602,7 +8602,7 @@
     "text_preserved": "01/12/20"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 507,
     "span_type": "line",
@@ -8619,7 +8619,7 @@
     "text_preserved": "6"
   },
   {
-    "doc_id": "3ab3c183-13a5-4e2d-b207-61e431c52647",
+    "doc_id": "f3557c63-7309-4dff-ba1c-bc3a6b482004",
     "page": 7,
     "span_id": 508,
     "span_type": "line",

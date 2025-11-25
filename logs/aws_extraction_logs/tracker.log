@@ -1571,3 +1571,2395 @@
 2025-11-08 14:28:12 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as SUCCESS
 2025-11-08 14:28:16 [INFO] [tracker] 🧾 Recorded task 'generate_schema_stats' as STARTED
 2025-11-08 14:28:17 [INFO] [tracker] 🧾 Recorded task 'generate_schema_stats' as SUCCESS
+2025-11-14 09:36:02 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as STARTED
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as STARTED
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as SUCCESS
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as STARTED
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as SUCCESS
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as STARTED
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as SUCCESS
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as STARTED
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as SUCCESS
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as STARTED
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as SUCCESS
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as STARTED
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as SUCCESS
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as STARTED
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as SUCCESS
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as STARTED
+2025-11-14 09:36:03 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as SUCCESS
+2025-11-14 09:36:04 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as STARTED
+2025-11-14 09:36:04 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as SUCCESS
+2025-11-14 09:36:04 [INFO] [tracker] 🧾 Recorded task 'normalize_pl_agreement_segmented' as STARTED
+2025-11-14 09:36:04 [INFO] [tracker] 🧾 Recorded task 'normalize_pl_agreement_segmented' as SUCCESS
+2025-11-14 09:36:04 [INFO] [tracker] 🧾 Recorded task 'normalize_specimen-agreement_segmented' as STARTED
+2025-11-14 09:36:04 [INFO] [tracker] 🧾 Recorded task 'normalize_specimen-agreement_segmented' as SUCCESS
+2025-11-14 09:36:04 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as SUCCESS
+2025-11-14 12:38:31 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 12:39:13 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as SUCCESS
+2025-11-14 13:41:52 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_index' as STARTED
+2025-11-14 13:41:53 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_index' as SUCCESS
+2025-11-14 14:30:47 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 14:30:49 [INFO] [tracker] 🧾 Recorded task 'llm_embed_utils' as FAILED
+2025-11-14 14:30:49 [ERROR] [tracker] ❌ llm_embed_utils - The paging file is too small for this operation to complete. (os error 1455)
+2025-11-14 14:30:49 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as FAILED
+2025-11-14 14:30:49 [ERROR] [tracker] ❌ llm_build_vector_index - The paging file is too small for this operation to complete. (os error 1455)
+2025-11-14 15:14:48 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 15:15:26 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as SUCCESS
+2025-11-14 15:15:42 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 15:16:13 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as SUCCESS
+2025-11-14 15:16:29 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 15:16:59 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as SUCCESS
+2025-11-14 15:17:11 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 15:17:42 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as SUCCESS
+2025-11-14 15:19:16 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 15:19:42 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as SUCCESS
+2025-11-14 15:41:30 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 15:41:54 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as SUCCESS
+2025-11-14 16:05:01 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as STARTED
+2025-11-14 16:05:01 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as STARTED
+2025-11-14 16:05:01 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as SUCCESS
+2025-11-14 16:05:01 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as STARTED
+2025-11-14 16:05:01 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as SUCCESS
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as STARTED
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as SUCCESS
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as STARTED
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as SUCCESS
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as STARTED
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as SUCCESS
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as STARTED
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as SUCCESS
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as STARTED
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as SUCCESS
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as STARTED
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as SUCCESS
+2025-11-14 16:05:02 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as STARTED
+2025-11-14 16:05:53 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as STARTED
+2025-11-14 16:05:53 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as STARTED
+2025-11-14 16:05:53 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as SUCCESS
+2025-11-14 16:05:53 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as STARTED
+2025-11-14 16:05:53 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as SUCCESS
+2025-11-14 16:05:53 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as STARTED
+2025-11-14 16:05:53 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as SUCCESS
+2025-11-14 16:05:53 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as STARTED
+2025-11-14 16:05:53 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as SUCCESS
+2025-11-14 16:05:53 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as STARTED
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as SUCCESS
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as STARTED
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as SUCCESS
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as STARTED
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as SUCCESS
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as STARTED
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as SUCCESS
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as STARTED
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as SUCCESS
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_pl_agreement_segmented' as STARTED
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_pl_agreement_segmented' as SUCCESS
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_specimen-agreement_segmented' as STARTED
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'normalize_specimen-agreement_segmented' as SUCCESS
+2025-11-14 16:05:54 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as SUCCESS
+2025-11-14 16:06:37 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as STARTED
+2025-11-14 16:06:37 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as STARTED
+2025-11-14 16:06:37 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as SUCCESS
+2025-11-14 16:06:37 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as STARTED
+2025-11-14 16:06:38 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as SUCCESS
+2025-11-14 16:06:38 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as STARTED
+2025-11-14 16:06:38 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as SUCCESS
+2025-11-14 16:06:38 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as STARTED
+2025-11-14 16:06:38 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as SUCCESS
+2025-11-14 16:06:38 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as STARTED
+2025-11-14 16:06:38 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as SUCCESS
+2025-11-14 16:06:56 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as STARTED
+2025-11-14 16:06:56 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as STARTED
+2025-11-14 16:06:56 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as SUCCESS
+2025-11-14 16:06:56 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as STARTED
+2025-11-14 16:06:56 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as SUCCESS
+2025-11-14 16:06:56 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as STARTED
+2025-11-14 16:06:56 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as SUCCESS
+2025-11-14 16:06:57 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as STARTED
+2025-11-14 16:06:57 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as SUCCESS
+2025-11-14 16:06:57 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as STARTED
+2025-11-14 16:06:57 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as SUCCESS
+2025-11-14 16:06:57 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as STARTED
+2025-11-14 16:06:57 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as SUCCESS
+2025-11-14 16:06:57 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as STARTED
+2025-11-14 16:06:57 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as SUCCESS
+2025-11-14 16:06:57 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as STARTED
+2025-11-14 16:06:57 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as SUCCESS
+2025-11-14 16:06:57 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as STARTED
+2025-11-14 16:06:58 [ERROR] [tracker] ❌ Failed to update manifest for run_normalization_all: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:58 [ERROR] [tracker] ❌ Failed to update manifest for normalize_empty_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:58 [ERROR] [tracker] ❌ Failed to update manifest for normalize_empty_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:58 [ERROR] [tracker] ❌ Failed to update manifest for normalize_form_centre_showcase_personal_loan_form_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:58 [ERROR] [tracker] ❌ Failed to update manifest for normalize_form_centre_showcase_personal_loan_form_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:58 [ERROR] [tracker] ❌ Failed to update manifest for normalize_gss-term-loan-agreement-ccd-5_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_gss-term-loan-agreement-ccd-5_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_home_loan_001_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_home_loan_001_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan1_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan1_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan2_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan2_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan3_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan3_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_Personal-Loan-Agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_Personal-Loan-Agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_pl_agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_pl_agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_specimen-agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_specimen-agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:06:59 [ERROR] [tracker] ❌ Failed to update manifest for run_normalization_all: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:08:57 [ERROR] [tracker] ❌ Failed to update manifest for llm_build_vector_index: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:09:59 [ERROR] [tracker] ❌ Failed to update manifest for run_normalization_all: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:09:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_empty_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:09:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_empty_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:09:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_form_centre_showcase_personal_loan_form_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:09:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_form_centre_showcase_personal_loan_form_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:09:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_gss-term-loan-agreement-ccd-5_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:09:59 [ERROR] [tracker] ❌ Failed to update manifest for normalize_gss-term-loan-agreement-ccd-5_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_home_loan_001_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_home_loan_001_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan1_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan1_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan2_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan2_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan3_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan3_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_Personal-Loan-Agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_Personal-Loan-Agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_pl_agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_pl_agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_specimen-agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for normalize_specimen-agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:10:00 [ERROR] [tracker] ❌ Failed to update manifest for run_normalization_all: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:11:23 [ERROR] [tracker] ❌ Failed to update manifest for run_normalization_all: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:11:23 [ERROR] [tracker] ❌ Failed to update manifest for normalize_empty_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:11:23 [ERROR] [tracker] ❌ Failed to update manifest for normalize_empty_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:11:23 [ERROR] [tracker] ❌ Failed to update manifest for normalize_form_centre_showcase_personal_loan_form_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:11:24 [ERROR] [tracker] ❌ Failed to update manifest for normalize_form_centre_showcase_personal_loan_form_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:11:24 [ERROR] [tracker] ❌ Failed to update manifest for normalize_gss-term-loan-agreement-ccd-5_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for run_normalization_all: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_empty_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_empty_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_form_centre_showcase_personal_loan_form_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_form_centre_showcase_personal_loan_form_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_gss-term-loan-agreement-ccd-5_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_gss-term-loan-agreement-ccd-5_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_home_loan_001_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_home_loan_001_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan1_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan1_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan2_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan2_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan3_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan3_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_Personal-Loan-Agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_Personal-Loan-Agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_pl_agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_pl_agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_specimen-agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for normalize_specimen-agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:01 [ERROR] [tracker] ❌ Failed to update manifest for run_normalization_all: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:07 [ERROR] [tracker] ❌ Failed to update manifest for run_normalization_all: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_empty_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_empty_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_form_centre_showcase_personal_loan_form_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_form_centre_showcase_personal_loan_form_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_gss-term-loan-agreement-ccd-5_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_gss-term-loan-agreement-ccd-5_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_home_loan_001_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_home_loan_001_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan1_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan1_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan2_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan2_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan3_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan3_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_Personal-Loan-Agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_Personal-Loan-Agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_pl_agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_pl_agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_specimen-agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for normalize_specimen-agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:08 [ERROR] [tracker] ❌ Failed to update manifest for run_normalization_all: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for run_normalization_all: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_empty_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_empty_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_form_centre_showcase_personal_loan_form_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_form_centre_showcase_personal_loan_form_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_gss-term-loan-agreement-ccd-5_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_gss-term-loan-agreement-ccd-5_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_home_loan_001_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_home_loan_001_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan1_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan1_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan2_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan2_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan3_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan3_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_loan_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_Personal-Loan-Agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_Personal-Loan-Agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_pl_agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_pl_agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_specimen-agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for normalize_specimen-agreement_segmented: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:14:11 [ERROR] [tracker] ❌ Failed to update manifest for run_normalization_all: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\aws_extraction_scripts\tracker.py", line 63, in track_task
+    existing = json.loads(content)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5343 column 4 (char 165797)
+2025-11-14 16:19:21 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as STARTED
+2025-11-14 16:19:21 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as STARTED
+2025-11-14 16:19:21 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as SUCCESS
+2025-11-14 16:19:21 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as STARTED
+2025-11-14 16:19:21 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as SUCCESS
+2025-11-14 16:19:21 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as STARTED
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as SUCCESS
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as STARTED
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as SUCCESS
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as STARTED
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as SUCCESS
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as STARTED
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as SUCCESS
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as STARTED
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as SUCCESS
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as STARTED
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as SUCCESS
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as STARTED
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as SUCCESS
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_pl_agreement_segmented' as STARTED
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_pl_agreement_segmented' as SUCCESS
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_specimen-agreement_segmented' as STARTED
+2025-11-14 16:19:22 [INFO] [tracker] 🧾 Recorded task 'normalize_specimen-agreement_segmented' as SUCCESS
+2025-11-14 16:19:23 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as SUCCESS
+2025-11-14 16:20:04 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 16:20:58 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 16:21:29 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as SUCCESS
+2025-11-14 16:28:52 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 16:29:21 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as SUCCESS
+2025-11-14 16:39:38 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 16:40:07 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as SUCCESS
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as STARTED
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as STARTED
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as SUCCESS
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as STARTED
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as SUCCESS
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as STARTED
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as SUCCESS
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as STARTED
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as SUCCESS
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as STARTED
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as SUCCESS
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as STARTED
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as SUCCESS
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as STARTED
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as SUCCESS
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as STARTED
+2025-11-14 16:53:23 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as SUCCESS
+2025-11-14 16:53:24 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as STARTED
+2025-11-14 16:53:24 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as SUCCESS
+2025-11-14 16:53:24 [INFO] [tracker] 🧾 Recorded task 'normalize_pl_agreement_segmented' as STARTED
+2025-11-14 16:53:24 [INFO] [tracker] 🧾 Recorded task 'normalize_pl_agreement_segmented' as SUCCESS
+2025-11-14 16:53:24 [INFO] [tracker] 🧾 Recorded task 'normalize_specimen-agreement_segmented' as STARTED
+2025-11-14 16:53:24 [INFO] [tracker] 🧾 Recorded task 'normalize_specimen-agreement_segmented' as SUCCESS
+2025-11-14 16:53:24 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as SUCCESS
+2025-11-14 16:58:51 [INFO] [tracker] 🧾 Recorded task 'run_segmentation_all' as STARTED
+2025-11-14 16:58:51 [INFO] [tracker] 🧾 Recorded task 'segment_dummy_raw' as STARTED
+2025-11-14 16:58:51 [INFO] [tracker] 🧾 Recorded task 'segment_dummy_raw' as SUCCESS
+2025-11-14 16:58:51 [INFO] [tracker] 🧾 Recorded task 'segment_form_centre_showcase_personal_loan_form_raw' as STARTED
+2025-11-14 16:58:51 [INFO] [tracker] 🧾 Recorded task 'segment_form_centre_showcase_personal_loan_form_raw' as SUCCESS
+2025-11-14 16:58:51 [INFO] [tracker] 🧾 Recorded task 'segment_gss-term-loan-agreement-ccd-5_raw' as STARTED
+2025-11-14 16:58:52 [INFO] [tracker] 🧾 Recorded task 'segment_gss-term-loan-agreement-ccd-5_raw' as SUCCESS
+2025-11-14 16:58:52 [INFO] [tracker] 🧾 Recorded task 'segment_home_loan_001_raw' as STARTED
+2025-11-14 16:58:52 [INFO] [tracker] 🧾 Recorded task 'segment_home_loan_001_raw' as SUCCESS
+2025-11-14 16:58:52 [INFO] [tracker] 🧾 Recorded task 'segment_loan1_raw' as STARTED
+2025-11-14 16:58:52 [INFO] [tracker] 🧾 Recorded task 'segment_loan1_raw' as SUCCESS
+2025-11-14 16:58:52 [INFO] [tracker] 🧾 Recorded task 'segment_loan2_raw' as STARTED
+2025-11-14 16:58:53 [INFO] [tracker] 🧾 Recorded task 'segment_loan2_raw' as SUCCESS
+2025-11-14 16:58:53 [INFO] [tracker] 🧾 Recorded task 'segment_loan3_raw' as STARTED
+2025-11-14 16:58:53 [INFO] [tracker] 🧾 Recorded task 'segment_loan3_raw' as SUCCESS
+2025-11-14 16:58:53 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement_raw' as STARTED
+2025-11-14 16:58:53 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement_raw' as SUCCESS
+2025-11-14 16:58:53 [INFO] [tracker] 🧾 Recorded task 'segment_pl_agreement_raw' as STARTED
+2025-11-14 16:58:54 [INFO] [tracker] 🧾 Recorded task 'segment_pl_agreement_raw' as SUCCESS
+2025-11-14 16:58:54 [INFO] [tracker] 🧾 Recorded task 'segment_specimen-agreement_raw' as STARTED
+2025-11-14 16:58:54 [INFO] [tracker] 🧾 Recorded task 'segment_specimen-agreement_raw' as SUCCESS
+2025-11-14 16:58:54 [INFO] [tracker] 🧾 Recorded task 'run_segmentation_all' as SUCCESS
+2025-11-14 17:14:31 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as STARTED
+2025-11-14 17:15:02 [INFO] [tracker] 🧾 Recorded task 'llm_build_vector_index' as SUCCESS
+2025-11-14 21:20:44 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-14 22:03:53 [INFO] [tracker] 🧾 Recorded task 'merge_spans_for_clauses' as STARTED
+2025-11-14 22:03:54 [INFO] [tracker] 🧾 Recorded task 'merge_spans_for_clauses' as SUCCESS
+2025-11-14 22:17:43 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-14 22:22:48 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-14 22:52:29 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as STARTED
+2025-11-14 22:52:33 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-14 22:52:33 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as FAILED
+2025-11-14 22:52:33 [ERROR] [tracker] ❌ llm_query_engine - 'text_display'
+2025-11-14 22:57:33 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as STARTED
+2025-11-14 22:57:36 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-14 22:57:36 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as SUCCESS
+2025-11-15 08:30:33 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as STARTED
+2025-11-15 08:30:35 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-15 08:30:36 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as SUCCESS
+2025-11-15 08:52:44 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-15 08:53:32 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-15 08:59:14 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as STARTED
+2025-11-15 08:59:15 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-15 08:59:16 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as SUCCESS
+2025-11-15 09:00:15 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as STARTED
+2025-11-15 09:00:16 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-15 09:00:17 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as SUCCESS
+2025-11-15 09:01:44 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as STARTED
+2025-11-15 09:01:47 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-15 09:01:47 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as FAILED
+2025-11-15 09:01:47 [ERROR] [tracker] ❌ llm_query_engine - cannot access local variable 'instructions' where it is not associated with a value
+2025-11-15 09:06:39 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as STARTED
+2025-11-15 09:06:42 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-15 09:06:43 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as SUCCESS
+2025-11-15 09:07:36 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as STARTED
+2025-11-15 09:07:37 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-15 09:07:38 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as SUCCESS
+2025-11-15 09:14:54 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as STARTED
+2025-11-15 09:14:56 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-15 09:14:57 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as SUCCESS
+2025-11-15 09:19:56 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as STARTED
+2025-11-15 09:19:58 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-15 09:19:59 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as SUCCESS
+2025-11-15 09:22:57 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as STARTED
+2025-11-15 09:22:58 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-15 09:22:59 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as SUCCESS
+2025-11-15 09:27:21 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as STARTED
+2025-11-15 09:27:24 [INFO] [tracker] 🧾 Recorded task 'llm_retrieve_from_index' as SUCCESS
+2025-11-15 09:27:25 [INFO] [tracker] 🧾 Recorded task 'llm_query_engine' as SUCCESS
+2025-11-15 22:14:47 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as STARTED
+2025-11-15 22:14:48 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as SUCCESS
+2025-11-15 22:20:30 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as STARTED
+2025-11-15 22:20:30 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as STARTED
+2025-11-15 22:20:32 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as SUCCESS
+2025-11-15 22:20:32 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as SUCCESS
+2025-11-15 22:22:00 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as STARTED
+2025-11-15 22:22:00 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as STARTED
+2025-11-15 22:22:33 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as STARTED
+2025-11-15 22:22:34 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as SUCCESS
+2025-11-15 22:22:40 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as STARTED
+2025-11-15 22:22:41 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as STARTED
+2025-11-15 22:22:41 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as SUCCESS
+2025-11-15 22:22:41 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement' as STARTED
+2025-11-15 22:22:59 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement' as SUCCESS
+2025-11-15 22:23:04 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as SUCCESS
+2025-11-15 22:33:23 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as STARTED
+2025-11-15 22:33:24 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as STARTED
+2025-11-15 22:33:25 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as SUCCESS
+2025-11-15 22:33:25 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as SUCCESS
+2025-11-15 22:48:59 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as STARTED
+2025-11-15 22:48:59 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as STARTED
+2025-11-15 22:49:00 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as SUCCESS
+2025-11-15 22:49:02 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as SUCCESS
+2025-11-15 22:53:24 [INFO] [tracker] 🧾 Recorded task 'run_segmentation_all' as STARTED
+2025-11-15 22:53:24 [INFO] [tracker] 🧾 Recorded task 'run_segmentation_all' as SUCCESS
+2025-11-15 22:54:54 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as STARTED
+2025-11-15 22:54:54 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as SUCCESS
+2025-11-16 02:11:00 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as STARTED
+2025-11-16 02:11:00 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as STARTED
+2025-11-16 02:11:01 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as SUCCESS
+2025-11-16 02:11:01 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as SUCCESS
+2025-11-16 02:13:19 [INFO] [tracker] 🧾 Recorded task 'run_segmentation_all' as STARTED
+2025-11-16 02:13:19 [INFO] [tracker] 🧾 Recorded task 'segment_dummy_raw' as STARTED
+2025-11-16 02:13:19 [INFO] [tracker] 🧾 Recorded task 'segment_dummy_raw' as SUCCESS
+2025-11-16 02:13:20 [INFO] [tracker] 🧾 Recorded task 'segment_form_centre_showcase_personal_loan_form_raw' as STARTED
+2025-11-16 02:13:20 [INFO] [tracker] 🧾 Recorded task 'segment_form_centre_showcase_personal_loan_form_raw' as SUCCESS
+2025-11-16 02:13:20 [INFO] [tracker] 🧾 Recorded task 'segment_gss-term-loan-agreement-ccd-5_raw' as STARTED
+2025-11-16 02:13:20 [INFO] [tracker] 🧾 Recorded task 'segment_gss-term-loan-agreement-ccd-5_raw' as SUCCESS
+2025-11-16 02:13:20 [INFO] [tracker] 🧾 Recorded task 'segment_home_loan_001_raw' as STARTED
+2025-11-16 02:13:20 [INFO] [tracker] 🧾 Recorded task 'segment_home_loan_001_raw' as SUCCESS
+2025-11-16 02:13:20 [INFO] [tracker] 🧾 Recorded task 'segment_loan1_raw' as STARTED
+2025-11-16 02:13:20 [INFO] [tracker] 🧾 Recorded task 'segment_loan1_raw' as SUCCESS
+2025-11-16 02:13:20 [INFO] [tracker] 🧾 Recorded task 'segment_loan2_raw' as STARTED
+2025-11-16 02:13:20 [INFO] [tracker] 🧾 Recorded task 'segment_loan2_raw' as SUCCESS
+2025-11-16 02:13:21 [INFO] [tracker] 🧾 Recorded task 'segment_loan3_raw' as STARTED
+2025-11-16 02:13:21 [INFO] [tracker] 🧾 Recorded task 'segment_loan3_raw' as SUCCESS
+2025-11-16 02:13:21 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement_raw' as STARTED
+2025-11-16 02:13:21 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement_raw' as SUCCESS
+2025-11-16 02:13:21 [INFO] [tracker] 🧾 Recorded task 'segment_pl_agreement_raw' as STARTED
+2025-11-16 02:13:22 [INFO] [tracker] 🧾 Recorded task 'segment_pl_agreement_raw' as SUCCESS
+2025-11-16 02:13:22 [INFO] [tracker] 🧾 Recorded task 'segment_specimen-agreement_raw' as STARTED
+2025-11-16 02:13:22 [INFO] [tracker] 🧾 Recorded task 'segment_specimen-agreement_raw' as SUCCESS
+2025-11-16 02:13:22 [INFO] [tracker] 🧾 Recorded task 'run_segmentation_all' as SUCCESS
+2025-11-16 02:15:12 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as STARTED
+2025-11-16 02:15:12 [INFO] [tracker] 🧾 Recorded task 'normalize_dummy_segmented' as STARTED
+2025-11-16 02:15:12 [INFO] [tracker] 🧾 Recorded task 'normalize_dummy_segmented' as SUCCESS
+2025-11-16 02:15:12 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as STARTED
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_empty_segmented' as SUCCESS
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as STARTED
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as SUCCESS
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as STARTED
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as SUCCESS
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as STARTED
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_home_loan_001_segmented' as SUCCESS
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as STARTED
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_loan1_segmented' as SUCCESS
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as STARTED
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_loan2_segmented' as SUCCESS
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as STARTED
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_loan3_segmented' as SUCCESS
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as STARTED
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_loan_segmented' as SUCCESS
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as STARTED
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as SUCCESS
+2025-11-16 02:15:13 [INFO] [tracker] 🧾 Recorded task 'normalize_pl_agreement_segmented' as STARTED
+2025-11-16 02:15:14 [INFO] [tracker] 🧾 Recorded task 'normalize_pl_agreement_segmented' as SUCCESS
+2025-11-16 02:15:14 [INFO] [tracker] 🧾 Recorded task 'normalize_specimen-agreement_segmented' as STARTED
+2025-11-16 02:15:14 [INFO] [tracker] 🧾 Recorded task 'normalize_specimen-agreement_segmented' as SUCCESS
+2025-11-16 02:15:14 [INFO] [tracker] 🧾 Recorded task 'run_normalization_all' as SUCCESS
+2025-11-16 02:53:47 [INFO] [tracker] 🧾 Recorded task 'run_textract_loan1' as STARTED
+2025-11-16 02:54:17 [INFO] [tracker] 🧾 Recorded task 'run_textract_loan1' as FAILED
+2025-11-16 02:54:17 [ERROR] [tracker] ❌ run_textract_loan1 - Failed to connect to Textract after multiple attempts.
+2025-11-16 02:55:13 [INFO] [tracker] 🧾 Recorded task 'run_textract_loan1' as STARTED
+2025-11-16 02:55:43 [INFO] [tracker] 🧾 Recorded task 'run_textract_loan1' as FAILED
+2025-11-16 02:55:43 [ERROR] [tracker] ❌ run_textract_loan1 - Failed to connect to Textract after multiple attempts.
+2025-11-16 02:56:27 [INFO] [tracker] 🧾 Recorded task 'run_textract_loan1' as STARTED
+2025-11-16 02:56:56 [INFO] [tracker] 🧾 Recorded task 'run_textract_loan1' as FAILED
+2025-11-16 02:56:56 [ERROR] [tracker] ❌ run_textract_loan1 - Failed to connect to Textract after multiple attempts.
+2025-11-16 03:02:07 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 03:02:36 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as FAILED
+2025-11-16 03:02:36 [ERROR] [tracker] ❌ run_textract_Personal-Loan-Agreement - Copy - Failed to connect to Textract after multiple attempts.
+2025-11-16 03:05:47 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 03:06:16 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as FAILED
+2025-11-16 03:06:16 [ERROR] [tracker] ❌ run_textract_Personal-Loan-Agreement - Copy - Failed to connect to Textract after multiple attempts.
+2025-11-16 03:06:20 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 03:06:49 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as FAILED
+2025-11-16 03:06:49 [ERROR] [tracker] ❌ run_textract_Personal-Loan-Agreement - Copy - Failed to connect to Textract after multiple attempts.
+2025-11-16 03:18:12 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 03:18:37 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as STARTED
+2025-11-16 03:18:37 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as STARTED
+2025-11-16 03:18:38 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as SUCCESS
+2025-11-16 03:18:38 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as SUCCESS
+2025-11-16 03:25:06 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as STARTED
+2025-11-16 03:25:06 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as STARTED
+2025-11-16 03:25:08 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as SUCCESS
+2025-11-16 03:25:08 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as SUCCESS
+2025-11-16 03:25:19 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 03:25:32 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as SUCCESS
+2025-11-16 03:25:32 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as STARTED
+2025-11-16 03:25:32 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as SUCCESS
+2025-11-16 03:25:33 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as STARTED
+2025-11-16 03:25:33 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as SUCCESS
+2025-11-16 03:28:21 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as STARTED
+2025-11-16 03:28:21 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as STARTED
+2025-11-16 03:28:22 [INFO] [tracker] 🧾 Recorded task 'fetch_files' as SUCCESS
+2025-11-16 03:28:22 [INFO] [tracker] 🧾 Recorded task 'run_textract_all' as SUCCESS
+2025-11-16 03:32:36 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 03:32:49 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as SUCCESS
+2025-11-16 03:32:49 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as STARTED
+2025-11-16 03:32:49 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as SUCCESS
+2025-11-16 03:32:49 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as STARTED
+2025-11-16 03:32:49 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as SUCCESS
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'run_layout_all' as STARTED
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_dummy_normalized' as STARTED
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_dummy_normalized' as SUCCESS
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_empty_normalized' as STARTED
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_empty_normalized' as SUCCESS
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_form_centre_showcase_personal_loan_form_normalized' as STARTED
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_form_centre_showcase_personal_loan_form_normalized' as SUCCESS
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_gss-term-loan-agreement-ccd-5_normalized' as STARTED
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_gss-term-loan-agreement-ccd-5_normalized' as SUCCESS
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_home_loan_001_normalized' as STARTED
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_home_loan_001_normalized' as SUCCESS
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_loan1_normalized' as STARTED
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_loan1_normalized' as SUCCESS
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_loan2_normalized' as STARTED
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_loan2_normalized' as SUCCESS
+2025-11-16 07:30:54 [INFO] [tracker] 🧾 Recorded task 'layout_loan3_normalized' as STARTED
+2025-11-16 07:30:55 [INFO] [tracker] 🧾 Recorded task 'layout_loan3_normalized' as SUCCESS
+2025-11-16 07:30:55 [INFO] [tracker] 🧾 Recorded task 'layout_loan_normalized' as STARTED
+2025-11-16 07:30:55 [INFO] [tracker] 🧾 Recorded task 'layout_loan_normalized' as SUCCESS
+2025-11-16 07:30:55 [INFO] [tracker] 🧾 Recorded task 'layout_Personal-Loan-Agreement_normalized' as STARTED
+2025-11-16 07:30:55 [INFO] [tracker] 🧾 Recorded task 'layout_Personal-Loan-Agreement_normalized' as SUCCESS
+2025-11-16 07:30:55 [INFO] [tracker] 🧾 Recorded task 'layout_pl_agreement_normalized' as STARTED
+2025-11-16 07:30:55 [INFO] [tracker] 🧾 Recorded task 'layout_pl_agreement_normalized' as SUCCESS
+2025-11-16 07:30:55 [INFO] [tracker] 🧾 Recorded task 'layout_specimen-agreement_normalized' as STARTED
+2025-11-16 07:30:55 [INFO] [tracker] 🧾 Recorded task 'layout_specimen-agreement_normalized' as SUCCESS
+2025-11-16 07:30:55 [INFO] [tracker] 🧾 Recorded task 'run_layout_all' as SUCCESS
+2025-11-16 07:37:31 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 07:38:04 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as SUCCESS
+2025-11-16 07:38:04 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as STARTED
+2025-11-16 07:38:04 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as SUCCESS
+2025-11-16 07:38:04 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as STARTED
+2025-11-16 07:38:04 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as SUCCESS
+2025-11-16 07:39:22 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 07:39:49 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 07:40:12 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as SUCCESS
+2025-11-16 07:40:12 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as STARTED
+2025-11-16 07:40:12 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as SUCCESS
+2025-11-16 07:40:12 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as STARTED
+2025-11-16 07:40:12 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as SUCCESS
+2025-11-16 07:51:27 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 07:51:35 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as SUCCESS
+2025-11-16 07:51:35 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as STARTED
+2025-11-16 07:51:35 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as SUCCESS
+2025-11-16 07:51:36 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as STARTED
+2025-11-16 07:51:36 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as SUCCESS
+2025-11-16 07:52:15 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 07:52:24 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 07:52:32 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as SUCCESS
+2025-11-16 07:52:32 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as STARTED
+2025-11-16 07:52:32 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as SUCCESS
+2025-11-16 07:52:33 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as STARTED
+2025-11-16 07:52:33 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as SUCCESS
+2025-11-16 08:29:34 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 08:29:44 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as SUCCESS
+2025-11-16 08:29:44 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as STARTED
+2025-11-16 08:29:44 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as SUCCESS
+2025-11-16 08:29:44 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as STARTED
+2025-11-16 08:29:44 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as SUCCESS
+2025-11-16 08:29:44 [INFO] [tracker] 🧾 Recorded task 'layout_Personal-Loan-Agreement - Copy_normalized' as STARTED
+2025-11-16 08:29:44 [INFO] [tracker] 🧾 Recorded task 'layout_Personal-Loan-Agreement - Copy_normalized' as SUCCESS
+2025-11-16 08:41:22 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as STARTED
+2025-11-16 08:41:50 [INFO] [tracker] 🧾 Recorded task 'run_textract_Personal-Loan-Agreement - Copy' as SUCCESS
+2025-11-16 08:41:50 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as STARTED
+2025-11-16 08:41:50 [INFO] [tracker] 🧾 Recorded task 'segment_Personal-Loan-Agreement - Copy_raw' as SUCCESS
+2025-11-16 08:41:50 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as STARTED
+2025-11-16 08:41:51 [INFO] [tracker] 🧾 Recorded task 'normalize_Personal-Loan-Agreement - Copy_segmented' as SUCCESS
+2025-11-16 08:41:51 [INFO] [tracker] 🧾 Recorded task 'layout_Personal-Loan-Agreement - Copy_normalized' as STARTED
+2025-11-16 08:41:51 [INFO] [tracker] 🧾 Recorded task 'layout_Personal-Loan-Agreement - Copy_normalized' as SUCCESS
+2025-11-23 15:52:31 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmpa6d_plzy' as STARTED
+2025-11-23 15:52:40 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmpa6d_plzy' as SUCCESS
+2025-11-23 15:52:40 [INFO] [tracker] 🧾 Recorded task 'segment_tmpa6d_plzy_raw' as STARTED
+2025-11-23 15:52:40 [INFO] [tracker] 🧾 Recorded task 'segment_tmpa6d_plzy_raw' as SUCCESS
+2025-11-23 15:52:41 [INFO] [tracker] 🧾 Recorded task 'normalize_tmpa6d_plzy_segmented' as STARTED
+2025-11-23 15:52:41 [INFO] [tracker] 🧾 Recorded task 'normalize_tmpa6d_plzy_segmented' as SUCCESS
+2025-11-23 15:52:41 [INFO] [tracker] 🧾 Recorded task 'layout_tmpa6d_plzy_normalized' as STARTED
+2025-11-23 15:52:41 [INFO] [tracker] 🧾 Recorded task 'layout_tmpa6d_plzy_normalized' as SUCCESS
+2025-11-23 16:26:03 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmpnbioniwk' as STARTED
+2025-11-23 16:26:49 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmpnbioniwk' as SUCCESS
+2025-11-23 16:26:49 [INFO] [tracker] 🧾 Recorded task 'segment_tmpnbioniwk_raw' as STARTED
+2025-11-23 16:26:49 [INFO] [tracker] 🧾 Recorded task 'segment_tmpnbioniwk_raw' as SUCCESS
+2025-11-23 16:26:49 [INFO] [tracker] 🧾 Recorded task 'normalize_tmpnbioniwk_segmented' as STARTED
+2025-11-23 16:26:49 [INFO] [tracker] 🧾 Recorded task 'normalize_tmpnbioniwk_segmented' as SUCCESS
+2025-11-23 16:26:49 [INFO] [tracker] 🧾 Recorded task 'layout_tmpnbioniwk_normalized' as STARTED
+2025-11-23 16:26:49 [INFO] [tracker] 🧾 Recorded task 'layout_tmpnbioniwk_normalized' as SUCCESS
+2025-11-23 22:58:18 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmp1gh23nv7' as STARTED
+2025-11-23 22:58:32 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmp1gh23nv7' as SUCCESS
+2025-11-23 22:58:32 [INFO] [tracker] 🧾 Recorded task 'segment_tmp1gh23nv7_raw' as STARTED
+2025-11-23 22:58:32 [INFO] [tracker] 🧾 Recorded task 'segment_tmp1gh23nv7_raw' as SUCCESS
+2025-11-23 22:58:32 [INFO] [tracker] 🧾 Recorded task 'normalize_tmp1gh23nv7_segmented' as STARTED
+2025-11-23 22:58:32 [INFO] [tracker] 🧾 Recorded task 'normalize_tmp1gh23nv7_segmented' as SUCCESS
+2025-11-23 22:58:32 [INFO] [tracker] 🧾 Recorded task 'layout_tmp1gh23nv7_normalized' as STARTED
+2025-11-23 22:58:32 [INFO] [tracker] 🧾 Recorded task 'layout_tmp1gh23nv7_normalized' as SUCCESS
+2025-11-24 16:43:17 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmphuoe2xy4' as STARTED
+2025-11-24 16:44:42 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmphuoe2xy4' as SUCCESS
+2025-11-24 16:44:42 [INFO] [tracker] 🧾 Recorded task 'segment_tmphuoe2xy4_raw' as STARTED
+2025-11-24 16:44:42 [INFO] [tracker] 🧾 Recorded task 'segment_tmphuoe2xy4_raw' as SUCCESS
+2025-11-24 16:44:42 [INFO] [tracker] 🧾 Recorded task 'normalize_tmphuoe2xy4_segmented' as STARTED
+2025-11-24 16:44:42 [INFO] [tracker] 🧾 Recorded task 'normalize_tmphuoe2xy4_segmented' as SUCCESS
+2025-11-24 16:44:42 [INFO] [tracker] 🧾 Recorded task 'layout_tmphuoe2xy4_normalized' as STARTED
+2025-11-24 16:44:42 [INFO] [tracker] 🧾 Recorded task 'layout_tmphuoe2xy4_normalized' as SUCCESS
+2025-11-25 11:01:42 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmp7d1nnzkb' as STARTED
+2025-11-25 11:01:58 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmp7d1nnzkb' as SUCCESS
+2025-11-25 11:01:58 [INFO] [tracker] 🧾 Recorded task 'segment_tmp7d1nnzkb_raw' as STARTED
+2025-11-25 11:01:59 [INFO] [tracker] 🧾 Recorded task 'segment_tmp7d1nnzkb_raw' as SUCCESS
+2025-11-25 11:01:59 [INFO] [tracker] 🧾 Recorded task 'normalize_tmp7d1nnzkb_segmented' as STARTED
+2025-11-25 11:01:59 [INFO] [tracker] 🧾 Recorded task 'normalize_tmp7d1nnzkb_segmented' as SUCCESS
+2025-11-25 11:01:59 [INFO] [tracker] 🧾 Recorded task 'layout_tmp7d1nnzkb_normalized' as STARTED
+2025-11-25 11:01:59 [INFO] [tracker] 🧾 Recorded task 'layout_tmp7d1nnzkb_normalized' as SUCCESS
+2025-11-25 12:38:08 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmp_timadju' as STARTED
+2025-11-25 12:38:55 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmp_timadju' as SUCCESS
+2025-11-25 12:38:56 [INFO] [tracker] 🧾 Recorded task 'segment_tmp_timadju_raw' as STARTED
+2025-11-25 12:38:56 [INFO] [tracker] 🧾 Recorded task 'segment_tmp_timadju_raw' as SUCCESS
+2025-11-25 12:38:56 [INFO] [tracker] 🧾 Recorded task 'normalize_tmp_timadju_segmented' as STARTED
+2025-11-25 12:38:56 [INFO] [tracker] 🧾 Recorded task 'normalize_tmp_timadju_segmented' as SUCCESS
+2025-11-25 12:38:56 [INFO] [tracker] 🧾 Recorded task 'layout_tmp_timadju_normalized' as STARTED
+2025-11-25 12:38:57 [INFO] [tracker] 🧾 Recorded task 'layout_tmp_timadju_normalized' as SUCCESS
+2025-11-25 13:26:20 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmpeffam0f_' as STARTED
+2025-11-25 13:26:39 [INFO] [tracker] 🧾 Recorded task 'run_textract_tmpeffam0f_' as SUCCESS
+2025-11-25 13:26:39 [INFO] [tracker] 🧾 Recorded task 'segment_tmpeffam0f__raw' as STARTED
+2025-11-25 13:26:39 [INFO] [tracker] 🧾 Recorded task 'segment_tmpeffam0f__raw' as SUCCESS
+2025-11-25 13:26:39 [INFO] [tracker] 🧾 Recorded task 'normalize_tmpeffam0f__segmented' as STARTED
+2025-11-25 13:26:39 [INFO] [tracker] 🧾 Recorded task 'normalize_tmpeffam0f__segmented' as SUCCESS
+2025-11-25 13:26:39 [INFO] [tracker] 🧾 Recorded task 'layout_tmpeffam0f__normalized' as STARTED
+2025-11-25 13:26:39 [INFO] [tracker] 🧾 Recorded task 'layout_tmpeffam0f__normalized' as SUCCESS

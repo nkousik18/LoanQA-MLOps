@@ -1,0 +1,56 @@
+2025-11-14 22:52:29 [INFO] [llm_query_engine] 🔍 Retrieving context for: 'what is rate of interest'
+2025-11-14 22:52:33 [ERROR] [llm_query_engine] ❌ Reasoning pipeline failed: 'text_display'
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\rag_reasoning_scripts\rag_query_engine.py", line 81, in query_reasoner
+    f"({i+1}) Page {r['page']} – {r['text_display']}"
+                                  ~^^^^^^^^^^^^^^^^
+KeyError: 'text_display'
+2025-11-14 22:57:33 [INFO] [llm_query_engine] 🔍 Retrieving context for: 'what is rate of interest'
+2025-11-14 22:57:36 [ERROR] [llm_query_engine] ❌ Mistral call failed – [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\rag_reasoning_scripts\rag_query_engine.py", line 51, in run_mistral
+    result = subprocess.run(cmd, capture_output=True, text=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-11-14 22:57:36 [WARNING] [llm_query_engine] ⚠️ Could not parse JSON from Mistral: Expecting value: line 1 column 1 (char 0)
+2025-11-15 08:30:35 [INFO] [llm_query_engine] 🤖 Querying Groq model for: 'what is interest rate'
+2025-11-15 08:30:36 [INFO] [llm_query_engine] ✅ Reasoning complete for query: 'what is interest rate'
+2025-11-15 08:59:15 [INFO] [llm_query_engine] 🤖 Querying Groq model for: 'what is rate of interest'
+2025-11-15 08:59:16 [INFO] [llm_query_engine] ✅ Reasoning complete for query: 'what is rate of interest'
+2025-11-15 09:00:16 [INFO] [llm_query_engine] 🤖 Querying Groq model for: 'explain me what is rate of interest'
+2025-11-15 09:00:17 [INFO] [llm_query_engine] ✅ Reasoning complete for query: 'explain me what is rate of interest'
+2025-11-15 09:01:47 [ERROR] [llm_query_engine] ❌ Reasoning failed: cannot access local variable 'instructions' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\rag_reasoning_scripts\rag_query_engine.py", line 120, in query_reasoner
+    prompt = build_prompt(user_query, context_texts, mode=mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HP\OneDrive\Desktop\doc-understand\scripts\rag_reasoning_scripts\rag_query_engine.py", line 70, in build_prompt
+    }.get(mode, instructions["qa"])
+                ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'instructions' where it is not associated with a value
+2025-11-15 09:06:39 [INFO] [llm_query_engine] 🧠 Running RAG reasoning for: 'what is rate of interest explain' | Mode: summary
+2025-11-15 09:06:42 [INFO] [llm_query_engine] 📤 Sending prompt to Groq LLM...
+2025-11-15 09:06:43 [INFO] [llm_query_engine] ✅ Groq reasoning completed for 'what is rate of interest explain'
+2025-11-15 09:07:36 [INFO] [llm_query_engine] 🧠 Running RAG reasoning for: 'rate of interest' | Mode: explain
+2025-11-15 09:07:37 [INFO] [llm_query_engine] 📤 Sending prompt to Groq LLM...
+2025-11-15 09:07:38 [INFO] [llm_query_engine] ✅ Groq reasoning completed for 'rate of interest'
+2025-11-15 09:14:54 [INFO] [llm_query_engine] 🧠 Running RAG reasoning for: 'apr' | Mode: explain
+2025-11-15 09:14:56 [INFO] [llm_query_engine] 📤 Sending prompt to Groq LLM...
+2025-11-15 09:14:57 [INFO] [llm_query_engine] ✅ Groq reasoning completed for 'apr'
+2025-11-15 09:19:56 [INFO] [llm_query_engine] 🧠 Running RAG reasoning for: 'apr' | Mode: explain
+2025-11-15 09:19:58 [INFO] [llm_query_engine] 📤 Sending prompt to Groq LLM...
+2025-11-15 09:19:59 [INFO] [llm_query_engine] ✅ Groq reasoning completed for 'apr'
+2025-11-15 09:22:57 [INFO] [llm_query_engine] 🧠 Running RAG reasoning for: 'apr' | Mode: explain
+2025-11-15 09:22:58 [INFO] [llm_query_engine] 📤 Sending prompt to Groq LLM...
+2025-11-15 09:22:59 [INFO] [llm_query_engine] ✅ Groq reasoning completed for 'apr'
+2025-11-15 09:27:21 [INFO] [llm_query_engine] 🧠 Running RAG reasoning for: 'rate of interest' | Mode: explain
+2025-11-15 09:27:24 [INFO] [llm_query_engine] 📤 Sending prompt to Groq LLM...
+2025-11-15 09:27:25 [INFO] [llm_query_engine] ✅ Groq reasoning completed for 'rate of interest'

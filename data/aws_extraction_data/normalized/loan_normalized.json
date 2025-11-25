@@ -27,6 +27,6 @@
     },
     "text_display": "Borrower: John Doe",
     "text_clean": "borrower john doe",
-    "text_preserved": "borrower john doe"
+    "text_preserved": "borrower: john doe"
   }
 ]

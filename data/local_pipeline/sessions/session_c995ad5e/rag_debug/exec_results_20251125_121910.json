@@ -1,0 +1,187 @@
+{
+  "plan": {
+    "tasks": [
+      {
+        "id": "t1",
+        "kind": "doc_qa",
+        "query": "What is the EMI from this agreement?",
+        "domain": "finance",
+        "scope": "local",
+        "language": "en",
+        "tone": "borrower_friendly",
+        "depends_on": []
+      }
+    ],
+    "final_answer_instructions": "Answer the definition directly."
+  },
+  "doc_answers": {
+    "t1": {
+      "task_id": "t1",
+      "kind": "doc_qa",
+      "scope": "local",
+      "language": "en",
+      "tone": "borrower_friendly",
+      "question_or_instruction": "What is the EMI from this agreement?",
+      "answer": "User question:\nWhat is the EMI from this agreement?\n\n<DOCUMENT_CONTEXT>:\n[CLAUSE 5 | pages 1–1]\n- Other: (\"Term\"). All payments made by the Borrower are to be applied first to any accrued interest and secondly to the principal balance. 5. PAYMENT INSTRUCTIONS. The Borrower shall make payment to the Lender in under the following instructions: All monthly payments of $313 36 shall be made by electronic transfer (ACH/online payment) to the Lender's designated bank account on or before the 8th day of each month, beginning November 8. 2025 . 6. LATE FEE. If any payment is 10 day(s) late, the Lender shall: (check one) - Charge a late fee of 25$ . - Shall not charge a late.\n\nThe EMI from this agreement is $313.36.",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "segments_meta": [
+        {
+          "clause_id": 1,
+          "page_start": 3,
+          "page_end": 3,
+          "span_ids": [
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132
+          ],
+          "char_len": 383
+        },
+        {
+          "clause_id": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "span_ids": [
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100
+          ],
+          "char_len": 648
+        },
+        {
+          "clause_id": 3,
+          "page_start": 2,
+          "page_end": 2,
+          "span_ids": [
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+          ],
+          "char_len": 873
+        },
+        {
+          "clause_id": 4,
+          "page_start": 2,
+          "page_end": 2,
+          "span_ids": [
+            101,
+            102
+          ],
+          "char_len": 17
+        },
+        {
+          "clause_id": 5,
+          "page_start": 1,
+          "page_end": 1,
+          "span_ids": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "char_len": 597
+        },
+        {
+          "clause_id": 6,
+          "page_start": 2,
+          "page_end": 2,
+          "span_ids": [
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81
+          ],
+          "char_len": 631
+        },
+        {
+          "clause_id": 7,
+          "page_start": 3,
+          "page_end": 3,
+          "span_ids": [
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112
+          ],
+          "char_len": 709
+        },
+        {
+          "clause_id": 8,
+          "page_start": 2,
+          "page_end": 2,
+          "span_ids": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92
+          ],
+          "char_len": 761
+        }
+      ]
+    }
+  },
+  "finance_results": {}
+}

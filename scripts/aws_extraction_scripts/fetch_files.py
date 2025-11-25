@@ -21,14 +21,23 @@ from scripts.aws_extraction_scripts.log_utils import get_logger
 from scripts.aws_extraction_scripts.tracker import track_task
 
 # ---------------------------------------------------------------------
+# 📁 S3 prefixes
+# ---------------------------------------------------------------------
+DOC_PREFIX = "docs/"          # batch / corpus docs
+UPLOAD_PREFIX = "user_uploads/"  # interactive user uploads (single-PDF flow only)
+
+# ---------------------------------------------------------------------
 # 🚀 Fetch function
 # ---------------------------------------------------------------------
-def fetch_files(prefix: str = "", file_extension: str = ".pdf", **context):
+def fetch_files(prefix: str = DOC_PREFIX, file_extension: str = ".pdf", **context):
     """
-    Lists all PDF files in the configured S3 bucket.
-    Returns a list of matching S3 keys.
+    Lists PDF files for batch processing from the configured S3 bucket.
+
+    - By default, looks only under the DOC_PREFIX ("docs/").
+    - Always skips keys under UPLOAD_PREFIX ("user_uploads/") so that
+      interactive user uploads are never processed by batch runs.
     """
-    logger = get_logger("fetch_files")   # ✅ initialize logger inside
+    logger = get_logger("fetch_files")   # initialize logger inside
     s3 = boto3.client("s3", region_name=REGION)
     task_name = "fetch_files"
     track_task(task_name, "STARTED")
@@ -41,6 +50,7 @@ def fetch_files(prefix: str = "", file_extension: str = ".pdf", **context):
             obj["Key"]
             for obj in response.get("Contents", [])
             if obj["Key"].endswith(file_extension)
+            and not obj["Key"].startswith(UPLOAD_PREFIX)  # ⬅️ HARD GUARD
         ]
 
         if not pdf_keys:

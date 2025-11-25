@@ -1,6 +1,6 @@
 [
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 1,
     "span_type": "line",
@@ -14,10 +14,10 @@
     },
     "text_display": "(SPECIMEN OF MEMORANDUM OF TERM LOAN AGREEMENT FOR",
     "text_clean": "specimen of memorandum of term loan agreement for",
-    "text_preserved": "specimen of memorandum of term loan agreement for"
+    "text_preserved": "(specimen of memorandum of term loan agreement for"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 2,
     "span_type": "line",
@@ -31,10 +31,10 @@
     },
     "text_display": "HOME LOAN GRANTED TO PUBLIC)",
     "text_clean": "home loan granted to public",
-    "text_preserved": "home loan granted to public"
+    "text_preserved": "home loan granted to public)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 3,
     "span_type": "line",
@@ -51,7 +51,7 @@
     "text_preserved": "to be stamped as an agreement in accordance with the stamp act"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 4,
     "span_type": "line",
@@ -68,7 +68,7 @@
     "text_preserved": "in force in the state in which the document is executed and not to"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 5,
     "span_type": "line",
@@ -85,7 +85,7 @@
     "text_preserved": "be attested"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 6,
     "span_type": "line",
@@ -102,7 +102,7 @@
     "text_preserved": "to"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 7,
     "span_type": "line",
@@ -119,7 +119,7 @@
     "text_preserved": "state bank of india"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 8,
     "span_type": "line",
@@ -133,10 +133,10 @@
     },
     "text_display": "PLACE :",
     "text_clean": "place",
-    "text_preserved": "place"
+    "text_preserved": "place :"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 9,
     "span_type": "line",
@@ -150,10 +150,10 @@
     },
     "text_display": "DATE :",
     "text_clean": "date",
-    "text_preserved": "date"
+    "text_preserved": "date :"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 10,
     "span_type": "line",
@@ -167,10 +167,10 @@
     },
     "text_display": "Dear Sirs,",
     "text_clean": "dear sirs",
-    "text_preserved": "dear sirs"
+    "text_preserved": "dear sirs,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 11,
     "span_type": "line",
@@ -184,10 +184,10 @@
     },
     "text_display": "Whereas, State Bank of India, a body corporate constituted under State Bank of",
     "text_clean": "whereas state bank of india a body corporate constituted under state bank of",
-    "text_preserved": "whereas state bank of india a body corporate constituted under state bank of"
+    "text_preserved": "whereas, state bank of india, a body corporate constituted under state bank of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 12,
     "span_type": "line",
@@ -201,10 +201,10 @@
     },
     "text_display": "India Act 1955, having its Corporate Centre at Madame Cama Road, Nariman Point,",
     "text_clean": "india act 1955 having its corporate centre at madame cama road nariman point",
-    "text_preserved": "india act 1955 having its corporate centre at madame cama road nariman point"
+    "text_preserved": "india act 1955, having its corporate centre at madame cama road, nariman point,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 13,
     "span_type": "line",
@@ -221,7 +221,7 @@
     "text_preserved": "mumbai-400 021 having one of its branch offices at"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 14,
     "span_type": "line",
@@ -235,10 +235,10 @@
     },
     "text_display": "(hereinafter",
     "text_clean": "hereinafter",
-    "text_preserved": "hereinafter"
+    "text_preserved": "(hereinafter"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 15,
     "span_type": "line",
@@ -252,10 +252,10 @@
     },
     "text_display": "called the \"the Bank\" which expression shall include its successors and assigns)",
     "text_clean": "called the the bank which expression shall include its successors and assigns",
-    "text_preserved": "called the the bank which expression shall include its successors and assigns"
+    "text_preserved": "called the the bank which expression shall include its successors and assigns)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 16,
     "span_type": "line",
@@ -269,10 +269,10 @@
     },
     "text_display": "having,",
     "text_clean": "having",
-    "text_preserved": "having"
+    "text_preserved": "having,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 17,
     "span_type": "line",
@@ -289,7 +289,7 @@
     "text_preserved": "at"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 18,
     "span_type": "line",
@@ -306,7 +306,7 @@
     "text_preserved": "my/our"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 19,
     "span_type": "line",
@@ -323,7 +323,7 @@
     "text_preserved": "request"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 20,
     "span_type": "line",
@@ -340,7 +340,7 @@
     "text_preserved": "son/daughter/wife"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 21,
     "span_type": "line",
@@ -357,7 +357,7 @@
     "text_preserved": "of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 22,
     "span_type": "line",
@@ -374,7 +374,7 @@
     "text_preserved": "at present aged around"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 23,
     "span_type": "line",
@@ -391,7 +391,7 @@
     "text_preserved": "and residing"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 24,
     "span_type": "line",
@@ -408,7 +408,7 @@
     "text_preserved": "at"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 25,
     "span_type": "line",
@@ -425,7 +425,7 @@
     "text_preserved": "and"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 26,
     "span_type": "line",
@@ -442,7 +442,7 @@
     "text_preserved": "son/daughter/wife"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 27,
     "span_type": "line",
@@ -459,7 +459,7 @@
     "text_preserved": "of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 28,
     "span_type": "line",
@@ -476,7 +476,7 @@
     "text_preserved": "at present aged around"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 29,
     "span_type": "line",
@@ -493,7 +493,7 @@
     "text_preserved": "and residing"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 30,
     "span_type": "line",
@@ -510,7 +510,7 @@
     "text_preserved": "at"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 31,
     "span_type": "line",
@@ -524,10 +524,10 @@
     },
     "text_display": "(hereinafter, called \"the Borrower\" which expression shall",
     "text_clean": "hereinafter called the borrower which expression shall",
-    "text_preserved": "hereinafter called the borrower which expression shall"
+    "text_preserved": "(hereinafter, called the borrower which expression shall"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 32,
     "span_type": "line",
@@ -541,10 +541,10 @@
     },
     "text_display": "include his/her respective heirs, executors, administrators and assigns)} granted",
     "text_clean": "include his her respective heirs executors administrators and assigns granted",
-    "text_preserved": "include his/her respective heirs executors administrators and assigns granted"
+    "text_preserved": "include his/her respective heirs, executors, administrators and assigns) granted"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 33,
     "span_type": "line",
@@ -558,10 +558,10 @@
     },
     "text_display": "me/us *Home Loan limit / 'SBI-Maxgain'(on Overdraft basis) /",
     "text_clean": "me us home loan limit sbi maxgain on overdraft basis",
-    "text_preserved": "me/us home loan limit / sbi-maxgain on overdraft basis /"
+    "text_preserved": "me/us home loan limit / sbi-maxgain (on overdraft basis) /"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 34,
     "span_type": "line",
@@ -578,7 +578,7 @@
     "text_preserved": "of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 35,
     "span_type": "line",
@@ -595,7 +595,7 @@
     "text_preserved": "rs"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 36,
     "span_type": "line",
@@ -609,10 +609,10 @@
     },
     "text_display": "(Rupees",
     "text_clean": "rupees",
-    "text_preserved": "rupees"
+    "text_preserved": "(rupees"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 37,
     "span_type": "line",
@@ -626,10 +626,10 @@
     },
     "text_display": ") for purchase/construction of a",
     "text_clean": "for purchase construction of a",
-    "text_preserved": "for purchase/construction of a"
+    "text_preserved": ") for purchase/construction of a"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 38,
     "span_type": "line",
@@ -646,7 +646,7 @@
     "text_preserved": "flat/house/ plot of land or for extension/repairs/ renovations of an existing"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 39,
     "span_type": "line",
@@ -663,7 +663,7 @@
     "text_preserved": "house/flat/purchase of consumer durables and furnishings/funding of home loan"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 40,
     "span_type": "line",
@@ -677,10 +677,10 @@
     },
     "text_display": "insurance cover (hereinafter referred to as the 'project'), situated at",
     "text_clean": "insurance cover hereinafter referred to as the project situated at",
-    "text_preserved": "insurance cover hereinafter referred to as the project situated at"
+    "text_preserved": "insurance cover (hereinafter referred to as the project ), situated at"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 41,
     "span_type": "line",
@@ -694,10 +694,10 @@
     },
     "text_display": "(*Delete whichever is not applicable)",
     "text_clean": "delete whichever is not applicable",
-    "text_preserved": "delete whichever is not applicable"
+    "text_preserved": "( delete whichever is not applicable)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 42,
     "span_type": "line",
@@ -714,7 +714,7 @@
     "text_preserved": "2. in consideration of the grant of the said advance and continuance of the said"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 43,
     "span_type": "line",
@@ -728,10 +728,10 @@
     },
     "text_display": "facility for such time as the Bank may deem fit, I/we, \"the Borrower(s)\" do hereby",
     "text_clean": "facility for such time as the bank may deem fit i we the borrower s do hereby",
-    "text_preserved": "facility for such time as the bank may deem fit i/we the borrower s do hereby"
+    "text_preserved": "facility for such time as the bank may deem fit, i/we, the borrower(s) do hereby"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 44,
     "span_type": "line",
@@ -745,10 +745,10 @@
     },
     "text_display": "irrevocably and unconditionally agree and undertake, so as to bind",
     "text_clean": "irrevocably and unconditionally agree and undertake so as to bind",
-    "text_preserved": "irrevocably and unconditionally agree and undertake so as to bind"
+    "text_preserved": "irrevocably and unconditionally agree and undertake, so as to bind"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 45,
     "span_type": "line",
@@ -762,10 +762,10 @@
     },
     "text_display": "myself/ourselves, my / our heirs, executors, administrators, estates, assigns and",
     "text_clean": "myself ourselves my our heirs executors administrators estates assigns and",
-    "text_preserved": "myself/ourselves my / our heirs executors administrators estates assigns and"
+    "text_preserved": "myself/ourselves, my / our heirs, executors, administrators, estates, assigns and"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 46,
     "span_type": "line",
@@ -779,10 +779,10 @@
     },
     "text_display": "effects as follows, viz.",
     "text_clean": "effects as follows viz",
-    "text_preserved": "effects as follows viz."
+    "text_preserved": "effects as follows, viz."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 47,
     "span_type": "line",
@@ -796,10 +796,10 @@
     },
     "text_display": "a) The disbursement of the amount of the loan shall be at the Bank's absolute",
     "text_clean": "a the disbursement of the amount of the loan shall be at the bank s absolute",
-    "text_preserved": "a the disbursement of the amount of the loan shall be at the bank s absolute"
+    "text_preserved": "a) the disbursement of the amount of the loan shall be at the bank s absolute"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 48,
     "span_type": "line",
@@ -816,7 +816,7 @@
     "text_preserved": "discretion and shall be co-related to the actual progress in the construction of the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 49,
     "span_type": "line",
@@ -833,7 +833,7 @@
     "text_preserved": "project. such disbursements shall be made by means of bankers cheques drawn in"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 50,
     "span_type": "line",
@@ -850,7 +850,7 @@
     "text_preserved": "favour of the builders/promoters duly authorized or to engineer / architect /"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 51,
     "span_type": "line",
@@ -867,7 +867,7 @@
     "text_preserved": "contractor or to suppliers of goods and services when the construction is undertaken"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 52,
     "span_type": "line",
@@ -884,7 +884,7 @@
     "text_preserved": "by the borrower and instruct you to make payment for the purpose of the project ."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 53,
     "span_type": "line",
@@ -898,10 +898,10 @@
     },
     "text_display": "The Bank may, at your discretion and at my/our request credit a part of the loan",
     "text_clean": "the bank may at your discretion and at my our request credit a part of the loan",
-    "text_preserved": "the bank may at your discretion and at my/our request credit a part of the loan"
+    "text_preserved": "the bank may, at your discretion and at my/our request credit a part of the loan"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 1,
     "span_id": 54,
     "span_type": "line",
@@ -915,10 +915,10 @@
     },
     "text_display": "amount to my/our current/savings bank account (maintained in single or joint",
     "text_clean": "amount to my our current savings bank account maintained in single or joint",
-    "text_preserved": "amount to my/our current/savings bank account maintained in single or joint"
+    "text_preserved": "amount to my/our current/savings bank account (maintained in single or joint"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 55,
     "span_type": "line",
@@ -932,10 +932,10 @@
     },
     "text_display": "names) to enable me/us to make payments to suppliers of goods and services.",
     "text_clean": "names to enable me us to make payments to suppliers of goods and services",
-    "text_preserved": "names to enable me/us to make payments to suppliers of goods and services."
+    "text_preserved": "names) to enable me/us to make payments to suppliers of goods and services."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 56,
     "span_type": "line",
@@ -949,10 +949,10 @@
     },
     "text_display": "I/We shall submit to the Bank, within a reasonable time, satisfactory proof of the",
     "text_clean": "i we shall submit to the bank within a reasonable time satisfactory proof of the",
-    "text_preserved": "i/we shall submit to the bank within a reasonable time satisfactory proof of the"
+    "text_preserved": "i/we shall submit to the bank, within a reasonable time, satisfactory proof of the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 57,
     "span_type": "line",
@@ -966,10 +966,10 @@
     },
     "text_display": "proper utilisation of the amount of the loan, such as Architect's certificate, certifying",
     "text_clean": "proper utilisation of the amount of the loan such as architect s certificate certifying",
-    "text_preserved": "proper utilisation of the amount of the loan such as architect s certificate certifying"
+    "text_preserved": "proper utilisation of the amount of the loan, such as architect s certificate, certifying"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 58,
     "span_type": "line",
@@ -983,10 +983,10 @@
     },
     "text_display": "the value of the work carried out, Contractor's bills, stamped receipts, sale",
     "text_clean": "the value of the work carried out contractor s bills stamped receipts sale",
-    "text_preserved": "the value of the work carried out contractor s bills stamped receipts sale"
+    "text_preserved": "the value of the work carried out, contractor s bills, stamped receipts, sale"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 59,
     "span_type": "line",
@@ -1000,10 +1000,10 @@
     },
     "text_display": "agreement for house / flat etc. If considered necessary by the Bank, I/we shall",
     "text_clean": "agreement for house flat etc if considered necessary by the bank i we shall",
-    "text_preserved": "agreement for house / flat etc. if considered necessary by the bank i/we shall"
+    "text_preserved": "agreement for house / flat etc. if considered necessary by the bank, i/we shall"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 60,
     "span_type": "line",
@@ -1017,10 +1017,10 @@
     },
     "text_display": "produce, at my/our cost, photographs showing the progress of construction work",
     "text_clean": "produce at my our cost photographs showing the progress of construction work",
-    "text_preserved": "produce at my/our cost photographs showing the progress of construction work"
+    "text_preserved": "produce, at my/our cost, photographs showing the progress of construction work"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 61,
     "span_type": "line",
@@ -1034,10 +1034,10 @@
     },
     "text_display": "carried out by me / us, which photographs besides showing portion of the",
     "text_clean": "carried out by me us which photographs besides showing portion of the",
-    "text_preserved": "carried out by me / us which photographs besides showing portion of the"
+    "text_preserved": "carried out by me / us, which photographs besides showing portion of the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 62,
     "span_type": "line",
@@ -1051,10 +1051,10 @@
     },
     "text_display": "neighbouring properties, shall be certified by persons whose certificates are",
     "text_clean": "neighbouring properties shall be certified by persons whose certificates are",
-    "text_preserved": "neighbouring properties shall be certified by persons whose certificates are"
+    "text_preserved": "neighbouring properties, shall be certified by persons whose certificates are"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 63,
     "span_type": "line",
@@ -1071,7 +1071,7 @@
     "text_preserved": "acceptable to the bank."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 64,
     "span_type": "line",
@@ -1085,10 +1085,10 @@
     },
     "text_display": "b) i I/We shall repay the amount of loan as per arrangement/sanction letter which",
     "text_clean": "b i i we shall repay the amount of loan as per arrangement sanction letter which",
-    "text_preserved": "b i i/we shall repay the amount of loan as per arrangement/sanction letter which"
+    "text_preserved": "b) i i/we shall repay the amount of loan as per arrangement/sanction letter which"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 65,
     "span_type": "line",
@@ -1105,7 +1105,7 @@
     "text_preserved": "forms part of this agreement in equated monthly instalments of rs"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 66,
     "span_type": "line",
@@ -1122,7 +1122,7 @@
     "text_preserved": "each till the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 67,
     "span_type": "line",
@@ -1139,7 +1139,7 @@
     "text_preserved": "entire loan with interest is fully repaid. the equated monthly instalments also"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 68,
     "span_type": "line",
@@ -1156,7 +1156,7 @@
     "text_preserved": "include interest component."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 69,
     "span_type": "line",
@@ -1170,10 +1170,10 @@
     },
     "text_display": "b) ii The house should be constructed on the plot financed by the Bank within a",
     "text_clean": "b ii the house should be constructed on the plot financed by the bank within a",
-    "text_preserved": "b ii the house should be constructed on the plot financed by the bank within a"
+    "text_preserved": "b) ii the house should be constructed on the plot financed by the bank within a"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 70,
     "span_type": "line",
@@ -1190,7 +1190,7 @@
     "text_preserved": "period of 5 years from the date of first disbursement of the loan and completion"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 71,
     "span_type": "line",
@@ -1207,7 +1207,7 @@
     "text_preserved": "certificate should be submitted to the bank within 5 years from the date of first"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 72,
     "span_type": "line",
@@ -1224,7 +1224,7 @@
     "text_preserved": "disbursement. in case of failure to construct the house and/or non-submission of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 73,
     "span_type": "line",
@@ -1241,7 +1241,7 @@
     "text_preserved": "completion certificate within the stipulated time period of 5 years from the date of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 74,
     "span_type": "line",
@@ -1255,10 +1255,10 @@
     },
     "text_display": "first disbursement, the amount of the loan or the balance outstanding with applicable",
     "text_clean": "first disbursement the amount of the loan or the balance outstanding with applicable",
-    "text_preserved": "first disbursement the amount of the loan or the balance outstanding with applicable"
+    "text_preserved": "first disbursement, the amount of the loan or the balance outstanding with applicable"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 75,
     "span_type": "line",
@@ -1275,7 +1275,7 @@
     "text_preserved": "interest shall be repayable at once and in the event of failure to fully repay the loan"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 76,
     "span_type": "line",
@@ -1292,7 +1292,7 @@
     "text_preserved": "amount/loan outstanding with applicable interest the account shall be classified as"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 77,
     "span_type": "line",
@@ -1309,7 +1309,7 @@
     "text_preserved": "npa and the bank shall be at liberty to take such steps to recover its dues and"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 78,
     "span_type": "line",
@@ -1326,7 +1326,7 @@
     "text_preserved": "enforce the security as provided under law."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 79,
     "span_type": "line",
@@ -1340,10 +1340,10 @@
     },
     "text_display": "3. Rate of Interest on Loans:",
     "text_clean": "3 rate of interest on loans",
-    "text_preserved": "3. rate of interest on loans"
+    "text_preserved": "3. rate of interest on loans:"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 80,
     "span_type": "line",
@@ -1357,10 +1357,10 @@
     },
     "text_display": "3 A) Fixed Rate of Interest",
     "text_clean": "3 a fixed rate of interest",
-    "text_preserved": "3 a fixed rate of interest"
+    "text_preserved": "3 a) fixed rate of interest"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 81,
     "span_type": "line",
@@ -1377,7 +1377,7 @@
     "text_preserved": "interest on the loan will be fixed at"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 82,
     "span_type": "line",
@@ -1391,10 +1391,10 @@
     },
     "text_display": "% per annum on daily reducing balance",
     "text_clean": "per annum on daily reducing balance",
-    "text_preserved": "per annum on daily reducing balance"
+    "text_preserved": "% per annum on daily reducing balance"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 83,
     "span_type": "line",
@@ -1411,7 +1411,7 @@
     "text_preserved": "with monthly rests for a period of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 84,
     "span_type": "line",
@@ -1428,7 +1428,7 @@
     "text_preserved": "years from the date of first disbursement."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 85,
     "span_type": "line",
@@ -1445,7 +1445,7 @@
     "text_preserved": "thenceforth the interest rate in the account will be reset to floating home loan card"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 86,
     "span_type": "line",
@@ -1462,7 +1462,7 @@
     "text_preserved": "rate prevailing as on the date of reset. the effective rate of interest on the loan"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 87,
     "span_type": "line",
@@ -1479,7 +1479,7 @@
     "text_preserved": "outstanding will be charged at the rate of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 88,
     "span_type": "line",
@@ -1493,10 +1493,10 @@
     },
     "text_display": "% (spread) above RBI's Repo Rate",
     "text_clean": "spread above rbi s repo rate",
-    "text_preserved": "spread above rbi s repo rate"
+    "text_preserved": "% (spread) above rbi s repo rate"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 89,
     "span_type": "line",
@@ -1513,7 +1513,7 @@
     "text_preserved": "which is"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 90,
     "span_type": "line",
@@ -1527,10 +1527,10 @@
     },
     "text_display": "% p. a as on 01st day of current calendar quarter. The present effective",
     "text_clean": "p a as on 01st day of current calendar quarter the present effective",
-    "text_preserved": "p. a as on 01st day of current calendar quarter. the present effective"
+    "text_preserved": "% p. a as on 01st day of current calendar quarter. the present effective"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 91,
     "span_type": "line",
@@ -1547,7 +1547,7 @@
     "text_preserved": "rate"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 92,
     "span_type": "line",
@@ -1564,7 +1564,7 @@
     "text_preserved": "of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 93,
     "span_type": "line",
@@ -1578,10 +1578,10 @@
     },
     "text_display": "interest being % p. a calculated on daily balance of the loan amount at",
     "text_clean": "interest being p a calculated on daily balance of the loan amount at",
-    "text_preserved": "interest being p. a calculated on daily balance of the loan amount at"
+    "text_preserved": "interest being % p. a calculated on daily balance of the loan amount at"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 94,
     "span_type": "line",
@@ -1595,10 +1595,10 @@
     },
     "text_display": "monthly rests, subject to the interest rate reset on the 1st day of every calendar",
     "text_clean": "monthly rests subject to the interest rate reset on the 1st day of every calendar",
-    "text_preserved": "monthly rests subject to the interest rate reset on the 1st day of every calendar"
+    "text_preserved": "monthly rests, subject to the interest rate reset on the 1st day of every calendar"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 95,
     "span_type": "line",
@@ -1612,10 +1612,10 @@
     },
     "text_display": "quarter, on the basis of the prevailing RBI Repo Rate. The spread is sum of Credit",
     "text_clean": "quarter on the basis of the prevailing rbi repo rate the spread is sum of credit",
-    "text_preserved": "quarter on the basis of the prevailing rbi repo rate. the spread is sum of credit"
+    "text_preserved": "quarter, on the basis of the prevailing rbi repo rate. the spread is sum of credit"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 96,
     "span_type": "line",
@@ -1632,7 +1632,7 @@
     "text_preserved": "risk premium of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 97,
     "span_type": "line",
@@ -1646,10 +1646,10 @@
     },
     "text_display": "% and other cost including operating cost. The Bank shall at",
     "text_clean": "and other cost including operating cost the bank shall at",
-    "text_preserved": "and other cost including operating cost. the bank shall at"
+    "text_preserved": "% and other cost including operating cost. the bank shall at"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 98,
     "span_type": "line",
@@ -1666,7 +1666,7 @@
     "text_preserved": "any time and from time to time be entitled to change credit risk premium when"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 99,
     "span_type": "line",
@@ -1680,10 +1680,10 @@
     },
     "text_display": "borrower's credit assessment undergoes change. Also, other cost including",
     "text_clean": "borrower s credit assessment undergoes change also other cost including",
-    "text_preserved": "borrower s credit assessment undergoes change. also other cost including"
+    "text_preserved": "borrower s credit assessment undergoes change. also, other cost including"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 100,
     "span_type": "line",
@@ -1700,7 +1700,7 @@
     "text_preserved": "operating cost can be altered periodically at bank s discretion. . the bank has the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 101,
     "span_type": "line",
@@ -1717,7 +1717,7 @@
     "text_preserved": "option to reduce or increase the emi or extend the repayment period or both"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 102,
     "span_type": "line",
@@ -1734,7 +1734,7 @@
     "text_preserved": "consequent upon revision in interest rate. the bank shall be entitled to charge at its"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 2,
     "span_id": 103,
     "span_type": "line",
@@ -1748,10 +1748,10 @@
     },
     "text_display": "own discretion such enhanced rate of interest on the account(s) either on the entire",
     "text_clean": "own discretion such enhanced rate of interest on the account s either on the entire",
-    "text_preserved": "own discretion such enhanced rate of interest on the account s either on the entire"
+    "text_preserved": "own discretion such enhanced rate of interest on the account(s) either on the entire"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 104,
     "span_type": "line",
@@ -1768,7 +1768,7 @@
     "text_preserved": "outstanding or on a portion thereof as it may fix for any irregularity including non-"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 105,
     "span_type": "line",
@@ -1782,10 +1782,10 @@
     },
     "text_display": "observance or non-compliance of terms and conditions of the loan, for such period",
     "text_clean": "observance or non compliance of terms and conditions of the loan for such period",
-    "text_preserved": "observance or non-compliance of terms and conditions of the loan for such period"
+    "text_preserved": "observance or non-compliance of terms and conditions of the loan, for such period"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 106,
     "span_type": "line",
@@ -1802,7 +1802,7 @@
     "text_preserved": "as the bank deems it necessary and charging of such enhanced rate of interest shall"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 107,
     "span_type": "line",
@@ -1819,7 +1819,7 @@
     "text_preserved": "be without prejudice to the bank s other rights and remedies. borrower shall be"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 108,
     "span_type": "line",
@@ -1836,7 +1836,7 @@
     "text_preserved": "deemed to have notice of change in the rate of interest when the changes are"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 109,
     "span_type": "line",
@@ -1853,7 +1853,7 @@
     "text_preserved": "notified at/displayed at the branch notice board or published in a newspaper or in"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 110,
     "span_type": "line",
@@ -1870,7 +1870,7 @@
     "text_preserved": "the website of the bank or made through the statement of account / pass book."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 111,
     "span_type": "line",
@@ -1884,10 +1884,10 @@
     },
     "text_display": "3B) Loan on floating interest rate basis",
     "text_clean": "3b loan on floating interest rate basis",
-    "text_preserved": "3b loan on floating interest rate basis"
+    "text_preserved": "3b) loan on floating interest rate basis"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 112,
     "span_type": "line",
@@ -1904,7 +1904,7 @@
     "text_preserved": "the effective rate of interest on the loan outstanding will be charged at the rate of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 113,
     "span_type": "line",
@@ -1918,10 +1918,10 @@
     },
     "text_display": "% (spread) above RBI's Repo Rate which is",
     "text_clean": "spread above rbi s repo rate which is",
-    "text_preserved": "spread above rbi s repo rate which is"
+    "text_preserved": "% (spread) above rbi s repo rate which is"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 114,
     "span_type": "line",
@@ -1935,10 +1935,10 @@
     },
     "text_display": "% p. a as on 01st day of current",
     "text_clean": "p a as on 01st day of current",
-    "text_preserved": "p. a as on 01st day of current"
+    "text_preserved": "% p. a as on 01st day of current"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 115,
     "span_type": "line",
@@ -1952,10 +1952,10 @@
     },
     "text_display": "calendar quarter. The present effective rate of interest being % p. a calculated on",
     "text_clean": "calendar quarter the present effective rate of interest being p a calculated on",
-    "text_preserved": "calendar quarter. the present effective rate of interest being p. a calculated on"
+    "text_preserved": "calendar quarter. the present effective rate of interest being % p. a calculated on"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 116,
     "span_type": "line",
@@ -1969,10 +1969,10 @@
     },
     "text_display": "daily balance of the loan amount at monthly rests, subject to the interest rate reset",
     "text_clean": "daily balance of the loan amount at monthly rests subject to the interest rate reset",
-    "text_preserved": "daily balance of the loan amount at monthly rests subject to the interest rate reset"
+    "text_preserved": "daily balance of the loan amount at monthly rests, subject to the interest rate reset"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 117,
     "span_type": "line",
@@ -1986,10 +1986,10 @@
     },
     "text_display": "on the 1st day of every calendar quarter, on the basis of the prevailing RBI Repo",
     "text_clean": "on the 1st day of every calendar quarter on the basis of the prevailing rbi repo",
-    "text_preserved": "on the 1st day of every calendar quarter on the basis of the prevailing rbi repo"
+    "text_preserved": "on the 1st day of every calendar quarter, on the basis of the prevailing rbi repo"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 118,
     "span_type": "line",
@@ -2006,7 +2006,7 @@
     "text_preserved": "rate. the spread is sum of credit risk premium of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 119,
     "span_type": "line",
@@ -2020,10 +2020,10 @@
     },
     "text_display": "% and other cost including",
     "text_clean": "and other cost including",
-    "text_preserved": "and other cost including"
+    "text_preserved": "% and other cost including"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 120,
     "span_type": "line",
@@ -2040,7 +2040,7 @@
     "text_preserved": "operating cost. the bank shall at any time and from time to time be entitled to"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 121,
     "span_type": "line",
@@ -2057,7 +2057,7 @@
     "text_preserved": "change credit risk premium when borrower s credit assessment undergoes"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 122,
     "span_type": "line",
@@ -2071,10 +2071,10 @@
     },
     "text_display": "change. Also, other cost including operating cost can be altered periodically at",
     "text_clean": "change also other cost including operating cost can be altered periodically at",
-    "text_preserved": "change. also other cost including operating cost can be altered periodically at"
+    "text_preserved": "change. also, other cost including operating cost can be altered periodically at"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 123,
     "span_type": "line",
@@ -2091,7 +2091,7 @@
     "text_preserved": "bank s discretion. the bank has the option to reduce or increase the emi or extend"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 124,
     "span_type": "line",
@@ -2108,7 +2108,7 @@
     "text_preserved": "the repayment period or both consequent upon revision in interest rate. the bank"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 125,
     "span_type": "line",
@@ -2125,7 +2125,7 @@
     "text_preserved": "shall be entitled to charge at its own discretion such enhanced rate of interest on"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 126,
     "span_type": "line",
@@ -2139,10 +2139,10 @@
     },
     "text_display": "the account(s) either on the entire outstanding or on a portion thereof as it may fix",
     "text_clean": "the account s either on the entire outstanding or on a portion thereof as it may fix",
-    "text_preserved": "the account s either on the entire outstanding or on a portion thereof as it may fix"
+    "text_preserved": "the account(s) either on the entire outstanding or on a portion thereof as it may fix"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 127,
     "span_type": "line",
@@ -2159,7 +2159,7 @@
     "text_preserved": "for any irregularity including non-observance or non-compliance of terms and"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 128,
     "span_type": "line",
@@ -2173,10 +2173,10 @@
     },
     "text_display": "conditions of the loan, for such period as the Bank deems it necessary and charging",
     "text_clean": "conditions of the loan for such period as the bank deems it necessary and charging",
-    "text_preserved": "conditions of the loan for such period as the bank deems it necessary and charging"
+    "text_preserved": "conditions of the loan, for such period as the bank deems it necessary and charging"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 129,
     "span_type": "line",
@@ -2193,7 +2193,7 @@
     "text_preserved": "of such enhanced rate of interest shall be without prejudice to the bank s other rights"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 130,
     "span_type": "line",
@@ -2210,7 +2210,7 @@
     "text_preserved": "and remedies. borrower shall be deemed to have notice of change in the rate of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 131,
     "span_type": "line",
@@ -2227,7 +2227,7 @@
     "text_preserved": "interest when the changes are notified at/displayed at the branch notice board or"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 132,
     "span_type": "line",
@@ -2244,7 +2244,7 @@
     "text_preserved": "published in a newspaper or in the website of the bank or made through the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 133,
     "span_type": "line",
@@ -2261,7 +2261,7 @@
     "text_preserved": "statement of account / pass-book. the bank has the option to reduce or increase"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 134,
     "span_type": "line",
@@ -2278,7 +2278,7 @@
     "text_preserved": "the emi or extend the repayment period or both consequent upon revision in interest"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 135,
     "span_type": "line",
@@ -2295,7 +2295,7 @@
     "text_preserved": "rate. the bank shall be entitled to charge at its own discretion such enhanced rate"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 136,
     "span_type": "line",
@@ -2309,10 +2309,10 @@
     },
     "text_display": "of interest on the account(s) either on the entire outstanding or on a portion thereof",
     "text_clean": "of interest on the account s either on the entire outstanding or on a portion thereof",
-    "text_preserved": "of interest on the account s either on the entire outstanding or on a portion thereof"
+    "text_preserved": "of interest on the account(s) either on the entire outstanding or on a portion thereof"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 137,
     "span_type": "line",
@@ -2329,7 +2329,7 @@
     "text_preserved": "as it may fix for any irregularity including non-observance or non-compliance of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 138,
     "span_type": "line",
@@ -2343,10 +2343,10 @@
     },
     "text_display": "terms and conditions of the loan, for such period as the Bank deems it necessary",
     "text_clean": "terms and conditions of the loan for such period as the bank deems it necessary",
-    "text_preserved": "terms and conditions of the loan for such period as the bank deems it necessary"
+    "text_preserved": "terms and conditions of the loan, for such period as the bank deems it necessary"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 139,
     "span_type": "line",
@@ -2363,7 +2363,7 @@
     "text_preserved": "and charging of such enhanced rate of interest shall be without prejudice to the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 140,
     "span_type": "line",
@@ -2380,7 +2380,7 @@
     "text_preserved": "bank s other rights and remedies. borrower shall be deemed to have notice of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 141,
     "span_type": "line",
@@ -2397,7 +2397,7 @@
     "text_preserved": "change in the rate of interest when the changes are notified at/displayed at the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 142,
     "span_type": "line",
@@ -2414,7 +2414,7 @@
     "text_preserved": "branch notice board or published in a newspaper or in the website of the bank or"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 143,
     "span_type": "line",
@@ -2431,7 +2431,7 @@
     "text_preserved": "made through the statement of account / pass-book the bank has the option to"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 144,
     "span_type": "line",
@@ -2448,7 +2448,7 @@
     "text_preserved": "reduce or increase the emi or extend the repayment period or both consequent"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 145,
     "span_type": "line",
@@ -2465,7 +2465,7 @@
     "text_preserved": "upon revision in interest rate. the bank shall be entitled to charge at its own"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 146,
     "span_type": "line",
@@ -2479,10 +2479,10 @@
     },
     "text_display": "discretion such enhanced rate of interest on the account(s) either on the entire",
     "text_clean": "discretion such enhanced rate of interest on the account s either on the entire",
-    "text_preserved": "discretion such enhanced rate of interest on the account s either on the entire"
+    "text_preserved": "discretion such enhanced rate of interest on the account(s) either on the entire"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 147,
     "span_type": "line",
@@ -2499,7 +2499,7 @@
     "text_preserved": "outstanding or on a portion thereof as it may fix for any irregularity including non-"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 3,
     "span_id": 148,
     "span_type": "line",
@@ -2513,10 +2513,10 @@
     },
     "text_display": "observance or non-compliance of terms and conditions of the loan, for such period",
     "text_clean": "observance or non compliance of terms and conditions of the loan for such period",
-    "text_preserved": "observance or non-compliance of terms and conditions of the loan for such period"
+    "text_preserved": "observance or non-compliance of terms and conditions of the loan, for such period"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 149,
     "span_type": "line",
@@ -2533,7 +2533,7 @@
     "text_preserved": "as the bank deems it necessary and charging of such enhanced rate of interest shall"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 150,
     "span_type": "line",
@@ -2550,7 +2550,7 @@
     "text_preserved": "be without prejudice to the bank s other rights and remedies. borrower shall be"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 151,
     "span_type": "line",
@@ -2567,7 +2567,7 @@
     "text_preserved": "deemed to have notice of change in the rate of interest when the changes are"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 152,
     "span_type": "line",
@@ -2584,7 +2584,7 @@
     "text_preserved": "notified at/displayed at the branch notice board or published in a newspaper or in"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 153,
     "span_type": "line",
@@ -2601,7 +2601,7 @@
     "text_preserved": "the website of the bank or made through the statement of account /pass-book"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 154,
     "span_type": "line",
@@ -2615,10 +2615,10 @@
     },
     "text_display": "3 C) Salary account concession$",
     "text_clean": "3 c salary account concession",
-    "text_preserved": "3 c salary account concession"
+    "text_preserved": "3 c) salary account concession$"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 155,
     "span_type": "line",
@@ -2632,10 +2632,10 @@
     },
     "text_display": "I / We, the Borrower(s), am/are aware that concession of",
     "text_clean": "i we the borrower s am are aware that concession of",
-    "text_preserved": "i / we the borrower s am/are aware that concession of"
+    "text_preserved": "i / we, the borrower(s), am/are aware that concession of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 156,
     "span_type": "line",
@@ -2649,10 +2649,10 @@
     },
     "text_display": "% p.a. is included",
     "text_clean": "p a is included",
-    "text_preserved": "p.a. is included"
+    "text_preserved": "% p.a. is included"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 157,
     "span_type": "line",
@@ -2669,7 +2669,7 @@
     "text_preserved": "in the above mentioned interest rate on account of maintenance of my/our salary"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 158,
     "span_type": "line",
@@ -2686,7 +2686,7 @@
     "text_preserved": "account with the bank and the same is referred as salary account concession in"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 159,
     "span_type": "line",
@@ -2703,7 +2703,7 @@
     "text_preserved": "this agreement."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 160,
     "span_type": "line",
@@ -2717,10 +2717,10 @@
     },
     "text_display": "I/We declare and confirm that in the circumstances like change in job etc., wherein",
     "text_clean": "i we declare and confirm that in the circumstances like change in job etc wherein",
-    "text_preserved": "i/we declare and confirm that in the circumstances like change in job etc. wherein"
+    "text_preserved": "i/we declare and confirm that in the circumstances like change in job etc., wherein"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 161,
     "span_type": "line",
@@ -2734,10 +2734,10 @@
     },
     "text_display": "the salary is not credited by my/our employer to account maintained with the Bank,",
     "text_clean": "the salary is not credited by my our employer to account maintained with the bank",
-    "text_preserved": "the salary is not credited by my/our employer to account maintained with the bank"
+    "text_preserved": "the salary is not credited by my/our employer to account maintained with the bank,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 162,
     "span_type": "line",
@@ -2751,10 +2751,10 @@
     },
     "text_display": "I/We undertake to advise such development to the Bank, further I/We would issue",
     "text_clean": "i we undertake to advise such development to the bank further i we would issue",
-    "text_preserved": "i/we undertake to advise such development to the bank further i/we would issue"
+    "text_preserved": "i/we undertake to advise such development to the bank, further i/we would issue"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 163,
     "span_type": "line",
@@ -2771,7 +2771,7 @@
     "text_preserved": "standing instructions to the salary account servicing bank to transfer entire salary"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 164,
     "span_type": "line",
@@ -2788,7 +2788,7 @@
     "text_preserved": "credit to my/our account maintained by the bank for continuation of salary account"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 165,
     "span_type": "line",
@@ -2805,7 +2805,7 @@
     "text_preserved": "concession as mentioned above and for the limited purpose of continuation of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 166,
     "span_type": "line",
@@ -2819,10 +2819,10 @@
     },
     "text_display": "concessions in interest rates, my /our account with the Bank under the arrangement",
     "text_clean": "concessions in interest rates my our account with the bank under the arrangement",
-    "text_preserved": "concessions in interest rates my /our account with the bank under the arrangement"
+    "text_preserved": "concessions in interest rates, my /our account with the bank under the arrangement"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 167,
     "span_type": "line",
@@ -2839,7 +2839,7 @@
     "text_preserved": "will be reckoned as pseudo-salary account."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 168,
     "span_type": "line",
@@ -2856,7 +2856,7 @@
     "text_preserved": "i/we further agree and confirm that in the event of discontinuation of my/our salary"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 169,
     "span_type": "line",
@@ -2870,10 +2870,10 @@
     },
     "text_display": "account/pseudo salary account with the Bank, the Bank shall have the right to",
     "text_clean": "account pseudo salary account with the bank the bank shall have the right to",
-    "text_preserved": "account/pseudo salary account with the bank the bank shall have the right to"
+    "text_preserved": "account/pseudo salary account with the bank, the bank shall have the right to"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 170,
     "span_type": "line",
@@ -2890,7 +2890,7 @@
     "text_preserved": "withdraw the salary account concession and the bank shall have the right to revise"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 171,
     "span_type": "line",
@@ -2907,7 +2907,7 @@
     "text_preserved": "the interest rate accordingly and i/we will not raise any objection /dispute to the said"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 172,
     "span_type": "line",
@@ -2921,10 +2921,10 @@
     },
     "text_display": "action of the Bank\". $ delete, if not applicable",
     "text_clean": "action of the bank delete if not applicable",
-    "text_preserved": "action of the bank . delete if not applicable"
+    "text_preserved": "action of the bank . $ delete, if not applicable"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 173,
     "span_type": "line",
@@ -2938,10 +2938,10 @@
     },
     "text_display": "Without prejudice to the Bank's other rights and remedies, the Bank shall be entitled",
     "text_clean": "without prejudice to the bank s other rights and remedies the bank shall be entitled",
-    "text_preserved": "without prejudice to the bank s other rights and remedies the bank shall be entitled"
+    "text_preserved": "without prejudice to the bank s other rights and remedies, the bank shall be entitled"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 174,
     "span_type": "line",
@@ -2958,7 +2958,7 @@
     "text_preserved": "to charge at its own discretion enhanced rates of interest on the outstanding in the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 175,
     "span_type": "line",
@@ -2972,10 +2972,10 @@
     },
     "text_display": "loan account (s) or a portion thereof for any default or irregularity on my/our part",
     "text_clean": "loan account s or a portion thereof for any default or irregularity on my our part",
-    "text_preserved": "loan account s or a portion thereof for any default or irregularity on my/our part"
+    "text_preserved": "loan account (s) or a portion thereof for any default or irregularity on my/our part"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 176,
     "span_type": "line",
@@ -2992,7 +2992,7 @@
     "text_preserved": "which in the opinion of the bank warrants charging of such enhanced rates of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 177,
     "span_type": "line",
@@ -3009,7 +3009,7 @@
     "text_preserved": "interest for such period as the bank may deem fit. the equated monthly instalments"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 178,
     "span_type": "line",
@@ -3023,10 +3023,10 @@
     },
     "text_display": "will have to be paid till the entire loan and the interest is fully repaid. Further, the",
     "text_clean": "will have to be paid till the entire loan and the interest is fully repaid further the",
-    "text_preserved": "will have to be paid till the entire loan and the interest is fully repaid. further the"
+    "text_preserved": "will have to be paid till the entire loan and the interest is fully repaid. further, the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 179,
     "span_type": "line",
@@ -3043,7 +3043,7 @@
     "text_preserved": "amount of equated monthly instalment may change/increase as may be decided by"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 180,
     "span_type": "line",
@@ -3057,10 +3057,10 @@
     },
     "text_display": "the Bank. Besides the Bank shall also charge a penalty, the rate of which shall be",
     "text_clean": "the bank besides the bank shall also charge a penalty the rate of which shall be",
-    "text_preserved": "the bank. besides the bank shall also charge a penalty the rate of which shall be"
+    "text_preserved": "the bank. besides the bank shall also charge a penalty, the rate of which shall be"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 181,
     "span_type": "line",
@@ -3074,10 +3074,10 @@
     },
     "text_display": "at the discretion of the Bank, for every bounced cheque for any reason whatsoever",
     "text_clean": "at the discretion of the bank for every bounced cheque for any reason whatsoever",
-    "text_preserved": "at the discretion of the bank for every bounced cheque for any reason whatsoever"
+    "text_preserved": "at the discretion of the bank, for every bounced cheque for any reason whatsoever"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 182,
     "span_type": "line",
@@ -3094,7 +3094,7 @@
     "text_preserved": "in addition to the enhanced rate of interest as applicable."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 183,
     "span_type": "line",
@@ -3111,7 +3111,7 @@
     "text_preserved": "such enhanced interest will start accruing from the date of disbursement of the loan"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 184,
     "span_type": "line",
@@ -3128,7 +3128,7 @@
     "text_preserved": "or the date of disbursement of the first instalment of the loan where such loan is paid"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 185,
     "span_type": "line",
@@ -3145,7 +3145,7 @@
     "text_preserved": "in instalments or from 30 days from the due date of equated monthly instalments"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 186,
     "span_type": "line",
@@ -3159,10 +3159,10 @@
     },
     "text_display": "(EMI) if it remains unpaid for a period of 30 days from the due date, for any reason,",
     "text_clean": "emi if it remains unpaid for a period of 30 days from the due date for any reason",
-    "text_preserved": "emi if it remains unpaid for a period of 30 days from the due date for any reason"
+    "text_preserved": "(emi) if it remains unpaid for a period of 30 days from the due date, for any reason,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 4,
     "span_id": 187,
     "span_type": "line",
@@ -3179,7 +3179,7 @@
     "text_preserved": "including bounced cheque."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 188,
     "span_type": "line",
@@ -3193,10 +3193,10 @@
     },
     "text_display": "c)",
     "text_clean": "c",
-    "text_preserved": "c"
+    "text_preserved": "c)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 189,
     "span_type": "line",
@@ -3210,10 +3210,10 @@
     },
     "text_display": "If the loan amount has been utilised by me/us for purchase of ready built house/flat,",
     "text_clean": "if the loan amount has been utilised by me us for purchase of ready built house flat",
-    "text_preserved": "if the loan amount has been utilised by me/us for purchase of ready built house/flat"
+    "text_preserved": "if the loan amount has been utilised by me/us for purchase of ready built house/flat,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 190,
     "span_type": "line",
@@ -3230,7 +3230,7 @@
     "text_preserved": "i/we shall pay the first such monthly instalment following the month in which the loan"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 191,
     "span_type": "line",
@@ -3247,7 +3247,7 @@
     "text_preserved": "amount is disbursed to me/us. the subsequent monthly instalments shall be paid"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 192,
     "span_type": "line",
@@ -3264,7 +3264,7 @@
     "text_preserved": "before the last day of each subsequent month. if the loan amount has been utilised"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 193,
     "span_type": "line",
@@ -3278,10 +3278,10 @@
     },
     "text_display": "for construction of / additions to house / flat, I / we may be permitted to pay the first",
     "text_clean": "for construction of additions to house flat i we may be permitted to pay the first",
-    "text_preserved": "for construction of / additions to house / flat i / we may be permitted to pay the first"
+    "text_preserved": "for construction of / additions to house / flat, i / we may be permitted to pay the first"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 194,
     "span_type": "line",
@@ -3298,7 +3298,7 @@
     "text_preserved": "such monthly instalment till 2 months after the month in which the house / flat has"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 195,
     "span_type": "line",
@@ -3315,7 +3315,7 @@
     "text_preserved": "been completed or on the expiry of 18 months from the date of disbursement of the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 196,
     "span_type": "line",
@@ -3329,10 +3329,10 @@
     },
     "text_display": "first instalment, whichever may be earlier. The subsequent monthly instalments will",
     "text_clean": "first instalment whichever may be earlier the subsequent monthly instalments will",
-    "text_preserved": "first instalment whichever may be earlier. the subsequent monthly instalments will"
+    "text_preserved": "first instalment, whichever may be earlier. the subsequent monthly instalments will"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 197,
     "span_type": "line",
@@ -3349,7 +3349,7 @@
     "text_preserved": "be paid before the expiry of each subsequent month."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 198,
     "span_type": "line",
@@ -3363,10 +3363,10 @@
     },
     "text_display": "d) Pre-EMI Interest:",
     "text_clean": "d pre emi interest",
-    "text_preserved": "d pre-emi interest"
+    "text_preserved": "d) pre-emi interest:"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 199,
     "span_type": "line",
@@ -3380,10 +3380,10 @@
     },
     "text_display": "(i) * I/We have opted for servicing of Pre-EMI interest and have already delivered or",
     "text_clean": "i i we have opted for servicing of pre emi interest and have already delivered or",
-    "text_preserved": "i i/we have opted for servicing of pre-emi interest and have already delivered or"
+    "text_preserved": "(i) i/we have opted for servicing of pre-emi interest and have already delivered or"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 200,
     "span_type": "line",
@@ -3400,7 +3400,7 @@
     "text_preserved": "hereby undertake to deliver post-dated cheques drawn at monthly intervals for"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 201,
     "span_type": "line",
@@ -3417,7 +3417,7 @@
     "text_preserved": "servicing of the amounts of pre-emi interest during the moratorium period."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 202,
     "span_type": "line",
@@ -3431,10 +3431,10 @@
     },
     "text_display": "(ii) * I/We have opted for capitalizing the Pre-EMI interest and agree that loan amount",
     "text_clean": "ii i we have opted for capitalizing the pre emi interest and agree that loan amount",
-    "text_preserved": "ii i/we have opted for capitalizing the pre-emi interest and agree that loan amount"
+    "text_preserved": "(ii) i/we have opted for capitalizing the pre-emi interest and agree that loan amount"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 203,
     "span_type": "line",
@@ -3451,7 +3451,7 @@
     "text_preserved": "will be fixed suitably taking into account approximate pre-emi interest during the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 204,
     "span_type": "line",
@@ -3468,7 +3468,7 @@
     "text_preserved": "moratorium period as detailed in paragraph pertaining to the pre-emi interest in the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 205,
     "span_type": "line",
@@ -3485,7 +3485,7 @@
     "text_preserved": "arrangement letter dated"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 206,
     "span_type": "line",
@@ -3502,7 +3502,7 @@
     "text_preserved": "i / we hereby unconditionally agree to"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 207,
     "span_type": "line",
@@ -3519,7 +3519,7 @@
     "text_preserved": "execute necessary authority in favour of my / our employer or tender post-dated"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 208,
     "span_type": "line",
@@ -3536,7 +3536,7 @@
     "text_preserved": "cheques towards emi s of the loan amount. if necessary i/we would request for"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 209,
     "span_type": "line",
@@ -3553,7 +3553,7 @@
     "text_preserved": "resetting of emi s based on the actual outstanding in the loan account after final"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 210,
     "span_type": "line",
@@ -3570,7 +3570,7 @@
     "text_preserved": "disbursement."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 211,
     "span_type": "line",
@@ -3584,10 +3584,10 @@
     },
     "text_display": "(* score off whichever is not applicable)",
     "text_clean": "score off whichever is not applicable",
-    "text_preserved": "score off whichever is not applicable"
+    "text_preserved": "( score off whichever is not applicable)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 212,
     "span_type": "line",
@@ -3601,10 +3601,10 @@
     },
     "text_display": "e) I/We declare and confirm that the amount of the loan or the balance then",
     "text_clean": "e i we declare and confirm that the amount of the loan or the balance then",
-    "text_preserved": "e i/we declare and confirm that the amount of the loan or the balance then"
+    "text_preserved": "e) i/we declare and confirm that the amount of the loan or the balance then"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 213,
     "span_type": "line",
@@ -3621,7 +3621,7 @@
     "text_preserved": "outstanding shall become payable at once in case of my death or death of anyone"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 214,
     "span_type": "line",
@@ -3635,10 +3635,10 @@
     },
     "text_display": "of us. In case of death, the Bank may, at its discretion, continue the loan provided",
     "text_clean": "of us in case of death the bank may at its discretion continue the loan provided",
-    "text_preserved": "of us. in case of death the bank may at its discretion continue the loan provided"
+    "text_preserved": "of us. in case of death, the bank may, at its discretion, continue the loan provided"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 215,
     "span_type": "line",
@@ -3652,10 +3652,10 @@
     },
     "text_display": "sufficient collateral security is furnished by my/our legal heirs/surviving borrower(s)",
     "text_clean": "sufficient collateral security is furnished by my our legal heirs surviving borrower s",
-    "text_preserved": "sufficient collateral security is furnished by my/our legal heirs/surviving borrower s"
+    "text_preserved": "sufficient collateral security is furnished by my/our legal heirs/surviving borrower(s)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 216,
     "span_type": "line",
@@ -3672,7 +3672,7 @@
     "text_preserved": "or some satisfactory arrangement for repayment acceptable to the bank has been"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 217,
     "span_type": "line",
@@ -3686,10 +3686,10 @@
     },
     "text_display": "made by my/our legal heirs/surviving borrower(s).",
     "text_clean": "made by my our legal heirs surviving borrower s",
-    "text_preserved": "made by my/our legal heirs/surviving borrower s ."
+    "text_preserved": "made by my/our legal heirs/surviving borrower(s)."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 218,
     "span_type": "line",
@@ -3703,10 +3703,10 @@
     },
     "text_display": "f)",
     "text_clean": "f",
-    "text_preserved": "f"
+    "text_preserved": "f)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 219,
     "span_type": "line",
@@ -3723,7 +3723,7 @@
     "text_preserved": "i/we shall arrange for the payment of the equated monthly instalments from my/our"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 220,
     "span_type": "line",
@@ -3740,7 +3740,7 @@
     "text_preserved": "monthly salary or in whatever manner deemed fit or by debit on the due dates from"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 221,
     "span_type": "line",
@@ -3757,7 +3757,7 @@
     "text_preserved": "the current/savings bank account with branch/or any other branch where i/we may"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 222,
     "span_type": "line",
@@ -3774,7 +3774,7 @@
     "text_preserved": "hold the account singly or jointly and to appropriate the same in repayment of the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 223,
     "span_type": "line",
@@ -3791,7 +3791,7 @@
     "text_preserved": "said loan and interest."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 224,
     "span_type": "line",
@@ -3805,10 +3805,10 @@
     },
     "text_display": "I/We shall execute in favour of the Bank a letter of authority, addressed to my/our",
     "text_clean": "i we shall execute in favour of the bank a letter of authority addressed to my our",
-    "text_preserved": "i/we shall execute in favour of the bank a letter of authority addressed to my/our"
+    "text_preserved": "i/we shall execute in favour of the bank a letter of authority, addressed to my/our"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 225,
     "span_type": "line",
@@ -3825,7 +3825,7 @@
     "text_preserved": "employers to recover and pay to the bank the equated monthly instalment from"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 5,
     "span_id": 226,
     "span_type": "line",
@@ -3842,7 +3842,7 @@
     "text_preserved": "my/our salary every month ."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 227,
     "span_type": "line",
@@ -3859,7 +3859,7 @@
     "text_preserved": "delete if not appropriate."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 228,
     "span_type": "line",
@@ -3873,10 +3873,10 @@
     },
     "text_display": "g)",
     "text_clean": "g",
-    "text_preserved": "g"
+    "text_preserved": "g)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 229,
     "span_type": "line",
@@ -3893,7 +3893,7 @@
     "text_preserved": "on demand i/we agree to deliver to the bank post-dated cheques for the monthly"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 230,
     "span_type": "line",
@@ -3910,7 +3910,7 @@
     "text_preserved": "instalments and warrant that the cheques will be honoured on first presentation."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 231,
     "span_type": "line",
@@ -3927,7 +3927,7 @@
     "text_preserved": "any non-presentation of a cheque due to any reason will not affect my/our liability"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 232,
     "span_type": "line",
@@ -3944,7 +3944,7 @@
     "text_preserved": "to pay the monthly instalments or any other sum. i/we agree to forthwith replace"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 233,
     "span_type": "line",
@@ -3958,10 +3958,10 @@
     },
     "text_display": "the cheques/issue fresh cheques, if required by the Bank. I/We shall not be entitled",
     "text_clean": "the cheques issue fresh cheques if required by the bank i we shall not be entitled",
-    "text_preserved": "the cheques/issue fresh cheques if required by the bank. i/we shall not be entitled"
+    "text_preserved": "the cheques/issue fresh cheques, if required by the bank. i/we shall not be entitled"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 234,
     "span_type": "line",
@@ -3978,7 +3978,7 @@
     "text_preserved": "to call upon the bank to refrain from presenting any cheque for payment and if i/we"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 235,
     "span_type": "line",
@@ -3992,10 +3992,10 @@
     },
     "text_display": "do so, the Bank shall nevertheless be entitled to present the cheque for payment",
     "text_clean": "do so the bank shall nevertheless be entitled to present the cheque for payment",
-    "text_preserved": "do so the bank shall nevertheless be entitled to present the cheque for payment"
+    "text_preserved": "do so, the bank shall nevertheless be entitled to present the cheque for payment"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 236,
     "span_type": "line",
@@ -4009,10 +4009,10 @@
     },
     "text_display": "and in the event of dishonour the provisions under the Negotiable Instruments Act,",
     "text_clean": "and in the event of dishonour the provisions under the negotiable instruments act",
-    "text_preserved": "and in the event of dishonour the provisions under the negotiable instruments act"
+    "text_preserved": "and in the event of dishonour the provisions under the negotiable instruments act,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 237,
     "span_type": "line",
@@ -4029,7 +4029,7 @@
     "text_preserved": "shall apply. i/we also agree to pay a penalty as stipulated by the bank from time to"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 238,
     "span_type": "line",
@@ -4043,10 +4043,10 @@
     },
     "text_display": "time, for every bounced cheque for any reason whatsoever in addition to the",
     "text_clean": "time for every bounced cheque for any reason whatsoever in addition to the",
-    "text_preserved": "time for every bounced cheque for any reason whatsoever in addition to the"
+    "text_preserved": "time, for every bounced cheque for any reason whatsoever in addition to the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 239,
     "span_type": "line",
@@ -4063,7 +4063,7 @@
     "text_preserved": "enhanced rate of interest as applicable."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 240,
     "span_type": "line",
@@ -4077,10 +4077,10 @@
     },
     "text_display": "h)",
     "text_clean": "h",
-    "text_preserved": "h"
+    "text_preserved": "h)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 241,
     "span_type": "line",
@@ -4094,10 +4094,10 @@
     },
     "text_display": "I/We declare and confirm that on my/our retirement, the outstanding amount of the",
     "text_clean": "i we declare and confirm that on my our retirement the outstanding amount of the",
-    "text_preserved": "i/we declare and confirm that on my/our retirement the outstanding amount of the"
+    "text_preserved": "i/we declare and confirm that on my/our retirement, the outstanding amount of the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 242,
     "span_type": "line",
@@ -4111,10 +4111,10 @@
     },
     "text_display": "loan sanctioned to me will become repayable at once. The Bank may, at its",
     "text_clean": "loan sanctioned to me will become repayable at once the bank may at its",
-    "text_preserved": "loan sanctioned to me will become repayable at once. the bank may at its"
+    "text_preserved": "loan sanctioned to me will become repayable at once. the bank may, at its"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 243,
     "span_type": "line",
@@ -4128,10 +4128,10 @@
     },
     "text_display": "discretion, continue the loan provided satisfactory arrangement for repayment,",
     "text_clean": "discretion continue the loan provided satisfactory arrangement for repayment",
-    "text_preserved": "discretion continue the loan provided satisfactory arrangement for repayment"
+    "text_preserved": "discretion, continue the loan provided satisfactory arrangement for repayment,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 244,
     "span_type": "line",
@@ -4148,7 +4148,7 @@
     "text_preserved": "acceptable to the bank has been made by me/us."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 245,
     "span_type": "line",
@@ -4162,10 +4162,10 @@
     },
     "text_display": "i)",
     "text_clean": "i",
-    "text_preserved": "i"
+    "text_preserved": "i)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 246,
     "span_type": "line",
@@ -4182,7 +4182,7 @@
     "text_preserved": "in the event of cessation of my / our business/service with my / our employers by"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 247,
     "span_type": "line",
@@ -4196,10 +4196,10 @@
     },
     "text_display": "way of resignation or otherwise (except as a result of death or retirement), I/we",
     "text_clean": "way of resignation or otherwise except as a result of death or retirement i we",
-    "text_preserved": "way of resignation or otherwise except as a result of death or retirement i/we"
+    "text_preserved": "way of resignation or otherwise (except as a result of death or retirement), i/we"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 248,
     "span_type": "line",
@@ -4216,7 +4216,7 @@
     "text_preserved": "undertake to repay to the bank forthwith on demand the balance principal amount"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 249,
     "span_type": "line",
@@ -4230,10 +4230,10 @@
     },
     "text_display": "of the loan, or the balances then outstanding whichever is higher.",
     "text_clean": "of the loan or the balances then outstanding whichever is higher",
-    "text_preserved": "of the loan or the balances then outstanding whichever is higher."
+    "text_preserved": "of the loan, or the balances then outstanding whichever is higher."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 250,
     "span_type": "line",
@@ -4247,10 +4247,10 @@
     },
     "text_display": "j)",
     "text_clean": "j",
-    "text_preserved": "j"
+    "text_preserved": "j)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 251,
     "span_type": "line",
@@ -4267,7 +4267,7 @@
     "text_preserved": "in the event of my/our ceasing to be in business/service of my/our employer whether"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 252,
     "span_type": "line",
@@ -4281,10 +4281,10 @@
     },
     "text_display": "by retirement, resignation, death or by operation of law or for any other reason or",
     "text_clean": "by retirement resignation death or by operation of law or for any other reason or",
-    "text_preserved": "by retirement resignation death or by operation of law or for any other reason or"
+    "text_preserved": "by retirement, resignation, death or by operation of law or for any other reason or"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 253,
     "span_type": "line",
@@ -4298,10 +4298,10 @@
     },
     "text_display": "cause whatsoever and howsoever the Bank shall be entitled at its discretion, to write",
     "text_clean": "cause whatsoever and howsoever the bank shall be entitled at its discretion to write",
-    "text_preserved": "cause whatsoever and howsoever the bank shall be entitled at its discretion to write"
+    "text_preserved": "cause whatsoever and howsoever the bank shall be entitled at its discretion, to write"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 254,
     "span_type": "line",
@@ -4315,10 +4315,10 @@
     },
     "text_display": "to my/our employers to appropriate and set off (i) any amount which may then be",
     "text_clean": "to my our employers to appropriate and set off i any amount which may then be",
-    "text_preserved": "to my/our employers to appropriate and set off i any amount which may then be"
+    "text_preserved": "to my/our employers to appropriate and set off (i) any amount which may then be"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 255,
     "span_type": "line",
@@ -4332,10 +4332,10 @@
     },
     "text_display": "payable by my/our employers to me/us whether by way of salary, allowances,",
     "text_clean": "payable by my our employers to me us whether by way of salary allowances",
-    "text_preserved": "payable by my/our employers to me/us whether by way of salary allowances"
+    "text_preserved": "payable by my/our employers to me/us whether by way of salary, allowances,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 256,
     "span_type": "line",
@@ -4349,10 +4349,10 @@
     },
     "text_display": "bonus, other remuneration or any payment (whether ex-gratia or otherwise)",
     "text_clean": "bonus other remuneration or any payment whether ex gratia or otherwise",
-    "text_preserved": "bonus other remuneration or any payment whether ex-gratia or otherwise"
+    "text_preserved": "bonus, other remuneration or any payment (whether ex-gratia or otherwise)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 257,
     "span_type": "line",
@@ -4366,10 +4366,10 @@
     },
     "text_display": "whatsoever and (ii) any amount that may be standing to the credit of any account",
     "text_clean": "whatsoever and ii any amount that may be standing to the credit of any account",
-    "text_preserved": "whatsoever and ii any amount that may be standing to the credit of any account"
+    "text_preserved": "whatsoever and (ii) any amount that may be standing to the credit of any account"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 258,
     "span_type": "line",
@@ -4383,10 +4383,10 @@
     },
     "text_display": "which I/we may have with my/our employers or with the Bank, either singly or jointly,",
     "text_clean": "which i we may have with my our employers or with the bank either singly or jointly",
-    "text_preserved": "which i/we may have with my/our employers or with the bank either singly or jointly"
+    "text_preserved": "which i/we may have with my/our employers or with the bank, either singly or jointly,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 259,
     "span_type": "line",
@@ -4403,7 +4403,7 @@
     "text_preserved": "towards repayment of the balance that may be then remaining due and payable by"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 260,
     "span_type": "line",
@@ -4420,7 +4420,7 @@
     "text_preserved": "me/us in my/our said loan account together with interest thereon at the applicable"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 261,
     "span_type": "line",
@@ -4437,7 +4437,7 @@
     "text_preserved": "rates upto the date of such repayment. any such appropriation made by the bank"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 262,
     "span_type": "line",
@@ -4454,7 +4454,7 @@
     "text_preserved": "or my/our employers shall be conclusive and binding on me/us and my/our estate"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 263,
     "span_type": "line",
@@ -4471,7 +4471,7 @@
     "text_preserved": "both in and out of court. in any event my / our liability to make repayment of the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 264,
     "span_type": "line",
@@ -4488,7 +4488,7 @@
     "text_preserved": "entire dues immediately shall remain valid till the entire amount with applicable"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 265,
     "span_type": "line",
@@ -4505,7 +4505,7 @@
     "text_preserved": "interest as up to the date of payment has been realised by the bank whether by way"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 266,
     "span_type": "line",
@@ -4522,7 +4522,7 @@
     "text_preserved": "of recovery from my/our employer or otherwise."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 267,
     "span_type": "line",
@@ -4536,10 +4536,10 @@
     },
     "text_display": "k)",
     "text_clean": "k",
-    "text_preserved": "k"
+    "text_preserved": "k)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 268,
     "span_type": "line",
@@ -4553,10 +4553,10 @@
     },
     "text_display": "I/We will not sell assign, mortgage, charge or in any way encumber or alienate the",
     "text_clean": "i we will not sell assign mortgage charge or in any way encumber or alienate the",
-    "text_preserved": "i/we will not sell assign mortgage charge or in any way encumber or alienate the"
+    "text_preserved": "i/we will not sell assign, mortgage, charge or in any way encumber or alienate the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 269,
     "span_type": "line",
@@ -4573,7 +4573,7 @@
     "text_preserved": "said flat/house/land or any part thereof/furnishings so long as i/we am/are indebted"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 270,
     "span_type": "line",
@@ -4590,7 +4590,7 @@
     "text_preserved": "to the bank in the said loan account without prior permission of the bank in writing."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 6,
     "span_id": 271,
     "span_type": "line",
@@ -4607,7 +4607,7 @@
     "text_preserved": "i/we undertake to give prior intimation to the bank before letting out / giving on lease"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 272,
     "span_type": "line",
@@ -4621,10 +4621,10 @@
     },
     "text_display": "and licence the said flat / house. In the event of my/our account becoming irregular,",
     "text_clean": "and licence the said flat house in the event of my our account becoming irregular",
-    "text_preserved": "and licence the said flat / house. in the event of my/our account becoming irregular"
+    "text_preserved": "and licence the said flat / house. in the event of my/our account becoming irregular,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 273,
     "span_type": "line",
@@ -4641,7 +4641,7 @@
     "text_preserved": "npa the bank is at liberty to take vacant possession of building/flat/house"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 274,
     "span_type": "line",
@@ -4655,10 +4655,10 @@
     },
     "text_display": "(premises) from me/us, and hire the said premises at market rent for its commercial",
     "text_clean": "premises from me us and hire the said premises at market rent for its commercial",
-    "text_preserved": "premises from me/us and hire the said premises at market rent for its commercial"
+    "text_preserved": "(premises) from me/us, and hire the said premises at market rent for its commercial"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 275,
     "span_type": "line",
@@ -4675,7 +4675,7 @@
     "text_preserved": "or residential purpose as the case may be and adjust the proceeds of the hire"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 276,
     "span_type": "line",
@@ -4692,7 +4692,7 @@
     "text_preserved": "charges towards outstanding of my/our loan account."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 277,
     "span_type": "line",
@@ -4706,10 +4706,10 @@
     },
     "text_display": "1)",
     "text_clean": "1",
-    "text_preserved": "1"
+    "text_preserved": "1)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 278,
     "span_type": "line",
@@ -4726,7 +4726,7 @@
     "text_preserved": "i"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 279,
     "span_type": "line",
@@ -4743,7 +4743,7 @@
     "text_preserved": "i/we hereby declare and confirm that no proceedings under any of the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 280,
     "span_type": "line",
@@ -4757,10 +4757,10 @@
     },
     "text_display": "provisions of the Income Tax Act, 1961 including but not limited to proceeding for",
     "text_clean": "provisions of the income tax act 1961 including but not limited to proceeding for",
-    "text_preserved": "provisions of the income tax act 1961 including but not limited to proceeding for"
+    "text_preserved": "provisions of the income tax act, 1961 including but not limited to proceeding for"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 281,
     "span_type": "line",
@@ -4777,7 +4777,7 @@
     "text_preserved": "default in compliance with the provisions of said act/ rules/regulations thereunder"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 282,
     "span_type": "line",
@@ -4794,7 +4794,7 @@
     "text_preserved": "or proceeding for recovery of tax/ interest/ any other amount or any such"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 283,
     "span_type": "line",
@@ -4811,7 +4811,7 @@
     "text_preserved": "proceedings that might be construed as pending/ completed under section 281 of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 284,
     "span_type": "line",
@@ -4825,10 +4825,10 @@
     },
     "text_display": "the said Act are initiated, contemplated or pending against me/us for the time being",
     "text_clean": "the said act are initiated contemplated or pending against me us for the time being",
-    "text_preserved": "the said act are initiated contemplated or pending against me/us for the time being"
+    "text_preserved": "the said act are initiated, contemplated or pending against me/us for the time being"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 285,
     "span_type": "line",
@@ -4842,10 +4842,10 @@
     },
     "text_display": "and that no notice has been issued and/or served on me/us under Rule 2, 16 or 51",
     "text_clean": "and that no notice has been issued and or served on me us under rule 2 16 or 51",
-    "text_preserved": "and that no notice has been issued and/or served on me/us under rule 2 16 or 51"
+    "text_preserved": "and that no notice has been issued and/or served on me/us under rule 2, 16 or 51"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 286,
     "span_type": "line",
@@ -4862,7 +4862,7 @@
     "text_preserved": "or any rule of the second schedule to the said act or under any other law and there"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 287,
     "span_type": "line",
@@ -4879,7 +4879,7 @@
     "text_preserved": "are no other pending show cause notices or attachments whatsoever issued or"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 288,
     "span_type": "line",
@@ -4896,7 +4896,7 @@
     "text_preserved": "initiated against the said flat/house/land/immovable properties secured or otherwise"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 289,
     "span_type": "line",
@@ -4913,7 +4913,7 @@
     "text_preserved": "or any of them or any part thereof."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 290,
     "span_type": "line",
@@ -4927,10 +4927,10 @@
     },
     "text_display": "m) The loan shall be secured by a valid equitable/legal mortgage of the land/house/flat",
     "text_clean": "m the loan shall be secured by a valid equitable legal mortgage of the land house flat",
-    "text_preserved": "m the loan shall be secured by a valid equitable/legal mortgage of the land/house/flat"
+    "text_preserved": "m) the loan shall be secured by a valid equitable/legal mortgage of the land/house/flat"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 291,
     "span_type": "line",
@@ -4947,7 +4947,7 @@
     "text_preserved": "purchased/constructed by me/us for which the loan facility is provided by"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 292,
     "span_type": "line",
@@ -4964,7 +4964,7 @@
     "text_preserved": "executing/registering such documents in such form as may be decided by the bank."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 293,
     "span_type": "line",
@@ -4978,10 +4978,10 @@
     },
     "text_display": "I/We shall, if required by the Bank, give such further security as acceptable to the",
     "text_clean": "i we shall if required by the bank give such further security as acceptable to the",
-    "text_preserved": "i/we shall if required by the bank give such further security as acceptable to the"
+    "text_preserved": "i/we shall, if required by the bank, give such further security as acceptable to the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 294,
     "span_type": "line",
@@ -4998,7 +4998,7 @@
     "text_preserved": "bank forthwith on demand by the bank. in case it is not possible to create security"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 295,
     "span_type": "line",
@@ -5015,7 +5015,7 @@
     "text_preserved": "by way of mortgage as aforesaid i/we shall forthwith on demand arrange for other"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 296,
     "span_type": "line",
@@ -5029,10 +5029,10 @@
     },
     "text_display": "collateral securities, by way of pledge/hypothecation, such as Bank's Fixed",
     "text_clean": "collateral securities by way of pledge hypothecation such as bank s fixed",
-    "text_preserved": "collateral securities by way of pledge/hypothecation such as bank s fixed"
+    "text_preserved": "collateral securities, by way of pledge/hypothecation, such as bank s fixed"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 297,
     "span_type": "line",
@@ -5046,10 +5046,10 @@
     },
     "text_display": "Deposits, National Savings Certificates, Kisan Vikas Patra, Life Insurance Policies,",
     "text_clean": "deposits national savings certificates kisan vikas patra life insurance policies",
-    "text_preserved": "deposits national savings certificates kisan vikas patra life insurance policies"
+    "text_preserved": "deposits, national savings certificates, kisan vikas patra, life insurance policies,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 298,
     "span_type": "line",
@@ -5063,10 +5063,10 @@
     },
     "text_display": "promissory notes issued by any Govt., shares or debentures of the companies,",
     "text_clean": "promissory notes issued by any govt shares or debentures of the companies",
-    "text_preserved": "promissory notes issued by any govt. shares or debentures of the companies"
+    "text_preserved": "promissory notes issued by any govt., shares or debentures of the companies,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 299,
     "span_type": "line",
@@ -5083,7 +5083,7 @@
     "text_preserved": "sufficient quantity of gold or gold ornaments or other articles or things acceptable to"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 300,
     "span_type": "line",
@@ -5100,7 +5100,7 @@
     "text_preserved": "the bank as security for the loan. the loan shall also be secured by the guarantee"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 301,
     "span_type": "line",
@@ -5117,7 +5117,7 @@
     "text_preserved": "of a person acceptable to the bank and good for the loan amount involved and by"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 302,
     "span_type": "line",
@@ -5134,7 +5134,7 @@
     "text_preserved": "mortgage of the guarantor s property also or pledge/assignment/hypothecation of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 303,
     "span_type": "line",
@@ -5148,10 +5148,10 @@
     },
     "text_display": "other securities acceptable to the Bank, if need be.",
     "text_clean": "other securities acceptable to the bank if need be",
-    "text_preserved": "other securities acceptable to the bank if need be."
+    "text_preserved": "other securities acceptable to the bank, if need be."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 304,
     "span_type": "line",
@@ -5165,10 +5165,10 @@
     },
     "text_display": "n)",
     "text_clean": "n",
-    "text_preserved": "n"
+    "text_preserved": "n)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 305,
     "span_type": "line",
@@ -5185,7 +5185,7 @@
     "text_preserved": "i/we shall obtain at my/our cost and produce for the satisfaction of the bank a"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 306,
     "span_type": "line",
@@ -5202,7 +5202,7 @@
     "text_preserved": "certificate from the advocate /solicitors approved by the bank certifying that i/we"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 307,
     "span_type": "line",
@@ -5216,10 +5216,10 @@
     },
     "text_display": "will have clear, valid and marketable title to the land/house/flat proposed to be",
     "text_clean": "will have clear valid and marketable title to the land house flat proposed to be",
-    "text_preserved": "will have clear valid and marketable title to the land/house/flat proposed to be"
+    "text_preserved": "will have clear, valid and marketable title to the land/house/flat proposed to be"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 308,
     "span_type": "line",
@@ -5236,7 +5236,7 @@
     "text_preserved": "purchased by me/us and agree that the bank shall be entitled not to disburse any"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 309,
     "span_type": "line",
@@ -5253,7 +5253,7 @@
     "text_preserved": "amount of the loan until such certificate has been produced by me/us."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 310,
     "span_type": "line",
@@ -5267,10 +5267,10 @@
     },
     "text_display": "o)",
     "text_clean": "o",
-    "text_preserved": "o"
+    "text_preserved": "o)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 311,
     "span_type": "line",
@@ -5287,7 +5287,7 @@
     "text_preserved": "i/we shall maintain the flat/house in good tenantable repair and condition at my /our"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 312,
     "span_type": "line",
@@ -5304,7 +5304,7 @@
     "text_preserved": "cost at all times so long as i/we am/are indebted to the bank and that i/we shall"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 313,
     "span_type": "line",
@@ -5321,7 +5321,7 @@
     "text_preserved": "ensure that the bank s security is not in any way jeopardised. i/we shall duly and"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 7,
     "span_id": 314,
     "span_type": "line",
@@ -5335,10 +5335,10 @@
     },
     "text_display": "punctually pay the charges, if any, payable to the Co-operative Housing",
     "text_clean": "punctually pay the charges if any payable to the co operative housing",
-    "text_preserved": "punctually pay the charges if any payable to the co-operative housing"
+    "text_preserved": "punctually pay the charges, if any, payable to the co-operative housing"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 315,
     "span_type": "line",
@@ -5352,10 +5352,10 @@
     },
     "text_display": "Society/condominium association and also all the municipal/revenue taxes,",
     "text_clean": "society condominium association and also all the municipal revenue taxes",
-    "text_preserved": "society/condominium association and also all the municipal/revenue taxes"
+    "text_preserved": "society/condominium association and also all the municipal/revenue taxes,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 316,
     "span_type": "line",
@@ -5369,10 +5369,10 @@
     },
     "text_display": "charges, rates, cesses etc. from time to time payable by me/us in respect of the",
     "text_clean": "charges rates cesses etc from time to time payable by me us in respect of the",
-    "text_preserved": "charges rates cesses etc. from time to time payable by me/us in respect of the"
+    "text_preserved": "charges, rates, cesses etc. from time to time payable by me/us in respect of the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 317,
     "span_type": "line",
@@ -5389,7 +5389,7 @@
     "text_preserved": "flat/house/land. the bank shall be at liberty to inspect the flat/house/land at any"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 318,
     "span_type": "line",
@@ -5406,7 +5406,7 @@
     "text_preserved": "reasonable time and i/we shall furnish all such information/particulars whatsoever"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 319,
     "span_type": "line",
@@ -5423,7 +5423,7 @@
     "text_preserved": "as and when called upon to do so by the bank. i / we shall provide the required no"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 320,
     "span_type": "line",
@@ -5437,10 +5437,10 @@
     },
     "text_display": "objection consent for creating a charge on the property secured for the Loan, from",
     "text_clean": "objection consent for creating a charge on the property secured for the loan from",
-    "text_preserved": "objection consent for creating a charge on the property secured for the loan from"
+    "text_preserved": "objection consent for creating a charge on the property secured for the loan, from"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 321,
     "span_type": "line",
@@ -5457,7 +5457,7 @@
     "text_preserved": "the society /condominium or any other permissions by any authority necessary for"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 322,
     "span_type": "line",
@@ -5474,7 +5474,7 @@
     "text_preserved": "creating the security in favour of the bank."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 323,
     "span_type": "line",
@@ -5488,10 +5488,10 @@
     },
     "text_display": "p) I / We shall at my/our cost insure and keep insured in the joint names of",
     "text_clean": "p i we shall at my our cost insure and keep insured in the joint names of",
-    "text_preserved": "p i / we shall at my/our cost insure and keep insured in the joint names of"
+    "text_preserved": "p) i / we shall at my/our cost insure and keep insured in the joint names of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 324,
     "span_type": "line",
@@ -5505,10 +5505,10 @@
     },
     "text_display": "myself/ourselves and the Bank my / our house/flat at all times against fire, flood,",
     "text_clean": "myself ourselves and the bank my our house flat at all times against fire flood",
-    "text_preserved": "myself/ourselves and the bank my / our house/flat at all times against fire flood"
+    "text_preserved": "myself/ourselves and the bank my / our house/flat at all times against fire, flood,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 325,
     "span_type": "line",
@@ -5522,10 +5522,10 @@
     },
     "text_display": "cyclone, typhoon, lightning, explosion, riot, strike, earthquake risks and other acts",
     "text_clean": "cyclone typhoon lightning explosion riot strike earthquake risks and other acts",
-    "text_preserved": "cyclone typhoon lightning explosion riot strike earthquake risks and other acts"
+    "text_preserved": "cyclone, typhoon, lightning, explosion, riot, strike, earthquake risks and other acts"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 326,
     "span_type": "line",
@@ -5542,7 +5542,7 @@
     "text_preserved": "of god for such other risks for its full market value as desired by the bank from time"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 327,
     "span_type": "line",
@@ -5559,7 +5559,7 @@
     "text_preserved": "to time and shall endeavour to get the building in which my/our flat is situated"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 328,
     "span_type": "line",
@@ -5573,10 +5573,10 @@
     },
     "text_display": "insured against fire, flood, cyclone, typhoon, lightning, explosion, riot, strike,",
     "text_clean": "insured against fire flood cyclone typhoon lightning explosion riot strike",
-    "text_preserved": "insured against fire flood cyclone typhoon lightning explosion riot strike"
+    "text_preserved": "insured against fire, flood, cyclone, typhoon, lightning, explosion, riot, strike,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 329,
     "span_type": "line",
@@ -5590,10 +5590,10 @@
     },
     "text_display": "earthquake, risks and other acts of God at all times by the Co-operative housing",
     "text_clean": "earthquake risks and other acts of god at all times by the co operative housing",
-    "text_preserved": "earthquake risks and other acts of god at all times by the co-operative housing"
+    "text_preserved": "earthquake, risks and other acts of god at all times by the co-operative housing"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 330,
     "span_type": "line",
@@ -5610,7 +5610,7 @@
     "text_preserved": "society/apartment owner/association or any other body under whose control the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 331,
     "span_type": "line",
@@ -5624,10 +5624,10 @@
     },
     "text_display": "building is vested. I/we shall deliver copies of the insurance policies, cover notes,",
     "text_clean": "building is vested i we shall deliver copies of the insurance policies cover notes",
-    "text_preserved": "building is vested. i/we shall deliver copies of the insurance policies cover notes"
+    "text_preserved": "building is vested. i/we shall deliver copies of the insurance policies, cover notes,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 332,
     "span_type": "line",
@@ -5641,10 +5641,10 @@
     },
     "text_display": "premium receipts, etc., to the Bank. If I/we fail to effect such insurance the Bank",
     "text_clean": "premium receipts etc to the bank if i we fail to effect such insurance the bank",
-    "text_preserved": "premium receipts etc. to the bank. if i/we fail to effect such insurance the bank"
+    "text_preserved": "premium receipts, etc., to the bank. if i/we fail to effect such insurance the bank"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 333,
     "span_type": "line",
@@ -5658,10 +5658,10 @@
     },
     "text_display": "will be at liberty but not obliged to insure the said house/flat against fire, flood,",
     "text_clean": "will be at liberty but not obliged to insure the said house flat against fire flood",
-    "text_preserved": "will be at liberty but not obliged to insure the said house/flat against fire flood"
+    "text_preserved": "will be at liberty but not obliged to insure the said house/flat against fire, flood,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 334,
     "span_type": "line",
@@ -5675,10 +5675,10 @@
     },
     "text_display": "cyclone, typhoon, lightning, explosion, riot, strike, earthquake risks and other acts",
     "text_clean": "cyclone typhoon lightning explosion riot strike earthquake risks and other acts",
-    "text_preserved": "cyclone typhoon lightning explosion riot strike earthquake risks and other acts"
+    "text_preserved": "cyclone, typhoon, lightning, explosion, riot, strike, earthquake risks and other acts"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 335,
     "span_type": "line",
@@ -5695,7 +5695,7 @@
     "text_preserved": "of god and debit the premium and other charges to any of my/our accounts with the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 336,
     "span_type": "line",
@@ -5709,10 +5709,10 @@
     },
     "text_display": "Bank. I/we expressly agree and declare that the Bank shall be entitled to adjust,",
     "text_clean": "bank i we expressly agree and declare that the bank shall be entitled to adjust",
-    "text_preserved": "bank. i/we expressly agree and declare that the bank shall be entitled to adjust"
+    "text_preserved": "bank. i/we expressly agree and declare that the bank shall be entitled to adjust,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 337,
     "span_type": "line",
@@ -5726,10 +5726,10 @@
     },
     "text_display": "settle, compromise or refer to arbitration any dispute between the insurance",
     "text_clean": "settle compromise or refer to arbitration any dispute between the insurance",
-    "text_preserved": "settle compromise or refer to arbitration any dispute between the insurance"
+    "text_preserved": "settle, compromise or refer to arbitration any dispute between the insurance"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 338,
     "span_type": "line",
@@ -5746,7 +5746,7 @@
     "text_preserved": "company and the insured arising from or under or in connection with any such policy"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 339,
     "span_type": "line",
@@ -5760,10 +5760,10 @@
     },
     "text_display": "or policies of insurance and such adjustment, settlement, compromise or any award",
     "text_clean": "or policies of insurance and such adjustment settlement compromise or any award",
-    "text_preserved": "or policies of insurance and such adjustment settlement compromise or any award"
+    "text_preserved": "or policies of insurance and such adjustment, settlement, compromise or any award"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 340,
     "span_type": "line",
@@ -5780,7 +5780,7 @@
     "text_preserved": "made on such reference to arbitration shall be valid and binding on me/us. i/we"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 341,
     "span_type": "line",
@@ -5797,7 +5797,7 @@
     "text_preserved": "further agree that the bank shall have a right to receive all moneys payable under"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 342,
     "span_type": "line",
@@ -5814,7 +5814,7 @@
     "text_preserved": "any such policy or under any claim made thereunder and to give a valid receipt"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 343,
     "span_type": "line",
@@ -5831,7 +5831,7 @@
     "text_preserved": "therefor and that the amount so received shall be credited to my/our loan account"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 344,
     "span_type": "line",
@@ -5848,7 +5848,7 @@
     "text_preserved": "and i/we will not be entitled to raise any question that a larger sum might or ought"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 345,
     "span_type": "line",
@@ -5865,7 +5865,7 @@
     "text_preserved": "to have been received or to dispute my/our liability for the balance remaining due"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 346,
     "span_type": "line",
@@ -5882,7 +5882,7 @@
     "text_preserved": "on such account after such credit."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 347,
     "span_type": "line",
@@ -5896,10 +5896,10 @@
     },
     "text_display": "q)",
     "text_clean": "q",
-    "text_preserved": "q"
+    "text_preserved": "q)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 348,
     "span_type": "line",
@@ -5916,7 +5916,7 @@
     "text_preserved": "i/we agree and declare that notwithstanding anything contained herein or in any"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 349,
     "span_type": "line",
@@ -5933,7 +5933,7 @@
     "text_preserved": "other security documents the entire amount of the loan or the balances then due"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 350,
     "span_type": "line",
@@ -5947,10 +5947,10 @@
     },
     "text_display": "shall, if so decided by the Bank, become forthwith due and payable by me/us to the",
     "text_clean": "shall if so decided by the bank become forthwith due and payable by me us to the",
-    "text_preserved": "shall if so decided by the bank become forthwith due and payable by me/us to the"
+    "text_preserved": "shall, if so decided by the bank, become forthwith due and payable by me/us to the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 351,
     "span_type": "line",
@@ -5964,10 +5964,10 @@
     },
     "text_display": "Bank, upon the happening of any of the following events and the Bank shall be",
     "text_clean": "bank upon the happening of any of the following events and the bank shall be",
-    "text_preserved": "bank upon the happening of any of the following events and the bank shall be"
+    "text_preserved": "bank, upon the happening of any of the following events and the bank shall be"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 352,
     "span_type": "line",
@@ -5984,7 +5984,7 @@
     "text_preserved": "entitled to enforce its dues and security."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 353,
     "span_type": "line",
@@ -5998,10 +5998,10 @@
     },
     "text_display": "i) any instalment of the principal remaining unpaid for a period exceeding one month",
     "text_clean": "i any instalment of the principal remaining unpaid for a period exceeding one month",
-    "text_preserved": "i any instalment of the principal remaining unpaid for a period exceeding one month"
+    "text_preserved": "i) any instalment of the principal remaining unpaid for a period exceeding one month"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 354,
     "span_type": "line",
@@ -6015,10 +6015,10 @@
     },
     "text_display": "after the due date for payment thereof has expired;",
     "text_clean": "after the due date for payment thereof has expired",
-    "text_preserved": "after the due date for payment thereof has expired"
+    "text_preserved": "after the due date for payment thereof has expired;"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 355,
     "span_type": "line",
@@ -6032,10 +6032,10 @@
     },
     "text_display": "ii) any interest including penal interest remaining unpaid and in arrears for a period",
     "text_clean": "ii any interest including penal interest remaining unpaid and in arrears for a period",
-    "text_preserved": "ii any interest including penal interest remaining unpaid and in arrears for a period"
+    "text_preserved": "ii) any interest including penal interest remaining unpaid and in arrears for a period"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 8,
     "span_id": 356,
     "span_type": "line",
@@ -6049,10 +6049,10 @@
     },
     "text_display": "of one month after the same has become due whether demanded or not;",
     "text_clean": "of one month after the same has become due whether demanded or not",
-    "text_preserved": "of one month after the same has become due whether demanded or not"
+    "text_preserved": "of one month after the same has become due whether demanded or not;"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 357,
     "span_type": "line",
@@ -6066,10 +6066,10 @@
     },
     "text_display": "iii) any breach or default in the performance or observance of any of the covenants",
     "text_clean": "iii any breach or default in the performance or observance of any of the covenants",
-    "text_preserved": "iii any breach or default in the performance or observance of any of the covenants"
+    "text_preserved": "iii) any breach or default in the performance or observance of any of the covenants"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 358,
     "span_type": "line",
@@ -6086,7 +6086,7 @@
     "text_preserved": "contained in these presents and/or the security documents or any other term or"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 359,
     "span_type": "line",
@@ -6100,10 +6100,10 @@
     },
     "text_display": "condition relating to the term loans;",
     "text_clean": "condition relating to the term loans",
-    "text_preserved": "condition relating to the term loans"
+    "text_preserved": "condition relating to the term loans;"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 360,
     "span_type": "line",
@@ -6117,10 +6117,10 @@
     },
     "text_display": "iv) entering into any arrangement or composition with my/our creditors or committing",
     "text_clean": "iv entering into any arrangement or composition with my our creditors or committing",
-    "text_preserved": "iv entering into any arrangement or composition with my/our creditors or committing"
+    "text_preserved": "iv) entering into any arrangement or composition with my/our creditors or committing"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 361,
     "span_type": "line",
@@ -6134,10 +6134,10 @@
     },
     "text_display": "any act of insolvency;",
     "text_clean": "any act of insolvency",
-    "text_preserved": "any act of insolvency"
+    "text_preserved": "any act of insolvency;"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 362,
     "span_type": "line",
@@ -6151,10 +6151,10 @@
     },
     "text_display": "v) any execution or distress being enforced or levied against the whole or any part of",
     "text_clean": "v any execution or distress being enforced or levied against the whole or any part of",
-    "text_preserved": "v any execution or distress being enforced or levied against the whole or any part of"
+    "text_preserved": "v) any execution or distress being enforced or levied against the whole or any part of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 363,
     "span_type": "line",
@@ -6168,10 +6168,10 @@
     },
     "text_display": "my/our property;",
     "text_clean": "my our property",
-    "text_preserved": "my/our property"
+    "text_preserved": "my/our property;"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 364,
     "span_type": "line",
@@ -6185,10 +6185,10 @@
     },
     "text_display": "vi) a receiver being appointed in respect of the whole or any part of my/our property;",
     "text_clean": "vi a receiver being appointed in respect of the whole or any part of my our property",
-    "text_preserved": "vi a receiver being appointed in respect of the whole or any part of my/our property"
+    "text_preserved": "vi) a receiver being appointed in respect of the whole or any part of my/our property;"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 365,
     "span_type": "line",
@@ -6202,10 +6202,10 @@
     },
     "text_display": "vii)the occurrence of any circumstances which is prejudicial to or impairs, imperils or",
     "text_clean": "vii the occurrence of any circumstances which is prejudicial to or impairs imperils or",
-    "text_preserved": "vii the occurrence of any circumstances which is prejudicial to or impairs imperils or"
+    "text_preserved": "vii)the occurrence of any circumstances which is prejudicial to or impairs, imperils or"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 366,
     "span_type": "line",
@@ -6219,10 +6219,10 @@
     },
     "text_display": "depreciates or which is likely to prejudice, impair, imperil or depreciate the security",
     "text_clean": "depreciates or which is likely to prejudice impair imperil or depreciate the security",
-    "text_preserved": "depreciates or which is likely to prejudice impair imperil or depreciate the security"
+    "text_preserved": "depreciates or which is likely to prejudice, impair, imperil or depreciate the security"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 367,
     "span_type": "line",
@@ -6236,10 +6236,10 @@
     },
     "text_display": "given to the Bank ; and",
     "text_clean": "given to the bank and",
-    "text_preserved": "given to the bank and"
+    "text_preserved": "given to the bank ; and"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 368,
     "span_type": "line",
@@ -6253,10 +6253,10 @@
     },
     "text_display": "viii) the occurrence of any events or circumstances which prejudicially or adversely",
     "text_clean": "viii the occurrence of any events or circumstances which prejudicially or adversely",
-    "text_preserved": "viii the occurrence of any events or circumstances which prejudicially or adversely"
+    "text_preserved": "viii) the occurrence of any events or circumstances which prejudicially or adversely"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 369,
     "span_type": "line",
@@ -6273,7 +6273,7 @@
     "text_preserved": "affect in any manner my/our capacity to repay the amount due under the loan."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 370,
     "span_type": "line",
@@ -6287,10 +6287,10 @@
     },
     "text_display": "On the question whether any of the above event/s has/have happened, the decision",
     "text_clean": "on the question whether any of the above event s has have happened the decision",
-    "text_preserved": "on the question whether any of the above event/s has/have happened the decision"
+    "text_preserved": "on the question whether any of the above event/s has/have happened, the decision"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 371,
     "span_type": "line",
@@ -6307,7 +6307,7 @@
     "text_preserved": "of the bank shall be conclusive and binding on me/us."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 372,
     "span_type": "line",
@@ -6324,7 +6324,7 @@
     "text_preserved": "provided always that the bank may in its discretion refrain from forthwith enforcing"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 373,
     "span_type": "line",
@@ -6341,7 +6341,7 @@
     "text_preserved": "its rights under this agreement in spite of the happening of the contingencies"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 374,
     "span_type": "line",
@@ -6358,7 +6358,7 @@
     "text_preserved": "aforesaid and provided further that the failure or delay by the bank in exercising any"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 375,
     "span_type": "line",
@@ -6372,10 +6372,10 @@
     },
     "text_display": "right, power or privilege hereunder or under any of the security documents shall not",
     "text_clean": "right power or privilege hereunder or under any of the security documents shall not",
-    "text_preserved": "right power or privilege hereunder or under any of the security documents shall not"
+    "text_preserved": "right, power or privilege hereunder or under any of the security documents shall not"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 376,
     "span_type": "line",
@@ -6392,7 +6392,7 @@
     "text_preserved": "impair/extinguish the same or operate as waiver of the same nor shall any single or"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 377,
     "span_type": "line",
@@ -6406,10 +6406,10 @@
     },
     "text_display": "partial exercise of any right, power or privilege preclude any further exercise of the",
     "text_clean": "partial exercise of any right power or privilege preclude any further exercise of the",
-    "text_preserved": "partial exercise of any right power or privilege preclude any further exercise of the"
+    "text_preserved": "partial exercise of any right, power or privilege preclude any further exercise of the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 378,
     "span_type": "line",
@@ -6423,10 +6423,10 @@
     },
     "text_display": "same or the exercise of any other right, power or privilege. The rights and remedies",
     "text_clean": "same or the exercise of any other right power or privilege the rights and remedies",
-    "text_preserved": "same or the exercise of any other right power or privilege. the rights and remedies"
+    "text_preserved": "same or the exercise of any other right, power or privilege. the rights and remedies"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 379,
     "span_type": "line",
@@ -6443,7 +6443,7 @@
     "text_preserved": "herein and in the security documents are cumulative and not exclusive of any rights"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 380,
     "span_type": "line",
@@ -6460,7 +6460,7 @@
     "text_preserved": "and remedies provided by the law."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 381,
     "span_type": "line",
@@ -6474,10 +6474,10 @@
     },
     "text_display": "q) I/We also agree that the Bank shall also be entitled to transfer loan account to any",
     "text_clean": "q i we also agree that the bank shall also be entitled to transfer loan account to any",
-    "text_preserved": "q i/we also agree that the bank shall also be entitled to transfer loan account to any"
+    "text_preserved": "q) i/we also agree that the bank shall also be entitled to transfer loan account to any"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 382,
     "span_type": "line",
@@ -6494,7 +6494,7 @@
     "text_preserved": "of the branches of the bank after giving due notice to me/us."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 383,
     "span_type": "line",
@@ -6508,10 +6508,10 @@
     },
     "text_display": "r) I/We declare and undertake that I/We have not paid/shall not pay any commission",
     "text_clean": "r i we declare and undertake that i we have not paid shall not pay any commission",
-    "text_preserved": "r i/we declare and undertake that i/we have not paid/shall not pay any commission"
+    "text_preserved": "r) i/we declare and undertake that i/we have not paid/shall not pay any commission"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 384,
     "span_type": "line",
@@ -6525,10 +6525,10 @@
     },
     "text_display": "to any person/s for furnishing guarantees, counter guarantees or indemnities or for",
     "text_clean": "to any person s for furnishing guarantees counter guarantees or indemnities or for",
-    "text_preserved": "to any person/s for furnishing guarantees counter guarantees or indemnities or for"
+    "text_preserved": "to any person/s for furnishing guarantees, counter guarantees or indemnities or for"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 385,
     "span_type": "line",
@@ -6545,7 +6545,7 @@
     "text_preserved": "undertaking any other liability with respect to the aforesaid credit facility."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 386,
     "span_type": "line",
@@ -6559,10 +6559,10 @@
     },
     "text_display": "s) I/We shall abide by the terms and conditions of the sanction of the loan to me/us as",
     "text_clean": "s i we shall abide by the terms and conditions of the sanction of the loan to me us as",
-    "text_preserved": "s i/we shall abide by the terms and conditions of the sanction of the loan to me/us as"
+    "text_preserved": "s) i/we shall abide by the terms and conditions of the sanction of the loan to me/us as"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 387,
     "span_type": "line",
@@ -6579,7 +6579,7 @@
     "text_preserved": "mentioned in the arrangement letter/sanction letter which forms part of this"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 9,
     "span_id": 388,
     "span_type": "line",
@@ -6596,7 +6596,7 @@
     "text_preserved": "agreement and also to the rules for such loans which are now in force and also"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 389,
     "span_type": "line",
@@ -6610,10 +6610,10 @@
     },
     "text_display": "those which may be altered, revised, amended, added from time to time by the",
     "text_clean": "those which may be altered revised amended added from time to time by the",
-    "text_preserved": "those which may be altered revised amended added from time to time by the"
+    "text_preserved": "those which may be altered, revised, amended, added from time to time by the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 390,
     "span_type": "line",
@@ -6630,7 +6630,7 @@
     "text_preserved": "bank/the reserve bank of india/central government/state government."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 391,
     "span_type": "line",
@@ -6644,10 +6644,10 @@
     },
     "text_display": "The undertakings, authority and agreements herein contained shall be irrevocable",
     "text_clean": "the undertakings authority and agreements herein contained shall be irrevocable",
-    "text_preserved": "the undertakings authority and agreements herein contained shall be irrevocable"
+    "text_preserved": "the undertakings, authority and agreements herein contained shall be irrevocable"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 392,
     "span_type": "line",
@@ -6664,7 +6664,7 @@
     "text_preserved": "so long as i/we continue to be liable to the bank in the said loan account."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 393,
     "span_type": "line",
@@ -6681,7 +6681,7 @@
     "text_preserved": "i/we hereby further agree that as precondition of the loan/ advance given to me/us"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 394,
     "span_type": "line",
@@ -6695,10 +6695,10 @@
     },
     "text_display": "by the Bank, that in case of default in repayment of the loan/advances or in the",
     "text_clean": "by the bank that in case of default in repayment of the loan advances or in the",
-    "text_preserved": "by the bank that in case of default in repayment of the loan/advances or in the"
+    "text_preserved": "by the bank, that in case of default in repayment of the loan/advances or in the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 395,
     "span_type": "line",
@@ -6715,7 +6715,7 @@
     "text_preserved": "repayment of the interest thereon or any of the agreed instalment of the loan on due"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 396,
     "span_type": "line",
@@ -6729,10 +6729,10 @@
     },
     "text_display": "date/s, the Bank and/or the Reserve Bank of India will have an unqualified right to",
     "text_clean": "date s the bank and or the reserve bank of india will have an unqualified right to",
-    "text_preserved": "date/s the bank and/or the reserve bank of india will have an unqualified right to"
+    "text_preserved": "date/s, the bank and/or the reserve bank of india will have an unqualified right to"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 397,
     "span_type": "line",
@@ -6746,10 +6746,10 @@
     },
     "text_display": "disclose or publish my/our name(s), details and photograph(s) as defaulter in such",
     "text_clean": "disclose or publish my our name s details and photograph s as defaulter in such",
-    "text_preserved": "disclose or publish my/our name s details and photograph s as defaulter in such"
+    "text_preserved": "disclose or publish my/our name(s), details and photograph(s) as defaulter in such"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 398,
     "span_type": "line",
@@ -6766,7 +6766,7 @@
     "text_preserved": "manner and through such medium as the bank or reserve bank of india in their"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 399,
     "span_type": "line",
@@ -6783,7 +6783,7 @@
     "text_preserved": "absolute discretion may think fit."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 400,
     "span_type": "line",
@@ -6800,7 +6800,7 @@
     "text_preserved": "i/we further agree that the bank is at liberty to disclose/share my/our credit"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 401,
     "span_type": "line",
@@ -6817,7 +6817,7 @@
     "text_preserved": "information to/with information company formed under the credit information"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 402,
     "span_type": "line",
@@ -6831,10 +6831,10 @@
     },
     "text_display": "Company (Regulation), 2005, as to the loans granted to me/us and the nature of the",
     "text_clean": "company regulation 2005 as to the loans granted to me us and the nature of the",
-    "text_preserved": "company regulation 2005 as to the loans granted to me/us and the nature of the"
+    "text_preserved": "company (regulation), 2005, as to the loans granted to me/us and the nature of the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 403,
     "span_type": "line",
@@ -6848,10 +6848,10 @@
     },
     "text_display": "securities given by me/ us, the guarantees furnished to secure the said loans",
     "text_clean": "securities given by me us the guarantees furnished to secure the said loans",
-    "text_preserved": "securities given by me/ us the guarantees furnished to secure the said loans"
+    "text_preserved": "securities given by me/ us, the guarantees furnished to secure the said loans"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 404,
     "span_type": "line",
@@ -6865,10 +6865,10 @@
     },
     "text_display": "whether fund based or non-fund based, my/our creditworthiness and any other",
     "text_clean": "whether fund based or non fund based my our creditworthiness and any other",
-    "text_preserved": "whether fund based or non-fund based my/our creditworthiness and any other"
+    "text_preserved": "whether fund based or non-fund based, my/our creditworthiness and any other"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 405,
     "span_type": "line",
@@ -6885,7 +6885,7 @@
     "text_preserved": "manner which the rbi may consider necessary for inclusion in the credit"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 406,
     "span_type": "line",
@@ -6902,7 +6902,7 @@
     "text_preserved": "information to be collected and maintained by credit information companies and"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 407,
     "span_type": "line",
@@ -6919,7 +6919,7 @@
     "text_preserved": "the bank is not liable in any manner to me/us for providing the information as"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 408,
     "span_type": "line",
@@ -6936,7 +6936,7 @@
     "text_preserved": "aforesaid to the information company."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 409,
     "span_type": "line",
@@ -6950,10 +6950,10 @@
     },
     "text_display": "In the event of my/we failing to repay any or more installment(s) at any point of time,",
     "text_clean": "in the event of my we failing to repay any or more installment s at any point of time",
-    "text_preserved": "in the event of my/we failing to repay any or more installment s at any point of time"
+    "text_preserved": "in the event of my/we failing to repay any or more installment(s) at any point of time,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 410,
     "span_type": "line",
@@ -6970,7 +6970,7 @@
     "text_preserved": "the bank may send written reminder or make tele-call/sms or depute an official to"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 411,
     "span_type": "line",
@@ -6984,10 +6984,10 @@
     },
     "text_display": "meet me/us personally, all the incidental charges appurtenanat thereto such as",
     "text_clean": "meet me us personally all the incidental charges appurtenanat thereto such as",
-    "text_preserved": "meet me/us personally all the incidental charges appurtenanat thereto such as"
+    "text_preserved": "meet me/us personally, all the incidental charges appurtenanat thereto such as"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 412,
     "span_type": "line",
@@ -7001,10 +7001,10 @@
     },
     "text_display": "postage, telephone/SMS charges, transportation charges, on actual, would be",
     "text_clean": "postage telephone sms charges transportation charges on actual would be",
-    "text_preserved": "postage telephone/sms charges transportation charges on actual would be"
+    "text_preserved": "postage, telephone/sms charges, transportation charges, on actual, would be"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 413,
     "span_type": "line",
@@ -7021,7 +7021,7 @@
     "text_preserved": "recovered from me/us."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 414,
     "span_type": "line",
@@ -7038,7 +7038,7 @@
     "text_preserved": "i/we agree that the bank has absolute right to assign this agreement in favour of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 415,
     "span_type": "line",
@@ -7055,7 +7055,7 @@
     "text_preserved": "any person including securitisation company or reconstruction company under the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 416,
     "span_type": "line",
@@ -7069,10 +7069,10 @@
     },
     "text_display": "SARFAESI Act and on such assignment, I/We will be liable to such assignee as if",
     "text_clean": "sarfaesi act and on such assignment i we will be liable to such assignee as if",
-    "text_preserved": "sarfaesi act and on such assignment i/we will be liable to such assignee as if"
+    "text_preserved": "sarfaesi act and on such assignment, i/we will be liable to such assignee as if"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 417,
     "span_type": "line",
@@ -7089,7 +7089,7 @@
     "text_preserved": "assignee is the bank/lender and assignee will have all rights against me/us and as"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 418,
     "span_type": "line",
@@ -7106,7 +7106,7 @@
     "text_preserved": "well as overall properties either given as security or otherwise to recover all"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 419,
     "span_type": "line",
@@ -7123,7 +7123,7 @@
     "text_preserved": "debts/liabilities payable by me/us under this agreement."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 420,
     "span_type": "line",
@@ -7137,10 +7137,10 @@
     },
     "text_display": "Notwithstanding anything contained hereinabove, I/We confirm having agreed",
     "text_clean": "notwithstanding anything contained hereinabove i we confirm having agreed",
-    "text_preserved": "notwithstanding anything contained hereinabove i/we confirm having agreed"
+    "text_preserved": "notwithstanding anything contained hereinabove, i/we confirm having agreed"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 421,
     "span_type": "line",
@@ -7154,10 +7154,10 @@
     },
     "text_display": "that the Bank reserves the absolute right to cancel the limits (either fully or",
     "text_clean": "that the bank reserves the absolute right to cancel the limits either fully or",
-    "text_preserved": "that the bank reserves the absolute right to cancel the limits either fully or"
+    "text_preserved": "that the bank reserves the absolute right to cancel the limits (either fully or"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 422,
     "span_type": "line",
@@ -7171,10 +7171,10 @@
     },
     "text_display": "partially) unconditionally without prior notice (a) in case the limits/part of the",
     "text_clean": "partially unconditionally without prior notice a in case the limits part of the",
-    "text_preserved": "partially unconditionally without prior notice a in case the limits/part of the"
+    "text_preserved": "partially) unconditionally without prior notice (a) in case the limits/part of the"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 423,
     "span_type": "line",
@@ -7188,10 +7188,10 @@
     },
     "text_display": "limits are not utilized by us, and/or (b) in case of deterioration in the loan",
     "text_clean": "limits are not utilized by us and or b in case of deterioration in the loan",
-    "text_preserved": "limits are not utilized by us and/or b in case of deterioration in the loan"
+    "text_preserved": "limits are not utilized by us, and/or (b) in case of deterioration in the loan"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 424,
     "span_type": "line",
@@ -7205,10 +7205,10 @@
     },
     "text_display": "accounts in any manner whatsoever, and/or (c) in case of non-compliance of",
     "text_clean": "accounts in any manner whatsoever and or c in case of non compliance of",
-    "text_preserved": "accounts in any manner whatsoever and/or c in case of non-compliance of"
+    "text_preserved": "accounts in any manner whatsoever, and/or (c) in case of non-compliance of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 425,
     "span_type": "line",
@@ -7225,7 +7225,7 @@
     "text_preserved": "terms and conditions of sanction."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 426,
     "span_type": "line",
@@ -7242,7 +7242,7 @@
     "text_preserved": "i/we declare that i have understood all the terms and conditions for the sanction of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 427,
     "span_type": "line",
@@ -7259,7 +7259,7 @@
     "text_preserved": "this loan and agree to abide by the same and also by the rules and regulations which"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 10,
     "span_id": 428,
     "span_type": "line",
@@ -7276,7 +7276,7 @@
     "text_preserved": "may be issued by the bank in future from time to time and in the event of my/our"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 429,
     "span_type": "line",
@@ -7290,10 +7290,10 @@
     },
     "text_display": "failing to do so, the Bank will have a right to recall the advance without prejudice to",
     "text_clean": "failing to do so the bank will have a right to recall the advance without prejudice to",
-    "text_preserved": "failing to do so the bank will have a right to recall the advance without prejudice to"
+    "text_preserved": "failing to do so, the bank will have a right to recall the advance without prejudice to"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 430,
     "span_type": "line",
@@ -7310,7 +7310,7 @@
     "text_preserved": "the bank s right to take such appropriate action as the bank may deem it fit and"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 431,
     "span_type": "line",
@@ -7327,7 +7327,7 @@
     "text_preserved": "proper."
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 432,
     "span_type": "line",
@@ -7341,10 +7341,10 @@
     },
     "text_display": "Signed and delivered by:",
     "text_clean": "signed and delivered by",
-    "text_preserved": "signed and delivered by"
+    "text_preserved": "signed and delivered by:"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 433,
     "span_type": "line",
@@ -7361,7 +7361,7 @@
     "text_preserved": "shri/smt./kum"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 434,
     "span_type": "line",
@@ -7375,10 +7375,10 @@
     },
     "text_display": "(Borrower)",
     "text_clean": "borrower",
-    "text_preserved": "borrower"
+    "text_preserved": "(borrower)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 435,
     "span_type": "line",
@@ -7392,10 +7392,10 @@
     },
     "text_display": "(Signature)",
     "text_clean": "signature",
-    "text_preserved": "signature"
+    "text_preserved": "(signature)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 436,
     "span_type": "line",
@@ -7412,7 +7412,7 @@
     "text_preserved": "shri/smt.kum"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 437,
     "span_type": "line",
@@ -7426,10 +7426,10 @@
     },
     "text_display": "(Borrower)",
     "text_clean": "borrower",
-    "text_preserved": "borrower"
+    "text_preserved": "(borrower)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 438,
     "span_type": "line",
@@ -7443,10 +7443,10 @@
     },
     "text_display": "(Signature)",
     "text_clean": "signature",
-    "text_preserved": "signature"
+    "text_preserved": "(signature)"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 439,
     "span_type": "line",
@@ -7463,7 +7463,7 @@
     "text_preserved": "signed for and on behalf of"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 440,
     "span_type": "line",
@@ -7480,7 +7480,7 @@
     "text_preserved": "state bank of india by"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 441,
     "span_type": "line",
@@ -7497,7 +7497,7 @@
     "text_preserved": "shri / smt"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 442,
     "span_type": "line",
@@ -7511,10 +7511,10 @@
     },
     "text_display": "(Dy. General Manager/Asst. General Manager/",
     "text_clean": "dy general manager asst general manager",
-    "text_preserved": "dy. general manager/asst. general manager/"
+    "text_preserved": "(dy. general manager/asst. general manager/"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 443,
     "span_type": "line",
@@ -7531,7 +7531,7 @@
     "text_preserved": "chief manager/ branch manager"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 444,
     "span_type": "line",
@@ -7545,10 +7545,10 @@
     },
     "text_display": "Branch,",
     "text_clean": "branch",
-    "text_preserved": "branch"
+    "text_preserved": "branch,"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 445,
     "span_type": "line",
@@ -7565,7 +7565,7 @@
     "text_preserved": "an authorized officer of state bank of india"
   },
   {
-    "doc_id": "ded99621-2e6c-4e51-aa6f-aa8f9b507ca5",
+    "doc_id": "4b5b7bcc-de5d-4a11-9177-8d5499582dcb",
     "page": 11,
     "span_id": 446,
     "span_type": "line",
@@ -7579,6 +7579,6 @@
     },
     "text_display": "(Signature)",
     "text_clean": "signature",
-    "text_preserved": "signature"
+    "text_preserved": "(signature)"
   }
 ]

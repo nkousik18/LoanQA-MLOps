@@ -21,7 +21,7 @@ from tqdm import tqdm
 from pathlib import Path
 
 # ---------------------------------------------------------------------
-# 🔧 Ensure working directory and imports
+# Ensure working directory and imports
 # ---------------------------------------------------------------------
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, "../../"))
@@ -30,7 +30,7 @@ if PROJECT_ROOT not in sys.path:
 os.chdir(PROJECT_ROOT)
 
 # ---------------------------------------------------------------------
-# 📦 Imports from config and utilities
+# Imports from config and utilities
 # ---------------------------------------------------------------------
 from scripts.aws_extraction_scripts.config import SEGMENTED_DIR, NORMALIZED_DIR
 from scripts.aws_extraction_scripts.log_utils import get_logger
@@ -38,8 +38,9 @@ from scripts.aws_extraction_scripts.tracker import track_task
 
 logger = get_logger("normalize_text")
 
+
 # ---------------------------------------------------------------------
-# 🧹 Cleaning Helpers
+# Cleaning Helpers
 # ---------------------------------------------------------------------
 def clean_text_basic(text: str) -> str:
     """Aggressively cleans text for embeddings/search."""
@@ -52,23 +53,26 @@ def clean_text_basic(text: str) -> str:
 def clean_text_preserved(text: str) -> str:
     """Lightly cleans text while preserving key symbols for entity extraction."""
     text = text.lower()
-    text = re.sub(r"[^a-z0-9@._\-/\s]", " ", text)
+    text = re.sub(r"[^a-z0-9$%@:;.,()/\-_\\s]", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
 
 # ---------------------------------------------------------------------
-# 🧩 Core Function: Normalize one segmented file
+# Core Function: Normalize one segmented file into target directory
 # ---------------------------------------------------------------------
-def normalize_segmented_json(seg_path):
+def normalize_segmented_json_to_dir(seg_path, normalized_dir):
     """
     Converts a segmented JSON file into normalized form with
     text_display, text_clean, and text_preserved variants.
 
-    Accepts either str or Path input.
-    Returns string path for Airflow XCom and pytest compatibility.
+    - seg_path: str or Path to *_segmented.json
+    - normalized_dir: target directory for *_normalized.json
+
+    Returns output path as string.
     """
     seg_path = Path(seg_path)
+    normalized_dir = Path(normalized_dir)
 
     task_name = f"normalize_{seg_path.stem}"
     track_task(task_name, "STARTED")
@@ -89,26 +93,38 @@ def normalize_segmented_json(seg_path):
             norm_entry["text_preserved"] = clean_text_preserved(raw_text)
             normalized.append(norm_entry)
 
-        NORMALIZED_DIR.mkdir(parents=True, exist_ok=True)
-        out_path = NORMALIZED_DIR / f"{seg_path.stem.replace('_segmented', '_normalized')}.json"
+        normalized_dir.mkdir(parents=True, exist_ok=True)
+        out_path = normalized_dir / f"{seg_path.stem.replace('_segmented', '_normalized')}.json"
 
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(normalized, f, indent=2, ensure_ascii=False)
 
-        msg = f"✅ Normalized file saved: {out_path} (Lines: {len(normalized)})"
+        msg = f"Normalized file saved: {out_path} (Lines: {len(normalized)})"
         logger.info(msg)
         track_task(task_name, "SUCCESS", details=msg)
         return str(out_path)
 
     except Exception as e:
-        err = f"❌ Error normalizing {seg_path}: {e}"
+        err = f"Error normalizing {seg_path}: {e}"
         logger.exception(err)
         track_task(task_name, "FAILED", error=str(e))
         return None
 
 
 # ---------------------------------------------------------------------
-# 🚀 Batch Runner
+# Backwards-compatible function (uses NORMALIZED_DIR)
+# ---------------------------------------------------------------------
+def normalize_segmented_json(seg_path):
+    """
+    Original function signature, kept for batch/Airflow.
+
+    Uses global NORMALIZED_DIR from config.
+    """
+    return normalize_segmented_json_to_dir(seg_path, NORMALIZED_DIR)
+
+
+# ---------------------------------------------------------------------
+# Batch Runner
 # ---------------------------------------------------------------------
 def run_normalization_all(**context):
     """
@@ -119,14 +135,14 @@ def run_normalization_all(**context):
     track_task(task_name, "STARTED")
 
     if not SEGMENTED_DIR.exists():
-        msg = f"⚠️ Segmented directory not found: {SEGMENTED_DIR}"
+        msg = f"Segmented directory not found: {SEGMENTED_DIR}"
         logger.warning(msg)
         track_task(task_name, "FAILED", error=msg)
         return []
 
     seg_files = list(SEGMENTED_DIR.glob("*_segmented.json"))
     if not seg_files:
-        msg = f"⚠️ No segmented JSON files found in {SEGMENTED_DIR}"
+        msg = f"No segmented JSON files found in {SEGMENTED_DIR}"
         logger.warning(msg)
         track_task(task_name, "FAILED", error=msg)
         return []
@@ -137,15 +153,14 @@ def run_normalization_all(**context):
         if out_file:
             results.append(out_file)
 
-    msg = f"✅ Completed normalization for {len(results)} files."
+    msg = f"Completed normalization for {len(results)} files."
     logger.info(msg)
     track_task(task_name, "SUCCESS", details=msg)
     return results
 
 
 # ---------------------------------------------------------------------
-# 🏁 Entry Point
+# Entry Point
 # ---------------------------------------------------------------------
 if __name__ == "__main__":
     run_normalization_all()
-
