@@ -5,7 +5,7 @@ Student Loan Intelligence System - Main Entry Point
 This module provides the main CLI interface for the Student Loan Intelligence System,
 supporting both API server and CLI operations.
 
-Following KIRO Global Steering Guidelines.
+
 """
 
 import asyncio

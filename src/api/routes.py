@@ -1,9 +1,9 @@
 """
 API routes for complete document extraction
 """
-from fastapi import APIRouter, UploadFile, File, HTTPException
+from fastapi import APIRouter, UploadFile, File, HTTPException, Query
 from fastapi.responses import JSONResponse
-from typing import List, Dict
+from typing import List, Dict, Optional
 import logging
 import os
 import sys

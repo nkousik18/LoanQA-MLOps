@@ -297,3 +297,6 @@ def get_comparison_calculator() -> ComparisonCalculator:
     if _calculator is None:
         _calculator = ComparisonCalculator()
     return _calculator
+
+# Alias for compatibility with comparison_service
+ComparisonMetricsCalculator = ComparisonCalculator

@@ -45,6 +45,7 @@ google-auth>=2.23.0
 pytest>=7.4.0
 pytest-asyncio>=0.21.0
 pytest-cov>=4.1.0
+hypothesis>=6.92.0
 
 # MLOps Pipeline Components
 apache-airflow==2.7.3
