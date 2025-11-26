@@ -1,0 +1,15 @@
+{
+  "tasks": [
+    {
+      "id": "t_summary",
+      "kind": "doc_summary",
+      "query": "Summarise the key financial and legal terms of this agreement.",
+      "domain": "finance",
+      "scope": "global",
+      "language": "en",
+      "tone": null,
+      "depends_on": []
+    }
+  ],
+  "final_answer_instructions": "Follow the tasks in order. If EMI is present, present the calculation clearly at the end."
+}

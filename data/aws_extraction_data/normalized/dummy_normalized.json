@@ -1,0 +1,14 @@
+[
+  {
+    "doc_id": "8e7463c2-2ffe-494e-b69a-0334c81b24fe",
+    "page": 1,
+    "span_id": 1,
+    "span_type": "line",
+    "text": "Dummy",
+    "conf": 0,
+    "bbox": {},
+    "text_display": "Dummy",
+    "text_clean": "dummy",
+    "text_preserved": "dummy"
+  }
+]

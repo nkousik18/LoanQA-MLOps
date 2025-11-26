@@ -1,0 +1,344 @@
+
+=== PAGE 1 ===
+
+deutsche bank
+1
+serial no.:
+personal loan application form
+if applicant is an existing customer of deutsche bank ag, please quote the customer id:
+(individual applicant)
+(please fill details in capital letters. all fields marked in blue are mandatory)
+kyc number
+1. personal details of the borrower
+title mr. ms. mrs. dr. prof. others (please specify)
+name as per aadhaar
+first name middle name last name
+date of birth ddmmyyyy nationality
+mother s maiden name gender male female third gender
+pan gir no. father s spouse name
+passport no. nrega job card
+voter id no. aadhaar no. dl no.
+marital status single married others p leasespecif number of dependents
+full name (if abbreviation provided above)
+proof of identity submitted
+residential address present address
+address line 1
+address line 2
+city state pin code
+residential tel. no. (mandatory) tel. no. is landline c/o no. mobile
+std code
+country of residence
+place of birth
+the above address can be used for all my existing db relationships: yes no
+registered for gst yes no
+if no, reason for not being registered under gst individual below threshold non resident other
+if yes, please fill in the gstin form
+e-mail
+residential status self-owned rented house parent-owned company provided
+mortgaged paying guest/hostel / chummery others pleasespecify
+period of residence in current home years months
+period of residence in current city years months
+proof of address submitted
+
+
+=== PAGE 2 ===
+
+address as per aadhaar (mandatory if different from residential address)
+address line 1
+address line 2
+city state pin code
+tel. no.(l) mobile
+std code
+education high-school diploma graduate
+postgraduate and above professional others pleasespecify
+non resident means anyone who is not a resident of india including foreign nationals.
+2. employment profession details
+nature of employment salaried housewife retired
+if salaried, type of employer public sector government private limited partnership / proprietorship
+mnc public limited
+designation department retirement age
+total years in employment/business
+name of last employer years of service with last employer years months
+if professional, are you ca banker lawyer consultant doctor academician others
+years in current employment/business
+gross monthly income rs. net take home income (monthly) rs.
+other income (monthly) rs. emi affordable rs.
+office/business address details
+name of employer/business
+address line 1
+address line 2
+city state pin code
+country board no. extension
+std code
+email telephone (d)
+std code
+3. banking relationships
+1. primary bank account (salary account for salaried individuals) 2. other bank account details
+name of bank name of bank
+location location
+city city
+account no. account no.
+type of account savings current cc/od type of account savings current cc/od
+4. credit card
+if you have credit cards, kindly fill in the following details:
+card 1 card 2
+credit card no. credit card no.
+bank name bank name
+5. loan details
+details of loans and liabilities
+sr. no. institution name type of loan loan amount emi current o/s balance tenure
+kindly attach additional sheet, if need arises. if loan taken from employee kindly mention employer s name
+
+
+=== PAGE 3 ===
+
+6. loan requirement
+i hereby apply for a personal loan as follows:
+purpose of loan consumer durables working capital home-related expenses wedding expenses
+repayment of existing loans education travel purchase of professional equipment
+others pleasespecify
+loan amount required rs. loan tenor required months
+7. disbursal instructions
+please disburse my loan as per the following instructions:
+by pay order to my savings account with
+account no.
+i wish to pay my monthly installment by
+debit from my saving account with deutsche bank, account number
+electronic clearing service (ecs) / nach
+8. contact details
+preferred address for correspondence present address permanent address office address
+preferred mode of conduct preferred e-mail phone (l) mobile personal visit residence visit office do not call
+time of contact before 7 am 7 am - 9 am 10 am - 6 pm 7 pm- 9 pm anytime during the day
+reference 1 reference 2
+name name
+address address
+contact number contact number
+relationship with relationship with
+the applicant the applicant
+
+
+=== PAGE 4 ===
+
+declaration
+i hereby declare that the information and documents given by me / us to deutsche bank ag, india ( bank ) are true, correct and accurate and i
+have not withheld any material information. i understand that such information and documents have been submitted to induce the bank to
+sanction and grant the loan. i confirm that the bank is not required to return this loan application form along with the supporting documents or
+any other documents supplied by me. i have carefully read and understood the terms and conditions of this application as well as the terms
+and conditions of the loan facility. i hereby irrevocably agree to be bound by the terms and conditions governing the loan facility, which may be
+amended from time to time by the bank without obtaining consent of me. i hereby declare that i am fully competent to apply for the loan and
+there is no legal impediment for availing the loan facility from the bank. i confirm that there are no bankruptcy or liquidation proceedings
+instituted against me and i am not an undischarged insolvent and that none of my credit facilities / loans with any financial institution has
+turned / bad / irregular or is under default. i hereby authorise the bank to contact me and / or my friends, relatives, employer (past and
+present), business associates or any other source to verify the details furnished by me. i also authorise the bank to conduct such credit check
+as it considers necessary in its sole discretion. i understand and agree that the sanction of the loan shall be at the sole discretion of the bank,
+and the bank reserves its right to reject this loan application without providing any reasons. i hereby consent, agree and authorise the bank to
+disclose information and data relating to me, information and data of any credit facilities availed of / to be availed of by me, and / or information
+and data relating to any default, if any, committed by me in discharge of my obligations as and when the bank deems appropriate and
+necessary and furnish the same to the credit information bureau (india) limited (cibil) and / or any other agency as deemed necessary at the
+sole discretion of the bank. i agree to provide to the bank such further documents as may be required by the bank from time to time to comply
+with the know your customer (kyc) requirements of the reserve bank of india and
+the bank.
+i further agree that my loan should be governed by the terms and conditions laid down in this application form, sanction letter and
+loan agreement.
+i will update the bank in case of any change in my / my related party / ultimate beneficiary owner details provided at the time of opening the
+account which includes address change, change in industry, change in employment etc. i hereby consent, agree and authorise the bank to
+disclose and share information and profile data relating to me / us with risk scoring systems and global data bases of the bank for profile
+checks.
+the information including landline, mobile and email-id as mentioned above (apart from being used for mandatory account verification and
+maintenance purposes) may also be used by the bank to contact the customer and offer carefully selected products and services from time to
+time either itself or through its authorised agents or authorised representatives.
+by submitting aadhaar number/copy of aadhaar card to deutsche bank, i/we confirm and agree that the bank has duly explained to me/us
+that submission of aadhaar number / aadhaar card is no longer mandated for the purpose kyc for bank accounts and i/ we have the option to
+submit any other documents considered as a valid proof for the purpose of kyc as per the reserve bank of india direction. however, i/we are
+providing my/our aadhaar number/aadhaar card, as proof to deutsche bank voluntarily for the purpose of kyc and i confirm that i have struck
+off the aadhaar number from the copy of the aadhaar card submitted by me to deutsche bank. i/we further confirm that deutsche bank is
+authorized to collect, store and use my/our aadhaar as proof of address/kyc document in accordance with extant rules and regulations.
+my / our personal / kyc details may be shared with central kyc registry. i/ we hereby consent to receive information from central kyc
+registry through sms / email on the above registered number / email address.
+the bank shall share the information provided in the application form with the credit information companies (cics). basis this information, cic
+would provide the credit information report to the bank. the bank may use this credit information report while taking decision on grant of loan
+facility. the bank on the request of the customer shall share credit information report with her / him / them.
+please indicate if your are agreeable to receiving such offers: yes no
+applicant s signature (sign within the box and use black ink for signature)
+name location date dd m yyyy
+
+
+=== PAGE 5 ===
+
+customer disclosure in respect to relationship with director/senior officer of the bank/any other bank:
+i/ we hereby certify and declare that (tick whichever is applicable):
+(a) i/ we am/are not a director or a specified near relation of a director of board of a banking company or to any senior officer of the bank
+(where the borrower is an individual);
+(b) none of our partners is a director or specified near relation of a director of board of a banking company or to any senior officer of the bank
+(where the borrower is a partnership firm); and
+(c) none of our directors is a director or specified near relation of a director of board of a banking company or to any senior officer of the bank
+(where the borrower is a joint stock company).
+(d) i/ we am/are a director or specified near relation of a director of a board of a banking company or to any senior officer of the bank as detailed
+below:
+sr. no name of director(s) / senior officer(s) designation relationship
+1
+2
+3
+4
+i/ we understand that deutsche bank ag, india is entitled to revoke and/ or recall the credit facility if the declaration made by me / us with
+reference to the above is found to be false.
+x
+signature of the applicant
+date:
+the scope of the term relative shall mean and include spouse/ father, mother (including step-mother), son (including step-son), son s wife,
+daughter (including step-daughter), daughter s husband, brother (including step-brother), brother s wife, sister (including step-sister), sister s
+husband, brother (including step-brother) of the spouse, sister (including step-sister) of the spouse.
+the term senior officer will refer to a)any officer in senior management level in grade iv and above in a nationalised bank, and b) any officer in
+equivalent scale in the state bank of india and associate banks, and in any banking company in india.
+for bank use only
+sales reference no.
+promotion code
+application received on ddmmyy
+office use only section
+industry codes
+01 advertising and marketing 14 power and electricity 27 infrastructure
+02 agriculture 15 railways 28 law
+03 airlines 16 recruitment 29 manufacturing
+04 armed forces 17 retailing 30 medical and health care
+05 automobile 18 service provider 31 ministry and state government
+06 banking and insurance 19 shipping 32 pharma and biotech
+07 construction and real estate 20 entertainment and media 33 post and telegraph
+08 ca/cs/icwa 21 export and import 34 textile
+09 courier and cargo 22 financial services 35 trader and stockist
+10 doctor and diagnostics 23 gem and jewellery 36 timber furniture
+11 education 24 government bodies 37 transport/logistics
+12 consulting 25 hotel and restaurant 38 travel and tourism
+13 electrical electronic goods 26 it telecom 39 others
+industry type
+complete supporting document received on ddmmyy
+submitted completed application documents to bank ddmmyy
+on executive name co de
+i am proposing this case for credit approval.
+sales/ channel manager s name signature
+date ddmmyy
+application reference number date of serial no.:
+entering information ddmmyy
+
+
+=== PAGE 6 ===
+
+most important terms and conditions
+i/ we declare that i/ we have been intimated and i/ we understand that:
+- the interest rate applicable on my/ our loan will be tblr premium % % on floating rate
+- currently applicable tblr for my/ our loan is %
+- charges on the loan will be applicable as per the schedule of charges published on the website from time to time and also available at branches of
+deutsche bank. current charges are as follows
+- penal interest, pre-closure terms and all other charges will be applicable as per the schedule of charges published on the website currently as follows:
+fee type charges
+loan prepayment terms fixed rate loans:
+- 5% of the principal outstanding at the time of closure if the loan is closed
+within 1 year from the date of disbursement
+- 3% of the principal outstanding at the time of closure if the loan is closed
+after 1 year from the date of disbursement
+- no part payment is allowed
+floating rate loans:
+- nil prepayment charges
+- part payment is allowed
+charges for unsuccessful execution of standing instruction for payment/ cheque/ ecs/ nach/ 500/-
+bounce charge
+default interest rate (penal interest) 24% per annum on the overdue/ unpaid/ delayed amount payable
+post date cheques / ecs / nach / si swap charges 500/-
+stamp duty on loan agreement as applicable depending on local regulations
+taxes and other government levies as applicable
+- penal interest will be charged for the number of days for which the payable amount remains unpaid.
+- total documentation and processing fees to be paid by me/ us is % of the loan amount; tax as applicable. the processing fees will be
+deducted from my final loan amount disbursed.
+- 3 - months treasury bill yield published by financial benchmarks india private limited (fbil) to a markup. in the event the predetermined reference rate is tblr (3 - months treasury bill linked benchmark lending rate) which is determined by adding government of india
+date is not a business day, then the immediately succeeding business day s rate will be used.
+- the markup comprises of factors like operating cost, alm cost or any other parameter determined by the bank from time to time.
+calculated tblr is rounded off to the nearest 0.05% to arrive at the applicable tblr. the tblr as arrived at above will be published by the
+bank and shall act as the reference rate for determining the applicable rate of interest payable on my/our loan
+- interest rate reset dates for floating rate loans would be jan 16, apr 16, jul 16 and oct 16 of each calendar year during the loan tenor.
+- the bank states that tblr prevailing on the date of first disbursement shall be applicable till the next reset date irrespective of the changes
+in the benchmark in the interim. similarly effect of any subsequent change of tblr due to the change in the applicable 3 - months treasury
+bill yield on that day shall be applicable from the next date irrespective of the changes in between two reset dates.
+- the interest rate on my/our floating rate loan, is linked to tblr. interest on the loan will be charged at prevailing floating rate of interest on a
+daily reducing balance at monthly rests. the rate of interest is subject to revision from time to time due to (i) changes in tblr or (ii) revision
+even without change in tblr, the bank has the option to reduce or increase the emi or extend the repayment period or both consequent upon
+revision in interest rate.
+- with the rbi guidelines. i/ we understand that the bank can seek my/ our latest information and collect the required kyc documents on periodical basis in compliance
+- at present, i/ we do not wish to get included my/ our contact details with do not call registry/ national do not call registry and i/ we take
+note to update my/ our contact details with these registries whenever i/ we wish to.
+i/ we have read and agreed to the above terms and conditions. i/ we haven t signed a blank document/ application form.
+regards,
+(primary applicant signature) (primary applicant name)
+
+
+=== PAGE 7 ===
+
+most important terms and conditions
+i/ we declare that i/ we have been intimated and i we understand that:
+- the interest rate applicable on my/ our loan will be tblr premium % % on floating rate
+- currently applicable tblr for my/ our loan is %
+- charges on the loan will be applicable as per the schedule of charges published on the website from time to time and also available at branches of
+deutsche bank. current charges are as follows
+- penal interest, pre-closure terms and all other charges will be applicable as per the schedule of charges published on the website currently as follows:
+fee type charges
+default interest rate 24% per annum
+loan prepayment terms fixed rate loans:
+- 5% of the principal outstanding at the time of closure if the loan is closed
+within 1 year from the date of disbursement
+- 3% of the principal outstanding at the time of closure if the loan is closed
+after 1 year from the date of disbursement
+- no part payment is allowed
+floating rate loans:
+- nil prepayment charges
+- part payment is allowed
+charges for unsuccessful execution of standing instruction for payment/ cheque/ ecs/ nach/ 500/-
+bounce charge
+default interest rate (penal interest) 24% per annum on the overdue/ unpaid/ delayed amount payable
+post date cheques / ecs / nach / si swap charges 500/-
+stamp duty on loan agreement as applicable depending on local regulations
+taxes and other government levies as applicable
+- penal interest will be charged for the number of days for which the payable amount remains unpaid.
+- total documentation and processing fees to be paid by me/ us is % of the loan amount; tax as applicable. the processing fees will be
+deducted from my final loan amount disbursed.
+- 3 - months treasury bill yield published by financial benchmarks india private limited (fbil) to a markup. in the event the predetermined reference rate is tblr (3 - months treasury bill linked benchmark lending rate) which is determined by adding government of india
+date is not a business day, then the immediately succeeding business day s rate will be used.
+- the markup comprises of factors like operating cost, alm cost or any other parameter determined by the bank from time to time.
+calculated tblr is rounded off to the nearest 0.05% to arrive at the applicable tblr. the tblr as arrived at above will be published by the
+bank and shall act as the reference rate for determining the applicable rate of interest payable on my/our loan
+- interest rate reset dates for floating rate loans would be jan 16, apr 16, jul 16 and oct 16 of each calendar year during the loan tenor.
+- the bank states that tblr prevailing on the date of first disbursement shall be applicable till the next reset date irrespective of the changes
+in the benchmark in the interim. similarly effect of any subsequent change of tblr due to the change in the applicable 3 - months treasury
+bill yield on that day shall be applicable from the next date irrespective of the changes in between two reset dates.
+- the interest rate on my/our floating rate loan, is linked to tblr. interest on the loan will be charged at prevailing floating rate of interest on a
+daily reducing balance at monthly rests. the rate of interest is subject to revision from time to time due to (i) changes in tblr or (ii) revision
+even without change in tblr, the bank has the option to reduce or increase the emi or extend the repayment period or both consequent upon
+revision in interest rate.
+- with the rbi guidelines. i/ we understand that the bank can seek my/ our latest information and collect the required kyc documents on periodical basis in compliance
+- at present, i/ we do not wish to get included my/ our contact details with do not call registry/ national do not call registry and i/ we take
+note to update my/ our contact details with these registries whenever i/ we wish to.
+i/ we have read and agreed to the above terms and conditions. i/ we haven t signed a blank document/ application form.
+regards,
+(primary applicant signature) (primary applicant name)
+
+
+=== PAGE 8 ===
+
+kyc details
+know your customer documents (please refer www.deutschebank.co.in for complete list of documents)
+type of proof copy of any one of the following:
+identity proof valid passport / voter s id/ valid driving license/ pan
+card/ aadhaar card/ job card issued by nrega
+address proof valid passport/ voter s id/ valid driving license/ pan card/ aadhaar card/ job card issued by nrega
+income documents
+type of proof salaried
+last 3 month s salary slip
+financials latest year form 16 or itr
+last 6 month s salaried bank statement
+acknowledgement
+branch
+received the loan application form, from mr. / ms. on
+(any additional details/documents required, should be supplied immediately on intimation. in such a case date of receipt of such additional information
+shall be treated as the date of application.)
+decision shall be conveyed in writing within a maximum period of 21 days from the date of receipt of application.
+any grievances/disputes arising in this regard, should be made in writing to customer.care@db.com or call 1860 266 6601.
+customers outside india need to dial 91 22 6601 6601. customers in mumbai can also call at 6601 6601. call charges apply.
+date ddmmyyyy
+11/21

@@ -1,8 +1,19 @@
+# -------------------------
 # Python
+# -------------------------
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Node / React
+# Virtual env
+.venv/
+venv/
+env/
+
+# -------------------------
+# Node / React (Interface)
+# -------------------------
 interface/node_modules/
 interface/build/
 interface/.cache/
@@ -11,11 +22,40 @@ interface/dist/
 interface/.vite/
 interface.zip
 
+# -------------------------
 # Logs
+# -------------------------
 logs/
 *.log
 
-# Airflow / Dags cache
+# -------------------------
+# Airflow / DAG cache
+# -------------------------
 dags/__pycache__/
-.dvc/
-.cache/
+airflow/airflow.db
+airflow/logs/
+airflow/dags/__pycache__/
+
+# -------------------------
+# Chroma Vector DB (never commit sqlite)
+# -------------------------
+scripts/LLMquery/vectorstores/local_doc_index/*.sqlite3
+scripts/LLMquery/vectorstores/local_doc_index/*.bin
+scripts/LLMquery/vectorstores/local_doc_index/*.pkl
+
+# -------------------------
+# Model selection evaluation outputs
+# -------------------------
+evaluation_results/
+scripts/model_selection/evaluation_results/
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Jupyter / checkpoints
+# -------------------------
+.ipynb_checkpoints/

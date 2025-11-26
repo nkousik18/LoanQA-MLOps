@@ -1,0 +1,70 @@
+[2025-11-08T12:05:58.795-0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-08T12:05:58.839-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ocr_pipeline_dag.normalize_segmented_json manual__2025-11-08T17:05:36.901201+00:00 [queued]>
+[2025-11-08T12:05:58.851-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ocr_pipeline_dag.normalize_segmented_json manual__2025-11-08T17:05:36.901201+00:00 [queued]>
+[2025-11-08T12:05:58.921-0500] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-11-08T12:05:59.117-0500] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): normalize_segmented_json> on 2025-11-08 17:05:36.901201+00:00
+[2025-11-08T12:05:59.129-0500] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ocr_pipeline_dag', 'normalize_segmented_json', 'manual__2025-11-08T17:05:36.901201+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/ocr_pipeline_dag.py', '--cfg-path', '/tmp/tmpf1y1y6qt']
+[2025-11-08T12:05:59.134-0500] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=203) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-08T12:05:59.135-0500] {standard_task_runner.py:91} INFO - Job 5: Subtask normalize_segmented_json
+[2025-11-08T12:05:59.136-0500] {standard_task_runner.py:64} INFO - Started process 205 to run task
+[2025-11-08T12:05:59.312-0500] {task_command.py:426} INFO - Running <TaskInstance: ocr_pipeline_dag.normalize_segmented_json manual__2025-11-08T17:05:36.901201+00:00 [running]> on host 12c4794374da
+[2025-11-08T12:05:59.453-0500] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='intellidoc_team' AIRFLOW_CTX_DAG_ID='ocr_pipeline_dag' AIRFLOW_CTX_TASK_ID='normalize_segmented_json' AIRFLOW_CTX_EXECUTION_DATE='2025-11-08T17:05:36.901201+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-08T17:05:36.901201+00:00'
+[2025-11-08T12:05:59.454-0500] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-08T12:05:59.524-0500] {tracker.py:72} INFO - 🧾 Recorded task 'run_normalization_all' as STARTED
+[2025-11-08T12:05:59.547-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs:   0%|          | 0/12 [00:00<?, ?it/s]
+[2025-11-08T12:05:59.581-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_dummy_segmented' as STARTED
+[2025-11-08T12:05:59.606-0500] {normalize_text.py:99} INFO - ✅ Normalized file saved: /opt/project/data/aws_extraction_data/normalized/dummy_normalized.json (Lines: 1)
+[2025-11-08T12:05:59.656-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_dummy_segmented' as SUCCESS
+[2025-11-08T12:05:59.659-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs:   8%|8         | 1/12 [00:00<00:01,  9.09it/s]
+[2025-11-08T12:05:59.711-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_empty_segmented' as STARTED
+[2025-11-08T12:05:59.735-0500] {normalize_text.py:99} INFO - ✅ Normalized file saved: /opt/project/data/aws_extraction_data/normalized/empty_normalized.json (Lines: 0)
+[2025-11-08T12:05:59.775-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_empty_segmented' as SUCCESS
+[2025-11-08T12:05:59.779-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs:  17%|#6        | 2/12 [00:00<00:01,  8.63it/s]
+[2025-11-08T12:05:59.824-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as STARTED
+[2025-11-08T12:05:59.900-0500] {normalize_text.py:99} INFO - ✅ Normalized file saved: /opt/project/data/aws_extraction_data/normalized/form_centre_showcase_personal_loan_form_normalized.json (Lines: 568)
+[2025-11-08T12:05:59.933-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_form_centre_showcase_personal_loan_form_segmented' as SUCCESS
+[2025-11-08T12:05:59.935-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs:  25%|##5       | 3/12 [00:00<00:01,  7.43it/s]
+[2025-11-08T12:05:59.970-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as STARTED
+[2025-11-08T12:06:00.118-0500] {normalize_text.py:99} INFO - ✅ Normalized file saved: /opt/project/data/aws_extraction_data/normalized/gss-term-loan-agreement-ccd-5_normalized.json (Lines: 1164)
+[2025-11-08T12:06:00.153-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_gss-term-loan-agreement-ccd-5_segmented' as SUCCESS
+[2025-11-08T12:06:00.156-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs:  33%|###3      | 4/12 [00:00<00:01,  5.93it/s]
+[2025-11-08T12:06:00.192-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_home_loan_001_segmented' as STARTED
+[2025-11-08T12:06:00.237-0500] {normalize_text.py:99} INFO - ✅ Normalized file saved: /opt/project/data/aws_extraction_data/normalized/home_loan_001_normalized.json (Lines: 12)
+[2025-11-08T12:06:00.308-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_home_loan_001_segmented' as SUCCESS
+[2025-11-08T12:06:00.313-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs:  42%|####1     | 5/12 [00:00<00:01,  6.09it/s]
+[2025-11-08T12:06:00.358-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_loan1_segmented' as STARTED
+[2025-11-08T12:06:00.471-0500] {normalize_text.py:99} INFO - ✅ Normalized file saved: /opt/project/data/aws_extraction_data/normalized/loan1_normalized.json (Lines: 508)
+[2025-11-08T12:06:00.596-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_loan1_segmented' as SUCCESS
+[2025-11-08T12:06:00.602-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs:  50%|#####     | 6/12 [00:01<00:01,  4.84it/s]
+[2025-11-08T12:06:00.681-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_loan2_segmented' as STARTED
+[2025-11-08T12:06:00.761-0500] {normalize_text.py:99} INFO - ✅ Normalized file saved: /opt/project/data/aws_extraction_data/normalized/loan2_normalized.json (Lines: 367)
+[2025-11-08T12:06:00.809-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_loan2_segmented' as SUCCESS
+[2025-11-08T12:06:00.812-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs:  58%|#####8    | 7/12 [00:01<00:01,  4.81it/s]
+[2025-11-08T12:06:01.022-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_loan3_segmented' as STARTED
+[2025-11-08T12:06:01.197-0500] {normalize_text.py:99} INFO - ✅ Normalized file saved: /opt/project/data/aws_extraction_data/normalized/loan3_normalized.json (Lines: 938)
+[2025-11-08T12:06:01.232-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_loan3_segmented' as SUCCESS
+[2025-11-08T12:06:01.234-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs:  67%|######6   | 8/12 [00:01<00:01,  3.62it/s]
+[2025-11-08T12:06:01.271-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_loan_segmented' as STARTED
+[2025-11-08T12:06:01.293-0500] {normalize_text.py:99} INFO - ✅ Normalized file saved: /opt/project/data/aws_extraction_data/normalized/loan_normalized.json (Lines: 2)
+[2025-11-08T12:06:01.327-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_loan_segmented' as SUCCESS
+[2025-11-08T12:06:01.375-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as STARTED
+[2025-11-08T12:06:01.404-0500] {normalize_text.py:99} INFO - ✅ Normalized file saved: /opt/project/data/aws_extraction_data/normalized/Personal-Loan-Agreement_normalized.json (Lines: 132)
+[2025-11-08T12:06:01.438-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_Personal-Loan-Agreement_segmented' as SUCCESS
+[2025-11-08T12:06:01.440-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs:  83%|########3 | 10/12 [00:01<00:00,  5.16it/s]
+[2025-11-08T12:06:01.478-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_pl_agreement_segmented' as STARTED
+[2025-11-08T12:06:01.634-0500] {normalize_text.py:99} INFO - ✅ Normalized file saved: /opt/project/data/aws_extraction_data/normalized/pl_agreement_normalized.json (Lines: 1194)
+[2025-11-08T12:06:01.676-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_pl_agreement_segmented' as SUCCESS
+[2025-11-08T12:06:01.681-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs:  92%|#########1| 11/12 [00:02<00:00,  4.87it/s]
+[2025-11-08T12:06:01.739-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_specimen-agreement_segmented' as STARTED
+[2025-11-08T12:06:01.822-0500] {normalize_text.py:99} INFO - ✅ Normalized file saved: /opt/project/data/aws_extraction_data/normalized/specimen-agreement_normalized.json (Lines: 446)
+[2025-11-08T12:06:01.863-0500] {tracker.py:72} INFO - 🧾 Recorded task 'normalize_specimen-agreement_segmented' as SUCCESS
+[2025-11-08T12:06:01.867-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs: 100%|##########| 12/12 [00:02<00:00,  4.99it/s]
+[2025-11-08T12:06:01.868-0500] {logging_mixin.py:188} WARNING - Normalizing segmented JSONs: 100%|##########| 12/12 [00:02<00:00,  5.17it/s]
+[2025-11-08T12:06:01.871-0500] {normalize_text.py:141} INFO - ✅ Completed normalization for 12 files.
+[2025-11-08T12:06:01.927-0500] {tracker.py:72} INFO - 🧾 Recorded task 'run_normalization_all' as SUCCESS
+[2025-11-08T12:06:01.929-0500] {python.py:237} INFO - Done. Returned value was: ['/opt/project/data/aws_extraction_data/normalized/dummy_normalized.json', '/opt/project/data/aws_extraction_data/normalized/empty_normalized.json', '/opt/project/data/aws_extraction_data/normalized/form_centre_showcase_personal_loan_form_normalized.json', '/opt/project/data/aws_extraction_data/normalized/gss-term-loan-agreement-ccd-5_normalized.json', '/opt/project/data/aws_extraction_data/normalized/home_loan_001_normalized.json', '/opt/project/data/aws_extraction_data/normalized/loan1_normalized.json', '/opt/project/data/aws_extraction_data/normalized/loan2_normalized.json', '/opt/project/data/aws_extraction_data/normalized/loan3_normalized.json', '/opt/project/data/aws_extraction_data/normalized/loan_normalized.json', '/opt/project/data/aws_extraction_data/normalized/Personal-Loan-Agreement_normalized.json', '/opt/project/data/aws_extraction_data/normalized/pl_agreement_normalized.json', '/opt/project/data/aws_extraction_data/normalized/specimen-agreement_normalized.json']
+[2025-11-08T12:06:01.930-0500] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-08T12:06:02.008-0500] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=ocr_pipeline_dag, task_id=normalize_segmented_json, run_id=manual__2025-11-08T17:05:36.901201+00:00, execution_date=20251108T170536, start_date=20251108T170558, end_date=20251108T170602
+[2025-11-08T12:06:02.085-0500] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-08T12:06:02.114-0500] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-08T12:06:02.217-0500] {local_task_job_runner.py:222} INFO - ::endgroup::

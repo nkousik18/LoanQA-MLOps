@@ -1,0 +1,17 @@
+application:
+  file_count: 4
+  avg_confidence: 97.17
+  total_spans: 1445
+  min_confidence: 9.58
+  max_confidence: 100.0
+agreement:
+  file_count: 6
+  avg_confidence: 95.72
+  total_spans: 3886
+  min_confidence: 15.46
+  max_confidence: 100.0
+bias_overview:
+  lowest_conf_category: agreement
+  highest_conf_category: application
+  confidence_gap: 1.45
+  bias_detected: false

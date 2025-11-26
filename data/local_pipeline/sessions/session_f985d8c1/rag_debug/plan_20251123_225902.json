@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": "t_explain",
+      "kind": "doc_explain",
+      "query": "Explain the key clauses of this agreement in simple borrower-friendly language, focusing on points that relate to the user's question.",
+      "domain": "finance",
+      "scope": "local",
+      "language": "en",
+      "tone": "borrower_friendly",
+      "depends_on": []
+    },
+    {
+      "id": "f_emi",
+      "kind": "finance_emi",
+      "query": "what is meant by emi",
+      "domain": "finance",
+      "scope": null,
+      "language": "en",
+      "tone": null,
+      "depends_on": []
+    }
+  ],
+  "final_answer_instructions": "Follow the tasks in order. If EMI is present, present the calculation clearly at the end."
+}

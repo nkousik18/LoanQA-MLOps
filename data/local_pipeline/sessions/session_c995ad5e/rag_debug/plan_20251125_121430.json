@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": "t_explain",
+      "kind": "doc_explain",
+      "query": "Explain the loan agreement or the specific section the user asked about in plain borrower-friendly language. Do not summarise unless asked.",
+      "domain": "finance",
+      "scope": "global",
+      "language": "en",
+      "tone": "borrower_friendly",
+      "depends_on": []
+    },
+    {
+      "id": "f1",
+      "kind": "finance_emi",
+      "query": "Explain my loan agreement and tell me the EMI if I borrow 10000 at 8% for 36 months.",
+      "domain": "finance",
+      "scope": null,
+      "language": "en",
+      "tone": null,
+      "depends_on": []
+    }
+  ],
+  "final_answer_instructions": "Follow the tasks in order. Keep the answer focused on the user's query."
+}

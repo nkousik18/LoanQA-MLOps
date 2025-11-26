@@ -1,0 +1,283 @@
+2025-10-28 13:21:09 [INFO] ✅ Saved structured report to reports/bias_report.json
+2025-10-28 13:21:13 [INFO] 📊 Chart saved to reports/bias_chart.png
+2025-10-28 13:21:13 [INFO] 🧾 YAML summary saved to reports/bias_summary.yaml
+2025-10-28 13:53:28 [INFO] ✅ Saved structured report to C:\Users\HP\OneDrive\Desktop\doc-understand\reports\bias_report.json
+2025-10-28 13:53:29 [INFO] 📊 Chart saved to C:\Users\HP\OneDrive\Desktop\doc-understand\reports\bias_chart.png
+2025-10-28 13:53:29 [INFO] 🧾 YAML summary saved to C:\Users\HP\OneDrive\Desktop\doc-understand\reports\bias_summary.yaml
+2025-10-28 13:53:29 [INFO] 📋 Category Summary:
+2025-10-28 13:53:29 [INFO]   other                N=2      Mean=0.0    LowRate=1.0
+2025-10-28 13:53:29 [INFO]   loan                 N=4751   Mean=19.5356 LowRate=1.0
+2025-10-28 13:53:29 [INFO]   invoice              N=4617   Mean=19.1376 LowRate=1.0
+2025-10-28 13:53:29 [INFO]   agreement            N=4751   Mean=19.5356 LowRate=1.0
+2025-10-28 13:53:29 [INFO]   form                 N=4749   Mean=19.5233 LowRate=1.0
+2025-10-28 13:53:29 [INFO]   document             N=4617   Mean=19.1376 LowRate=1.0
+2025-10-28 13:53:29 [INFO]   agreement_document_form_invoice_loan N=4617   Mean=95.688 LowRate=0.162
+2025-10-28 13:53:29 [INFO]   agreement_loan       N=2      Mean=97.8   LowRate=0.0
+2025-10-28 13:53:29 [INFO]   agreement_form_loan  N=132    Mean=99.0381 LowRate=0.023
+2025-10-28 13:53:29 [INFO] 🌐 Global mean confidence: 32.2303
+2025-10-28 13:53:29 [INFO] 📂 Total docs: 9 | Multi-label docs: 8
+2025-10-28 13:57:20 [INFO] 🚫 Skipping empty or invalid file: empty_normalized.json
+2025-10-28 13:57:20 [INFO] ✅ Saved structured report to C:\Users\HP\OneDrive\Desktop\doc-understand\reports\bias_report.json
+2025-10-28 13:57:20 [INFO] 📊 Chart saved to C:\Users\HP\OneDrive\Desktop\doc-understand\reports\bias_chart.png
+2025-10-28 13:57:20 [INFO] 🧾 YAML summary saved to C:\Users\HP\OneDrive\Desktop\doc-understand\reports\bias_summary.yaml
+2025-10-28 13:57:20 [INFO] 📋 Category Summary:
+2025-10-28 13:57:20 [INFO]   other                N=2      Mean=0.0    LowRate=1.0
+2025-10-28 13:57:20 [INFO]   agreement            N=4751   Mean=19.5356 LowRate=1.0
+2025-10-28 13:57:20 [INFO]   invoice              N=4617   Mean=19.1376 LowRate=1.0
+2025-10-28 13:57:20 [INFO]   document             N=4617   Mean=19.1376 LowRate=1.0
+2025-10-28 13:57:20 [INFO]   loan                 N=4751   Mean=19.5356 LowRate=1.0
+2025-10-28 13:57:20 [INFO]   form                 N=4749   Mean=19.5233 LowRate=1.0
+2025-10-28 13:57:20 [INFO]   agreement_document_form_invoice_loan N=4617   Mean=95.688 LowRate=0.162
+2025-10-28 13:57:20 [INFO]   agreement_loan       N=2      Mean=97.8   LowRate=0.0
+2025-10-28 13:57:20 [INFO]   agreement_form_loan  N=132    Mean=99.0381 LowRate=0.023
+2025-10-28 13:57:20 [INFO] 🌐 Global mean confidence: 32.2303
+2025-10-28 13:57:20 [INFO] 📂 Total docs: 9 | Multi-label docs: 8 | Skipped files: 1
+2025-10-28 14:08:40 [INFO] ℹ️ No matching category keywords found for: dummy_normalized.json
+2025-10-28 14:08:40 [INFO] 🚫 Skipping invalid or empty JSON file: empty_normalized.json
+2025-10-28 14:08:40 [INFO] ✅ Saved structured report to C:\Users\HP\OneDrive\Desktop\doc-understand\reports\bias_report.json
+2025-10-28 14:08:42 [INFO] 📊 Chart saved to C:\Users\HP\OneDrive\Desktop\doc-understand\reports\bias_chart.png
+2025-10-28 14:08:42 [INFO] 🧾 YAML summary saved to C:\Users\HP\OneDrive\Desktop\doc-understand\reports\bias_summary.yaml
+2025-10-28 14:08:42 [INFO] 📋 Category Summary:
+2025-10-28 14:08:42 [INFO]   hybrid          N=19000  Mean=23.9505 LowRate=1.0
+2025-10-28 14:08:42 [INFO] 🌐 Global mean confidence: 23.9505
+2025-10-28 14:08:42 [INFO] 📂 Total docs: 8 | Hybrid docs: 8 | Skipped files: 2
+2025-10-28 14:14:08 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\data\normalized
+2025-10-28 14:14:19 [INFO] 📁 Scanning normalized files in: c:\data\normalized
+2025-10-28 14:14:29 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 14:14:29 [INFO] ✅ Processed dummy_normalized.json (1 spans) → other
+2025-10-28 14:14:29 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → loan_agreement
+2025-10-28 14:14:29 [INFO] ✅ Processed loan1_normalized.json (508 spans) → other
+2025-10-28 14:14:29 [INFO] ✅ Processed loan2_normalized.json (367 spans) → other
+2025-10-28 14:14:29 [INFO] ✅ Processed loan3_normalized.json (938 spans) → other
+2025-10-28 14:14:29 [INFO] ✅ Processed loan_normalized.json (2 spans) → other
+2025-10-28 14:14:29 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → loan_agreement
+2025-10-28 14:14:29 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → loan_agreement
+2025-10-28 14:14:29 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → loan_agreement
+2025-10-28 14:14:31 [INFO] ✅ Bias analysis reports saved → c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 14:24:16 [INFO] 📂 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 14:24:16 [INFO] ✅ Processed dummy_normalized.json (1 spans) → other
+2025-10-28 14:24:16 [INFO] 🚫 Skipping invalid or empty file: empty_normalized.json
+2025-10-28 14:24:16 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → hybrid
+2025-10-28 14:24:16 [INFO] ✅ Processed loan1_normalized.json (508 spans) → hybrid
+2025-10-28 14:24:16 [INFO] ✅ Processed loan2_normalized.json (367 spans) → hybrid
+2025-10-28 14:24:16 [INFO] ✅ Processed loan3_normalized.json (938 spans) → hybrid
+2025-10-28 14:24:16 [INFO] ✅ Processed loan_normalized.json (2 spans) → hybrid
+2025-10-28 14:24:16 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → hybrid
+2025-10-28 14:24:16 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → hybrid
+2025-10-28 14:24:16 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → hybrid
+2025-10-28 14:24:17 [INFO] 📊 Bias analysis reports saved → c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 14:33:27 [INFO] 📂 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 14:33:27 [INFO] ✅ Processed dummy_normalized.json (1 spans) → other
+2025-10-28 14:33:27 [INFO] 🚫 Skipping invalid or empty file: empty_normalized.json
+2025-10-28 14:33:27 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-10-28 14:33:27 [INFO] ✅ Processed loan1_normalized.json (508 spans) → agreement
+2025-10-28 14:33:27 [INFO] ✅ Processed loan2_normalized.json (367 spans) → agreement
+2025-10-28 14:33:27 [INFO] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-10-28 14:33:28 [INFO] ✅ Processed loan_normalized.json (2 spans) → agreement
+2025-10-28 14:33:28 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-10-28 14:33:28 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-10-28 14:33:28 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-10-28 14:33:29 [INFO] 📊 Bias analysis reports saved → c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 14:35:50 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 14:35:50 [INFO] ✅ Processed dummy_normalized.json (1 spans) → other
+2025-10-28 14:35:50 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → loan_agreement
+2025-10-28 14:35:50 [INFO] ✅ Processed loan1_normalized.json (508 spans) → loan_application
+2025-10-28 14:35:50 [INFO] ✅ Processed loan2_normalized.json (367 spans) → loan_application
+2025-10-28 14:35:50 [INFO] ✅ Processed loan3_normalized.json (938 spans) → loan_application
+2025-10-28 14:35:50 [INFO] ✅ Processed loan_normalized.json (2 spans) → loan_application
+2025-10-28 14:35:50 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → loan_agreement
+2025-10-28 14:35:50 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → other
+2025-10-28 14:35:50 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → other
+2025-10-28 14:35:51 [INFO] ✅ Bias analysis reports saved → c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 14:42:16 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 14:42:16 [INFO] ✅ Processed dummy_normalized.json (1 spans) → other
+2025-10-28 14:42:16 [INFO] 🚫 Skipping invalid or empty file: empty_normalized.json
+2025-10-28 14:42:16 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-10-28 14:42:16 [INFO] ✅ Processed loan1_normalized.json (508 spans) → agreement
+2025-10-28 14:42:16 [INFO] ✅ Processed loan2_normalized.json (367 spans) → agreement
+2025-10-28 14:42:16 [INFO] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-10-28 14:42:16 [INFO] ✅ Processed loan_normalized.json (2 spans) → agreement
+2025-10-28 14:42:17 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-10-28 14:42:17 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-10-28 14:42:17 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-10-28 14:42:20 [INFO] ✅ Bias analysis reports saved → c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 14:45:56 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 14:45:56 [INFO] ✅ Processed dummy_normalized.json (1 spans) → other
+2025-10-28 14:45:56 [INFO] 🚫 Skipping invalid or empty file: empty_normalized.json
+2025-10-28 14:45:56 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-10-28 14:45:56 [INFO] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-10-28 14:45:56 [INFO] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-10-28 14:45:56 [INFO] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-10-28 14:45:56 [INFO] ✅ Processed loan_normalized.json (2 spans) → application
+2025-10-28 14:45:56 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-10-28 14:45:56 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-10-28 14:45:56 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-10-28 14:45:57 [INFO] ✅ Bias analysis reports saved → c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 14:51:10 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 14:51:10 [INFO] ✅ Processed dummy_normalized.json (1 spans) → other
+2025-10-28 14:51:10 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → loan_agreement
+2025-10-28 14:51:10 [INFO] ✅ Processed loan1_normalized.json (508 spans) → loan_application
+2025-10-28 14:51:10 [INFO] ✅ Processed loan2_normalized.json (367 spans) → loan_application
+2025-10-28 14:51:10 [INFO] ✅ Processed loan3_normalized.json (938 spans) → loan_application
+2025-10-28 14:51:10 [INFO] ✅ Processed loan_normalized.json (2 spans) → loan_application
+2025-10-28 14:51:10 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → loan_agreement
+2025-10-28 14:51:10 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → loan_agreement
+2025-10-28 14:51:10 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → loan_agreement
+2025-10-28 14:51:12 [INFO] ✅ Bias analysis completed. Reports saved to: c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 14:56:11 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 14:56:11 [INFO] ✅ Processed dummy_normalized.json (1 spans) → other
+2025-10-28 14:56:11 [INFO] 🚫 Skipping empty or invalid file: empty_normalized.json
+2025-10-28 14:56:11 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-10-28 14:56:11 [INFO] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-10-28 14:56:11 [INFO] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-10-28 14:56:11 [INFO] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-10-28 14:56:11 [INFO] ✅ Processed loan_normalized.json (2 spans) → application
+2025-10-28 14:56:11 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-10-28 14:56:11 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-10-28 14:56:11 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-10-28 14:56:12 [INFO] ✅ Bias analysis completed. Reports saved to c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 15:00:39 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 15:00:39 [INFO] 🧪 Skipping test file: dummy_normalized.json
+2025-10-28 15:00:39 [INFO] 🚫 Skipping empty or invalid file: empty_normalized.json
+2025-10-28 15:00:39 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-10-28 15:00:39 [INFO] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-10-28 15:00:39 [INFO] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-10-28 15:00:39 [INFO] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-10-28 15:00:39 [INFO] ✅ Processed loan_normalized.json (2 spans) → application
+2025-10-28 15:00:39 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-10-28 15:00:39 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-10-28 15:00:39 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-10-28 15:00:40 [INFO] ✅ Bias analysis completed. Reports saved to c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 15:09:59 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 15:09:59 [INFO] 🧪 Skipping test file: dummy_normalized.json
+2025-10-28 15:09:59 [INFO] 🚫 Skipping empty or invalid file: empty_normalized.json
+2025-10-28 15:09:59 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-10-28 15:09:59 [INFO] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-10-28 15:09:59 [INFO] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-10-28 15:09:59 [INFO] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-10-28 15:09:59 [INFO] ✅ Processed loan_normalized.json (2 spans) → application
+2025-10-28 15:09:59 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-10-28 15:09:59 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-10-28 15:10:00 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-10-28 15:10:01 [WARNING] ⚠️ Fairlearn integration skipped: No module named 'fairlearn'
+2025-10-28 15:10:01 [INFO] ✅ Bias analysis completed. Reports saved to c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 15:16:09 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 15:16:09 [INFO] 🧪 Skipping test file: dummy_normalized.json
+2025-10-28 15:16:09 [INFO] 🚫 Skipping empty or invalid file: empty_normalized.json
+2025-10-28 15:16:09 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-10-28 15:16:09 [INFO] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-10-28 15:16:09 [INFO] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-10-28 15:16:09 [INFO] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-10-28 15:16:09 [INFO] ✅ Processed loan_normalized.json (2 spans) → application
+2025-10-28 15:16:09 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-10-28 15:16:09 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-10-28 15:16:09 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-10-28 15:16:22 [WARNING] ⚠️ Fairlearn integration skipped: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+2025-10-28 15:16:22 [INFO] ✅ Bias analysis completed. Reports saved to c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 15:20:29 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 15:20:29 [INFO] 🧪 Skipping test file: dummy_normalized.json
+2025-10-28 15:20:29 [INFO] 🚫 Skipping empty or invalid file: empty_normalized.json
+2025-10-28 15:20:29 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-10-28 15:20:29 [INFO] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-10-28 15:20:29 [INFO] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-10-28 15:20:29 [INFO] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-10-28 15:20:29 [INFO] ✅ Processed loan_normalized.json (2 spans) → application
+2025-10-28 15:20:29 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-10-28 15:20:29 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-10-28 15:20:29 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-10-28 15:20:30 [WARNING] ⚠️ Fairlearn integration skipped: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+2025-10-28 15:20:30 [INFO] ✅ Bias analysis completed. Reports saved to c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 15:35:10 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 15:35:10 [INFO] 🧪 Skipping test file: dummy_normalized.json
+2025-10-28 15:35:10 [INFO] 🚫 Skipping empty or invalid file: empty_normalized.json
+2025-10-28 15:35:10 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-10-28 15:35:10 [INFO] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-10-28 15:35:10 [INFO] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-10-28 15:35:10 [INFO] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-10-28 15:35:10 [INFO] ✅ Processed loan_normalized.json (2 spans) → application
+2025-10-28 15:35:10 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-10-28 15:35:10 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-10-28 15:35:10 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-10-28 15:35:34 [WARNING] ⚠️ Fairlearn integration skipped: cannot import name 'accuracy_score' from 'fairlearn.metrics' (C:\Users\HP\OneDrive\Desktop\doc-understand\.venv312\Lib\site-packages\fairlearn\metrics\__init__.py)
+2025-10-28 15:35:34 [INFO] ✅ Bias analysis completed. Reports saved to c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 15:36:18 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 15:36:18 [INFO] 🧪 Skipping test file: dummy_normalized.json
+2025-10-28 15:36:18 [INFO] 🚫 Skipping empty or invalid file: empty_normalized.json
+2025-10-28 15:36:18 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-10-28 15:36:18 [INFO] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-10-28 15:36:18 [INFO] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-10-28 15:36:18 [INFO] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-10-28 15:36:18 [INFO] ✅ Processed loan_normalized.json (2 spans) → application
+2025-10-28 15:36:18 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-10-28 15:36:18 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-10-28 15:36:18 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-10-28 15:36:22 [WARNING] ⚠️ Fairlearn integration skipped: cannot import name 'accuracy_score' from 'fairlearn.metrics' (C:\Users\HP\OneDrive\Desktop\doc-understand\.venv312\Lib\site-packages\fairlearn\metrics\__init__.py)
+2025-10-28 15:36:22 [INFO] ✅ Bias analysis completed. Reports saved to c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 15:39:42 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 15:39:42 [INFO] 🧪 Skipping test file: dummy_normalized.json
+2025-10-28 15:39:42 [INFO] 🚫 Skipping empty or invalid file: empty_normalized.json
+2025-10-28 15:39:42 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-10-28 15:39:42 [INFO] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-10-28 15:39:42 [INFO] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-10-28 15:39:43 [INFO] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-10-28 15:39:43 [INFO] ✅ Processed loan_normalized.json (2 spans) → application
+2025-10-28 15:39:43 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-10-28 15:39:43 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-10-28 15:39:43 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-10-28 15:39:50 [INFO] ✅ Fairlearn bias metrics saved.
+2025-10-28 15:39:50 [INFO] ✅ Bias analysis completed. Reports saved to c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-10-28 15:46:35 [INFO] 📁 Scanning normalized files in: c:\Users\HP\OneDrive\Desktop\doc-understand\data\normalized
+2025-10-28 15:46:35 [INFO] 🧪 Skipping test file: dummy_normalized.json
+2025-10-28 15:46:35 [INFO] 🚫 Skipping empty or invalid file: empty_normalized.json
+2025-10-28 15:46:35 [INFO] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-10-28 15:46:35 [INFO] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-10-28 15:46:35 [INFO] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-10-28 15:46:35 [INFO] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-10-28 15:46:35 [INFO] ✅ Processed loan_normalized.json (2 spans) → application
+2025-10-28 15:46:35 [INFO] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-10-28 15:46:35 [INFO] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-10-28 15:46:35 [INFO] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-10-28 15:46:40 [INFO] ✅ Fairlearn bias metrics saved.
+2025-10-28 15:46:40 [INFO] ✅ Bias analysis completed. Reports saved to c:\Users\HP\OneDrive\Desktop\doc-understand\reports
+2025-11-07 18:10:46 [INFO] [bias_analysis] 📁 Scanning normalized files in: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\normalized
+2025-11-07 18:10:46 [INFO] [bias_analysis] ✅ Processed form_centre_showcase_personal_loan_form_normalized.json (568 spans) → application
+2025-11-07 18:10:46 [INFO] [bias_analysis] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-11-07 18:10:46 [INFO] [bias_analysis] ✅ Processed home_loan_001_normalized.json (12 spans) → agreement
+2025-11-07 18:10:46 [INFO] [bias_analysis] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-11-07 18:10:46 [INFO] [bias_analysis] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-11-07 18:10:46 [INFO] [bias_analysis] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-11-07 18:10:46 [INFO] [bias_analysis] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-11-07 18:10:46 [INFO] [bias_analysis] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-11-07 18:10:46 [INFO] [bias_analysis] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-11-07 18:11:17 [INFO] [bias_analysis] ✅ Fairlearn bias metrics saved.
+2025-11-07 18:11:17 [INFO] [bias_analysis] ✅ Bias analysis completed. Reports saved to C:\Users\HP\OneDrive\Desktop\doc-understand\reports\aws_extraction_reports
+2025-11-08 12:08:40 [INFO] [bias_analysis] 📁 Scanning normalized files in: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\normalized
+2025-11-08 12:08:40 [INFO] [bias_analysis] 🧪 Skipping test file: dummy_normalized.json
+2025-11-08 12:08:40 [INFO] [bias_analysis] 🚫 Skipping empty or invalid file: empty_normalized.json
+2025-11-08 12:08:40 [INFO] [bias_analysis] ✅ Processed form_centre_showcase_personal_loan_form_normalized.json (568 spans) → application
+2025-11-08 12:08:40 [INFO] [bias_analysis] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-11-08 12:08:40 [INFO] [bias_analysis] ✅ Processed home_loan_001_normalized.json (12 spans) → agreement
+2025-11-08 12:08:40 [INFO] [bias_analysis] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-11-08 12:08:40 [INFO] [bias_analysis] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-11-08 12:08:40 [INFO] [bias_analysis] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-11-08 12:08:40 [INFO] [bias_analysis] ✅ Processed loan_normalized.json (2 spans) → application
+2025-11-08 12:08:40 [INFO] [bias_analysis] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-11-08 12:08:40 [INFO] [bias_analysis] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-11-08 12:08:40 [INFO] [bias_analysis] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-11-08 12:08:57 [INFO] [bias_analysis] ✅ Fairlearn bias metrics saved.
+2025-11-08 12:08:57 [INFO] [bias_analysis] ✅ Bias analysis completed. Reports saved to C:\Users\HP\OneDrive\Desktop\doc-understand\reports\aws_extraction_reports
+2025-11-08 14:29:38 [INFO] [bias_analysis] 📁 Scanning normalized files in: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\normalized
+2025-11-08 14:29:38 [INFO] [bias_analysis] 🧪 Skipping test file: dummy_normalized.json
+2025-11-08 14:29:38 [INFO] [bias_analysis] 🚫 Skipping empty or invalid file: empty_normalized.json
+2025-11-08 14:29:38 [INFO] [bias_analysis] ✅ Processed form_centre_showcase_personal_loan_form_normalized.json (568 spans) → application
+2025-11-08 14:29:38 [INFO] [bias_analysis] ✅ Processed gss-term-loan-agreement-ccd-5_normalized.json (1164 spans) → agreement
+2025-11-08 14:29:38 [INFO] [bias_analysis] ✅ Processed home_loan_001_normalized.json (12 spans) → agreement
+2025-11-08 14:29:38 [INFO] [bias_analysis] ✅ Processed loan1_normalized.json (508 spans) → application
+2025-11-08 14:29:38 [INFO] [bias_analysis] ✅ Processed loan2_normalized.json (367 spans) → application
+2025-11-08 14:29:38 [INFO] [bias_analysis] ✅ Processed loan3_normalized.json (938 spans) → agreement
+2025-11-08 14:29:38 [INFO] [bias_analysis] ✅ Processed loan_normalized.json (2 spans) → application
+2025-11-08 14:29:38 [INFO] [bias_analysis] ✅ Processed Personal-Loan-Agreement_normalized.json (132 spans) → agreement
+2025-11-08 14:29:38 [INFO] [bias_analysis] ✅ Processed pl_agreement_normalized.json (1194 spans) → agreement
+2025-11-08 14:29:38 [INFO] [bias_analysis] ✅ Processed specimen-agreement_normalized.json (446 spans) → agreement
+2025-11-08 14:29:43 [INFO] [bias_analysis] ✅ Fairlearn bias metrics saved.
+2025-11-08 14:29:43 [INFO] [bias_analysis] ✅ Bias analysis completed. Reports saved to C:\Users\HP\OneDrive\Desktop\doc-understand\reports\aws_extraction_reports

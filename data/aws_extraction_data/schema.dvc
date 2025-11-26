@@ -1,0 +1,6 @@
+outs:
+- md5: c283543238d510bfc7b601cb4d724e66.dir
+  size: 5031
+  nfiles: 2
+  hash: md5
+  path: schema

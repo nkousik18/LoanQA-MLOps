@@ -1,0 +1,1198 @@
+2025-10-28 09:06:49 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-10-28 09:06:49 [INFO] 📦 Total blocks found: 10563
+2025-10-28 09:06:49 [INFO] ✅ Segmented output saved: data/segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-10-28 09:06:50 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan1_raw.json
+2025-10-28 09:06:50 [INFO] 📦 Total blocks found: 2299
+2025-10-28 09:06:50 [INFO] ✅ Segmented output saved: data/segmented\loan1_segmented.json (Lines: 508)
+2025-10-28 09:06:50 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan2_raw.json
+2025-10-28 09:06:50 [INFO] 📦 Total blocks found: 2797
+2025-10-28 09:06:50 [INFO] ✅ Segmented output saved: data/segmented\loan2_segmented.json (Lines: 367)
+2025-10-28 09:06:50 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan3_raw.json
+2025-10-28 09:06:50 [INFO] 📦 Total blocks found: 9881
+2025-10-28 09:06:50 [INFO] ✅ Segmented output saved: data/segmented\loan3_segmented.json (Lines: 938)
+2025-10-28 09:06:50 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\Personal-Loan-Agreement_raw.json
+2025-10-28 09:06:50 [INFO] 📦 Total blocks found: 1134
+2025-10-28 09:06:50 [INFO] ✅ Segmented output saved: data/segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-10-28 09:06:50 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\pl_agreement_raw.json
+2025-10-28 09:06:50 [INFO] 📦 Total blocks found: 11234
+2025-10-28 09:06:50 [INFO] ✅ Segmented output saved: data/segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-10-28 09:06:50 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\specimen-agreement_raw.json
+2025-10-28 09:06:50 [INFO] 📦 Total blocks found: 5407
+2025-10-28 09:06:50 [INFO] ✅ Segmented output saved: data/segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-10-28 09:06:50 [INFO] ✅ Completed segmentation for 7 files.
+2025-10-28 09:08:22 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-10-28 09:08:22 [INFO] 📦 Total blocks found: 10563
+2025-10-28 09:08:22 [INFO] ✅ Segmented output saved: data/segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-10-28 09:08:22 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan1_raw.json
+2025-10-28 09:08:22 [INFO] 📦 Total blocks found: 2299
+2025-10-28 09:08:22 [INFO] ✅ Segmented output saved: data/segmented\loan1_segmented.json (Lines: 508)
+2025-10-28 09:08:22 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan2_raw.json
+2025-10-28 09:08:22 [INFO] 📦 Total blocks found: 2797
+2025-10-28 09:08:22 [INFO] ✅ Segmented output saved: data/segmented\loan2_segmented.json (Lines: 367)
+2025-10-28 09:08:23 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan3_raw.json
+2025-10-28 09:08:23 [INFO] 📦 Total blocks found: 9881
+2025-10-28 09:08:23 [INFO] ✅ Segmented output saved: data/segmented\loan3_segmented.json (Lines: 938)
+2025-10-28 09:08:23 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\Personal-Loan-Agreement_raw.json
+2025-10-28 09:08:23 [INFO] 📦 Total blocks found: 1134
+2025-10-28 09:08:23 [INFO] ✅ Segmented output saved: data/segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-10-28 09:08:23 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\pl_agreement_raw.json
+2025-10-28 09:08:23 [INFO] 📦 Total blocks found: 11234
+2025-10-28 09:08:23 [INFO] ✅ Segmented output saved: data/segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-10-28 09:08:23 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\specimen-agreement_raw.json
+2025-10-28 09:08:23 [INFO] 📦 Total blocks found: 5407
+2025-10-28 09:08:23 [INFO] ✅ Segmented output saved: data/segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-10-28 09:08:23 [INFO] ✅ Completed segmentation for 7 files.
+2025-10-28 09:16:45 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-10-28 09:16:45 [INFO] 📦 Total blocks found: 10563
+2025-10-28 09:16:45 [INFO] ✅ Segmented output saved: data/segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-10-28 09:16:45 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan1_raw.json
+2025-10-28 09:16:45 [INFO] 📦 Total blocks found: 2299
+2025-10-28 09:16:45 [INFO] ✅ Segmented output saved: data/segmented\loan1_segmented.json (Lines: 508)
+2025-10-28 09:16:45 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan2_raw.json
+2025-10-28 09:16:45 [INFO] 📦 Total blocks found: 2797
+2025-10-28 09:16:45 [INFO] ✅ Segmented output saved: data/segmented\loan2_segmented.json (Lines: 367)
+2025-10-28 09:16:45 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan3_raw.json
+2025-10-28 09:16:45 [INFO] 📦 Total blocks found: 9881
+2025-10-28 09:16:45 [INFO] ✅ Segmented output saved: data/segmented\loan3_segmented.json (Lines: 938)
+2025-10-28 09:16:45 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\Personal-Loan-Agreement_raw.json
+2025-10-28 09:16:45 [INFO] 📦 Total blocks found: 1134
+2025-10-28 09:16:45 [INFO] ✅ Segmented output saved: data/segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-10-28 09:16:45 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\pl_agreement_raw.json
+2025-10-28 09:16:45 [INFO] 📦 Total blocks found: 11234
+2025-10-28 09:16:45 [INFO] ✅ Segmented output saved: data/segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-10-28 09:16:45 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\specimen-agreement_raw.json
+2025-10-28 09:16:45 [INFO] 📦 Total blocks found: 5407
+2025-10-28 09:16:45 [INFO] ✅ Segmented output saved: data/segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-10-28 09:16:45 [INFO] ✅ Completed segmentation for 7 files.
+2025-10-28 09:23:49 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-2\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 09:23:49 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:23:49 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:23:49 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-2\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 09:23:49 [INFO] 📦 Total blocks found: 0
+2025-10-28 09:23:49 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 09:23:49 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-2\test_end_to_end_flow0\loan_raw.json
+2025-10-28 09:23:49 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:23:49 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:28:37 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-3\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 09:28:37 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:28:37 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:28:37 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-3\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 09:28:37 [INFO] 📦 Total blocks found: 0
+2025-10-28 09:28:37 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 09:28:37 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-3\test_end_to_end_flow0\loan_raw.json
+2025-10-28 09:28:37 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:28:37 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:33:10 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-4\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 09:33:10 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:33:10 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:33:10 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-4\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 09:33:10 [INFO] 📦 Total blocks found: 0
+2025-10-28 09:33:10 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 09:33:10 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-4\test_end_to_end_flow0\loan_raw.json
+2025-10-28 09:33:10 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:33:10 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:38:58 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-5\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 09:38:58 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:38:58 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:38:58 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-5\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 09:38:58 [INFO] 📦 Total blocks found: 0
+2025-10-28 09:38:58 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 09:38:58 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-5\test_end_to_end_flow0\loan_raw.json
+2025-10-28 09:38:58 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:38:58 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:39:55 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-6\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 09:39:55 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:39:55 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:39:55 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-6\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 09:39:55 [INFO] 📦 Total blocks found: 0
+2025-10-28 09:39:55 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 09:39:55 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-6\test_end_to_end_flow0\loan_raw.json
+2025-10-28 09:39:55 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:39:55 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:48:09 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-7\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 09:48:09 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:48:09 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:48:09 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-7\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 09:48:09 [INFO] 📦 Total blocks found: 0
+2025-10-28 09:48:09 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 09:48:09 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-7\test_end_to_end_flow0\loan_raw.json
+2025-10-28 09:48:09 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:48:09 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:52:18 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-8\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 09:52:18 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:52:18 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:52:18 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-8\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 09:52:18 [INFO] 📦 Total blocks found: 0
+2025-10-28 09:52:18 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 09:52:18 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-8\test_end_to_end_flow0\loan_raw.json
+2025-10-28 09:52:18 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:52:18 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:53:08 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-9\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 09:53:08 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:53:08 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:53:08 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-9\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 09:53:08 [INFO] 📦 Total blocks found: 0
+2025-10-28 09:53:08 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 09:53:08 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-9\test_end_to_end_flow0\loan_raw.json
+2025-10-28 09:53:08 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:53:08 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:53:08 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-10\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 09:53:08 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:53:08 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:53:08 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-10\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 09:53:08 [INFO] 📦 Total blocks found: 0
+2025-10-28 09:53:08 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 09:53:08 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-10\test_end_to_end_flow0\loan_raw.json
+2025-10-28 09:53:08 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:53:08 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:53:29 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-11\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 09:53:29 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:53:29 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:53:29 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-11\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 09:53:29 [INFO] 📦 Total blocks found: 0
+2025-10-28 09:53:29 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 09:53:29 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-11\test_end_to_end_flow0\loan_raw.json
+2025-10-28 09:53:29 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:53:29 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:55:34 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-12\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 09:55:34 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:55:34 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 09:55:34 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-12\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 09:55:34 [INFO] 📦 Total blocks found: 0
+2025-10-28 09:55:34 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 09:55:34 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-12\test_end_to_end_flow0\loan_raw.json
+2025-10-28 09:55:34 [INFO] 📦 Total blocks found: 2
+2025-10-28 09:55:34 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 10:00:01 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-13\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 10:00:01 [INFO] 📦 Total blocks found: 2
+2025-10-28 10:00:01 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 10:00:01 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-13\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 10:00:01 [INFO] 📦 Total blocks found: 0
+2025-10-28 10:00:01 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 10:00:01 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-13\test_end_to_end_flow0\loan_raw.json
+2025-10-28 10:00:01 [INFO] 📦 Total blocks found: 2
+2025-10-28 10:00:01 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 10:02:32 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-14\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 10:02:32 [INFO] 📦 Total blocks found: 2
+2025-10-28 10:02:32 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 10:02:32 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-14\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 10:02:32 [INFO] 📦 Total blocks found: 0
+2025-10-28 10:02:32 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 10:02:32 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-14\test_end_to_end_flow0\loan_raw.json
+2025-10-28 10:02:32 [INFO] 📦 Total blocks found: 2
+2025-10-28 10:02:32 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 10:02:58 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-15\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 10:02:58 [INFO] 📦 Total blocks found: 2
+2025-10-28 10:02:58 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 10:02:58 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-15\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 10:02:58 [INFO] 📦 Total blocks found: 0
+2025-10-28 10:02:58 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 10:02:58 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-15\test_end_to_end_flow0\loan_raw.json
+2025-10-28 10:02:58 [INFO] 📦 Total blocks found: 2
+2025-10-28 10:02:58 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 10:55:35 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\dummy_raw.json
+2025-10-28 10:55:35 [INFO] 📦 Total blocks found: 1
+2025-10-28 10:55:35 [INFO] ✅ Segmented output saved: data/segmented\dummy_segmented.json (Lines: 1)
+2025-10-28 10:55:35 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-10-28 10:55:35 [INFO] 📦 Total blocks found: 10563
+2025-10-28 10:55:35 [INFO] ✅ Segmented output saved: data/segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-10-28 10:55:35 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan1_raw.json
+2025-10-28 10:55:35 [INFO] 📦 Total blocks found: 2299
+2025-10-28 10:55:35 [INFO] ✅ Segmented output saved: data/segmented\loan1_segmented.json (Lines: 508)
+2025-10-28 10:55:36 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan2_raw.json
+2025-10-28 10:55:36 [INFO] 📦 Total blocks found: 2797
+2025-10-28 10:55:36 [INFO] ✅ Segmented output saved: data/segmented\loan2_segmented.json (Lines: 367)
+2025-10-28 10:55:36 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan3_raw.json
+2025-10-28 10:55:36 [INFO] 📦 Total blocks found: 9881
+2025-10-28 10:55:36 [INFO] ✅ Segmented output saved: data/segmented\loan3_segmented.json (Lines: 938)
+2025-10-28 10:55:36 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\Personal-Loan-Agreement_raw.json
+2025-10-28 10:55:36 [INFO] 📦 Total blocks found: 1134
+2025-10-28 10:55:36 [INFO] ✅ Segmented output saved: data/segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-10-28 10:55:36 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\pl_agreement_raw.json
+2025-10-28 10:55:36 [INFO] 📦 Total blocks found: 11234
+2025-10-28 10:55:36 [INFO] ✅ Segmented output saved: data/segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-10-28 10:55:36 [INFO] 📂 Loading file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\specimen-agreement_raw.json
+2025-10-28 10:55:36 [INFO] 📦 Total blocks found: 5407
+2025-10-28 10:55:36 [INFO] ✅ Segmented output saved: data/segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-10-28 10:55:36 [INFO] ✅ Completed segmentation for 8 files.
+2025-10-28 23:39:47 [WARNING] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-28 21:51:32 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-16\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 21:51:32 [INFO] 📦 Total blocks found: 2
+2025-10-28 21:51:32 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 21:51:32 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-16\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 21:51:32 [INFO] 📦 Total blocks found: 0
+2025-10-28 21:51:32 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 21:51:32 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-16\test_end_to_end_flow0\loan_raw.json
+2025-10-28 21:51:32 [INFO] 📦 Total blocks found: 2
+2025-10-28 21:51:32 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 21:51:37 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-17\test_segment_textract_json_cre0\loan_raw.json
+2025-10-28 21:51:37 [INFO] 📦 Total blocks found: 2
+2025-10-28 21:51:37 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-28 21:51:37 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-17\test_segment_textract_json_han0\empty_raw.json
+2025-10-28 21:51:37 [INFO] 📦 Total blocks found: 0
+2025-10-28 21:51:37 [INFO] ✅ Segmented output saved: data/segmented\empty_segmented.json (Lines: 0)
+2025-10-28 21:51:37 [INFO] 📂 Loading file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-17\test_end_to_end_flow0\loan_raw.json
+2025-10-28 21:51:37 [INFO] 📦 Total blocks found: 2
+2025-10-28 21:51:37 [INFO] ✅ Segmented output saved: data/segmented\loan_segmented.json (Lines: 2)
+2025-10-29 16:45:43 [WARNING] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-29 17:15:42 [WARNING] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-29 17:31:41 [WARNING] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-29 18:01:43 [WARNING] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-29 15:29:18 [WARNING] [segment_text] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-29 15:51:05 [WARNING] [segment_text] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-29 16:13:20 [WARNING] [segment_text] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-29 16:27:42 [WARNING] [segment_text] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-29 16:41:06 [WARNING] [segment_text] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-31 07:58:25 [WARNING] [segment_text] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-31 08:09:34 [WARNING] [segment_text] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-31 10:59:35 [WARNING] [segment_text] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-31 11:08:21 [WARNING] [segment_text] ⚠️ 'data/raw' folder not found. Run Textract stage first.
+2025-10-31 11:31:33 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/dummy_raw.json
+2025-10-31 11:31:33 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-10-31 11:31:33 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/dummy_segmented.json (Lines: 1)
+2025-10-31 11:31:34 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-10-31 11:31:34 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-10-31 11:31:34 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-10-31 11:31:34 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-10-31 11:31:34 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-10-31 11:31:35 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-10-31 11:31:35 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan1_raw.json
+2025-10-31 11:31:35 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-10-31 11:31:35 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan1_segmented.json (Lines: 508)
+2025-10-31 11:31:35 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan2_raw.json
+2025-10-31 11:31:35 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-10-31 11:31:35 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan2_segmented.json (Lines: 367)
+2025-10-31 11:31:36 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan3_raw.json
+2025-10-31 11:31:36 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-10-31 11:31:36 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan3_segmented.json (Lines: 938)
+2025-10-31 11:31:36 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/Personal-Loan-Agreement_raw.json
+2025-10-31 11:31:36 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-10-31 11:31:36 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-10-31 11:31:36 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/pl_agreement_raw.json
+2025-10-31 11:31:36 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-10-31 11:31:37 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-10-31 11:31:37 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/specimen-agreement_raw.json
+2025-10-31 11:31:37 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-10-31 11:31:37 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-10-31 11:31:37 [INFO] [segment_text] ✅ Completed segmentation for 9 files.
+2025-10-31 11:31:54 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/dummy_raw.json
+2025-10-31 11:31:54 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-10-31 11:31:54 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/dummy_segmented.json (Lines: 1)
+2025-10-31 11:31:55 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-10-31 11:31:55 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-10-31 11:31:55 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-10-31 11:31:55 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-10-31 11:31:55 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-10-31 11:31:55 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-10-31 11:31:55 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan1_raw.json
+2025-10-31 11:31:55 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-10-31 11:31:56 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan1_segmented.json (Lines: 508)
+2025-10-31 11:31:56 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan2_raw.json
+2025-10-31 11:31:56 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-10-31 11:31:56 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan2_segmented.json (Lines: 367)
+2025-10-31 11:31:56 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan3_raw.json
+2025-10-31 11:31:56 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-10-31 11:31:56 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan3_segmented.json (Lines: 938)
+2025-10-31 11:31:56 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/Personal-Loan-Agreement_raw.json
+2025-10-31 11:31:56 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-10-31 11:31:56 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-10-31 11:31:57 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/pl_agreement_raw.json
+2025-10-31 11:31:57 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-10-31 11:31:57 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-10-31 11:31:57 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/specimen-agreement_raw.json
+2025-10-31 11:31:57 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-10-31 11:31:57 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-10-31 11:31:58 [INFO] [segment_text] ✅ Completed segmentation for 9 files.
+2025-10-31 13:46:32 [INFO] [segment_text] 📂 Loading file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\form_centre_showcase_personal_loan_form_raw.json
+2025-10-31 13:46:32 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-10-31 13:46:32 [INFO] [segment_text] ✅ Segmented output saved: data/segmented\form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-10-31 13:46:32 [INFO] [segment_text] 📂 Loading file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-10-31 13:46:32 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-10-31 13:46:33 [INFO] [segment_text] ✅ Segmented output saved: data/segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-10-31 13:46:33 [INFO] [segment_text] 📂 Loading file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan1_raw.json
+2025-10-31 13:46:33 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-10-31 13:46:33 [INFO] [segment_text] ✅ Segmented output saved: data/segmented\loan1_segmented.json (Lines: 508)
+2025-10-31 13:46:33 [INFO] [segment_text] 📂 Loading file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan2_raw.json
+2025-10-31 13:46:33 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-10-31 13:46:33 [INFO] [segment_text] ✅ Segmented output saved: data/segmented\loan2_segmented.json (Lines: 367)
+2025-10-31 13:46:34 [INFO] [segment_text] 📂 Loading file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\loan3_raw.json
+2025-10-31 13:46:34 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-10-31 13:46:34 [INFO] [segment_text] ✅ Segmented output saved: data/segmented\loan3_segmented.json (Lines: 938)
+2025-10-31 13:46:34 [INFO] [segment_text] 📂 Loading file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\Personal-Loan-Agreement_raw.json
+2025-10-31 13:46:34 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-10-31 13:46:34 [INFO] [segment_text] ✅ Segmented output saved: data/segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-10-31 13:46:35 [INFO] [segment_text] 📂 Loading file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\pl_agreement_raw.json
+2025-10-31 13:46:35 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-10-31 13:46:35 [INFO] [segment_text] ✅ Segmented output saved: data/segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-10-31 13:46:35 [INFO] [segment_text] 📂 Loading file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\raw\specimen-agreement_raw.json
+2025-10-31 13:46:35 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-10-31 13:46:35 [INFO] [segment_text] ✅ Segmented output saved: data/segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-10-31 13:46:35 [INFO] [segment_text] ✅ Completed segmentation for 8 files.
+2025-11-06 15:45:21 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-06 15:45:21 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-06 15:45:21 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-06 15:45:21 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-06 15:45:21 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-06 15:45:22 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-06 15:45:22 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan1_raw.json
+2025-11-06 15:45:22 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-06 15:45:22 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-06 15:45:22 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan2_raw.json
+2025-11-06 15:45:22 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-06 15:45:22 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-06 15:45:23 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan3_raw.json
+2025-11-06 15:45:23 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-06 15:45:23 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-06 15:45:23 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/Personal-Loan-Agreement_raw.json
+2025-11-06 15:45:23 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-06 15:45:23 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-06 15:45:24 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/pl_agreement_raw.json
+2025-11-06 15:45:24 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-06 15:45:24 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-06 15:45:25 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/specimen-agreement_raw.json
+2025-11-06 15:45:25 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-06 15:45:25 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-06 15:45:25 [INFO] [segment_text] ✅ Completed segmentation for 8 files.
+2025-11-06 16:37:49 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-06 16:37:49 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-06 16:37:49 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-06 16:37:50 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-06 16:37:50 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-06 16:37:51 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-06 16:37:51 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan1_raw.json
+2025-11-06 16:37:51 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-06 16:37:51 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-06 16:37:51 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan2_raw.json
+2025-11-06 16:37:51 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-06 16:37:51 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-06 16:37:52 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan3_raw.json
+2025-11-06 16:37:52 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-06 16:37:52 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-06 16:37:52 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/Personal-Loan-Agreement_raw.json
+2025-11-06 16:37:52 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-06 16:37:52 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-06 16:37:53 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/pl_agreement_raw.json
+2025-11-06 16:37:53 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-06 16:37:53 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-06 16:37:53 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/specimen-agreement_raw.json
+2025-11-06 16:37:53 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-06 16:37:54 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-06 16:37:54 [INFO] [segment_text] ✅ Completed segmentation for 8 files.
+2025-11-06 16:40:23 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-06 16:40:23 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-06 16:40:23 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-06 16:40:23 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-06 16:40:23 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-06 16:40:24 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-06 16:40:24 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan1_raw.json
+2025-11-06 16:40:24 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-06 16:40:24 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-06 16:40:24 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan2_raw.json
+2025-11-06 16:40:24 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-06 16:40:24 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-06 16:40:25 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan3_raw.json
+2025-11-06 16:40:25 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-06 16:40:25 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-06 16:40:25 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/Personal-Loan-Agreement_raw.json
+2025-11-06 16:40:25 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-06 16:40:25 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-06 16:40:26 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/pl_agreement_raw.json
+2025-11-06 16:40:26 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-06 16:40:26 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-06 16:40:27 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/specimen-agreement_raw.json
+2025-11-06 16:40:27 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-06 16:40:27 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-06 16:40:27 [INFO] [segment_text] ✅ Completed segmentation for 8 files.
+2025-11-06 17:24:02 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-06 17:24:02 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-06 17:24:02 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-06 17:24:03 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-06 17:24:03 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-06 17:24:03 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-06 17:24:03 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/home_loan_001_raw.json
+2025-11-06 17:24:03 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-06 17:24:03 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-06 17:24:03 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan1_raw.json
+2025-11-06 17:24:03 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-06 17:24:03 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-06 17:24:03 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan2_raw.json
+2025-11-06 17:24:03 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-06 17:24:03 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-06 17:24:04 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/loan3_raw.json
+2025-11-06 17:24:04 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-06 17:24:05 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-06 17:24:05 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/Personal-Loan-Agreement_raw.json
+2025-11-06 17:24:05 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-06 17:24:05 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-06 17:24:06 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/pl_agreement_raw.json
+2025-11-06 17:24:06 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-06 17:24:06 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-06 17:24:07 [INFO] [segment_text] 📂 Loading file: /opt/airflow/data/raw/specimen-agreement_raw.json
+2025-11-06 17:24:07 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-06 17:24:07 [INFO] [segment_text] ✅ Segmented output saved: data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-06 17:24:07 [INFO] [segment_text] ✅ Completed segmentation for 9 files.
+2025-11-07 17:53:59 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\form_centre_showcase_personal_loan_form_raw.json
+2025-11-07 17:53:59 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-07 17:53:59 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-07 17:53:59 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-11-07 17:53:59 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-07 17:54:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-07 17:54:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\home_loan_001_raw.json
+2025-11-07 17:54:00 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-07 17:54:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\home_loan_001_segmented.json (Lines: 12)
+2025-11-07 17:54:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan1_raw.json
+2025-11-07 17:54:00 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-07 17:54:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan1_segmented.json (Lines: 508)
+2025-11-07 17:54:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan2_raw.json
+2025-11-07 17:54:00 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-07 17:54:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan2_segmented.json (Lines: 367)
+2025-11-07 17:54:01 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan3_raw.json
+2025-11-07 17:54:01 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-07 17:54:01 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan3_segmented.json (Lines: 938)
+2025-11-07 17:54:01 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\Personal-Loan-Agreement_raw.json
+2025-11-07 17:54:01 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-07 17:54:01 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-07 17:54:01 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\pl_agreement_raw.json
+2025-11-07 17:54:01 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-07 17:54:01 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-11-07 17:54:02 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\specimen-agreement_raw.json
+2025-11-07 17:54:02 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-07 17:54:02 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-11-07 17:54:02 [INFO] [segment_text] ✅ Completed segmentation for 9 files.
+2025-11-07 17:56:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\form_centre_showcase_personal_loan_form_raw.json
+2025-11-07 17:56:00 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-07 17:56:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-07 17:56:01 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-11-07 17:56:01 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-07 17:56:01 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-07 17:56:01 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\home_loan_001_raw.json
+2025-11-07 17:56:01 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-07 17:56:01 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\home_loan_001_segmented.json (Lines: 12)
+2025-11-07 17:56:01 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan1_raw.json
+2025-11-07 17:56:01 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-07 17:56:01 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan1_segmented.json (Lines: 508)
+2025-11-07 17:56:01 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan2_raw.json
+2025-11-07 17:56:01 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-07 17:56:01 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan2_segmented.json (Lines: 367)
+2025-11-07 17:56:02 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan3_raw.json
+2025-11-07 17:56:02 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-07 17:56:02 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan3_segmented.json (Lines: 938)
+2025-11-07 17:56:02 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\Personal-Loan-Agreement_raw.json
+2025-11-07 17:56:02 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-07 17:56:02 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-07 17:56:02 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\pl_agreement_raw.json
+2025-11-07 17:56:02 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-07 17:56:03 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-11-07 17:56:03 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\specimen-agreement_raw.json
+2025-11-07 17:56:03 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-07 17:56:03 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-11-07 17:56:03 [INFO] [segment_text] ✅ Completed segmentation for 9 files.
+2025-11-07 18:45:59 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\dummy_raw.json
+2025-11-07 18:45:59 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-07 18:45:59 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\dummy_segmented.json (Lines: 1)
+2025-11-07 18:45:59 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\form_centre_showcase_personal_loan_form_raw.json
+2025-11-07 18:45:59 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-07 18:45:59 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-07 18:45:59 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-11-07 18:45:59 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-07 18:46:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-07 18:46:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\home_loan_001_raw.json
+2025-11-07 18:46:00 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-07 18:46:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\home_loan_001_segmented.json (Lines: 12)
+2025-11-07 18:46:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan1_raw.json
+2025-11-07 18:46:00 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-07 18:46:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan1_segmented.json (Lines: 508)
+2025-11-07 18:46:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan2_raw.json
+2025-11-07 18:46:00 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-07 18:46:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan2_segmented.json (Lines: 367)
+2025-11-07 18:46:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan3_raw.json
+2025-11-07 18:46:00 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-07 18:46:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan3_segmented.json (Lines: 938)
+2025-11-07 18:46:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\Personal-Loan-Agreement_raw.json
+2025-11-07 18:46:00 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-07 18:46:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-07 18:46:05 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\pl_agreement_raw.json
+2025-11-07 18:46:05 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-07 18:46:06 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-11-07 18:46:06 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\specimen-agreement_raw.json
+2025-11-07 18:46:06 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-07 18:46:06 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-11-07 18:46:06 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-07 18:49:05 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-7\test_segment_textract_json_cre0\loan_raw.json
+2025-11-07 18:49:05 [INFO] [segment_text] 📦 Total blocks found: 2
+2025-11-07 18:49:05 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan_segmented.json (Lines: 2)
+2025-11-07 18:49:05 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-7\test_segment_textract_json_han0\empty_raw.json
+2025-11-07 18:49:05 [INFO] [segment_text] 📦 Total blocks found: 0
+2025-11-07 18:49:05 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\empty_segmented.json (Lines: 0)
+2025-11-07 18:49:05 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-7\test_end_to_end_flow0\loan_raw.json
+2025-11-07 18:49:05 [INFO] [segment_text] 📦 Total blocks found: 2
+2025-11-07 18:49:05 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan_segmented.json (Lines: 2)
+2025-11-07 19:02:40 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\dummy_raw.json
+2025-11-07 19:02:40 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-07 19:02:40 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\dummy_segmented.json (Lines: 1)
+2025-11-07 19:02:40 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\form_centre_showcase_personal_loan_form_raw.json
+2025-11-07 19:02:40 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-07 19:02:40 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-07 19:02:40 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-11-07 19:02:40 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-07 19:02:40 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-07 19:02:40 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\home_loan_001_raw.json
+2025-11-07 19:02:40 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-07 19:02:40 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\home_loan_001_segmented.json (Lines: 12)
+2025-11-07 19:02:40 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan1_raw.json
+2025-11-07 19:02:40 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-07 19:02:40 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan1_segmented.json (Lines: 508)
+2025-11-07 19:02:40 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan2_raw.json
+2025-11-07 19:02:40 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-07 19:02:40 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan2_segmented.json (Lines: 367)
+2025-11-07 19:02:41 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan3_raw.json
+2025-11-07 19:02:41 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-07 19:02:41 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan3_segmented.json (Lines: 938)
+2025-11-07 19:02:41 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\Personal-Loan-Agreement_raw.json
+2025-11-07 19:02:41 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-07 19:02:41 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-07 19:02:41 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\pl_agreement_raw.json
+2025-11-07 19:02:41 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-07 19:02:41 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-11-07 19:02:41 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\specimen-agreement_raw.json
+2025-11-07 19:02:41 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-07 19:02:41 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-11-07 19:02:41 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-07 19:03:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-8\test_segment_textract_json_cre0\loan_raw.json
+2025-11-07 19:03:17 [INFO] [segment_text] 📦 Total blocks found: 2
+2025-11-07 19:03:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan_segmented.json (Lines: 2)
+2025-11-07 19:03:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-8\test_segment_textract_json_han0\empty_raw.json
+2025-11-07 19:03:17 [INFO] [segment_text] 📦 Total blocks found: 0
+2025-11-07 19:03:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\empty_segmented.json (Lines: 0)
+2025-11-07 19:03:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-8\test_end_to_end_flow0\loan_raw.json
+2025-11-07 19:03:17 [INFO] [segment_text] 📦 Total blocks found: 2
+2025-11-07 19:03:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan_segmented.json (Lines: 2)
+2025-11-07 19:09:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\dummy_raw.json
+2025-11-07 19:09:17 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-07 19:09:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\dummy_segmented.json (Lines: 1)
+2025-11-07 19:09:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\form_centre_showcase_personal_loan_form_raw.json
+2025-11-07 19:09:17 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-07 19:09:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-07 19:09:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-11-07 19:09:17 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-07 19:09:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-07 19:09:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\home_loan_001_raw.json
+2025-11-07 19:09:17 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-07 19:09:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\home_loan_001_segmented.json (Lines: 12)
+2025-11-07 19:09:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan1_raw.json
+2025-11-07 19:09:17 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-07 19:09:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan1_segmented.json (Lines: 508)
+2025-11-07 19:09:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan2_raw.json
+2025-11-07 19:09:17 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-07 19:09:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan2_segmented.json (Lines: 367)
+2025-11-07 19:09:18 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan3_raw.json
+2025-11-07 19:09:18 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-07 19:09:18 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan3_segmented.json (Lines: 938)
+2025-11-07 19:09:18 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\Personal-Loan-Agreement_raw.json
+2025-11-07 19:09:18 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-07 19:09:18 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-07 19:09:18 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\pl_agreement_raw.json
+2025-11-07 19:09:18 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-07 19:09:18 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-11-07 19:09:18 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\specimen-agreement_raw.json
+2025-11-07 19:09:18 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-07 19:09:18 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-11-07 19:09:18 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-07 19:10:52 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-9\test_segment_textract_json_cre0\loan_raw.json
+2025-11-07 19:10:52 [INFO] [segment_text] 📦 Total blocks found: 2
+2025-11-07 19:10:53 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan_segmented.json (Lines: 2)
+2025-11-07 19:10:53 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-9\test_segment_textract_json_han0\empty_raw.json
+2025-11-07 19:10:53 [INFO] [segment_text] 📦 Total blocks found: 0
+2025-11-07 19:10:53 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\empty_segmented.json (Lines: 0)
+2025-11-07 19:10:53 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-9\test_end_to_end_flow0\loan_raw.json
+2025-11-07 19:10:53 [INFO] [segment_text] 📦 Total blocks found: 2
+2025-11-07 19:10:53 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan_segmented.json (Lines: 2)
+2025-11-07 19:17:13 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-10\test_segment_textract_json_cre0\loan_raw.json
+2025-11-07 19:17:13 [INFO] [segment_text] 📦 Total blocks found: 2
+2025-11-07 19:17:13 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan_segmented.json (Lines: 2)
+2025-11-07 19:17:13 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-10\test_segment_textract_json_han0\empty_raw.json
+2025-11-07 19:17:13 [INFO] [segment_text] 📦 Total blocks found: 0
+2025-11-07 19:17:13 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\empty_segmented.json (Lines: 0)
+2025-11-07 19:17:13 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-10\test_end_to_end_flow0\loan_raw.json
+2025-11-07 19:17:13 [INFO] [segment_text] 📦 Total blocks found: 2
+2025-11-07 19:17:13 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan_segmented.json (Lines: 2)
+2025-11-07 19:20:02 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-11\test_segment_textract_json_cre0\loan_raw.json
+2025-11-07 19:20:02 [INFO] [segment_text] 📦 Total blocks found: 2
+2025-11-07 19:20:02 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan_segmented.json (Lines: 2)
+2025-11-07 19:20:02 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-11\test_segment_textract_json_han0\empty_raw.json
+2025-11-07 19:20:02 [INFO] [segment_text] 📦 Total blocks found: 0
+2025-11-07 19:20:02 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\empty_segmented.json (Lines: 0)
+2025-11-07 19:20:03 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\AppData\Local\Temp\pytest-of-HP\pytest-11\test_end_to_end_flow0\loan_raw.json
+2025-11-07 19:20:03 [INFO] [segment_text] 📦 Total blocks found: 2
+2025-11-07 19:20:03 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan_segmented.json (Lines: 2)
+2025-11-08 10:20:18 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/dummy_raw.json
+2025-11-08 10:20:18 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-08 10:20:18 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/dummy_segmented.json (Lines: 1)
+2025-11-08 10:20:18 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 10:20:18 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 10:20:18 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 10:20:19 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 10:20:19 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 10:20:19 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 10:20:19 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/home_loan_001_raw.json
+2025-11-08 10:20:19 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 10:20:19 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-08 10:20:19 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan1_raw.json
+2025-11-08 10:20:19 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 10:20:19 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-08 10:20:19 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan2_raw.json
+2025-11-08 10:20:19 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 10:20:19 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-08 10:20:20 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan3_raw.json
+2025-11-08 10:20:20 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 10:20:20 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-08 10:20:20 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+2025-11-08 10:20:20 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 10:20:20 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 10:20:21 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/pl_agreement_raw.json
+2025-11-08 10:20:21 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 10:20:21 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 10:20:21 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/specimen-agreement_raw.json
+2025-11-08 10:20:21 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 10:20:22 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 10:20:22 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-08 10:21:05 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/dummy_raw.json
+2025-11-08 10:21:05 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-08 10:21:05 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/dummy_segmented.json (Lines: 1)
+2025-11-08 10:21:05 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 10:21:05 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 10:21:05 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 10:21:06 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 10:21:06 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 10:21:06 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 10:21:06 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/home_loan_001_raw.json
+2025-11-08 10:21:06 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 10:21:06 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-08 10:21:06 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan1_raw.json
+2025-11-08 10:21:06 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 10:21:06 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-08 10:21:06 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan2_raw.json
+2025-11-08 10:21:06 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 10:21:06 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-08 10:21:07 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan3_raw.json
+2025-11-08 10:21:07 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 10:21:07 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-08 10:21:07 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+2025-11-08 10:21:07 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 10:21:07 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 10:21:08 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/pl_agreement_raw.json
+2025-11-08 10:21:08 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 10:21:08 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 10:21:08 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/specimen-agreement_raw.json
+2025-11-08 10:21:08 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 10:21:08 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 10:21:08 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-08 10:29:33 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/dummy_raw.json
+2025-11-08 10:29:33 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-08 10:29:33 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/dummy_segmented.json (Lines: 1)
+2025-11-08 10:29:33 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 10:29:33 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 10:29:33 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 10:29:34 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 10:29:34 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 10:29:34 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 10:29:34 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/home_loan_001_raw.json
+2025-11-08 10:29:34 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 10:29:34 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-08 10:29:34 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan1_raw.json
+2025-11-08 10:29:34 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 10:29:34 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-08 10:29:34 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan2_raw.json
+2025-11-08 10:29:34 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 10:29:34 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-08 10:29:35 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan3_raw.json
+2025-11-08 10:29:35 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 10:29:35 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-08 10:29:35 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+2025-11-08 10:29:35 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 10:29:35 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 10:29:36 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/pl_agreement_raw.json
+2025-11-08 10:29:36 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 10:29:36 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 10:29:37 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/specimen-agreement_raw.json
+2025-11-08 10:29:37 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 10:29:37 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 10:29:37 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-08 10:36:10 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/dummy_raw.json
+2025-11-08 10:36:10 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-08 10:36:10 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/dummy_segmented.json (Lines: 1)
+2025-11-08 10:36:10 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 10:36:10 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 10:36:10 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 10:36:12 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 10:36:12 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 10:36:12 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 10:36:12 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/home_loan_001_raw.json
+2025-11-08 10:36:12 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 10:36:12 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-08 10:36:12 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan1_raw.json
+2025-11-08 10:36:12 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 10:36:12 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-08 10:36:12 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan2_raw.json
+2025-11-08 10:36:12 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 10:36:12 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-08 10:36:13 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan3_raw.json
+2025-11-08 10:36:13 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 10:36:13 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-08 10:36:14 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+2025-11-08 10:36:14 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 10:36:14 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 10:36:14 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/pl_agreement_raw.json
+2025-11-08 10:36:14 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 10:36:14 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 10:36:15 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/specimen-agreement_raw.json
+2025-11-08 10:36:15 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 10:36:15 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 10:36:15 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-08 10:45:18 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/dummy_raw.json
+2025-11-08 10:45:18 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-08 10:45:18 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/dummy_segmented.json (Lines: 1)
+2025-11-08 10:45:18 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 10:45:18 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 10:45:18 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 10:45:18 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 10:45:18 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 10:45:18 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 10:45:18 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/home_loan_001_raw.json
+2025-11-08 10:45:18 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 10:45:18 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-08 10:45:19 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan1_raw.json
+2025-11-08 10:45:19 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 10:45:19 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-08 10:45:19 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan2_raw.json
+2025-11-08 10:45:19 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 10:45:19 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-08 10:45:19 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan3_raw.json
+2025-11-08 10:45:19 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 10:45:19 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-08 10:45:19 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+2025-11-08 10:45:19 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 10:45:20 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 10:45:20 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/pl_agreement_raw.json
+2025-11-08 10:45:20 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 10:45:20 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 10:45:20 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/specimen-agreement_raw.json
+2025-11-08 10:45:20 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 10:45:20 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 10:45:20 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-08 10:49:27 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/dummy_raw.json
+2025-11-08 10:49:27 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-08 10:49:27 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/dummy_segmented.json (Lines: 1)
+2025-11-08 10:49:27 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 10:49:27 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 10:49:27 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 10:49:28 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 10:49:28 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 10:49:28 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 10:49:28 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/home_loan_001_raw.json
+2025-11-08 10:49:28 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 10:49:28 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-08 10:49:28 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan1_raw.json
+2025-11-08 10:49:28 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 10:49:28 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-08 10:49:28 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan2_raw.json
+2025-11-08 10:49:28 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 10:49:28 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-08 10:49:28 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/loan3_raw.json
+2025-11-08 10:49:28 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 10:49:29 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-08 10:49:29 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+2025-11-08 10:49:29 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 10:49:29 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 10:49:29 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/pl_agreement_raw.json
+2025-11-08 10:49:29 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 10:49:29 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 10:49:30 [INFO] [segment_text] 📂 Processing file: /opt/airflow/data/aws_extraction_data/raw/specimen-agreement_raw.json
+2025-11-08 10:49:30 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 10:49:30 [INFO] [segment_text] ✅ Segmented output saved: /opt/airflow/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 10:49:30 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-08 11:44:52 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:45:27 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:45:34 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:45:39 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:45:43 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:45:45 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/dummy_raw.json
+2025-11-08 11:45:45 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-08 11:45:45 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/dummy_segmented.json (Lines: 1)
+2025-11-08 11:45:45 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 11:45:45 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 11:45:45 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 11:45:46 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 11:45:46 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 11:45:46 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 11:45:46 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/home_loan_001_raw.json
+2025-11-08 11:45:46 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 11:45:46 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-08 11:45:47 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan1_raw.json
+2025-11-08 11:45:47 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 11:45:47 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-08 11:45:47 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan2_raw.json
+2025-11-08 11:45:47 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 11:45:47 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-08 11:45:48 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan3_raw.json
+2025-11-08 11:45:48 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 11:45:48 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-08 11:45:48 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+2025-11-08 11:45:48 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 11:45:48 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 11:45:49 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/pl_agreement_raw.json
+2025-11-08 11:45:49 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 11:45:49 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 11:45:49 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/specimen-agreement_raw.json
+2025-11-08 11:45:49 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 11:45:50 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 11:45:50 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-08 11:45:50 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:45:55 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:45:58 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:46:30 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:47:02 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:47:33 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:47:51 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:47:54 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:47:58 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:47:59 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/dummy_raw.json
+2025-11-08 11:47:59 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-08 11:47:59 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/dummy_segmented.json (Lines: 1)
+2025-11-08 11:47:59 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 11:47:59 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 11:47:59 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 11:48:00 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 11:48:00 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 11:48:01 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 11:48:01 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/home_loan_001_raw.json
+2025-11-08 11:48:01 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 11:48:01 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-08 11:48:01 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan1_raw.json
+2025-11-08 11:48:01 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 11:48:01 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-08 11:48:01 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan2_raw.json
+2025-11-08 11:48:01 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 11:48:01 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-08 11:48:02 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan3_raw.json
+2025-11-08 11:48:02 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 11:48:02 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-08 11:48:02 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+2025-11-08 11:48:02 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 11:48:02 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 11:48:03 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/pl_agreement_raw.json
+2025-11-08 11:48:03 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 11:48:03 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 11:48:03 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/specimen-agreement_raw.json
+2025-11-08 11:48:03 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 11:48:03 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 11:48:03 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-08 11:48:04 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:48:05 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:48:10 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:48:38 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:49:09 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:49:41 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:50:13 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:50:44 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:51:15 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:51:47 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:52:19 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:52:50 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:53:22 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 11:53:54 [INFO] [segment_text] 🧭 Logger initialized for stage 'segment_text' → /opt/project/logs/aws_extraction_logs/segment_text.log
+2025-11-08 12:05:52 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/dummy_raw.json
+2025-11-08 12:05:52 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-08 12:05:52 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/dummy_segmented.json (Lines: 1)
+2025-11-08 12:05:52 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 12:05:52 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 12:05:52 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 12:05:53 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 12:05:53 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 12:05:53 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 12:05:53 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/home_loan_001_raw.json
+2025-11-08 12:05:53 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 12:05:53 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-08 12:05:53 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan1_raw.json
+2025-11-08 12:05:53 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 12:05:53 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-08 12:05:53 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan2_raw.json
+2025-11-08 12:05:53 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 12:05:53 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-08 12:05:54 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan3_raw.json
+2025-11-08 12:05:54 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 12:05:54 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-08 12:05:54 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+2025-11-08 12:05:54 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 12:05:54 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 12:05:55 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/pl_agreement_raw.json
+2025-11-08 12:05:55 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 12:05:55 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 12:05:56 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/specimen-agreement_raw.json
+2025-11-08 12:05:56 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 12:05:56 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 12:05:56 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-08 12:09:23 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/dummy_raw.json
+2025-11-08 12:09:23 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-08 12:09:23 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/dummy_segmented.json (Lines: 1)
+2025-11-08 12:09:23 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 12:09:23 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 12:09:23 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 12:09:24 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 12:09:24 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 12:09:24 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 12:09:24 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/home_loan_001_raw.json
+2025-11-08 12:09:24 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 12:09:24 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-08 12:09:24 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan1_raw.json
+2025-11-08 12:09:24 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 12:09:24 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-08 12:09:24 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan2_raw.json
+2025-11-08 12:09:24 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 12:09:24 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-08 12:09:26 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan3_raw.json
+2025-11-08 12:09:26 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 12:09:26 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-08 12:09:26 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+2025-11-08 12:09:26 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 12:09:26 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 12:09:28 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/pl_agreement_raw.json
+2025-11-08 12:09:28 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 12:09:28 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 12:09:28 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/specimen-agreement_raw.json
+2025-11-08 12:09:28 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 12:09:29 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 12:09:29 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-08 12:23:51 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/dummy_raw.json
+2025-11-08 12:23:51 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-08 12:23:51 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/dummy_segmented.json (Lines: 1)
+2025-11-08 12:23:51 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 12:23:51 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 12:23:52 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 12:23:52 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 12:23:52 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 12:23:52 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 12:23:52 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/home_loan_001_raw.json
+2025-11-08 12:23:52 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 12:23:52 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-08 12:23:53 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan1_raw.json
+2025-11-08 12:23:53 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 12:23:53 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-08 12:23:53 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan2_raw.json
+2025-11-08 12:23:53 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 12:23:53 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-08 12:23:53 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan3_raw.json
+2025-11-08 12:23:53 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 12:23:54 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-08 12:23:54 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+2025-11-08 12:23:54 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 12:23:54 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 12:23:54 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/pl_agreement_raw.json
+2025-11-08 12:23:54 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 12:23:54 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 12:23:55 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/specimen-agreement_raw.json
+2025-11-08 12:23:55 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 12:23:55 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 12:23:55 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-08 13:24:15 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 13:24:15 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 13:24:15 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 13:24:16 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 13:24:16 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 13:24:16 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 13:24:16 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\home_loan_001_raw.json
+2025-11-08 13:24:16 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 13:24:16 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\home_loan_001_segmented.json (Lines: 12)
+2025-11-08 13:24:16 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan1_raw.json
+2025-11-08 13:24:16 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 13:24:16 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan1_segmented.json (Lines: 508)
+2025-11-08 13:24:16 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan2_raw.json
+2025-11-08 13:24:16 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 13:24:16 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan2_segmented.json (Lines: 367)
+2025-11-08 13:24:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan3_raw.json
+2025-11-08 13:24:17 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 13:24:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan3_segmented.json (Lines: 938)
+2025-11-08 13:24:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\Personal-Loan-Agreement_raw.json
+2025-11-08 13:24:17 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 13:24:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 13:24:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\pl_agreement_raw.json
+2025-11-08 13:24:17 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 13:24:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 13:24:17 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\specimen-agreement_raw.json
+2025-11-08 13:24:17 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 13:24:17 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 13:24:17 [INFO] [segment_text] ✅ Completed segmentation for 9 files.
+2025-11-08 14:24:59 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 14:24:59 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 14:24:59 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 14:25:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 14:25:00 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 14:25:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 14:25:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\home_loan_001_raw.json
+2025-11-08 14:25:00 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 14:25:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\home_loan_001_segmented.json (Lines: 12)
+2025-11-08 14:25:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan1_raw.json
+2025-11-08 14:25:00 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 14:25:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan1_segmented.json (Lines: 508)
+2025-11-08 14:25:00 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan2_raw.json
+2025-11-08 14:25:00 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 14:25:00 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan2_segmented.json (Lines: 367)
+2025-11-08 14:25:01 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan3_raw.json
+2025-11-08 14:25:01 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 14:25:01 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan3_segmented.json (Lines: 938)
+2025-11-08 14:25:01 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\Personal-Loan-Agreement_raw.json
+2025-11-08 14:25:01 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 14:25:01 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 14:25:01 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\pl_agreement_raw.json
+2025-11-08 14:25:01 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 14:25:01 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 14:25:01 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\specimen-agreement_raw.json
+2025-11-08 14:25:01 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 14:25:01 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 14:25:01 [INFO] [segment_text] ✅ Completed segmentation for 9 files.
+2025-11-08 14:28:01 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+2025-11-08 14:28:01 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-08 14:28:01 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-08 14:28:02 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+2025-11-08 14:28:02 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-08 14:28:02 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-08 14:28:03 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/home_loan_001_raw.json
+2025-11-08 14:28:03 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-08 14:28:03 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+2025-11-08 14:28:04 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan1_raw.json
+2025-11-08 14:28:04 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-08 14:28:04 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+2025-11-08 14:28:04 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan2_raw.json
+2025-11-08 14:28:04 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-08 14:28:04 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+2025-11-08 14:28:05 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan3_raw.json
+2025-11-08 14:28:05 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-08 14:28:05 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+2025-11-08 14:28:06 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+2025-11-08 14:28:06 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-08 14:28:06 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-08 14:28:07 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/pl_agreement_raw.json
+2025-11-08 14:28:07 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-08 14:28:07 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+2025-11-08 14:28:07 [INFO] [segment_text] 📂 Processing file: /opt/project/data/aws_extraction_data/raw/specimen-agreement_raw.json
+2025-11-08 14:28:07 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-08 14:28:07 [INFO] [segment_text] ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+2025-11-08 14:28:07 [INFO] [segment_text] ✅ Completed segmentation for 9 files.
+2025-11-14 16:58:51 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\dummy_raw.json
+2025-11-14 16:58:51 [INFO] [segment_text] 📦 Total blocks found: 1
+2025-11-14 16:58:51 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\dummy_segmented.json (Lines: 1)
+2025-11-14 16:58:51 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\form_centre_showcase_personal_loan_form_raw.json
+2025-11-14 16:58:51 [INFO] [segment_text] 📦 Total blocks found: 4174
+2025-11-14 16:58:51 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-14 16:58:52 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-11-14 16:58:52 [INFO] [segment_text] 📦 Total blocks found: 10563
+2025-11-14 16:58:52 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-14 16:58:52 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\home_loan_001_raw.json
+2025-11-14 16:58:52 [INFO] [segment_text] 📦 Total blocks found: 61
+2025-11-14 16:58:52 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\home_loan_001_segmented.json (Lines: 12)
+2025-11-14 16:58:52 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan1_raw.json
+2025-11-14 16:58:52 [INFO] [segment_text] 📦 Total blocks found: 2299
+2025-11-14 16:58:52 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan1_segmented.json (Lines: 508)
+2025-11-14 16:58:52 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan2_raw.json
+2025-11-14 16:58:52 [INFO] [segment_text] 📦 Total blocks found: 2797
+2025-11-14 16:58:53 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan2_segmented.json (Lines: 367)
+2025-11-14 16:58:53 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan3_raw.json
+2025-11-14 16:58:53 [INFO] [segment_text] 📦 Total blocks found: 9881
+2025-11-14 16:58:53 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan3_segmented.json (Lines: 938)
+2025-11-14 16:58:53 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\Personal-Loan-Agreement_raw.json
+2025-11-14 16:58:53 [INFO] [segment_text] 📦 Total blocks found: 1134
+2025-11-14 16:58:53 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-14 16:58:53 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\pl_agreement_raw.json
+2025-11-14 16:58:53 [INFO] [segment_text] 📦 Total blocks found: 11234
+2025-11-14 16:58:54 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-11-14 16:58:54 [INFO] [segment_text] 📂 Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\specimen-agreement_raw.json
+2025-11-14 16:58:54 [INFO] [segment_text] 📦 Total blocks found: 5407
+2025-11-14 16:58:54 [INFO] [segment_text] ✅ Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-11-14 16:58:54 [INFO] [segment_text] ✅ Completed segmentation for 10 files.
+2025-11-15 22:53:24 [INFO] [segment_text] skipping dummy_raw.json (segmented already exists)
+2025-11-15 22:53:24 [INFO] [segment_text] skipping form_centre_showcase_personal_loan_form_raw.json (segmented already exists)
+2025-11-15 22:53:24 [INFO] [segment_text] skipping gss-term-loan-agreement-ccd-5_raw.json (segmented already exists)
+2025-11-15 22:53:24 [INFO] [segment_text] skipping home_loan_001_raw.json (segmented already exists)
+2025-11-15 22:53:24 [INFO] [segment_text] skipping loan1_raw.json (segmented already exists)
+2025-11-15 22:53:24 [INFO] [segment_text] skipping loan2_raw.json (segmented already exists)
+2025-11-15 22:53:24 [INFO] [segment_text] skipping loan3_raw.json (segmented already exists)
+2025-11-15 22:53:24 [INFO] [segment_text] skipping Personal-Loan-Agreement_raw.json (segmented already exists)
+2025-11-15 22:53:24 [INFO] [segment_text] skipping pl_agreement_raw.json (segmented already exists)
+2025-11-15 22:53:24 [INFO] [segment_text] skipping specimen-agreement_raw.json (segmented already exists)
+2025-11-15 22:53:24 [INFO] [segment_text] completed segmentation for 10 files.
+2025-11-16 02:13:19 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\dummy_raw.json
+2025-11-16 02:13:19 [INFO] [segment_text] Total blocks found: 1
+2025-11-16 02:13:19 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\dummy_segmented.json (Lines: 1)
+2025-11-16 02:13:20 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\form_centre_showcase_personal_loan_form_raw.json
+2025-11-16 02:13:20 [INFO] [segment_text] Total blocks found: 4174
+2025-11-16 02:13:20 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+2025-11-16 02:13:20 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\gss-term-loan-agreement-ccd-5_raw.json
+2025-11-16 02:13:20 [INFO] [segment_text] Total blocks found: 10563
+2025-11-16 02:13:20 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+2025-11-16 02:13:20 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\home_loan_001_raw.json
+2025-11-16 02:13:20 [INFO] [segment_text] Total blocks found: 61
+2025-11-16 02:13:20 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\home_loan_001_segmented.json (Lines: 12)
+2025-11-16 02:13:20 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan1_raw.json
+2025-11-16 02:13:20 [INFO] [segment_text] Total blocks found: 2299
+2025-11-16 02:13:20 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan1_segmented.json (Lines: 508)
+2025-11-16 02:13:20 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan2_raw.json
+2025-11-16 02:13:20 [INFO] [segment_text] Total blocks found: 2797
+2025-11-16 02:13:20 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan2_segmented.json (Lines: 367)
+2025-11-16 02:13:21 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\loan3_raw.json
+2025-11-16 02:13:21 [INFO] [segment_text] Total blocks found: 9881
+2025-11-16 02:13:21 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\loan3_segmented.json (Lines: 938)
+2025-11-16 02:13:21 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\Personal-Loan-Agreement_raw.json
+2025-11-16 02:13:21 [INFO] [segment_text] Total blocks found: 1134
+2025-11-16 02:13:21 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\Personal-Loan-Agreement_segmented.json (Lines: 132)
+2025-11-16 02:13:21 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\pl_agreement_raw.json
+2025-11-16 02:13:21 [INFO] [segment_text] Total blocks found: 11234
+2025-11-16 02:13:21 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\pl_agreement_segmented.json (Lines: 1194)
+2025-11-16 02:13:22 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\raw\specimen-agreement_raw.json
+2025-11-16 02:13:22 [INFO] [segment_text] Total blocks found: 5407
+2025-11-16 02:13:22 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\aws_extraction_data\segmented\specimen-agreement_segmented.json (Lines: 446)
+2025-11-16 02:13:22 [INFO] [segment_text] Completed segmentation for 10 files.
+2025-11-16 03:25:32 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_cb4bb7a4\raw\Personal-Loan-Agreement - Copy_raw.json
+2025-11-16 03:25:32 [INFO] [segment_text] Total blocks found: 1134
+2025-11-16 03:25:32 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_cb4bb7a4\segmented\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)
+2025-11-16 03:32:49 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_baee7e20\raw\Personal-Loan-Agreement - Copy_raw.json
+2025-11-16 03:32:49 [INFO] [segment_text] Total blocks found: 1134
+2025-11-16 03:32:49 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_baee7e20\segmented\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)
+2025-11-16 07:38:04 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_4221c185\raw\Personal-Loan-Agreement - Copy_raw.json
+2025-11-16 07:38:04 [INFO] [segment_text] Total blocks found: 1134
+2025-11-16 07:38:04 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_4221c185\segmented\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)
+2025-11-16 07:40:12 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_89becc6f\raw\Personal-Loan-Agreement - Copy_raw.json
+2025-11-16 07:40:12 [INFO] [segment_text] Total blocks found: 1134
+2025-11-16 07:40:12 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_89becc6f\segmented\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)
+2025-11-16 07:51:35 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_c363fad0\raw\Personal-Loan-Agreement - Copy_raw.json
+2025-11-16 07:51:35 [INFO] [segment_text] Total blocks found: 1134
+2025-11-16 07:51:35 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_c363fad0\segmented\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)
+2025-11-16 07:52:32 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_85f5b034\raw\Personal-Loan-Agreement - Copy_raw.json
+2025-11-16 07:52:32 [INFO] [segment_text] Total blocks found: 1134
+2025-11-16 07:52:32 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_85f5b034\segmented\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)
+2025-11-16 08:29:44 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_7d45d811\raw\Personal-Loan-Agreement - Copy_raw.json
+2025-11-16 08:29:44 [INFO] [segment_text] Total blocks found: 1134
+2025-11-16 08:29:44 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_7d45d811\segmented\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)
+2025-11-16 08:41:50 [INFO] [segment_text] Processing file: c:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_b98bea3e\raw\Personal-Loan-Agreement - Copy_raw.json
+2025-11-16 08:41:50 [INFO] [segment_text] Total blocks found: 1134
+2025-11-16 08:41:50 [INFO] [segment_text] Segmented output saved: c:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_b98bea3e\segmented\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)
+2025-11-23 15:52:40 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_7ea4a86d\raw\tmpa6d_plzy_raw.json
+2025-11-23 15:52:40 [INFO] [segment_text] Total blocks found: 1134
+2025-11-23 15:52:40 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_7ea4a86d\segmented\tmpa6d_plzy_segmented.json (Lines: 132)
+2025-11-23 16:26:49 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_9d154eda\raw\tmpnbioniwk_raw.json
+2025-11-23 16:26:49 [INFO] [segment_text] Total blocks found: 1134
+2025-11-23 16:26:49 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_9d154eda\segmented\tmpnbioniwk_segmented.json (Lines: 132)
+2025-11-23 22:58:32 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_f985d8c1\raw\tmp1gh23nv7_raw.json
+2025-11-23 22:58:32 [INFO] [segment_text] Total blocks found: 1134
+2025-11-23 22:58:32 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_f985d8c1\segmented\tmp1gh23nv7_segmented.json (Lines: 132)
+2025-11-24 16:44:42 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_c729f346\raw\tmphuoe2xy4_raw.json
+2025-11-24 16:44:42 [INFO] [segment_text] Total blocks found: 1136
+2025-11-24 16:44:42 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_c729f346\segmented\tmphuoe2xy4_segmented.json (Lines: 198)
+2025-11-25 11:01:58 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_c995ad5e\raw\tmp7d1nnzkb_raw.json
+2025-11-25 11:01:58 [INFO] [segment_text] Total blocks found: 1134
+2025-11-25 11:01:58 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_c995ad5e\segmented\tmp7d1nnzkb_segmented.json (Lines: 132)
+2025-11-25 12:38:56 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_9ccfa4c5\raw\tmp_timadju_raw.json
+2025-11-25 12:38:56 [INFO] [segment_text] Total blocks found: 1134
+2025-11-25 12:38:56 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_9ccfa4c5\segmented\tmp_timadju_segmented.json (Lines: 132)
+2025-11-25 13:26:39 [INFO] [segment_text] Processing file: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_31e1c79d\raw\tmpeffam0f__raw.json
+2025-11-25 13:26:39 [INFO] [segment_text] Total blocks found: 1134
+2025-11-25 13:26:39 [INFO] [segment_text] Segmented output saved: C:\Users\HP\OneDrive\Desktop\doc-understand\data\local_pipeline\sessions\session_31e1c79d\segmented\tmpeffam0f__segmented.json (Lines: 132)

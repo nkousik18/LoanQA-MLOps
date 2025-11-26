@@ -1,0 +1,30 @@
+[2025-11-08T11:48:11.473-0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-08T11:48:11.512-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ocr_pipeline_dag.generate_schema_and_stats manual__2025-11-08T16:47:49.912197+00:00 [queued]>
+[2025-11-08T11:48:11.523-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ocr_pipeline_dag.generate_schema_and_stats manual__2025-11-08T16:47:49.912197+00:00 [queued]>
+[2025-11-08T11:48:11.546-0500] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-11-08T11:48:11.627-0500] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): generate_schema_and_stats> on 2025-11-08 16:47:49.912197+00:00
+[2025-11-08T11:48:11.659-0500] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ocr_pipeline_dag', 'generate_schema_and_stats', 'manual__2025-11-08T16:47:49.912197+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/ocr_pipeline_dag.py', '--cfg-path', '/tmp/tmpprxu8l99']
+[2025-11-08T11:48:11.666-0500] {standard_task_runner.py:91} INFO - Job 11: Subtask generate_schema_and_stats
+[2025-11-08T11:48:11.668-0500] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=254) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-08T11:48:11.669-0500] {standard_task_runner.py:64} INFO - Started process 256 to run task
+[2025-11-08T11:48:11.927-0500] {task_command.py:426} INFO - Running <TaskInstance: ocr_pipeline_dag.generate_schema_and_stats manual__2025-11-08T16:47:49.912197+00:00 [running]> on host 7ec7af965c9c
+[2025-11-08T11:48:12.207-0500] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='intellidoc_team' AIRFLOW_CTX_DAG_ID='ocr_pipeline_dag' AIRFLOW_CTX_TASK_ID='generate_schema_and_stats' AIRFLOW_CTX_EXECUTION_DATE='2025-11-08T16:47:49.912197+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-08T16:47:49.912197+00:00'
+[2025-11-08T11:48:12.209-0500] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-08T11:48:12.276-0500] {tracker.py:72} INFO - 🧾 Recorded task 'generate_schema_stats' as STARTED
+[2025-11-08T11:48:12.279-0500] {generate_schema_stats.py:163} INFO - 🚀 Starting schema & validation statistics generation...
+[2025-11-08T11:48:12.466-0500] {generate_schema_stats.py:68} INFO - ✅ Loaded 5332 rows from 12 normalized files.
+[2025-11-08T11:48:12.545-0500] {generate_schema_stats.py:128} INFO - ✅ Validation rule passed: required_columns_present
+[2025-11-08T11:48:12.548-0500] {generate_schema_stats.py:128} INFO - ✅ Validation rule passed: text_not_null
+[2025-11-08T11:48:12.550-0500] {generate_schema_stats.py:128} INFO - ✅ Validation rule passed: conf_in_range_0_100
+[2025-11-08T11:48:12.566-0500] {generate_schema_stats.py:192} INFO - ✅ Schema & validation results saved: /opt/project/data/aws_extraction_data/schema/expectations.json, /opt/project/data/aws_extraction_data/schema/validation_result.json
+[2025-11-08T11:48:12.606-0500] {tracker.py:72} INFO - 🧾 Recorded task 'generate_schema_stats' as SUCCESS
+[2025-11-08T11:48:12.608-0500] {logging_mixin.py:188} INFO - 
+✅ Schema & statistics generated successfully!
+[2025-11-08T11:48:12.609-0500] {logging_mixin.py:188} INFO - 📘 Schema & rules:   /opt/project/data/aws_extraction_data/schema/expectations.json
+[2025-11-08T11:48:12.610-0500] {logging_mixin.py:188} INFO - 📊 Validation stats: /opt/project/data/aws_extraction_data/schema/validation_result.json
+[2025-11-08T11:48:12.614-0500] {python.py:237} INFO - Done. Returned value was: ['/opt/project/data/aws_extraction_data/schema/expectations.json', '/opt/project/data/aws_extraction_data/schema/validation_result.json']
+[2025-11-08T11:48:12.614-0500] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-08T11:48:12.655-0500] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=ocr_pipeline_dag, task_id=generate_schema_and_stats, run_id=manual__2025-11-08T16:47:49.912197+00:00, execution_date=20251108T164749, start_date=20251108T164811, end_date=20251108T164812
+[2025-11-08T11:48:12.704-0500] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-08T11:48:12.724-0500] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-08T11:48:12.754-0500] {local_task_job_runner.py:222} INFO - ::endgroup::

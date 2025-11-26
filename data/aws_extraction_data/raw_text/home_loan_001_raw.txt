@@ -1,0 +1,13 @@
+=== PAGE 1 ===
+Home Loan Agreement (Sample)
+Borrower Name: Rahul Kumar
+Borrower ID: AID-947201
+Property Address: 12, Green Park, New Delhi - 110016
+Loan Amount: 16,985,000.00
+Interest Rate (p.a.): 8.76%
+Tenure: 360 months
+EMI (approx):
+158,261.00
+Prepayment Penalty: Nil
+Late Payment Fee: 2% of overdue amount
+Document ID: 334418 Generated: 2025-10-08

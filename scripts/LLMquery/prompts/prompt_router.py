@@ -128,7 +128,7 @@ logger.info(f" Loaded {len(INTENT_MAP)} intents.")
 
 
 # ============================================================
-# HARD RULES (Fixes the previous misclassification issue)
+# HARD RULES (Fixes the  misclassification issue)
 # ============================================================
 
 def hard_rules(question: str):

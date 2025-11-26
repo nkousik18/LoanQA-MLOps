@@ -1,0 +1,81 @@
+[2025-11-08T11:47:59.225-0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-08T11:47:59.275-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ocr_pipeline_dag.segment_textract_json manual__2025-11-08T16:47:49.912197+00:00 [queued]>
+[2025-11-08T11:47:59.285-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ocr_pipeline_dag.segment_textract_json manual__2025-11-08T16:47:49.912197+00:00 [queued]>
+[2025-11-08T11:47:59.286-0500] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-11-08T11:47:59.300-0500] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): segment_textract_json> on 2025-11-08 16:47:49.912197+00:00
+[2025-11-08T11:47:59.317-0500] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ocr_pipeline_dag', 'segment_textract_json', 'manual__2025-11-08T16:47:49.912197+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/ocr_pipeline_dag.py', '--cfg-path', '/tmp/tmpm9fxe7ae']
+[2025-11-08T11:47:59.324-0500] {standard_task_runner.py:91} INFO - Job 9: Subtask segment_textract_json
+[2025-11-08T11:47:59.324-0500] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=240) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-08T11:47:59.327-0500] {standard_task_runner.py:64} INFO - Started process 242 to run task
+[2025-11-08T11:47:59.411-0500] {task_command.py:426} INFO - Running <TaskInstance: ocr_pipeline_dag.segment_textract_json manual__2025-11-08T16:47:49.912197+00:00 [running]> on host 7ec7af965c9c
+[2025-11-08T11:47:59.529-0500] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='intellidoc_team' AIRFLOW_CTX_DAG_ID='ocr_pipeline_dag' AIRFLOW_CTX_TASK_ID='segment_textract_json' AIRFLOW_CTX_EXECUTION_DATE='2025-11-08T16:47:49.912197+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-08T16:47:49.912197+00:00'
+[2025-11-08T11:47:59.530-0500] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-08T11:47:59.594-0500] {tracker.py:72} INFO - 🧾 Recorded task 'run_segmentation_all' as STARTED
+[2025-11-08T11:47:59.619-0500] {logging_mixin.py:188} WARNING - Segmenting Textract JSONs:   0%|          | 0/10 [00:00<?, ?it/s]
+[2025-11-08T11:47:59.650-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_dummy_raw' as STARTED
+[2025-11-08T11:47:59.663-0500] {segment_text.py:70} INFO - 📂 Processing file: /opt/project/data/aws_extraction_data/raw/dummy_raw.json
+[2025-11-08T11:47:59.664-0500] {segment_text.py:71} INFO - 📦 Total blocks found: 1
+[2025-11-08T11:47:59.678-0500] {segment_text.py:93} INFO - ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/dummy_segmented.json (Lines: 1)
+[2025-11-08T11:47:59.713-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_dummy_raw' as SUCCESS
+[2025-11-08T11:47:59.752-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_form_centre_showcase_personal_loan_form_raw' as STARTED
+[2025-11-08T11:47:59.947-0500] {segment_text.py:70} INFO - 📂 Processing file: /opt/project/data/aws_extraction_data/raw/form_centre_showcase_personal_loan_form_raw.json
+[2025-11-08T11:47:59.949-0500] {segment_text.py:71} INFO - 📦 Total blocks found: 4174
+[2025-11-08T11:47:59.991-0500] {segment_text.py:93} INFO - ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json (Lines: 568)
+[2025-11-08T11:48:00.032-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_form_centre_showcase_personal_loan_form_raw' as SUCCESS
+[2025-11-08T11:48:00.038-0500] {logging_mixin.py:188} WARNING - Segmenting Textract JSONs:  20%|##        | 2/10 [00:00<00:01,  4.79it/s]
+[2025-11-08T11:48:00.070-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_gss-term-loan-agreement-ccd-5_raw' as STARTED
+[2025-11-08T11:48:00.977-0500] {segment_text.py:70} INFO - 📂 Processing file: /opt/project/data/aws_extraction_data/raw/gss-term-loan-agreement-ccd-5_raw.json
+[2025-11-08T11:48:00.978-0500] {segment_text.py:71} INFO - 📦 Total blocks found: 10563
+[2025-11-08T11:48:01.060-0500] {segment_text.py:93} INFO - ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json (Lines: 1164)
+[2025-11-08T11:48:01.104-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_gss-term-loan-agreement-ccd-5_raw' as SUCCESS
+[2025-11-08T11:48:01.121-0500] {logging_mixin.py:188} WARNING - Segmenting Textract JSONs:  30%|###       | 3/10 [00:01<00:04,  1.74it/s]
+[2025-11-08T11:48:01.153-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_home_loan_001_raw' as STARTED
+[2025-11-08T11:48:01.166-0500] {segment_text.py:70} INFO - 📂 Processing file: /opt/project/data/aws_extraction_data/raw/home_loan_001_raw.json
+[2025-11-08T11:48:01.167-0500] {segment_text.py:71} INFO - 📦 Total blocks found: 61
+[2025-11-08T11:48:01.179-0500] {segment_text.py:93} INFO - ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/home_loan_001_segmented.json (Lines: 12)
+[2025-11-08T11:48:01.209-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_home_loan_001_raw' as SUCCESS
+[2025-11-08T11:48:01.243-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_loan1_raw' as STARTED
+[2025-11-08T11:48:01.328-0500] {segment_text.py:70} INFO - 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan1_raw.json
+[2025-11-08T11:48:01.329-0500] {segment_text.py:71} INFO - 📦 Total blocks found: 2299
+[2025-11-08T11:48:01.371-0500] {segment_text.py:93} INFO - ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan1_segmented.json (Lines: 508)
+[2025-11-08T11:48:01.405-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_loan1_raw' as SUCCESS
+[2025-11-08T11:48:01.409-0500] {logging_mixin.py:188} WARNING - Segmenting Textract JSONs:  50%|#####     | 5/10 [00:01<00:01,  2.94it/s]
+[2025-11-08T11:48:01.441-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_loan2_raw' as STARTED
+[2025-11-08T11:48:01.546-0500] {segment_text.py:70} INFO - 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan2_raw.json
+[2025-11-08T11:48:01.547-0500] {segment_text.py:71} INFO - 📦 Total blocks found: 2797
+[2025-11-08T11:48:01.580-0500] {segment_text.py:93} INFO - ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan2_segmented.json (Lines: 367)
+[2025-11-08T11:48:01.613-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_loan2_raw' as SUCCESS
+[2025-11-08T11:48:01.619-0500] {logging_mixin.py:188} WARNING - Segmenting Textract JSONs:  60%|######    | 6/10 [00:01<00:01,  3.30it/s]
+[2025-11-08T11:48:01.667-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_loan3_raw' as STARTED
+[2025-11-08T11:48:02.320-0500] {segment_text.py:70} INFO - 📂 Processing file: /opt/project/data/aws_extraction_data/raw/loan3_raw.json
+[2025-11-08T11:48:02.321-0500] {segment_text.py:71} INFO - 📦 Total blocks found: 9881
+[2025-11-08T11:48:02.391-0500] {segment_text.py:93} INFO - ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/loan3_segmented.json (Lines: 938)
+[2025-11-08T11:48:02.449-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_loan3_raw' as SUCCESS
+[2025-11-08T11:48:02.462-0500] {logging_mixin.py:188} WARNING - Segmenting Textract JSONs:  70%|#######   | 7/10 [00:02<00:01,  2.19it/s]
+[2025-11-08T11:48:02.494-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_Personal-Loan-Agreement_raw' as STARTED
+[2025-11-08T11:48:02.544-0500] {segment_text.py:70} INFO - 📂 Processing file: /opt/project/data/aws_extraction_data/raw/Personal-Loan-Agreement_raw.json
+[2025-11-08T11:48:02.545-0500] {segment_text.py:71} INFO - 📦 Total blocks found: 1134
+[2025-11-08T11:48:02.565-0500] {segment_text.py:93} INFO - ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json (Lines: 132)
+[2025-11-08T11:48:02.598-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_Personal-Loan-Agreement_raw' as SUCCESS
+[2025-11-08T11:48:02.602-0500] {logging_mixin.py:188} WARNING - Segmenting Textract JSONs:  80%|########  | 8/10 [00:02<00:00,  2.74it/s]
+[2025-11-08T11:48:02.638-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_pl_agreement_raw' as STARTED
+[2025-11-08T11:48:03.122-0500] {segment_text.py:70} INFO - 📂 Processing file: /opt/project/data/aws_extraction_data/raw/pl_agreement_raw.json
+[2025-11-08T11:48:03.123-0500] {segment_text.py:71} INFO - 📦 Total blocks found: 11234
+[2025-11-08T11:48:03.210-0500] {segment_text.py:93} INFO - ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/pl_agreement_segmented.json (Lines: 1194)
+[2025-11-08T11:48:03.242-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_pl_agreement_raw' as SUCCESS
+[2025-11-08T11:48:03.257-0500] {logging_mixin.py:188} WARNING - Segmenting Textract JSONs:  90%|######### | 9/10 [00:03<00:00,  2.22it/s]
+[2025-11-08T11:48:03.293-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_specimen-agreement_raw' as STARTED
+[2025-11-08T11:48:03.479-0500] {segment_text.py:70} INFO - 📂 Processing file: /opt/project/data/aws_extraction_data/raw/specimen-agreement_raw.json
+[2025-11-08T11:48:03.481-0500] {segment_text.py:71} INFO - 📦 Total blocks found: 5407
+[2025-11-08T11:48:03.517-0500] {segment_text.py:93} INFO - ✅ Segmented output saved: /opt/project/data/aws_extraction_data/segmented/specimen-agreement_segmented.json (Lines: 446)
+[2025-11-08T11:48:03.554-0500] {tracker.py:72} INFO - 🧾 Recorded task 'segment_specimen-agreement_raw' as SUCCESS
+[2025-11-08T11:48:03.562-0500] {logging_mixin.py:188} WARNING - Segmenting Textract JSONs: 100%|##########| 10/10 [00:03<00:00,  2.45it/s]
+[2025-11-08T11:48:03.563-0500] {logging_mixin.py:188} WARNING - Segmenting Textract JSONs: 100%|##########| 10/10 [00:03<00:00,  2.54it/s]
+[2025-11-08T11:48:03.564-0500] {segment_text.py:135} INFO - ✅ Completed segmentation for 10 files.
+[2025-11-08T11:48:03.598-0500] {tracker.py:72} INFO - 🧾 Recorded task 'run_segmentation_all' as SUCCESS
+[2025-11-08T11:48:03.600-0500] {python.py:237} INFO - Done. Returned value was: ['/opt/project/data/aws_extraction_data/segmented/dummy_segmented.json', '/opt/project/data/aws_extraction_data/segmented/form_centre_showcase_personal_loan_form_segmented.json', '/opt/project/data/aws_extraction_data/segmented/gss-term-loan-agreement-ccd-5_segmented.json', '/opt/project/data/aws_extraction_data/segmented/home_loan_001_segmented.json', '/opt/project/data/aws_extraction_data/segmented/loan1_segmented.json', '/opt/project/data/aws_extraction_data/segmented/loan2_segmented.json', '/opt/project/data/aws_extraction_data/segmented/loan3_segmented.json', '/opt/project/data/aws_extraction_data/segmented/Personal-Loan-Agreement_segmented.json', '/opt/project/data/aws_extraction_data/segmented/pl_agreement_segmented.json', '/opt/project/data/aws_extraction_data/segmented/specimen-agreement_segmented.json']
+[2025-11-08T11:48:03.601-0500] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-08T11:48:03.633-0500] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=ocr_pipeline_dag, task_id=segment_textract_json, run_id=manual__2025-11-08T16:47:49.912197+00:00, execution_date=20251108T164749, start_date=20251108T164759, end_date=20251108T164803
+[2025-11-08T11:48:03.682-0500] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-08T11:48:03.721-0500] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-08T11:48:03.724-0500] {local_task_job_runner.py:222} INFO - ::endgroup::

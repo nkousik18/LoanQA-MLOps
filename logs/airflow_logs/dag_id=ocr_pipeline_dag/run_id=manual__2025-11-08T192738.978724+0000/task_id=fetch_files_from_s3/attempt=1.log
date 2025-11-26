@@ -1,0 +1,26 @@
+[2025-11-08T14:27:50.610-0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-11-08T14:27:50.756-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ocr_pipeline_dag.fetch_files_from_s3 manual__2025-11-08T19:27:38.978724+00:00 [queued]>
+[2025-11-08T14:27:50.774-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ocr_pipeline_dag.fetch_files_from_s3 manual__2025-11-08T19:27:38.978724+00:00 [queued]>
+[2025-11-08T14:27:50.775-0500] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-11-08T14:27:50.793-0500] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): fetch_files_from_s3> on 2025-11-08 19:27:38.978724+00:00
+[2025-11-08T14:27:50.855-0500] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ocr_pipeline_dag', 'fetch_files_from_s3', 'manual__2025-11-08T19:27:38.978724+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/ocr_pipeline_dag.py', '--cfg-path', '/tmp/tmp_ywun51a']
+[2025-11-08T14:27:50.862-0500] {standard_task_runner.py:91} INFO - Job 18: Subtask fetch_files_from_s3
+[2025-11-08T14:27:50.862-0500] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1602) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-08T14:27:50.863-0500] {standard_task_runner.py:64} INFO - Started process 1610 to run task
+[2025-11-08T14:27:51.017-0500] {task_command.py:426} INFO - Running <TaskInstance: ocr_pipeline_dag.fetch_files_from_s3 manual__2025-11-08T19:27:38.978724+00:00 [running]> on host 12c4794374da
+[2025-11-08T14:27:51.265-0500] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='intellidoc_team' AIRFLOW_CTX_DAG_ID='ocr_pipeline_dag' AIRFLOW_CTX_TASK_ID='fetch_files_from_s3' AIRFLOW_CTX_EXECUTION_DATE='2025-11-08T19:27:38.978724+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-08T19:27:38.978724+00:00'
+[2025-11-08T14:27:51.268-0500] {taskinstance.py:430} INFO - ::endgroup::
+[2025-11-08T14:27:51.514-0500] {tracker.py:72} INFO - 🧾 Recorded task 'fetch_files' as STARTED
+[2025-11-08T14:27:51.518-0500] {logging_mixin.py:188} INFO - 2025-11-08 14:27:51 [INFO] [fetch_files] 🚀 Fetching files from bucket: textract-bucket-yash07, prefix: ''
+[2025-11-08T14:27:51.517-0500] {fetch_files.py:37} INFO - 🚀 Fetching files from bucket: textract-bucket-yash07, prefix: ''
+[2025-11-08T14:27:52.349-0500] {logging_mixin.py:188} INFO - 2025-11-08 14:27:52 [INFO] [fetch_files] ✅ Found 9 files: ['Personal-Loan-Agreement.pdf', 'form_centre_showcase_personal_loan_form.pdf', 'gss-term-loan-agreement-ccd-5.pdf', 'home_loan_001.pdf', 'loan1.pdf', 'loan2.pdf', 'loan3.pdf', 'pl_agreement.pdf', 'specimen-agreement.pdf']
+[2025-11-08T14:27:52.348-0500] {fetch_files.py:52} INFO - ✅ Found 9 files: ['Personal-Loan-Agreement.pdf', 'form_centre_showcase_personal_loan_form.pdf', 'gss-term-loan-agreement-ccd-5.pdf', 'home_loan_001.pdf', 'loan1.pdf', 'loan2.pdf', 'loan3.pdf', 'pl_agreement.pdf', 'specimen-agreement.pdf']
+[2025-11-08T14:27:52.413-0500] {tracker.py:72} INFO - 🧾 Recorded task 'fetch_files' as SUCCESS
+[2025-11-08T14:27:52.417-0500] {logging_mixin.py:188} INFO - 2025-11-08 14:27:52 [INFO] [fetch_files] 📦 Returning fetched files: ['Personal-Loan-Agreement.pdf', 'form_centre_showcase_personal_loan_form.pdf', 'gss-term-loan-agreement-ccd-5.pdf', 'home_loan_001.pdf', 'loan1.pdf', 'loan2.pdf', 'loan3.pdf', 'pl_agreement.pdf', 'specimen-agreement.pdf']
+[2025-11-08T14:27:52.415-0500] {fetch_files.py:55} INFO - 📦 Returning fetched files: ['Personal-Loan-Agreement.pdf', 'form_centre_showcase_personal_loan_form.pdf', 'gss-term-loan-agreement-ccd-5.pdf', 'home_loan_001.pdf', 'loan1.pdf', 'loan2.pdf', 'loan3.pdf', 'pl_agreement.pdf', 'specimen-agreement.pdf']
+[2025-11-08T14:27:52.424-0500] {python.py:237} INFO - Done. Returned value was: ['Personal-Loan-Agreement.pdf', 'form_centre_showcase_personal_loan_form.pdf', 'gss-term-loan-agreement-ccd-5.pdf', 'home_loan_001.pdf', 'loan1.pdf', 'loan2.pdf', 'loan3.pdf', 'pl_agreement.pdf', 'specimen-agreement.pdf']
+[2025-11-08T14:27:52.426-0500] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-11-08T14:27:52.474-0500] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=ocr_pipeline_dag, task_id=fetch_files_from_s3, run_id=manual__2025-11-08T19:27:38.978724+00:00, execution_date=20251108T192738, start_date=20251108T192750, end_date=20251108T192752
+[2025-11-08T14:27:52.527-0500] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-11-08T14:27:52.568-0500] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-08T14:27:52.581-0500] {local_task_job_runner.py:222} INFO - ::endgroup::
