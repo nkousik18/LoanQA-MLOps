@@ -6,6 +6,13 @@ Search utilities for a SINGLE session (ONE PDF) RAG artifacts.
 Provides:
   - search_session_chunks(session_id, query, top_k)
   - load_session_global_blocks(session_id)
+
+Storage behaviour:
+  - chunks.json / blocks.json are loaded via gcs_utils.read_json(), so they can
+    live only in GCS when USE_GCS_OUTPUT=True.
+  - chunk_embeddings.npy is read from the local rag/ folder (created by
+    session_rag_builder.py) and may also be mirrored to GCS, but search only
+    needs the local copy.
 """
 
 import os
@@ -23,6 +30,10 @@ if PROJECT_ROOT not in sys.path:
 from sentence_transformers import SentenceTransformer
 import numpy as np
 
+# GCS-aware config + helpers
+from scripts.aws_extraction_scripts.config import LIVE_SESSIONS_DIR, USE_GCS_OUTPUT
+from scripts.aws_extraction_scripts.gcs_utils import read_json, logical_exists
+
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 Chunk = Dict[str, Any]
@@ -31,9 +42,9 @@ Block = Dict[str, Any]
 
 def _get_session_root(session_id: str) -> Path:
     """
-    Resolve .../data/local_pipeline/sessions/<session_id>.
+    Resolve .../data/local_pipeline/sessions/<session_id> using central config.
     """
-    sessions_dir = Path(PROJECT_ROOT) / "data" / "local_pipeline" / "sessions"
+    sessions_dir = LIVE_SESSIONS_DIR
     session_root = sessions_dir / session_id
     if not session_root.exists():
         raise FileNotFoundError(f"Session root not found: {session_root}")
@@ -41,6 +52,14 @@ def _get_session_root(session_id: str) -> Path:
 
 
 def _load_rag_paths(session_id: str) -> Dict[str, Path]:
+    """
+    Resolve paths for RAG artifacts of a session.
+
+    Notes:
+      - chunks.json / blocks.json may live only in GCS; we check existence
+        via logical_exists().
+      - chunk_embeddings.npy must exist locally (created by session_rag_builder).
+    """
     session_root = _get_session_root(session_id)
     rag_dir = session_root / "rag"
     if not rag_dir.exists():
@@ -50,9 +69,21 @@ def _load_rag_paths(session_id: str) -> Dict[str, Path]:
     blocks_path = rag_dir / "blocks.json"
     emb_path = rag_dir / "chunk_embeddings.npy"
 
-    if not chunks_path.exists() or not emb_path.exists():
+    # JSONs: check logical existence (GCS or local)
+    if not logical_exists(chunks_path):
         raise FileNotFoundError(
-            f"Missing RAG artifacts for session {session_id} in {rag_dir}"
+            f"chunks.json not found (GCS/local) for session {session_id}: {chunks_path}"
+        )
+
+    if not logical_exists(blocks_path):
+        # blocks are optional for some flows, but we still log if missing
+        # callers of load_session_global_blocks() handle empty list case.
+        pass
+
+    # Embeddings: must exist locally
+    if not emb_path.exists():
+        raise FileNotFoundError(
+            f"chunk_embeddings.npy not found locally for session {session_id}: {emb_path}"
         )
 
     return {
@@ -84,8 +115,8 @@ def search_session_chunks(
     """
     paths = _load_rag_paths(session_id)
 
-    with open(paths["chunks"], "r", encoding="utf-8") as f:
-        chunks: List[Chunk] = json.load(f)
+    # JSON is loaded from GCS or local via helper
+    chunks: List[Chunk] = read_json(paths["chunks"])
 
     chunk_embeddings = np.load(paths["embeddings"])
     if chunk_embeddings.shape[0] != len(chunks):
@@ -124,23 +155,29 @@ def search_session_chunks(
 def load_session_global_blocks(session_id: str) -> List[Block]:
     """
     Load precomputed global blocks for whole-document tasks.
+
+    Note:
+      blocks.json is also loaded via read_json(), so it can live only in GCS
+      when USE_GCS_OUTPUT=True. If the file doesn't exist at all, we return [].
     """
     paths = _load_rag_paths(session_id)
     blocks_path = paths["blocks"]
 
-    if not blocks_path.exists():
+    if not logical_exists(blocks_path):
         # It's okay if there are no blocks, just return empty list
         return []
 
-    with open(blocks_path, "r", encoding="utf-8") as f:
-        blocks: List[Block] = json.load(f)
-
+    blocks: List[Block] = read_json(blocks_path)
     return blocks
 
 
 if __name__ == "__main__":
-    # Quick manual test using the MOST RECENT session (like your span_adapter main)
-    sessions_dir = Path(PROJECT_ROOT) / "data" / "local_pipeline" / "sessions"
+    # Quick manual test using the MOST RECENT session
+    sessions_dir = LIVE_SESSIONS_DIR
+    if not sessions_dir.exists():
+        print(f"No sessions directory found: {sessions_dir}")
+        sys.exit(1)
+
     session_dirs = [
         d for d in sessions_dir.iterdir()
         if d.is_dir() and d.name.startswith("session_")
@@ -159,7 +196,8 @@ if __name__ == "__main__":
     for r in results:
         c = r["chunk"]
         print(
-            f"- score={r['score']:.3f}, pages {c['page_start']}–{c['page_end']}, len={c['char_len']}"
+            f"- score={r['score']:.3f}, pages {c['page_start']}–{c['page_end']}, "
+            f"len={c['char_len']}"
         )
         print("  ", c["text"][:200].replace('\n', ' '), "...\n")
 

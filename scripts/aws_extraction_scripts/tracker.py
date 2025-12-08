@@ -1,11 +1,21 @@
 """
 tracker.py
 -----------
-Tracks progress and logs pipeline stage statuses to reports/aws_extraction_reports/manifest.json
-with automatic alerting for failed or error states.
+Tracks progress and logs pipeline stage statuses to
+reports/aws_extraction_reports/manifest.json
+
+With GCS support:
+- manifest.json is addressed as a logical path under REPORTS_ROOT.
+- Actual storage location (GCS vs local vs both) is controlled by config:
+    USE_GCS_OUTPUT / WRITE_LOCAL_COPY
 """
 
-import os, sys, json, datetime
+import os
+import sys
+import json
+import datetime
+from pathlib import Path
+from typing import Any, List
 
 # ---------------------------------------------------------------------
 # 🔧 Ensure project root is on sys.path (works in VS Code + Airflow)
@@ -17,12 +27,18 @@ if PROJECT_ROOT not in sys.path:
 os.chdir(PROJECT_ROOT)
 
 # ---------------------------------------------------------------------
-# 📦 Imports from your centralized config + logger
+# 📦 Imports from centralized config + logger + GCS utils
 # ---------------------------------------------------------------------
 from scripts.aws_extraction_scripts.config import REPORTS_ROOT
 from scripts.aws_extraction_scripts.log_utils import get_logger
+from scripts.aws_extraction_scripts.gcs_utils import (
+    write_json,
+    read_json,
+    logical_exists,
+)
 
 logger = get_logger("tracker")
+
 
 # ---------------------------------------------------------------------
 # 🔔 Real-time alert hook
@@ -35,15 +51,20 @@ def alert_on_error(message: str):
 
 
 # ---------------------------------------------------------------------
-# 🧩 Main tracking function
+# 🧩 Main tracking function (GCS-aware)
 # ---------------------------------------------------------------------
-def track_task(task_name, status, details=None, error=None):
+def track_task(task_name: str, status: str, details: str | None = None, error: str | None = None):
     """
     Records task status for auditing and monitoring.
-    Writes entries to reports/aws_extraction_reports/manifest.json and triggers alerts for failures.
+
+    Writes entries to:
+        REPORTS_ROOT / "manifest.json"
+    using GCS-aware read/write helpers.
+
+    - If manifest.json exists (in GCS or local), append to the list.
+    - If it doesn't exist, create a new list.
     """
-    os.makedirs(REPORTS_ROOT, exist_ok=True)
-    manifest_path = os.path.join(REPORTS_ROOT, "manifest.json")
+    manifest_path: Path = REPORTS_ROOT / "manifest.json"
 
     entry = {
         "task": task_name,
@@ -54,18 +75,25 @@ def track_task(task_name, status, details=None, error=None):
     }
 
     try:
-        # Load existing manifest safely
-        existing = []
-        if os.path.exists(manifest_path):
-            with open(manifest_path, "r", encoding="utf-8") as f:
-                content = f.read().strip()
-                if content:
-                    existing = json.loads(content)
+        # Load existing manifest safely (from GCS or local)
+        existing: List[Any] = []
+        if logical_exists(manifest_path):
+            try:
+                existing_raw = read_json(manifest_path)
+                if isinstance(existing_raw, list):
+                    existing = existing_raw
+                elif isinstance(existing_raw, dict):
+                    # In case an old version stored a single dict
+                    existing = [existing_raw]
+                else:
+                    existing = []
+            except Exception as e:
+                logger.warning(f"⚠️ Could not read existing manifest, resetting: {e}")
+                existing = []
 
-        # Append new entry
+        # Append new entry and write back via gcs_utils
         existing.append(entry)
-        with open(manifest_path, "w", encoding="utf-8") as f:
-            json.dump(existing, f, indent=2, ensure_ascii=False)
+        write_json(manifest_path, existing)
 
         # Log success
         msg = f"🧾 Recorded task '{task_name}' as {status}"

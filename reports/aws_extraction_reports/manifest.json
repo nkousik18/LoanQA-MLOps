@@ -2539,5 +2539,803 @@
     "timestamp": "2025-11-25 13:26:39",
     "details": "Layout reconstruction complete: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_31e1c79d\\layout\\tmpeffam0f__normalized_layout.txt",
     "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement - Copy",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 05:52:01",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement - Copy",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 05:52:24",
+    "details": "Saved Textract JSON: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_badb3749\\raw\\Personal-Loan-Agreement - Copy_raw.json and text: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_badb3749\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)",
+    "error": ""
+  },
+  {
+    "task": "segment_Personal-Loan-Agreement - Copy_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 05:52:24",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_Personal-Loan-Agreement - Copy_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 05:52:24",
+    "details": "Segmented output saved: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_badb3749\\segmented\\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmp9dixykqd",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 06:22:17",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmp9dixykqd",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 06:22:24",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_50bacb42\\raw\\tmp9dixykqd_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_50bacb42\\raw_text\\tmp9dixykqd_raw.txt (blocks=332)",
+    "error": ""
+  },
+  {
+    "task": "segment_tmp9dixykqd_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 06:22:24",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_tmp9dixykqd_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 06:22:24",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_50bacb42\\segmented\\tmp9dixykqd_segmented.json (Lines: 38)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmpquluukxv",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 06:30:34",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmpquluukxv",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 06:31:51",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_499ce88b\\raw\\tmpquluukxv_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_499ce88b\\raw_text\\tmpquluukxv_raw.txt (blocks=484)",
+    "error": ""
+  },
+  {
+    "task": "segment_tmpquluukxv_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 06:31:51",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_tmpquluukxv_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 06:31:51",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_499ce88b\\segmented\\tmpquluukxv_segmented.json (Lines: 58)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmp4g6hjycx",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 07:15:34",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmp4g6hjycx",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 07:15:59",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7f0c7220\\raw\\tmp4g6hjycx_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7f0c7220\\raw_text\\tmp4g6hjycx_raw.txt (blocks=1134)",
+    "error": ""
+  },
+  {
+    "task": "segment_tmp4g6hjycx_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 07:15:59",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_tmp4g6hjycx_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 07:15:59",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7f0c7220\\segmented\\tmp4g6hjycx_segmented.json (Lines: 132)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmpl4sm3v6m",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 07:25:49",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmpl4sm3v6m",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 07:26:13",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_8c63739d\\raw\\tmpl4sm3v6m_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_8c63739d\\raw_text\\tmpl4sm3v6m_raw.txt (blocks=1134)",
+    "error": ""
+  },
+  {
+    "task": "segment_tmpl4sm3v6m_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 07:26:13",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_tmpl4sm3v6m_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 07:26:13",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_8c63739d\\segmented\\tmpl4sm3v6m_segmented.json (Lines: 132)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmp57a84xsl",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 07:57:15",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmp57a84xsl",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 07:57:30",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c2345e57\\raw\\tmp57a84xsl_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c2345e57\\raw_text\\tmp57a84xsl_raw.txt (blocks=1134)",
+    "error": ""
+  },
+  {
+    "task": "segment_tmp57a84xsl_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 07:57:30",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_tmp57a84xsl_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 07:57:30",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c2345e57\\segmented\\tmp57a84xsl_segmented.json (Lines: 132)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmppttmu08x",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 08:10:59",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmppttmu08x",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 08:11:23",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_53bde8dd\\raw\\tmppttmu08x_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_53bde8dd\\raw_text\\tmppttmu08x_raw.txt (blocks=1134)",
+    "error": ""
+  },
+  {
+    "task": "segment_tmppttmu08x_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-02 08:11:23",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_tmppttmu08x_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-02 08:11:23",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_53bde8dd\\segmented\\tmppttmu08x_segmented.json (Lines: 132)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_all",
+    "status": "STARTED",
+    "timestamp": "2025-12-06 10:07:46",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "fetch_files",
+    "status": "STARTED",
+    "timestamp": "2025-12-06 10:07:46",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "fetch_files",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-06 10:07:47",
+    "details": "✅ Found 9 files: ['docs/Personal-Loan-Agreement.pdf', 'docs/form_centre_showcase_personal_loan_form.pdf', 'docs/gss-term-loan-agreement-ccd-5.pdf', 'docs/home_loan_001.pdf', 'docs/loan1.pdf', 'docs/loan2.pdf', 'docs/loan3.pdf', 'docs/pl_agreement.pdf', 'docs/specimen-agreement.pdf']",
+    "error": ""
+  },
+  {
+    "task": "run_textract_all",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-06 10:07:47",
+    "details": "No new Textract jobs needed; all PDFs already have JSON/TXT.",
+    "error": ""
+  },
+  {
+    "task": "run_textract_all",
+    "status": "STARTED",
+    "timestamp": "2025-12-06 10:07:53",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "fetch_files",
+    "status": "STARTED",
+    "timestamp": "2025-12-06 10:07:54",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "fetch_files",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-06 10:07:55",
+    "details": "✅ Found 9 files: ['docs/Personal-Loan-Agreement.pdf', 'docs/form_centre_showcase_personal_loan_form.pdf', 'docs/gss-term-loan-agreement-ccd-5.pdf', 'docs/home_loan_001.pdf', 'docs/loan1.pdf', 'docs/loan2.pdf', 'docs/loan3.pdf', 'docs/pl_agreement.pdf', 'docs/specimen-agreement.pdf']",
+    "error": ""
+  },
+  {
+    "task": "run_textract_all",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-06 10:07:55",
+    "details": "No new Textract jobs needed; all PDFs already have JSON/TXT.",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement - Copy",
+    "status": "STARTED",
+    "timestamp": "2025-12-06 10:16:50",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement - Copy",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-06 10:17:01",
+    "details": "Saved Textract JSON: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_e7ad782f\\raw\\Personal-Loan-Agreement - Copy_raw.json and text: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_e7ad782f\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)",
+    "error": ""
+  },
+  {
+    "task": "segment_Personal-Loan-Agreement - Copy_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-06 10:17:01",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_Personal-Loan-Agreement - Copy_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-06 10:17:01",
+    "details": "Segmented output saved: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_e7ad782f\\segmented\\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement - Copy",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:14:10",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement - Copy",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 08:14:29",
+    "details": "Saved Textract JSON: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4049e8e9\\raw\\Personal-Loan-Agreement - Copy_raw.json and text: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4049e8e9\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)",
+    "error": ""
+  },
+  {
+    "task": "segment_Personal-Loan-Agreement - Copy_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:14:29",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_Personal-Loan-Agreement - Copy_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 08:14:29",
+    "details": "Segmented output saved: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4049e8e9\\segmented\\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:18:29",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement",
+    "status": "FAILED",
+    "timestamp": "2025-12-07 08:18:59",
+    "details": "",
+    "error": "Failed to connect to Textract after multiple attempts."
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:19:27",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement",
+    "status": "FAILED",
+    "timestamp": "2025-12-07 08:19:55",
+    "details": "",
+    "error": "Failed to connect to Textract after multiple attempts."
+  },
+  {
+    "task": "run_textract_Personal Loan Agreement - Copy",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:32:12",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal Loan Agreement - Copy",
+    "status": "FAILED",
+    "timestamp": "2025-12-07 08:32:41",
+    "details": "",
+    "error": "Failed to connect to Textract after multiple attempts."
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement - Copy",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:33:33",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement - Copy",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 08:33:48",
+    "details": "Saved Textract JSON: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_1b5c2dc3\\raw\\Personal-Loan-Agreement - Copy_raw.json and text: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_1b5c2dc3\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)",
+    "error": ""
+  },
+  {
+    "task": "segment_Personal-Loan-Agreement - Copy_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:33:48",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_Personal-Loan-Agreement - Copy_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 08:33:48",
+    "details": "Segmented output saved: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_1b5c2dc3\\segmented\\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement - Copy",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:42:04",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement - Copy",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 08:42:22",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_831b47d0\\raw\\Personal-Loan-Agreement - Copy_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_831b47d0\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)",
+    "error": ""
+  },
+  {
+    "task": "segment_Personal-Loan-Agreement - Copy_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:42:22",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_Personal-Loan-Agreement - Copy_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 08:42:22",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_831b47d0\\segmented\\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Generative Project",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:43:52",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Generative Project",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 08:43:58",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_75942aba\\raw\\Generative Project_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_75942aba\\raw_text\\Generative Project_raw.txt (blocks=829)",
+    "error": ""
+  },
+  {
+    "task": "segment_Generative Project_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:43:59",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_Generative Project_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 08:43:59",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_75942aba\\segmented\\Generative Project_segmented.json (Lines: 172)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal Loan Agreement - Copy",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:45:54",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal Loan Agreement - Copy",
+    "status": "FAILED",
+    "timestamp": "2025-12-07 08:46:25",
+    "details": "",
+    "error": "Failed to connect to Textract after multiple attempts."
+  },
+  {
+    "task": "run_textract_Personal Loan Agreement - Copy",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:47:09",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal Loan Agreement - Copy",
+    "status": "FAILED",
+    "timestamp": "2025-12-07 08:47:37",
+    "details": "",
+    "error": "Failed to connect to Textract after multiple attempts."
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement - Copy",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:55:12",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Personal-Loan-Agreement - Copy",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 08:55:20",
+    "details": "Saved Textract JSON: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_bf5779b5\\raw\\Personal-Loan-Agreement - Copy_raw.json and text: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_bf5779b5\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt (blocks=1134)",
+    "error": ""
+  },
+  {
+    "task": "segment_Personal-Loan-Agreement - Copy_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:55:20",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_Personal-Loan-Agreement - Copy_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 08:55:20",
+    "details": "Segmented output saved: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_bf5779b5\\segmented\\Personal-Loan-Agreement - Copy_segmented.json (Lines: 132)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Generative Project",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:56:42",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Generative Project",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 08:56:49",
+    "details": "Saved Textract JSON: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_fc1bf101\\raw\\Generative Project_raw.json and text: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_fc1bf101\\raw_text\\Generative Project_raw.txt (blocks=829)",
+    "error": ""
+  },
+  {
+    "task": "segment_Generative Project_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 08:56:49",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_Generative Project_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 08:56:49",
+    "details": "Segmented output saved: c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_fc1bf101\\segmented\\Generative Project_segmented.json (Lines: 172)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmpfroibgtz",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 09:14:47",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmpfroibgtz",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 09:15:01",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_8c920fc2\\raw\\tmpfroibgtz_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_8c920fc2\\raw_text\\tmpfroibgtz_raw.txt (blocks=1641)",
+    "error": ""
+  },
+  {
+    "task": "segment_tmpfroibgtz_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 09:15:01",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_tmpfroibgtz_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 09:15:01",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_8c920fc2\\segmented\\tmpfroibgtz_segmented.json (Lines: 177)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_ieee-conference-template",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 09:18:21",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_ieee-conference-template",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 09:18:37",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_105f734f\\raw\\ieee-conference-template_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_105f734f\\raw_text\\ieee-conference-template_raw.txt (blocks=2358)",
+    "error": ""
+  },
+  {
+    "task": "segment_ieee-conference-template_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 09:18:37",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_ieee-conference-template_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 09:18:37",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_105f734f\\segmented\\ieee-conference-template_segmented.json (Lines: 276)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_ieee-conference-template",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 09:39:54",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_ieee-conference-template",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 09:40:14",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b5263d1a\\raw\\ieee-conference-template_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b5263d1a\\raw_text\\ieee-conference-template_raw.txt (blocks=2358)",
+    "error": ""
+  },
+  {
+    "task": "segment_ieee-conference-template_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 09:40:14",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_ieee-conference-template_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 09:40:14",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b5263d1a\\segmented\\ieee-conference-template_segmented.json (Lines: 276)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_ieee-conference-template",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 09:43:36",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_ieee-conference-template",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 09:43:56",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ae97903\\raw\\ieee-conference-template_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ae97903\\raw_text\\ieee-conference-template_raw.txt (blocks=2358)",
+    "error": ""
+  },
+  {
+    "task": "segment_ieee-conference-template_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 09:43:56",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_ieee-conference-template_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 09:43:56",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ae97903\\segmented\\ieee-conference-template_segmented.json (Lines: 276)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Generative Project",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 10:09:58",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_Generative Project",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 10:10:42",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_ef8786ee\\raw\\Generative Project_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_ef8786ee\\raw_text\\Generative Project_raw.txt (blocks=829)",
+    "error": ""
+  },
+  {
+    "task": "segment_Generative Project_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 10:10:42",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_Generative Project_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 10:10:42",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_ef8786ee\\segmented\\Generative Project_segmented.json (Lines: 172)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_IE 7615 - Generative Project - M1 (5)",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 10:13:59",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_IE 7615 - Generative Project - M1 (5)",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 10:14:12",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4e54ef14\\raw\\IE 7615 - Generative Project - M1 (5)_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4e54ef14\\raw_text\\IE 7615 - Generative Project - M1 (5)_raw.txt (blocks=332)",
+    "error": ""
+  },
+  {
+    "task": "segment_IE 7615 - Generative Project - M1 (5)_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 10:14:12",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_IE 7615 - Generative Project - M1 (5)_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 10:14:12",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4e54ef14\\segmented\\IE 7615 - Generative Project - M1 (5)_segmented.json (Lines: 38)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_6bc95315_Generative_Project_Milestone_2_Group_11_Report_(2)",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 10:25:10",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_6bc95315_Generative_Project_Milestone_2_Group_11_Report_(2)",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 10:28:47",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4d02755d\\raw\\6bc95315_Generative_Project_Milestone_2_Group_11_Report_(2)_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4d02755d\\raw_text\\6bc95315_Generative_Project_Milestone_2_Group_11_Report_(2)_raw.txt (blocks=1809)",
+    "error": ""
+  },
+  {
+    "task": "segment_6bc95315_Generative_Project_Milestone_2_Group_11_Report_(2)_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 10:28:47",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_6bc95315_Generative_Project_Milestone_2_Group_11_Report_(2)_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 10:28:47",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4d02755d\\segmented\\6bc95315_Generative_Project_Milestone_2_Group_11_Report_(2)_segmented.json (Lines: 289)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmprekp0vwz",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 10:34:24",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmprekp0vwz",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 10:34:32",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_dc49b045\\raw\\tmprekp0vwz_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_dc49b045\\raw_text\\tmprekp0vwz_raw.txt (blocks=829)",
+    "error": ""
+  },
+  {
+    "task": "segment_tmprekp0vwz_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 10:34:32",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_tmprekp0vwz_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 10:34:32",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_dc49b045\\segmented\\tmprekp0vwz_segmented.json (Lines: 172)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmplckk4rjr",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 10:38:01",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "run_textract_tmplckk4rjr",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 10:38:15",
+    "details": "Saved Textract JSON: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7f35ac9c\\raw\\tmplckk4rjr_raw.json and text: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7f35ac9c\\raw_text\\tmplckk4rjr_raw.txt (blocks=1353)",
+    "error": ""
+  },
+  {
+    "task": "segment_tmplckk4rjr_raw",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 10:38:15",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "segment_tmplckk4rjr_raw",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 10:38:15",
+    "details": "Segmented output saved: C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7f35ac9c\\segmented\\tmplckk4rjr_segmented.json (Lines: 140)",
+    "error": ""
+  },
+  {
+    "task": "run_textract_all",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 18:25:24",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "fetch_files",
+    "status": "STARTED",
+    "timestamp": "2025-12-07 18:25:24",
+    "details": "",
+    "error": ""
+  },
+  {
+    "task": "fetch_files",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 18:25:30",
+    "details": "✅ Found 9 files: ['docs/Personal-Loan-Agreement.pdf', 'docs/form_centre_showcase_personal_loan_form.pdf', 'docs/gss-term-loan-agreement-ccd-5.pdf', 'docs/home_loan_001.pdf', 'docs/loan1.pdf', 'docs/loan2.pdf', 'docs/loan3.pdf', 'docs/pl_agreement.pdf', 'docs/specimen-agreement.pdf']",
+    "error": ""
+  },
+  {
+    "task": "run_textract_all",
+    "status": "SUCCESS",
+    "timestamp": "2025-12-07 18:25:35",
+    "details": "No new Textract jobs needed; all PDFs already have JSON/TXT.",
+    "error": ""
   }
 ]

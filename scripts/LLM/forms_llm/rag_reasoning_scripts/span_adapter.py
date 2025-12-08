@@ -1,17 +1,16 @@
 """
 span_adapter.py
 ----------------
-Span-level document utilities for a SINGLE normalized JSON file.
+Span-level document utilities for a SINGLE SEGMENTED JSON file.
 
 This module is purely about structure:
-  normalized JSON  -> spans -> sorted spans -> local chunks -> global blocks.
+  segmented JSON  -> spans -> sorted spans -> local chunks -> global blocks
 
 No embeddings, no LLM, no FAISS. Just text + metadata.
 
-Preferred text field order:
-  1. text_display
-  2. text_preserved
-  3. text
+Source:
+  - Output of segment_text.py
+  - Each span has: doc_id, page, span_id, text, conf, bbox
 """
 
 import os
@@ -23,11 +22,24 @@ from typing import List, Dict, Any
 # ---------------------------------------------------------------------
 # 🔧 Ensure project root on sys.path (same pattern as other scripts)
 # ---------------------------------------------------------------------
-CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))          # .../scripts/rag_reasoning_scripts
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))                   # .../scripts/LLM/forms_llm/rag_reasoning_scripts
 PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, "../../../../"))  # .../doc-understand
 
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
+
+# ---------------------------------------------------------------------
+# 📦 Imports from OCR config + GCS utils
+# ---------------------------------------------------------------------
+from google.cloud import storage
+
+from scripts.aws_extraction_scripts.config import (
+    LIVE_SESSIONS_DIR,
+    USE_GCS_OUTPUT,
+    GCS_BUCKET,
+    to_gcs_key,
+)
+from scripts.aws_extraction_scripts.gcs_utils import read_json, logical_exists
 
 Span = Dict[str, Any]
 Chunk = Dict[str, Any]
@@ -35,39 +47,48 @@ Block = Dict[str, Any]
 
 
 # ---------------------------------------------------------------------
-# 1) Load spans from ONE normalized JSON file
+# 1) Load spans from ONE SEGMENTED JSON file (GCS-aware)
 # ---------------------------------------------------------------------
-def load_spans_from_normalized(normalized_path: str) -> List[Span]:
+def load_spans_from_segmented(segmented_path: str) -> List[Span]:
     """
-    Load spans from a single normalized JSON file produced by the pipeline.
+    Load spans from a single SEGMENTED JSON file produced by segment_text.py.
+
+    Storage is GCS-aware:
+      - When USE_GCS_OUTPUT=True, this uses gcs_utils.read_json(), so the
+        file can live only in GCS (no local copy).
+      - When USE_GCS_OUTPUT=False, it falls back to local filesystem.
 
     Args:
-        normalized_path: path to '.../normalized/<file>_normalized.json'
+        segmented_path: path to '.../segmented/<file>_segmented.json'
+                        (absolute or under PROJECT_ROOT)
 
     Returns:
         List[Span] where each span has at least:
           - doc_id
           - page
           - span_id
-          - text        (chosen from text_display / text_preserved / text)
+          - text
           - bbox {Top, Left, Width, Height}
           - conf
     """
-    path = Path(normalized_path)
-    if not path.exists():
-        raise FileNotFoundError(f"Normalized file not found: {normalized_path}")
+    path = Path(segmented_path)
 
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
+    # Check logical existence (GCS or local)
+    if not logical_exists(path):
+        raise FileNotFoundError(f"Segmented file not found (GCS/local): {segmented_path}")
+
+    # Read JSON from GCS or local via helper
+    data = read_json(path)
 
     if not isinstance(data, list):
-        raise ValueError(f"Expected list of spans in {normalized_path}, got {type(data)}")
+        raise ValueError(f"Expected list of spans in {segmented_path}, got {type(data)}")
 
     spans: List[Span] = []
     for idx, span in enumerate(data):
         page = int(span.get("page", 1))
 
-        bbox = span.get("bbox") or span.get("bounding_box") or {}
+        # segment_text.py writes bbox in Textract-style {Top, Left, Width, Height}
+        bbox = span.get("bbox") or {}
         norm_bbox = {
             "Top": float(bbox.get("Top", bbox.get("y", 0.0))),
             "Left": float(bbox.get("Left", bbox.get("x", 0.0))),
@@ -75,13 +96,7 @@ def load_spans_from_normalized(normalized_path: str) -> List[Span]:
             "Height": float(bbox.get("Height", bbox.get("h", 0.0))),
         }
 
-        # Preferred text selection: text_display > text_preserved > text
-        text_value = (
-            span.get("text_display")
-            or span.get("text_preserved")
-            or span.get("text")
-            or ""
-        )
+        text_value = span.get("text") or ""
 
         spans.append(
             {
@@ -95,7 +110,7 @@ def load_spans_from_normalized(normalized_path: str) -> List[Span]:
         )
 
     if not spans:
-        raise ValueError(f"No spans loaded from {normalized_path}")
+        raise ValueError(f"No spans loaded from {segmented_path}")
 
     return spans
 
@@ -146,21 +161,6 @@ def make_local_chunks(
       - chunks NEVER mix pages: when page changes, we flush
       - chunk boundaries PREFER sentence endings (., ?, !, :, ;)
       - we only break mid-sentence if we are forced by max_char_len
-
-    Args:
-        spans: list of spans already sorted in reading order.
-        target_char_len: preferred approximate length of each chunk.
-        max_char_len: hard cap; if total chars exceed this, we flush even
-                      if we are mid-sentence.
-
-    Returns:
-        List[Chunk]:
-          - chunk_id
-          - text
-          - char_len
-          - page_start
-          - page_end
-          - span_ids
     """
     if not spans:
         return []
@@ -233,7 +233,6 @@ def make_local_chunks(
         # If adding this span would exceed hard max, flush first
         if projected_len > max_char_len and current_text:
             flush_chunk()
-            # Recompute for a fresh chunk
             projected_len = len(span_text)
 
         # Add span to current chunk
@@ -278,15 +277,6 @@ def make_global_blocks(
       - spans follow sorted order
       - block boundaries PREFER sentence endings (., ?, !, :, ;)
       - only break mid-sentence when forced by max_char_len
-
-    Returns:
-        List[Block]:
-          - block_id
-          - text
-          - char_len
-          - page_start
-          - page_end
-          - span_ids
     """
     if not spans:
         return []
@@ -377,11 +367,11 @@ def make_global_blocks(
 
 
 # ---------------------------------------------------------------------
-# 🔍 Quick manual test (single-PDF, latest session)
+# 🔍 Quick manual test (single-PDF, latest session, SEGMENTED – GCS-aware)
 # ---------------------------------------------------------------------
 if __name__ == "__main__":
-    # 1) Find sessions directory
-    sessions_dir = Path(PROJECT_ROOT) / "data" / "local_pipeline" / "sessions"
+    # 1) Find sessions directory from central config
+    sessions_dir = LIVE_SESSIONS_DIR
 
     if not sessions_dir.exists():
         print(f"Sessions folder not found: {sessions_dir}")
@@ -397,23 +387,42 @@ if __name__ == "__main__":
         sys.exit(1)
 
     latest_session = max(session_dirs, key=lambda d: d.stat().st_mtime)
-    normalized_dir = latest_session / "normalized"
+    segmented_dir = latest_session / "segmented"
 
-    if not normalized_dir.exists():
-        print(f"No 'normalized' folder found in {latest_session}")
+    # 3) Find segmented JSON either in GCS (preferred) or locally
+    json_paths: List[Path] = []
+
+    if USE_GCS_OUTPUT:
+        client = storage.Client()
+        prefix = to_gcs_key(segmented_dir)
+        if not prefix.endswith("/"):
+            prefix += "/"
+
+        print(f"[GCS] Looking for segmented JSONs under gs://{GCS_BUCKET}/{prefix}")
+        blobs = client.list_blobs(GCS_BUCKET, prefix=prefix)
+        for blob in blobs:
+            name = blob.name
+            if not name.endswith(".json"):
+                continue
+            rel = name[len(prefix):]
+            if not rel or rel.endswith("/"):
+                continue
+            json_paths.append(segmented_dir / rel)
+    else:
+        json_paths = list(segmented_dir.glob("*.json"))
+
+    if not json_paths:
+        print(
+            "No segmented JSON files found for latest session.\n"
+            f"Checked segmented_dir={segmented_dir}"
+        )
         sys.exit(1)
 
-    # 3) Get first JSON file inside normalized/
-    json_files = list(normalized_dir.glob("*.json"))
-    if not json_files:
-        print(f"No normalized JSON files found in {normalized_dir}")
-        sys.exit(1)
-
-    example_normalized = json_files[0]
-    print(f"Using normalized file:\n  {example_normalized}\n")
+    example_segmented = json_paths[0]
+    print(f"Using segmented file (logical path):\n  {example_segmented}\n")
 
     # 4) Run pipeline: spans -> sorted spans -> chunks -> blocks
-    spans = load_spans_from_normalized(str(example_normalized))
+    spans = load_spans_from_segmented(str(example_segmented))
     print(f"Loaded spans: {len(spans)}")
 
     sorted_spans = sort_spans_reading_order(spans)
@@ -423,31 +432,9 @@ if __name__ == "__main__":
     print(f"Local chunks: {len(chunks)}")
     print(f"Global blocks: {len(blocks)}")
 
-    # 5) Show first few LOCAL chunks in the terminal
-    print("\n=== SAMPLE LOCAL CHUNKS (sentence-aware, page-aligned) ===")
-    for i, chunk in enumerate(chunks[:5]):  # change 5 to 10 if you want more
-        print("\n-----------------------------")
-        print(
-            f"Chunk {i} | chars={chunk['char_len']} | "
-            f"pages {chunk['page_start']}–{chunk['page_end']} "
-            f"| span_ids={chunk['span_ids'][0]}–{chunk['span_ids'][-1]}"
-        )
-        print(chunk["text"])
-
-    # 6) Show first few GLOBAL blocks in the terminal
-    print("\n=== SAMPLE GLOBAL BLOCKS (whole-document view, sentence-aware) ===")
-    for i, block in enumerate(blocks[:3]):  # show first 3 blocks
-        print("\n=============================")
-        print(
-            f"Block {i} | chars={block['char_len']} | "
-            f"pages {block['page_start']}–{block['page_end']} "
-            f"| span_ids={block['span_ids'][0]}–{block['span_ids'][-1]}"
-        )
-        print(block["text"])  # full block text (no truncation)
-
-    # 7) Save all chunks and blocks to JSON for inspection in VS Code
+    # 5) Save all chunks and blocks to JSON for inspection (LOCAL debug only)
     debug_dir = latest_session / "rag_debug"
-    debug_dir.mkdir(exist_ok=True)
+    debug_dir.mkdir(parents=True, exist_ok=True)
 
     chunks_path = debug_dir / "local_chunks.json"
     with open(chunks_path, "w", encoding="utf-8") as f:

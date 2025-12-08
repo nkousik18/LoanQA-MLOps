@@ -1,168 +1,83 @@
-2025-11-16 03:25:33 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
+2025-12-07 19:28:35 [INFO] [single_pdf_pipeline] 🔁 GCP→S3 sync: syncing user_uploads/ before Textract...
+2025-12-07 19:30:12 [INFO] [single_pdf_pipeline] 🔁 GCP→S3 sync: syncing user_uploads/ before Textract...
+2025-12-07 19:39:44 [INFO] [single_pdf_pipeline] 🔁 GCP→S3 sync: syncing user_uploads/ before Textract...
+2025-12-07 19:40:29 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
 {
-  "session_id": "session_cb4bb7a4",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_cb4bb7a4",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_cb4bb7a4\\raw\\Personal-Loan-Agreement - Copy_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_cb4bb7a4\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_cb4bb7a4\\segmented\\Personal-Loan-Agreement - Copy_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_cb4bb7a4\\normalized\\Personal-Loan-Agreement - Copy_normalized.json"
+  "session_id": "session_0d83116e",
+  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_0d83116e",
+  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_0d83116e\\raw\\Generative Project_raw.json",
+  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_0d83116e\\raw_text\\Generative Project_raw.txt",
+  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_0d83116e\\segmented\\Generative Project_segmented.json",
+  "rag": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_0d83116e\\rag",
+  "rag_chunks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_0d83116e\\rag\\chunks.json",
+  "rag_blocks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_0d83116e\\rag\\blocks.json",
+  "rag_embeddings": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_0d83116e\\rag\\chunk_embeddings.npy"
 }
-2025-11-16 03:32:49 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
+2025-12-07 19:52:31 [INFO] [single_pdf_pipeline] 🔁 GCP→S3 sync: syncing user_uploads/ before Textract...
+2025-12-07 19:53:05 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
 {
-  "session_id": "session_baee7e20",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_baee7e20",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_baee7e20\\raw\\Personal-Loan-Agreement - Copy_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_baee7e20\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_baee7e20\\segmented\\Personal-Loan-Agreement - Copy_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_baee7e20\\normalized\\Personal-Loan-Agreement - Copy_normalized.json"
+  "session_id": "session_bca9630e",
+  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_bca9630e",
+  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_bca9630e\\raw\\Generative Project_raw.json",
+  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_bca9630e\\raw_text\\Generative Project_raw.txt",
+  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_bca9630e\\segmented\\Generative Project_segmented.json",
+  "rag": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_bca9630e\\rag",
+  "rag_chunks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_bca9630e\\rag\\chunks.json",
+  "rag_blocks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_bca9630e\\rag\\blocks.json",
+  "rag_embeddings": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_bca9630e\\rag\\chunk_embeddings.npy"
 }
-2025-11-16 07:38:04 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
+2025-12-07 20:31:42 [INFO] [single_pdf_pipeline] 🔁 GCP→S3 sync: syncing user_uploads/ before Textract...
+2025-12-07 20:37:21 [INFO] [single_pdf_pipeline] 🔁 GCP→S3 sync: syncing user_uploads/ before Textract...
+2025-12-07 20:38:37 [INFO] [single_pdf_pipeline] 🔁 GCP→S3 sync: syncing user_uploads/ before Textract...
+2025-12-07 20:38:53 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
 {
-  "session_id": "session_4221c185",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4221c185",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4221c185\\raw\\Personal-Loan-Agreement - Copy_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4221c185\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4221c185\\segmented\\Personal-Loan-Agreement - Copy_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_4221c185\\normalized\\Personal-Loan-Agreement - Copy_normalized.json"
+  "session_id": "session_b8a2e70e",
+  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b8a2e70e",
+  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b8a2e70e\\raw\\Generative Project_raw.json",
+  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b8a2e70e\\raw_text\\Generative Project_raw.txt",
+  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b8a2e70e\\segmented\\Generative Project_segmented.json",
+  "rag": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b8a2e70e\\rag",
+  "rag_chunks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b8a2e70e\\rag\\chunks.json",
+  "rag_blocks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b8a2e70e\\rag\\blocks.json",
+  "rag_embeddings": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b8a2e70e\\rag\\chunk_embeddings.npy"
 }
-2025-11-16 07:40:12 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
+2025-12-07 20:45:03 [INFO] [single_pdf_pipeline] 🔁 GCP→S3 sync: syncing user_uploads/ before Textract...
+2025-12-07 20:50:25 [INFO] [single_pdf_pipeline] 🔁 GCP→S3 sync: syncing user_uploads/ before Textract...
+2025-12-07 20:50:44 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
 {
-  "session_id": "session_89becc6f",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_89becc6f",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_89becc6f\\raw\\Personal-Loan-Agreement - Copy_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_89becc6f\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_89becc6f\\segmented\\Personal-Loan-Agreement - Copy_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_89becc6f\\normalized\\Personal-Loan-Agreement - Copy_normalized.json"
+  "session_id": "session_35b32cca",
+  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_35b32cca",
+  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_35b32cca\\raw\\tmpn2amssce_raw.json",
+  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_35b32cca\\raw_text\\tmpn2amssce_raw.txt",
+  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_35b32cca\\segmented\\tmpn2amssce_segmented.json",
+  "rag": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_35b32cca\\rag",
+  "rag_chunks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_35b32cca\\rag\\chunks.json",
+  "rag_blocks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_35b32cca\\rag\\blocks.json",
+  "rag_embeddings": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_35b32cca\\rag\\chunk_embeddings.npy"
 }
-2025-11-16 07:51:36 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
+2025-12-08 11:32:31 [INFO] [single_pdf_pipeline] 🔁 GCP→S3 sync: syncing user_uploads/ before Textract...
+2025-12-08 11:32:59 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
 {
-  "session_id": "session_c363fad0",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c363fad0",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c363fad0\\raw\\Personal-Loan-Agreement - Copy_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c363fad0\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c363fad0\\segmented\\Personal-Loan-Agreement - Copy_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c363fad0\\normalized\\Personal-Loan-Agreement - Copy_normalized.json"
+  "session_id": "session_3b4a3ed9",
+  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_3b4a3ed9",
+  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_3b4a3ed9\\raw\\tmp6azetfmz_raw.json",
+  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_3b4a3ed9\\raw_text\\tmp6azetfmz_raw.txt",
+  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_3b4a3ed9\\segmented\\tmp6azetfmz_segmented.json",
+  "rag": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_3b4a3ed9\\rag",
+  "rag_chunks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_3b4a3ed9\\rag\\chunks.json",
+  "rag_blocks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_3b4a3ed9\\rag\\blocks.json",
+  "rag_embeddings": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_3b4a3ed9\\rag\\chunk_embeddings.npy"
 }
-2025-11-16 07:52:33 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
+2025-12-08 11:55:46 [INFO] [single_pdf_pipeline] 🔁 GCP→S3 sync: syncing user_uploads/ before Textract...
+2025-12-08 11:56:14 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
 {
-  "session_id": "session_85f5b034",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_85f5b034",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_85f5b034\\raw\\Personal-Loan-Agreement - Copy_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_85f5b034\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_85f5b034\\segmented\\Personal-Loan-Agreement - Copy_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_85f5b034\\normalized\\Personal-Loan-Agreement - Copy_normalized.json"
-}
-2025-11-16 08:29:44 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
-{
-  "session_id": "session_7d45d811",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7d45d811",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7d45d811\\raw\\Personal-Loan-Agreement - Copy_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7d45d811\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7d45d811\\segmented\\Personal-Loan-Agreement - Copy_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7d45d811\\normalized\\Personal-Loan-Agreement - Copy_normalized.json",
-  "layout": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7d45d811\\layout\\Personal-Loan-Agreement - Copy_normalized_layout.txt"
-}
-2025-11-16 08:41:51 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
-{
-  "session_id": "session_b98bea3e",
-  "session_root": "c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b98bea3e",
-  "raw_json": "c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b98bea3e\\raw\\Personal-Loan-Agreement - Copy_raw.json",
-  "raw_text": "c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b98bea3e\\raw_text\\Personal-Loan-Agreement - Copy_raw.txt",
-  "segmented": "c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b98bea3e\\segmented\\Personal-Loan-Agreement - Copy_segmented.json",
-  "normalized": "c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b98bea3e\\normalized\\Personal-Loan-Agreement - Copy_normalized.json",
-  "layout": "c:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_b98bea3e\\layout\\Personal-Loan-Agreement - Copy_normalized_layout.txt"
-}
-2025-11-23 15:52:41 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
-{
-  "session_id": "session_7ea4a86d",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7ea4a86d",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7ea4a86d\\raw\\tmpa6d_plzy_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7ea4a86d\\raw_text\\tmpa6d_plzy_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7ea4a86d\\segmented\\tmpa6d_plzy_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7ea4a86d\\normalized\\tmpa6d_plzy_normalized.json",
-  "layout": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_7ea4a86d\\layout\\tmpa6d_plzy_normalized_layout.txt"
-}
-2025-11-23 16:26:53 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
-{
-  "session_id": "session_9d154eda",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9d154eda",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9d154eda\\raw\\tmpnbioniwk_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9d154eda\\raw_text\\tmpnbioniwk_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9d154eda\\segmented\\tmpnbioniwk_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9d154eda\\normalized\\tmpnbioniwk_normalized.json",
-  "layout": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9d154eda\\layout\\tmpnbioniwk_normalized_layout.txt",
-  "rag": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9d154eda\\rag",
-  "rag_chunks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9d154eda\\rag\\chunks.json",
-  "rag_blocks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9d154eda\\rag\\blocks.json",
-  "rag_embeddings": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9d154eda\\rag\\chunk_embeddings.npy"
-}
-2025-11-23 22:58:38 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
-{
-  "session_id": "session_f985d8c1",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_f985d8c1",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_f985d8c1\\raw\\tmp1gh23nv7_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_f985d8c1\\raw_text\\tmp1gh23nv7_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_f985d8c1\\segmented\\tmp1gh23nv7_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_f985d8c1\\normalized\\tmp1gh23nv7_normalized.json",
-  "layout": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_f985d8c1\\layout\\tmp1gh23nv7_normalized_layout.txt",
-  "rag": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_f985d8c1\\rag",
-  "rag_chunks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_f985d8c1\\rag\\chunks.json",
-  "rag_blocks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_f985d8c1\\rag\\blocks.json",
-  "rag_embeddings": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_f985d8c1\\rag\\chunk_embeddings.npy"
-}
-2025-11-24 16:44:46 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
-{
-  "session_id": "session_c729f346",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c729f346",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c729f346\\raw\\tmphuoe2xy4_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c729f346\\raw_text\\tmphuoe2xy4_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c729f346\\segmented\\tmphuoe2xy4_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c729f346\\normalized\\tmphuoe2xy4_normalized.json",
-  "layout": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c729f346\\layout\\tmphuoe2xy4_normalized_layout.txt",
-  "rag": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c729f346\\rag",
-  "rag_chunks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c729f346\\rag\\chunks.json",
-  "rag_blocks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c729f346\\rag\\blocks.json",
-  "rag_embeddings": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c729f346\\rag\\chunk_embeddings.npy"
-}
-2025-11-25 11:02:07 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
-{
-  "session_id": "session_c995ad5e",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c995ad5e",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c995ad5e\\raw\\tmp7d1nnzkb_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c995ad5e\\raw_text\\tmp7d1nnzkb_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c995ad5e\\segmented\\tmp7d1nnzkb_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c995ad5e\\normalized\\tmp7d1nnzkb_normalized.json",
-  "layout": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c995ad5e\\layout\\tmp7d1nnzkb_normalized_layout.txt",
-  "rag": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c995ad5e\\rag",
-  "rag_chunks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c995ad5e\\rag\\chunks.json",
-  "rag_blocks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c995ad5e\\rag\\blocks.json",
-  "rag_embeddings": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_c995ad5e\\rag\\chunk_embeddings.npy"
-}
-2025-11-25 12:39:03 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
-{
-  "session_id": "session_9ccfa4c5",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ccfa4c5",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ccfa4c5\\raw\\tmp_timadju_raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ccfa4c5\\raw_text\\tmp_timadju_raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ccfa4c5\\segmented\\tmp_timadju_segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ccfa4c5\\normalized\\tmp_timadju_normalized.json",
-  "layout": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ccfa4c5\\layout\\tmp_timadju_normalized_layout.txt",
-  "rag": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ccfa4c5\\rag",
-  "rag_chunks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ccfa4c5\\rag\\chunks.json",
-  "rag_blocks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ccfa4c5\\rag\\blocks.json",
-  "rag_embeddings": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_9ccfa4c5\\rag\\chunk_embeddings.npy"
-}
-2025-11-25 13:26:43 [INFO] [single_pdf_pipeline] ✅ Single PDF session complete:
-{
-  "session_id": "session_31e1c79d",
-  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_31e1c79d",
-  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_31e1c79d\\raw\\tmpeffam0f__raw.json",
-  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_31e1c79d\\raw_text\\tmpeffam0f__raw.txt",
-  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_31e1c79d\\segmented\\tmpeffam0f__segmented.json",
-  "normalized": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_31e1c79d\\normalized\\tmpeffam0f__normalized.json",
-  "layout": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_31e1c79d\\layout\\tmpeffam0f__normalized_layout.txt",
-  "rag": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_31e1c79d\\rag",
-  "rag_chunks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_31e1c79d\\rag\\chunks.json",
-  "rag_blocks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_31e1c79d\\rag\\blocks.json",
-  "rag_embeddings": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_31e1c79d\\rag\\chunk_embeddings.npy"
+  "session_id": "session_ffd62eb9",
+  "session_root": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_ffd62eb9",
+  "raw_json": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_ffd62eb9\\raw\\tmprz7sq8ft_raw.json",
+  "raw_text": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_ffd62eb9\\raw_text\\tmprz7sq8ft_raw.txt",
+  "segmented": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_ffd62eb9\\segmented\\tmprz7sq8ft_segmented.json",
+  "rag": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_ffd62eb9\\rag",
+  "rag_chunks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_ffd62eb9\\rag\\chunks.json",
+  "rag_blocks": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_ffd62eb9\\rag\\blocks.json",
+  "rag_embeddings": "C:\\Users\\HP\\OneDrive\\Desktop\\doc-understand\\data\\local_pipeline\\sessions\\session_ffd62eb9\\rag\\chunk_embeddings.npy"
 }

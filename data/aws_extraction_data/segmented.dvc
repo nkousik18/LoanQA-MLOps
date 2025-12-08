@@ -1,6 +1,0 @@
-outs:
-- md5: cf964dc6f6a11e123c5f6a2d027e4c2a.dir
-  size: 2082099
-  nfiles: 9
-  hash: md5
-  path: segmented

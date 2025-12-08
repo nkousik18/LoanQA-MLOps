@@ -9,15 +9,24 @@ Features:
 - Structured logs and manifest tracking
 - Works in both VS Code (local) and Airflow (Docker) environments
 - Also writes a plain .txt file (per PDF) into RAW_TEXT_DIR
+
+GCS-aware behaviour:
+- All paths are *logical* paths under PROJECT_ROOT (RAW_DIR / RAW_TEXT_DIR).
+- Actual storage goes to:
+    - GCS when USE_GCS_OUTPUT=True (via gcs_utils)
+    - Local disk when USE_GCS_OUTPUT=False
+    - Or both if WRITE_LOCAL_COPY=True
 """
 
 import os
 import sys
 import json
 import time
+from pathlib import Path
+from typing import Dict, Any, List, Tuple
+
 import boto3
 import botocore
-from pathlib import Path
 
 # ---------------------------------------------------------------------
 # Ensure project root dynamically (works in both local & Docker)
@@ -36,6 +45,13 @@ from scripts.aws_extraction_scripts.config import (
     REGION,
     RAW_DIR,
     RAW_TEXT_DIR,
+    ensure_directories,
+)
+from scripts.aws_extraction_scripts.gcs_utils import (
+    write_json,
+    write_text,
+    logical_exists,
+    read_json,
 )
 from scripts.aws_extraction_scripts.log_utils import get_logger
 from scripts.aws_extraction_scripts.tracker import track_task
@@ -52,7 +68,7 @@ textract = boto3.client("textract", region_name=REGION)
 # ---------------------------------------------------------------------
 # Helper: convert Textract blocks to plain text
 # ---------------------------------------------------------------------
-def textract_blocks_to_text(blocks):
+def textract_blocks_to_text(blocks: List[Dict[str, Any]]) -> str:
     """
     Convert Textract 'Blocks' list into a multiline string.
 
@@ -100,9 +116,9 @@ def safe_textract_call(func, **kwargs):
 # ---------------------------------------------------------------------
 # Fetch all Textract results for a job
 # ---------------------------------------------------------------------
-def get_all_textract_results(job_id):
+def get_all_textract_results(job_id: str) -> Dict[str, Any]:
     """Fetches all Textract pages for a job until complete."""
-    pages = []
+    pages: List[Dict[str, Any]] = []
     next_token = None
     page_count = 0
 
@@ -134,12 +150,40 @@ def get_all_textract_results(job_id):
 
 
 # ---------------------------------------------------------------------
+# Save helpers (JSON + TXT) using GCS-aware utils
+# ---------------------------------------------------------------------
+def _save_textract_outputs(pdf_stem: str, full_result: Dict[str, Any]) -> Tuple[str, str]:
+    """
+    Save Textract full_result as JSON + TXT using gcs_utils.
+
+    Returns:
+        (json_path_str, txt_path_str) logical paths (under PROJECT_ROOT).
+    """
+    blocks = full_result.get("Blocks", [])
+    json_path = RAW_DIR / f"{pdf_stem}_raw.json"
+    txt_path = RAW_TEXT_DIR / f"{pdf_stem}_raw.txt"
+
+    # JSON (GCS/local depending on config)
+    write_json(json_path, full_result)
+
+    # TXT
+    text_content = textract_blocks_to_text(blocks)
+    write_text(txt_path, text_content)
+
+    return str(json_path), str(txt_path)
+
+
+# ---------------------------------------------------------------------
 # Textract single-PDF helper (path-aware, for sessions)
 # ---------------------------------------------------------------------
 def run_textract_for_pdf_to_dirs(pdf_key, raw_dir, raw_text_dir):
     """
     Runs Textract OCR for one PDF in S3 and saves output into the
     provided raw_dir (JSON) and raw_text_dir (TXT).
+
+    NOTE: For now, this helper still uses RAW_DIR/RAW_TEXT_DIR for
+    path layout but allows custom dirs. For session flows you can
+    pass session-specific dirs.
 
     - pdf_key: S3 key or Path for the PDF (e.g. "user_uploads/loan1.pdf")
     - raw_dir: Path-like for where to place *_raw.json
@@ -153,12 +197,6 @@ def run_textract_for_pdf_to_dirs(pdf_key, raw_dir, raw_text_dir):
     else:
         s3_key = str(pdf_key).replace("\\", "/")
         pdf_key = Path(s3_key)
-
-    raw_dir = Path(raw_dir)
-    raw_text_dir = Path(raw_text_dir)
-
-    raw_dir.mkdir(parents=True, exist_ok=True)
-    raw_text_dir.mkdir(parents=True, exist_ok=True)
 
     task_name = f"run_textract_{pdf_key.stem}"
     track_task(task_name, "STARTED")
@@ -193,19 +231,18 @@ def run_textract_for_pdf_to_dirs(pdf_key, raw_dir, raw_text_dir):
             return None, None
 
         full_result = get_all_textract_results(job_id)
+
+        # IMPORTANT: use custom dirs passed in (for session flows)
+        pdf_stem = pdf_key.stem
         blocks = full_result.get("Blocks", [])
 
-        json_path = raw_dir / f"{pdf_key.stem}_raw.json"
-        txt_path = raw_text_dir / f"{pdf_key.stem}_raw.txt"
+        json_path = Path(raw_dir) / f"{pdf_stem}_raw.json"
+        txt_path = Path(raw_text_dir) / f"{pdf_stem}_raw.txt"
 
-        # JSON
-        with open(json_path, "w", encoding="utf-8") as f:
-            json.dump(full_result, f, indent=2)
-
-        # TXT
+        # JSON + TXT via gcs_utils
+        write_json(json_path, full_result)
         text_content = textract_blocks_to_text(blocks)
-        with open(txt_path, "w", encoding="utf-8") as f:
-            f.write(text_content)
+        write_text(txt_path, text_content)
 
         msg = (
             f"Saved Textract JSON: {json_path} and text: {txt_path} "
@@ -237,22 +274,25 @@ def run_textract_for_pdf(pdf_key):
 
 
 # ---------------------------------------------------------------------
-# Batch Textract Runner with JSON/TXT skip logic
+# Batch Textract Runner with JSON/TXT skip logic (GCS-aware)
 # ---------------------------------------------------------------------
 def run_textract_all(**context):
     """
     Runs Textract OCR on all PDFs fetched from S3 under DOC_PREFIX ("docs/").
 
     Logic per PDF:
-      - If JSON and TXT both exist -> skip.
+      - If JSON and TXT both exist (in GCS or local) -> skip.
       - If JSON exists but TXT missing -> build TXT from existing JSON (no Textract call).
-      - If JSON missing -> run Textract and write both JSON + TXT.
+      - If JSON missing -> run Textract and write both JSON + TXT (via gcs_utils).
 
     Returns list of string paths for raw JSON outputs that were newly created
     or already existed (for downstream stages).
     """
     task_name = "run_textract_all"
     track_task(task_name, "STARTED")
+
+    # Make sure dirs exist if WRITE_LOCAL_COPY is enabled
+    ensure_directories()
 
     pdfs = fetch_files(prefix=DOC_PREFIX)
     if not pdfs:
@@ -261,11 +301,8 @@ def run_textract_all(**context):
         track_task(task_name, "SUCCESS", details=msg)
         return []
 
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
-    RAW_TEXT_DIR.mkdir(parents=True, exist_ok=True)
-
-    jobs = []
-    output_files = []
+    jobs: List[Dict[str, Any]] = []
+    output_files: List[str] = []
 
     # 1) Decide per-pdf what to do
     for pdf_key in pdfs:
@@ -273,25 +310,26 @@ def run_textract_all(**context):
         json_path = RAW_DIR / f"{pdf_stem}_raw.json"
         txt_path = RAW_TEXT_DIR / f"{pdf_stem}_raw.txt"
 
+        json_exists = logical_exists(json_path)
+        txt_exists = logical_exists(txt_path)
+
         # Case 1: both exist -> skip
-        if json_path.exists() and txt_path.exists():
+        if json_exists and txt_exists:
             logger.info(f"Skipping {pdf_key} (JSON and TXT already exist).")
             output_files.append(str(json_path))
             continue
 
         # Case 2: JSON exists but TXT missing -> build TXT from JSON
-        if json_path.exists() and not txt_path.exists():
+        if json_exists and not txt_exists:
             logger.info(
                 f"JSON exists but TXT missing for {pdf_key}. "
                 f"Building TXT from existing JSON."
             )
             try:
-                with open(json_path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
+                data = read_json(json_path)
                 blocks = data.get("Blocks", [])
                 text_content = textract_blocks_to_text(blocks)
-                with open(txt_path, "w", encoding="utf-8") as f:
-                    f.write(text_content)
+                write_text(txt_path, text_content)
                 logger.info(f"Wrote TXT file from existing JSON: {txt_path}")
                 output_files.append(str(json_path))
             except Exception as e:
@@ -355,24 +393,16 @@ def run_textract_all(**context):
 
             if status == "SUCCEEDED":
                 full_result = get_all_textract_results(job_id)
-                blocks = full_result.get("Blocks", [])
 
-                json_path = RAW_DIR / f"{pdf_stem}_raw.json"
-                txt_path = RAW_TEXT_DIR / f"{pdf_stem}_raw.txt"
+                # Save JSON + TXT via GCS-aware helpers
+                json_path_str, txt_path_str = _save_textract_outputs(
+                    pdf_stem, full_result
+                )
 
-                # JSON
-                with open(json_path, "w", encoding="utf-8") as f:
-                    json.dump(full_result, f, indent=2)
-
-                # TXT
-                text_content = textract_blocks_to_text(blocks)
-                with open(txt_path, "w", encoding="utf-8") as f:
-                    f.write(text_content)
-
-                msg = f"Saved Textract JSON: {json_path} and text: {txt_path}"
+                msg = f"Saved Textract JSON: {json_path_str} and text: {txt_path_str}"
                 logger.info(msg)
                 track_task(per_file_task, "SUCCESS", details=msg)
-                output_files.append(str(json_path))
+                output_files.append(json_path_str)
                 jobs.remove(job)
 
             elif status == "FAILED":
@@ -397,4 +427,5 @@ def run_textract_all(**context):
 # Entry point (manual run)
 # ---------------------------------------------------------------------
 if __name__ == "__main__":
+    ensure_directories()
     run_textract_all()

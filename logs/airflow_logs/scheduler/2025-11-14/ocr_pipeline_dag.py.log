@@ -1,9 +1,0 @@
-[2025-11-13T20:57:31.507-0500] {processor.py:161} INFO - Started process (PID=10794) to work on /opt/airflow/dags/ocr_pipeline_dag.py
-[2025-11-13T20:57:31.514-0500] {processor.py:830} INFO - Processing file /opt/airflow/dags/ocr_pipeline_dag.py for tasks to queue
-[2025-11-13T20:57:31.527-0500] {logging_mixin.py:188} INFO - [2025-11-13T20:57:31.523-0500] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ocr_pipeline_dag.py
-[2025-11-13T20:57:31.589-0500] {logging_mixin.py:188} INFO - 📂 Using project root: /opt/project
-[2025-11-13T20:57:35.200-0500] {logging_mixin.py:188} INFO - [2025-11-13T20:57:35.199-0500] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
-[2025-11-13T20:57:42.371-0500] {processor.py:840} INFO - DAG(s) 'ocr_pipeline_dag' retrieved from /opt/airflow/dags/ocr_pipeline_dag.py
-[2025-11-13T20:57:43.006-0500] {logging_mixin.py:188} INFO - [2025-11-13T20:57:43.005-0500] {dag.py:3089} INFO - Sync 1 DAGs
-[2025-11-13T20:57:43.047-0500] {logging_mixin.py:188} INFO - [2025-11-13T20:57:43.046-0500] {dag.py:3947} INFO - Setting next_dagrun for ocr_pipeline_dag to None, run_after=None
-[2025-11-13T20:57:43.110-0500] {processor.py:183} INFO - Processing /opt/airflow/dags/ocr_pipeline_dag.py took 11.799 seconds

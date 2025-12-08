@@ -1,38 +1,39 @@
-# scripts/ui/streamlit_app.py
+# scripts/LLM/forms_llm/ui/streamlit_app.py
 from __future__ import annotations
 
 import os
 import sys
+import json
 import tempfile
-import uuid
 import importlib.util
 from pathlib import Path
 from typing import Callable
 
 import streamlit as st
 
-
 # ---------------------------------------------------------
 # ✅ Setup project root on sys.path
-# file: doc-understand/scripts/LLM/forms_llm/ui/streamlit_app.py
-# CURRENT_DIR = .../scripts/LLM/forms_llm/ui
-# PROJECT_ROOT must be .../doc-understand  => parents[3]
 # ---------------------------------------------------------
 CURRENT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = CURRENT_DIR.parents[3]   # 👈 change 1 → 3
+PROJECT_ROOT = CURRENT_DIR.parents[3]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 os.chdir(PROJECT_ROOT)
 
+# Central config + GCS helpers
+from scripts.aws_extraction_scripts.config import (
+    LIVE_SESSIONS_DIR,
+    GCS_BUCKET,
+    USE_GCS_OUTPUT,
+    USER_UPLOADS_DIR,
+    to_gcs_key,
+)
 
 # ---------------------------------------------------------
-# ✅ Load loan assistant runner (robust to filename changes)
+# ✅ Load loan assistant runner
 # ---------------------------------------------------------
 def _load_loan_assistant_runner() -> Callable[..., str]:
-    """
-    Scan scripts/LLM/forms_llm/planner/ for a function that can answer user queries.
-    Prefers run_loan_assistant_demo if present.
-    """
+    """Scan planner directory for loan assistant function."""
     planner_dir = PROJECT_ROOT / "scripts" / "LLM" / "forms_llm" / "planner"
 
     for file_path in planner_dir.glob("*.py"):
@@ -60,93 +61,85 @@ def _load_loan_assistant_runner() -> Callable[..., str]:
                 if hasattr(mod, fn_name):
                     return getattr(mod, fn_name)
 
-    raise ImportError(
-        "Could not find a loan assistant runner in scripts/LLM/forms_llm/planner/*.py.\n"
-        "Make sure your planner file is saved and contains "
-        "run_loan_assistant_demo (or run_loan_assistant / answer_query)."
-    )
+    raise ImportError("Could not find loan assistant runner in planner/*.py")
 
 
 run_loan_assistant_demo = _load_loan_assistant_runner()
 
+# =========================================================
+# GCP helpers
+# =========================================================
+try:
+    from google.cloud import storage
+except ImportError:
+    storage = None
 
-# ---------------------------------------------------------
-# ✅ REAL single-PDF pipeline runner for YOUR AWS pipeline
-# - local PDF -> upload to S3 -> process_single_pdf_session(s3_key)
-# ---------------------------------------------------------
-def _get_bucket_name() -> str:
+
+def _get_gcs_bucket_name() -> str:
+    """GCS bucket where PDFs live. Uses central config."""
+    if not GCS_BUCKET:
+        raise RuntimeError("GCS bucket not configured in config.py")
+    return GCS_BUCKET
+
+
+def _upload_pdf_to_gcs(local_pdf_path: str, object_name: str) -> None:
     """
-    Priority:
-      1) env var (if set)
-      2) scripts.aws_extraction_scripts.config.BUCKET (your config default)
+    Upload local PDF to GCS.
+    
+    Args:
+        local_pdf_path: Local temp file path
+        object_name: GCS object key (e.g., "data/user_uploads/file.pdf")
     """
-    # 1) env vars
-    for k in ["S3_BUCKET", "AWS_TEXTRACT_BUCKET", "TEXTRACT_BUCKET", "AWS_BUCKET"]:
-        v = os.getenv(k)
-        if v:
-            return v
+    if storage is None:
+        raise RuntimeError(
+            "google-cloud-storage not installed. Run: pip install google-cloud-storage"
+        )
 
-    # 2) fallback to your config.py (you defined BUCKET there)
-    try:
-        from scripts.aws_extraction_scripts import config as cfg
-        if hasattr(cfg, "BUCKET") and isinstance(cfg.BUCKET, str) and cfg.BUCKET.strip():
-            return cfg.BUCKET.strip()
-    except Exception:
-        pass
-
-    raise RuntimeError(
-        "S3 bucket not found. Set env var S3_BUCKET or define BUCKET in "
-        "scripts/aws_extraction_scripts/config.py."
-    )
+    bucket_name = _get_gcs_bucket_name()
+    client = storage.Client()
+    bucket = client.bucket(bucket_name)
+    blob = bucket.blob(object_name)
+    blob.upload_from_filename(local_pdf_path, content_type="application/pdf")
+    print(f"[GCS] uploaded {local_pdf_path} -> gs://{bucket_name}/{object_name}")
 
 
-def _get_region_name() -> str:
-    """
-    Optional: read region from config if present.
-    """
-    try:
-        from scripts.aws_extraction_scripts import config as cfg
-        if hasattr(cfg, "REGION") and isinstance(cfg.REGION, str) and cfg.REGION.strip():
-            return cfg.REGION.strip()
-    except Exception:
-        pass
-    return os.getenv("AWS_REGION", "us-east-1")
-
-
-def _upload_pdf_to_s3(local_pdf_path: str) -> str:
-    """
-    Upload local PDF to S3 and return the S3 key.
-    """
-    try:
-        import boto3
-    except ImportError:
-        raise RuntimeError("boto3 not installed. Run: pip install boto3")
-
-    bucket = _get_bucket_name()
-    region = _get_region_name()
-
-    s3 = boto3.client("s3", region_name=region)
-
-    filename = Path(local_pdf_path).name
-    s3_key = f"user_uploads/{filename}"
-
-    s3.upload_file(local_pdf_path, bucket, s3_key)
-    return s3_key
+# =========================================================
+# Single-PDF runner
+# =========================================================
+from scripts.aws_extraction_scripts.sync_gcs_to_s3 import sync_user_uploads
+from scripts.aws_extraction_scripts.single_pdf_pipeline import process_single_pdf_session
 
 
 def RUN_SINGLE_PDF(local_pdf_path: str) -> str:
     """
-    End-to-end:
-      local file -> S3 -> your pipeline -> session_id
+    End-to-end pipeline:
+    
+    1. Upload PDF to GCS at data/user_uploads/tmpXXX.pdf
+    2. Sync from GCS data/user_uploads/ to S3 user_uploads/
+    3. Run Textract + segmentation + RAG
+    4. Return session_id
     """
-    # 1) upload to s3
-    s3_key = _upload_pdf_to_s3(local_pdf_path)
+    filename = Path(local_pdf_path).name
+    
+    # FIXED: Upload to data/user_uploads/ instead of user_uploads/
+    gcs_upload_prefix = to_gcs_key(USER_UPLOADS_DIR)
+    if not gcs_upload_prefix.endswith('/'):
+        gcs_upload_prefix += '/'
+    
+    object_name = f"{gcs_upload_prefix}{filename}"  # e.g., "data/user_uploads/tmpXXX.pdf"
 
-    # 2) run your single pdf session pipeline
-    from scripts.aws_extraction_scripts.single_pdf_pipeline import process_single_pdf_session
+    # 1) Upload to GCS
+    _upload_pdf_to_gcs(local_pdf_path, object_name)
+
+    # 2) Sync from GCS data/user_uploads/ to S3 user_uploads/
+    sync_user_uploads()
+
+    # 3) The S3 key after sync will be: user_uploads/tmpXXX.pdf
+    s3_key = f"user_uploads/{filename}"
+    
+    # 4) Run pipeline
     info = process_single_pdf_session(s3_key)
 
-    # 3) return session id
     return info["session_id"]
 
 
@@ -158,8 +151,7 @@ st.set_page_config(page_title="Doc-Understand | Loan Assistant", layout="wide")
 st.title("Doc-Understand – Loan/Contract Assistant")
 st.caption("Upload a PDF → run pipeline → ask questions in one chat box.")
 
-
-# Sidebar controls
+# Sidebar
 with st.sidebar:
     st.header("Session")
     if st.button("Reset session / upload new PDF"):
@@ -174,19 +166,15 @@ with st.sidebar:
     show_plan = st.checkbox("Show generated plan JSON", value=False)
     show_exec = st.checkbox("Show exec_results JSON", value=False)
 
-
 # Initialize session state
 if "processed" not in st.session_state:
     st.session_state.processed = False
 if "session_id" not in st.session_state:
     st.session_state.session_id = None
 if "chat" not in st.session_state:
-    st.session_state.chat = []  # list of {"role": "user"/"assistant", "content": str}
+    st.session_state.chat = []
 
-
-# ---------------------------------------------------------
-# 1) Upload PDF
-# ---------------------------------------------------------
+# Upload PDF
 uploaded = st.file_uploader("Upload your loan/contract PDF", type=["pdf"])
 
 col1, col2 = st.columns([1, 2], gap="large")
@@ -200,27 +188,30 @@ with col1:
         st.write(f"**File:** {uploaded.name}")
 
         if st.button("Run pipeline on this PDF", type="primary"):
-            # Save uploaded PDF to a temp file in your repo data folder
             data_dir = PROJECT_ROOT / "data"
             data_dir.mkdir(parents=True, exist_ok=True)
 
-            with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf", dir=str(data_dir)) as tmp:
+            with tempfile.NamedTemporaryFile(
+                delete=False, suffix=".pdf", dir=str(data_dir)
+            ) as tmp:
                 tmp.write(uploaded.read())
                 tmp_path = tmp.name
 
-            with st.spinner("Uploading to S3 → Textract → segmentation → normalization → layout..."):
+            with st.spinner(
+                "Uploading to GCS → syncing to S3 → Textract → segmentation → building RAG..."
+            ):
                 try:
                     session_id = RUN_SINGLE_PDF(tmp_path)
                     st.session_state.session_id = session_id
                     st.session_state.pdf_name = uploaded.name
                     st.session_state.processed = True
-                    st.success(f"Pipeline complete. Session created: **{session_id}**")
+                    st.success(f"✅ Pipeline complete! Session: **{session_id}**")
                 except Exception as e:
                     st.session_state.processed = False
                     st.session_state.session_id = None
                     st.error(f"Pipeline failed:\n\n{e}")
 
-            # cleanup temp file
+            # Cleanup
             try:
                 os.remove(tmp_path)
             except Exception:
@@ -231,81 +222,92 @@ with col1:
         st.success(f"Active session: **{st.session_state.session_id}**")
         st.caption(f"PDF: {st.session_state.get('pdf_name', 'unknown')}")
 
-
-# ---------------------------------------------------------
-# 2) Query box + chat
-# ---------------------------------------------------------
+# Query box + chat
 with col2:
     st.subheader("Step 2 — Ask Questions")
 
     if not st.session_state.processed or not st.session_state.session_id:
         st.warning("Process a PDF first. Then ask questions here.")
     else:
-        # Show chat history
+        # Chat history
         for msg in st.session_state.chat:
             with st.chat_message(msg["role"]):
                 st.markdown(msg["content"])
 
-        user_q = st.chat_input(
-            "Type your question (e.g., explain my loan and compute EMI for 10000 at 8% for 36 months)"
-        )
+        user_q = st.chat_input("Ask about your loan/contract...")
 
         if user_q:
-            # Add user message
             st.session_state.chat.append({"role": "user", "content": user_q})
             with st.chat_message("user"):
                 st.markdown(user_q)
 
-            # Run full demo pipeline
             with st.chat_message("assistant"):
-                with st.spinner("Planning → retrieving clauses → computing tools → writing final answer..."):
+                with st.spinner("Planning → retrieving → computing → answering..."):
                     try:
                         final_text = run_loan_assistant_demo(
                             user_query=user_q,
                             session_id=st.session_state.session_id,
                         )
                         st.markdown(final_text)
-                        st.session_state.chat.append({"role": "assistant", "content": final_text})
+                        st.session_state.chat.append(
+                            {"role": "assistant", "content": final_text}
+                        )
                     except Exception as e:
-                        err = f"Error while answering:\n\n{e}"
+                        err = f"Error: {e}"
                         st.error(err)
-                        st.session_state.chat.append({"role": "assistant", "content": err})
+                        st.session_state.chat.append(
+                            {"role": "assistant", "content": err}
+                        )
 
-            # Optional debug views
+            # Debug views (GCS-aware)
             if show_plan or show_exec:
-                rag_debug_dir = (
-                    PROJECT_ROOT
-                    / "data"
-                    / "local_pipeline"
-                    / "sessions"
-                    / st.session_state.session_id
-                    / "rag_debug"
-                )
-                if rag_debug_dir.exists():
-                    newest = sorted(
-                        rag_debug_dir.glob("*.json"),
-                        key=lambda p: p.stat().st_mtime,
-                        reverse=True
-                    )
+                rag_debug_dir = LIVE_SESSIONS_DIR / st.session_state.session_id / "rag_debug"
 
-                    if show_plan:
-                        plan_files = [p for p in newest if p.name.startswith("plan_")]
-                        if plan_files:
-                            st.markdown("### Debug: Latest Plan JSON")
-                            st.json(plan_files[0].read_text(encoding="utf-8"))
-                        else:
-                            st.info("No plan JSON found yet.")
+                def _load_latest_debug_json(prefix: str):
+                    # Try local first
+                    if rag_debug_dir.exists():
+                        local_files = sorted(
+                            rag_debug_dir.glob(f"{prefix}*.json"),
+                            key=lambda p: p.name,
+                            reverse=True,
+                        )
+                        if local_files:
+                            try:
+                                return json.loads(local_files[0].read_text(encoding="utf-8"))
+                            except Exception:
+                                pass
 
-                    if show_exec:
-                        exec_files = [p for p in newest if p.name.startswith("exec_results_")]
-                        if exec_files:
-                            st.markdown("### Debug: Latest exec_results JSON")
-                            st.json(exec_files[0].read_text(encoding="utf-8"))
-                        else:
-                            st.info("No exec_results JSON found yet.")
-                else:
-                    st.info("No rag_debug folder found for this session.")
+                    # Try GCS
+                    if USE_GCS_OUTPUT and storage is not None:
+                        client = storage.Client()
+                        bucket = client.bucket(GCS_BUCKET)
+                        dir_prefix = to_gcs_key(rag_debug_dir)
+                        if not dir_prefix.endswith("/"):
+                            dir_prefix += "/"
+                        blobs = list(client.list_blobs(GCS_BUCKET, prefix=dir_prefix + prefix))
+                        if blobs:
+                            latest_blob = max(blobs, key=lambda b: b.name)
+                            try:
+                                return json.loads(latest_blob.download_as_text(encoding="utf-8"))
+                            except Exception:
+                                return None
+                    return None
 
+                if show_plan:
+                    plan_json = _load_latest_debug_json("plan_")
+                    if plan_json:
+                        st.markdown("### Debug: Latest Plan JSON")
+                        st.json(plan_json)
+                    else:
+                        st.info("No plan JSON found.")
+
+                if show_exec:
+                    exec_json = _load_latest_debug_json("exec_results_")
+                    if exec_json:
+                        st.markdown("### Debug: Latest exec_results JSON")
+                        st.json(exec_json)
+                    else:
+                        st.info("No exec_results JSON found.")
 
 # Footer
 st.markdown("---")

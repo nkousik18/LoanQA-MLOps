@@ -6,33 +6,55 @@ import os
 import sys
 import json
 import re
+from pathlib import Path
 from typing import Any, Dict, List
 
-# ---------------------------------------------------------------------
-# Path setup
-# ---------------------------------------------------------------------
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, "../../../../"))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
-from scripts.LLM.forms_llm.planner.plan_schema import PlannerPlan, PlannedTask
+from scripts.LLM.forms_llm.planner.plan_schema import PlannerPlan
+from scripts.LLM.forms_llm.llm_clients.groq_client import call_groq_chat
 
 
 # =========================================================
-# Keyword sets (match the original planner_prompt rules)
+# Prompt pack loader
+# =========================================================
+# ✅ prompts live here: scripts/LLM/prompts_form/
+PROMPTS_DIR = Path(PROJECT_ROOT) / "scripts" / "LLM" / "prompts_form"
+PLANNER_PROMPT_PATH = PROMPTS_DIR / "planner_prompt.txt"
+
+
+def _load_planner_prompt(default_language: str = "en") -> str:
+    """
+    Load planner prompt from scripts/LLM/prompts_form/planner_prompt.txt.
+    If missing, fall back to an embedded prompt that matches your rules.
+    """
+    if PLANNER_PROMPT_PATH.exists():
+        return PLANNER_PROMPT_PATH.read_text(encoding="utf-8")
+
+    return (
+        "You are a planner for a loan-and-legal document assistant.\n"
+        "Output STRICT JSON task plans only.\n"
+        "Available kinds: doc_qa, doc_explain, doc_summary, doc_translate, finance_emi.\n"
+        "Only supported finance kind: finance_emi.\n"
+        "Do not add tasks user didn’t ask for.\n"
+        "Definitions -> doc_qa unless user asks explain clearly -> doc_explain.\n"
+        "Calculations: only EMI/mortgage monthly payment/installment -> finance_emi.\n"
+        "Unsupported calc -> doc_qa fallback.\n"
+        "doc_summary->global. doc_qa local by default, global for whole-doc QA.\n"
+        "Top-level JSON keys: tasks, final_answer_instructions.\n"
+    )
+
+
+# =========================================================
+# Keyword sets (match planner_prompt.txt)
 # =========================================================
 _NUM_PATTERN = re.compile(r"\d")
 
 _SUMMARY_WORDS = ["summarise", "summarize", "summary", "overview", "brief"]
-_EXPLAIN_WORDS = [
-    "explain",
-    "clarify",
-    "break down",
-    "help me understand",
-    "details",
-    "explain clearly",
-]
+_EXPLAIN_WORDS = ["explain", "clarify", "break down", "help me understand", "details", "explain clearly"]
 _TRANSLATE_WORDS = [
     "translate",
     "in telugu", "to telugu",
@@ -44,71 +66,36 @@ _TRANSLATE_WORDS = [
 
 # definition phrases for ANY term (no numbers + no calc verbs)
 _DEF_PHRASES = [
-    "what is",
-    "define",
-    "meaning of",
-    "what is meant by",
-    "mean by",
-    "stands for",
-    "how does",
-    "how do",
-    "how is",
-    "how it works",
+    "what is", "define", "meaning of", "what is meant by", "mean by",
+    "stands for", "how does", "how do", "how is", "how it works",
 ]
 
 # calc verbs (generic)
 _CALC_VERBS = [
-    "calculate",
-    "calculation",
-    "compute",
-    "find",
-    "estimate",
-    "how much",
-    "monthly payment",
-    "installment",
-    "instalment",
-    "total payable",
-    "total payment",
-    "total amount to pay",
-    "interest amount",
-    "repayment amount",
+    "calculate", "calculation", "compute", "find", "estimate",
+    "how much", "monthly payment", "installment", "instalment",
+    "total payable", "total payment", "total amount to pay",
+    "interest amount", "repayment amount",
 ]
 
 # supported EMI-like calc signals
 _EMI_CALC_SIGNALS = [
-    "emi",
-    "equated monthly installment",
-    "equated monthly instalment",
-    "monthly installment",
-    "monthly instalment",
-    "mortgage payment",
-    "home loan payment",
-    "loan payment",
-    "installment",
-    "instalment",
-    "monthly payment",
+    "emi", "equated monthly installment", "equated monthly instalment",
+    "monthly installment", "monthly instalment",
+    "mortgage payment", "home loan payment", "loan payment",
+    "installment", "instalment", "monthly payment",
 ]
 
 # whole-doc QA signals for global scope
 _WHOLEDOC_QA_SIGNALS = [
-    "overall",
-    "whole agreement",
-    "whole document",
-    "entire agreement",
-    "entire document",
-    "who are the parties",
-    "parties involved",
-    "effective date",
-    "signing date",
-    "list all",
-    "all fees",
-    "all penalties",
-    "all obligations",
-    "mention",
-    "anywhere",
+    "overall", "whole agreement", "whole document", "entire agreement", "entire document",
+    "who are the parties", "parties involved",
+    "effective date", "signing date",
+    "list all", "all fees", "all penalties", "all obligations",
+    "mention", "anywhere",
 ]
 
-# phrases that mean "look up value in THIS document", not compute a new one
+# Phrases that mean "look up value IN THIS DOCUMENT", not compute a new one
 _DOC_LOOKUP_PHRASES = [
     "in this document",
     "in our document",
@@ -125,6 +112,11 @@ _DOC_LOOKUP_PHRASES = [
     "in this loan agreement",
     "from this loan agreement",
 ]
+
+
+def _mentions_doc_lookup(ql: str) -> bool:
+    ql = ql.lower()
+    return any(p in ql for p in _DOC_LOOKUP_PHRASES)
 
 
 # =========================================================
@@ -145,60 +137,17 @@ def _wants_translate(user_query: str) -> bool:
     return any(w in ql for w in _TRANSLATE_WORDS)
 
 
-def _mentions_doc_lookup(ql: str) -> bool:
-    ql = ql.lower()
-    return any(p in ql for p in _DOC_LOOKUP_PHRASES)
-
-
 def _infer_domain_from_query(ql: str) -> str | None:
-    if any(
-        w in ql
-        for w in [
-            "fee",
-            "fees",
-            "interest",
-            "apr",
-            "emi",
-            "repayment",
-            "amount",
-            "payable",
-            "installment",
-            "instalment",
-            "mortgage",
-            "rate",
-            "tenure",
-            "principal",
-        ]
-    ):
+    if any(w in ql for w in ["fee", "fees", "interest", "apr", "emi", "repayment",
+                             "amount", "payable", "installment", "instalment",
+                             "mortgage", "rate", "tenure", "principal"]):
         return "finance"
-    if any(
-        w in ql
-        for w in [
-            "default",
-            "termination",
-            "collateral",
-            "guarantor",
-            "dispute",
-            "governing law",
-            "jurisdiction",
-            "obligation",
-            "rights",
-            "penalty",
-        ]
-    ):
+    if any(w in ql for w in ["default", "termination", "collateral", "guarantor",
+                             "dispute", "governing law", "jurisdiction",
+                             "obligation", "rights", "penalty"]):
         return "legal"
-    if any(
-        w in ql
-        for w in [
-            "translate",
-            "language",
-            "summary",
-            "overview",
-            "parties",
-            "effective date",
-            "document about",
-        ]
-    ):
+    if any(w in ql for w in ["translate", "language", "summary", "overview",
+                             "parties", "effective date", "document about"]):
         return "general"
     return None
 
@@ -259,29 +208,14 @@ def _has_calc_intent(user_query: str) -> bool:
     has_calc_verbs = any(v in ql for v in _CALC_VERBS)
 
     # conceptual, no numbers -> NOT calc intent
-    if (
-        (ql.startswith("how is") or ql.startswith("how does"))
-        and has_calc_verbs
-        and not has_numbers
-    ):
+    if (ql.startswith("how is") or ql.startswith("how does")) and has_calc_verbs and not has_numbers:
         return False
 
     if has_calc_verbs:
         return True
 
-    if has_numbers and any(
-        s in ql
-        for s in [
-            "emi",
-            "interest",
-            "payment",
-            "installment",
-            "instalment",
-            "mortgage",
-            "tenure",
-            "rate",
-        ]
-    ):
+    if has_numbers and any(s in ql for s in ["emi", "interest", "payment", "installment",
+                                            "instalment", "mortgage", "tenure", "rate"]):
         return True
 
     return False
@@ -323,33 +257,40 @@ def _is_supported_emi_calc(user_query: str) -> bool:
         "what will be my emi",
         "what would be my emi",
         "how much will my emi",
-        "emi for ",
-        "emi on ",
+        "emi for",
+        "emi if",
+        "monthly payment for",
+        "monthly payment if",
     ]
+    has_strong = any(p in ql for p in strong_calc_phrases)
 
-    if any(p in ql for p in strong_calc_phrases):
+    # Very conservative rule:
+    #  - strong EMI phrase + at least 2 numbers (e.g., principal + rate)
+    if has_strong and num_count >= 2:
         return True
 
-    # Fallback: if there are at least 2 numbers, it's likely a principal-rate-tenure scenario
-    if num_count >= 2:
+    # Also allow patterns like:
+    #  "emi for 10000 at 8% for 36 months"
+    if (
+        (" emi " in f" {ql} " or "monthly payment" in ql)
+        and (" for " in f" {ql} " or " if " in f" {ql} ")
+        and num_count >= 3
+    ):
         return True
 
-    # Otherwise, treat as doc lookup, not EMI tool
+    # Otherwise, treat as a doc lookup / explanation, NOT a fresh EMI tool call
     return False
 
 
 # =========================================================
-# Default rule-based planner (no LLM)
+# Default fallback plan (only when planner LLM fails)
 # =========================================================
 def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
     """
-    Purely rule-based planner.
-
-    Matches the logic of your old planner_prompt:
-      - classify into doc_qa / doc_explain / doc_summary / doc_translate / finance_emi
-      - choose local vs global scope
-      - pick finance/legal/general domain
+    Matches planner_prompt.txt exactly.
     """
+    from scripts.LLM.forms_llm.planner.plan_schema import PlannedTask
+
     ql = (user_query or "").lower().strip()
 
     tasks: List[PlannedTask] = []
@@ -395,20 +336,7 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
 
     # ---- C) Explain intent
     if _wants_explain(user_query):
-        scope = (
-            "global"
-            if any(
-                x in ql
-                for x in [
-                    "agreement",
-                    "document",
-                    "contract",
-                    "loan doc",
-                    "loan document",
-                ]
-            )
-            else "local"
-        )
+        scope = "global" if any(x in ql for x in ["agreement", "document", "contract", "loan doc", "loan document"]) else "local"
         tasks.append(
             PlannedTask(
                 id="t_explain",
@@ -427,14 +355,7 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
 
     # ---- D) Translate intent
     if _wants_translate(user_query):
-        scope = (
-            "global"
-            if any(
-                x in ql
-                for x in ["whole", "entire", "full document", "agreement", "document"]
-            )
-            else "local"
-        )
+        scope = "global" if any(x in ql for x in ["whole", "entire", "full document", "agreement", "document"]) else "local"
         tasks.append(
             PlannedTask(
                 id="t_translate",
@@ -487,8 +408,7 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
             PlannedTask(
                 id="t1",
                 kind="doc_qa",
-                query=user_query.strip()
-                or "Answer the user's question from the document.",
+                query=user_query.strip() or "Answer the user's question from the document.",
                 domain=_infer_domain_from_query(ql) or "general",
                 scope="local",
                 language=language,
@@ -499,22 +419,14 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
 
     return PlannerPlan(
         tasks=tasks,
-        final_answer_instructions=(
-            "Follow the tasks in order. Keep the answer focused on the user's query."
-        ),
+        final_answer_instructions="Follow the tasks in order. Keep the answer focused on the user's query."
     )
 
 
 # =========================================================
-# Sanitization (still useful if you ever swap planner source)
+# Sanitization (enforce rules even if LLM drifts)
 # =========================================================
-_ALLOWED_KINDS = {
-    "doc_qa",
-    "doc_explain",
-    "doc_summary",
-    "doc_translate",
-    "finance_emi",
-}
+_ALLOWED_KINDS = {"doc_qa", "doc_explain", "doc_summary", "doc_translate", "finance_emi"}
 _KIND_MAP = {
     "doc_summarize": "doc_summary",
     "summary": "doc_summary",
@@ -532,13 +444,12 @@ _ALLOWED_SCOPES = {"local", "global"}
 _ALLOWED_TONES = {"borrower_friendly", "expert"}
 
 
-def _sanitize_plan(
-    plan: PlannerPlan, user_query: str, default_language: str
-) -> PlannerPlan:
+def _sanitize_plan(plan: PlannerPlan, user_query: str, default_language: str) -> PlannerPlan:
     """
-    Enforce strict planning rules on the plan output.
-    Works even if the plan came from rules (now) or LLM (future).
+    Enforce your strict planning rules on the LLM output.
     """
+    from scripts.LLM.forms_llm.planner.plan_schema import PlannedTask
+
     ql = (user_query or "").lower().strip()
 
     wants_summary = _wants_summary(user_query)
@@ -548,6 +459,7 @@ def _sanitize_plan(
     def_intent = _has_definition_intent(user_query)
     calc_intent = _has_calc_intent(user_query)
     supported_emi_calc = _is_supported_emi_calc(user_query)
+    is_doc_lookup = _mentions_doc_lookup(ql)
 
     cleaned: List[PlannedTask] = []
 
@@ -571,7 +483,7 @@ def _sanitize_plan(
         tone = t.tone if (t.tone in _ALLOWED_TONES) else None
         language = t.language or default_language
 
-        # Defaults per kind
+        # Defaults per kind (exactly per prompt)
         if kind == "finance_emi":
             domain = "finance"
             scope = None
@@ -585,39 +497,13 @@ def _sanitize_plan(
         elif kind == "doc_translate":
             domain = domain or "general"
             if scope not in {"local", "global"}:
-                scope = (
-                    "global"
-                    if any(
-                        x in ql
-                        for x in [
-                            "whole",
-                            "entire",
-                            "full document",
-                            "agreement",
-                            "document",
-                        ]
-                    )
-                    else "local"
-                )
+                scope = "global" if any(x in ql for x in ["whole", "entire", "full document", "agreement", "document"]) else "local"
             tone = None
 
         elif kind == "doc_explain":
             domain = domain or (_infer_domain_from_query(ql) or "general")
             if scope not in {"local", "global"}:
-                scope = (
-                    "global"
-                    if any(
-                        x in ql
-                        for x in [
-                            "agreement",
-                            "document",
-                            "contract",
-                            "loan doc",
-                            "loan document",
-                        ]
-                    )
-                    else "local"
-                )
+                scope = "global" if any(x in ql for x in ["agreement", "document", "contract", "loan doc", "loan document"]) else "local"
             tone = tone or "borrower_friendly"
 
         else:  # doc_qa
@@ -631,7 +517,7 @@ def _sanitize_plan(
 
         cleaned.append(
             PlannedTask(
-                id=t.id or f"task_{len(cleaned) + 1}",
+                id=t.id or f"task_{len(cleaned)+1}",
                 kind=kind,
                 query=(t.query or user_query).strip(),
                 domain=domain,
@@ -661,9 +547,7 @@ def _sanitize_plan(
                     )
                 ]
             plan.tasks = cleaned
-            plan.final_answer_instructions = (
-                "Explain clearly and relate to the agreement if stated."
-            )
+            plan.final_answer_instructions = "Explain clearly and relate to the agreement if stated."
             return plan
         else:
             cleaned = [t for t in cleaned if t.kind == "doc_qa"]
@@ -706,62 +590,68 @@ def _sanitize_plan(
     if calc_intent and not supported_emi_calc:
         cleaned = [t for t in cleaned if t.kind != "finance_emi"]
 
-        # ensure ONE doc_qa fallback exists
-        if not any(t.kind == "doc_qa" for t in cleaned):
-            cleaned.append(
-                PlannedTask(
-                    id="t_calc_fallback",
-                    kind="doc_qa",
-                    query=(
-                        "From the agreement, extract any stated result or the inputs needed to compute it "
-                        "(principal, interest rate, tenure, fees). If missing, say so."
-                    ),
-                    domain="finance",
-                    scope="local",
-                    language=default_language,
-                    tone="borrower_friendly",
-                    depends_on=[],
+        # For pure doc-lookup queries, we don't *need* the special calc-fallback;
+        # doc_explain / doc_qa will already read values from the agreement.
+        if not is_doc_lookup:
+            # ensure ONE doc_qa fallback exists
+            if not any(t.kind == "doc_qa" for t in cleaned):
+                cleaned.append(
+                    PlannedTask(
+                        id="t_calc_fallback",
+                        kind="doc_qa",
+                        query=(
+                            "From the agreement, extract any stated result or the inputs needed to compute it "
+                            "(principal, interest rate, tenure, fees). If missing, say so."
+                        ),
+                        domain="finance",
+                        scope="local",
+                        language=default_language,
+                        tone="borrower_friendly",
+                        depends_on=[],
+                    )
                 )
-            )
 
     # ---- 5) If empty -> hard fallback
     if not cleaned:
         return _default_plan(user_query, language=default_language)
 
     # ---- 6) Stable ordering
-    priority = {
-        "doc_summary": 0,
-        "doc_explain": 1,
-        "doc_qa": 2,
-        "doc_translate": 3,
-        "finance_emi": 4,
-    }
+    priority = {"doc_summary": 0, "doc_explain": 1, "doc_qa": 2, "doc_translate": 3, "finance_emi": 4}
     cleaned.sort(key=lambda t: priority.get(t.kind, 99))
 
     plan.tasks = cleaned
     if not (plan.final_answer_instructions or "").strip():
-        plan.final_answer_instructions = (
-            "Follow the tasks in order. Keep the answer focused on the user's query."
-        )
+        plan.final_answer_instructions = "Follow the tasks in order. Keep the answer focused on the user's query."
     return plan
 
 
 # =========================================================
-# Planner (NOW PURELY RULE-BASED, NO LLM CALL)
+# Planner LLM
 # =========================================================
 def plan_user_query_with_llm(
     user_query: str,
     default_language: str = "en",
 ) -> PlannerPlan:
-    """
-    Deterministic planner:
-      - NO external LLM call
-      - Uses _default_plan (rules) + _sanitize_plan
-      - Signature unchanged so loan_assistant_demo & Streamlit keep working
-    """
-    base_plan = _default_plan(user_query, language=default_language)
-    cleaned_plan = _sanitize_plan(base_plan, user_query, default_language)
-    return cleaned_plan
+
+    system_prompt = _load_planner_prompt(default_language=default_language)
+
+    user_prompt = (
+        f"User query:\n{user_query}\n\n"
+        "Decide what the assistant should do.\n"
+        f"If the user does not specify a language, default language is '{default_language}'.\n\n"
+        "Now output the TASK PLAN as JSON.\n"
+    )
+
+    raw = call_groq_chat(system_prompt, user_prompt)
+
+    try:
+        data: Dict[str, Any] = json.loads(raw)
+        plan = PlannerPlan.from_dict(data)
+    except Exception:
+        return _default_plan(user_query, language=default_language)
+
+    plan = _sanitize_plan(plan, user_query, default_language)
+    return plan
 
 
 # =========================================================
@@ -778,8 +668,7 @@ if __name__ == "__main__":
         "Explain the default clause.",
         "Give me a summary of this loan.",
         "Explain this agreement in Telugu and also calculate EMI for 7000 at 9% for 24 months.",
-        "Does this agreement mention any prepayment penalty anywhere?",
-        "Explain what is interest rate and EMI in this document.",
+        "explain what is interest rate and emi, and how much is it in our document",
     ]
 
     for q in examples:

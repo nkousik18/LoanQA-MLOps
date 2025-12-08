@@ -9,12 +9,21 @@ from pathlib import Path
 from datetime import datetime
 from typing import Any, Dict
 
-CURRENT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = CURRENT_DIR.parents[3]
+# ---------------------------------------------------------------------
+# Path setup
+# ---------------------------------------------------------------------
+CURRENT_DIR = Path(__file__).resolve().parent           # .../planner
+PROJECT_ROOT = CURRENT_DIR.parents[3]                   # .../doc-understand
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 os.chdir(PROJECT_ROOT)
+
+# ---------------------------------------------------------------------
+# Central config + GCS helpers
+# ---------------------------------------------------------------------
+from scripts.aws_extraction_scripts.config import LIVE_SESSIONS_DIR
+from scripts.aws_extraction_scripts.gcs_utils import write_json
 
 # 1) Planner
 from scripts.LLM.forms_llm.planner.query_planner_llm import plan_user_query_with_llm
@@ -26,44 +35,63 @@ from scripts.LLM.forms_llm.planner.plan_executor import execute_plan_on_session
 from scripts.LLM.forms_llm.planner.final_answer_llm import build_final_answer
 
 
+# ---------------------------------------------------------------------
+# Session helpers
+# ---------------------------------------------------------------------
 def _get_latest_session_id() -> str:
-    sessions_dir = PROJECT_ROOT / "data" / "local_pipeline" / "sessions"
+    """
+    Find the most recent session_* folder under LIVE_SESSIONS_DIR.
+    """
+    sessions_dir = LIVE_SESSIONS_DIR
+    if not sessions_dir.exists():
+        raise FileNotFoundError(f"Sessions directory not found: {sessions_dir}")
+
     session_dirs = [
         d for d in sessions_dir.iterdir()
         if d.is_dir() and d.name.startswith("session_")
     ]
     if not session_dirs:
         raise FileNotFoundError(f"No session_* folders found in {sessions_dir}")
+
     latest_session = max(session_dirs, key=lambda d: d.stat().st_mtime)
     return latest_session.name
 
 
 def _save_debug_json(session_id: str, name: str, data: Dict[str, Any]) -> None:
     """
-    Save planner + executor outputs per session, so you can inspect later.
+    Save planner / executor / final-answer outputs per session so you can inspect later.
+
+    Location (logical path):
+      data/local_pipeline/sessions/<session_id>/rag_debug/<name>_<timestamp>.json
+
+    Storage behaviour:
+      - Always uses gcs_utils.write_json(), so in USE_GCS_OUTPUT=True debug files
+        are written to GCS (and optionally mirrored locally if WRITE_LOCAL_COPY=True).
     """
-    debug_dir = (
-        PROJECT_ROOT
-        / "data"
-        / "local_pipeline"
-        / "sessions"
-        / session_id
-        / "rag_debug"
-    )
-    debug_dir.mkdir(parents=True, exist_ok=True)
+    debug_dir = LIVE_SESSIONS_DIR / session_id / "rag_debug"
+    debug_dir.mkdir(parents=True, exist_ok=True)  # local dir (for easy browsing)
 
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     out_path = debug_dir / f"{name}_{ts}.json"
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    # GCS-aware write
+    write_json(out_path, data)
 
     print(f"[debug] saved {name} -> {out_path}")
 
 
+# ---------------------------------------------------------------------
+# Main demo runner
+# ---------------------------------------------------------------------
 def run_loan_assistant_demo(user_query: str, session_id: str | None = None) -> str:
     """
     Full pipeline:
       user query -> planner -> executor -> final answer llm
+
+    Args:
+        user_query: natural-language question from the user
+        session_id: optional session folder name (session_xxxx). If None,
+                    the latest session is used.
     """
     if session_id is None:
         session_id = _get_latest_session_id()
@@ -121,8 +149,10 @@ def run_loan_assistant_demo(user_query: str, session_id: str | None = None) -> s
     return final_text
 
 
+# ---------------------------------------------------------------------
+# Quick interactive test
+# ---------------------------------------------------------------------
 if __name__ == "__main__":
-    # quick interactive test
     tests = [
         "Explain my loan agreement and tell me the EMI if I borrow 10000 at 8% for 36 months.",
         "Summarise this contract and highlight any penalties for late payment.",
