@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Loan Docs Assistant",
+  "version": "1.0",
+  "description": "Summarize, translate, solve math, and Voice-Assistance for loan documents.",
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "summarize_icon.png",
+      "48": "summarize_icon.png",
+      "128": "summarize_icon.png"
+    }
+  },
+
+  "icons": {
+    "16": "summarize_icon.png",
+    "48": "summarize_icon.png",
+    "128": "summarize_icon.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+
+  "host_permissions": [
+    "http://127.0.0.1:8501/*"
+  ]
+}
