@@ -116,7 +116,12 @@ services:
       - ./data:/app/data
       # Map the Google Key (if you have it)
       - ./gcp_keys/doc-understand-7f714b3c6924.json:/app/gcs_key.json
+      - ./llm-microservice/tracking:/app/llm-microservice/tracking
 
     # Set PYTHONPATH so Python knows where to find 'scripts'
     environment:
-      - PYTHONPATH=/app
+        - PYTHONPATH=/app
+        - GOOGLE_APPLICATION_CREDENTIALS=/app/gcs_key.json
+        # --- ADD THIS LINE ---
+        # Tells MLflow to write to the volume we mapped (./llm-microservice/tracking)
+        - MLFLOW_TRACKING_URI=file:///app/llm-microservice/tracking/mlruns
