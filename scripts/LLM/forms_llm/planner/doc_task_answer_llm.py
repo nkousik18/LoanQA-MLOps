@@ -19,8 +19,13 @@ from scripts.LLM.forms_llm.planner.doc_tasks import (
 )
 from scripts.LLM.forms_llm.llm_clients.groq_client import call_groq_chat
 
+# Reuse central logger infra from aws_extraction_scripts
+from scripts.aws_extraction_scripts.log_utils import get_logger
+
 # ✅ prompts live here: scripts/LLM/prompts_form/
 PROMPTS_DIR = os.path.join(PROJECT_ROOT, "scripts", "LLM", "prompts_form")
+
+LOGGER = get_logger(__name__)
 
 
 # ---------------------------------------------------------
@@ -34,7 +39,10 @@ def _load_prompt_file(name: str) -> str:
     """
     path = os.path.join(PROMPTS_DIR, name)
     if not os.path.exists(path):
+        LOGGER.error(f"[doc_task_answer_llm] Prompt file not found: {path}")
         raise FileNotFoundError(f"Prompt file not found: {path}")
+
+    LOGGER.debug(f"[doc_task_answer_llm] Loading prompt file: {path}")
     with open(path, "r", encoding="utf-8") as f:
         return f.read().strip()
 
@@ -126,6 +134,11 @@ def answer_single_doc_task(
     Use Groq LLM to answer ONE doc_* task given its DocTaskContext.
     The context already contains the retrieved text (chunks/blocks).
     """
+    LOGGER.info(
+        f"[doc_task_answer_llm] Answering task_id={task.id} "
+        f"kind={task.kind.value} language={task.language} tone={task.tone} "
+        f"scope={ctx.scope.value} pages={ctx.pages}"
+    )
 
     if task.kind == DocTaskKind.DOC_QA:
         system_prompt = _system_prompt_for_doc_qa(task.language, task.tone)
@@ -164,9 +177,19 @@ def answer_single_doc_task(
         )
 
     else:
+        LOGGER.error(f"[doc_task_answer_llm] Unsupported DocTaskKind for answer: {task.kind}")
         raise ValueError(f"Unsupported DocTaskKind for answer: {task.kind}")
 
+    LOGGER.debug(
+        f"[doc_task_answer_llm] Calling Groq LLM for task_id={task.id} "
+        f"(context_length={len(ctx.context_text)})"
+    )
     answer_text = call_groq_chat(system_prompt, user_prompt)
+
+    LOGGER.info(
+        f"[doc_task_answer_llm] Completed task_id={task.id} "
+        f"kind={task.kind.value} (answer_length={len(answer_text)})"
+    )
 
     return {
         "task_id": task.id,
@@ -185,10 +208,14 @@ def answer_many_doc_tasks(
     tasks: List[DocTask],
     contexts: Dict[str, DocTaskContext],
 ) -> Dict[str, Dict[str, Any]]:
+    LOGGER.info(
+        f"[doc_task_answer_llm] Answering many tasks: count={len(tasks)}"
+    )
     results: Dict[str, Dict[str, Any]] = {}
     for task in tasks:
         ctx = contexts.get(task.id)
         if ctx is None:
+            LOGGER.error(f"[doc_task_answer_llm] No DocTaskContext found for task_id={task.id}")
             raise KeyError(f"No DocTaskContext found for task_id={task.id}")
         results[task.id] = answer_single_doc_task(task, ctx)
     return results

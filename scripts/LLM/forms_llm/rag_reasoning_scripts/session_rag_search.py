@@ -19,6 +19,7 @@ import os
 import sys
 import json
 from pathlib import Path
+from functools import lru_cache
 from typing import List, Dict, Any
 
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -33,11 +34,24 @@ import numpy as np
 # GCS-aware config + helpers
 from scripts.aws_extraction_scripts.config import LIVE_SESSIONS_DIR, USE_GCS_OUTPUT
 from scripts.aws_extraction_scripts.gcs_utils import read_json, logical_exists
+from scripts.aws_extraction_scripts.log_utils import get_logger
 
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 Chunk = Dict[str, Any]
 Block = Dict[str, Any]
+
+LOGGER = get_logger("session_rag_search")
+
+
+@lru_cache(maxsize=1)
+def _get_model() -> SentenceTransformer:
+    """
+    Lazily load and cache the embedding model once per process.
+    This avoids re-loading for every search call (important for Streamlit / API).
+    """
+    LOGGER.info("Loading SentenceTransformer model: %s", EMBEDDING_MODEL_NAME)
+    return SentenceTransformer(EMBEDDING_MODEL_NAME)
 
 
 def _get_session_root(session_id: str) -> Path:
@@ -76,15 +90,25 @@ def _load_rag_paths(session_id: str) -> Dict[str, Path]:
         )
 
     if not logical_exists(blocks_path):
-        # blocks are optional for some flows, but we still log if missing
-        # callers of load_session_global_blocks() handle empty list case.
-        pass
+        LOGGER.warning(
+            "blocks.json not found (GCS/local) for session %s: %s",
+            session_id,
+            blocks_path,
+        )
 
     # Embeddings: must exist locally
     if not emb_path.exists():
         raise FileNotFoundError(
             f"chunk_embeddings.npy not found locally for session {session_id}: {emb_path}"
         )
+
+    LOGGER.info(
+        "Resolved RAG paths for session %s: chunks=%s, blocks=%s, embeddings=%s",
+        session_id,
+        chunks_path,
+        blocks_path,
+        emb_path,
+    )
 
     return {
         "session_root": session_root,
@@ -113,10 +137,18 @@ def search_session_chunks(
           - chunk (full chunk dict)
           - score (similarity score)
     """
+    LOGGER.info(
+        "Running chunk search for session=%s, top_k=%d, query=%r",
+        session_id,
+        top_k,
+        query[:120],
+    )
+
     paths = _load_rag_paths(session_id)
 
     # JSON is loaded from GCS or local via helper
     chunks: List[Chunk] = read_json(paths["chunks"])
+    LOGGER.info("Loaded %d chunks for session %s", len(chunks), session_id)
 
     chunk_embeddings = np.load(paths["embeddings"])
     if chunk_embeddings.shape[0] != len(chunks):
@@ -125,7 +157,7 @@ def search_session_chunks(
             f"!= chunks count ({len(chunks)}) for session {session_id}"
         )
 
-    model = SentenceTransformer(EMBEDDING_MODEL_NAME)
+    model = _get_model()
     query_vec = model.encode(
         [query],
         show_progress_bar=False,
@@ -149,6 +181,12 @@ def search_session_chunks(
             }
         )
 
+    LOGGER.info(
+        "Search complete for session %s. Returned %d chunks.",
+        session_id,
+        len(results),
+    )
+
     return results
 
 
@@ -164,10 +202,15 @@ def load_session_global_blocks(session_id: str) -> List[Block]:
     blocks_path = paths["blocks"]
 
     if not logical_exists(blocks_path):
-        # It's okay if there are no blocks, just return empty list
+        LOGGER.warning(
+            "No blocks.json found for session %s (logical path: %s). Returning empty list.",
+            session_id,
+            blocks_path,
+        )
         return []
 
     blocks: List[Block] = read_json(blocks_path)
+    LOGGER.info("Loaded %d global blocks for session %s", len(blocks), session_id)
     return blocks
 
 

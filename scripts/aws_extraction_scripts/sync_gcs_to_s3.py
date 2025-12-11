@@ -40,14 +40,15 @@ from scripts.aws_extraction_scripts.config import (
     to_gcs_key,
 )
 from scripts.aws_extraction_scripts.log_utils import get_logger
+from scripts.aws_extraction_scripts.tracker import track_task
 
-logger = get_logger("sync_gcs_to_s3")
+LOGGER = get_logger(__name__)
 
 
 # ---------------------------------------------------------------------
 # Core sync helper
 # ---------------------------------------------------------------------
-def _sync_prefix(gcs_prefix: str, s3_prefix: str):
+def _sync_prefix(gcs_prefix: str, s3_prefix: str) -> int:
     """
     Copy all .pdf files from GCS `gcs_prefix` into S3 `s3_prefix`,
     preserving filenames relative to the prefix.
@@ -56,11 +57,14 @@ def _sync_prefix(gcs_prefix: str, s3_prefix: str):
       gcs_prefix = "data/docs/"
       s3_prefix  = "docs/"
       GCS object "data/docs/loan1.pdf" -> S3 key "docs/loan1.pdf"
+
+    Returns:
+      Number of files successfully copied.
     """
     if not gcs_prefix.endswith("/"):
         gcs_prefix = gcs_prefix + "/"
 
-    logger.info(
+    LOGGER.info(
         f"Starting GCS→S3 sync: "
         f"bucket={GCS_BUCKET}, gcs_prefix='{gcs_prefix}', s3_prefix='{s3_prefix}'"
     )
@@ -79,13 +83,13 @@ def _sync_prefix(gcs_prefix: str, s3_prefix: str):
             continue
 
         # Make name relative to the prefix
-        relative_name = name[len(gcs_prefix) :]
+        relative_name = name[len(gcs_prefix):]
         if not relative_name or relative_name.endswith("/"):
             continue
 
         s3_key = f"{s3_prefix}{relative_name}"
 
-        logger.info(f"Syncing gs://{GCS_BUCKET}/{name} -> s3://{BUCKET}/{s3_key}")
+        LOGGER.info(f"Syncing gs://{GCS_BUCKET}/{name} -> s3://{BUCKET}/{s3_key}")
 
         data = blob.download_as_bytes()
 
@@ -97,31 +101,75 @@ def _sync_prefix(gcs_prefix: str, s3_prefix: str):
         )
         count += 1
 
-    logger.info(
+    LOGGER.info(
         f"Finished GCS→S3 sync for prefix '{gcs_prefix}'. "
         f"Files copied: {count}"
     )
+    return count
 
 
 # ---------------------------------------------------------------------
 # Public helpers
 # ---------------------------------------------------------------------
-def sync_docs():
+def sync_docs() -> int:
     """Sync only batch corpus PDFs: GCS DOCS_DIR -> S3 docs/."""
-    gcs_docs_prefix = to_gcs_key(DOCS_DIR)
-    _sync_prefix(gcs_docs_prefix, "docs/")
+    task_name = "sync_docs"
+    track_task(task_name, "STARTED")
+
+    try:
+        gcs_docs_prefix = to_gcs_key(DOCS_DIR)
+        copied = _sync_prefix(gcs_docs_prefix, "docs/")
+        msg = f"sync_docs completed; files copied: {copied}"
+        LOGGER.info(msg)
+        track_task(task_name, "SUCCESS", details=msg)
+        return copied
+    except Exception as e:
+        err = f"sync_docs failed: {e}"
+        LOGGER.exception(err)
+        track_task(task_name, "FAILED", error=str(e))
+        return 0
 
 
-def sync_user_uploads():
+def sync_user_uploads() -> int:
     """Sync only single-PDF user uploads: GCS USER_UPLOADS_DIR -> S3 user_uploads/."""
-    gcs_upload_prefix = to_gcs_key(USER_UPLOADS_DIR)
-    _sync_prefix(gcs_upload_prefix, "user_uploads/")
+    task_name = "sync_user_uploads"
+    track_task(task_name, "STARTED")
+
+    try:
+        gcs_upload_prefix = to_gcs_key(USER_UPLOADS_DIR)
+        copied = _sync_prefix(gcs_upload_prefix, "user_uploads/")
+        msg = f"sync_user_uploads completed; files copied: {copied}"
+        LOGGER.info(msg)
+        track_task(task_name, "SUCCESS", details=msg)
+        return copied
+    except Exception as e:
+        err = f"sync_user_uploads failed: {e}"
+        LOGGER.exception(err)
+        track_task(task_name, "FAILED", error=str(e))
+        return 0
 
 
-def sync_docs_and_uploads():
+def sync_docs_and_uploads() -> int:
     """Sync both batch docs and user uploads."""
-    sync_docs()
-    sync_user_uploads()
+    task_name = "sync_docs_and_uploads"
+    track_task(task_name, "STARTED")
+
+    try:
+        copied_docs = sync_docs()
+        copied_uploads = sync_user_uploads()
+        total = copied_docs + copied_uploads
+        msg = (
+            f"sync_docs_and_uploads completed; "
+            f"docs={copied_docs}, uploads={copied_uploads}, total={total}"
+        )
+        LOGGER.info(msg)
+        track_task(task_name, "SUCCESS", details=msg)
+        return total
+    except Exception as e:
+        err = f"sync_docs_and_uploads failed: {e}"
+        LOGGER.exception(err)
+        track_task(task_name, "FAILED", error=str(e))
+        return 0
 
 
 # ---------------------------------------------------------------------

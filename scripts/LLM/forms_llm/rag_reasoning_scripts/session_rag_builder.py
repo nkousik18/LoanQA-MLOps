@@ -48,6 +48,10 @@ from scripts.aws_extraction_scripts.config import (
     to_gcs_key,
 )
 from scripts.aws_extraction_scripts.gcs_utils import write_json, upload_local_file
+from scripts.aws_extraction_scripts.log_utils import get_logger
+from scripts.aws_extraction_scripts.tracker import track_task
+
+LOGGER = get_logger(__name__)
 
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
@@ -85,58 +89,115 @@ def build_session_rag_from_segmented(segmented_path: str) -> Dict[str, Any]:
         it is also uploaded to GCS via upload_local_file.
     """
     session_root, session_id = _infer_session_root_and_id(segmented_path)
-    rag_dir = session_root / "rag"
-    rag_dir.mkdir(parents=True, exist_ok=True)  # local dir (for .npy & debug)
+    task_name = f"build_rag_{session_id}"
 
-    # 1–3: spans -> sorted -> chunks/blocks (from SEGMENTED text, GCS-aware)
-    spans = load_spans_from_segmented(segmented_path)
-    spans_sorted = sort_spans_reading_order(spans)
-    chunks = make_local_chunks(spans_sorted)
-    blocks = make_global_blocks(spans_sorted)
-
-    if not chunks:
-        raise ValueError(f"No chunks created for session {session_id}")
-
-    # 4: embeddings for local chunks
-    model = SentenceTransformer(EMBEDDING_MODEL_NAME)
-    chunk_texts = [c["text"] for c in chunks]
-    chunk_embeddings = model.encode(
-        chunk_texts,
-        batch_size=32,
-        show_progress_bar=False,
-        convert_to_numpy=True,
+    track_task(task_name, "STARTED")
+    LOGGER.info(
+        "Starting RAG build for session '%s' from segmented file: %s",
+        session_id,
+        segmented_path,
     )
 
-    # 5: save artifacts
-    chunks_path = rag_dir / "chunks.json"
-    blocks_path = rag_dir / "blocks.json"
-    emb_path = rag_dir / "chunk_embeddings.npy"
+    try:
+        rag_dir = session_root / "rag"
+        rag_dir.mkdir(parents=True, exist_ok=True)  # local dir (for .npy & debug)
+        LOGGER.info("RAG directory: %s", rag_dir)
 
-    # JSON artifacts -> GCS-aware write
-    write_json(chunks_path, chunks)
-    write_json(blocks_path, blocks)
+        # 1–3: spans -> sorted -> chunks/blocks (from SEGMENTED text, GCS-aware)
+        spans = load_spans_from_segmented(segmented_path)
+        LOGGER.info("Loaded %d spans for session %s", len(spans), session_id)
 
-    # Embeddings -> save locally, mirror to GCS if enabled
-    emb_path.parent.mkdir(parents=True, exist_ok=True)
-    np.save(emb_path, chunk_embeddings)
+        spans_sorted = sort_spans_reading_order(spans)
+        chunks = make_local_chunks(spans_sorted)
+        blocks = make_global_blocks(spans_sorted)
 
-    if USE_GCS_OUTPUT:
-        # logical path = emb_path (under PROJECT_ROOT), upload via helper
-        upload_local_file(emb_path, emb_path, content_type="application/octet-stream")
+        LOGGER.info(
+            "Built %d local chunks and %d global blocks for session %s",
+            len(chunks),
+            len(blocks),
+            session_id,
+        )
 
-    return {
-        "session_id": session_id,
-        "session_root": str(session_root),
-        "segmented": segmented_path,
-        "rag_dir": str(rag_dir),
-        "num_spans": len(spans),
-        "num_chunks": len(chunks),
-        "num_blocks": len(blocks),
-        "embedding_dim": int(chunk_embeddings.shape[1]),
-        "chunks_path": str(chunks_path),
-        "blocks_path": str(blocks_path),
-        "embeddings_path": str(emb_path),
-    }
+        if not chunks:
+            msg = f"No chunks created for session {session_id}"
+            LOGGER.error(msg)
+            track_task(task_name, "FAILED", error=msg)
+            raise ValueError(msg)
+
+        # 4: embeddings for local chunks
+        LOGGER.info("Loading embedding model: %s", EMBEDDING_MODEL_NAME)
+        model = SentenceTransformer(EMBEDDING_MODEL_NAME)
+
+        chunk_texts = [c["text"] for c in chunks]
+        LOGGER.info("Encoding %d chunks into embeddings...", len(chunk_texts))
+
+        chunk_embeddings = model.encode(
+            chunk_texts,
+            batch_size=32,
+            show_progress_bar=False,
+            convert_to_numpy=True,
+        )
+
+        LOGGER.info(
+            "Computed embeddings with shape %s for session %s",
+            chunk_embeddings.shape,
+            session_id,
+        )
+
+        # 5: save artifacts
+        chunks_path = rag_dir / "chunks.json"
+        blocks_path = rag_dir / "blocks.json"
+        emb_path = rag_dir / "chunk_embeddings.npy"
+
+        # JSON artifacts -> GCS-aware write
+        write_json(chunks_path, chunks)
+        write_json(blocks_path, blocks)
+        LOGGER.info("Saved chunks.json and blocks.json under %s", rag_dir)
+
+        # Embeddings -> save locally, mirror to GCS if enabled
+        emb_path.parent.mkdir(parents=True, exist_ok=True)
+        np.save(emb_path, chunk_embeddings)
+        LOGGER.info("Saved embeddings to %s", emb_path)
+
+        if USE_GCS_OUTPUT:
+            # logical path = emb_path (under PROJECT_ROOT), upload via helper
+            upload_local_file(emb_path, emb_path, content_type="application/octet-stream")
+            LOGGER.info(
+                "Uploaded embeddings file to GCS for logical path %s (bucket=%s)",
+                emb_path,
+                GCS_BUCKET,
+            )
+
+        result = {
+            "session_id": session_id,
+            "session_root": str(session_root),
+            "segmented": segmented_path,
+            "rag_dir": str(rag_dir),
+            "num_spans": len(spans),
+            "num_chunks": len(chunks),
+            "num_blocks": len(blocks),
+            "embedding_dim": int(chunk_embeddings.shape[1]),
+            "chunks_path": str(chunks_path),
+            "blocks_path": str(blocks_path),
+            "embeddings_path": str(emb_path),
+        }
+
+        msg = (
+            f"RAG build complete for session {session_id} "
+            f"(spans={len(spans)}, chunks={len(chunks)}, blocks={len(blocks)}, "
+            f"emb_dim={result['embedding_dim']})"
+        )
+        LOGGER.info(msg)
+        track_task(task_name, "SUCCESS", details=msg)
+
+        return result
+
+    except Exception as e:
+        err = f"Error building RAG for segmented file {segmented_path}: {e}"
+        LOGGER.exception(err)
+        track_task(task_name, "FAILED", error=str(e))
+        # re-raise so the caller (single_pdf_pipeline / tests) can fail loudly
+        raise
 
 
 if __name__ == "__main__":

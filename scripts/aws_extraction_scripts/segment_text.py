@@ -52,7 +52,7 @@ from scripts.aws_extraction_scripts.gcs_utils import (
 # ---------------------------------------------------------------------
 # Initialize logger
 # ---------------------------------------------------------------------
-logger = get_logger("segment_text")
+LOGGER = get_logger(__name__)
 
 
 # ---------------------------------------------------------------------
@@ -86,8 +86,8 @@ def segment_textract_json_to_dir(raw_path, segmented_dir):
         segmented = []
         span_id = 1
 
-        logger.info(f"Processing file: {raw_path}")
-        logger.info(f"Total blocks found: {len(blocks)}")
+        LOGGER.info(f"Processing file: {raw_path}")
+        LOGGER.info(f"Total blocks found: {len(blocks)}")
 
         for block in blocks:
             if block.get("BlockType") == "LINE":
@@ -111,13 +111,13 @@ def segment_textract_json_to_dir(raw_path, segmented_dir):
         write_json(out_path, segmented)
 
         msg = f"Segmented output saved: {out_path} (Lines: {len(segmented)})"
-        logger.info(msg)
+        LOGGER.info(msg)
         track_task(task_name, "SUCCESS", details=msg)
         return str(out_path)
 
     except Exception as e:
         err = f"Error segmenting {raw_path}: {e}"
-        logger.exception(err)
+        LOGGER.exception(err)
         track_task(task_name, "FAILED", error=str(e))
         return None
 
@@ -146,7 +146,7 @@ def _list_raw_files_gcs() -> List[Path]:
     if not prefix.endswith("/"):
         prefix += "/"
 
-    logger.info(
+    LOGGER.info(
         f"[GCS] Listing raw Textract JSONs in bucket '{GCS_BUCKET}' "
         f"under prefix '{prefix}'"
     )
@@ -159,12 +159,12 @@ def _list_raw_files_gcs() -> List[Path]:
         if not name.endswith("_raw.json"):
             continue
         # name looks like "<prefix>Something_raw.json"
-        rel = name[len(prefix) :]
+        rel = name[len(prefix):]
         if not rel or rel.endswith("/"):
             continue
         raw_paths.append(RAW_DIR / rel)
 
-    logger.info(f"[GCS] Found {len(raw_paths)} raw JSON files.")
+    LOGGER.info(f"[GCS] Found {len(raw_paths)} raw JSON files.")
     return raw_paths
 
 
@@ -173,10 +173,10 @@ def _list_raw_files_local() -> List[Path]:
     List all *_raw.json files from local RAW_DIR.
     """
     if not RAW_DIR.exists():
-        logger.warning(f"RAW_DIR not found: {RAW_DIR}")
+        LOGGER.warning(f"RAW_DIR not found: {RAW_DIR}")
         return []
     raw_files = list(RAW_DIR.glob("*_raw.json"))
-    logger.info(f"[LOCAL] Found {len(raw_files)} raw JSON files in {RAW_DIR}")
+    LOGGER.info(f"[LOCAL] Found {len(raw_files)} raw JSON files in {RAW_DIR}")
     return raw_files
 
 
@@ -203,19 +203,20 @@ def run_segmentation_all(**context):
         raw_files = _list_raw_files_local()
 
     if not raw_files:
-        msg = f"No raw JSON files found for segmentation."
-        logger.warning(msg)
+        msg = "No raw JSON files found for segmentation."
+        LOGGER.warning(msg)
+        # I’d treat this as SUCCESS with a note, but you currently label FAILED
         track_task(task_name, "FAILED", error=msg)
         return []
 
-    results = []
+    results: List[str] = []
     for raw_path in tqdm(raw_files, desc="Segmenting Textract JSONs"):
         out_file = segment_textract_json(raw_path)
         if out_file:
             results.append(out_file)
 
     msg = f"Completed segmentation for {len(results)} files."
-    logger.info(msg)
+    LOGGER.info(msg)
     track_task(task_name, "SUCCESS", details=msg)
     return results
 

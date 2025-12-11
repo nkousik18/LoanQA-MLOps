@@ -17,7 +17,9 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
 from scripts.LLM.forms_llm.planner.plan_schema import PlannerPlan, PlannedTask
+from scripts.aws_extraction_scripts.log_utils import get_logger
 
+LOGGER = get_logger(__name__)
 
 # =========================================================
 # Keyword sets (match the original planner_prompt rules)
@@ -352,11 +354,29 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
     """
     ql = (user_query or "").lower().strip()
 
+    wants_summary = _wants_summary(user_query)
+    wants_explain = _wants_explain(user_query)
+    wants_translate = _wants_translate(user_query)
+    def_intent = _has_definition_intent(user_query)
+    calc_intent = _has_calc_intent(user_query)
+    supported_emi = _is_supported_emi_calc(user_query)
+
+    LOGGER.info(
+        "[query_planner] _default_plan called | "
+        f"language={language}, def_intent={def_intent}, "
+        f"wants_summary={wants_summary}, wants_explain={wants_explain}, "
+        f"wants_translate={wants_translate}, calc_intent={calc_intent}, "
+        f"supported_emi={supported_emi}"
+    )
+
     tasks: List[PlannedTask] = []
 
     # ---- A) Definition vs explain-definition
-    if _has_definition_intent(user_query):
-        kind = "doc_explain" if _wants_explain(user_query) else "doc_qa"
+    if def_intent:
+        kind = "doc_explain" if wants_explain else "doc_qa"
+        LOGGER.info(
+            f"[query_planner] Definition intent detected → kind={kind}, scope=local"
+        )
         tasks.append(
             PlannedTask(
                 id="t1",
@@ -369,7 +389,7 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
                 depends_on=[],
             )
         )
-        return PlannerPlan(
+        plan = PlannerPlan(
             tasks=tasks,
             final_answer_instructions=(
                 "Explain clearly and relate to the agreement if stated."
@@ -377,9 +397,15 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
                 else "Answer the definition directly."
             ),
         )
+        LOGGER.info(
+            "[query_planner] _default_plan produced 1 definition task: "
+            f"{[t.kind for t in tasks]}"
+        )
+        return plan
 
     # ---- B) Summary intent
-    if _wants_summary(user_query):
+    if wants_summary:
+        LOGGER.info("[query_planner] Summary intent detected → adding doc_summary")
         tasks.append(
             PlannedTask(
                 id="t_summary",
@@ -394,7 +420,7 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
         )
 
     # ---- C) Explain intent
-    if _wants_explain(user_query):
+    if wants_explain:
         scope = (
             "global"
             if any(
@@ -408,6 +434,9 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
                 ]
             )
             else "local"
+        )
+        LOGGER.info(
+            f"[query_planner] Explain intent detected → adding doc_explain, scope={scope}"
         )
         tasks.append(
             PlannedTask(
@@ -426,7 +455,7 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
         )
 
     # ---- D) Translate intent
-    if _wants_translate(user_query):
+    if wants_translate:
         scope = (
             "global"
             if any(
@@ -434,6 +463,9 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
                 for x in ["whole", "entire", "full document", "agreement", "document"]
             )
             else "local"
+        )
+        LOGGER.info(
+            f"[query_planner] Translate intent detected → adding doc_translate, scope={scope}"
         )
         tasks.append(
             PlannedTask(
@@ -449,7 +481,10 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
         )
 
     # ---- E) Calculations
-    if _is_supported_emi_calc(user_query):
+    if supported_emi:
+        LOGGER.info(
+            "[query_planner] Supported EMI calc detected → adding finance_emi task"
+        )
         tasks.append(
             PlannedTask(
                 id="f1",
@@ -463,8 +498,11 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
                 depends_on=[],
             )
         )
-    elif _has_calc_intent(user_query):
+    elif calc_intent:
         # unsupported calc fallback -> ONE doc_qa
+        LOGGER.info(
+            "[query_planner] Calc intent but not supported EMI → adding doc_qa fallback"
+        )
         tasks.append(
             PlannedTask(
                 id="t_calc_fallback",
@@ -483,6 +521,9 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
 
     # ---- F) If nothing matched -> default QA
     if not tasks:
+        LOGGER.info(
+            "[query_planner] No explicit intent matched → defaulting to single doc_qa"
+        )
         tasks = [
             PlannedTask(
                 id="t1",
@@ -497,12 +538,17 @@ def _default_plan(user_query: str, language: str = "en") -> PlannerPlan:
             )
         ]
 
-    return PlannerPlan(
+    plan = PlannerPlan(
         tasks=tasks,
         final_answer_instructions=(
             "Follow the tasks in order. Keep the answer focused on the user's query."
         ),
     )
+    LOGGER.info(
+        "[query_planner] _default_plan produced tasks: "
+        f"{[t.kind for t in tasks]}"
+    )
+    return plan
 
 
 # =========================================================
@@ -549,6 +595,14 @@ def _sanitize_plan(
     calc_intent = _has_calc_intent(user_query)
     supported_emi_calc = _is_supported_emi_calc(user_query)
 
+    LOGGER.info(
+        "[query_planner] _sanitize_plan start | "
+        f"tasks_in={len(plan.tasks)}, wants_summary={wants_summary}, "
+        f"wants_explain={wants_explain}, wants_translate={wants_translate}, "
+        f"def_intent={def_intent}, calc_intent={calc_intent}, "
+        f"supported_emi_calc={supported_emi_calc}"
+    )
+
     cleaned: List[PlannedTask] = []
 
     # ---- 1) Clean + drop drifted tasks
@@ -556,6 +610,10 @@ def _sanitize_plan(
         kind_raw = (t.kind or "").strip()
         kind = _KIND_MAP.get(kind_raw, kind_raw)
         if kind not in _ALLOWED_KINDS:
+            LOGGER.info(
+                f"[query_planner] Dropping task id={t.id} kind={kind_raw} "
+                f"(mapped={kind}) – not allowed"
+            )
             continue
 
         # Drop kinds not asked
@@ -664,6 +722,10 @@ def _sanitize_plan(
             plan.final_answer_instructions = (
                 "Explain clearly and relate to the agreement if stated."
             )
+            LOGGER.info(
+                "[query_planner] _sanitize_plan finished (definition-explain path); "
+                f"tasks={len(cleaned)}, kinds={[t.kind for t in cleaned]}"
+            )
             return plan
         else:
             cleaned = [t for t in cleaned if t.kind == "doc_qa"]
@@ -682,12 +744,19 @@ def _sanitize_plan(
                 ]
             plan.tasks = cleaned
             plan.final_answer_instructions = "Answer the definition directly."
+            LOGGER.info(
+                "[query_planner] _sanitize_plan finished (definition-QA path); "
+                f"tasks={len(cleaned)}, kinds={[t.kind for t in cleaned]}"
+            )
             return plan
 
     # ---- 3) Supported EMI calc -> ensure finance_emi exists
     if supported_emi_calc:
         if not any(t.kind == "finance_emi" for t in cleaned):
             fin_id = _next_finance_id({t.id for t in cleaned})
+            LOGGER.info(
+                f"[query_planner] Sanitizer adding missing finance_emi task id={fin_id}"
+            )
             cleaned.append(
                 PlannedTask(
                     id=fin_id,
@@ -708,6 +777,9 @@ def _sanitize_plan(
 
         # ensure ONE doc_qa fallback exists
         if not any(t.kind == "doc_qa" for t in cleaned):
+            LOGGER.info(
+                "[query_planner] Sanitizer adding doc_qa calc fallback for unsupported calc"
+            )
             cleaned.append(
                 PlannedTask(
                     id="t_calc_fallback",
@@ -726,6 +798,9 @@ def _sanitize_plan(
 
     # ---- 5) If empty -> hard fallback
     if not cleaned:
+        LOGGER.info(
+            "[query_planner] Sanitizer produced empty plan → falling back to _default_plan"
+        )
         return _default_plan(user_query, language=default_language)
 
     # ---- 6) Stable ordering
@@ -743,6 +818,11 @@ def _sanitize_plan(
         plan.final_answer_instructions = (
             "Follow the tasks in order. Keep the answer focused on the user's query."
         )
+
+    LOGGER.info(
+        "[query_planner] _sanitize_plan finished | "
+        f"tasks_out={len(cleaned)}, kinds={[t.kind for t in cleaned]}"
+    )
     return plan
 
 
@@ -759,8 +839,16 @@ def plan_user_query_with_llm(
       - Uses _default_plan (rules) + _sanitize_plan
       - Signature unchanged so loan_assistant_demo & Streamlit keep working
     """
+    LOGGER.info(
+        "[query_planner] plan_user_query_with_llm called | "
+        f"default_language={default_language}, query_len={len(user_query or '')}"
+    )
     base_plan = _default_plan(user_query, language=default_language)
     cleaned_plan = _sanitize_plan(base_plan, user_query, default_language)
+    LOGGER.info(
+        "[query_planner] plan_user_query_with_llm complete | "
+        f"tasks={len(cleaned_plan.tasks)}, kinds={[t.kind for t in cleaned_plan.tasks]}"
+    )
     return cleaned_plan
 
 

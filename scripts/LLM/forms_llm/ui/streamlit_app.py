@@ -29,6 +29,9 @@ from scripts.aws_extraction_scripts.config import (
     to_gcs_key,
 )
 
+# Session naming
+from scripts.aws_extraction_scripts.session_naming import clean_filename
+
 # ---------------------------------------------------------
 # ✅ Load loan assistant runner
 # ---------------------------------------------------------
@@ -76,20 +79,14 @@ except ImportError:
 
 
 def _get_gcs_bucket_name() -> str:
-    """GCS bucket where PDFs live. Uses central config."""
+    """GCS bucket name from config."""
     if not GCS_BUCKET:
         raise RuntimeError("GCS bucket not configured in config.py")
     return GCS_BUCKET
 
 
 def _upload_pdf_to_gcs(local_pdf_path: str, object_name: str) -> None:
-    """
-    Upload local PDF to GCS.
-    
-    Args:
-        local_pdf_path: Local temp file path
-        object_name: GCS object key (e.g., "data/user_uploads/file.pdf")
-    """
+    """Upload local PDF to GCS."""
     if storage is None:
         raise RuntimeError(
             "google-cloud-storage not installed. Run: pip install google-cloud-storage"
@@ -104,43 +101,57 @@ def _upload_pdf_to_gcs(local_pdf_path: str, object_name: str) -> None:
 
 
 # =========================================================
-# Single-PDF runner
+# Single-PDF runner with user folder support
 # =========================================================
 from scripts.aws_extraction_scripts.sync_gcs_to_s3 import sync_user_uploads
 from scripts.aws_extraction_scripts.single_pdf_pipeline import process_single_pdf_session
 
 
-def RUN_SINGLE_PDF(local_pdf_path: str) -> str:
+def RUN_SINGLE_PDF(local_pdf_path: str, user_id: str = "default_user") -> str:
     """
-    End-to-end pipeline:
+    End-to-end pipeline with user-specific folder organization.
     
-    1. Upload PDF to GCS at data/user_uploads/tmpXXX.pdf
-    2. Sync from GCS data/user_uploads/ to S3 user_uploads/
+    Flow:
+    1. Upload PDF to GCS: data/user_uploads/<user_id>/file.pdf
+    2. Sync to S3: user_uploads/<user_id>/file.pdf
     3. Run Textract + segmentation + RAG
-    4. Return session_id
+    4. Create session with user tracking
+    
+    Args:
+        local_pdf_path: Local temp file path
+        user_id: User identifier (default: "default_user")
+    
+    Returns:
+        session_id (e.g., "session_john_001_abc123")
     """
     filename = Path(local_pdf_path).name
     
-    # FIXED: Upload to data/user_uploads/ instead of user_uploads/
+    # Get base upload prefix (data/user_uploads/)
     gcs_upload_prefix = to_gcs_key(USER_UPLOADS_DIR)
     if not gcs_upload_prefix.endswith('/'):
         gcs_upload_prefix += '/'
     
-    object_name = f"{gcs_upload_prefix}{filename}"  # e.g., "data/user_uploads/tmpXXX.pdf"
+    # Add user folder: data/user_uploads/<user_id>/file.pdf
+    object_name = f"{gcs_upload_prefix}{user_id}/{filename}"
+    
+    print(f"📤 Uploading to GCS: {object_name}")
 
-    # 1) Upload to GCS
+    # 1) Upload to GCS with user folder
     _upload_pdf_to_gcs(local_pdf_path, object_name)
 
     # 2) Sync from GCS data/user_uploads/ to S3 user_uploads/
+    # This preserves the user folder structure
     sync_user_uploads()
 
-    # 3) The S3 key after sync will be: user_uploads/tmpXXX.pdf
-    s3_key = f"user_uploads/{filename}"
+    # 3) The S3 key after sync: user_uploads/<user_id>/file.pdf
+    s3_key = f"user_uploads/{user_id}/{filename}"
     
-    # 4) Run pipeline
-    info = process_single_pdf_session(s3_key)
+    print(f"🔄 S3 key for Textract: {s3_key}")
+    
+    # 4) Run pipeline with user_id
+    result = process_single_pdf_session(s3_key, user_id=user_id)
 
-    return info["session_id"]
+    return result["session_id"]
 
 
 # ---------------------------------------------------------
@@ -154,6 +165,14 @@ st.caption("Upload a PDF → run pipeline → ask questions in one chat box.")
 # Sidebar
 with st.sidebar:
     st.header("Session")
+    
+    # User ID input
+    user_id_input = st.text_input(
+        "User ID (optional)", 
+        value="default_user",
+        help="Enter your user ID or use 'default_user'"
+    )
+    
     if st.button("Reset session / upload new PDF"):
         st.session_state.pop("session_id", None)
         st.session_state.pop("pdf_name", None)
@@ -186,6 +205,7 @@ with col1:
         st.info("Upload a PDF to start.")
     else:
         st.write(f"**File:** {uploaded.name}")
+        st.write(f"**User:** {user_id_input}")
 
         if st.button("Run pipeline on this PDF", type="primary"):
             data_dir = PROJECT_ROOT / "data"
@@ -201,9 +221,11 @@ with col1:
                 "Uploading to GCS → syncing to S3 → Textract → segmentation → building RAG..."
             ):
                 try:
-                    session_id = RUN_SINGLE_PDF(tmp_path)
+                    # Pass user_id to RUN_SINGLE_PDF
+                    session_id = RUN_SINGLE_PDF(tmp_path, user_id=user_id_input)
                     st.session_state.session_id = session_id
                     st.session_state.pdf_name = uploaded.name
+                    st.session_state.user_id = user_id_input
                     st.session_state.processed = True
                     st.success(f"✅ Pipeline complete! Session: **{session_id}**")
                 except Exception as e:
@@ -221,6 +243,7 @@ with col1:
         st.markdown("---")
         st.success(f"Active session: **{st.session_state.session_id}**")
         st.caption(f"PDF: {st.session_state.get('pdf_name', 'unknown')}")
+        st.caption(f"User: {st.session_state.get('user_id', 'unknown')}")
 
 # Query box + chat
 with col2:

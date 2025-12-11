@@ -24,8 +24,14 @@ from scripts.LLM.forms_llm.rag_reasoning_scripts.session_rag_search import (
     load_session_global_blocks,
 )
 
+# Logging + tracking (reuse AWS pipeline infra)
+from scripts.aws_extraction_scripts.log_utils import get_logger
+from scripts.aws_extraction_scripts.tracker import track_task
+
 Chunk = Dict[str, Any]
 Block = Dict[str, Any]
+
+LOGGER = get_logger(__name__)
 
 
 # ---------------------------------------------------------
@@ -39,6 +45,10 @@ def _get_local_chunks(
     """
     Local semantic search over chunks using numpy backend.
     """
+    LOGGER.info(
+        f"[doc_task_executor] Local RAG search "
+        f"(session_id={session_id}, top_k={top_k}, query_len={len(query or '')})"
+    )
     results = search_session_chunks(session_id, query, top_k=top_k)
     return [r["chunk"] for r in results]
 
@@ -47,6 +57,9 @@ def _get_global_blocks(session_id: str) -> List[Block]:
     """
     Load pre-built global blocks (whole-document view).
     """
+    LOGGER.info(
+        f"[doc_task_executor] Loading global blocks for session_id={session_id}"
+    )
     return load_session_global_blocks(session_id)
 
 
@@ -57,6 +70,7 @@ def _context_from_chunks(
     Turn chunks into a single context text + metadata + page list.
     """
     if not chunks:
+        LOGGER.warning("[doc_task_executor] No chunks retrieved for LOCAL context.")
         return (
             "No relevant clauses were retrieved from the document.",
             [],
@@ -84,6 +98,10 @@ def _context_from_chunks(
 
     pages_unique = sorted(set(pages))
     context_text = "\n\n".join(parts)
+    LOGGER.info(
+        f"[doc_task_executor] Built LOCAL context from {len(chunks)} chunks "
+        f"(pages={pages_unique})"
+    )
     return context_text, meta, pages_unique
 
 
@@ -94,6 +112,7 @@ def _context_from_blocks(
     Turn blocks into a single context text + metadata + page list.
     """
     if not blocks:
+        LOGGER.warning("[doc_task_executor] No blocks available for GLOBAL context.")
         return (
             "No document content was available for summarization or explanation.",
             [],
@@ -121,6 +140,10 @@ def _context_from_blocks(
 
     pages_unique = sorted(set(pages))
     context_text = "\n\n".join(parts)
+    LOGGER.info(
+        f"[doc_task_executor] Built GLOBAL context from {len(blocks)} blocks "
+        f"(pages={pages_unique})"
+    )
     return context_text, meta, pages_unique
 
 
@@ -138,6 +161,11 @@ def run_single_doc_task_on_document(
         - GLOBAL: use global blocks
     Store retrieved text + metadata (NO LLM).
     """
+    LOGGER.info(
+        f"[doc_task_executor] Running single doc task: "
+        f"task_id={task.id}, kind={task.kind.value}, scope={task.scope.value}, "
+        f"language={task.language}, session_id={session_id}"
+    )
 
     # Translation tasks DO NOT use query content, but still follow the same retrieval rules
     if task.scope == DocScope.LOCAL:
@@ -176,27 +204,58 @@ def run_doc_tasks_on_document(
     Returns:
         dict[task_id] -> DocTaskContext
     """
+    pipeline_task_name = f"doc_tasks_session_{session_id}"
+    track_task(pipeline_task_name, "STARTED")
+    LOGGER.info(
+        f"[doc_task_executor] Running {len(tasks)} doc_* tasks on "
+        f"session_id={session_id}, top_k_local={top_k_local}"
+    )
+
     results: Dict[str, DocTaskContext] = {}
 
-    for task in tasks:
-        if task.kind not in {
-            DocTaskKind.DOC_QA,
-            DocTaskKind.DOC_EXPLAIN,
-            DocTaskKind.DOC_SUMMARY,
-            DocTaskKind.DOC_TRANSLATE,     # <-- ⭐ translation supported
-        }:
-            raise ValueError(
-                f"run_doc_tasks_on_document only supports doc_* tasks, got {task.kind}"
+    try:
+        for task in tasks:
+            if task.kind not in {
+                DocTaskKind.DOC_QA,
+                DocTaskKind.DOC_EXPLAIN,
+                DocTaskKind.DOC_SUMMARY,
+                DocTaskKind.DOC_TRANSLATE,  # <-- ⭐ translation supported
+            }:
+                msg = (
+                    f"run_doc_tasks_on_document only supports doc_* tasks, "
+                    f"got {task.kind} for task_id={task.id}"
+                )
+                LOGGER.error(f"[doc_task_executor] {msg}")
+                raise ValueError(msg)
+
+            LOGGER.info(
+                f"[doc_task_executor] → Executing task_id={task.id}, "
+                f"kind={task.kind.value}, scope={task.scope.value}, "
+                f"language={task.language}"
             )
 
-        ctx = run_single_doc_task_on_document(
-            task=task,
-            session_id=session_id,
-            top_k_local=top_k_local,
-        )
-        results[task.id] = ctx
+            ctx = run_single_doc_task_on_document(
+                task=task,
+                session_id=session_id,
+                top_k_local=top_k_local,
+            )
+            results[task.id] = ctx
 
-    return results
+        msg = (
+            f"Completed doc_* retrieval for {len(results)} tasks "
+            f"on session_id={session_id}"
+        )
+        LOGGER.info(f"[doc_task_executor] {msg}")
+        track_task(pipeline_task_name, "SUCCESS", details=msg)
+        return results
+
+    except Exception as e:
+        LOGGER.exception(
+            f"[doc_task_executor] Failed running doc_* tasks on "
+            f"session_id={session_id}: {e}"
+        )
+        track_task(pipeline_task_name, "FAILED", error=str(e))
+        raise
 
 
 # ---------------------------------------------------------

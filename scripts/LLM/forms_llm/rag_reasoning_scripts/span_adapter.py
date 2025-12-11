@@ -40,6 +40,9 @@ from scripts.aws_extraction_scripts.config import (
     to_gcs_key,
 )
 from scripts.aws_extraction_scripts.gcs_utils import read_json, logical_exists
+from scripts.aws_extraction_scripts.log_utils import get_logger
+
+LOGGER = get_logger(__name__)
 
 Span = Dict[str, Any]
 Chunk = Dict[str, Any]
@@ -72,16 +75,21 @@ def load_spans_from_segmented(segmented_path: str) -> List[Span]:
           - conf
     """
     path = Path(segmented_path)
+    LOGGER.info("Loading spans from segmented JSON: %s", path)
 
     # Check logical existence (GCS or local)
     if not logical_exists(path):
-        raise FileNotFoundError(f"Segmented file not found (GCS/local): {segmented_path}")
+        msg = f"Segmented file not found (GCS/local): {segmented_path}"
+        LOGGER.error(msg)
+        raise FileNotFoundError(msg)
 
     # Read JSON from GCS or local via helper
     data = read_json(path)
 
     if not isinstance(data, list):
-        raise ValueError(f"Expected list of spans in {segmented_path}, got {type(data)}")
+        msg = f"Expected list of spans in {segmented_path}, got {type(data)}"
+        LOGGER.error(msg)
+        raise ValueError(msg)
 
     spans: List[Span] = []
     for idx, span in enumerate(data):
@@ -110,8 +118,11 @@ def load_spans_from_segmented(segmented_path: str) -> List[Span]:
         )
 
     if not spans:
-        raise ValueError(f"No spans loaded from {segmented_path}")
+        msg = f"No spans loaded from {segmented_path}"
+        LOGGER.error(msg)
+        raise ValueError(msg)
 
+    LOGGER.info("Loaded %d spans from %s", len(spans), path)
     return spans
 
 
@@ -258,6 +269,7 @@ def make_local_chunks(
 
     # Final flush
     flush_chunk()
+    LOGGER.info("Built %d local chunks", len(chunks))
     return chunks
 
 
@@ -363,6 +375,7 @@ def make_global_blocks(
             flush_block()
 
     flush_block()
+    LOGGER.info("Built %d global blocks", len(blocks))
     return blocks
 
 
@@ -374,6 +387,7 @@ if __name__ == "__main__":
     sessions_dir = LIVE_SESSIONS_DIR
 
     if not sessions_dir.exists():
+        LOGGER.error("Sessions folder not found: %s", sessions_dir)
         print(f"Sessions folder not found: {sessions_dir}")
         sys.exit(1)
 
@@ -383,6 +397,7 @@ if __name__ == "__main__":
         if d.is_dir() and d.name.startswith("session_")
     ]
     if not session_dirs:
+        LOGGER.error("No session folders found in %s", sessions_dir)
         print(f"No session folders found in {sessions_dir}")
         sys.exit(1)
 
@@ -398,7 +413,11 @@ if __name__ == "__main__":
         if not prefix.endswith("/"):
             prefix += "/"
 
-        print(f"[GCS] Looking for segmented JSONs under gs://{GCS_BUCKET}/{prefix}")
+        LOGGER.info(
+            "[GCS] Looking for segmented JSONs under gs://%s/%s",
+            GCS_BUCKET,
+            prefix,
+        )
         blobs = client.list_blobs(GCS_BUCKET, prefix=prefix)
         for blob in blobs:
             name = blob.name
@@ -412,23 +431,28 @@ if __name__ == "__main__":
         json_paths = list(segmented_dir.glob("*.json"))
 
     if not json_paths:
-        print(
-            "No segmented JSON files found for latest session.\n"
+        msg = (
+            "No segmented JSON files found for latest session. "
             f"Checked segmented_dir={segmented_dir}"
         )
+        LOGGER.error(msg)
+        print(msg)
         sys.exit(1)
 
     example_segmented = json_paths[0]
+    LOGGER.info("Using segmented file (logical path): %s", example_segmented)
     print(f"Using segmented file (logical path):\n  {example_segmented}\n")
 
     # 4) Run pipeline: spans -> sorted spans -> chunks -> blocks
     spans = load_spans_from_segmented(str(example_segmented))
+    LOGGER.info("Loaded %d spans in manual test", len(spans))
     print(f"Loaded spans: {len(spans)}")
 
     sorted_spans = sort_spans_reading_order(spans)
     chunks = make_local_chunks(sorted_spans)
     blocks = make_global_blocks(sorted_spans)
 
+    LOGGER.info("Manual test produced %d chunks and %d blocks", len(chunks), len(blocks))
     print(f"Local chunks: {len(chunks)}")
     print(f"Global blocks: {len(blocks)}")
 
@@ -443,6 +467,9 @@ if __name__ == "__main__":
     blocks_path = debug_dir / "global_blocks.json"
     with open(blocks_path, "w", encoding="utf-8") as f:
         json.dump(blocks, f, ensure_ascii=False, indent=2)
+
+    LOGGER.info("Saved %d chunks to %s", len(chunks), chunks_path)
+    LOGGER.info("Saved %d blocks to %s", len(blocks), blocks_path)
 
     print(f"\nSaved {len(chunks)} chunks to: {chunks_path}")
     print(f"Saved {len(blocks)} blocks to: {blocks_path}")

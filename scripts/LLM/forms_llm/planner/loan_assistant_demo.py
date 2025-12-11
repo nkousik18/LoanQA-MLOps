@@ -24,6 +24,7 @@ os.chdir(PROJECT_ROOT)
 # ---------------------------------------------------------------------
 from scripts.aws_extraction_scripts.config import LIVE_SESSIONS_DIR
 from scripts.aws_extraction_scripts.gcs_utils import write_json
+from scripts.aws_extraction_scripts.log_utils import get_logger
 
 # 1) Planner
 from scripts.LLM.forms_llm.planner.query_planner_llm import plan_user_query_with_llm
@@ -33,6 +34,8 @@ from scripts.LLM.forms_llm.planner.plan_executor import execute_plan_on_session
 
 # 3) Final answer LLM combiner
 from scripts.LLM.forms_llm.planner.final_answer_llm import build_final_answer
+
+LOGGER = get_logger(__name__)
 
 
 # ---------------------------------------------------------------------
@@ -77,7 +80,7 @@ def _save_debug_json(session_id: str, name: str, data: Dict[str, Any]) -> None:
     # GCS-aware write
     write_json(out_path, data)
 
-    print(f"[debug] saved {name} -> {out_path}")
+    LOGGER.info(f"[loan_assistant_demo] saved debug JSON: {name} -> {out_path}")
 
 
 # ---------------------------------------------------------------------
@@ -96,29 +99,30 @@ def run_loan_assistant_demo(user_query: str, session_id: str | None = None) -> s
     if session_id is None:
         session_id = _get_latest_session_id()
 
-    print(f"\nUsing session: {session_id}")
-    print("USER QUERY:", user_query)
+    LOGGER.info(f"[loan_assistant_demo] Using session: {session_id}")
+    LOGGER.info(f"[loan_assistant_demo] USER QUERY: {user_query}")
 
     # -----------------------------
-    # 1) Planner LLM
+    # 1) Planner (rule-based)
     # -----------------------------
     plan = plan_user_query_with_llm(user_query, default_language="en")
     plan_dict = plan.to_dict()
 
-    print("\nGenerated plan JSON:\n")
-    print(json.dumps(plan_dict, ensure_ascii=False, indent=2))
-
+    LOGGER.info(
+        "[loan_assistant_demo] Generated plan with tasks: "
+        f"{[t['kind'] for t in plan_dict.get('tasks', [])]}"
+    )
     _save_debug_json(session_id, "plan", plan_dict)
 
     # -----------------------------
     # 2) Execute plan on session
     # -----------------------------
+    LOGGER.info("[loan_assistant_demo] Executing plan on session...")
     exec_results = execute_plan_on_session(
         plan=plan,
         session_id=session_id,
         top_k_local=8,
     )
-
     _save_debug_json(session_id, "exec_results", exec_results)
 
     # -----------------------------
@@ -132,6 +136,8 @@ def run_loan_assistant_demo(user_query: str, session_id: str | None = None) -> s
             out_lang = t.language
             break
 
+    LOGGER.info(f"[loan_assistant_demo] Building final answer (language={out_lang})")
+
     final_text = build_final_answer(
         user_query=user_query,
         plan=plan,
@@ -140,11 +146,14 @@ def run_loan_assistant_demo(user_query: str, session_id: str | None = None) -> s
         output_language=out_lang,
     )
 
+    LOGGER.info("[loan_assistant_demo] Final answer generated.")
+    _save_debug_json(session_id, "final_answer", {"text": final_text})
+
+    # LOGGER already writes to stdout, so no extra prints needed for logs.
+    # If you still want to see the answer when running as a script:
     print("\n=========== FINAL ANSWER ===========\n")
     print(final_text)
     print("\n====================================\n")
-
-    _save_debug_json(session_id, "final_answer", {"text": final_text})
 
     return final_text
 

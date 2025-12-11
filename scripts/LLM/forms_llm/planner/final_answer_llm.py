@@ -19,6 +19,11 @@ from scripts.LLM.forms_llm.llm_clients.groq_client import call_groq_chat
 # ✅ prompts live here: scripts/LLM/prompts_form/
 PROMPTS_DIR = os.path.join(PROJECT_ROOT, "scripts", "LLM", "prompts_form")
 
+# Reuse central logger infra
+from scripts.aws_extraction_scripts.log_utils import get_logger
+
+LOGGER = get_logger(__name__)
+
 
 @lru_cache(maxsize=4)
 def _load_prompt_file(name: str) -> str:
@@ -28,7 +33,9 @@ def _load_prompt_file(name: str) -> str:
     """
     path = os.path.join(PROMPTS_DIR, name)
     if not os.path.exists(path):
+        LOGGER.error(f"[final_answer_llm] Prompt file not found: {path}")
         raise FileNotFoundError(f"Prompt file not found: {path}")
+    LOGGER.debug(f"[final_answer_llm] Loading prompt file: {path}")
     with open(path, "r", encoding="utf-8") as f:
         return f.read().strip()
 
@@ -77,6 +84,12 @@ def build_final_answer(
       - doc_answers texts
       - numeric tool results
     """
+    LOGGER.info(
+        "[final_answer_llm] Building final answer "
+        f"(language={output_language}, "
+        f"doc_tasks={len(doc_answers or {})}, "
+        f"finance_tasks={len(finance_results or {})})"
+    )
 
     # 🔹 Load system prompt from external file + language hint
     base_prompt = _load_prompt_file("final_answer_prompt.txt")
@@ -91,7 +104,9 @@ def build_final_answer(
             f"Doc task {task_id} ({ans.get('kind')} | language={ans.get('language')}):\n"
             f"{(ans.get('answer') or '').strip()}\n"
         )
-    doc_results_text = "\n\n".join(doc_results_text_parts) or "No document tasks were executed."
+    doc_results_text = (
+        "\n\n".join(doc_results_text_parts) or "No document tasks were executed."
+    )
 
     # -----------------------------
     # Robust finance formatting (NO bracket labels)
@@ -108,11 +123,13 @@ def build_final_answer(
                 f"Note: {res.get('note', 'Finance tool could not run yet.')}\n"
                 + (
                     f"Missing fields: {', '.join(res.get('missing_fields', []))}\n"
-                    if res.get("missing_fields") else ""
+                    if res.get("missing_fields")
+                    else ""
                 )
                 + (
                     f"Parsed payload: {json.dumps(res.get('parsed_payload', {}), ensure_ascii=False)}\n"
-                    if res.get("parsed_payload") else ""
+                    if res.get("parsed_payload")
+                    else ""
                 )
             )
             continue
@@ -141,7 +158,9 @@ def build_final_answer(
             f"Total interest: {_fmt(total_interest)} {currency}\n"
         )
 
-    fin_results_text = "\n\n".join(fin_results_text_parts) or "No finance tools were executed."
+    fin_results_text = (
+        "\n\n".join(fin_results_text_parts) or "No finance tools were executed."
+    )
 
     # Plan JSON pretty-print (helps the LLM see structure)
     plan_json = json.dumps(plan.to_dict(), ensure_ascii=False, indent=2)
@@ -161,7 +180,19 @@ def build_final_answer(
         "into a clean response."
     )
 
-    return call_groq_chat(system_prompt, user_prompt)
+    LOGGER.debug(
+        "[final_answer_llm] Calling Groq LLM for final answer "
+        f"(user_query_len={len(user_query)}, "
+        f"doc_text_len={len(doc_results_text)}, "
+        f"fin_text_len={len(fin_results_text)})"
+    )
+    final_text = call_groq_chat(system_prompt, user_prompt)
+
+    LOGGER.info(
+        "[final_answer_llm] Final answer generated "
+        f"(length={len(final_text)})"
+    )
+    return final_text
 
 
 # -----------------------------

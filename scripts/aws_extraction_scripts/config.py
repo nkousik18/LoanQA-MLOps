@@ -27,7 +27,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]  # .../doc-understand
 # ---------------------------------------------------------------------
 # If GOOGLE_APPLICATION_CREDENTIALS is already set (e.g. in Docker),
 # we respect that. Otherwise, we look for a JSON key in gcp_keys/.
-GCS_KEY_PATH = PROJECT_ROOT / "gcp_keys" / "mlops-loandoc-qa-4db11973be18.json"
+GCS_KEY_PATH = PROJECT_ROOT / "gcp_keys" / "doc-understand-7f714b3c6924.json"
 if "GOOGLE_APPLICATION_CREDENTIALS" not in os.environ and GCS_KEY_PATH.exists():
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = str(GCS_KEY_PATH)
 
@@ -41,7 +41,7 @@ REGION = os.getenv("AWS_REGION", "us-east-1")
 # GCS SETTINGS
 # ---------------------------------------------------------------------
 # Your main GCS bucket for everything (inputs + outputs)
-GCS_BUCKET = os.getenv("GCS_BUCKET", "doc-understand-gcs-bucket-ash")
+GCS_BUCKET = os.getenv("GCS_BUCKET", "doc-understand-gcs-bucket")
 
 # If True → all data outputs should be considered stored in GCS.
 # Scripts should:

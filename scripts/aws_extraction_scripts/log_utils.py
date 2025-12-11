@@ -45,6 +45,22 @@ def get_logger(stage: str) -> logging.Logger:
     This function is safe to call many times for the same stage;
     it clears old handlers to avoid duplicate messages.
     """
+
+    # 🔹 Normalize stage name so we don't end up with "__main__.log"
+    original_stage = stage
+
+    if stage == "__main__":
+        # If running as a script, derive name from the script filename
+        script_path = Path(sys.argv[0]) if sys.argv and sys.argv[0] else None
+        if script_path and script_path.stem:
+            stage = script_path.stem
+        else:
+            stage = "main"
+    else:
+        # For imported modules like "scripts.aws_extraction_scripts.run_textract"
+        # we only keep the last component ("run_textract")
+        stage = stage.split(".")[-1]
+
     LOG_DIR.mkdir(parents=True, exist_ok=True)
     log_path = LOG_DIR / f"{stage}.log"
 

@@ -7,7 +7,7 @@ from typing import Any, Optional
 from google.cloud import storage
 
 # ---------------------------------------------------------------------
-# Ensure project root on sys.path, then import config
+# Ensure project root on sys.path, then import config + logger
 # ---------------------------------------------------------------------
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, "../../"))  # .../doc-understand
@@ -21,7 +21,12 @@ from scripts.aws_extraction_scripts.config import (
     WRITE_LOCAL_COPY,
     to_gcs_key,
 )
- 
+
+from scripts.aws_extraction_scripts.log_utils import get_logger
+
+LOGGER = get_logger(__name__)
+
+# ---------------------------------------------------------------------
 # Internal: client + blob helpers
 # ---------------------------------------------------------------------
 _GCS_CLIENT: Optional[storage.Client] = None
@@ -34,6 +39,7 @@ def get_gcs_client() -> storage.Client:
     """
     global _GCS_CLIENT
     if _GCS_CLIENT is None:
+        LOGGER.info("[gcs_utils] Creating new GCS client")
         _GCS_CLIENT = storage.Client()
     return _GCS_CLIENT
 
@@ -43,8 +49,9 @@ def _get_blob_for_path(path: Path) -> storage.Blob:
     Given a logical path under PROJECT_ROOT, return its GCS Blob.
     """
     client = get_gcs_client()
-    bucket = client.bucket(GCS_BUCKET)
     key = to_gcs_key(path)
+    LOGGER.debug(f"[gcs_utils] Resolving blob for key={key}")
+    bucket = client.bucket(GCS_BUCKET)
     return bucket.blob(key)
 
 
@@ -56,12 +63,16 @@ def gcs_exists(path: Path) -> bool:
     if not USE_GCS_OUTPUT:
         return False
     blob = _get_blob_for_path(path)
-    return blob.exists()
+    exists = blob.exists()
+    LOGGER.debug(f"[gcs_utils] gcs_exists={exists} path={path}")
+    return exists
 
 
 def local_exists(path: Path) -> bool:
     """Check if a local file exists for the given logical path."""
-    return path.exists()
+    exists = path.exists()
+    LOGGER.debug(f"[gcs_utils] local_exists={exists} path={path}")
+    return exists
 
 
 def logical_exists(path: Path) -> bool:
@@ -71,8 +82,11 @@ def logical_exists(path: Path) -> bool:
     - Else: check local only
     """
     if USE_GCS_OUTPUT:
-        return gcs_exists(path) or local_exists(path)
-    return local_exists(path)
+        exists = gcs_exists(path) or local_exists(path)
+    else:
+        exists = local_exists(path)
+    LOGGER.debug(f"[gcs_utils] logical_exists={exists} path={path}")
+    return exists
 
 
 # ---------------------------------------------------------------------
@@ -90,6 +104,7 @@ def write_bytes(path: Path, data: bytes, content_type: Optional[str] = None) -> 
     if WRITE_LOCAL_COPY or not USE_GCS_OUTPUT:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes(data)
+        LOGGER.info(f"[gcs_utils] Wrote local bytes: {path}")
 
     # GCS copy (if enabled)
     if USE_GCS_OUTPUT:
@@ -98,6 +113,7 @@ def write_bytes(path: Path, data: bytes, content_type: Optional[str] = None) -> 
             blob.upload_from_string(data, content_type=content_type)
         else:
             blob.upload_from_string(data)
+        LOGGER.info(f"[gcs_utils] Uploaded bytes to GCS: {path} (bucket={GCS_BUCKET})")
 
 
 def write_text(path: Path, text: str, encoding: str = "utf-8") -> None:
@@ -137,12 +153,15 @@ def read_bytes(path: Path) -> bytes:
     if USE_GCS_OUTPUT:
         blob = _get_blob_for_path(path)
         if blob.exists():
+            LOGGER.info(f"[gcs_utils] Reading bytes from GCS: {path}")
             return blob.download_as_bytes()
 
     # Fallback: local
     if path.exists():
+        LOGGER.info(f"[gcs_utils] Reading bytes from local: {path}")
         return path.read_bytes()
 
+    LOGGER.error(f"[gcs_utils] File not found in GCS or local: {path}")
     raise FileNotFoundError(f"File not found in GCS or local: {path}")
 
 
@@ -175,6 +194,9 @@ def upload_local_file(local_path: Path, logical_target_path: Path, content_type:
         logical_target_path = RAW_DIR / "loan1_raw.json"
         upload_local_file(local_path, logical_target_path)
     """
+    LOGGER.info(
+        f"[gcs_utils] Uploading local file {local_path} -> logical {logical_target_path}"
+    )
     data = local_path.read_bytes()
     write_bytes(logical_target_path, data, content_type=content_type)
 
@@ -193,6 +215,9 @@ def download_to_local(path: Path, local_target: Optional[Path] = None) -> Path:
     if local_target is None:
         local_target = path
 
+    LOGGER.info(
+        f"[gcs_utils] Downloading {path} -> local {local_target}"
+    )
     data = read_bytes(path)  # this handles GCS vs local
     local_target.parent.mkdir(parents=True, exist_ok=True)
     local_target.write_bytes(data)
@@ -214,7 +239,9 @@ def debug_print_storage_mode() -> None:
     if not mode:
         mode.append("LocalOnly")
 
-    print(f"[gcs_utils] Storage mode: {', '.join(mode)} (bucket={GCS_BUCKET})")
+    msg = f"[gcs_utils] Storage mode: {', '.join(mode)} (bucket={GCS_BUCKET})"
+    print(msg)
+    LOGGER.info(msg)
 
 
 if __name__ == "__main__":
