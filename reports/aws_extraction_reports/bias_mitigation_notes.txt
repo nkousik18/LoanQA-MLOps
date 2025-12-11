@@ -1,4 +1,0 @@
-Bias Mitigation Notes
-=====================
-
-✅ No significant bias detected among document categories.

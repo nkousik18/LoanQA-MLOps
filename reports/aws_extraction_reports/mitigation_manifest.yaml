@@ -1,6 +1,0 @@
-timestamp: '2025-11-08 16:19:36'
-status: No bias detected
-message: Confidence levels across categories are within acceptable fairness thresholds.
-next_steps:
-- Continue collecting balanced datasets across document types.
-- Re-run bias_analysis.py periodically after adding new data.
