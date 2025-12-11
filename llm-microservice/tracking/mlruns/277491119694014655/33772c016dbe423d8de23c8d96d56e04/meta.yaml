@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pvrpratyusha/Workspace/NEU/MLOps/loanQA-project/ExDoc/LoanQA-MLOps/llm-microservice/tracking/mlruns/277491119694014655/33772c016dbe423d8de23c8d96d56e04/artifacts
+end_time: 1765479934123
+entry_point_name: ''
+experiment_id: '277491119694014655'
+lifecycle_stage: active
+run_id: 33772c016dbe423d8de23c8d96d56e04
+run_name: Batch_Textract_1765479932
+run_uuid: 33772c016dbe423d8de23c8d96d56e04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765479931360
+status: 3
+tags: []
+user_id: root
