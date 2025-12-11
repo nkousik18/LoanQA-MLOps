@@ -1,0 +1,88 @@
+# .dockerignore for Doc-Understand
+# Excludes unnecessary files from Docker image
+
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.venv312/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local data (don't include in container)
+data/docs/*
+data/user_uploads/*
+data/aws_extraction_data/*
+data/local_pipeline/sessions/*
+
+# Logs (will be created at runtime)
+logs/
+*.log
+
+# Reports
+reports/
+
+# Test files
+tests/
+*.pytest_cache/
+
+# Documentation (not needed in container)
+*.md
+docs/
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Environment files (secrets!)
+.env
+.env.local
+*.key
+*.json
+gcp_keys/
+
+# Docker files (don't need Docker in Docker)
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# CI/CD files
+.github/
+cloudbuild.yaml
+
+# Airflow (not needed for Cloud Run)
+dags/
+airflow.cfg
+
+# Large model files (if any, download at runtime instead)
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Temporary files
+tmp/
+temp/
+*.tmp
