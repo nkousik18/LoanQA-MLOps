@@ -51,3 +51,8 @@ mlflow==2.10.0
 ###########################
 regex
 tqdm
+##########################
+#LLM alerts features
+openai>=1.10.0      # Required for your llm_clients
+tiktoken            # Required for counting tokens (cost tracking)
+sentry-sdk          # Required for the Error Monitoring/Alerts we discussed
