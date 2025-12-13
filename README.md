@@ -12,6 +12,33 @@ The overall design includes three major components:
 
 The deployment, titled **LoanDoc Intelligence - Cloud LLM Microservice Deployment**, is executed on **GCP** through the use of a Compute Engine GPU VM.
 
+## Project Structure
+```
+LoanQA-MLOps/
+├── dags/ # Airflow DAG definitions
+├── scripts/
+│ ├── aws_extraction_scripts/ # AWS-based document extraction logic
+│ └── LLM/ # LLM-related modules
+│ ├── forms_llm/ # Form-specific LLM pipelines
+│ ├── prompts_form/ # Prompt templates
+│ ├── init.py
+│ └── init.py
+├── tests/
+│ └── aws_extraction_tests/ # Unit & integration tests
+│ └── test_single_pdf_pipeline.py
+├── .dockerignore
+├── .env.example
+├── .gitignore
+├── aws_extraction_requirements.txt # Python dependencies
+├── cloudbuild.yaml # GCP Cloud Build pipeline
+├── DEPLOYMENT.md # Deployment documentation
+├── docker-compose.yml # Local multi-container setup
+├── Dockerfile # Container build definition
+├── pytest.ini # Pytest configuration
+└── README.md
+
+```
+
 ## Cloud vs. Edge Deployment
 
 The model is deployed on **Google Cloud Platform** with the **Cloud Deployment** strategy. Model inference is served via an instance of a virtual GPU-enabled Compute Engine instance running a **vLLM** server.
