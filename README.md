@@ -1,5 +1,5 @@
 # Doc-Understand: End-to-End Loan & Contract Understanding Assistant
-
+## [Watch the video](https://drive.google.com/file/d/1s-IbCo4LtMw6vmejDvkl-wG0VhY7Sm4L/view?usp=share_link)
 ## Overview
 
 **Doc-Understand: End-to-End Loan & Contract Understanding Assistant** is designed to help users understand long, technical loan and contract documents by finding important financial terms, understanding legal obligations, and performing translation of content. It takes raw PDFs, performs **Optical Character Recognition (OCR)**, structures the content into line-level spans, builds semantic representation, and provides an interactive assistant. The system is implemented for production-like reliability with cloud storage, multi-stage pipelines, structured logging, and session-based processing.
